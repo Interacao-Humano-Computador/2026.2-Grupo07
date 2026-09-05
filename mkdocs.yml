@@ -1,0 +1,49 @@
+site_name: IHC - Tribunal de Contas do DF
+site_description: Documentação do projeto de IHC (FGA-UnB) - TCDF
+site_author: Equipe IHC
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  
+  # Aqui entra a sua configuração de CONTRASTE (Modo Claro/Escuro)
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Mudar para o Modo Escuro (Alto Contraste)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Mudar para o Modo Claro
+
+# Extensões obrigatórias para renderizar tabelas e HTML corretamente
+markdown_extensions:
+  - tables
+  - admonition
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Início: index.md
+  - Planejamento 1 (Etapa 1):
+    - Sites Avaliados: planejamento/sites-avaliados.md
+    - Site Selecionado: planejamento/site-escolhido.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Ata de Reunião (03/09): planejamento/ata-reuniao.md
