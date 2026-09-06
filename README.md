@@ -66,18 +66,38 @@ O projeto é inteiramente fundamentado na literatura científica da área:
 
 ## 👥 Equipe
 
+## 👥 Equipe
+
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/pedrorocharfl">
-        <img src="https://github.com/pedrorocharfl.png" width="100px;" alt="Foto do Pedro"/><br>
+        <img src="https://github.com/pedrorocharfl.png" width="100px;" alt="Foto de Pedro Rocha"/><br>
         <sub><b>Pedro Rocha</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/UsuarioDoColega">
-        <img src="https://github.com/UsuarioDoColega.png" width="100px;" alt="Foto do Colega"/><br>
-        <sub><b>Nome do Colega</b></sub>
+      <a href="https://github.com/daniboycam">
+        <img src="https://github.com/daniboycam.png" width="100px;" alt="Foto do Membro 2"/><br>
+        <sub><b>Nome Membro 2</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/leonardolopesjr">
+        <img src="https://github.com/leonardolopesjr.png" width="100px;" alt="Foto do Membro 3"/><br>
+        <sub><b>Nome Membro 3</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/sismene7">
+        <img src="https://github.com/sismene7.png" width="100px;" alt="Foto do Membro 4"/><br>
+        <sub><b>Nome Membro 4</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jv-ibiapina">
+        <img src="https://github.com/jv-ibapina.png" width="100px;" alt="Foto do Membro 5"/><br>
+        <sub><b>Nome Membro 5</b></sub>
       </a>
     </td>
   </tr>
