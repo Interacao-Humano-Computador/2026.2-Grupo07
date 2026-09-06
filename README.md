@@ -79,25 +79,25 @@ O projeto é inteiramente fundamentado na literatura científica da área:
     <td align="center">
       <a href="https://github.com/daniboycam">
         <img src="https://github.com/daniboycam.png" width="100px;" alt="Foto do Membro 2"/><br>
-        <sub><b>Nome Membro 2</b></sub>
+        <sub><b>Daniel Batista</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/leonardolopesjr">
         <img src="https://github.com/leonardolopesjr.png" width="100px;" alt="Foto do Membro 3"/><br>
-        <sub><b>Nome Membro 3</b></sub>
+        <sub><b>Leonardo Lopes</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/sismene7">
         <img src="https://github.com/sismene7.png" width="100px;" alt="Foto do Membro 4"/><br>
-        <sub><b>Nome Membro 4</b></sub>
+        <sub><b>Arthur Sismene</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/jv-ibiapina">
-        <img src="https://github.com/jv-ibapina.png" width="100px;" alt="Foto do Membro 5"/><br>
-        <sub><b>Nome Membro 5</b></sub>
+        <img src="https://github.com/jv-ibiapina.png" width="100px;" alt="Foto do Membro 5"/><br>
+        <sub><b>João Vitor Ibiapina</b></sub>
       </a>
     </td>
   </tr>
