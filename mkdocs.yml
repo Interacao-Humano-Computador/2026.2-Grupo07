@@ -45,6 +45,7 @@ nav:
   - Início: index.md
   - Planejamento 1 (Etapa 1):
     - Equipe: planejamento/membros.md
+    - Heatmap de Disponibilidade: planejamento/heatmap.md
     - Ferramentas: planejamento/ferramentas.md
     - Cronograma: planejamento/cronograma.md
     - Processo de Design: planejamento/processo-de-design.md
