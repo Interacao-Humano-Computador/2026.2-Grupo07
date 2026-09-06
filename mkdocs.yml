@@ -1,6 +1,7 @@
 site_name: IHC - Tribunal de Contas do DF
 site_description: Documentação do projeto de IHC (FGA-UnB) - TCDF
 site_author: Equipe IHC
+site_url: https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/
 
 theme:
   name: material
