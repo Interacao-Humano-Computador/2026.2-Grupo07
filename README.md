@@ -64,8 +64,21 @@ O projeto é inteiramente fundamentado na literatura científica da área:
 
 ---
 
-## 👤 Autor
+## 👥 Equipe
 
-**Pedro Rocha Ferreira Lima**  
-Estudante de Engenharia de Software  
-Universidade de Brasília (UnB) - Faculdade UnB Gama (FGA)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/pedrorocharfl">
+        <img src="https://github.com/pedrorocharfl.png" width="100px;" alt="Foto do Pedro"/><br>
+        <sub><b>Pedro Rocha</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/UsuarioDoColega">
+        <img src="https://github.com/UsuarioDoColega.png" width="100px;" alt="Foto do Colega"/><br>
+        <sub><b>Nome do Colega</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
