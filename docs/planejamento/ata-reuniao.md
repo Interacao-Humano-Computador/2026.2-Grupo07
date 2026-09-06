@@ -12,7 +12,7 @@
 **Redator:** Daniel da Silva Batista  
 **Projeto:** IHC - Etapa 1  
 
-### Convocados e Presentes
+**Convocados e Presentes**
 
 | Convocados | Presente | Papel / Função |
 |---|:---:|---|

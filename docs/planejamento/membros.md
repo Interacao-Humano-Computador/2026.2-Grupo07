@@ -7,7 +7,7 @@ Conheça os integrantes que compõem o grupo do projeto de Interação Humano-Co
     <td align="center">
       <a href="https://github.com/Sismene7">
         <img src="https://github.com/Sismene7.png" width="100px;" alt="Foto de Arthur Sismene"/><br>
-        <sub><b>Arthur Sismene Carvalhop - 231011892</b></sub>
+        <sub><b>Arthur Sismene Carvalho - 231011892</b></sub>
       </a>
     </td>
     <td align="center">

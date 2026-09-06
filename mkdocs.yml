@@ -44,9 +44,10 @@ markdown_extensions:
 nav:
   - Início: index.md
   - Planejamento 1 (Etapa 1):
+    - Equipe: planejamento/membros.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Cronograma: planejamento/cronograma.md
+    - Processo de Design: planejamento/processo-de-design.md
     - Sites Avaliados: planejamento/sites-avaliados.md
     - Site Selecionado: planejamento/site-escolhido.md
-    - Ferramentas: planejamento/ferramentas.md
-    - Ata de Reunião (03/09): planejamento/ata-reuniao.md
-    - Membros: planejamento/membros.md
-    - Cronograma : planejamento/cronograma.md
+    - Atas de Reunião: planejamento/ata-reuniao.md
