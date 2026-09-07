@@ -17,6 +17,7 @@ Na Tabela 1, tem-se o cronograma planejado na reunião inicial para as atividade
 | Selecionar site | Início: 03/09<br>Fim: 03/09 | Todos os integrantes | Início: 03/09<br>Fim: 03/09 | Todos os integrantes |
 | Selecionar ferramentas do projeto | Início: 06/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Pedro Rocha Ferreira Lima |
 | Realização do cronograma | Início: 03/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior | Início: 06/09<br>Fim: 06/09 | Arthur Sismene Carvalho |
+| Heatmap de Disponibilidade | Início: 03/09<br>Fim: 06/09 | Arthur Sismene Carvalho | Início: 06/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior |
 | Processo de Design | Início: 03/09<br>Fim: 06/09 | Joao Vitor Sales Ibiapina | Início: 06/09<br>Fim: 06/09 | Arthur Sismene Carvalho |
 | Documentar Equipe | Início: 03/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior |
 | Gravar apresentação | Início: 06/09<br>Fim: 06/09 | Todos os integrantes | Início: 06/09<br>Fim: 06/09 | Todos os integrantes |
@@ -40,6 +41,7 @@ Na Tabela 2, tem-se o registro do cronograma real de execução do projeto, docu
 | Selecionar site | Início: 03/09<br>Fim: 03/09 | Todos os integrantes | Início: 03/09<br>Fim: 03/09 | Todos os integrantes |
 | Selecionar ferramentas do projeto | Início: 06/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Pedro Rocha Ferreira Lima |
 | Realização do cronograma | Início: 03/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior | Início: 06/09<br>Fim: 06/09 | Arthur Sismene Carvalho |
+| Heatmap de Disponibilidade | Início: 03/09<br>Fim: 06/09 | Arthur Sismene Carvalho | Início: 06/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior |
 | Processo de Design | Início: 03/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Pedro Rocha Ferreira Lima |
 | Documentar Equipe | Início: 03/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior |
 | Gravar apresentação | Início: 06/09<br>Fim: 06/09 | Todos os integrantes | Início: 06/09<br>Fim: 06/09 | Todos os integrantes |
