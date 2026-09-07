@@ -33,4 +33,4 @@ A partir da leitura do mapa de calor, a equipe identificou os seguintes pontos:
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 06/09/2026 | Construção do Heatmap de Disponibilidade da equipe e análise dos melhores horários de reunião. | Arthur Sismene Carvalho | Todos os integrantes |
+| `1.0` | 06/09/2026 | Construção do Heatmap de Disponibilidade da equipe e análise dos melhores horários de reunião. | Arthur Sismene Carvalho | Leonardo da Silva Lopes Júnior |
