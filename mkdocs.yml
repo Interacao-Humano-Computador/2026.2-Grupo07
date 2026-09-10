@@ -43,6 +43,7 @@ markdown_extensions:
 
 nav:
   - Início: index.md
+  - Apresentações: apresentacao/apresentacao-1.md
   - Planejamento 1 (Etapa 1):
     - Equipe: planejamento/membros.md
     - Planejamento do Projeto: planejamento/planejamento-do-projeto.md
