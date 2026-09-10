@@ -66,8 +66,6 @@ O projeto é inteiramente fundamentado na literatura científica da área:
 
 ## 👥 Equipe
 
-## 👥 Equipe
-
 <table>
   <tr>
     <td align="center">
