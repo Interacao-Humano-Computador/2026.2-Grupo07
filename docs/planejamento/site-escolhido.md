@@ -6,6 +6,22 @@ Como parte das atividades iniciais para o desenvolvimento do projeto da discipli
 
 Após a consolidação das avaliações heurísticas preliminares, a equipe reuniu-se para analisar tecnicamente as limitações e o potencial de reprojeto de cada interface inspecionada. Mediante consenso, foram estabelecidos critérios metodológicos para fundamentar a escolha do objeto de estudo adequado para o semestre letivo.
 
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| Daniel da Silva Batista | Redação do documento, consolidação dos critérios de escolha e motivações da seleção do portal do TCDF. |
+| Arthur Sismene Carvalho | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
+| Leonardo da Silva Lopes Júnior | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
+| Pedro Rocha Ferreira Lima | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
+| Gemini | Auxílio na formatação de listas em Markdown e revisão gramatical (conforme Política de IA). |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
 ## 2. Critérios para Escolha
 
 Para assegurar um escopo de pesquisa condizente com os objetivos da disciplina, a seleção fundamentou-se nos seguintes critérios:
@@ -41,6 +57,11 @@ A inspeção técnica inicial executada no portal do TCDF, orientada pelo framew
 
 ## 6. Histórico de Versões
 
+<div align="center" markdown="1">
+
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 04/09/2026 | Documentação das motivações, critérios e definição do site selecionado (TCDF). | Todos os integrantes | Todos os integrantes |
+| `1.0` | 04/09/2026 | Documentação das motivações, critérios e definição do site selecionado (TCDF). | Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima |
+| `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+
+</div>
