@@ -1,11 +1,3 @@
-# Processo de Design
-
-## 1. Introdução
-
-Um processo de design em Interação Humano-Computador (IHC) consiste em um conjunto de atividades básicas – análise, síntese e avaliação – que visa projetar sistemas interativos com alta qualidade de uso. Existem diversas propostas de ciclos de vida na literatura, como o Ciclo de Vida Simples, o Ciclo de Vida em Estrela e a Engenharia de Usabilidade de Nielsen.
-
-Para a condução deste projeto focado na reestruturação do portal do Tribunal de Contas do Distrito Federal (TCDF), a equipe escolheu adotar o **Ciclo de Vida da Engenharia de Usabilidade de Mayhew**.
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -20,6 +12,14 @@ Para a condução deste projeto focado na reestruturação do portal do Tribunal
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
+# Processo de Design
+
+## 1. Introdução
+
+Um processo de design em Interação Humano-Computador (IHC) consiste em um conjunto de atividades básicas – análise, síntese e avaliação – que visa projetar sistemas interativos com alta qualidade de uso. Existem diversas propostas de ciclos de vida na literatura, como o Ciclo de Vida Simples, o Ciclo de Vida em Estrela e a Engenharia de Usabilidade de Nielsen.
+
+Para a condução deste projeto focado na reestruturação do portal **PCI Concursos**, a equipe escolheu adotar o **Ciclo de Vida da Engenharia de Usabilidade de Mayhew**.
 
 ## 2. Escolha do Processo: Engenharia de Usabilidade de Mayhew
 

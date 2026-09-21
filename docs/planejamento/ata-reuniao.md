@@ -1,5 +1,3 @@
-# Ata de Reunião
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -14,6 +12,8 @@
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
+# Ata de Reunião
 
 ## 1. Identificação
 

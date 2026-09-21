@@ -1,11 +1,3 @@
-# Heatmap de Disponibilidade
-
-## 1. Introdução
-
-Para viabilizar o agendamento das reuniões síncronas da equipe ao longo do semestre, foi construído um **Heatmap (mapa de calor) de disponibilidade**, consolidando os horários livres de todos os integrantes do grupo.
-
-Cada um dos 5 membros preencheu individualmente os seus horários disponíveis em uma ferramenta online de agendamento colaborativo. A sobreposição das respostas gera o mapa de calor: quanto **mais escura** a tonalidade de verde, **maior o número de integrantes disponíveis** naquele horário; células em branco indicam ausência total de disponibilidade.
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -20,6 +12,14 @@ Cada um dos 5 membros preencheu individualmente os seus horários disponíveis e
 <p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
+
+# Heatmap de Disponibilidade
+
+## 1. Introdução
+
+Para viabilizar o agendamento das reuniões síncronas da equipe ao longo do semestre, foi construído um **Heatmap (mapa de calor) de disponibilidade**, consolidando os horários livres de todos os integrantes do grupo.
+
+Cada um dos 5 membros preencheu individualmente os seus horários disponíveis em uma ferramenta online de agendamento colaborativo. A sobreposição das respostas gera o mapa de calor: quanto **mais escura** a tonalidade de verde, **maior o número de integrantes disponíveis** naquele horário; células em branco indicam ausência total de disponibilidade.
 
 ## 2. Heatmap
 

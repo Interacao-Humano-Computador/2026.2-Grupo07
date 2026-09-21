@@ -1,7 +1,3 @@
-# Membros do Grupo
-
-Conheça os integrantes que compõem o grupo do projeto de Interação Humano-Computador (IHC):
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -16,6 +12,10 @@ Conheça os integrantes que compõem o grupo do projeto de Interação Humano-Co
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
+# Membros do Grupo
+
+Conheça os integrantes que compõem o grupo do projeto de Interação Humano-Computador (IHC):
 
 <table>
   <tr>

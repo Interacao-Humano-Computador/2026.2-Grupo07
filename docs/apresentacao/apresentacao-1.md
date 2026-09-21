@@ -1,7 +1,3 @@
-# Apresentação - Etapa 1
-
-Vídeo de apresentação da Etapa 1 do projeto (Planejamento).
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -12,9 +8,13 @@ Vídeo de apresentação da Etapa 1 do projeto (Planejamento).
 | Pedro Rocha Ferreira Lima | Edição inicial e inclusão do vídeo no MkDocs. |
 | Daniel da Silva Batista | Ajuste do link de incorporação (embed) do YouTube. |
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Daniel da Silva Batista (2026).</p>
+<p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
+
+# Apresentação - Etapa 1
+
+Vídeo de apresentação da Etapa 1 do projeto (Planejamento).
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/fpSAeVCTQV4"

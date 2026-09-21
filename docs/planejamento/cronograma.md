@@ -1,7 +1,3 @@
-# Cronograma
-
-O cronograma visa à organização de todas as tarefas que deverão ser realizadas no decorrer da disciplina de Interação Humano Computador. Portanto, as atividades foram classificadas quanto às suas respectivas etapas nas quais devem ser realizadas. Os cronogramas executados sofrerão atualizações ao longo do tempo.
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -17,6 +13,10 @@ O cronograma visa à organização de todas as tarefas que deverão ser realizad
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
+
+# Cronograma
+
+O cronograma visa à organização de todas as tarefas que deverão ser realizadas no decorrer da disciplina de Interação Humano Computador. Portanto, as atividades foram classificadas quanto às suas respectivas etapas nas quais devem ser realizadas. Os cronogramas executados sofrerão atualizações ao longo do tempo.
 
 ## 1. Etapa 1 - Planejamento do Projeto
 

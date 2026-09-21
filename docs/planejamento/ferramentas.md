@@ -1,11 +1,3 @@
-# Ferramentas do Projeto
-
-## 1. Introdução
-
-Para viabilizar a comunicação, o planejamento, a elaboração dos artefatos e a gestão de configuração ao longo do semestre, a equipe adotou um conjunto de ferramentas tecnológicas.
-
-A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa de uso (finalidade) de cada uma dentro do contexto da disciplina de Interação Humano-Computador.
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -19,6 +11,14 @@ A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
+# Ferramentas do Projeto
+
+## 1. Introdução
+
+Para viabilizar a comunicação, o planejamento, a elaboração dos artefatos e a gestão de configuração ao longo do semestre, a equipe adotou um conjunto de ferramentas tecnológicas.
+
+A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa de uso (finalidade) de cada uma dentro do contexto da disciplina de Interação Humano-Computador.
 
 <div align="center" markdown="1">
 

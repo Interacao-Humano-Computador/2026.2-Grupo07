@@ -1,9 +1,3 @@
-# Planejamento do Projeto
-
-## 1. Introdução
-
-Este documento tem como objetivo definir as diretrizes, metodologias e políticas de trabalho que guiarão a equipe durante todo o ciclo de vida do projeto de avaliação e reprojeto do portal do **Tribunal de Contas do Distrito Federal (TCDF)**. O alinhamento prévio dessas práticas garante padronização, rastreabilidade e qualidade nas entregas da disciplina de Interação Humano-Computador.
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -17,6 +11,12 @@ Este documento tem como objetivo definir as diretrizes, metodologias e política
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
+# Planejamento do Projeto
+
+## 1. Introdução
+
+Este documento tem como objetivo definir as diretrizes, metodologias e políticas de trabalho que guiarão a equipe durante todo o ciclo de vida do projeto de avaliação e reprojeto do portal **PCI Concursos**. O alinhamento prévio dessas práticas garante padronização, rastreabilidade e qualidade nas entregas da disciplina de Interação Humano-Computador.
 
 ## 2. Políticas do Repositório
 

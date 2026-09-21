@@ -1,11 +1,3 @@
-# Sites Avaliados
-
-## 1. Introdução
-
-Como etapa inicial para a escolha do objeto de estudo da disciplina, foi requisitado que os integrantes da equipe realizassem inspeções individuais em diferentes sistemas. O objetivo dessa etapa foi mapear sistemas que apresentassem falhas de usabilidade e que fossem viáveis para o escopo do projeto.
-
-Para padronizar a avaliação inicial, adotou-se o método de **Avaliação Heurística**, proposto por Jakob Nielsen (1994). Cada integrante selecionou um site e aplicou as 10 Heurísticas de Usabilidade de Nielsen para identificar os principais problemas de interface. A Tabela 1 apresenta a relação dos sites avaliados e seus respectivos avaliadores.
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -18,9 +10,17 @@ Para padronizar a avaliação inicial, adotou-se o método de **Avaliação Heur
 | Arthur Sismene Carvalho | Avaliação Heurística individual do aplicativo CNH do Brasil e redação da seção 4. |
 | Gemini | Revisão ortográfica, gramatical e padronização da formatação Markdown (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
+# Sites Avaliados
+
+## 1. Introdução
+
+Como etapa inicial para a escolha do objeto de estudo da disciplina, foi requisitado que os integrantes da equipe realizassem inspeções individuais em diferentes sistemas. O objetivo dessa etapa foi mapear sistemas que apresentassem falhas de usabilidade e que fossem viáveis para o escopo do projeto.
+
+Para padronizar a avaliação inicial, adotou-se o método de **Avaliação Heurística**, proposto por Jakob Nielsen (1994). Cada integrante selecionou um site e aplicou as 10 Heurísticas de Usabilidade de Nielsen para identificar os principais problemas de interface. A Tabela 1 apresenta a relação dos sites avaliados e seus respectivos avaliadores.
 
 <div align="center" markdown="1">
 
@@ -33,7 +33,7 @@ Para padronizar a avaliação inicial, adotou-se o método de **Avaliação Heur
 | [CNH do Brasil (Aplicativo)](#4-cnh-do-brasil-aplicativo) | Arthur Sismene Carvalho |
 | [Portal CODHAB (Morar Bem)](#5-portal-codhab-morar-bem) | Leonardo da Silva Lopes Júnior |
 
-<p style="margin-top: 0;"><b>Fonte:</b> Os Autores (2026).</p>
+<p style="margin-top: 0;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
