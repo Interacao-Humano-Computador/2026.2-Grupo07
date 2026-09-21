@@ -6,6 +6,21 @@ Um processo de design em Interação Humano-Computador (IHC) consiste em um conj
 
 Para a condução deste projeto focado na reestruturação do portal do Tribunal de Contas do Distrito Federal (TCDF), a equipe escolheu adotar o **Ciclo de Vida da Engenharia de Usabilidade de Mayhew**.
 
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| Daniel da Silva Batista | Pesquisa dos ciclos de vida de IHC, redação e estruturação do documento, detalhamento das fases de Mayhew e aplicação prática no projeto. |
+| Arthur Sismene Carvalho | Revisão conceitual da metodologia de design de Mayhew. |
+| Pedro Rocha Ferreira Lima | Revisão técnica do alinhamento do processo com o cronograma de entregas. |
+| Gemini | Auxílio na revisão textual e padronização em Markdown (conforme Política de IA). |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
 ## 2. Escolha do Processo: Engenharia de Usabilidade de Mayhew
 
 A decisão por utilizar a Engenharia de Usabilidade de Mayhew baseou-se em dois fatores principais:
@@ -54,5 +69,6 @@ A teoria de Mayhew será aplicada de forma pragmática ao longo do nosso projeto
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 06/09/2026 | Criação do documento de Processo de Design e definição da metodologia. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>

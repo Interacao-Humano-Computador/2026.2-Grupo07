@@ -4,6 +4,20 @@
 
 Este documento tem como objetivo definir as diretrizes, metodologias e políticas de trabalho que guiarão a equipe durante todo o ciclo de vida do projeto de avaliação e reprojeto do portal do **Tribunal de Contas do Distrito Federal (TCDF)**. O alinhamento prévio dessas práticas garante padronização, rastreabilidade e qualidade nas entregas da disciplina de Interação Humano-Computador.
 
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| Daniel da Silva Batista | Redação do planejamento do projeto, definição das políticas de versionamento do repositório e diretrizes de uso de IA. |
+| Pedro Rocha Ferreira Lima | Revisão técnica das políticas de repositório e diretrizes de IA. |
+| Gemini | Auxílio na revisão gramatical e formatação em Markdown (conforme Política de IA). |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
 ## 2. Políticas do Repositório
 
 Para manter a organização do código-fonte e da documentação, a equipe segue políticas estritas de versionamento:
@@ -32,5 +46,6 @@ Em conformidade com as exigências acadêmicas atuais para evitar plágio e gara
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 06/09/2026 | Criação do documento de Planejamento do Projeto (Políticas de IA e Repositório). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>

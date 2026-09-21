@@ -2,6 +2,22 @@
 
 O cronograma visa à organização de todas as tarefas que deverão ser realizadas no decorrer da disciplina de Interação Humano Computador. Portanto, as atividades foram classificadas quanto às suas respectivas etapas nas quais devem ser realizadas. Os cronogramas executados sofrerão atualizações ao longo do tempo.
 
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| Leonardo da Silva Lopes Júnior | Criação e estruturação inicial do Cronograma Planejado da Etapa 1. |
+| Daniel da Silva Batista | Inclusão do Cronograma Executado da Etapa 1 e expansão do cronograma planejado para as Etapas 2 a 8. |
+| Arthur Sismene Carvalho | Revisão do cronograma planejado e executado da Etapa 1. |
+| Pedro Rocha Ferreira Lima | Revisão da expansão do cronograma das Etapas 2 a 8. |
+| Gemini | Auxílio na formatação de tabelas em Markdown e estruturação de períodos (conforme Política de IA). |
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
 ## 1. Etapa 1 - Planejamento do Projeto
 
 ### 1.1 Cronograma Planejado
@@ -226,7 +242,8 @@ Na Tabela 10, tem-se o cronograma planejado para as atividades da entrega final 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 06/09/2026 | Criação do cronograma inicial da Etapa 1. | Leonardo da Silva Lopes Júnior | Arthur Sismene Carvalho |
-| `1.1` | 06/09/2026 | Padronização das tabelas, inclusão do Cronograma Executado e histórico. | Daniel da Silva Batista | - |
+| `1.1` | 06/09/2026 | Padronização das tabelas, inclusão do Cronograma Executado e histórico. | Daniel da Silva Batista | Leonardo da Silva Lopes Júnior |
 | `1.2` | 10/09/2026 | Expansão do cronograma (Etapas 2 a 8), inserção de tarefas gerenciais e padronização de autoria. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.3` | 17/09/2026 | Adição da Tabela de Contribuição no início do artefato com padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>

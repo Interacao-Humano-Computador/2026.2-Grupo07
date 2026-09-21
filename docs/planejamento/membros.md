@@ -2,6 +2,21 @@
 
 Conheça os integrantes que compõem o grupo do projeto de Interação Humano-Computador (IHC):
 
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| Daniel da Silva Batista | Criação da página de apresentação da equipe e estruturação dos perfis dos membros. |
+| Leonardo da Silva Lopes Júnior | Revisão da documentação da equipe e conferência dos dados de matrícula. |
+| Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Fornecimento dos dados individuais (nome completo, matrícula e links do GitHub). |
+| Gemini | Auxílio na estilização e formatação da grade de membros em HTML/Markdown (conforme Política de IA). |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
 <table>
   <tr>
     <td align="center">
@@ -36,3 +51,14 @@ Conheça os integrantes que compõem o grupo do projeto de Interação Humano-Co
     </td>
   </tr>
 </table>
+
+## Histórico de Versões
+
+<div align="center" markdown="1">
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :---: | :---: |
+| `1.0` | 04/09/2026 | Criação da página de apresentação dos membros da equipe. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+
+</div>

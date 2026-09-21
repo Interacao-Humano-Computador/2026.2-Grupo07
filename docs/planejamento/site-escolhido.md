@@ -6,6 +6,22 @@ Como parte das atividades iniciais da disciplina de Interação Humano-Computado
 
 Após a conclusão da Etapa 1 e o aprofundamento nos requisitos metodológicos da disciplina — em especial a exigência de condução de pesquisas, entrevistas e avaliações com usuários reais gravadas —, a equipe reuniu-se para reavaliar a viabilidade dos sistemas candidatos frente ao rigor técnico do livro de Barbosa e Silva (2010) e às diretrizes do corpo docente.
 
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| Daniel da Silva Batista | Redação do documento, consolidação dos critérios de escolha e motivações da seleção do portal do TCDF. |
+| Arthur Sismene Carvalho | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
+| Leonardo da Silva Lopes Júnior | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
+| Pedro Rocha Ferreira Lima | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
+| Gemini | Auxílio na formatação de listas em Markdown e revisão gramatical (conforme Política de IA). |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
 ## 2. Critérios para Escolha
 
 Para assegurar um escopo de pesquisa sustentável, robusto e com aplicabilidade prática ao longo de todo o semestre, foram estabelecidos os seguintes critérios de seleção:
@@ -44,7 +60,11 @@ Uma inspeção técnica preliminar orientada pelas 10 Heurísticas de Usabilidad
 
 ## 6. Histórico de Versões
 
+<div align="center" markdown="1">
+
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 04/09/2026 | Documentação inicial de critérios e definição de site preliminar. | Daniel da Silva Batista | Leonardo da Silva Lopes Júnior |
+| `1.0` | 04/09/2026 | Documentação das motivações, critérios e definição do site selecionado preliminar (TCDF). | Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima |
+| `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `2.0` | 21/09/2026 | Redefinição estratégica do objeto de estudo para o **PCI Concursos** visando assegurar a viabilidade de usuários reais e acessibilidade. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+
+</div>

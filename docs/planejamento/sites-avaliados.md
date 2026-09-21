@@ -8,6 +8,22 @@ Para padronizar a avaliação inicial, adotou-se o método de **Avaliação Heur
 
 <div align="center" markdown="1">
 
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| Leonardo da Silva Lopes Júnior | Avaliação Heurística individual do Portal CODHAB (Morar Bem) e redação da seção 5. |
+| Daniel da Silva Batista | Avaliação Heurística individual do aplicativo Sinesp Cidadão, estruturação e consolidação do documento. |
+| Pedro Rocha Ferreira Lima | Avaliação Heurística individual do portal do Tribunal de Contas do DF (TCDF) e redação da seção 3. |
+| Arthur Sismene Carvalho | Avaliação Heurística individual do aplicativo CNH do Brasil e redação da seção 4. |
+| Gemini | Revisão ortográfica, gramatical e padronização da formatação Markdown (conforme Política de IA). |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+<div align="center" markdown="1">
+
 <p style="margin-bottom: 0;"><b>Tabela 1:</b> Relação de sites avaliados individualmente pela equipe.</p>
 
 | Site Avaliado | Avaliador Responsável |
@@ -82,6 +98,11 @@ Avaliação realizada por **Leonardo da Silva Lopes Júnior**. A avaliação foi
 
 ## 7. Histórico de Versões
 
+<div align="center" markdown="1">
+
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 04/09/2026 | Criação da estrutura do documento e compilação das avaliações individuais. | Todos os integrantes | Todos os integrantes |
+| `1.0` | 04/09/2026 | Criação da estrutura do documento e compilação das avaliações individuais. | Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima |
+| `1.1` | 17/09/2026 | Adição da Tabela de Contribuição detalhando as avaliações individuais e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+
+</div>

@@ -8,6 +8,20 @@ A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa 
 
 <div align="center" markdown="1">
 
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| Daniel da Silva Batista | Seleção, documentação e justificativa das ferramentas tecnológicas do projeto. |
+| Pedro Rocha Ferreira Lima | Revisão da documentação das ferramentas do projeto. |
+| Gemini | Auxílio na formatação da tabela de logos e ferramentas em Markdown (conforme Política de IA). |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+<div align="center" markdown="1">
+
 <p style="margin-bottom: 0;"><b>Tabela 1:</b> Ferramentas utilizadas no projeto.</p>
 
 | Logo | Ferramenta | Finalidade de Uso |
@@ -21,7 +35,7 @@ A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa 
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" width="40px"> | **Google Workspace** | Edição rápida e colaborativa de tabelas (como o cronograma) e rascunho de textos (atas e avaliações) via Docs/Planilhas antes da conversão para Markdown. |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="40px"> | **Visual Studio Code** | Editor de código (IDE) utilizado pelos membros para a marcação e edição técnica dos artefatos em formato Markdown (`.md`). |
 
-<p style="margin-top: 0;"><b>Fonte:</b> Os Autores (2026).</p>
+<p style="margin-top: 0;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -37,6 +51,11 @@ A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa 
 
 ## 3. Histórico de Versões
 
+<div align="center" markdown="1">
+
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 04/09/2026 | Documentação das ferramentas de comunicação, design e versionamento utilizadas pela equipe. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 17/09/2026 | Adição da Tabela de Contribuição, padronização da IA Gemini e atualização da fonte das tabelas. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+
+</div>

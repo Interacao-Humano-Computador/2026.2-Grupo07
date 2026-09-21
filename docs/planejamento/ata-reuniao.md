@@ -1,5 +1,20 @@
 # Ata de Reunião
 
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| Daniel da Silva Batista | Redação e registro formal da ata da 1ª reunião da equipe. |
+| Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Participação presencial na reunião de alinhamento e definição de papéis. |
+| Pedro Rocha Ferreira Lima | Revisão e validação do conteúdo da ata. |
+| Gemini | Auxílio na formatação das tabelas e estruturação em Markdown (conforme Política de IA). |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
 ## 1. Identificação
 
 | | Hora de Início | Hora de Término |
@@ -63,3 +78,14 @@
 | 3 | Heatmap de Disponibilidade | Arthur Sismene Carvalho | 06/09/2026 |
 | 4 | Cronograma Detalhado | Leonardo da Silva Lopes Júnior | 06/09/2026 |
 | 5 | Planejamento do Projeto e Processo de Design | Joao Vitor Sales Ibiapina | 06/09/2026 |
+
+## 7. Histórico de Versões
+
+<div align="center" markdown="1">
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :---: | :---: |
+| `1.0` | 03/09/2026 | Redação e registro da ata da 1ª reunião da equipe. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+
+</div>
