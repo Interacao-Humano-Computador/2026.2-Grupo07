@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Estilização Visual Personalizada - Projeto IHC: PCI Concursos
+   ========================================================================== */
+
+:root {
+  --md-primary-fg-color:        #02329E;
+  --md-primary-fg-color--light:  #1b52c4;
+  --md-primary-fg-color--dark:   #001f66;
+  --md-accent-fg-color:         #d32f2f;
+}
+
+/* Modo Escuro Sofisticado (Fundo Preto Profundo / Estilo GitHub Dark) */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:               #1543ad;
+  --md-primary-fg-color--light:        #2d5ec7;
+  --md-primary-fg-color--dark:         #0c2b75;
+  --md-accent-fg-color:                #ef5350;
+  --md-default-bg-color:               #0a0c10;
+  --md-default-bg-color--light:        #12161f;
+  --md-default-bg-color--lighter:      #1a1f2c;
+  --md-default-bg-color--lightest:     #252b3d;
+  --md-code-bg-color:                  #12161f;
+}
+
+/* Header com gradiente no estilo da identidade visual */
+.md-header {
+  background: linear-gradient(135deg, #011b58 0%, #02329E 100%) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo limpo e transparente sem fundo branco */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.8rem;
+  width: auto;
+  border-radius: 0;
+  background-color: transparent !important;
+  padding: 0;
+  margin-right: 0.5rem;
+}
+
+/* Oculta o título de texto repetido para deixar APENAS um nome */
+.md-header__title .md-header__ellipsis {
+  display: none;
+}
+
+/* Abas de navegação superiores */
+.md-tabs {
+  background-color: #00174d !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Realce nas tabelas para padrão ABNT */
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin: 1.5em auto;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: #ffffff !important;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 14px;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 9px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(2, 50, 158, 0.04);
+}
+
+/* Badges e tags */
+.pci-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  background-color: #d32f2f;
+  color: #ffffff;
+}
