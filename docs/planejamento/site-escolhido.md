@@ -2,45 +2,49 @@
 
 ## 1. Introdução
 
-Como parte das atividades iniciais para o desenvolvimento do projeto da disciplina de Interação Humano-Computador, a equipe executou uma prospecção individual e avaliação de diversos sistemas interativos (detalhados no artefato de [Sites Avaliados](sites-avaliados.md)).
+Como parte das atividades iniciais da disciplina de Interação Humano-Computador, a equipe realizou a prospecção e a avaliação de diversos sistemas interativos (documentados no artefato de [Sites Avaliados](sites-avaliados.md)). 
 
-Após a consolidação das avaliações heurísticas preliminares, a equipe reuniu-se para analisar tecnicamente as limitações e o potencial de reprojeto de cada interface inspecionada. Mediante consenso, foram estabelecidos critérios metodológicos para fundamentar a escolha do objeto de estudo adequado para o semestre letivo.
+Após a conclusão da Etapa 1 e o aprofundamento nos requisitos metodológicos da disciplina — em especial a exigência de condução de pesquisas, entrevistas e avaliações com usuários reais gravadas —, a equipe reuniu-se para reavaliar a viabilidade dos sistemas candidatos frente ao rigor técnico do livro de Barbosa e Silva (2010) e às diretrizes do corpo docente.
 
 ## 2. Critérios para Escolha
 
-Para assegurar um escopo de pesquisa condizente com os objetivos da disciplina, a seleção fundamentou-se nos seguintes critérios:
+Para assegurar um escopo de pesquisa sustentável, robusto e com aplicabilidade prática ao longo de todo o semestre, foram estabelecidos os seguintes critérios de seleção:
 
-* A interface deveria apresentar falhas reais e bem definidas no escopo de usabilidade e acessibilidade, que justificassem a proposição de um reprojeto.
-* O sistema necessitava apresentar interatividade contínua com o usuário, dispensando opções estritamente informativas (sem fluxos de entrada de dados).
-* Garantia de originalidade do sistema em relação a semestres letivos anteriores.
-* Viabilidade de acesso ao público-alvo, visando assegurar a exequibilidade das futuras etapas de levantamento de requisitos, validação e entrevistas.
+* **Viabilidade de Acesso ao Público-Alvo:** Garantia de acesso direto e irrestrito a usuários reais representativos dos perfis mapeados, viabilizando a condução presencial e remota de entrevistas gravadas, testes de usabilidade e validações participativas sem barreiras institucionais de sigilo.
+* **Falhas Reais de Usabilidade e Acessibilidade:** A interface deve apresentar oportunidades nítidas de melhoria, com violações comprovadas de heurísticas de usabilidade (Nielsen, 1994), critérios ergonômicos (Bastien & Scapin, 1993) e diretrizes de acessibilidade (e-MAG / WCAG), justificando a elaboração de propostas de intervenção e reprojeto.
+* **Volume e Diversidade de Tarefas Interativas:** O sistema deve oferecer um conjunto expressivo de funcionalidades interativas que sustentem a modelagem formal de pelo menos 2 tarefas individuais para cada membro da equipe (mínimo de 10 tarefas no total).
+* **Ineditismo Histórico:** Garantia de que a plataforma não foi objeto de estudo nos repositórios de semestres anteriores da organização da disciplina nem pelos demais grupos do semestre vigente.
+* **Relevância Social e Alcance:** Plataforma de utilidade pública de amplo acesso pela sociedade civil, impactando múltiplos segmentos demográficos.
 
-## 3. Motivações e o Site Selecionado
+## 3. O Site Selecionado: PCI Concursos
 
-Avaliando as propostas sob a ótica dos critérios definidos, o sistema selecionado como objeto de estudo foi o **Portal Institucional do Tribunal de Contas do Distrito Federal (TCDF)**. As diretrizes que motivaram essa decisão compreendem:
+Avaliando as alternativas sob a ótica dos critérios supracitados, a equipe deliberou unanimemente pela seleção do portal **PCI Concursos** ([pciconcursos.com.br](https://www.pciconcursos.com.br/)). As principais motivações para a escolha compreendem:
 
-* **Relevância Social:** O TCDF exerce um papel fundamental como instrumento de transparência e controle externo para a sociedade. Seu público engloba servidores, entes jurisdicionados e a sociedade civil, elevando a qualidade de uso da interface a uma questão de utilidade pública.
-* **Diversidade de Fluxos de Interação:** O portal atua como um hub tecnológico que interliga sistemas de consultas processuais, portais de transparência, ouvidoria e emissão de certidões, provendo cenários complexos e interações ricas para a análise heurística.
-* **Identificação Imediata de Obstáculos:** A avaliação preliminar constatou barreiras operacionais claras que impactam negativamente a carga cognitiva e a eficiência da navegação do usuário.
-* **Despadronização Arquitetural:** O portal institucional serve como agregador para sistemas satélites que não compartilham a mesma identidade visual, estabelecendo uma oportunidade ímpar para o estudo e a proposição de padrões de consistência (Guias de Estilo).
+* **Garantia de Acesso e Diversidade do Público-Alvo:** O PCI Concursos é uma das ferramentas mais populares do país para a busca de empregos públicos, estágios e provas. Seu público engloba desde estudantes universitários em início de carreira até adultos no mercado de trabalho e candidatos da terceira idade. Isso garante total viabilidade para a realização das entrevistas estruturadas e testes empíricos com participantes reais de diferentes perfis demográficos e níveis de letramento digital.
+* **Manancial de Oportunidades de Reprojeto de IHC:** Criado há mais de uma década, o portal preserva uma interface visual e estrutural legada, repleta de problemas críticos de usabilidade, sobrecarga cognitiva e barreiras severas de acessibilidade. Esse ecossistema oferece um laboratório perfeito para a aplicação prática dos métodos ensinados no livro-texto da disciplina.
+* **Complexidade e Riqueza de Fluxos:** O portal não se restringe à mera consulta passiva; ele engloba busca avançada com filtros combinados, download de cadernos de prova e gabaritos, áreas de simulados interativos de questões, seções de videoaulas, feeds de notícias e serviços de alertas de novas vagas.
+* **Ineditismo Comprovado:** Conforme levantamento realizado na organização `Interacao-Humano-Computador`, o PCI Concursos nunca foi selecionado como projeto principal em nenhum semestre letivo anterior, garantindo total originalidade ao trabalho.
 
-## 4. Preâmbulo da Avaliação
+## 4. Preâmbulo da Avaliação Heurística Preliminar
 
-A inspeção técnica inicial executada no portal do TCDF, orientada pelo framework DECIDE e pelas heurísticas de usabilidade (Nielsen, 1994), evidenciou barreiras significativas na interação humano-computador. Dentre os principais achados, ressaltam-se:
+Uma inspeção técnica preliminar orientada pelas 10 Heurísticas de Usabilidade de Nielsen (1994) e pelos princípios de Acessibilidade da WCAG / e-MAG evidenciou problemas graves na interface atual do PCI Concursos:
 
-* **Estética e Design Minimalista:** A página principal dispõe de múltiplos componentes rotativos e links sobrepostos, resultando em poluição visual e excessiva carga cognitiva.
-* **Prevenção de Erros:** O formulário de busca processual omite mecanismos de auxílio à digitação (tais como máscaras de formatação e placeholders explícitos), induzindo o usuário a cometer falhas operacionais.
-* **Compatibilidade do Sistema com o Mundo Real:** O emprego indiscriminado de jargões técnicos e nomenclaturas estritamente jurídicas (a exemplo do termo "Espaço Jurisdicionado") inviabiliza a plena compreensão por parte do cidadão sem conhecimento jurídico prévio.
-* **Consistência e Padrões:** A transição de navegação entre a página inicial e os sistemas satélites do portal carece de uniformidade estética, promovendo a quebra do modelo mental do usuário ao longo da execução das tarefas.
-
-> 📄 **Documento Completo:** A documentação técnica detalhada da inspeção preliminar encontra-se disponível no artefato [Avaliação Individual do TCDF - PDF](pedro_avaliacao.pdf).
+* **Estética e Design Minimalista (Heurística 8):** A interface apresenta densidade informacional excessiva, fontes minúsculas, ausência de espaços em branco e profusão de anúncios publicitários que competem visualmente com o conteúdo editorial do portal, induzindo o usuário a cliques errôneos.
+* **Prevenção de Erros (Heurística 5):** Banners de terceiros utilizam deliberadamente botões rotulados como "Download", mimetizando os botões legítimos de download de editais e cadernos de prova, levando usuários — sobretudo com menor letramento digital — a baixar softwares indesejados.
+* **Barreiras de Acessibilidade (WCAG 1.3 e 1.4):**
+  - O portal faz uso extensivo de tabelas HTML aninhadas para fins de diagramação visual (semântica incorreta), prejudicando a interpretação sequencial por tecnologias assistivas (leitores de tela como NVDA e TalkBack).
+  - Índices de contraste insuficientes entre tipografia azul/cinza e fundos claros, dificultando a leitura por usuários com baixa visão ou idosos.
+* **Consistência e Padrões (Heurística 4):** Falta de padronização na hierarquia de links e cabeçalhos entre as páginas regionais de concursos e a página inicial, quebrando o modelo mental do usuário ao navegar pelos editais.
 
 ## 5. Bibliografia
 
-> NIELSEN, Jakob. *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group, 1994. Disponível em: <https://www.nngroup.com/articles/ten-usability-heuristics/>. Acesso em: 04 de setembro de 2026.
+> BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> NIELSEN, Jakob. *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group, 1994. Disponível em: <https://www.nngroup.com/articles/ten-usability-heuristics/>. Acesso em: 21 de setembro de 2026.  
+> W3C. *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium, 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>. Acesso em: 21 de setembro de 2026.
 
 ## 6. Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 04/09/2026 | Documentação das motivações, critérios e definição do site selecionado (TCDF). | Todos os integrantes | Todos os integrantes |
+| `1.0` | 04/09/2026 | Documentação inicial de critérios e definição de site preliminar. | Daniel da Silva Batista | Leonardo da Silva Lopes Júnior |
+| `2.0` | 21/09/2026 | Redefinição estratégica do objeto de estudo para o **PCI Concursos** visando assegurar a viabilidade de usuários reais e acessibilidade. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |

@@ -1,4 +1,4 @@
-# 👥 Membros do Grupo
+# Membros do Grupo
 
 Conheça os integrantes que compõem o grupo do projeto de Interação Humano-Computador (IHC):
 

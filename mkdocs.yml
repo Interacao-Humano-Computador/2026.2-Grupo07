@@ -1,11 +1,13 @@
-site_name: IHC - Tribunal de Contas do DF
-site_description: Documentação do projeto de IHC (FGA-UnB) - TCDF
-site_author: Equipe IHC
+site_name: IHC - PCI Concursos
+site_description: Documentação do projeto da disciplina de Interação Humano-Computador (FGA-UnB) - Análise e Reprojeto do PCI Concursos
+site_author: Equipe Grupo 07 - IHC
 site_url: https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/
 
 theme:
   name: material
   language: pt-BR
+  logo: assets/images/pci_logo_white.png
+  favicon: assets/images/favicon.ico
   features:
     - navigation.tabs
     - navigation.sections
@@ -14,22 +16,25 @@ theme:
     - search.highlight
     - content.code.copy
   
-  # Aqui entra a sua configuração de CONTRASTE (Modo Claro/Escuro)
+  # Configuração de Cores e Contraste (Modo Claro/Escuro)
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: blue
+      primary: blue
+      accent: red
       toggle:
         icon: material/toggle-switch-off-outline
         name: Mudar para o Modo Escuro (Alto Contraste)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: blue
+      primary: blue
+      accent: red
       toggle:
         icon: material/toggle-switch
         name: Mudar para o Modo Claro
+
+extra_css:
+  - stylesheets/extra.css
 
 # Extensões obrigatórias para renderizar tabelas e HTML corretamente
 markdown_extensions:
