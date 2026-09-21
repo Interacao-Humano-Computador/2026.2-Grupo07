@@ -47,8 +47,8 @@ A Tabela 1 a seguir apresenta a relação dos 10 cenários elaborados pelo grupo
 
 | ID | Título do Cenário | Persona Associada | Tarefa Relacionada | Responsável |
 | :---: | :--- | :---: | :--- | :--- |
-| **CEN-01** | Localização Ágil de Edital de Tribunal no DF | *A definir pelo responsável* | Busca de edital por palavra-chave / órgão | Daniel da Silva Batista |
-| **CEN-02** | Download Seguro de Provas Anteriores e Gabaritos em PDF | *A definir pelo responsável* | Download de caderno de provas e gabarito | Daniel da Silva Batista |
+| **CEN-01** | Localização Ágil de Edital de Concurso no DF | **Maria Helena dos Santos (PER-01)** | Busca de edital por palavra-chave / órgão | Daniel da Silva Batista |
+| **CEN-02** | Download Seguro de Provas Anteriores e Gabaritos em PDF | **Maria Helena dos Santos (PER-01)** | Download de caderno de provas e gabarito | Daniel da Silva Batista |
 | **CEN-03** | Filtragem de Concursos Abertos na Região Centro-Oeste | *A definir pelo responsável* | Filtragem de editais por região geográfica | Pedro Rocha Ferreira Lima |
 | **CEN-04** | Acompanhamento de Retificações e Prazos de Edital | *A definir pelo responsável* | Consulta a retificações e cronogramas | Pedro Rocha Ferreira Lima |
 | **CEN-05** | Resolução de Questões em Simulado Online no Smartphone | *A definir pelo responsável* | Simulado de questões online | Arthur Sismene Carvalho |
@@ -66,9 +66,9 @@ A Tabela 1 a seguir apresenta a relação dos 10 cenários elaborados pelo grupo
 
 ## 4. Detalhamento dos Cenários
 
-### 4.1 Cenário 01: Localização Ágil de Edital de Tribunal no DF (CEN-01)
+### 4.1 Cenário 01: Localização Ágil de Edital de Concurso no DF (CEN-01)
 * **Responsável:** Daniel da Silva Batista  
-* **Persona Associada:** *A definir após a entrevista empírica com o usuário*
+* **Persona Associada:** Maria Helena dos Santos (PER-01 — Concurseira Ativa / Adulta e Madura)
 
 O detalhamento narrativo do Cenário 01, estruturado segundo os sete elementos formais de Carroll (2000) e Barbosa e Silva (2010), é apresentado na Tabela 2:
 
@@ -78,13 +78,13 @@ O detalhamento narrativo do Cenário 01, estruturado segundo os sete elementos f
 
 | Elemento | Descrição Narrativa |
 | :--- | :--- |
-| **Ambiente / Contexto** | Terça-feira à noite, por volta das 22h. O usuário acabou de chegar da faculdade no Gama-DF, está cansado, mas ligou seu notebook pessoal no quarto para pesquisar se o edital do concurso do Tribunal de Justiça do DF (TJDFT) teve inscrições reabertas. Dispõe de apenas 15 minutos antes de dormir. |
-| **Atores** | Estudante de graduação / participante da pesquisa (persona a ser formalizada após a entrevista). |
-| **Objetivos** | Encontrar a página específica do concurso do TJDFT no PCI Concursos e verificar a situação das inscrições e prazos. |
-| **Planejamento** | O usuário decide acessar o portal PCI Concursos (`pciconcursos.com.br`), utilizar o campo de pesquisa textual no cabeçalho ou menu e digitar "TJDFT" para ser conduzido diretamente ao concurso pretendido. |
-| **Ações** | 1. O participante digita a URL do portal no navegador Google Chrome e pressiona Enter.<br>2. Ao carregar a página inicial repleta de tabelas e banners publicitários, localiza a barra de pesquisa no topo.<br>3. Digita o termo "TJDFT" e clica no ícone de busca.<br>4. Rola os resultados retornados procurando a notícia mais recente com o status do concurso.<br>5. Clica no link com o título correspondente ao tribunal. |
-| **Eventos** | A página inicial demora alguns segundos para renderizar completamente devido ao carregamento de scripts de anúncios do Google Ads. Ao submeter a busca, o sistema abre uma página de resultados com múltiplos anúncios patrocinados intercalados, exigindo que o participante ignore blocos comerciais para identificar o link institucional real do concurso. |
-| **Avaliação** | O participante consegue encontrar a página do concurso do TJDFT e confirma as datas, mas sente-se desgastado mentalmente com o excesso de poluição visual e a dificuldade em isolar os links editoriais legítimos. |
+| **Ambiente / Contexto** | Quarta-feira, por volta das 19h30, na mesa da sala em Taguatinga-DF. Maria Helena terminou suas atividades do dia e ligou seu notebook pessoal para verificar se o edital de concurso com vagas administrativas no Distrito Federal teve suas inscrições abertas e qual o valor da taxa de inscrição. Ela dispõe de cerca de 20 minutos antes de preparar o jantar. |
+| **Atores** | **Maria Helena dos Santos** (53 anos, concurseira ativa com rotina regular de estudos, usuária atenta e cautelosa com navegação na web). |
+| **Objetivos** | Encontrar a página específica do concurso de interesse no PCI Concursos e checar a situação das inscrições, prazos e requisitos de escolaridade. |
+| **Planejamento** | Maria Helena decide acessar o portal PCI Concursos (`pciconcursos.com.br`), utilizar o campo de busca no cabeçalho digitando o órgão pretendido e clicar no resultado oficial para checar as datas. |
+| **Ações** | 1. Abre o navegador Google Chrome no notebook e digita a URL do portal.<br>2. Ao carregar a página repleta de blocos de notícias e propagandas, desvia o olhar dos anúncios e localiza a barra de pesquisa no topo.<br>3. Digita o nome do órgão (ex.: "Correios" ou "Tribunal") e clica no ícone da lupa.<br>4. Percorre os resultados retornados procurando a notícia oficial mais recente.<br>5. Clica no título do concurso para abrir a página detalhada da seleção. |
+| **Eventos** | A página demora alguns segundos para carregar completamente devido à grande quantidade de scripts publicitários. Na tela de resultados da busca, anúncios gráficos patrocinados aparecem intercalados no mesmo formato visual dos links de notícias, forçando Maria Helena a aproximar o rosto da tela e reler com cuidado para não clicar em anúncios promocionais enganosos. |
+| **Avaliação** | Maria Helena atinge o objetivo de localizar o edital e anotar os prazos, mas relata desconforto com a poluição visual e cansaço nos olhos ao tentar diferenciar os links editoriais legítimos das propagandas comerciais. |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -94,7 +94,7 @@ O detalhamento narrativo do Cenário 01, estruturado segundo os sete elementos f
 
 ### 4.2 Cenário 02: Download Seguro de Provas Anteriores e Gabaritos em PDF (CEN-02)
 * **Responsável:** Daniel da Silva Batista  
-* **Persona Associada:** *A definir após a entrevista empírica com o usuário*
+* **Persona Associada:** Maria Helena dos Santos (PER-01 — Concurseira Ativa / Adulta e Madura)
 
 O detalhamento narrativo do Cenário 02 é apresentado na Tabela 3 a seguir:
 
@@ -104,13 +104,13 @@ O detalhamento narrativo do Cenário 02 é apresentado na Tabela 3 a seguir:
 
 | Elemento | Descrição Narrativa |
 | :--- | :--- |
-| **Ambiente / Contexto** | Sábado pela manhã, no quarto de estudos. O participante planejou dedicar a manhã para resolver questões reais da banca Cebraspe para o cargo de Analista de Tecnologia da Informação. Seu objetivo é salvar os arquivos no computador para poder imprimi-los e resolvê-los sem conexão. |
-| **Atores** | Estudante de graduação / participante da pesquisa (persona a ser formalizada após a entrevista). |
-| **Objetivos** | Localizar a seção de provas anteriores no PCI Concursos, selecionar o cargo de Analista de TI do último concurso de tribunal realizado e fazer o download do caderno de questões e da folha de respostas oficiais (gabarito) em formato PDF. |
-| **Planejamento** | O usuário planeja acessar o menu lateral "Provas", utilizar filtros de cargo ou banca organizadora, localizar a prova desejada e clicar nos links diretos de download. |
-| **Ações** | 1. Acessa a aba "Provas" no menu do PCI Concursos.<br>2. Seleciona o filtro ou pesquisa pelo nome da instituição examinadora e cargo "Tecnologia da Informação".<br>3. Identifica a linha correspondente à prova do concurso pretendido.<br>4. Clica no link rotulado como "Prova" para abrir o PDF em nova guia e salva o arquivo no disco rígido.<br>5. Retorna à listagem e clica no link rotulado como "Gabarito" para baixar o arquivo comparativo. |
-| **Eventos** | Na página de download, banners de anunciantes exibem botões verdes chamativos com a palavra "DOWNLOAD" em destaque. O participante quase clica em um anúncio de adware antes de perceber que o link legítimo do PDF é, na verdade, um texto sublinhado simples com tipografia menor situado logo abaixo. |
-| **Avaliação** | O participante atinge o objetivo de baixar os PDFs, mas avalia criticamente a experiência, ressaltando o risco permanente que usuários menos experientes correm de baixar softwares maliciosos ao confundir botões falsos com o download da prova. |
+| **Ambiente / Contexto** | Sábado pela manhã, no ambiente de estudo em casa. Maria Helena reservou a manhã para treinar resolução de questões reais de concursos anteriores para o cargo de Assistente / Técnico Administrativo. Seu objetivo é salvar os arquivos em PDF no computador para imprimir e resolver no papel com caneta e marca-texto, pois a leitura demorada na tela causa ardência visual. |
+| **Atores** | **Maria Helena dos Santos** (53 anos, concurseira que prefere praticar simulados em folhas impressas para evitar fadiga na tela). |
+| **Objetivos** | Acessar o repositório de provas anteriores do PCI Concursos, selecionar o cargo administrativo pretendido e baixar o caderno de questões e a folha de respostas oficiais (gabarito definitivo) em formato PDF. |
+| **Planejamento** | Acessar a seção "Provas" no menu principal do portal, utilizar o filtro de cargo ou banca, localizar a prova desejada e efetuar o download direto dos arquivos para a pasta local do computador. |
+| **Ações** | 1. Clica na aba "Provas" no menu lateral do PCI Concursos.<br>2. Digita "Assistente Administrativo" no campo de filtro de provas.<br>3. Identifica na tabela a linha correspondente ao concurso desejado.<br>4. Clica no link rotulado como "Prova" para abrir o caderno de questões em PDF e salva o arquivo.<br>5. Retorna à listagem e clica no link rotulado como "Gabarito" para baixar a chave de respostas oficiais. |
+| **Eventos** | Na página de download, banners publicitários exibem botões verdes chamativos com a palavra *"DOWNLOAD"* em caixa alta. Maria Helena quase clica no anúncio comercial antes de perceber que o link de download autêntico é apenas um texto sublinhado simples com tipografia menor situado logo abaixo. |
+| **Avaliação** | Maria Helena conclui o download dos PDFs com sucesso, mas avalia com ressalvas a experiência, destacando a insegurança gerada pelos botões falsos e o risco de usuários maduros baixarem programas maliciosos por desatenção visual. |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
