@@ -6,10 +6,12 @@
 | :--- | :--- |
 | Daniel da Silva Batista | Definição da metodologia de perfil (entrevista semiestruturada e análise documental), caracterização das 4 dimensões, tabela síntese dos perfis (Exemplo 8.1) e elaboração do roteiro de entrevista unificado. |
 | Arthur Sismene Carvalho | Estruturação dos dados demográficos e revisão do roteiro de validação de tarefas. |
+| João Vitor Sales Ibiapina | Definição dos critérios de acessibilidade e caracterização do perfil com foco em vagas especiais e idosos. |
 | Leonardo da Silva Lopes Júnior | Revisão metodológica com base em Barbosa e Silva (2010) e consolidação da tabela de entrevistas. |
 | Pedro Rocha Ferreira Lima | Definição dos critérios de agrupamento dos perfis e revisão técnica geral. |
+| Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -32,8 +34,6 @@ Para assegurar o rigor acadêmico preconizado na literatura de IHC e a viabilida
 
 A definição precisa do perfil do usuário apoia-se em sólidas diretrizes teóricas da literatura de Interação Humano-Computador, articulando os atributos propostos por Hackos e Redish (1998) e Courage e Baxter (2005) com a taxonomia do Capítulo 8 de Barbosa e Silva (2010).
 
-> **Autor da Fundamentação dos Atributos:** Daniel da Silva Batista
-
 ### 3.1 Atributos de Perfil segundo Hackos e Redish (1998) e Courage e Baxter (2005)
 
 De acordo com Hackos e Redish (1998) e Courage e Baxter (2005), a modelagem do perfil deve extrapolar dados demográficos superficiais, investigando as competências cognitivas e o contexto de atuação do indivíduo:
@@ -53,9 +53,9 @@ Conforme estabelecido por Barbosa e Silva (2010, Cap. 8 - *Organização do Espa
 
 1. **Faixa Etária:** Estruturada em jovens/estudantes (18 a 25 anos), adultos focados em ascensão profissional (26 a 45 anos) e terceira idade / candidatos maduros (acima de 46 anos), cada qual apresentando demandas distintas de contraste visual, tamanho de tipografia e velocidade de resposta motora.
 2. **Nível de Experiência:** Varia desde usuários *iniciantes/leigos* (que prestam sua primeira seleção e não conhecem prazos de isenção ou recursos) até *especialistas* (concurseiros experientes que conhecem os estilos das bancas examinadoras como Cebraspe, FGV e FCC).
-3. **Atitudes Frente à Tecnologia:**
-   * **Tecnófilos:** Usuários entusiasmados, que utilizam atalhos de teclado (`Ctrl+F`), abrem dezenas de abas simultaneamente e baixam editais e gabaritos em segundos pelo smartphone ou notebook.
-   * **Tecnófobos:** Usuários inseguros perante interfaces digitais, com receio constante de clicar em anúncios fraudulentos, baixar arquivos com vírus ou perder datas de inscrição por desorientação na navegação.
+3. **Atitudes Frente à Tecnologia:** Avalia a relação comportamental e o nível de segurança do usuário perante ferramentas digitais:
+    * **Tecnófilos:** Usuários entusiasmados, que utilizam atalhos de teclado (`Ctrl+F`), abrem dezenas de abas simultaneamente e baixam editais e gabaritos em segundos pelo smartphone ou notebook.
+    * **Tecnófobos:** Usuários inseguros perante interfaces digitais, com receio constante de clicar em anúncios fraudulentos, baixar arquivos com vírus ou perder datas de inscrição por desorientação na navegação.
 4. **Tarefas Primárias no Sistema:** Atividades nucleares que justificam a ida ao portal, incluindo a localização e leitura de editais de concurso, o download de cadernos de questões anteriores com gabaritos em PDF, a realização de simulados de questões e o acompanhamento de convocações de homologação.
 
 ## 4. Tabela Síntese dos Perfis de Usuário
@@ -68,19 +68,18 @@ A partir do cruzamento dos dados documentais de domínio com as interações de 
 
 | Atributo | Perfil 1: Estudante Universitário / Iniciante | Perfil 2: Concurseiro Ativo / Adulto Focado | Perfil 3: Baixo Letramento / Idoso / Vagas Especiais |
 | :--- | :--- | :--- | :--- |
-| **Proporção Estimada** | ~45% do público total | ~35% do público total | ~20% do público total |
-| **Prioridade de Design** | Primário | Primário | Secundário (com foco em acessibilidade e inclusão) |
-| **Faixa Etária** | 18 a 25 anos | 26 a 45 anos | 46 anos ou mais |
+| **Prioridade de Design** | Primário | Primário | Secundário (foco em acessibilidade e inclusão) |
+| **Faixa Etária** | 18 a 25 anos (jovens) | 26 a 45 anos (adultos) | 46 anos ou mais (terceira idade) |
 | **Nível de Instrução** | Superior incompleto ou recém-formado | Superior completo ou Pós-graduação | Ensino Fundamental a Médio completo |
-| **Cargo / Ocupação Típica** | Estudante de graduação / Estagiário | Analista CLT, servidor público municipal ou profissional liberal | Autônomo, motorista, aposentado ou trabalhador do comércio |
+| **Cargo / Ocupação Típica** | Estudante de graduação / Estagiário | Analista CLT, servidor público ou profissional liberal | Autônomo, motorista, aposentado ou trabalhador do comércio |
 | **Atividades Principais no Sistema** | Buscar editais de órgãos conhecidos, baixar provas anteriores com gabaritos e resolver simulados no celular | Filtrar editais por região Centro-Oeste/DF, verificar retificações de cronograma e assinar alertas por e-mail | Buscar notícias de processos seletivos de apoio, verificar vagas reservadas a PcD/idosos e acompanhar chamadas |
-| **Experiência Tecnológica** | Alta no smartphone; média/alta no computador; navega com agilidade e utiliza atalhos. | Alta em computador e dispositivos móveis; uso frequente no ambiente de trabalho. | Baixa a moderada; uso predominantemente móvel (WhatsApp/redes); dificuldade com downloads e PDFs. |
-| **Conhecimento do Domínio** | Baixo a moderado; focado em estágios, vagas de nível médio ou concursos de tribunais/bancos. | Avançado; conhece nomenclaturas de bancas, prazos de retificação, tabelas de remuneração e jurisprudência. | Baixo; busca informações pontuais de cargos operacionais, cotas de idade/PcD ou notícias locais. |
-| **Frequência de Acesso** | Semanal ou esporádica (orientada a notícias de editais em alta). | Quase diária (rotina de estudos, acompanhamento de editais e resolução de questões). | Quinzenal ou mensal (apenas quando avisado por familiares ou imprensa). |
-| **Dispositivo Principal** | Smartphone (60%) e Notebook (40%). | Desktop/Notebook (65%) e Smartphone (35%). | Smartphone básico (80%) e Computador compartilhado (20%). |
-| **Principais Dores na Interface** | Sobrecarga visual, poluição de banners e lentidão ao buscar no celular. | Dificuldade de filtrar por estados/cidades com precisão e excesso de cliques para achar anexos. | Confusão entre botões de download reais e anúncios falsos; fontes minúsculas e falta de contraste. |
+| **Experiência Tecnológica** | Alta no smartphone; média/alta no computador; navega com agilidade e utiliza atalhos. | Alta em computador e dispositivos móveis; uso frequente no ambiente de trabalho. | Baixa a moderada; uso predominantemente móvel; dificuldade com downloads e PDFs. |
+| **Conhecimento do Domínio** | Baixo a moderado; focado em estágios, vagas de nível médio ou concursos de tribunais/bancos. | Avançado; conhece bancas organizadoras, prazos de retificação, remunerações e jurisprudência. | Baixo; busca informações pontuais de cargos operacionais, cotas de idade/PcD ou notícias locais. |
+| **Frequência de Acesso** | Semanal ou esporádica (orientada a notícias de editais em alta). | Quase diária (rotina de estudos, acompanhamento de editais e resolução de questões). | Ocasional (quando avisado por familiares ou imprensa). |
+| **Dispositivo Principal** | Smartphones e notebooks pessoais | Computadores de mesa (desktop) e notebooks | Smartphones básicos ou computadores compartilhados |
+| **Principais Dores na Interface** | Sobrecarga visual, poluição de banners e lentidão ao navegar no celular. | Dificuldade de filtrar por estados/cidades com precisão e excesso de cliques para achar anexos. | Confusão entre botões de download legítimos e anúncios falsos; fontes minúsculas e falta de contraste. |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -101,27 +100,27 @@ Para padronizar a coleta empírica entre os 5 integrantes do grupo, foi estabele
 | **Bloco 5: Execução Prática das Tarefas** | 4 min | Pedir ao participante que compartilhe a tela e execute as **duas tarefas específicas** designadas ao integrante no portal PCI Concursos, utilizando o método *Think-Aloud* (pensar em voz alta enquanto clica e busca). Anotar dúvidas, hesitações e tropeços em anúncios. |
 | **Bloco 6: Fechamento e Avaliação Subjetiva** | 2 min | Solicitar uma nota de 1 a 5 para a facilidade do site, ouvir as principais críticas e sugestões de melhoria do voluntário e finalizar a gravação agradecendo sua contribuição. |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
 ## 6. Registro e Comprovação das Entrevistas Gravadas
 
-A tabela a seguir consolida o registro das sessões gravadas por cada um dos integrantes da equipe. Os vídeos completos são disponibilizados de forma íntegra para avaliação dos docentes e monitores:
+A tabela a seguir consolida o registro das sessões gravadas por cada um dos integrantes da equipe. Cada entrevistador é responsável por recrutar o usuário e escolher o perfil (Perfil 1, 2 ou 3) a ser investigado em sua sessão individual, documentando os dados empíricos após a condução da entrevista:
 
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 3: Registro de Gravações de Entrevistas com Usuários Reais</b></p>
 
-| Entrevistador | Código do Entrevistado | Perfil Mapeado | Tarefas Avaliadas | Data da Sessão | Duração | Link da Gravação |
+| Entrevistador | Código do Entrevistado | Perfil Escolhido pelo Entrevistador | Tarefas Avaliadas | Data da Sessão | Duração | Link da Gravação |
 | :--- | :---: | :---: | :--- | :---: | :---: | :---: |
-| **Daniel da Silva Batista** | `USR-01` | Perfil 1 (Estudante Universitário) | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
-| **Pedro Rocha Ferreira Lima** | `USR-02` | Perfil 2 (Concurseiro Ativo Adulto) | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Consulta a retificações e prazos | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
-| **Arthur Sismene Carvalho** | `USR-03` | Perfil 1 (Estudante Universitário) | **Tarefa 05:** Simulado de questões online<br>**Tarefa 06:** Busca de vagas de estágio no DF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
-| **Leonardo da Silva Lopes Júnior** | `USR-04` | Perfil 2 (Concurseiro Ativo Adulto) | **Tarefa 07:** Videoaulas e dicas de disciplinas<br>**Tarefa 08:** Cadastro de alerta de concursos por e-mail | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
-| **João Vitor** | `USR-05` | Perfil 3 (Idoso / Vagas Especiais) | **Tarefa 09:** Consulta a vagas reservadas / PcD<br>**Tarefa 10:** Acompanhamento de convocações | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **Daniel da Silva Batista** | `USR-01` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **Pedro Rocha Ferreira Lima** | `USR-02` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Consulta a retificações e prazos | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **Arthur Sismene Carvalho** | `USR-03` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 05:** Simulado de questões online<br>**Tarefa 06:** Busca de vagas de estágio no DF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **Leonardo da Silva Lopes Júnior** | `USR-04` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 07:** Videoaulas e dicas de disciplinas<br>**Tarefa 08:** Cadastro de alerta de concursos por e-mail | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **João Vitor Sales Ibiapina** | `USR-05` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 09:** Consulta a vagas reservadas / PcD<br>**Tarefa 10:** Acompanhamento de convocações | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

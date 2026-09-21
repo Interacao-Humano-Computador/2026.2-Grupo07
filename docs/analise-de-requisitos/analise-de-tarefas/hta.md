@@ -6,10 +6,12 @@
 | :--- | :--- |
 | Daniel da Silva Batista | Fundamentação teórica de HTA (Annett & Duncan, 1967; Barbosa e Silva, 2010), estruturação da matriz de tarefas, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão da decomposição funcional e estruturação das Tarefas 05 e 06. |
+| João Vitor Sales Ibiapina | Revisão da decomposição hierárquica e estruturação das Tarefas 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Revisão das operações e planos condicionais das Tarefas 07 e 08. |
 | Pedro Rocha Ferreira Lima | Definição dos critérios de análise de problemas e estruturação das Tarefas 03 e 04. |
+| Gemini | Geração dos diagramas HTA em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -19,6 +21,8 @@
 
 A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* - HTA), desenvolvida originalmente por Annett e Duncan (1967) e amplamente detalhada por Barbosa e Silva (2010, Cap. 8.4), é um dos métodos clássicos e mais consolidados de análise de tarefas em Interação Humano-Computador. A técnica baseia-se na decomposição funcional de alto nível dos objetivos de um usuário em subobjetivos menores e, sucessivamente, em **operações** elementares — que correspondem às ações físicas e cognitivas concretas executadas para alcançar cada estado desejado.
 
+No HTA, a execução dos subobjetivos e operações é rigorosamente regida por **planos**, que especificam as condições lógicas, sequenciais ou alternativas sob as quais as ações devem ser realizadas (por exemplo: sequências estritas, decisões condicionais do tipo "se... então", repetições cíclicas ou execuções paralelas). Essa abordagem permite identificar gargalos cognitivos, erros operacionais recorrentes e propor recomendações ergonômicas de design de interface centradas na eficácia e satisfação do usuário.
+
 ### Elementos Estruturais da Notação HTA:
 * **Objetivos e Subobjetivos:** Estados finais que a pessoa deseja atingir no sistema (ex.: "Baixar edital em PDF").
 * **Operações:** Unidades básicas de comportamento físico ou cognitivo necessárias para atingir um subobjetivo (ex.: "Digitar nome do órgão no campo de busca").
@@ -27,28 +31,30 @@ A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* - HTA), des
 
 ---
 
-## 2. Matriz de Atribuição das Tarefas
+## 2. Matriz de Tarefas do PCI Concursos
 
-Para cobrir a amplitude do portal **PCI Concursos** e assegurar a contribuição individual balanceada no grupo, foram selecionadas 10 tarefas centrais, distribuídas aos 5 membros:
+Com base nos três perfis de usuário delineados na pesquisa de requisitos e no escopo funcional do portal **PCI Concursos**, foram selecionadas **dez tarefas representativas** para a avaliação empírica e modelagem formal. Cada integrante da equipe é responsável pela condução e especificação aprofundada de duas tarefas complementares, articulando o diagrama de decomposição com a análise crítica de usabilidade.
+
+A Tabela 1 a seguir consolida a matriz geral de tarefas da equipe:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Matriz de Distribuição das Tarefas para HTA</b></p>
+<p align="center"><b>Tabela 1: Matriz Geral de Tarefas Avaliadas</b></p>
 
-| ID | Nome da Tarefa | Membro Responsável |
+| ID | Descrição da Tarefa | Integrante Responsável |
 | :---: | :--- | :--- |
-| **TAR-01** | Buscar edital de concurso por palavra-chave ou órgão | **Daniel da Silva Batista** |
-| **TAR-02** | Baixar caderno de provas anteriores e gabarito oficial em PDF | **Daniel da Silva Batista** |
-| **TAR-03** | Filtrar concursos abertos na região Centro-Oeste / DF | Pedro Rocha Ferreira Lima |
-| **TAR-04** | Consultar retificações de edital e prorrogações de cronograma | Pedro Rocha Ferreira Lima |
-| **TAR-05** | Realizar simulado de questões online no navegador | Arthur Sismene Carvalho |
+| **TAR-01** | Buscar edital de concurso por palavra-chave ou órgão | Daniel da Silva Batista |
+| **TAR-02** | Baixar caderno de provas anteriores e gabarito oficial em PDF | Daniel da Silva Batista |
+| **TAR-03** | Filtrar concursos por região geográfica (Centro-Oeste / DF) | Pedro Rocha Ferreira Lima |
+| **TAR-04** | Consultar retificações, cronogramas e datas de prova | Pedro Rocha Ferreira Lima |
+| **TAR-05** | Realizar simulado de questões online com feedback de gabarito | Arthur Sismene Carvalho |
 | **TAR-06** | Buscar oportunidades de estágio de nível superior no DF | Arthur Sismene Carvalho |
-| **TAR-07** | Acessar videoaulas e dicas de disciplinas para estudo | Leonardo da Silva Lopes Júnior |
-| **TAR-08** | Cadastrar endereço de e-mail para alerta de novos concursos | Leonardo da Silva Lopes Júnior |
-| **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor |
-| **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor |
+| **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
+| **TAR-08** | Cadastrar e configurar recebimento de alertas de vagas por e-mail | Leonardo da Silva Lopes Júnior |
+| **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor Sales Ibiapina |
+| **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor Sales Ibiapina |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -61,6 +67,12 @@ Para cobrir a amplitude do portal **PCI Concursos** e assegurar a contribuição
 A decomposição hierárquica de objetivos e planos da Tarefa 01 é ilustrada na Figura 1 a seguir, e a especificação detalhada de suas operações, problemas de usabilidade identificados e recomendações de design é apresentada na Tabela 2.
 
 #### Diagrama de Decomposição HTA (Figura 1)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 1:</b> Diagrama HTA da Tarefa 01 - Buscar edital por palavra-chave</p>
+
+</div>
 
 ```mermaid
 flowchart TD
@@ -102,8 +114,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 1: Diagrama HTA da Tarefa 01 - Buscar edital por palavra-chave</b></p>
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
 
 </div>
 
@@ -127,7 +138,7 @@ flowchart TD
 | **3.2 Clicar no link do concurso** | Ação física | Área de clique restrita apenas ao texto do hiperlink em azul claro. | Tornar todo o card do concurso clicável (*hit area* expandida). |
 | **4. Refinar critérios de busca** | **Plano 4:** Executar 4.1 ou 4.2 se necessário. | A interface não oferece filtros de faceta rápidos (por estado, status ou escolaridade) na tela de resultados. | Adicionar filtros laterais interativos (Estado, Escolaridade, Salário). |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -138,6 +149,12 @@ flowchart TD
 A decomposição da Tarefa 02 é apresentada no diagrama da Figura 2, e sua correspondente análise detalhada de operações e problemas é fornecida na Tabela 3.
 
 #### Diagrama de Decomposição HTA (Figura 2)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 2:</b> Diagrama HTA da Tarefa 02 - Download de provas anteriores e gabaritos</p>
+
+</div>
 
 ```mermaid
 flowchart TD
@@ -179,8 +196,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 2: Diagrama HTA da Tarefa 02 - Download de provas anteriores e gabaritos</b></p>
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
 
 </div>
 
@@ -200,7 +216,7 @@ flowchart TD
 | **3.2 Salvar arquivo PDF** | Ação física | Dependendo da configuração do navegador, o PDF é aberto na mesma aba, perdendo o contexto da página do concurso. | Forçar abertura em nova guia (`target="_blank"`) ou disparar o download direto com atributo `download`. |
 | **4. Baixar o gabarito oficial** | **Plano 4:** Executar 4.1 e 4.2. | Se o gabarito tiver retificações (anulação de questões), o portal nem sempre indica claramente a versão final. | Indicar textualmente: *"Gabarito Definitivo (Pós-Recurso)"* ao lado do link. |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -210,10 +226,10 @@ flowchart TD
 
 As demais tarefas modeladas pela equipe seguirão exatamente a mesma notação formal (diagrama Mermaid decomposto + tabela analítica de problemas e recomendações), integrando os achados empíricos das entrevistas gravadas:
 
-* **Tarefas 03 e 04 (Pedro Rocha):** Modelagem de filtragem regional (Centro-Oeste) e verificação de cronogramas/retificações.
-* **Tarefas 05 e 06 (Arthur Sismene):** Modelagem de simulados online com feedback de acertos e busca de estágios/trainees.
-* **Tarefas 07 e 08 (Leonardo Lopes):** Modelagem do acesso a módulos audiovisuais de disciplinas e submissão de cadastro em mala direta/newsletter de editais.
-* **Tarefas 09 e 10 (João Vitor):** Modelagem da checagem de vagas reservadas a PcD/idosos e conferência de portarias de nomeação.
+* **Tarefas 03 e 04 (Pedro Rocha Ferreira Lima):** Modelagem de filtragem regional (Centro-Oeste) e verificação de cronogramas/retificações.
+* **Tarefas 05 e 06 (Arthur Sismene Carvalho):** Modelagem de simulados online com feedback de acertos e busca de estágios/trainees.
+* **Tarefas 07 e 08 (Leonardo da Silva Lopes Júnior):** Modelagem do acesso a módulos audiovisuais de disciplinas e submissão de cadastro em mala direta/newsletter de editais.
+* **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem da checagem de vagas reservadas a PcD/idosos e conferência de portarias de nomeação.
 
 ---
 

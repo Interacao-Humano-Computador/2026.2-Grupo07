@@ -6,10 +6,12 @@
 | :--- | :--- |
 | Daniel da Silva Batista | Fundamentação teórica de ConcurTaskTrees (Paternò, 1999; Barbosa e Silva, 2010), taxonomia de tipos de tarefas e operadores temporais, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão dos operadores temporais de interação e estruturação das Tarefas 05 e 06. |
+| João Vitor Sales Ibiapina | Revisão das relações temporais e estruturação das Tarefas 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Revisão da classificação de tarefas de sistema e interação das Tarefas 07 e 08. |
 | Pedro Rocha Ferreira Lima | Definição das relações temporais de escolha e estruturação das Tarefas 03 e 04. |
+| Gemini | Geração dos diagramas CTT em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -19,61 +21,57 @@
 
 O método **ConcurTaskTrees** (CTT), concebido pelo pesquisador italiano Fabio Paternò (1999) no âmbito do CNR-ISTI e amplamente referenciado por Barbosa e Silva (2010, Cap. 8.4), é uma notação gráfica e formal desenvolvida especificamente para a Engenharia de Usabilidade e o Design de Interação. Diferentemente de métodos puramente funcionais, o CTT destaca-se por modelar com precisão as relações temporais e a concorrência entre as atividades, além de distinguir claramente a responsabilidade de execução entre o ser humano e a máquina.
 
-### 1.1 Tipos de Tarefas no CTT
+No CTT, as tarefas são decompostas hierarquicamente em uma árvore estrita e categorizadas segundo quatro papéis fundamentais de execução (*Taxonomia Quadripartite*):
 
-A notação CTT classifica cada nó da árvore hierárquica em quatro categorias fundamentais:
+* **Tarefa de Usuário (*User Task*):** Atividade puramente cognitiva ou sensorial executada internamente pelo indivíduo (ex.: avaliar a relevância de uma listagem ou tomar uma decisão mental), sem interação direta com o dispositivo.
+* **Tarefa do Sistema (*System Task*):** Processamento automatizado realizado pelo software (ex.: consultar banco de dados, filtrar registros ou gerar arquivo PDF), sem intervenção humana no momento da execução.
+* **Tarefa de Interação (*Interaction Task*):** Ação direta de diálogo físico entre usuário e máquina (ex.: clicar em um hiperlink, digitar um termo em um campo de texto ou acionar um botão).
+* **Tarefa Abstrata (*Abstract Task*):** Nó de composição ou objetivo de alto nível que engloba subconjuntos de tarefas de tipos heterogêneos.
 
-* **Tarefa Abstrata (Abstract):** Representa um objetivo de composição de alto nível que não é executado diretamente, mas sim desdobrado em subtarefas de naturezas distintas.
-* **Tarefa de Usuário (User):** Atividade estritamente cognitiva ou sensorial realizada pelo usuário sem envolver diretamente a manipulação da interface (ex.: decidir qual concurso prestar, analisar se o cargo é compatível).
-* **Tarefa de Interação (Interaction):** Ação mútua e bidirecional de comunicação entre o usuário e o sistema computacional (ex.: preencher campo de busca, clicar em botão, selecionar item de menu).
-* **Tarefa de Sistema (System):** Processamento autônomo executado pelo computador sem intervenção direta do usuário (ex.: consultar banco de dados de concursos, gerar página de resultados, disparar download do PDF).
-
-### 1.2 Operadores Temporais do CTT
-
-As relações lógicas e a ordem de execução entre tarefas irmãs no mesmo nível hierárquico são expressas por operadores temporais formais:
+A grande potência do CTT reside em sua gramática de **operadores temporais formais**, que expressam a lógica dinâmica de execução entre tarefas irmãs situadas no mesmo nível hierárquico, conforme sintetizado na Tabela 1:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Operadores Temporais da Notação CTT</b></p>
+<p align="center"><b>Tabela 1: Operadores Temporais de Relação entre Tarefas no CTT</b></p>
 
-| Notação Formal | Nome do Operador | Descrição Semântica |
+| Operador | Nome Formal | Significado Semântico |
 | :---: | :--- | :--- |
-| `T1 >> T2` | **Ativação Sequencial** | A tarefa `T2` só pode ser iniciada imediatamente após o término com sucesso de `T1`. |
-| `T1 []>> T2` | **Ativação com Passagem de Informação** | `T2` é ativada após o término de `T1`, recebendo como entrada os dados gerados por `T1`. |
-| `T1 [] T2` | **Escolha Alternativa** | O usuário ou o fluxo deve optar por executar `T1` ou `T2`. A escolha de uma desativa a outra. |
-| `T1 ||| T2` | **Concorrência e Independência** | As tarefas `T1` e `T2` podem ser executadas simultaneamente ou em qualquer ordem relativa. |
-| `T1 [> T2` | **Desativação / Interrupção** | A tarefa `T1` é desativada e interrompida no momento exato em que a tarefa `T2` é iniciada. |
+| `T1 >> T2` | **Ativação Sequencial (*Enabling*)** | A tarefa `T2` só pode ser iniciada após a conclusão bem-sucedida de `T1`. |
+| `T1 []>> T2` | **Ativação com Passagem de Informação** | `T1` habilita `T2` e transfere os dados produzidos para a entrada de `T2`. |
+| `T1 [] T2` | **Escolha Alternativa (*Choice*)** | O usuário pode optar por executar `T1` OU `T2`; ao iniciar uma, a outra é descartada. |
+| `T1 \|\|\| T2` | **Interleaving (Concorrência)** | `T1` e `T2` podem ser executadas em qualquer ordem ou alternadamente sem interferência. |
+| `T1 [> T2` | **Desativação (*Deactivation*)** | A execução de `T2` interrompe definitivamente a execução de `T1`. |
 | `T1 \|> T2` | **Suspensão e Retomada** | `T1` é temporariamente suspensa por `T2` e retoma sua execução após o término de `T2`. |
 | `T*` | **Iteração** | A tarefa `T` é executada repetidas vezes até que uma condição de parada seja satisfeita. |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
 ---
 
-## 2. Matriz de Atribuição das Tarefas para Modelagem CTT
+## 2. Matriz de Tarefas do PCI Concursos
 
-Em consonância com a análise HTA e a divisão do grupo, as 10 tarefas do PCI Concursos foram mapeadas e atribuídas aos integrantes conforme a tabela abaixo:
+A equipe consolidou a matriz com as dez tarefas avaliadas no portal, mapeando a distribuição individual entre os integrantes:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 2: Matriz de Tarefas para ConcurTaskTrees</b></p>
+<p align="center"><b>Tabela 2: Matriz de Tarefas Mapeadas para CTT</b></p>
 
-| ID | Nome da Tarefa | Membro Responsável |
+| ID | Descrição da Tarefa | Responsável |
 | :---: | :--- | :--- |
-| **TAR-01** | Buscar edital de concurso por palavra-chave ou órgão | **Daniel da Silva Batista** |
-| **TAR-02** | Baixar caderno de provas anteriores e gabarito oficial em PDF | **Daniel da Silva Batista** |
-| **TAR-03** | Filtrar concursos abertos na região Centro-Oeste / DF | Pedro Rocha Ferreira Lima |
-| **TAR-04** | Consultar retificações de edital e prorrogações de cronograma | Pedro Rocha Ferreira Lima |
-| **TAR-05** | Realizar simulado de questões online no navegador | Arthur Sismene Carvalho |
+| **TAR-01** | Buscar edital de concurso por palavra-chave ou órgão | Daniel da Silva Batista |
+| **TAR-02** | Baixar caderno de provas anteriores e gabarito oficial em PDF | Daniel da Silva Batista |
+| **TAR-03** | Filtrar concursos por região geográfica (Centro-Oeste / DF) | Pedro Rocha Ferreira Lima |
+| **TAR-04** | Consultar retificações, cronogramas e datas de prova | Pedro Rocha Ferreira Lima |
+| **TAR-05** | Realizar simulado de questões online com feedback de gabarito | Arthur Sismene Carvalho |
 | **TAR-06** | Buscar oportunidades de estágio de nível superior no DF | Arthur Sismene Carvalho |
-| **TAR-07** | Acessar videoaulas e dicas de disciplinas para estudo | Leonardo da Silva Lopes Júnior |
-| **TAR-08** | Cadastrar endereço de e-mail para alerta de novos concursos | Leonardo da Silva Lopes Júnior |
-| **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor |
-| **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor |
+| **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
+| **TAR-08** | Cadastrar e configurar recebimento de alertas de vagas por e-mail | Leonardo da Silva Lopes Júnior |
+| **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor Sales Ibiapina |
+| **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor Sales Ibiapina |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -86,6 +84,12 @@ Em consonância com a análise HTA e a divisão do grupo, as 10 tarefas do PCI C
 A representação em árvore de tarefas CTT para a Tarefa 01 é apresentada no diagrama da Figura 1 a seguir, e a especificação formal de seus nós, tipos e operadores temporais é apresentada na Tabela 3.
 
 #### Diagrama de Árvore CTT (Figura 1)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 1:</b> Representação em Árvore CTT da Tarefa 01</p>
+
+</div>
 
 ```mermaid
 flowchart TD
@@ -138,8 +142,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 1: Representação em Árvore CTT da Tarefa 01</b></p>
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
 
 </div>
 
@@ -162,7 +165,7 @@ flowchart TD
 | **Avaliar relevância da listagem** | Usuário | `>>` | Leitura das manchetes para identificar a data e o órgão correto. |
 | **Selecionar concurso desejado** | Interação | - | Clique no hiperlink do concurso selecionado para abrir a página do edital. |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -173,6 +176,12 @@ flowchart TD
 A representação em árvore da Tarefa 02 é ilustrada na Figura 2 a seguir, e sua especificação formal de nós, tipos e operadores temporais é apresentada na Tabela 4.
 
 #### Diagrama de Árvore CTT (Figura 2)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 2:</b> Representação em Árvore CTT da Tarefa 02</p>
+
+</div>
 
 ```mermaid
 flowchart TD
@@ -210,8 +219,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 2: Representação em Árvore CTT da Tarefa 02</b></p>
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
 
 </div>
 
@@ -232,7 +240,7 @@ flowchart TD
 | **Clicar em link do Gabarito** | Interação | `[]>>` | Retorno à página e clique no hiperlink correspondente à folha de gabarito. |
 | **Entregar arquivo PDF do Gabarito** | Sistema | - | O sistema dispara o download da chave de respostas oficiais. |
 
-<p align="center">Fonte: Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -242,10 +250,10 @@ flowchart TD
 
 As Tarefas 03 a 10 seguirão o padrão rigoroso estabelecido nas Tabelas 3 e 4, utilizando a classificação quadripartite de Paternò e detalhando a interação humano-máquina com base nas gravações empíricas:
 
-* **Tarefas 03 e 04 (Pedro Rocha):** Modelagem de filtragem regional com operadores de escolha alternativa (`[]`) e checagem periódica de retificações (`T*`).
-* **Tarefas 05 e 06 (Arthur Sismene):** Modelagem de fluxo interativo de resposta a questões em simulado e submissão de respostas com feedback instantâneo do sistema.
-* **Tarefas 07 e 08 (Leonardo Lopes):** Modelagem de reprodução audiovisual de mídia e envio de formulário com validação de formato de e-mail pelo sistema.
-* **Tarefas 09 e 10 (João Vitor):** Modelagem de varredura de tabelas de vagas de PcD e acompanhamento de editais de resultado definitivo.
+* **Tarefas 03 e 04 (Pedro Rocha Ferreira Lima):** Modelagem de filtragem regional com operadores de escolha alternativa (`[]`) e checagem periódica de retificações (`T*`).
+* **Tarefas 05 e 06 (Arthur Sismene Carvalho):** Modelagem de fluxo interativo de resposta a questões em simulado e submissão de respostas com feedback instantâneo do sistema.
+* **Tarefas 07 e 08 (Leonardo da Silva Lopes Júnior):** Modelagem de reprodução audiovisual de mídia e envio de formulário com validação de formato de e-mail pelo sistema.
+* **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem de varredura de tabelas de vagas de PcD e acompanhamento de editais de resultado definitivo.
 
 ---
 
