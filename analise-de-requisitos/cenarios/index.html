@@ -1,0 +1,1632 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto da disciplina de Interação Humano-Computador (FGA-UnB) - Análise e Reprojeto do PCI Concursos">
+      
+      
+        <meta name="author" content="Equipe Grupo 07 - IHC">
+      
+      
+        <link rel="canonical" href="https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/analise-de-requisitos/cenarios/">
+      
+      
+        <link rel="prev" href="../personas/">
+      
+      
+        <link rel="next" href="../analise-de-tarefas/hta/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Cenários - IHC - PCI Concursos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cenarios" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="IHC - PCI Concursos" class="md-header__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC - PCI Concursos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cenários
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Escuro (Alto Contraste)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Escuro (Alto Contraste)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../apresentacao/apresentacao-1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Apresentações
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/membros/" class="md-tabs__link">
+          
+  
+  
+  Planejamento 1 (Etapa 1)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../aspectos-eticos/" class="md-tabs__link">
+          
+  
+  
+  Análise de Requisitos (Etapa 2)
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IHC - PCI Concursos" class="md-nav__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    IHC - PCI Concursos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacao/apresentacao-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento 1 (Etapa 1)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento 1 (Etapa 1)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/membros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/planejamento-do-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heatmap de Disponibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites Avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/site-escolhido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site Selecionado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ata-reuniao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas de Reunião
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos (Etapa 2)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos (Etapa 2)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos Éticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfil-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil do Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-elementos-constitutivos-de-um-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Elementos Constitutivos de um Cenário
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-matriz-de-cenarios-do-pci-concursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Matriz de Cenários do PCI Concursos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-detalhamento-dos-cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Detalhamento dos Cenários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Detalhamento dos Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-cenario-01-localizacao-agil-de-edital-de-tribunal-no-df-cen-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Cenário 01: Localização Ágil de Edital de Tribunal no DF (CEN-01)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-cenario-02-download-seguro-de-provas-anteriores-e-gabaritos-em-pdf-cen-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Cenário 02: Download Seguro de Provas Anteriores e Gabaritos em PDF (CEN-02)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-cenarios-03-a-10-estrutura-padronizada-para-validacao-em-campo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Cenários 03 a 10: Estrutura Padronizada para Validação em Campo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bibliografia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analise-de-tarefas/hta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analise-de-tarefas/ctt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CTT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-elementos-constitutivos-de-um-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Elementos Constitutivos de um Cenário
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-matriz-de-cenarios-do-pci-concursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Matriz de Cenários do PCI Concursos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-detalhamento-dos-cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Detalhamento dos Cenários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Detalhamento dos Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-cenario-01-localizacao-agil-de-edital-de-tribunal-no-df-cen-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Cenário 01: Localização Ágil de Edital de Tribunal no DF (CEN-01)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-cenario-02-download-seguro-de-provas-anteriores-e-gabaritos-em-pdf-cen-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Cenário 02: Download Seguro de Provas Anteriores e Gabaritos em PDF (CEN-02)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-cenarios-03-a-10-estrutura-padronizada-para-validacao-em-campo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Cenários 03 a 10: Estrutura Padronizada para Validação em Campo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bibliografia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div align="center">
+<p align="center"><b>Tabela de Contribuição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Membro</th>
+<th style="text-align: left;">Contribuição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">Fundamentação teórica de cenários (Carroll, 2000; Barbosa e Silva, 2010), estruturação dos elementos formais, redação detalhada dos Cenários 01 e 02 e organização dos templates para a equipe.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+<td style="text-align: left;">Revisão conceitual dos elementos de cenário e estruturação dos Cenários 05 e 06.</td>
+</tr>
+<tr>
+<td style="text-align: left;">João Vitor Sales Ibiapina</td>
+<td style="text-align: left;">Revisão da matriz de cenários e estruturação dos Cenários 09 e 10.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+<td style="text-align: left;">Revisão da coerência entre personas e contextos dos Cenários 07 e 08.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">Definição dos objetivos de busca regional e estruturação dos Cenários 03 e 04.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gemini</td>
+<td style="text-align: left;">Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA).</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<h1 id="cenarios">Cenários</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>Na Engenharia de Requisitos e no Design de Interação, os <strong>Cenários</strong> constituem narrativas contextuais concretas que descrevem o comportamento de um usuário durante a realização de uma ou mais atividades com o apoio de um sistema interativo (Barbosa e Silva, 2010). Fundamentada nos trabalhos seminais de John Carroll (2000), a técnica de design baseado em cenários permite que a equipe compreenda as motivações, as estratégias de planejamento, as ações físicas e a interpretação de resultados dos usuários em situações reais de uso.</p>
+<p>Enquanto a <a href="../personas/">Persona</a> define <em>quem</em> utiliza o sistema, o Cenário estabelece o <em>quando</em>, o <em>onde</em>, o <em>porquê</em> e o <em>como</em> essa interação ocorre, tornando explícitos os obstáculos ergonômicos e as barreiras de usabilidade que surgem ao longo do caminho.</p>
+<h2 id="2-elementos-constitutivos-de-um-cenario">2. Elementos Constitutivos de um Cenário</h2>
+<p>Para manter a consistência metodológica exigida na literatura de IHC, cada cenário documentado neste projeto é estruturado a partir dos sete elementos formais preconizados por Barbosa e Silva (2010, p. 182-183):</p>
+<ol>
+<li><strong>Ambiente ou Contexto:</strong> Detalhes da situação física, temporal, psicológica e social em que a interação ocorre, incluindo restrições de tempo, ruídos externos e dispositivos empregados.</li>
+<li><strong>Atores:</strong> As pessoas envolvidas na narrativa, diretamente vinculadas às <a href="../personas/">Personas</a> previamente modeladas.</li>
+<li><strong>Objetivos:</strong> O que o ator deseja alcançar ao final do processo (o estado final pretendido).</li>
+<li><strong>Planejamento:</strong> As estratégias cognitivas traçadas mentalmente pelo ator para atingir o objetivo com base em seu modelo mental prévio.</li>
+<li><strong>Ações:</strong> O encadeamento de ações físicas e operacionais executadas pelo ator na interface do sistema.</li>
+<li><strong>Eventos:</strong> As respostas apresentadas pelo sistema, bem como intercorrências externas (como anúncios publicitários concorrentes ou falhas de conexão).</li>
+<li><strong>Avaliação:</strong> A interpretação do ator sobre o estado atingido, julgando se seu objetivo foi alcançado com sucesso, se cometeu erros ou se necessitou de caminhos alternativos.</li>
+</ol>
+<hr />
+<h2 id="3-matriz-de-cenarios-do-pci-concursos">3. Matriz de Cenários do PCI Concursos</h2>
+<p>A Tabela 1 a seguir apresenta a relação dos 10 cenários elaborados pelo grupo, mapeando a persona envolvida, a tarefa associada e o integrante responsável:</p>
+<div align="center">
+<p align="center"><b>Tabela 1: Matriz de Cenários de Interação</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Título do Cenário</th>
+<th style="text-align: center;">Persona Associada</th>
+<th style="text-align: left;">Tarefa Relacionada</th>
+<th style="text-align: left;">Responsável</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>CEN-01</strong></td>
+<td style="text-align: left;">Localização Ágil de Edital de Tribunal no DF</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Busca de edital por palavra-chave / órgão</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CEN-02</strong></td>
+<td style="text-align: left;">Download Seguro de Provas Anteriores e Gabaritos em PDF</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Download de caderno de provas e gabarito</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CEN-03</strong></td>
+<td style="text-align: left;">Filtragem de Concursos Abertos na Região Centro-Oeste</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Filtragem de editais por região geográfica</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CEN-04</strong></td>
+<td style="text-align: left;">Acompanhamento de Retificações e Prazos de Edital</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Consulta a retificações e cronogramas</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CEN-05</strong></td>
+<td style="text-align: left;">Resolução de Questões em Simulado Online no Smartphone</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Simulado de questões online</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CEN-06</strong></td>
+<td style="text-align: left;">Prospecção de Vagas de Estágio de Nível Superior no DF</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Busca de oportunidades de estágio</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CEN-07</strong></td>
+<td style="text-align: left;">Acesso Rápido a Videoaulas de Direito Administrativo</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Consulta a videoaulas e dicas didáticas</td>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CEN-08</strong></td>
+<td style="text-align: left;">Configuração de Alertas Automáticos de Vagas por E-mail</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Cadastro de avisos de concursos por e-mail</td>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CEN-09</strong></td>
+<td style="text-align: left;">Consulta a Vagas Reservadas e Isenção de Taxa para PcD</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Verificação de vagas para cotas / PcD</td>
+<td style="text-align: left;">João Vitor Sales Ibiapina</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CEN-10</strong></td>
+<td style="text-align: left;">Acompanhamento de Convocação de Concurso Homologado</td>
+<td style="text-align: center;"><em>A definir pelo responsável</em></td>
+<td style="text-align: left;">Consulta a notícias de chamadas públicas</td>
+<td style="text-align: left;">João Vitor Sales Ibiapina</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h2 id="4-detalhamento-dos-cenarios">4. Detalhamento dos Cenários</h2>
+<h3 id="41-cenario-01-localizacao-agil-de-edital-de-tribunal-no-df-cen-01">4.1 Cenário 01: Localização Ágil de Edital de Tribunal no DF (CEN-01)</h3>
+<ul>
+<li><strong>Responsável:</strong> Daniel da Silva Batista  </li>
+<li><strong>Persona Associada:</strong> <em>A definir após a entrevista empírica com o usuário</em></li>
+</ul>
+<p>O detalhamento narrativo do Cenário 01, estruturado segundo os sete elementos formais de Carroll (2000) e Barbosa e Silva (2010), é apresentado na Tabela 2:</p>
+<div align="center">
+<p align="center"><b>Tabela 2: Detalhamento Narrativo do Cenário 01</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Elemento</th>
+<th style="text-align: left;">Descrição Narrativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Ambiente / Contexto</strong></td>
+<td style="text-align: left;">Terça-feira à noite, por volta das 22h. O usuário acabou de chegar da faculdade no Gama-DF, está cansado, mas ligou seu notebook pessoal no quarto para pesquisar se o edital do concurso do Tribunal de Justiça do DF (TJDFT) teve inscrições reabertas. Dispõe de apenas 15 minutos antes de dormir.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Atores</strong></td>
+<td style="text-align: left;">Estudante de graduação / participante da pesquisa (persona a ser formalizada após a entrevista).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Objetivos</strong></td>
+<td style="text-align: left;">Encontrar a página específica do concurso do TJDFT no PCI Concursos e verificar a situação das inscrições e prazos.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Planejamento</strong></td>
+<td style="text-align: left;">O usuário decide acessar o portal PCI Concursos (<code>pciconcursos.com.br</code>), utilizar o campo de pesquisa textual no cabeçalho ou menu e digitar "TJDFT" para ser conduzido diretamente ao concurso pretendido.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ações</strong></td>
+<td style="text-align: left;">1. O participante digita a URL do portal no navegador Google Chrome e pressiona Enter.<br>2. Ao carregar a página inicial repleta de tabelas e banners publicitários, localiza a barra de pesquisa no topo.<br>3. Digita o termo "TJDFT" e clica no ícone de busca.<br>4. Rola os resultados retornados procurando a notícia mais recente com o status do concurso.<br>5. Clica no link com o título correspondente ao tribunal.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Eventos</strong></td>
+<td style="text-align: left;">A página inicial demora alguns segundos para renderizar completamente devido ao carregamento de scripts de anúncios do Google Ads. Ao submeter a busca, o sistema abre uma página de resultados com múltiplos anúncios patrocinados intercalados, exigindo que o participante ignore blocos comerciais para identificar o link institucional real do concurso.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Avaliação</strong></td>
+<td style="text-align: left;">O participante consegue encontrar a página do concurso do TJDFT e confirma as datas, mas sente-se desgastado mentalmente com o excesso de poluição visual e a dificuldade em isolar os links editoriais legítimos.</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h3 id="42-cenario-02-download-seguro-de-provas-anteriores-e-gabaritos-em-pdf-cen-02">4.2 Cenário 02: Download Seguro de Provas Anteriores e Gabaritos em PDF (CEN-02)</h3>
+<ul>
+<li><strong>Responsável:</strong> Daniel da Silva Batista  </li>
+<li><strong>Persona Associada:</strong> <em>A definir após a entrevista empírica com o usuário</em></li>
+</ul>
+<p>O detalhamento narrativo do Cenário 02 é apresentado na Tabela 3 a seguir:</p>
+<div align="center">
+<p align="center"><b>Tabela 3: Detalhamento Narrativo do Cenário 02</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Elemento</th>
+<th style="text-align: left;">Descrição Narrativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Ambiente / Contexto</strong></td>
+<td style="text-align: left;">Sábado pela manhã, no quarto de estudos. O participante planejou dedicar a manhã para resolver questões reais da banca Cebraspe para o cargo de Analista de Tecnologia da Informação. Seu objetivo é salvar os arquivos no computador para poder imprimi-los e resolvê-los sem conexão.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Atores</strong></td>
+<td style="text-align: left;">Estudante de graduação / participante da pesquisa (persona a ser formalizada após a entrevista).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Objetivos</strong></td>
+<td style="text-align: left;">Localizar a seção de provas anteriores no PCI Concursos, selecionar o cargo de Analista de TI do último concurso de tribunal realizado e fazer o download do caderno de questões e da folha de respostas oficiais (gabarito) em formato PDF.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Planejamento</strong></td>
+<td style="text-align: left;">O usuário planeja acessar o menu lateral "Provas", utilizar filtros de cargo ou banca organizadora, localizar a prova desejada e clicar nos links diretos de download.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ações</strong></td>
+<td style="text-align: left;">1. Acessa a aba "Provas" no menu do PCI Concursos.<br>2. Seleciona o filtro ou pesquisa pelo nome da instituição examinadora e cargo "Tecnologia da Informação".<br>3. Identifica a linha correspondente à prova do concurso pretendido.<br>4. Clica no link rotulado como "Prova" para abrir o PDF em nova guia e salva o arquivo no disco rígido.<br>5. Retorna à listagem e clica no link rotulado como "Gabarito" para baixar o arquivo comparativo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Eventos</strong></td>
+<td style="text-align: left;">Na página de download, banners de anunciantes exibem botões verdes chamativos com a palavra "DOWNLOAD" em destaque. O participante quase clica em um anúncio de adware antes de perceber que o link legítimo do PDF é, na verdade, um texto sublinhado simples com tipografia menor situado logo abaixo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Avaliação</strong></td>
+<td style="text-align: left;">O participante atinge o objetivo de baixar os PDFs, mas avalia criticamente a experiência, ressaltando o risco permanente que usuários menos experientes correm de baixar softwares maliciosos ao confundir botões falsos com o download da prova.</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h3 id="43-cenarios-03-a-10-estrutura-padronizada-para-validacao-em-campo">4.3 Cenários 03 a 10: Estrutura Padronizada para Validação em Campo</h3>
+<p>Os cenários a seguir foram concebidos a partir do perfil dos usuários entrevistados e seguem a mesma taxonomia formal de Carroll (2000), sendo validados e refinados individualmente por cada integrante durante suas respectivas sessões gravadas:</p>
+<ul>
+<li><strong>Cenário 03 (Responsável: Pedro Rocha Ferreira Lima — Persona a definir):</strong> O(A) participante / persona definida pelo integrante acessa a categoria "Centro-Oeste" para filtrar concursos no Distrito Federal com remunerações superiores a R$ 10.000,00, enfrentando dificuldades com a ordenação cronológica das notícias.</li>
+<li><strong>Cenário 04 (Responsável: Pedro Rocha Ferreira Lima — Persona a definir):</strong> O(A) participante / persona definida pelo integrante monitora um concurso já inscrito para verificar se a publicação da retificação nº 02 alterou o dia da prova objetiva.</li>
+<li><strong>Cenário 05 (Responsável: Arthur Sismene Carvalho — Persona a definir):</strong> O(A) participante / persona definida pelo integrante utiliza o smartphone no trajeto de transporte para resolver 10 questões no simulado online de Língua Portuguesa do portal.</li>
+<li><strong>Cenário 06 (Responsável: Arthur Sismene Carvalho — Persona a definir):</strong> O(A) participante / persona definida pelo integrante procura oportunidades de estágio remunerado em órgãos de Brasília na seção de processos seletivos para estudantes de nível superior e técnico.</li>
+<li><strong>Cenário 07 (Responsável: Leonardo da Silva Lopes Júnior — Persona a definir):</strong> O(A) participante / persona definida pelo integrante assiste a uma videoaula explicativa de Direito Constitucional em seu intervalo de descanso/almoço.</li>
+<li><strong>Cenário 08 (Responsável: Leonardo da Silva Lopes Júnior — Persona a definir):</strong> O(A) participante / persona definida pelo integrante cadastra seu endereço de e-mail no formulário de notícias para receber boletins automáticos sobre concursos da carreira judiciária.</li>
+<li><strong>Cenário 09 (Responsável: João Vitor Sales Ibiapina — Persona a definir):</strong> O(A) participante / persona definida pelo integrante busca auxílio para localizar no edital as regras de isenção de taxa de inscrição para candidatos de baixa renda e as vagas reservadas para pessoas com deficiência.</li>
+<li><strong>Cenário 10 (Responsável: João Vitor Sales Ibiapina — Persona a definir):</strong> O(A) participante / persona definida pelo integrante consulta a listagem de notícias de homologação do concurso de motorista municipal para conferir se seu número de inscrição consta na lista de convocados.</li>
+</ul>
+<hr />
+<h2 id="5-bibliografia">5. Bibliografia</h2>
+<blockquote>
+<p>BARBOSA, S. D. J.; SILVA, B. S. <em>Interação Humano-Computador</em>. Rio de Janeiro: Elsevier, 2010.<br />
+CARROLL, John M. <em>Making Use: Scenario-Based Design of Human-Computer Interactions</em>. Cambridge: MIT Press, 2000.<br />
+ROSSON, Mary Beth; CARROLL, John M. <em>Usability Engineering: Scenario-Based Development of Human-Computer Interaction</em>. San Francisco: Morgan Kaufmann, 2002.</p>
+</blockquote>
+<h2 id="6-historico-de-versoes">6. Histórico de Versões</h2>
+<div align="center">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor(es)</th>
+<th style="text-align: center;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">21/09/2026</td>
+<td style="text-align: left;">Fundamentação teórica de cenários (Carroll; Barbosa &amp; Silva), definição da matriz dos 10 cenários, detalhamento narrativo dos Cenários 01 e 02 e padronização para a equipe.</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+<td style="text-align: center;">Pedro Rocha Ferreira Lima</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

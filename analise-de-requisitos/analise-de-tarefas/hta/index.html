@@ -1,0 +1,1863 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto da disciplina de Interação Humano-Computador (FGA-UnB) - Análise e Reprojeto do PCI Concursos">
+      
+      
+        <meta name="author" content="Equipe Grupo 07 - IHC">
+      
+      
+        <link rel="canonical" href="https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/analise-de-requisitos/analise-de-tarefas/hta/">
+      
+      
+        <link rel="prev" href="../../cenarios/">
+      
+      
+        <link rel="next" href="../ctt/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>HTA - IHC - PCI Concursos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#analise-hierarquica-de-tarefas-hta" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-header__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC - PCI Concursos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              HTA
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Escuro (Alto Contraste)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Escuro (Alto Contraste)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../apresentacao/apresentacao-1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Apresentações
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/membros/" class="md-tabs__link">
+          
+  
+  
+  Planejamento 1 (Etapa 1)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../aspectos-eticos/" class="md-tabs__link">
+          
+  
+  
+  Análise de Requisitos (Etapa 2)
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-nav__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    IHC - PCI Concursos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento 1 (Etapa 1)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento 1 (Etapa 1)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/membros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/planejamento-do-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heatmap de Disponibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites Avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/site-escolhido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site Selecionado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ata-reuniao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas de Reunião
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos (Etapa 2)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos (Etapa 2)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos Éticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfil-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil do Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTA
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao-e-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução e Fundamentação Teórica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introdução e Fundamentação Teórica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elementos-estruturais-da-notacao-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elementos Estruturais da Notação HTA:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-matriz-de-tarefas-do-pci-concursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Matriz de Tarefas do PCI Concursos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-modelagem-detalhada-das-tarefas-daniel-da-silva-batista" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-tarefa-01-buscar-edital-de-concurso-por-palavra-chave-ou-orgao-tar-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-decomposicao-hta-figura-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Decomposição HTA (Figura 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-hta-objetivos-operacoes-problemas-e-recomendacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-tarefa-02-baixar-caderno-de-provas-anteriores-e-gabarito-oficial-em-pdf-tar-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-decomposicao-hta-figura-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Decomposição HTA (Figura 2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-hta-objetivos-operacoes-problemas-e-recomendacoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-estrutura-para-validacao-das-tarefas-03-a-10-pelos-demais-integrantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Estrutura para Validação das Tarefas 03 a 10 pelos Demais Integrantes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bibliografia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ctt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CTT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao-e-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução e Fundamentação Teórica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introdução e Fundamentação Teórica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elementos-estruturais-da-notacao-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elementos Estruturais da Notação HTA:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-matriz-de-tarefas-do-pci-concursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Matriz de Tarefas do PCI Concursos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-modelagem-detalhada-das-tarefas-daniel-da-silva-batista" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-tarefa-01-buscar-edital-de-concurso-por-palavra-chave-ou-orgao-tar-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-decomposicao-hta-figura-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Decomposição HTA (Figura 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-hta-objetivos-operacoes-problemas-e-recomendacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-tarefa-02-baixar-caderno-de-provas-anteriores-e-gabarito-oficial-em-pdf-tar-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-decomposicao-hta-figura-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Decomposição HTA (Figura 2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-hta-objetivos-operacoes-problemas-e-recomendacoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-estrutura-para-validacao-das-tarefas-03-a-10-pelos-demais-integrantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Estrutura para Validação das Tarefas 03 a 10 pelos Demais Integrantes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bibliografia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div align="center">
+<p align="center"><b>Tabela de Contribuição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Membro</th>
+<th style="text-align: left;">Contribuição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">Fundamentação teórica de HTA (Annett &amp; Duncan, 1967; Barbosa e Silva, 2010), estruturação da matriz de tarefas, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+<td style="text-align: left;">Revisão da decomposição funcional e estruturação das Tarefas 05 e 06.</td>
+</tr>
+<tr>
+<td style="text-align: left;">João Vitor Sales Ibiapina</td>
+<td style="text-align: left;">Revisão da decomposição hierárquica e estruturação das Tarefas 09 e 10.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+<td style="text-align: left;">Revisão das operações e planos condicionais das Tarefas 07 e 08.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">Definição dos critérios de análise de problemas e estruturação das Tarefas 03 e 04.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gemini</td>
+<td style="text-align: left;">Geração dos diagramas HTA em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA).</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<h1 id="analise-hierarquica-de-tarefas-hta">Análise Hierárquica de Tarefas (HTA)</h1>
+<h2 id="1-introducao-e-fundamentacao-teorica">1. Introdução e Fundamentação Teórica</h2>
+<p>A <strong>Análise Hierárquica de Tarefas</strong> (<em>Hierarchical Task Analysis</em> - HTA), desenvolvida originalmente por Annett e Duncan (1967) e amplamente detalhada por Barbosa e Silva (2010, Cap. 8.4), é um dos métodos clássicos e mais consolidados de análise de tarefas em Interação Humano-Computador. A técnica baseia-se na decomposição funcional de alto nível dos objetivos de um usuário em subobjetivos menores e, sucessivamente, em <strong>operações</strong> elementares — que correspondem às ações físicas e cognitivas concretas executadas para alcançar cada estado desejado.</p>
+<p>No HTA, a execução dos subobjetivos e operações é rigorosamente regida por <strong>planos</strong>, que especificam as condições lógicas, sequenciais ou alternativas sob as quais as ações devem ser realizadas (por exemplo: sequências estritas, decisões condicionais do tipo "se... então", repetições cíclicas ou execuções paralelas). Essa abordagem permite identificar gargalos cognitivos, erros operacionais recorrentes e propor recomendações ergonômicas de design de interface centradas na eficácia e satisfação do usuário.</p>
+<h3 id="elementos-estruturais-da-notacao-hta">Elementos Estruturais da Notação HTA:</h3>
+<ul>
+<li><strong>Objetivos e Subobjetivos:</strong> Estados finais que a pessoa deseja atingir no sistema (ex.: "Baixar edital em PDF").</li>
+<li><strong>Operações:</strong> Unidades básicas de comportamento físico ou cognitivo necessárias para atingir um subobjetivo (ex.: "Digitar nome do órgão no campo de busca").</li>
+<li><strong>Planos:</strong> Instruções lógicas e condicionais que determinam a ordem, a frequência e as circunstâncias em que os subobjetivos e operações devem ser executados (ex.: "Plano 0: Fazer 1; depois 2; se erro, repetir 1; senão fazer 3").</li>
+<li><strong>Identificação de Problemas e Recomendações:</strong> A análise em IHC expande a representação funcional para mapear barreiras de usabilidade, falhas ergonômicas e propor recomendações de reprojeto para cada etapa da tarefa.</li>
+</ul>
+<hr />
+<h2 id="2-matriz-de-tarefas-do-pci-concursos">2. Matriz de Tarefas do PCI Concursos</h2>
+<p>Com base nos três perfis de usuário delineados na pesquisa de requisitos e no escopo funcional do portal <strong>PCI Concursos</strong>, foram selecionadas <strong>dez tarefas representativas</strong> para a avaliação empírica e modelagem formal. Cada integrante da equipe é responsável pela condução e especificação aprofundada de duas tarefas complementares, articulando o diagrama de decomposição com a análise crítica de usabilidade.</p>
+<p>A Tabela 1 a seguir consolida a matriz geral de tarefas da equipe:</p>
+<div align="center">
+<p align="center"><b>Tabela 1: Matriz Geral de Tarefas Avaliadas</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Descrição da Tarefa</th>
+<th style="text-align: left;">Integrante Responsável</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>TAR-01</strong></td>
+<td style="text-align: left;">Buscar edital de concurso por palavra-chave ou órgão</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-02</strong></td>
+<td style="text-align: left;">Baixar caderno de provas anteriores e gabarito oficial em PDF</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-03</strong></td>
+<td style="text-align: left;">Filtrar concursos por região geográfica (Centro-Oeste / DF)</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-04</strong></td>
+<td style="text-align: left;">Consultar retificações, cronogramas e datas de prova</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-05</strong></td>
+<td style="text-align: left;">Realizar simulado de questões online com feedback de gabarito</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-06</strong></td>
+<td style="text-align: left;">Buscar oportunidades de estágio de nível superior no DF</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-07</strong></td>
+<td style="text-align: left;">Acessar videoaulas e dicas teóricas de disciplinas</td>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-08</strong></td>
+<td style="text-align: left;">Cadastrar e configurar recebimento de alertas de vagas por e-mail</td>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-09</strong></td>
+<td style="text-align: left;">Consultar vagas reservadas para cotas e pessoas com deficiência (PcD)</td>
+<td style="text-align: left;">João Vitor Sales Ibiapina</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-10</strong></td>
+<td style="text-align: left;">Acompanhar notícias de homologação e convocações de aprovados</td>
+<td style="text-align: left;">João Vitor Sales Ibiapina</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h2 id="3-modelagem-detalhada-das-tarefas-daniel-da-silva-batista">3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)</h2>
+<h3 id="31-tarefa-01-buscar-edital-de-concurso-por-palavra-chave-ou-orgao-tar-01">3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)</h3>
+<p>A decomposição hierárquica de objetivos e planos da Tarefa 01 é ilustrada na Figura 1 a seguir, e a especificação detalhada de suas operações, problemas de usabilidade identificados e recomendações de design é apresentada na Tabela 2.</p>
+<h4 id="diagrama-de-decomposicao-hta-figura-1">Diagrama de Decomposição HTA (Figura 1)</h4>
+<div align="center">
+<p align="center"><b>Figura 1:</b> Diagrama HTA da Tarefa 01 - Buscar edital por palavra-chave</p>
+</div>
+<pre class="mermaid"><code>flowchart TD
+    T0["0. Buscar edital de concurso por palavra-chave ou órgão&lt;br&gt;&lt;i&gt;Plano 0: 1 depois 2 depois 3; se não encontrar, fazer 4&lt;/i&gt;"]
+
+    T1["1. Acessar o campo de busca no portal&lt;br&gt;&lt;i&gt;Plano 1: 1.1 e 1.2&lt;/i&gt;"]
+    T11["1.1 Localizar barra de pesquisa no cabeçalho"]
+    T12["1.2 Clicar na caixa de texto"]
+
+    T2["2. Inserir critério de pesquisa&lt;br&gt;&lt;i&gt;Plano 2: 2.1 depois 2.2&lt;/i&gt;"]
+    T21["2.1 Digitar nome do órgão ou cargo pretendido"]
+    T22["2.2 Pressionar Enter ou clicar no ícone de lupa"]
+
+    T3["3. Analisar resultados retornados&lt;br&gt;&lt;i&gt;Plano 3: 3.1 depois 3.2&lt;/i&gt;"]
+    T31["3.1 Diferenciar links de notícias editoriais de blocos de anúncios"]
+    T32["3.2 Clicar no título do concurso correspondente"]
+
+    T4["4. Refinar critérios de busca (se necessário)&lt;br&gt;&lt;i&gt;Plano 4: 4.1 ou 4.2&lt;/i&gt;"]
+    T41["4.1 Alterar termo de busca com palavras-chave alternativas"]
+    T42["4.2 Utilizar busca avançada ou navegação regional"]
+
+    T0 --&gt; T1
+    T0 --&gt; T2
+    T0 --&gt; T3
+    T0 --&gt; T4
+
+    T1 --&gt; T11
+    T1 --&gt; T12
+
+    T2 --&gt; T21
+    T2 --&gt; T22
+
+    T3 --&gt; T31
+    T3 --&gt; T32
+
+    T4 --&gt; T41
+    T4 --&gt; T42</code></pre>
+<div align="center">
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
+</div>
+<h4 id="tabela-hta-objetivos-operacoes-problemas-e-recomendacoes">Tabela HTA: Objetivos, Operações, Problemas e Recomendações</h4>
+<div align="center">
+<p align="center"><b>Tabela 2: Análise HTA da Tarefa 01</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Objetivos / Operações</th>
+<th style="text-align: left;">Relações / Planos</th>
+<th style="text-align: left;">Problemas Identificados</th>
+<th style="text-align: left;">Recomendações de Usabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>0. Buscar edital de concurso por palavra-chave ou órgão</strong></td>
+<td style="text-align: left;"><strong>Plano 0:</strong> Executar 1, 2 e 3 em sequência. Se a listagem não trouxer o resultado esperado, executar 4.</td>
+<td style="text-align: left;">O mecanismo de busca interna depende de busca textual com baixa tolerância a erros ortográficos ou sinônimos.</td>
+<td style="text-align: left;">Implementar algoritmo de busca semântica com autocompletar e sugestões de correção ortográfica.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>1. Acessar o campo de busca no portal</strong></td>
+<td style="text-align: left;"><strong>Plano 1:</strong> Executar 1.1 e 1.2.</td>
+<td style="text-align: left;">A barra de busca no topo divide espaço com anúncios gráficos piscantes, dificultando a localização visual imediata.</td>
+<td style="text-align: left;">Centralizar a barra de pesquisa no topo com contraste visual elevado e destacar o ícone de lupa.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>1.1 Localizar barra de pesquisa</strong></td>
+<td style="text-align: left;">Ação visual</td>
+<td style="text-align: left;">Dificuldade de percepção para usuários com baixa visão.</td>
+<td style="text-align: left;">Garantir contraste mínimo 4.5:1 (WCAG AA).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>1.2 Clicar na caixa de texto</strong></td>
+<td style="text-align: left;">Ação física</td>
+<td style="text-align: left;">Falta de foco visual (<code>outline</code>) destacado ao clicar.</td>
+<td style="text-align: left;">Adicionar indicação visual clara de foco ativo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2. Inserir critério de pesquisa</strong></td>
+<td style="text-align: left;"><strong>Plano 2:</strong> Executar 2.1 e 2.2.</td>
+<td style="text-align: left;">Ausência de dicas de contexto ou <em>placeholders</em> explicativos na caixa.</td>
+<td style="text-align: left;">Inserir <em>placeholder</em> dinâmico: <em>"Ex: TJDFT, Banco do Brasil, Analista..."</em>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2.1 Digitar termo pretendido</strong></td>
+<td style="text-align: left;">Operação cognitiva/física</td>
+<td style="text-align: left;">Ao digitar siglas, o sistema pode não correlacionar com o nome por extenso.</td>
+<td style="text-align: left;">Adicionar dicionário de sinônimos de órgãos públicos.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2.2 Pressionar Enter ou clicar na lupa</strong></td>
+<td style="text-align: left;">Ação física</td>
+<td style="text-align: left;">O clique na lupa às vezes aciona recarregamento completo sem transição suave.</td>
+<td style="text-align: left;">Adicionar indicador visual de carregamento (<em>spinner</em>).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3. Analisar resultados retornados</strong></td>
+<td style="text-align: left;"><strong>Plano 3:</strong> Executar 3.1 e 3.2.</td>
+<td style="text-align: left;">A página de resultados mescla anúncios do Google Ads que imitam manchetes de notícias de concursos.</td>
+<td style="text-align: left;">Separar rigorosamente blocos patrocinados de resultados orgânicos com rótulo "Publicidade".</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3.1 Diferenciar notícias de anúncios</strong></td>
+<td style="text-align: left;">Operação cognitiva</td>
+<td style="text-align: left;">Alta carga cognitiva e propensão ao clique errôneo por usuários leigos.</td>
+<td style="text-align: left;">Adicionar borda e fundo diferenciado aos cards de notícias oficiais.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3.2 Clicar no link do concurso</strong></td>
+<td style="text-align: left;">Ação física</td>
+<td style="text-align: left;">Área de clique restrita apenas ao texto do hiperlink em azul claro.</td>
+<td style="text-align: left;">Tornar todo o card do concurso clicável (<em>hit area</em> expandida).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4. Refinar critérios de busca</strong></td>
+<td style="text-align: left;"><strong>Plano 4:</strong> Executar 4.1 ou 4.2 se necessário.</td>
+<td style="text-align: left;">A interface não oferece filtros de faceta rápidos (por estado, status ou escolaridade) na tela de resultados.</td>
+<td style="text-align: left;">Adicionar filtros laterais interativos (Estado, Escolaridade, Salário).</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h3 id="32-tarefa-02-baixar-caderno-de-provas-anteriores-e-gabarito-oficial-em-pdf-tar-02">3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)</h3>
+<p>A decomposição da Tarefa 02 é apresentada no diagrama da Figura 2, e sua correspondente análise detalhada de operações e problemas é fornecida na Tabela 3.</p>
+<h4 id="diagrama-de-decomposicao-hta-figura-2">Diagrama de Decomposição HTA (Figura 2)</h4>
+<div align="center">
+<p align="center"><b>Figura 2:</b> Diagrama HTA da Tarefa 02 - Download de provas anteriores e gabaritos</p>
+</div>
+<pre class="mermaid"><code>flowchart TD
+    T0["0. Baixar caderno de provas anteriores e gabarito em PDF&lt;br&gt;&lt;i&gt;Plano 0: 1 depois 2 depois 3 depois 4&lt;/i&gt;"]
+
+    T1["1. Navegar até a seção de Provas Anteriores&lt;br&gt;&lt;i&gt;Plano 1: 1.1 e 1.2&lt;/i&gt;"]
+    T11["1.1 Acessar menu 'Provas'"]
+    T12["1.2 Aguardar carregamento do catálogo"]
+
+    T2["2. Localizar o concurso e cargo pretendido&lt;br&gt;&lt;i&gt;Plano 2: 2.1 ou 2.2&lt;/i&gt;"]
+    T21["2.1 Filtrar por instituição / banca organizadora"]
+    T22["2.2 Filtrar por ano ou cargo específico"]
+
+    T3["3. Selecionar e baixar o caderno de questões&lt;br&gt;&lt;i&gt;Plano 3: 3.1 depois 3.2&lt;/i&gt;"]
+    T31["3.1 Identificar o link legítimo de download (ignorar banners falsos)"]
+    T32["3.2 Abrir ou salvar o arquivo PDF no dispositivo"]
+
+    T4["4. Selecionar e baixar o gabarito oficial&lt;br&gt;&lt;i&gt;Plano 4: 4.1 e 4.2&lt;/i&gt;"]
+    T41["4.1 Clicar no link correspondente ao 'Gabarito'"]
+    T42["4.2 Salvar o arquivo de gabarito para conferência"]
+
+    T0 --&gt; T1
+    T0 --&gt; T2
+    T0 --&gt; T3
+    T0 --&gt; T4
+
+    T1 --&gt; T11
+    T1 --&gt; T12
+
+    T2 --&gt; T21
+    T2 --&gt; T22
+
+    T3 --&gt; T31
+    T3 --&gt; T32
+
+    T4 --&gt; T41
+    T4 --&gt; T42</code></pre>
+<div align="center">
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
+</div>
+<h4 id="tabela-hta-objetivos-operacoes-problemas-e-recomendacoes_1">Tabela HTA: Objetivos, Operações, Problemas e Recomendações</h4>
+<div align="center">
+<p align="center"><b>Tabela 3: Análise HTA da Tarefa 02</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Objetivos / Operações</th>
+<th style="text-align: left;">Relações / Planos</th>
+<th style="text-align: left;">Problemas Identificados</th>
+<th style="text-align: left;">Recomendações de Usabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>0. Baixar caderno de provas anteriores e gabarito em PDF</strong></td>
+<td style="text-align: left;"><strong>Plano 0:</strong> Executar 1, 2, 3 e 4.</td>
+<td style="text-align: left;">A fragmentação entre prova e gabarito em links distintos obriga o usuário a idas e vindas de navegação.</td>
+<td style="text-align: left;">Disponibilizar botão único com opção <em>"Baixar Prova + Gabarito (.zip ou pacote)"</em>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>1. Navegar até a seção de Provas</strong></td>
+<td style="text-align: left;"><strong>Plano 1:</strong> Executar 1.1 e 1.2.</td>
+<td style="text-align: left;">O link do menu "Provas" é minúsculo e fica agrupado em uma coluna de dezenas de outros links no rodapé/lateral.</td>
+<td style="text-align: left;">Destacar a seção de Provas no menu de navegação primário superior.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2. Localizar concurso e cargo</strong></td>
+<td style="text-align: left;"><strong>Plano 2:</strong> Executar 2.1 ou 2.2.</td>
+<td style="text-align: left;">A listagem de provas é exibida em ordem alfabética estática gigantesca, sem paginação clara ou filtros reativos.</td>
+<td style="text-align: left;">Implementar tabela reativa com paginação, ordenação por ano e busca instantânea.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3. Selecionar e baixar a prova</strong></td>
+<td style="text-align: left;"><strong>Plano 3:</strong> Executar 3.1 e 3.2.</td>
+<td style="text-align: left;"><strong>Problema Crítico de Segurança e Usabilidade:</strong> Presença de anúncios com falsos botões "Download", enganando usuários.</td>
+<td style="text-align: left;">Isolar a área de download legítimo em uma caixa protegida de anúncios imediatos, com selo de arquivo verificado.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3.1 Identificar link de download real</strong></td>
+<td style="text-align: left;">Operação cognitiva</td>
+<td style="text-align: left;">O link legítimo é um texto azul sem ícone indicador de PDF (<code>.pdf</code>), com peso visual infinitamente menor que os anúncios.</td>
+<td style="text-align: left;">Inserir ícone universal de PDF vermelho acompanhado do peso do arquivo (ex.: <code>[PDF] Prova_Analista_TI.pdf (1.8 MB)</code>).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3.2 Salvar arquivo PDF</strong></td>
+<td style="text-align: left;">Ação física</td>
+<td style="text-align: left;">Dependendo da configuração do navegador, o PDF é aberto na mesma aba, perdendo o contexto da página do concurso.</td>
+<td style="text-align: left;">Forçar abertura em nova guia (<code>target="_blank"</code>) ou disparar o download direto com atributo <code>download</code>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4. Baixar o gabarito oficial</strong></td>
+<td style="text-align: left;"><strong>Plano 4:</strong> Executar 4.1 e 4.2.</td>
+<td style="text-align: left;">Se o gabarito tiver retificações (anulação de questões), o portal nem sempre indica claramente a versão final.</td>
+<td style="text-align: left;">Indicar textualmente: <em>"Gabarito Definitivo (Pós-Recurso)"</em> ao lado do link.</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h2 id="4-estrutura-para-validacao-das-tarefas-03-a-10-pelos-demais-integrantes">4. Estrutura para Validação das Tarefas 03 a 10 pelos Demais Integrantes</h2>
+<p>As demais tarefas modeladas pela equipe seguirão exatamente a mesma notação formal (diagrama Mermaid decomposto + tabela analítica de problemas e recomendações), integrando os achados empíricos das entrevistas gravadas:</p>
+<ul>
+<li><strong>Tarefas 03 e 04 (Pedro Rocha Ferreira Lima):</strong> Modelagem de filtragem regional (Centro-Oeste) e verificação de cronogramas/retificações.</li>
+<li><strong>Tarefas 05 e 06 (Arthur Sismene Carvalho):</strong> Modelagem de simulados online com feedback de acertos e busca de estágios/trainees.</li>
+<li><strong>Tarefas 07 e 08 (Leonardo da Silva Lopes Júnior):</strong> Modelagem do acesso a módulos audiovisuais de disciplinas e submissão de cadastro em mala direta/newsletter de editais.</li>
+<li><strong>Tarefas 09 e 10 (João Vitor Sales Ibiapina):</strong> Modelagem da checagem de vagas reservadas a PcD/idosos e conferência de portarias de nomeação.</li>
+</ul>
+<hr />
+<h2 id="5-bibliografia">5. Bibliografia</h2>
+<blockquote>
+<p>ANNETT, John; DUNCAN, Keith D. <em>Task Analysis and Training Design</em>. Journal of Occupational Psychology, v. 41, p. 211-221, 1967.<br />
+BARBOSA, S. D. J.; SILVA, B. S. <em>Interação Humano-Computador</em>. Rio de Janeiro: Elsevier, 2010.<br />
+DIAPER, Dan; STANTON, Neville. <em>The Handbook of Task Analysis for Human-Computer Interaction</em>. Mahwah: Lawrence Erlbaum Associates, 2004.</p>
+</blockquote>
+<h2 id="6-historico-de-versoes">6. Histórico de Versões</h2>
+<div align="center">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor(es)</th>
+<th style="text-align: center;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">21/09/2026</td>
+<td style="text-align: left;">Fundamentação de HTA (Annett &amp; Duncan; Barbosa &amp; Silva), matriz das 10 tarefas, modelagem completa das Tarefas 01 e 02 (diagramas Mermaid e tabelas com problemas/recomendações).</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+<td style="text-align: center;">Pedro Rocha Ferreira Lima</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

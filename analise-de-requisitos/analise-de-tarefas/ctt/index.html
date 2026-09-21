@@ -1,0 +1,1883 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto da disciplina de Interação Humano-Computador (FGA-UnB) - Análise e Reprojeto do PCI Concursos">
+      
+      
+        <meta name="author" content="Equipe Grupo 07 - IHC">
+      
+      
+        <link rel="canonical" href="https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/analise-de-requisitos/analise-de-tarefas/ctt/">
+      
+      
+        <link rel="prev" href="../hta/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>CTT - IHC - PCI Concursos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#concurtasktrees-ctt" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-header__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC - PCI Concursos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CTT
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Escuro (Alto Contraste)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Escuro (Alto Contraste)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../apresentacao/apresentacao-1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Apresentações
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/membros/" class="md-tabs__link">
+          
+  
+  
+  Planejamento 1 (Etapa 1)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../aspectos-eticos/" class="md-tabs__link">
+          
+  
+  
+  Análise de Requisitos (Etapa 2)
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-nav__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    IHC - PCI Concursos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento 1 (Etapa 1)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento 1 (Etapa 1)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/membros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/planejamento-do-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heatmap de Disponibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites Avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/site-escolhido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site Selecionado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ata-reuniao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas de Reunião
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos (Etapa 2)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos (Etapa 2)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos Éticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfil-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil do Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CTT
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CTT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao-e-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução e Fundamentação Teórica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-matriz-de-tarefas-do-pci-concursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Matriz de Tarefas do PCI Concursos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-modelagem-detalhada-das-tarefas-daniel-da-silva-batista" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-tarefa-01-buscar-edital-de-concurso-por-palavra-chave-ou-orgao-tar-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-arvore-ctt-figura-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Árvore CTT (Figura 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Especificação dos Nós e Operadores da Tarefa 01
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-tarefa-02-baixar-caderno-de-provas-anteriores-e-gabarito-oficial-em-pdf-tar-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-arvore-ctt-figura-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Árvore CTT (Figura 2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Especificação dos Nós e Operadores da Tarefa 02
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-estrutura-para-modelagem-das-tarefas-03-a-10-pelos-demais-integrantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Estrutura para Modelagem das Tarefas 03 a 10 pelos Demais Integrantes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bibliografia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao-e-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução e Fundamentação Teórica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-matriz-de-tarefas-do-pci-concursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Matriz de Tarefas do PCI Concursos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-modelagem-detalhada-das-tarefas-daniel-da-silva-batista" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-tarefa-01-buscar-edital-de-concurso-por-palavra-chave-ou-orgao-tar-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-arvore-ctt-figura-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Árvore CTT (Figura 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Especificação dos Nós e Operadores da Tarefa 01
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-tarefa-02-baixar-caderno-de-provas-anteriores-e-gabarito-oficial-em-pdf-tar-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-arvore-ctt-figura-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama de Árvore CTT (Figura 2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Especificação dos Nós e Operadores da Tarefa 02
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-estrutura-para-modelagem-das-tarefas-03-a-10-pelos-demais-integrantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Estrutura para Modelagem das Tarefas 03 a 10 pelos Demais Integrantes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bibliografia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div align="center">
+<p align="center"><b>Tabela de Contribuição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Membro</th>
+<th style="text-align: left;">Contribuição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">Fundamentação teórica de ConcurTaskTrees (Paternò, 1999; Barbosa e Silva, 2010), taxonomia de tipos de tarefas e operadores temporais, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+<td style="text-align: left;">Revisão dos operadores temporais de interação e estruturação das Tarefas 05 e 06.</td>
+</tr>
+<tr>
+<td style="text-align: left;">João Vitor Sales Ibiapina</td>
+<td style="text-align: left;">Revisão das relações temporais e estruturação das Tarefas 09 e 10.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+<td style="text-align: left;">Revisão da classificação de tarefas de sistema e interação das Tarefas 07 e 08.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">Definição das relações temporais de escolha e estruturação das Tarefas 03 e 04.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gemini</td>
+<td style="text-align: left;">Geração dos diagramas CTT em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA).</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<h1 id="concurtasktrees-ctt">ConcurTaskTrees (CTT)</h1>
+<h2 id="1-introducao-e-fundamentacao-teorica">1. Introdução e Fundamentação Teórica</h2>
+<p>O método <strong>ConcurTaskTrees</strong> (CTT), concebido pelo pesquisador italiano Fabio Paternò (1999) no âmbito do CNR-ISTI e amplamente referenciado por Barbosa e Silva (2010, Cap. 8.4), é uma notação gráfica e formal desenvolvida especificamente para a Engenharia de Usabilidade e o Design de Interação. Diferentemente de métodos puramente funcionais, o CTT destaca-se por modelar com precisão as relações temporais e a concorrência entre as atividades, além de distinguir claramente a responsabilidade de execução entre o ser humano e a máquina.</p>
+<p>No CTT, as tarefas são decompostas hierarquicamente em uma árvore estrita e categorizadas segundo quatro papéis fundamentais de execução (<em>Taxonomia Quadripartite</em>):</p>
+<ul>
+<li><strong>Tarefa de Usuário (<em>User Task</em>):</strong> Atividade puramente cognitiva ou sensorial executada internamente pelo indivíduo (ex.: avaliar a relevância de uma listagem ou tomar uma decisão mental), sem interação direta com o dispositivo.</li>
+<li><strong>Tarefa do Sistema (<em>System Task</em>):</strong> Processamento automatizado realizado pelo software (ex.: consultar banco de dados, filtrar registros ou gerar arquivo PDF), sem intervenção humana no momento da execução.</li>
+<li><strong>Tarefa de Interação (<em>Interaction Task</em>):</strong> Ação direta de diálogo físico entre usuário e máquina (ex.: clicar em um hiperlink, digitar um termo em um campo de texto ou acionar um botão).</li>
+<li><strong>Tarefa Abstrata (<em>Abstract Task</em>):</strong> Nó de composição ou objetivo de alto nível que engloba subconjuntos de tarefas de tipos heterogêneos.</li>
+</ul>
+<p>A grande potência do CTT reside em sua gramática de <strong>operadores temporais formais</strong>, que expressam a lógica dinâmica de execução entre tarefas irmãs situadas no mesmo nível hierárquico, conforme sintetizado na Tabela 1:</p>
+<div align="center">
+<p align="center"><b>Tabela 1: Operadores Temporais de Relação entre Tarefas no CTT</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Operador</th>
+<th style="text-align: left;">Nome Formal</th>
+<th style="text-align: left;">Significado Semântico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>T1 &gt;&gt; T2</code></td>
+<td style="text-align: left;"><strong>Ativação Sequencial (<em>Enabling</em>)</strong></td>
+<td style="text-align: left;">A tarefa <code>T2</code> só pode ser iniciada após a conclusão bem-sucedida de <code>T1</code>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>T1 []&gt;&gt; T2</code></td>
+<td style="text-align: left;"><strong>Ativação com Passagem de Informação</strong></td>
+<td style="text-align: left;"><code>T1</code> habilita <code>T2</code> e transfere os dados produzidos para a entrada de <code>T2</code>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>T1 [] T2</code></td>
+<td style="text-align: left;"><strong>Escolha Alternativa (<em>Choice</em>)</strong></td>
+<td style="text-align: left;">O usuário pode optar por executar <code>T1</code> OU <code>T2</code>; ao iniciar uma, a outra é descartada.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>T1 \|\|\| T2</code></td>
+<td style="text-align: left;"><strong>Interleaving (Concorrência)</strong></td>
+<td style="text-align: left;"><code>T1</code> e <code>T2</code> podem ser executadas em qualquer ordem ou alternadamente sem interferência.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>T1 [&gt; T2</code></td>
+<td style="text-align: left;"><strong>Desativação (<em>Deactivation</em>)</strong></td>
+<td style="text-align: left;">A execução de <code>T2</code> interrompe definitivamente a execução de <code>T1</code>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>T1 \|&gt; T2</code></td>
+<td style="text-align: left;"><strong>Suspensão e Retomada</strong></td>
+<td style="text-align: left;"><code>T1</code> é temporariamente suspensa por <code>T2</code> e retoma sua execução após o término de <code>T2</code>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>T*</code></td>
+<td style="text-align: left;"><strong>Iteração</strong></td>
+<td style="text-align: left;">A tarefa <code>T</code> é executada repetidas vezes até que uma condição de parada seja satisfeita.</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h2 id="2-matriz-de-tarefas-do-pci-concursos">2. Matriz de Tarefas do PCI Concursos</h2>
+<p>A equipe consolidou a matriz com as dez tarefas avaliadas no portal, mapeando a distribuição individual entre os integrantes:</p>
+<div align="center">
+<p align="center"><b>Tabela 2: Matriz de Tarefas Mapeadas para CTT</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Descrição da Tarefa</th>
+<th style="text-align: left;">Responsável</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>TAR-01</strong></td>
+<td style="text-align: left;">Buscar edital de concurso por palavra-chave ou órgão</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-02</strong></td>
+<td style="text-align: left;">Baixar caderno de provas anteriores e gabarito oficial em PDF</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-03</strong></td>
+<td style="text-align: left;">Filtrar concursos por região geográfica (Centro-Oeste / DF)</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-04</strong></td>
+<td style="text-align: left;">Consultar retificações, cronogramas e datas de prova</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-05</strong></td>
+<td style="text-align: left;">Realizar simulado de questões online com feedback de gabarito</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-06</strong></td>
+<td style="text-align: left;">Buscar oportunidades de estágio de nível superior no DF</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-07</strong></td>
+<td style="text-align: left;">Acessar videoaulas e dicas teóricas de disciplinas</td>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-08</strong></td>
+<td style="text-align: left;">Cadastrar e configurar recebimento de alertas de vagas por e-mail</td>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-09</strong></td>
+<td style="text-align: left;">Consultar vagas reservadas para cotas e pessoas com deficiência (PcD)</td>
+<td style="text-align: left;">João Vitor Sales Ibiapina</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TAR-10</strong></td>
+<td style="text-align: left;">Acompanhar notícias de homologação e convocações de aprovados</td>
+<td style="text-align: left;">João Vitor Sales Ibiapina</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h2 id="3-modelagem-detalhada-das-tarefas-daniel-da-silva-batista">3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)</h2>
+<h3 id="31-tarefa-01-buscar-edital-de-concurso-por-palavra-chave-ou-orgao-tar-01">3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)</h3>
+<p>A representação em árvore de tarefas CTT para a Tarefa 01 é apresentada no diagrama da Figura 1 a seguir, e a especificação formal de seus nós, tipos e operadores temporais é apresentada na Tabela 3.</p>
+<h4 id="diagrama-de-arvore-ctt-figura-1">Diagrama de Árvore CTT (Figura 1)</h4>
+<div align="center">
+<p align="center"><b>Figura 1:</b> Representação em Árvore CTT da Tarefa 01</p>
+</div>
+<pre class="mermaid"><code>flowchart TD
+    subgraph Legenda ["Legenda CTT"]
+        direction LR
+        L_Abs["[Abstrata]"]
+        L_Int["[Interação]"]
+        L_Sis["[Sistema]"]
+        L_Usu["[Usuário]"]
+    end
+
+    Root["[Abstrata] Buscar edital de concurso por palavra-chave"]
+
+    Sub1["[Interação] Inserir termo de pesquisa"]
+    Op1{"[]&gt;&gt;"}
+    Sub2["[Sistema] Consultar e exibir resultados"]
+    Op2{"&gt;&gt;"}
+    Sub3["[Usuário] Analisar e filtrar resultados"]
+    Op3{"&gt;&gt;"}
+    Sub4["[Interação] Selecionar concurso desejado"]
+
+    Root --&gt; Sub1
+    Root --&gt; Op1
+    Root --&gt; Sub2
+    Root --&gt; Op2
+    Root --&gt; Sub3
+    Root --&gt; Op3
+    Root --&gt; Sub4
+
+    %% Decomposição de Sub1
+    Sub1_1["[Interação] Clicar na barra de busca"]
+    Sub1_Op{"&gt;&gt;"}
+    Sub1_2["[Interação] Digitar nome do órgão/cargo"]
+    Sub1_Op2{"&gt;&gt;"}
+    Sub1_3["[Interação] Acionar botão de busca / Enter"]
+    Sub1 --&gt; Sub1_1
+    Sub1 --&gt; Sub1_Op
+    Sub1 --&gt; Sub1_2
+    Sub1 --&gt; Sub1_Op2
+    Sub1 --&gt; Sub1_3
+
+    %% Decomposição de Sub3
+    Sub3_1["[Usuário] Distinguir notícias de anúncios"]
+    Sub3_Op{"|||"}
+    Sub3_2["[Usuário] Avaliar relevância da listagem"]
+    Sub3 --&gt; Sub3_1
+    Sub3 --&gt; Sub3_Op
+    Sub3 --&gt; Sub3_2</code></pre>
+<div align="center">
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
+</div>
+<h4 id="tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-01">Tabela de Especificação dos Nós e Operadores da Tarefa 01</h4>
+<div align="center">
+<p align="center"><b>Tabela 3: Especificação Formal dos Nós CTT da Tarefa 01</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Nó / Tarefa</th>
+<th style="text-align: center;">Tipo CTT</th>
+<th style="text-align: center;">Operador Subsequente</th>
+<th style="text-align: left;">Descrição da Operação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Buscar edital por palavra-chave</strong></td>
+<td style="text-align: center;">Abstrata</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">Tarefa raiz de alto nível que engloba toda a busca e localização do concurso.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Inserir termo de pesquisa</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>[]&gt;&gt;</code></td>
+<td style="text-align: left;">O usuário digita a palavra-chave e submete os dados de texto para o sistema.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Clicar na barra de busca</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Posicionamento do cursor e foco no componente de entrada.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Digitar nome do órgão/cargo</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Entrada dos caracteres da busca (ex.: "TJDFT").</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Acionar busca / Enter</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>[]&gt;&gt;</code></td>
+<td style="text-align: left;">Disparo do evento de submissão repassando o termo à consulta.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Consultar e exibir resultados</strong></td>
+<td style="text-align: center;">Sistema</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">O servidor do PCI Concursos pesquisa a base e renderiza a listagem de links na tela.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Analisar e filtrar resultados</strong></td>
+<td style="text-align: center;">Usuário</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">O usuário realiza julgamento cognitivo para distinguir os links de notícias dos anúncios publicitários.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Distinguir notícias de anúncios</strong></td>
+<td style="text-align: center;">Usuário</td>
+<td style="text-align: center;"><code>\|\|\|</code></td>
+<td style="text-align: left;">Esforço cognitivo paralelo para ignorar banners do Google Ads.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Avaliar relevância da listagem</strong></td>
+<td style="text-align: center;">Usuário</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Leitura das manchetes para identificar a data e o órgão correto.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Selecionar concurso desejado</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">Clique no hiperlink do concurso selecionado para abrir a página do edital.</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h3 id="32-tarefa-02-baixar-caderno-de-provas-anteriores-e-gabarito-oficial-em-pdf-tar-02">3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)</h3>
+<p>A representação em árvore da Tarefa 02 é ilustrada na Figura 2 a seguir, e sua especificação formal de nós, tipos e operadores temporais é apresentada na Tabela 4.</p>
+<h4 id="diagrama-de-arvore-ctt-figura-2">Diagrama de Árvore CTT (Figura 2)</h4>
+<div align="center">
+<p align="center"><b>Figura 2:</b> Representação em Árvore CTT da Tarefa 02</p>
+</div>
+<pre class="mermaid"><code>flowchart TD
+    Root2["[Abstrata] Baixar prova anterior e gabarito em PDF"]
+
+    N1["[Interação] Acessar menu de provas"]
+    O1{"&gt;&gt;"}
+    N2["[Interação] Localizar concurso e cargo pretendido"]
+    O2{"&gt;&gt;"}
+    N3["[Abstrata] Obter arquivos de estudo"]
+
+    Root2 --&gt; N1
+    Root2 --&gt; O1
+    Root2 --&gt; N2
+    Root2 --&gt; O2
+    Root2 --&gt; N3
+
+    %% Decomposição de N3
+    N3_1["[Interação] Clicar em link da Prova"]
+    O3_1{"[]&gt;&gt;"}
+    N3_2["[Sistema] Entregar arquivo PDF da Prova"]
+    O3_2{"&gt;&gt;"}
+    N3_3["[Interação] Clicar em link do Gabarito"]
+    O3_3{"[]&gt;&gt;"}
+    N3_4["[Sistema] Entregar arquivo PDF do Gabarito"]
+
+    N3 --&gt; N3_1
+    N3 --&gt; O3_1
+    N3 --&gt; N3_2
+    N3 --&gt; O3_2
+    N3 --&gt; N3_3
+    N3 --&gt; O3_3
+    N3 --&gt; N3_4</code></pre>
+<div align="center">
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
+</div>
+<h4 id="tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-02">Tabela de Especificação dos Nós e Operadores da Tarefa 02</h4>
+<div align="center">
+<p align="center"><b>Tabela 4: Especificação Formal dos Nós CTT da Tarefa 02</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Nó / Tarefa</th>
+<th style="text-align: center;">Tipo CTT</th>
+<th style="text-align: center;">Operador Subsequente</th>
+<th style="text-align: left;">Descrição da Operação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Baixar prova e gabarito em PDF</strong></td>
+<td style="text-align: center;">Abstrata</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">Tarefa raiz de download dos materiais de estudo em formato digital.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Acessar menu de provas</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Clique no menu lateral ou de navegação superior para abrir o catálogo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Localizar concurso e cargo</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Seleção de filtros de banca, ano e busca textual pelo cargo pretendido.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Obter arquivos de estudo</strong></td>
+<td style="text-align: center;">Abstrata</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">Subtarefa composta responsável pela obtenção sequencial dos dois documentos.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Clicar em link da Prova</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>[]&gt;&gt;</code></td>
+<td style="text-align: left;">Identificação e clique no hiperlink legítimo do caderno de questões.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Entregar arquivo PDF da Prova</strong></td>
+<td style="text-align: center;">Sistema</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">O servidor transmite os bytes do PDF para download ou abertura no navegador.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Clicar em link do Gabarito</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>[]&gt;&gt;</code></td>
+<td style="text-align: left;">Retorno à página e clique no hiperlink correspondente à folha de gabarito.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Entregar arquivo PDF do Gabarito</strong></td>
+<td style="text-align: center;">Sistema</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">O sistema dispara o download da chave de respostas oficiais.</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h2 id="4-estrutura-para-modelagem-das-tarefas-03-a-10-pelos-demais-integrantes">4. Estrutura para Modelagem das Tarefas 03 a 10 pelos Demais Integrantes</h2>
+<p>As Tarefas 03 a 10 seguirão o padrão rigoroso estabelecido nas Tabelas 3 e 4, utilizando a classificação quadripartite de Paternò e detalhando a interação humano-máquina com base nas gravações empíricas:</p>
+<ul>
+<li><strong>Tarefas 03 e 04 (Pedro Rocha Ferreira Lima):</strong> Modelagem de filtragem regional com operadores de escolha alternativa (<code>[]</code>) e checagem periódica de retificações (<code>T*</code>).</li>
+<li><strong>Tarefas 05 e 06 (Arthur Sismene Carvalho):</strong> Modelagem de fluxo interativo de resposta a questões em simulado e submissão de respostas com feedback instantâneo do sistema.</li>
+<li><strong>Tarefas 07 e 08 (Leonardo da Silva Lopes Júnior):</strong> Modelagem de reprodução audiovisual de mídia e envio de formulário com validação de formato de e-mail pelo sistema.</li>
+<li><strong>Tarefas 09 e 10 (João Vitor Sales Ibiapina):</strong> Modelagem de varredura de tabelas de vagas de PcD e acompanhamento de editais de resultado definitivo.</li>
+</ul>
+<hr />
+<h2 id="5-bibliografia">5. Bibliografia</h2>
+<blockquote>
+<p>BARBOSA, S. D. J.; SILVA, B. S. <em>Interação Humano-Computador</em>. Rio de Janeiro: Elsevier, 2010.<br />
+MORI, Giulio; PATERNÒ, Fabio; SANTORO, Carmen. <em>CTTE: Support for Developing and Analyzing Task Models for Interactive System Design</em>. IEEE Transactions on Software Engineering, v. 28, n. 8, p. 797-813, 2002.<br />
+PATERNÒ, Fabio. <em>Model-Based Design and Evaluation of Human-Computer Interfaces</em>. London: Springer-Verlag, 1999.</p>
+</blockquote>
+<h2 id="6-historico-de-versoes">6. Histórico de Versões</h2>
+<div align="center">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor(es)</th>
+<th style="text-align: center;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">21/09/2026</td>
+<td style="text-align: left;">Fundamentação de CTT (Paternò; Barbosa &amp; Silva), taxonomia de tarefas e operadores temporais, matriz das 10 tarefas, modelagem formal completa das Tarefas 01 e 02 (diagramas e tabelas de nós).</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+<td style="text-align: center;">Pedro Rocha Ferreira Lima</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
