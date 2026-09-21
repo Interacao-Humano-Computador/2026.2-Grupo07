@@ -51,7 +51,7 @@ De acordo com Hackos e Redish (1998) e Courage e Baxter (2005), a modelagem do p
 
 Conforme estabelecido por Barbosa e Silva (2010, Cap. 8 - *Organização do Espaço de Problema*), os atributos dos usuários devem ser agregados em quatro grandes categorias essenciais:
 
-1. **Faixa Etária:** Estruturada em jovens/estudantes (18 a 25 anos), adultos focados em ascensão profissional (26 a 45 anos) e terceira idade / candidatos maduros (acima de 46 anos), cada qual apresentando demandas distintas de contraste visual, tamanho de tipografia e velocidade de resposta motora.
+1. **Faixa Etária:** Estruturada em jovens/estudantes (18 a 25 anos), adultos e candidatos maduros focados em estabilidade e ascensão profissional (26 a 55 anos) e candidatos seniores / terceira idade (acima de 56 anos), cada qual apresentando demandas distintas de contraste visual, tamanho de tipografia e velocidade de resposta motora.
 2. **Nível de Experiência:** Varia desde usuários *iniciantes/leigos* (que prestam sua primeira seleção e não conhecem prazos de isenção ou recursos) até *especialistas* (concurseiros experientes que conhecem os estilos das bancas examinadoras como Cebraspe, FGV e FCC).
 3. **Atitudes Frente à Tecnologia:** Avalia a relação comportamental e o nível de segurança do usuário perante ferramentas digitais:
     * **Tecnófilos:** Usuários entusiasmados, que utilizam atalhos de teclado (`Ctrl+F`), abrem dezenas de abas simultaneamente e baixam editais e gabaritos em segundos pelo smartphone ou notebook.
@@ -66,10 +66,10 @@ A partir do cruzamento dos dados documentais de domínio com as interações de 
 
 <p align="center"><b>Tabela 1: Síntese dos Perfis de Usuário do PCI Concursos</b></p>
 
-| Atributo | Perfil 1: Estudante Universitário / Iniciante | Perfil 2: Concurseiro Ativo / Adulto Focado | Perfil 3: Baixo Letramento / Idoso / Vagas Especiais |
+| Atributo | Perfil 1: Estudante Universitário / Iniciante | Perfil 2: Concurseiro Ativo / Adulto e Maduro | Perfil 3: Baixo Letramento / Idoso / Vagas Especiais |
 | :--- | :--- | :--- | :--- |
 | **Prioridade de Design** | Primário | Primário | Secundário (foco em acessibilidade e inclusão) |
-| **Faixa Etária** | 18 a 25 anos (jovens) | 26 a 45 anos (adultos) | 46 anos ou mais (terceira idade) |
+| **Faixa Etária** | 18 a 25 anos (jovens) | 26 a 55 anos (adultos e maduros) | 56 anos ou mais (seniores e terceira idade) |
 | **Nível de Instrução** | Superior incompleto ou recém-formado | Superior completo ou Pós-graduação | Ensino Fundamental a Médio completo |
 | **Cargo / Ocupação Típica** | Estudante de graduação / Estagiário | Analista CLT, servidor público ou profissional liberal | Autônomo, motorista, aposentado ou trabalhador do comércio |
 | **Atividades Principais no Sistema** | Buscar editais de órgãos conhecidos, baixar provas anteriores com gabaritos e resolver simulados no celular | Filtrar editais por região Centro-Oeste/DF, verificar retificações de cronograma e assinar alertas por e-mail | Buscar notícias de processos seletivos de apoio, verificar vagas reservadas a PcD/idosos e acompanhar chamadas |
@@ -114,7 +114,7 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 
 | Entrevistador | Código do Entrevistado | Perfil Escolhido pelo Entrevistador | Tarefas Avaliadas | Data da Sessão | Duração | Link da Gravação |
 | :--- | :---: | :---: | :--- | :---: | :---: | :---: |
-| **Daniel da Silva Batista** | `USR-01` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **Daniel da Silva Batista** | `USR-01` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 | **Pedro Rocha Ferreira Lima** | `USR-02` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Consulta a retificações e prazos | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 | **Arthur Sismene Carvalho** | `USR-03` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 05:** Simulado de questões online<br>**Tarefa 06:** Busca de vagas de estágio no DF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 | **Leonardo da Silva Lopes Júnior** | `USR-04` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 07:** Videoaulas e dicas de disciplinas<br>**Tarefa 08:** Cadastro de alerta de concursos por e-mail | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
