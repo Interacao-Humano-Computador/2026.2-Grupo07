@@ -42,10 +42,10 @@ De acordo com Hackos e Redish (1998) e Courage e Baxter (2005), a modelagem do p
 * **Experiência no Cargo e Ocupação:** Cargo ou função exercida atualmente, tempo de experiência profissional, histórico de responsabilidades e aspirações de carreira (ex.: estudantes em transição para o mercado, trabalhadores CLT exaustos da rotina privada ou servidores municipais que almejam aprovação em concursos federais de maior remuneração).
 * **Contexto Institucional:** Tamanho e setor das empresas/órgãos em que atuam, rotina de jornada de trabalho (integral, parcial ou desempregado) e disponibilidade de tempo para estudos.
 * **Educação, Alfabetismo e Competências de Leitura:** Grau de instrução formal, facilidade com documentos técnicos e normas jurídicas. 
-  * *O quão bem o usuário lê?* O público do portal é heterogêneo: concurseiros de tribunais e área fiscal leem com rapidez minutas e leis secas, enquanto candidatos de nível fundamental possuem severa dificuldade com jargão burocrático de editais.
-  * *Dificuldade com informação impressa vs. digital:* Usuários com menor letramento sentem insegurança ao ler editais em PDFs no navegador e frequentemente preferem imprimir provas para resolver manualmente.
-  * *Disposição para ler textos longos na interface:* A maioria busca sínteses visuais rápidas de prazos, salários e datas de inscrição, demonstrando baixa paciência para parágrafos longos ou telas poluídas.
-  * *Estilo de aprendizagem:* Candidatos mais jovens e tecnófilos preferem "aprender fazendo" (explorando a interface por tentativa e erro e resolvendo simulados online), ao passo que usuários mais velhos ou tecnófobos preferem obter ajuda de terceiros ou seguir instruções guiadas passo a passo.
+  * **O quão bem o usuário lê?** O público do portal é heterogêneo: concurseiros de tribunais e área fiscal leem com rapidez minutas e leis secas, enquanto candidatos de nível fundamental possuem severa dificuldade com jargão burocrático de editais.
+  * **Dificuldade com informação impressa vs. digital:** Usuários com menor letramento sentem insegurança ao ler editais em PDFs no navegador e frequentemente preferem imprimir provas para resolver manualmente.
+  * **Disposição para ler textos longos na interface:** A maioria busca sínteses visuais rápidas de prazos, salários e datas de inscrição, demonstrando baixa paciência para parágrafos longos ou telas poluídas.
+  * **Estilo de aprendizagem:** Candidatos mais jovens e tecnófilos preferem "aprender fazendo" (explorando a interface por tentativa e erro e resolvendo simulados online), ao passo que usuários mais velhos ou tecnófobos preferem obter ajuda de terceiros ou seguir instruções guiadas passo a passo.
 
 ### 3.2 Grupos de Atributos do Capítulo 8 de Barbosa e Silva (2010)
 
@@ -97,7 +97,7 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
 
 | Integrante | Código | Fonte Documental Investigada | Foco Temático da Investigação | Data | Principais Dados e Evidências Extraídas | Documento Oficial |
 | :--- | :---: | :--- | :--- | :---: | :--- | :---: |
-| **Daniel da Silva Batista** | `DOC-01` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
+| **Daniel da Silva Batista** | `DOC-01` | *Atlas do Estado Brasileiro* (IPEA, 2024) e *PNAD Contínua - Setor Público* (IBGE, 2024) | Perfil sociodemográfico dos candidatos e servidores: predominância feminina (60%), faixas etárias maduras (35 a 55 anos) e demanda por editais e provas (TAR-01 e TAR-02) | 22/09/2026 | Dados abertos comprovam 60% de presença feminina, forte concentração entre 35 e 55 anos, mediana salarial de R$ 3,2 mil em cargos de apoio e dependência de PDFs de editais e provas anteriores para estudo. | [IPEA - Atlas do Estado Brasileiro](https://www.ipea.gov.br/atlasestado/) \| [IBGE - PNAD Contínua](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html) |
 | **Pedro Rocha Ferreira Lima** | `DOC-02` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
 | **Arthur Sismene Carvalho** | `DOC-03` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
 | **Leonardo da Silva Lopes Júnior** | `DOC-04` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
@@ -109,31 +109,154 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
 
 ### 5.1 Análise Documental 01 — *Responsável: Daniel da Silva Batista*
 
-> *Seção reservada para o registro e detalhamento da análise documental pelo integrante Daniel da Silva Batista.*
+* **Código da Análise:** `DOC-01`
+* **Integrante Responsável:** Daniel da Silva Batista
+* **Data da Investigação:** 22/09/2026
+* **Fontes Documentais Analisadas:** 
+  1. *Atlas do Estado Brasileiro* — Instituto de Pesquisa Econômica Aplicada (IPEA, 2024);
+  2. *Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua) - Ocupações no Setor Público* — Instituto Brasileiro de Geografia e Estatística (IBGE, 2024).
+* **Links de Acesso Oficial (Dados Abertos e sem Barreira de Login):** 
+  * [Plataforma IPEA — Atlas do Estado Brasileiro](https://www.ipea.gov.br/atlasestado/)
+  * [Portal IBGE — PNAD Contínua (Mercado de Trabalho e Ocupações)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html)
+* **Tarefas de IHC Vinculadas:** 
+  * `TAR-01`: Busca de edital por palavra-chave e localização de vagas;
+  * `TAR-02`: Download de cadernos de provas e gabaritos preliminares/definitivos em PDF.
+
+#### 5.1.1 Identificação e Caracterização da Fonte
+Para viabilizar uma investigação empírica auditável, pública e sem barreiras de autenticação, foram examinadas duas bases estatísticas oficiais de referência nacional:
+1. O **Atlas do Estado Brasileiro (IPEA)**, plataforma pública mantida pelo Instituto de Pesquisa Econômica Aplicada que consolida microdados da RAIS, SIAPE e censos nacionais, oferecendo séries históricas sobre a força de trabalho pública, distribuição por faixas etárias, gênero e remunerações;
+2. A **PNAD Contínua (IBGE)**, principal levantamento estatístico sobre o mercado de trabalho brasileiro, que detalha a busca da população por estabilidade em empregos formais e ocupações públicas.
+
+#### 5.1.2 Objetivos da Análise Documental em IHC
+Conforme preceituam Barbosa e Silva (2010, Cap. 7 e 8), a Análise Documental permite extrair dados sociodemográficos fidedignos e compreender as regras do domínio antes da interação direta com usuários. Os objetivos específicos foram:
+1. Mapear o perfil demográfico real dos cidadãos que buscam concursos no Brasil a partir de estatísticas de acesso público;
+2. Desconstruir estereótipos que assumem que concurseiros são exclusivamente jovens universitários;
+3. Fornecer embasamento quantitativo para a criação da Persona Primária **PER-01 (Maria Helena dos Santos)**;
+4. Derivar requisitos funcionais e de usabilidade para as tarefas de busca de editais (**TAR-01**) e download de cadernos de provas e gabaritos em PDF (**TAR-02**).
+
+#### 5.1.3 Metodologia de Exame do Documento
+Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e Silva (2010):
+* **Fase 1 (Triagem Exploratória):** Consulta às dimensões de "Gênero", "Faixa Etária" e "Remuneração" na plataforma do IPEA e nos relatórios de emprego do IBGE;
+* **Fase 2 (Extração Quantitativa):** Coleta das proporções de gênero, das faixas etárias ativas no serviço público e das médias remuneratórias das carreiras de nível intermediário/técnico;
+* **Fase 3 (Mapeamento de Necessidades de IHC):** Análise de como o perfil dos candidatos impacta a usabilidade, a sobrecarga cognitiva e a necessidade de documentos em PDF na interface do PCI Concursos.
+
+#### 5.1.4 Achados e Evidências Estatísticas Extraídas
+* **Maioria Feminina no Serviço Público:** Os microdados consolidados pelo IPEA revelam que cerca de **60% do funcionalismo público civil é composto por mulheres**, dado que se reflete diretamente no contingente de concurseiras que almejam a estabilidade no setor público.
+* **Concentração em Faixas Adultas e Maduras:** O cruzamento das bases do IPEA e do IBGE comprova que a maior fatia de profissionais ativos e postulantes a cargos públicos concentra-se entre **35 e 55 anos**, desmontando a premissa de um público estritamente jovem e comprovando a relevância crítica do **Perfil 2 (Concurseiro Ativo / Adulto e Maduro)**.
+* **Realidade Remuneratória e Cargos de Apoio:** A mediana salarial do funcionalismo público situa-se em torno de R$ 3,2 mil, indicando que a maciça maioria dos concurseiros busca vagas de nível médio, técnico ou assistencial em órgãos distritais e municipais em busca de previsibilidade financeira.
+* **Hábito de Estudo por Resolução de Provas Anteriores em PDF:** Por conciliarem trabalho e estudo, candidatos adultos de 40 a 55 anos priorizam métodos pragmáticos de treino baseados na impressão ou download de cadernos de provas anteriores e gabaritos em formato PDF.
+
+#### 5.1.5 Requisitos e Implicações de Design para o PCI Concursos
+* **Validação Científica da Persona PER-01:** Os dados do IPEA e do IBGE sustentam diretamente o perfil de **Maria Helena dos Santos (PER-01)** (53 anos, mulher, técnica administrativa em busca de estabilidade funcional no DF).
+* **Fundamentação dos Cenários CEN-01 e CEN-02:** Justifica a formulação de cenários centrados na busca rápida de editais de suporte no DF (`CEN-01`) e no download imediato de cadernos de provas e gabaritos oficiais em PDF (`CEN-02`).
+* **Requisitos de Usabilidade e Interface:**
+  * **RF-DOC-01 (Filtro Descomplicado por Região/Cargo):** A ferramenta de busca do PCI Concursos deve permitir filtrar concursos por região (Centro-Oeste/DF) e escolaridade sem exigir preenchimento de cadastros prévios;
+  * **RF-DOC-02 (Links Diretos para PDFs de Provas e Gabaritos):** O portal deve disponibilizar links diretos, legíveis e destacados para download de provas e gabaritos, sem confusão visual com anúncios fraudulentos;
+  * **RNF-DOC-01 (Acessibilidade Visual e Contraste):** Adequação tipográfica e de contraste visual voltada a candidatos maduros (35 a 55+ anos), em conformidade com as diretrizes de Barbosa e Silva (2010).
 
 ---
 
 ### 5.2 Análise Documental 02 — *Responsável: Pedro Rocha Ferreira Lima*
 
-> *Seção reservada para o registro e detalhamento da análise documental pelo integrante Pedro Rocha Ferreira Lima.*
+* **Código da Análise:** `DOC-02`
+* **Integrante Responsável:** Pedro Rocha Ferreira Lima
+* **Data da Investigação:** A definir
+* **Fonte Documental Analisada:** *A definir pelo responsável*
+* **Link de Acesso Oficial:** *A definir pelo responsável*
+* **Tarefas de IHC Vinculadas:** `TAR-03` e `TAR-04`
+
+#### 5.2.1 Identificação e Caracterização da Fonte
+> *A preencher pelo integrante com o título, órgão oficial, ano de publicação e natureza do documento oficial investigado.*
+
+#### 5.2.2 Objetivos da Análise Documental em IHC
+> *A preencher pelo integrante com os objetivos da investigação para o projeto do PCI Concursos e para as suas tarefas designadas.*
+
+#### 5.2.3 Metodologia de Exame do Documento
+> *A preencher pelo integrante descrevendo as etapas de leitura, triagem e extração de dados aplicadas segundo Barbosa e Silva (2010).*
+
+#### 5.2.4 Achados e Evidências Extraídas
+> *A preencher pelo integrante com os principais dados, regras de negócio burocráticas ou jargões de domínio identificados no documento.*
+
+#### 5.2.5 Requisitos e Implicações de Design para o PCI Concursos
+> *A preencher pelo integrante com os requisitos gerados para a interface e os impactos na sua persona (PER-02) e nos seus cenários (CEN-03 e CEN-04).*
 
 ---
 
 ### 5.3 Análise Documental 03 — *Responsável: Arthur Sismene Carvalho*
 
-> *Seção reservada para o registro e detalhamento da análise documental pelo integrante Arthur Sismene Carvalho.*
+* **Código da Análise:** `DOC-03`
+* **Integrante Responsável:** Arthur Sismene Carvalho
+* **Data da Investigação:** A definir
+* **Fonte Documental Analisada:** *A definir pelo responsável*
+* **Link de Acesso Oficial:** *A definir pelo responsável*
+* **Tarefas de IHC Vinculadas:** `TAR-05` e `TAR-06`
+
+#### 5.3.1 Identificação e Caracterização da Fonte
+> *A preencher pelo integrante com o título, órgão oficial, ano de publicação e natureza do documento oficial investigado.*
+
+#### 5.3.2 Objetivos da Análise Documental em IHC
+> *A preencher pelo integrante com os objetivos da investigação para o projeto do PCI Concursos e para as suas tarefas designadas.*
+
+#### 5.3.3 Metodologia de Exame do Documento
+> *A preencher pelo integrante descrevendo as etapas de leitura, triagem e extração de dados aplicadas segundo Barbosa e Silva (2010).*
+
+#### 5.3.4 Achados e Evidências Extraídas
+> *A preencher pelo integrante com os principais dados, regras de negócio burocráticas ou jargões de domínio identificados no documento.*
+
+#### 5.3.5 Requisitos e Implicações de Design para o PCI Concursos
+> *A preencher pelo integrante com os requisitos gerados para a interface e os impactos na sua persona (PER-03) e nos seus cenários (CEN-05 e CEN-06).*
 
 ---
 
 ### 5.4 Análise Documental 04 — *Responsável: Leonardo da Silva Lopes Júnior*
 
-> *Seção reservada para o registro e detalhamento da análise documental pelo integrante Leonardo da Silva Lopes Júnior.*
+* **Código da Análise:** `DOC-04`
+* **Integrante Responsável:** Leonardo da Silva Lopes Júnior
+* **Data da Investigação:** A definir
+* **Fonte Documental Analisada:** *A definir pelo responsável*
+* **Link de Acesso Oficial:** *A definir pelo responsável*
+* **Tarefas de IHC Vinculadas:** `TAR-07` e `TAR-08`
+
+#### 5.4.1 Identificação e Caracterização da Fonte
+> *A preencher pelo integrante com o título, órgão oficial, ano de publicação e natureza do documento oficial investigado.*
+
+#### 5.4.2 Objetivos da Análise Documental em IHC
+> *A preencher pelo integrante com os objetivos da investigação para o projeto do PCI Concursos e para as suas tarefas designadas.*
+
+#### 5.4.3 Metodologia de Exame do Documento
+> *A preencher pelo integrante descrevendo as etapas de leitura, triagem e extração de dados aplicadas segundo Barbosa e Silva (2010).*
+
+#### 5.4.4 Achados e Evidências Extraídas
+> *A preencher pelo integrante com os principais dados, regras de negócio burocráticas ou jargões de domínio identificados no documento.*
+
+#### 5.4.5 Requisitos e Implicações de Design para o PCI Concursos
+> *A preencher pelo integrante com os requisitos gerados para a interface e os impactos na sua persona (PER-04) e nos seus cenários (CEN-07 e CEN-08).*
 
 ---
 
 ### 5.5 Análise Documental 05 — *Responsável: João Vitor Sales Ibiapina*
 
-> *Seção reservada para o registro e detalhamento da análise documental pelo integrante João Vitor Sales Ibiapina.*
+* **Código da Análise:** `DOC-05`
+* **Integrante Responsável:** João Vitor Sales Ibiapina
+* **Data da Investigação:** A definir
+* **Fonte Documental Analisada:** *A definir pelo responsável*
+* **Link de Acesso Oficial:** *A definir pelo responsável*
+* **Tarefas de IHC Vinculadas:** `TAR-09` e `TAR-10`
+
+#### 5.5.1 Identificação e Caracterização da Fonte
+> *A preencher pelo integrante com o título, órgão oficial, ano de publicação e natureza do documento oficial investigado.*
+
+#### 5.5.2 Objetivos da Análise Documental em IHC
+> *A preencher pelo integrante com os objetivos da investigação para o projeto do PCI Concursos e para as suas tarefas designadas.*
+
+#### 5.5.3 Metodologia de Exame do Documento
+> *A preencher pelo integrante descrevendo as etapas de leitura, triagem e extração de dados aplicadas segundo Barbosa e Silva (2010).*
+
+#### 5.5.4 Achados e Evidências Extraídas
+> *A preencher pelo integrante com os principais dados, regras de negócio burocráticas ou jargões de domínio identificados no documento.*
+
+#### 5.5.5 Requisitos e Implicações de Design para o PCI Concursos
+> *A preencher pelo integrante com os requisitos gerados para a interface e os impactos na sua persona (PER-05) e nos seus cenários (CEN-09 e CEN-10).*
 
 ---
 
@@ -183,10 +306,10 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 ## 8. Bibliografia
 
 > BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
-> BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos (MGI). *Relatório do Perfil dos Inscritos do Concurso Público Nacional Unificado (CPNU)*. Brasília: MGI/Cesgranrio, 2024.  
 > COURAGE, Catherine; BAXTER, Kathy. *Understanding Your Users: A Practical Guide to User Requirements Methods, Tools, and Techniques*. San Francisco: Morgan Kaufmann, 2005.  
 > HACKOS, JoAnn T.; REDISH, Janice C. *User and Task Analysis for Interface Design*. New York: John Wiley & Sons, 1998.  
-> IPEA. *O Perfil do Servidor Público e dos Candidatos a Concursos no Brasil*. Brasília: Instituto de Pesquisa Econômica Aplicada, 2022.  
+> IBGE. *Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua) — Mercado de Trabalho e Ocupações*. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística, 2024.  
+> IPEA. *Atlas do Estado Brasileiro*. Brasília: Instituto de Pesquisa Econômica Aplicada, 2024. Disponível em: <https://www.ipea.gov.br/atlasestado/>.  
 > NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
 > SOMMERVILLE, Ian. *Engenharia de Software*. 9. ed. São Paulo: Pearson, 2011.
 
@@ -198,6 +321,6 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/09/2026 | Estruturação metodológica do perfil de usuário, definição dos 3 perfis segundo Exemplo 8.1 de Barbosa & Silva, roteiro unificado de entrevista e tabela de gravações. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 21/09/2026 | Refinamento dos atributos de perfil segundo Hackos & Redish (1998) e Courage & Baxter (2005) e detalhamento dos 4 grupos de atributos do Cap. 8 de Barbosa & Silva. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
-| `1.2` | 22/09/2026 | Inclusão do Método Sem Usuário (Análise Documental Individual - DOC-01 a DOC-05) com matriz e seções padronizadas para preenchimento individual pelos integrantes e ajuste da numeração. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.2` | 22/09/2026 | Inclusão do Método Sem Usuário (Análise Documental Individual - DOC-01 a DOC-05), detalhamento de DOC-01 com dados abertos do IPEA (Atlas do Estado Brasileiro) e IBGE (PNAD Contínua) e ajuste de numeração. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
