@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Definição da metodologia de perfil (entrevista semiestruturada e análise documental), caracterização das 4 dimensões, tabela síntese dos perfis (Exemplo 8.1) e elaboração do roteiro de entrevista unificado. |
+| Daniel da Silva Batista | Estruturação dos dois métodos de coleta (análise documental e entrevistas), elaboração da matriz individual (DOC-01 a DOC-05 e USR-01 a USR-05), detalhamento de DOC-01, tabela síntese dos perfis e roteiro unificado. |
 | Arthur Sismene Carvalho | Estruturação dos dados demográficos e revisão do roteiro de validação de tarefas. |
 | João Vitor Sales Ibiapina | Definição dos critérios de acessibilidade e caracterização do perfil com foco em vagas especiais e idosos. |
 | Leonardo da Silva Lopes Júnior | Revisão metodológica com base em Barbosa e Silva (2010) e consolidação da tabela de entrevistas. |
@@ -83,13 +83,67 @@ A partir do cruzamento dos dados documentais de domínio com as interações de 
 
 </div>
 
-## 5. Roteiro Guia Unificado para as Entrevistas Gravadas
+---
 
-Para padronizar a coleta empírica entre os 5 integrantes do grupo, foi estabelecido o roteiro semiestruturado de 10 a 15 minutos apresentado na Tabela 2, a ser aplicado na sessão remota ou presencial gravada com o usuário:
+## 5. Método Sem Usuário: Análise Documental Individual
+
+A **Análise Documental** constitui uma técnica clássica de investigação em Interação Humano-Computador que prescinde do contato direto com usuários finais, consistindo na coleta, triagem e exame sistemático de fontes documentais secundárias, relatórios estatísticos, legislações e acervos oficiais do domínio (Barbosa e Silva, 2010, Cap. 7 e 8). 
+
+No projeto do **PCI Concursos**, a análise documental atua como base empírica preliminar para a formulação das hipóteses de perfil e mapeamento do ecossistema de concursos no Brasil. Assim como nas entrevistas, **cada integrante da equipe é individualmente responsável pela investigação aprofundada de uma fonte documental oficial**, extraindo subsídios para embasar o projeto:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 2: Roteiro Estruturado de Entrevista e Validação</b></p>
+<p align="center"><b>Tabela 2: Matriz de Registro da Análise Documental Individual</b></p>
+
+| Integrante | Código | Fonte Documental Investigada | Foco Temático da Investigação | Data | Principais Dados e Evidências Extraídas | Documento Oficial |
+| :--- | :---: | :--- | :--- | :---: | :--- | :---: |
+| **Daniel da Silva Batista** | `DOC-01` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
+| **Pedro Rocha Ferreira Lima** | `DOC-02` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
+| **Arthur Sismene Carvalho** | `DOC-03` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
+| **Leonardo da Silva Lopes Júnior** | `DOC-04` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
+| **João Vitor Sales Ibiapina** | `DOC-05` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+### 5.1 Análise Documental 01 — *Responsável: Daniel da Silva Batista*
+
+> *Seção reservada para o registro e detalhamento da análise documental pelo integrante Daniel da Silva Batista.*
+
+---
+
+### 5.2 Análise Documental 02 — *Responsável: Pedro Rocha Ferreira Lima*
+
+> *Seção reservada para o registro e detalhamento da análise documental pelo integrante Pedro Rocha Ferreira Lima.*
+
+---
+
+### 5.3 Análise Documental 03 — *Responsável: Arthur Sismene Carvalho*
+
+> *Seção reservada para o registro e detalhamento da análise documental pelo integrante Arthur Sismene Carvalho.*
+
+---
+
+### 5.4 Análise Documental 04 — *Responsável: Leonardo da Silva Lopes Júnior*
+
+> *Seção reservada para o registro e detalhamento da análise documental pelo integrante Leonardo da Silva Lopes Júnior.*
+
+---
+
+### 5.5 Análise Documental 05 — *Responsável: João Vitor Sales Ibiapina*
+
+> *Seção reservada para o registro e detalhamento da análise documental pelo integrante João Vitor Sales Ibiapina.*
+
+---
+
+## 6. Método Com Usuário: Roteiro Guia Unificado para as Entrevistas Gravadas
+
+Para padronizar a coleta empírica entre os 5 integrantes do grupo, foi estabelecido o roteiro semiestruturado de 10 a 15 minutos apresentado na Tabela 3, a ser aplicado na sessão remota ou presencial gravada com o usuário:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 3: Roteiro Estruturado de Entrevista e Validação</b></p>
 
 | Bloco | Duração Estimada | Objetivo e Ações do Entrevistador |
 | :---: | :---: | :--- |
@@ -104,13 +158,15 @@ Para padronizar a coleta empírica entre os 5 integrantes do grupo, foi estabele
 
 </div>
 
-## 6. Registro e Comprovação das Entrevistas Gravadas
+---
+
+## 7. Registro e Comprovação das Entrevistas Gravadas
 
 A tabela a seguir consolida o registro das sessões gravadas por cada um dos integrantes da equipe. Cada entrevistador é responsável por recrutar o usuário e escolher o perfil (Perfil 1, 2 ou 3) a ser investigado em sua sessão individual, documentando os dados empíricos após a condução da entrevista:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 3: Registro de Gravações de Entrevistas com Usuários Reais</b></p>
+<p align="center"><b>Tabela 4: Registro de Gravações de Entrevistas com Usuários Reais</b></p>
 
 | Entrevistador | Código do Entrevistado | Perfil Escolhido pelo Entrevistador | Tarefas Avaliadas | Data da Sessão | Duração | Link da Gravação |
 | :--- | :---: | :---: | :--- | :---: | :---: | :---: |
@@ -124,15 +180,17 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 
 </div>
 
-## 7. Bibliografia
+## 8. Bibliografia
 
 > BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos (MGI). *Relatório do Perfil dos Inscritos do Concurso Público Nacional Unificado (CPNU)*. Brasília: MGI/Cesgranrio, 2024.  
 > COURAGE, Catherine; BAXTER, Kathy. *Understanding Your Users: A Practical Guide to User Requirements Methods, Tools, and Techniques*. San Francisco: Morgan Kaufmann, 2005.  
 > HACKOS, JoAnn T.; REDISH, Janice C. *User and Task Analysis for Interface Design*. New York: John Wiley & Sons, 1998.  
+> IPEA. *O Perfil do Servidor Público e dos Candidatos a Concursos no Brasil*. Brasília: Instituto de Pesquisa Econômica Aplicada, 2022.  
 > NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
 > SOMMERVILLE, Ian. *Engenharia de Software*. 9. ed. São Paulo: Pearson, 2011.
 
-## 8. Histórico de Versões
+## 9. Histórico de Versões
 
 <div align="center" markdown="1">
 
@@ -140,5 +198,6 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/09/2026 | Estruturação metodológica do perfil de usuário, definição dos 3 perfis segundo Exemplo 8.1 de Barbosa & Silva, roteiro unificado de entrevista e tabela de gravações. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 21/09/2026 | Refinamento dos atributos de perfil segundo Hackos & Redish (1998) e Courage & Baxter (2005) e detalhamento dos 4 grupos de atributos do Cap. 8 de Barbosa & Silva. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.2` | 22/09/2026 | Inclusão do Método Sem Usuário (Análise Documental Individual - DOC-01 a DOC-05) com matriz e seções padronizadas para preenchimento individual pelos integrantes e ajuste da numeração. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
