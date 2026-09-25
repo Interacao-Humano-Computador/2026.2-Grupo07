@@ -32,31 +32,14 @@ Para assegurar o rigor acadêmico preconizado na literatura de IHC e a viabilida
 
 ## 3. Atributos e Grupos de Atributos do Perfil do Usuário
 
-A definição precisa do perfil do usuário apoia-se em sólidas diretrizes teóricas da literatura de Interação Humano-Computador, articulando os atributos propostos por Hackos e Redish (1998) e Courage e Baxter (2005) com a taxonomia do Capítulo 8 de Barbosa e Silva (2010).
+A caracterização do perfil apoia-se nas diretrizes teóricas de Hackos e Redish (1998) e Courage e Baxter (2005), articuladas com os quatro grupos essenciais de atributos preconizados por Barbosa e Silva (2010, Cap. 8):
 
-### 3.1 Atributos de Perfil segundo Hackos e Redish (1998) e Courage e Baxter (2005)
+1. **Dados Demográficos e Faixa Etária:** Jovens/estudantes (18 a 25 anos), adultos e candidatos maduros (26 a 55 anos) e candidatos seniores (56+ anos), considerando escolaridade, ocupação profissional e demandas visuais e cognitivas.
+2. **Nível de Experiência e Competências:** Varia de candidatos *leigos/iniciantes* a concurseiros *experientes/especialistas*, avaliando a familiaridade com termos burocráticos de editais, bancas e normas jurídicas.
+3. **Atitudes Frente à Tecnologia:** Comportamento entre *tecnófilos* (alta agilidade, atalhos de teclado e exploração autônoma) e *tecnófobos* (insegurança com downloads de arquivos, navegação cautelosa e aversão a propagandas enganosas).
+4. **Tarefas Primárias no Sistema:** Atividades centrais de busca de editais por órgãos/regiões, consulta de cronogramas, realização de simulados e download de provas e gabaritos oficiais em PDF.
 
-De acordo com Hackos e Redish (1998) e Courage e Baxter (2005), a modelagem do perfil deve extrapolar dados demográficos superficiais, investigando as competências cognitivas e o contexto de atuação do indivíduo:
-
-* **Dados Demográficos:** Faixa etária, gênero, estado civil, composição familiar, renda mensal e localização geográfica. No PCI Concursos, abrange desde jovens estudantes que dependem financeiramente da família até adultos chefes de família em busca de estabilidade econômica.
-* **Experiência no Cargo e Ocupação:** Cargo ou função exercida atualmente, tempo de experiência profissional, histórico de responsabilidades e aspirações de carreira (ex.: estudantes em transição para o mercado, trabalhadores CLT exaustos da rotina privada ou servidores municipais que almejam aprovação em concursos federais de maior remuneração).
-* **Contexto Institucional:** Tamanho e setor das empresas/órgãos em que atuam, rotina de jornada de trabalho (integral, parcial ou desempregado) e disponibilidade de tempo para estudos.
-* **Educação, Alfabetismo e Competências de Leitura:** Grau de instrução formal, facilidade com documentos técnicos e normas jurídicas. 
-  * **O quão bem o usuário lê?** O público do portal é heterogêneo: concurseiros de tribunais e área fiscal leem com rapidez minutas e leis secas, enquanto candidatos de nível fundamental possuem severa dificuldade com jargão burocrático de editais.
-  * **Dificuldade com informação impressa vs. digital:** Usuários com menor letramento sentem insegurança ao ler editais em PDFs no navegador e frequentemente preferem imprimir provas para resolver manualmente.
-  * **Disposição para ler textos longos na interface:** A maioria busca sínteses visuais rápidas de prazos, salários e datas de inscrição, demonstrando baixa paciência para parágrafos longos ou telas poluídas.
-  * **Estilo de aprendizagem:** Candidatos mais jovens e tecnófilos preferem "aprender fazendo" (explorando a interface por tentativa e erro e resolvendo simulados online), ao passo que usuários mais velhos ou tecnófobos preferem obter ajuda de terceiros ou seguir instruções guiadas passo a passo.
-
-### 3.2 Grupos de Atributos do Capítulo 8 de Barbosa e Silva (2010)
-
-Conforme estabelecido por Barbosa e Silva (2010, Cap. 8 - *Organização do Espaço de Problema*), os atributos dos usuários devem ser agregados em quatro grandes categorias essenciais:
-
-1. **Faixa Etária:** Estruturada em jovens/estudantes (18 a 25 anos), adultos e candidatos maduros focados em estabilidade e ascensão profissional (26 a 55 anos) e candidatos seniores / terceira idade (acima de 56 anos), cada qual apresentando demandas distintas de contraste visual, tamanho de tipografia e velocidade de resposta motora.
-2. **Nível de Experiência:** Varia desde usuários *iniciantes/leigos* (que prestam sua primeira seleção e não conhecem prazos de isenção ou recursos) até *especialistas* (concurseiros experientes que conhecem os estilos das bancas examinadoras como Cebraspe, FGV e FCC).
-3. **Atitudes Frente à Tecnologia:** Avalia a relação comportamental e o nível de segurança do usuário perante ferramentas digitais:
-    * **Tecnófilos:** Usuários entusiasmados, que utilizam atalhos de teclado (`Ctrl+F`), abrem dezenas de abas simultaneamente e baixam editais e gabaritos em segundos pelo smartphone ou notebook.
-    * **Tecnófobos:** Usuários inseguros perante interfaces digitais, com receio constante de clicar em anúncios fraudulentos, baixar arquivos com vírus ou perder datas de inscrição por desorientação na navegação.
-4. **Tarefas Primárias no Sistema:** Atividades nucleares que justificam a ida ao portal, incluindo a localização e leitura de editais de concurso, o download de cadernos de questões anteriores com gabaritos em PDF, a realização de simulados de questões e o acompanhamento de convocações de homologação.
+Esses atributos subsidiam a consolidação dos perfis sintetizados a seguir.
 
 ## 4. Tabela Síntese dos Perfis de Usuário
 
@@ -160,25 +143,8 @@ Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e S
 
 * **Código da Análise:** `DOC-02`
 * **Integrante Responsável:** Pedro Rocha Ferreira Lima
-* **Data da Investigação:** A definir
-* **Fonte Documental Analisada:** *A definir pelo responsável*
-* **Link de Acesso Oficial:** *A definir pelo responsável*
-* **Tarefas de IHC Vinculadas:** `TAR-03` e `TAR-04`
-
-#### 5.2.1 Identificação e Caracterização da Fonte
-> *A preencher pelo integrante com o título, órgão oficial, ano de publicação e natureza do documento oficial investigado.*
-
-#### 5.2.2 Objetivos da Análise Documental em IHC
-> *A preencher pelo integrante com os objetivos da investigação para o projeto do PCI Concursos e para as suas tarefas designadas.*
-
-#### 5.2.3 Metodologia de Exame do Documento
-> *A preencher pelo integrante descrevendo as etapas de leitura, triagem e extração de dados aplicadas segundo Barbosa e Silva (2010).*
-
-#### 5.2.4 Achados e Evidências Extraídas
-> *A preencher pelo integrante com os principais dados, regras de negócio burocráticas ou jargões de domínio identificados no documento.*
-
-#### 5.2.5 Requisitos e Implicações de Design para o PCI Concursos
-> *A preencher pelo integrante com os requisitos gerados para a interface e os impactos na sua persona (PER-02) e nos seus cenários (CEN-03 e CEN-04).*
+* **Tarefas de IHC Vinculadas:** `TAR-03` (Filtragem por região Centro-Oeste / DF) e `TAR-04` (Consulta a retificações e prazos)
+* **Status da Investigação:** *Aguardando realização pelo integrante (seguir a estrutura em 5 tópicos e a metodologia demonstrada em DOC-01 acima).*
 
 ---
 
@@ -186,25 +152,8 @@ Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e S
 
 * **Código da Análise:** `DOC-03`
 * **Integrante Responsável:** Arthur Sismene Carvalho
-* **Data da Investigação:** A definir
-* **Fonte Documental Analisada:** *A definir pelo responsável*
-* **Link de Acesso Oficial:** *A definir pelo responsável*
-* **Tarefas de IHC Vinculadas:** `TAR-05` e `TAR-06`
-
-#### 5.3.1 Identificação e Caracterização da Fonte
-> *A preencher pelo integrante com o título, órgão oficial, ano de publicação e natureza do documento oficial investigado.*
-
-#### 5.3.2 Objetivos da Análise Documental em IHC
-> *A preencher pelo integrante com os objetivos da investigação para o projeto do PCI Concursos e para as suas tarefas designadas.*
-
-#### 5.3.3 Metodologia de Exame do Documento
-> *A preencher pelo integrante descrevendo as etapas de leitura, triagem e extração de dados aplicadas segundo Barbosa e Silva (2010).*
-
-#### 5.3.4 Achados e Evidências Extraídas
-> *A preencher pelo integrante com os principais dados, regras de negócio burocráticas ou jargões de domínio identificados no documento.*
-
-#### 5.3.5 Requisitos e Implicações de Design para o PCI Concursos
-> *A preencher pelo integrante com os requisitos gerados para a interface e os impactos na sua persona (PER-03) e nos seus cenários (CEN-05 e CEN-06).*
+* **Tarefas de IHC Vinculadas:** `TAR-05` (Simulado de questões online) e `TAR-06` (Busca de vagas de estágio no DF)
+* **Status da Investigação:** *Aguardando realização pelo integrante (seguir a estrutura em 5 tópicos e a metodologia demonstrada em DOC-01 acima).*
 
 ---
 
@@ -212,25 +161,8 @@ Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e S
 
 * **Código da Análise:** `DOC-04`
 * **Integrante Responsável:** Leonardo da Silva Lopes Júnior
-* **Data da Investigação:** A definir
-* **Fonte Documental Analisada:** *A definir pelo responsável*
-* **Link de Acesso Oficial:** *A definir pelo responsável*
-* **Tarefas de IHC Vinculadas:** `TAR-07` e `TAR-08`
-
-#### 5.4.1 Identificação e Caracterização da Fonte
-> *A preencher pelo integrante com o título, órgão oficial, ano de publicação e natureza do documento oficial investigado.*
-
-#### 5.4.2 Objetivos da Análise Documental em IHC
-> *A preencher pelo integrante com os objetivos da investigação para o projeto do PCI Concursos e para as suas tarefas designadas.*
-
-#### 5.4.3 Metodologia de Exame do Documento
-> *A preencher pelo integrante descrevendo as etapas de leitura, triagem e extração de dados aplicadas segundo Barbosa e Silva (2010).*
-
-#### 5.4.4 Achados e Evidências Extraídas
-> *A preencher pelo integrante com os principais dados, regras de negócio burocráticas ou jargões de domínio identificados no documento.*
-
-#### 5.4.5 Requisitos e Implicações de Design para o PCI Concursos
-> *A preencher pelo integrante com os requisitos gerados para a interface e os impactos na sua persona (PER-04) e nos seus cenários (CEN-07 e CEN-08).*
+* **Tarefas de IHC Vinculadas:** `TAR-07` (Videoaulas e dicas didáticas) e `TAR-08` (Cadastro de alerta de vagas por e-mail)
+* **Status da Investigação:** *Aguardando realização pelo integrante (seguir a estrutura em 5 tópicos e a metodologia demonstrada em DOC-01 acima).*
 
 ---
 
@@ -238,25 +170,8 @@ Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e S
 
 * **Código da Análise:** `DOC-05`
 * **Integrante Responsável:** João Vitor Sales Ibiapina
-* **Data da Investigação:** A definir
-* **Fonte Documental Analisada:** *A definir pelo responsável*
-* **Link de Acesso Oficial:** *A definir pelo responsável*
-* **Tarefas de IHC Vinculadas:** `TAR-09` e `TAR-10`
-
-#### 5.5.1 Identificação e Caracterização da Fonte
-> *A preencher pelo integrante com o título, órgão oficial, ano de publicação e natureza do documento oficial investigado.*
-
-#### 5.5.2 Objetivos da Análise Documental em IHC
-> *A preencher pelo integrante com os objetivos da investigação para o projeto do PCI Concursos e para as suas tarefas designadas.*
-
-#### 5.5.3 Metodologia de Exame do Documento
-> *A preencher pelo integrante descrevendo as etapas de leitura, triagem e extração de dados aplicadas segundo Barbosa e Silva (2010).*
-
-#### 5.5.4 Achados e Evidências Extraídas
-> *A preencher pelo integrante com os principais dados, regras de negócio burocráticas ou jargões de domínio identificados no documento.*
-
-#### 5.5.5 Requisitos e Implicações de Design para o PCI Concursos
-> *A preencher pelo integrante com os requisitos gerados para a interface e os impactos na sua persona (PER-05) e nos seus cenários (CEN-09 e CEN-10).*
+* **Tarefas de IHC Vinculadas:** `TAR-09` (Consulta a vagas reservadas / PcD) e `TAR-10` (Acompanhamento de convocações)
+* **Status da Investigação:** *Aguardando realização pelo integrante (seguir a estrutura em 5 tópicos e a metodologia demonstrada em DOC-01 acima).*
 
 ---
 
@@ -322,6 +237,6 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | `1.0` | 21/09/2026 | Estruturação metodológica do perfil de usuário, definição dos 3 perfis segundo Exemplo 8.1 de Barbosa & Silva, roteiro unificado de entrevista e tabela de gravações. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 21/09/2026 | Refinamento dos atributos de perfil segundo Hackos & Redish (1998) e Courage & Baxter (2005) e detalhamento dos 4 grupos de atributos do Cap. 8 de Barbosa & Silva. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.2` | 22/09/2026 | Inclusão do Método Sem Usuário (Análise Documental Individual - DOC-01 a DOC-05), detalhamento de DOC-01 com dados abertos do IPEA (Atlas do Estado Brasileiro) e IBGE (PNAD Contínua) e ajuste de numeração. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
-| `1.3` | 25/09/2026 | Inclusão do registro e hiperligação da entrevista individual gravada USR-01 (06:19) conduzida por Daniel da Silva Batista. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.3` | 25/09/2026 | Inclusão do registro e hiperligação da entrevista individual gravada USR-01 (06:19), síntese dos atributos teóricos e otimização das seções reservadas da análise documental. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
