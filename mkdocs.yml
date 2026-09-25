@@ -42,7 +42,11 @@ markdown_extensions:
   - admonition
   - md_in_html
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
 
@@ -59,3 +63,11 @@ nav:
     - Sites Avaliados: planejamento/sites-avaliados.md
     - Site Selecionado: planejamento/site-escolhido.md
     - Atas de Reunião: planejamento/ata-reuniao.md
+  - Análise de Requisitos (Etapa 2):
+    - Aspectos Éticos: analise-de-requisitos/aspectos-eticos.md
+    - Perfil do Usuário: analise-de-requisitos/perfil-de-usuario.md
+    - Personas: analise-de-requisitos/personas.md
+    - Cenários: analise-de-requisitos/cenarios.md
+    - Análise de Tarefas:
+      - HTA: analise-de-requisitos/analise-de-tarefas/hta.md
+      - CTT: analise-de-requisitos/analise-de-tarefas/ctt.md

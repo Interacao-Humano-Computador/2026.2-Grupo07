@@ -73,6 +73,8 @@ Na Tabela 2, tem-se o registro do cronograma real de execução do projeto, docu
 
 ## 2. Etapa 2 - Perfil do Usuário e Análise de Tarefas
 
+### 2.1 Cronograma Planejado
+
 Na Tabela 3, tem-se o cronograma planejado para as atividades da segunda entrega.
 
 <div align="center" markdown="1">
@@ -81,13 +83,39 @@ Na Tabela 3, tem-se o cronograma planejado para as atividades da segunda entrega
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Definir Perfil do Usuário | Início: 08/09<br>Fim: 25/09 | A definir | Início: 26/09<br>Fim: 26/09 | A definir |
-| Elaborar Personas | Início: 08/09<br>Fim: 25/09 | A definir | Início: 26/09<br>Fim: 26/09 | A definir |
-| Documentar Aspectos Éticos | Início: 08/09<br>Fim: 25/09 | A definir | Início: 26/09<br>Fim: 26/09 | A definir |
-| Conduzir Análise de Tarefas | Início: 08/09<br>Fim: 25/09 | A definir | Início: 26/09<br>Fim: 26/09 | A definir |
+| Definir Perfil do Usuário | Início: 08/09<br>Fim: 25/09 | Daniel da Silva Batista | Início: 26/09<br>Fim: 26/09 | Pedro Rocha Ferreira Lima |
+| Elaborar Personas | Início: 08/09<br>Fim: 25/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor | Início: 26/09<br>Fim: 26/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor |
+| Documentar Aspectos Éticos | Início: 08/09<br>Fim: 25/09 | Daniel da Silva Batista | Início: 26/09<br>Fim: 26/09 | Pedro Rocha Ferreira Lima |
+| Elaborar Cenários | Início: 08/09<br>Fim: 25/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor | Início: 26/09<br>Fim: 26/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor |
+| Conduzir Análise de Tarefas (HTA e CTT) | Início: 08/09<br>Fim: 25/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor | Início: 26/09<br>Fim: 26/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor |
 | Reunião de Alinhamento e Ata | Início: 26/09<br>Fim: 26/09 | A definir | Início: 26/09<br>Fim: 26/09 | A definir |
-| Gravar apresentação da Etapa 2 | Início: 26/09<br>Fim: 27/09 | A definir | Início: 27/09<br>Fim: 27/09 | A definir |
-| Correção pós-apresentação | Início: 27/09<br>Fim: 27/09 | A definir | Início: 27/09<br>Fim: 27/09 | A definir |
+| Gravar apresentação da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+### 2.2 Cronograma Executado
+
+Na Tabela 4, tem-se o registro do cronograma real de execução das atividades da Etapa 2 realizadas até o momento.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 4 - Cronograma Executado (Etapa 2)</b></p>
+
+| Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
+| :--- | :---: | :--- | :---: | :--- |
+| Estruturação Metodológica do Perfil do Usuário e Roteiro de Entrevista | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
+| Documentação dos Aspectos Éticos e Termo de Consentimento (TCLE) | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
+| Estruturação do Elenco de Personas e Template Metodológico Individual | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
+| Matriz de Cenários e Detalhamento dos Cenários 01 e 02 | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
+| Matriz de Tarefas e Análise HTA (Tarefas 01 e 02) | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
+| Matriz de Tarefas e Análise CTT (Tarefas 01 e 02) | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
+| Condução das Entrevistas Individuais com Usuários Reais | A definir | Arthur Sismene, Daniel Batista, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Arthur Sismene, Daniel Batista, João Vitor, Leonardo Lopes, Pedro Lima |
+| Preenchimento Individual de Personas, Cenários e Tarefas (Membros 2 a 5) | A definir | Arthur Sismene, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Daniel da Silva Batista |
+| Reunião de Alinhamento e Ata da Etapa 2 | A definir | A definir | A definir | A definir |
+| Gravação da Apresentação da Etapa 2 | A definir | Arthur Sismene, Daniel Batista, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Arthur Sismene, Daniel Batista, João Vitor, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -95,11 +123,11 @@ Na Tabela 3, tem-se o cronograma planejado para as atividades da segunda entrega
 
 ## 3. Etapa 3 - Princípios Gerais de Projeto e Metas de Usabilidade
 
-Na Tabela 4, tem-se o cronograma planejado para as atividades da terceira entrega.
+Na Tabela 5, tem-se o cronograma planejado para as atividades da terceira entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 4 - Cronograma Planejado (Etapa 3)</b></p>
+<p align="center"><b>Tabela 5 - Cronograma Planejado (Etapa 3)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -116,11 +144,11 @@ Na Tabela 4, tem-se o cronograma planejado para as atividades da terceira entreg
 
 ## 4. Etapa 4 - Planejamento da Avaliação
 
-Na Tabela 5, tem-se o cronograma planejado para as atividades da quarta entrega.
+Na Tabela 6, tem-se o cronograma planejado para as atividades da quarta entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 5 - Cronograma Planejado (Etapa 4)</b></p>
+<p align="center"><b>Tabela 6 - Cronograma Planejado (Etapa 4)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -137,11 +165,11 @@ Na Tabela 5, tem-se o cronograma planejado para as atividades da quarta entrega.
 
 ## 5. Etapa 5 - Relato dos Resultados e Protótipo de Papel
 
-Na Tabela 6, tem-se o cronograma planejado para as atividades da quinta entrega.
+Na Tabela 7, tem-se o cronograma planejado para as atividades da quinta entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 6 - Cronograma Planejado (Etapa 5)</b></p>
+<p align="center"><b>Tabela 7 - Cronograma Planejado (Etapa 5)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -158,11 +186,11 @@ Na Tabela 6, tem-se o cronograma planejado para as atividades da quinta entrega.
 
 ## 6. Etapa 6 - Relato do Protótipo de Papel e Alta Fidelidade
 
-Na Tabela 7, tem-se o cronograma planejado para as atividades da sexta entrega.
+Na Tabela 8, tem-se o cronograma planejado para as atividades da sexta entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 7 - Cronograma Planejado (Etapa 6)</b></p>
+<p align="center"><b>Tabela 8 - Cronograma Planejado (Etapa 6)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -178,11 +206,11 @@ Na Tabela 7, tem-se o cronograma planejado para as atividades da sexta entrega.
 
 ## 7. Etapa 7 - Relato do Protótipo de Alta Fidelidade
 
-Na Tabela 8, tem-se o cronograma planejado para as atividades da sétima entrega.
+Na Tabela 9, tem-se o cronograma planejado para as atividades da sétima entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 8 - Cronograma Planejado (Etapa 7)</b></p>
+<p align="center"><b>Tabela 9 - Cronograma Planejado (Etapa 7)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -198,11 +226,11 @@ Na Tabela 8, tem-se o cronograma planejado para as atividades da sétima entrega
 
 ## 8. Etapa 8 - Verificação dos Artefatos
 
-Na Tabela 9, tem-se o cronograma planejado para as atividades da oitava entrega.
+Na Tabela 10, tem-se o cronograma planejado para as atividades da oitava entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 9 - Cronograma Planejado (Etapa 8)</b></p>
+<p align="center"><b>Tabela 10 - Cronograma Planejado (Etapa 8)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -218,11 +246,11 @@ Na Tabela 9, tem-se o cronograma planejado para as atividades da oitava entrega.
 
 ## 9. Projeto Final
 
-Na Tabela 10, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
+Na Tabela 11, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 10 - Cronograma Planejado (Projeto Final)</b></p>
+<p align="center"><b>Tabela 11 - Cronograma Planejado (Projeto Final)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -245,5 +273,6 @@ Na Tabela 10, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.1` | 06/09/2026 | Padronização das tabelas, inclusão do Cronograma Executado e histórico. | Daniel da Silva Batista | Leonardo da Silva Lopes Júnior |
 | `1.2` | 10/09/2026 | Expansão do cronograma (Etapas 2 a 8), inserção de tarefas gerenciais e padronização de autoria. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.3` | 17/09/2026 | Adição da Tabela de Contribuição no início do artefato com padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.4` | 21/09/2026 | Inclusão do Cronograma Executado da Etapa 2 e renumeração das tabelas subsequentes. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
