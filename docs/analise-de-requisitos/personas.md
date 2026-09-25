@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Fundamentação teórica (Cooper, 1999; Barbosa e Silva, 2010), estruturação da metodologia de personas e organização do elenco para a equipe. |
+| Daniel da Silva Batista | Fundamentação teórica (Cooper, 1999; Barbosa e Silva, 2010), estruturação da metodologia de personas, modelagem empírica e validação da Persona 1 (Maria Helena dos Santos) via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização do elenco para a equipe. |
 | Arthur Sismene Carvalho | Revisão do elenco de personas e planejamento da modelagem individual. |
 | João Vitor Sales Ibiapina | Revisão das diretrizes do elenco e preparação para a modelagem da persona individual. |
 | Leonardo da Silva Lopes Júnior | Revisão metodológica das diretrizes de personas segundo Barbosa e Silva (2010). |
@@ -78,6 +78,7 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 | **Dispositivos Utilizados** | Notebook pessoal (Windows) para estudo diário e smartphone para acompanhar notícias de editais |
 | **Frequência de Acesso** | Quase diária (visita o portal de 4 a 5 vezes por semana, especialmente à noite e fins de semana) |
 | **Citação Típica** | *"Eu preciso de um site direto, onde eu encontre o edital e a prova certa para imprimir sem ter que adivinhar qual botão verde é o download real e qual é propaganda com vírus."* |
+| **Base Empírica de Validação** | Modelada e validada empiricamente a partir da [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) (06 min 19 s), realizada em 25/09/2026. |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -138,5 +139,6 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/09/2026 | Fundamentação teórica de personas (Cooper; Barbosa & Silva), definição do elenco com 5 personas e estruturação da Persona 1 (Mateus Oliveira). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 21/09/2026 | Remoção da antipersona e ajuste do elenco para designação por membro, reservando as seções 4.2 a 4.5 para modelagem individual após entrevistas de campo. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.2` | 25/09/2026 | Vinculação empírica da Persona 1 (Maria Helena) com a entrevista individual gravada USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>

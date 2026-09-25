@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Fundamentação teórica de cenários (Carroll, 2000; Barbosa e Silva, 2010), estruturação dos elementos formais, redação detalhada dos Cenários 01 e 02 e organização dos templates para a equipe. |
+| Daniel da Silva Batista | Fundamentação teórica de cenários (Carroll, 2000; Barbosa e Silva, 2010), estruturação dos elementos formais, redação e validação empírica dos Cenários 01 e 02 via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão conceitual dos elementos de cenário e estruturação dos Cenários 05 e 06. |
 | João Vitor Sales Ibiapina | Revisão da matriz de cenários e estruturação dos Cenários 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Revisão da coerência entre personas e contextos dos Cenários 07 e 08. |
@@ -68,7 +68,8 @@ A Tabela 1 a seguir apresenta a relação dos 10 cenários elaborados pelo grupo
 
 ### 4.1 Cenário 01: Localização Ágil de Edital de Concurso no DF (CEN-01)
 * **Responsável:** Daniel da Silva Batista  
-* **Persona Associada:** Maria Helena dos Santos (PER-01 — Concurseira Ativa / Adulta e Madura)
+* **Persona Associada:** Maria Helena dos Santos (PER-01 — Concurseira Ativa / Adulta e Madura)  
+* **Validação Empírica:** Validado na prática através da [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) (Tarefa 01: Busca por palavra-chave / órgão).
 
 O detalhamento narrativo do Cenário 01, estruturado segundo os sete elementos formais de Carroll (2000) e Barbosa e Silva (2010), é apresentado na Tabela 2:
 
@@ -94,7 +95,8 @@ O detalhamento narrativo do Cenário 01, estruturado segundo os sete elementos f
 
 ### 4.2 Cenário 02: Download Seguro de Provas Anteriores e Gabaritos em PDF (CEN-02)
 * **Responsável:** Daniel da Silva Batista  
-* **Persona Associada:** Maria Helena dos Santos (PER-01 — Concurseira Ativa / Adulta e Madura)
+* **Persona Associada:** Maria Helena dos Santos (PER-01 — Concurseira Ativa / Adulta e Madura)  
+* **Validação Empírica:** Validado na prática através da [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) (Tarefa 02: Download de prova e gabarito em PDF).
 
 O detalhamento narrativo do Cenário 02 é apresentado na Tabela 3 a seguir:
 
@@ -146,5 +148,6 @@ Os cenários a seguir foram concebidos a partir do perfil dos usuários entrevis
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/09/2026 | Fundamentação teórica de cenários (Carroll; Barbosa & Silva), definição da matriz dos 10 cenários, detalhamento narrativo dos Cenários 01 e 02 e padronização para a equipe. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 25/09/2026 | Vinculação empírica dos Cenários 01 e 02 à execução real gravada na entrevista USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>

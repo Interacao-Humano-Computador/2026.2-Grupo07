@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Estruturação dos dois métodos de coleta (análise documental e entrevistas), elaboração da matriz individual (DOC-01 a DOC-05 e USR-01 a USR-05), detalhamento de DOC-01, tabela síntese dos perfis e roteiro unificado. |
+| Daniel da Silva Batista | Estruturação dos dois métodos de coleta (análise documental e entrevistas), elaboração da matriz individual (DOC-01 a DOC-05 e USR-01 a USR-05), detalhamento de DOC-01, condução e registro da [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY), tabela síntese dos perfis e roteiro unificado. |
 | Arthur Sismene Carvalho | Estruturação dos dados demográficos e revisão do roteiro de validação de tarefas. |
 | João Vitor Sales Ibiapina | Definição dos critérios de acessibilidade e caracterização do perfil com foco em vagas especiais e idosos. |
 | Leonardo da Silva Lopes Júnior | Revisão metodológica com base em Barbosa e Silva (2010) e consolidação da tabela de entrevistas. |
@@ -293,7 +293,7 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 
 | Entrevistador | Código do Entrevistado | Perfil Escolhido pelo Entrevistador | Tarefas Avaliadas | Data da Sessão | Duração | Link da Gravação |
 | :--- | :---: | :---: | :--- | :---: | :---: | :---: |
-| **Daniel da Silva Batista** | `USR-01` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **Daniel da Silva Batista** | `USR-01` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | 25/09/2026 | 06 min 19 s | [Vídeo da Entrevista (USR-01)](https://youtu.be/YkYvCZDidaY) |
 | **Pedro Rocha Ferreira Lima** | `USR-02` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Consulta a retificações e prazos | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 | **Arthur Sismene Carvalho** | `USR-03` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 05:** Simulado de questões online<br>**Tarefa 06:** Busca de vagas de estágio no DF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 | **Leonardo da Silva Lopes Júnior** | `USR-04` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 07:** Videoaulas e dicas de disciplinas<br>**Tarefa 08:** Cadastro de alerta de concursos por e-mail | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
@@ -322,5 +322,6 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | `1.0` | 21/09/2026 | Estruturação metodológica do perfil de usuário, definição dos 3 perfis segundo Exemplo 8.1 de Barbosa & Silva, roteiro unificado de entrevista e tabela de gravações. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 21/09/2026 | Refinamento dos atributos de perfil segundo Hackos & Redish (1998) e Courage & Baxter (2005) e detalhamento dos 4 grupos de atributos do Cap. 8 de Barbosa & Silva. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.2` | 22/09/2026 | Inclusão do Método Sem Usuário (Análise Documental Individual - DOC-01 a DOC-05), detalhamento de DOC-01 com dados abertos do IPEA (Atlas do Estado Brasileiro) e IBGE (PNAD Contínua) e ajuste de numeração. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.3` | 25/09/2026 | Inclusão do registro e hiperligação da entrevista individual gravada USR-01 (06:19) conduzida por Daniel da Silva Batista. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
