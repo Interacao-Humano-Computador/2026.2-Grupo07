@@ -106,16 +106,17 @@ Na Tabela 4, tem-se o registro do cronograma real de execução das atividades d
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Estruturação Metodológica do Perfil do Usuário e Roteiro de Entrevista | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
-| Documentação dos Aspectos Éticos e Termo de Consentimento (TCLE) | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
-| Estruturação do Elenco de Personas e Template Metodológico Individual | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
-| Matriz de Cenários e Detalhamento dos Cenários 01 e 02 | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
-| Matriz de Tarefas e Análise HTA (Tarefas 01 e 02) | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
-| Matriz de Tarefas e Análise CTT (Tarefas 01 e 02) | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 21/09 | Pedro Rocha Ferreira Lima |
-| Condução das Entrevistas Individuais com Usuários Reais | A definir | Arthur Sismene, Daniel Batista, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Arthur Sismene, Daniel Batista, João Vitor, Leonardo Lopes, Pedro Lima |
-| Preenchimento Individual de Personas, Cenários e Tarefas (Membros 2 a 5) | A definir | Arthur Sismene, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Daniel da Silva Batista |
-| Reunião de Alinhamento e Ata da Etapa 2 | A definir | A definir | A definir | A definir |
-| Gravação da Apresentação da Etapa 2 | A definir | Arthur Sismene, Daniel Batista, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Arthur Sismene, Daniel Batista, João Vitor, Leonardo Lopes, Pedro Lima |
+| Estruturação Metodológica do Perfil do Usuário e DOC-01 | Início: 20/09<br>Fim: 22/09 | Daniel da Silva Batista | Início: 22/09<br>Fim: 25/09 | Pedro Rocha, Arthur Sismene, João Vitor, Leonardo Lopes |
+| Documentação dos Aspectos Éticos e Termo de Consentimento (TCLE) | Início: 20/09<br>Fim: 21/09 | Daniel da Silva Batista | Início: 21/09<br>Fim: 22/09 | Pedro Rocha, Arthur Sismene, João Vitor, Leonardo Lopes |
+| Estruturação do Elenco de Personas e Modelagem PER-01 | Início: 20/09<br>Fim: 25/09 | Daniel da Silva Batista | Início: 25/09<br>Fim: 25/09 | Pedro Rocha, Arthur Sismene, João Vitor, Leonardo Lopes |
+| Matriz de Cenários e Detalhamento dos Cenários 01 e 02 | Início: 20/09<br>Fim: 25/09 | Daniel da Silva Batista | Início: 25/09<br>Fim: 25/09 | Pedro Rocha, Arthur Sismene, João Vitor, Leonardo Lopes |
+| Matriz de Tarefas e Análise HTA (Tarefas 01 e 02) | Início: 20/09<br>Fim: 22/09 | Daniel da Silva Batista | Início: 22/09<br>Fim: 25/09 | Pedro Rocha, Arthur Sismene, João Vitor, Leonardo Lopes |
+| Matriz de Tarefas e Análise CTT (Tarefas 01 e 02) | Início: 20/09<br>Fim: 22/09 | Daniel da Silva Batista | Início: 22/09<br>Fim: 25/09 | Pedro Rocha, Arthur Sismene, João Vitor, Leonardo Lopes |
+| Condução e Gravação da Entrevista Individual USR-01 (06:19) | Início: 25/09<br>Fim: 25/09 | Daniel da Silva Batista | Início: 25/09<br>Fim: 25/09 | Pedro Rocha Ferreira Lima |
+| Condução das Entrevistas Individuais USR-02 a USR-05 | *Em andamento* | Arthur Sismene, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Daniel da Silva Batista |
+| Preenchimento Individual de Personas, Cenários e Tarefas (Membros 2 a 5) | *Em andamento* | Arthur Sismene, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Daniel da Silva Batista |
+| Reunião de Alinhamento e Ata da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Todos os integrantes | Início: 27/09<br>Fim: 27/09 | Todos os integrantes |
+| Gravação da Apresentação da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Todos os integrantes | Início: 27/09<br>Fim: 27/09 | Todos os integrantes |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -273,6 +274,6 @@ Na Tabela 11, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.1` | 06/09/2026 | Padronização das tabelas, inclusão do Cronograma Executado e histórico. | Daniel da Silva Batista | Leonardo da Silva Lopes Júnior |
 | `1.2` | 10/09/2026 | Expansão do cronograma (Etapas 2 a 8), inserção de tarefas gerenciais e padronização de autoria. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.3` | 17/09/2026 | Adição da Tabela de Contribuição no início do artefato com padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
-| `1.4` | 21/09/2026 | Inclusão do Cronograma Executado da Etapa 2 e renumeração das tabelas subsequentes. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.4` | 27/09/2026 | Inclusão e consolidação do Cronograma Executado da Etapa 2 com revisores e registro da entrevista USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
