@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | Daniel da Silva Batista | Fundamentação teórica de HTA (Annett & Duncan, 1967; Barbosa e Silva, 2010), estruturação da matriz de tarefas, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
-| Arthur Sismene Carvalho | Revisão da decomposição funcional e estruturação das Tarefas 05 e 06. |
+| Arthur Sismene Carvalho | Revisão da decomposição funcional e modelagem HTA integral das Tarefas 05 e 06 (diagramas e tabelas analíticas), incluindo a caracterização da TAR-06 como tarefa não suportada e o levantamento da colisão terminológica de "estágio". |
 | João Vitor Sales Ibiapina | Revisão da decomposição hierárquica e estruturação das Tarefas 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Revisão das operações e planos condicionais das Tarefas 07 e 08. |
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em HTA (diagramas e tabelas analíticas com problemas e recomendações) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
@@ -389,23 +389,214 @@ flowchart TD
 
 ---
 
-## 5. Estrutura para Validação das Tarefas 05 a 10 pelos Demais Integrantes
+## 5. Modelagem Detalhada das Tarefas (Arthur Sismene Carvalho)
+
+### 5.1 Tarefa 05: Realizar simulado de questões online com feedback de gabarito (TAR-05)
+
+A decomposição hierárquica da Tarefa 05 é ilustrada na Figura 5, e a especificação de suas operações, problemas e recomendações é apresentada na Tabela 6. A modelagem considera o contexto de uso predominante da persona **PER-03 (Lucas Andrade Ferreira)**: execução em smartphone, em deslocamento, sob conexão instável.
+
+#### Diagrama de Decomposição HTA (Figura 5)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 5:</b> Diagrama HTA da Tarefa 05 - Realizar simulado de questões online</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    T0["0. Realizar simulado de questões online com feedback de gabarito<br><i>Plano 0: 1 depois 2 depois 3 (iterativo) depois 4</i>"]
+
+    T1["1. Acessar a seção de Simulados<br><i>Plano 1: 1.1 depois 1.2</i>"]
+    T11["1.1 Localizar o item 'Simulados' no menu"]
+    T12["1.2 Aguardar carregamento da árvore de disciplinas"]
+
+    T2["2. Definir o escopo do simulado<br><i>Plano 2: 2.1 depois 2.2; 2.3 indisponível</i>"]
+    T21["2.1 Selecionar a disciplina pretendida"]
+    T22["2.2 Refinar por assunto ou subtópico"]
+    T23["2.3 Definir quantidade de questões e cronômetro<br>(NÃO SUPORTADO)"]
+
+    T3["3. Responder às questões<br><i>Plano 3: repetir 3.1 a 3.3 até encerrar</i>"]
+    T31["3.1 Ler e interpretar o enunciado"]
+    T32["3.2 Marcar a alternativa escolhida"]
+    T33["3.3 Avançar para a questão seguinte"]
+
+    T4["4. Conferir o desempenho obtido<br><i>Plano 4: 4.1; 4.2 indisponível</i>"]
+    T41["4.1 Verificar o gabarito da questão individual"]
+    T42["4.2 Consultar placar consolidado de acertos<br>(NÃO SUPORTADO)"]
+
+    T0 --> T1
+    T0 --> T2
+    T0 --> T3
+    T0 --> T4
+
+    T1 --> T11
+    T1 --> T12
+
+    T2 --> T21
+    T2 --> T22
+    T2 --> T23
+
+    T3 --> T31
+    T3 --> T32
+    T3 --> T33
+
+    T4 --> T41
+    T4 --> T42
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+#### Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 6: Análise HTA da Tarefa 05</b></p>
+
+| Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
+| :--- | :--- | :--- | :--- |
+| **0. Realizar simulado de questões online com feedback de gabarito** | **Plano 0:** Executar 1 e 2 em sequência; repetir 3 até o encerramento da sessão; então executar 4. | A tarefa não é tratada pelo sistema como uma **sessão de estudo** com início, escopo e encerramento definidos, mas como navegação avulsa por um repositório de questões, o que impede o fechamento do ciclo diagnóstico pretendido pelo usuário. | Reconceber o fluxo como sessão: configurar, executar, encerrar e relatar desempenho, preservando o estado em caso de interrupção. |
+| **1. Acessar a seção de Simulados** | **Plano 1:** Executar 1.1 e 1.2. | O item "Simulados" concorre com outros quatorze rótulos no menu principal, sem hierarquia visual que distinga ferramentas interativas de seções de conteúdo editorial. | Agrupar as ferramentas de estudo (Simulados, Provas, Aulas, Apostilas) em bloco visualmente destacado do menu. |
+| **1.1 Localizar item no menu** | Ação visual | Em viewport móvel o menu é colapsado e exige rolagem extensa; o rótulo não possui ícone de apoio ao reconhecimento. | Fixar barra de navegação inferior no mobile com as quatro ferramentas de estudo mais acessadas e respectivos ícones. |
+| **1.2 Aguardar carregamento** | Tarefa de sistema | O carregamento tardio dos blocos publicitários desloca o conteúdo já renderizado, provocando toque em alvo indesejado (*layout shift*). | Reservar previamente o espaço dos contêineres de anúncio (`min-height`) para manter CLS próximo de zero. |
+| **2. Definir o escopo do simulado** | **Plano 2:** Executar 2.1 e 2.2. A operação 2.3 é pretendida pelo usuário, mas **não é suportada pelo sistema**. | A seleção ocorre sobre uma árvore extensa de assuntos com volumes muito elevados por tópico (Direito Administrativo com mais de 7.000 questões), sem que o usuário possa delimitar uma sessão exequível no tempo de que dispõe. | Inserir configurador prévio de sessão com disciplina, quantidade de questões (10/20/50), nível de dificuldade, banca e cronômetro opcional. |
+| **2.1 Selecionar disciplina** | Ação física | Lista hierárquica longa, sem campo de filtro instantâneo nem histórico de disciplinas recentes. | Adicionar busca incremental por disciplina e atalho para os últimos assuntos praticados. |
+| **2.2 Refinar por assunto** | Ação física | A contagem de questões por assunto é informativa, mas não orienta sobre o tempo estimado de resolução. | Exibir estimativa de duração (ex.: *"10 questões ≈ 15 min"*) ao lado de cada opção. |
+| **2.3 Definir quantidade e cronômetro** | **Operação não suportada** | Ausência completa de parametrização da sessão: o usuário não controla a extensão do exercício, inviabilizando o estudo em janelas curtas de tempo. | Implementar a parametrização como requisito funcional (**RF-DOC-04**). |
+| **3. Responder às questões** | **Plano 3:** Repetir 3.1, 3.2 e 3.3 iterativamente até esgotar o escopo ou interromper por fator externo. | O progresso da sessão não é persistido: recarregamento de página ou queda de conexão descarta todas as respostas já registradas. | Persistir o progresso localmente (`localStorage`) e sincronizar ao restabelecer conexão. |
+| **3.1 Ler e interpretar enunciado** | Operação cognitiva | Corpo tipográfico reduzido em telas pequenas obriga ampliação por gesto de pinça a cada questão. | Adotar tipografia fluida com mínimo de 16 px em mobile e largura de linha controlada. |
+| **3.2 Marcar alternativa** | Ação física | Áreas de toque das alternativas inferiores ao mínimo recomendado, gerando marcação acidental em uso com uma única mão e em veículo em movimento. | Garantir alvos de toque de no mínimo 44 × 44 px (WCAG 2.1, critério 2.5.5) e tornar todo o bloco da alternativa clicável. |
+| **3.3 Avançar para a seguinte** | Ação física | Ausência de indicador de posição na sequência (ex.: "questão 4 de 10"), impedindo a percepção de progresso. | Inserir barra de progresso e contador de posição fixos no topo da sessão. |
+| **4. Conferir o desempenho obtido** | **Plano 4:** Executar 4.1 por questão. A operação 4.2 é o objetivo central do usuário, mas **não é suportada**. | O retorno é pontual e por questão, nunca agregado. O usuário encerra a sessão **sem saber quantas questões acertou**, frustrando o propósito diagnóstico da tarefa. | Apresentar relatório de encerramento com total de acertos, percentual por assunto, tempo médio por questão e histórico evolutivo entre sessões. |
+| **4.1 Verificar gabarito individual** | Tarefa de sistema | O gabarito informa apenas a alternativa correta, sem justificativa, o que limita o valor pedagógico para usuário iniciante no domínio. | Incorporar comentário explicativo da questão e referência ao dispositivo legal ou regra gramatical aplicável. |
+| **4.2 Consultar placar consolidado** | **Operação não suportada** | Inexistência de consolidação de resultados e de histórico de desempenho. | Implementar placar e histórico como requisito funcional (**RF-DOC-04**). |
+
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+---
+
+### 5.2 Tarefa 06: Buscar oportunidades de estágio de nível superior no DF (TAR-06)
+
+!!! warning "Tarefa não suportada pelo sistema"
+    A inspeção da arquitetura de informação do PCI Concursos, realizada em 27/09/2026, constatou que **o portal não dispõe de seção, filtro ou categoria dedicada a vagas de estágio**: a seção "Vagas" indexa exclusivamente cargos efetivos de concursos e processos seletivos, e nenhum dos quinze itens do menu principal contempla estágio, estagiário ou programa de trainee.
+
+    A modelagem a seguir, portanto, não descreve um fluxo bem-sucedido, mas o **percurso exploratório de tentativa e erro** que o usuário executa antes de abandonar a tarefa. Conforme Diaper e Stanton (2004), a análise de tarefas malsucedidas constitui evidência de primeira ordem para a identificação de lacunas funcionais, pois expõe requisitos que a modelagem de fluxos bem-sucedidos é incapaz de revelar. O confronto dessa ausência com a demanda reprimida documentada em [`DOC-03`](../perfil-de-usuario.md#53-analise-documental-03-responsavel-arthur-sismene-carvalho) — mais de 18 milhões de estudantes aptos e não colocados em estágio, segundo a ABRES — qualifica o achado como lacuna de alto impacto.
+
+#### Diagrama de Decomposição HTA (Figura 6)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 6:</b> Diagrama HTA da Tarefa 06 - Busca de vagas de estágio (percurso de tentativa e abandono)</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    T0["0. Buscar oportunidades de estágio de nível superior no DF<br><i>Plano 0: 1 depois tentar 2, 3 ou 4; se todas falharem, fazer 5</i>"]
+
+    T1["1. Formular hipótese de localização da oferta<br><i>Plano 1: 1.1 depois 1.2</i>"]
+    T11["1.1 Inspecionar os rótulos do menu principal"]
+    T12["1.2 Inferir a seção provável por analogia"]
+
+    T2["2. Tentar pela seção 'Vagas'<br><i>Plano 2: 2.1 depois 2.2</i>"]
+    T21["2.1 Abrir a seção e varrer a listagem"]
+    T22["2.2 Procurar filtro por escolaridade em curso<br>(INEXISTENTE)"]
+
+    T3["3. Tentar pela busca textual<br><i>Plano 3: 3.1 depois 3.2</i>"]
+    T31["3.1 Digitar o termo 'estágio'"]
+    T32["3.2 Triar resultados e descartar<br>'estágio probatório' (falso positivo)"]
+
+    T4["4. Tentar pela navegação regional e por cargos<br><i>Plano 4: 4.1 ou 4.2</i>"]
+    T41["4.1 Filtrar por Centro-Oeste / DF"]
+    T42["4.2 Varrer a listagem de 300+ cargos<br>buscando 'Estagiário'"]
+
+    T5["5. Abandonar a tarefa<br><i>Plano 5: 5.1 depois 5.2</i>"]
+    T51["5.1 Concluir erroneamente que a falha foi própria"]
+    T52["5.2 Migrar para portal externo de estágios"]
+
+    T0 --> T1
+    T0 --> T2
+    T0 --> T3
+    T0 --> T4
+    T0 --> T5
+
+    T1 --> T11
+    T1 --> T12
+
+    T2 --> T21
+    T2 --> T22
+
+    T3 --> T31
+    T3 --> T32
+
+    T4 --> T41
+    T4 --> T42
+
+    T5 --> T51
+    T5 --> T52
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+#### Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Análise HTA da Tarefa 06</b></p>
+
+| Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
+| :--- | :--- | :--- | :--- |
+| **0. Buscar oportunidades de estágio de nível superior no DF** | **Plano 0:** Executar 1; então tentar 2, 3 e 4 em qualquer ordem, repetindo enquanto restarem hipóteses; esgotadas as alternativas, executar 5. | **Lacuna funcional:** o sistema não oferece a funcionalidade buscada, e tampouco comunica essa ausência. O usuário despende cerca de doze minutos em exploração improdutiva antes de desistir. | Criar seção dedicada a estágios, jovem aprendiz e programas de ingresso, indexando processos seletivos de agentes de integração e de órgãos públicos (**RF-DOC-03**). |
+| **1. Formular hipótese de localização** | **Plano 1:** Executar 1.1 e 1.2. | Nenhum rótulo do menu comunica o escopo real de cobertura do portal, o que induz o usuário a presumir cobertura universal de oportunidades públicas. | Explicitar o escopo editorial em subtítulo ou descrição de seção (ex.: *"concursos e processos seletivos para cargos efetivos e temporários"*). |
+| **1.1 Inspecionar rótulos do menu** | Operação cognitiva | Quinze itens de menu sem agrupamento semântico elevam a carga cognitiva da varredura visual. | Agrupar o menu por finalidade (Oportunidades, Estudo, Referência, Institucional). |
+| **1.2 Inferir seção provável** | Operação cognitiva | O rótulo "Vagas" é semanticamente amplo e sugere abrangência que a seção não possui. | Renomear para rótulo específico (ex.: "Vagas por Cargo") ou ampliar a cobertura para corresponder à expectativa gerada. |
+| **2. Tentar pela seção 'Vagas'** | **Plano 2:** Executar 2.1 e 2.2. | A seção indexa apenas cargos efetivos, pressupondo candidato já qualificado. Não há filtro por escolaridade em curso nem por modalidade de contratação. | Adicionar faceta "Nível/Escolaridade" contemplando a opção *cursando*, e faceta "Modalidade" (efetivo, temporário, estágio, aprendiz). |
+| **2.1 Varrer a listagem** | Ação física/cognitiva | Listagem extensa ordenada por profissão consolidada, sem correspondência possível ao perfil estudantil. | Oferecer estado vazio orientado ao perfil quando nenhum resultado for compatível. |
+| **2.2 Procurar filtro de escolaridade** | **Operação frustrada** | O filtro pretendido não existe; o usuário não dispõe de meio para restringir a busca ao seu próprio perfil. | Implementar a faceta como requisito funcional (**RF-DOC-03**). |
+| **3. Tentar pela busca textual** | **Plano 3:** Executar 3.1 e 3.2. | **Colisão terminológica crítica:** no domínio de concursos, "estágio" designa majoritariamente o *estágio probatório* — período de avaliação do servidor recém-nomeado, presente em praticamente todos os editais. A busca retorna resultado tecnicamente correto e semanticamente inútil. | Desambiguar as duas acepções no mecanismo de busca, com sugestão explícita do tipo *"Você procura estágio para estudantes ou estágio probatório?"* (**RNF-DOC-03**). |
+| **3.1 Digitar o termo 'estágio'** | Ação física | Ausência de autocompletar que antecipe a ambiguidade no momento da digitação. | Exibir sugestões desambiguadoras no autocompletar do campo de busca. |
+| **3.2 Triar resultados** | Operação cognitiva | Usuário iniciante no domínio **não distingue as duas acepções** e inicialmente acredita ter encontrado o que buscava, o que prolonga o esforço improdutivo. | Rotular a categoria de cada resultado (ex.: *"menção em edital"* versus *"vaga aberta"*). |
+| **4. Tentar pela navegação regional e por cargos** | **Plano 4:** Executar 4.1 ou 4.2. | Ambos os caminhos retornam exclusivamente cargos permanentes; a listagem de mais de trezentos cargos não contempla a entrada "Estagiário". | Incluir "Estagiário" e "Jovem Aprendiz" na taxonomia de cargos, ainda que apenas para exibir estado vazio informativo. |
+| **4.1 Filtrar por Centro-Oeste / DF** | Ação física | O filtro geográfico opera corretamente, mas sobre um acervo que não contém o tipo de oportunidade buscada. | Manter o filtro e estendê-lo ao novo acervo de estágios. |
+| **4.2 Varrer listagem de cargos** | Operação cognitiva | Varredura de mais de trezentos itens com alto custo de atenção e resultado nulo. | Substituir varredura manual por busca com tolerância a sinônimos na taxonomia de cargos. |
+| **5. Abandonar a tarefa** | **Plano 5:** Executar 5.1 e 5.2. | **Problema mais grave do fluxo:** o sistema nunca informa que não cobre estágio, de modo que o usuário atribui a si o fracasso ("não soube procurar"), com prejuízo à autoconfiança e à percepção de competência. | Implementar estado vazio honesto e prestativo: *"Ainda não cobrimos vagas de estágio. Veja concursos de nível médio e superior com vagas para iniciantes."* |
+| **5.1 Atribuir a falha a si** | Operação cognitiva | Violação direta da heurística de Nielsen (1993) de visibilidade do estado do sistema e de mensagens de erro compreensíveis. | Comunicar limitações de escopo de forma explícita e imediata. |
+| **5.2 Migrar para portal externo** | Ação física | Perda de retenção de um usuário de longo prazo, que tende a converter-se em concurseiro pleno nos anos subsequentes. | Reter o usuário ofertando alternativa adjacente e cadastro de alerta para quando a cobertura de estágios for lançada. |
+
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+---
+
+## 6. Estrutura para Validação das Tarefas 07 a 10 pelos Demais Integrantes
 
 As demais tarefas modeladas pela equipe seguirão exatamente a mesma notação formal (diagrama Mermaid decomposto + tabela analítica de problemas e recomendações), integrando os achados empíricos das entrevistas gravadas:
 
-* **Tarefas 05 e 06 (Arthur Sismene Carvalho):** Modelagem de simulados online com feedback de acertos e busca de estágios/trainees.
 * **Tarefas 07 e 08 (Leonardo da Silva Lopes Júnior):** Modelagem do acesso a módulos audiovisuais de disciplinas e submissão de cadastro em mala direta/newsletter de editais.
 * **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem da checagem de vagas reservadas a PcD/idosos e conferência de portarias de nomeação.
 
 ---
 
-## 6. Bibliografia
+## 7. Bibliografia
 
 > ANNETT, John; DUNCAN, Keith D. *Task Analysis and Training Design*. Journal of Occupational Psychology, v. 41, p. 211-221, 1967.  
 > BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
-> DIAPER, Dan; STANTON, Neville. *The Handbook of Task Analysis for Human-Computer Interaction*. Mahwah: Lawrence Erlbaum Associates, 2004.
+> DIAPER, Dan; STANTON, Neville. *The Handbook of Task Analysis for Human-Computer Interaction*. Mahwah: Lawrence Erlbaum Associates, 2004.  
+> NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
+> W3C. *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium, 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>.
 
-## 7. Histórico de Versões
+## 8. Histórico de Versões
 
 <div align="center" markdown="1">
 
@@ -413,5 +604,6 @@ As demais tarefas modeladas pela equipe seguirão exatamente a mesma notação f
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/09/2026 | Fundamentação de HTA (Annett & Duncan; Barbosa & Silva), matriz das 10 tarefas, modelagem completa das Tarefas 01 e 02 (diagramas Mermaid e tabelas com problemas/recomendações). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 27/09/2026 | Inclusão da modelagem HTA completa das Tarefas 03 e 04 (diagramas Mermaid e tabelas com problemas e recomendações ergonômicas) baseadas na Análise Documental (DOC-02) e persona Lucas Ferreira Rocha. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
+| `1.2` | 27/09/2026 | Modelagem HTA completa das Tarefas 05 e 06 (Figuras 5 e 6, Tabelas 6 e 7), com registro da TAR-06 como tarefa não suportada pelo sistema, identificação da colisão terminológica "estágio/estágio probatório" e inclusão das referências Nielsen (1993) e WCAG 2.1. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 
 </div>

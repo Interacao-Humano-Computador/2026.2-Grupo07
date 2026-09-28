@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | Daniel da Silva Batista | Fundamentação teórica de cenários (Carroll, 2000; Barbosa e Silva, 2010), estruturação dos elementos formais, redação e validação empírica dos Cenários 01 e 02 via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização dos templates para a equipe. |
-| Arthur Sismene Carvalho | Revisão conceitual dos elementos de cenário e estruturação dos Cenários 05 e 06. |
+| Arthur Sismene Carvalho | Revisão conceitual dos elementos de cenário e redação integral dos Cenários 05 e 06, incluindo a modelagem do cenário de tarefa não suportada (CEN-06). |
 | João Vitor Sales Ibiapina | Revisão da matriz de cenários e estruturação dos Cenários 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Revisão da coerência entre personas e contextos dos Cenários 07 e 08. |
 | Pedro Rocha Ferreira Lima | Definição dos objetivos de busca regional, redação e fundamentação detalhada dos Cenários 03 e 04 com base em DOC-02 e revisão técnica geral. |
@@ -51,8 +51,8 @@ A Tabela 1 a seguir apresenta a relação dos 10 cenários elaborados pelo grupo
 | **CEN-02** | Download Seguro de Provas Anteriores e Gabaritos em PDF | **Maria Helena dos Santos (PER-01)** | Download de caderno de provas e gabarito | Daniel da Silva Batista |
 | **CEN-03** | Filtragem de Concursos Abertos na Região Centro-Oeste / DF | **Lucas Ferreira Rocha (PER-02)** | Filtragem de editais por região geográfica | Pedro Rocha Ferreira Lima |
 | **CEN-04** | Acompanhamento de Retificações e Prazos de Edital | **Lucas Ferreira Rocha (PER-02)** | Consulta a retificações e cronogramas | Pedro Rocha Ferreira Lima |
-| **CEN-05** | Resolução de Questões em Simulado Online no Smartphone | *A definir pelo responsável* | Simulado de questões online | Arthur Sismene Carvalho |
-| **CEN-06** | Prospecção de Vagas de Estágio de Nível Superior no DF | *A definir pelo responsável* | Busca de oportunidades de estágio | Arthur Sismene Carvalho |
+| **CEN-05** | Resolução de Questões em Simulado Online no Smartphone | **Thiago Moraes Albuquerque (PER-03)** | Simulado de questões online | Arthur Sismene Carvalho |
+| **CEN-06** | Prospecção de Vagas de Estágio de Nível Superior no DF | **Thiago Moraes Albuquerque (PER-03)** | Busca de oportunidades de estágio | Arthur Sismene Carvalho |
 | **CEN-07** | Acesso Rápido a Videoaulas de Direito Administrativo | *A definir pelo responsável* | Consulta a videoaulas e dicas didáticas | Leonardo da Silva Lopes Júnior |
 | **CEN-08** | Configuração de Alertas Automáticos de Vagas por E-mail | *A definir pelo responsável* | Cadastro de avisos de concursos por e-mail | Leonardo da Silva Lopes Júnior |
 | **CEN-09** | Consulta a Vagas Reservadas e Isenção de Taxa para PcD | *A definir pelo responsável* | Verificação de vagas para cotas / PcD | João Vitor Sales Ibiapina |
@@ -174,12 +174,66 @@ O detalhamento narrativo do Cenário 04 é apresentado na Tabela 5 a seguir:
 
 ---
 
-### 4.5 Cenários 05 a 10: Estrutura Padronizada para Validação em Campo
+### 4.5 Cenário 05: Resolução de Questões em Simulado Online no Smartphone (CEN-05)
+* **Responsável:** Arthur Sismene Carvalho  
+* **Persona Associada:** Thiago Moraes Albuquerque (PER-03 — Estudante Universitário / Iniciante)  
+* **Fundamentação:** Ancorado na [Análise Documental DOC-03](perfil-de-usuario.md#53-analise-documental-03-responsavel-arthur-sismene-carvalho), que evidencia a consolidação do estudo mediado por tela (50,7% das matrículas já em EAD, segundo o Censo da Educação Superior). *A sessão `USR-03` não foi realizada e o respectivo vídeo não está disponível; a modelagem apoia-se exclusivamente em dados documentais secundários.*
+
+O detalhamento narrativo do Cenário 05, estruturado segundo os sete elementos formais de Carroll (2000) e Barbosa e Silva (2010), é apresentado na Tabela 6:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 6: Detalhamento Narrativo do Cenário 05</b></p>
+
+| Elemento | Descrição Narrativa |
+| :--- | :--- |
+| **Ambiente / Contexto** | Terça-feira, 18h40, dentro de um ônibus lotado no trajeto da Ceilândia até o campus, na Asa Norte. Thiago está em pé, segurando a barra de apoio com a mão esquerda e o celular com a direita, com fones de ouvido. O trajeto dura cerca de 40 minutos e a conexão 4G oscila ao longo do percurso. Ele quer aproveitar o tempo de deslocamento para treinar questões de Língua Portuguesa antes da aula. |
+| **Atores** | **Thiago Moraes Albuquerque** (21 anos, graduando em Administração no turno noturno, nativo digital, tecnicamente fluente mas iniciante no domínio de concursos, com plano de dados limitado). |
+| **Objetivos** | Resolver aproximadamente dez questões objetivas de Língua Portuguesa e, ao final, saber **quantas acertou**, de modo a diagnosticar seu nível atual de preparo. |
+| **Planejamento** | Thiago planeja abrir o portal diretamente no navegador do celular, localizar a seção de simulados, escolher a disciplina desejada e responder às questões em sequência até o ônibus chegar ao destino, conferindo o placar no final. |
+| **Ações** | 1. Abre o navegador do smartphone e acessa o portal PCI Concursos.<br>2. Aguarda o carregamento da página inicial e procura o item "Simulados" entre os quinze itens do menu.<br>3. Toca em "Simulados" e depara-se com uma árvore extensa de disciplinas e assuntos.<br>4. Percorre a listagem procurando Língua Portuguesa e observa a contagem de questões associada a cada tópico.<br>5. Seleciona um assunto específico para reduzir o escopo, sem conseguir definir quantas questões deseja responder.<br>6. Lê o enunciado ampliando a tela com gesto de pinça e toca na alternativa escolhida.<br>7. Avança para a questão seguinte e repete o ciclo enquanto o sinal permite.<br>8. Ao aproximar-se do destino, procura um resumo consolidado do seu desempenho. |
+| **Eventos** | A página inicial demora a estabilizar por causa do carregamento tardio dos blocos publicitários, que deslocam o conteúdo e fazem Thiago tocar em um link indesejado na primeira tentativa. A árvore de assuntos exibe volumes muito grandes por tópico (Direito Administrativo, por exemplo, com mais de sete mil questões) e não oferece opção de montar uma sessão com quantidade definida de questões nem cronômetro. As áreas de toque das alternativas são pequenas para uso com uma única mão em veículo em movimento, e em duas ocasiões ele marca a alternativa vizinha à pretendida. Ao atravessar um trecho de sombra de sinal, a página recarrega e o progresso das questões já respondidas é perdido. Ao final, o sistema não apresenta placar agregado de acertos nem comentário das questões erradas. |
+| **Avaliação** | Thiago conclui o trajeto tendo respondido menos questões do que pretendia e **sem alcançar seu objetivo principal**: não obteve o diagnóstico quantitativo de desempenho que motivou o uso da ferramenta. Avalia que o conteúdo do portal é bom e abundante, mas que a experiência "não foi feita para o celular", e considera migrar para um aplicativo dedicado de questões nas próximas sessões de estudo. |
+
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+---
+
+### 4.6 Cenário 06: Prospecção de Vagas de Estágio de Nível Superior no DF (CEN-06)
+* **Responsável:** Arthur Sismene Carvalho  
+* **Persona Associada:** Thiago Moraes Albuquerque (PER-03 — Estudante Universitário / Iniciante)  
+* **Fundamentação:** Ancorado na [Análise Documental DOC-03](perfil-de-usuario.md#53-analise-documental-03-responsavel-arthur-sismene-carvalho), que documenta demanda reprimida de mais de 18 milhões de estudantes aptos e não colocados em estágio (ABRES) diante da ausência da funcionalidade no portal. *A sessão `USR-03` não foi realizada e o respectivo vídeo não está disponível; a modelagem apoia-se exclusivamente em dados documentais secundários.*
+
+!!! note "Observação metodológica"
+    Este é um **cenário de tarefa não suportada**: a funcionalidade buscada pelo usuário não existe no sistema avaliado. Conforme Barbosa e Silva (2010), cenários que documentam o fracasso da interação são especialmente produtivos em IHC, pois revelam lacunas funcionais que a análise de fluxos bem-sucedidos não expõe. A narrativa a seguir, portanto, encerra-se em **abandono da tarefa**, e não em conclusão.
+
+O detalhamento narrativo do Cenário 06 é apresentado na Tabela 7 a seguir:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Detalhamento Narrativo do Cenário 06</b></p>
+
+| Elemento | Descrição Narrativa |
+| :--- | :--- |
+| **Ambiente / Contexto** | Sábado pela manhã, na sala de casa, na Ceilândia-DF. É a única janela da semana em que o notebook compartilhado da família está disponível. A coordenação do curso estipulou prazo de duas semanas para que Thiago comprove a celebração do termo de compromisso de estágio obrigatório, o que lhe impõe urgência concreta. |
+| **Atores** | **Thiago Moraes Albuquerque** (21 anos, 5º semestre de Administração, precisa cumprir carga obrigatória de estágio curricular para não atrasar a formação). |
+| **Objetivos** | Localizar vagas de estágio de nível superior em órgãos públicos do Distrito Federal, verificar os requisitos de semestre mínimo e o valor da bolsa-auxílio e identificar o prazo de inscrição. |
+| **Planejamento** | Como o PCI Concursos é o portal de referência que ele já utiliza para estudar e do qual ouviu falar entre colegas, Thiago parte do **modelo mental de que o maior portal de oportunidades públicas do país necessariamente cobre estágio**. Planeja localizar uma seção equivalente a "Vagas" ou "Oportunidades", aplicar um filtro por Distrito Federal e por nível de escolaridade em curso, e listar as opções disponíveis. |
+| **Ações** | 1. Acessa o portal no notebook e inspeciona os itens do menu principal em busca de uma categoria de estágio.<br>2. Não encontrando rótulo explícito, deduz que a seção "Vagas" seja o local provável e a acessa.<br>3. Constata que a seção lista apenas cargos efetivos de concursos e processos seletivos (Assistente Social, Enfermeiro, Professor, Engenheiro Civil) e percorre a listagem procurando algo compatível com estudante.<br>4. Recorre ao campo de busca e digita o termo "estágio".<br>5. Triagem dos resultados retornados, procurando distinguir oportunidades reais de menções incidentais ao termo.<br>6. Muda de estratégia e navega pela categoria regional Centro-Oeste / Distrito Federal, supondo que a oferta esteja agrupada geograficamente.<br>7. Percorre a seção "Cargos", com mais de trezentas profissões catalogadas, procurando a entrada "Estagiário".<br>8. Após cerca de doze minutos sem resultado, abandona o portal. |
+| **Eventos** | A seção "Vagas" não oferece qualquer filtro por nível de escolaridade em curso ou por modalidade de contratação, pois sua indexação pressupõe candidatos já qualificados para cargos efetivos. A busca textual por "estágio" retorna ocorrências do termo **estágio probatório** — período de avaliação do servidor recém-nomeado, presente em praticamente todos os editais do domínio —, resultado tecnicamente correto mas semanticamente inútil para a intenção de Thiago, que não conhece a distinção entre as duas acepções e inicialmente acredita ter encontrado o que procurava. A navegação regional devolve apenas concursos para cargos permanentes, e a listagem de cargos não contempla a entrada "Estagiário". Em nenhum momento o sistema comunica explicitamente que **não cobre esse tipo de oportunidade**, de modo que Thiago permanece supondo que a falha é sua, e não do escopo do portal. |
+| **Avaliação** | **Tarefa não concluída por ausência de suporte funcional do sistema.** Thiago encerra a interação frustrado e com a percepção equivocada de que "não soube procurar", quando de fato buscava uma funcionalidade inexistente. O custo mais relevante não é o tempo perdido, mas a **ausência de resposta honesta do sistema**: um estado vazio informativo teria resolvido a questão em segundos. Ele migra para portais de agentes de integração e passa a associar o PCI Concursos exclusivamente ao público de concursos efetivos, reduzindo a frequência com que retorna ao site. |
+
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+---
+### 4.7 Cenários 07 a 10: Estrutura Padronizada para Validação em Campo
 
 Os cenários a seguir foram concebidos a partir do perfil dos usuários e seguem a mesma taxonomia formal de Carroll (2000), sendo validados e detalhados individualmente pelos respectivos integrantes responsáveis:
 
-* **Cenário 05 (Responsável: Arthur Sismene Carvalho — Persona a definir):** O(A) participante / persona definida pelo integrante utiliza o smartphone no trajeto de transporte para resolver 10 questões no simulado online de Língua Portuguesa do portal.
-* **Cenário 06 (Responsável: Arthur Sismene Carvalho — Persona a definir):** O(A) participante / persona definida pelo integrante procura oportunidades de estágio remunerado em órgãos de Brasília na seção de processos seletivos para estudantes de nível superior e técnico.
 * **Cenário 07 (Responsável: Leonardo da Silva Lopes Júnior — Persona a definir):** O(A) participante / persona definida pelo integrante assiste a uma videoaula explicativa de Direito Constitucional em seu intervalo de descanso/almoço.
 * **Cenário 08 (Responsável: Leonardo da Silva Lopes Júnior — Persona a definir):** O(A) participante / persona definida pelo integrante cadastra seu endereço de e-mail no formulário de notícias para receber boletins automáticos sobre concursos da carreira judiciária.
 * **Cenário 09 (Responsável: João Vitor Sales Ibiapina — Persona a definir):** O(A) participante / persona definida pelo integrante busca auxílio para localizar no edital as regras de isenção de taxa de inscrição para candidatos de baixa renda e as vagas reservadas para pessoas com deficiência.
@@ -202,5 +256,6 @@ Os cenários a seguir foram concebidos a partir do perfil dos usuários e seguem
 | `1.0` | 21/09/2026 | Fundamentação teórica de cenários (Carroll; Barbosa & Silva), definição da matriz dos 10 cenários, detalhamento narrativo dos Cenários 01 e 02 e padronização para a equipe. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 25/09/2026 | Vinculação empírica dos Cenários 01 e 02 à execução real gravada na entrevista USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.2` | 27/09/2026 | Detalhamento formal dos Cenários 03 e 04 por Pedro Rocha Ferreira Lima fundamentados na Análise Documental DOC-02. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
+| `1.3` | 27/09/2026 | Detalhamento narrativo integral dos Cenários 05 (simulado no smartphone) e 06 (prospecção de estágio), este último modelado como cenário de tarefa não suportada, com vinculação à Persona PER-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 
 </div>
