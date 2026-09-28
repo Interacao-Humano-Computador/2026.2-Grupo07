@@ -78,15 +78,15 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
 
 <p align="center"><b>Tabela 2: Matriz de Registro da Análise Documental Individual</b></p>
 
-| Integrante | Código | Fonte Documental Investigada | Foco Temático da Investigação | Data | Principais Dados e Evidências Extraídas | Documento Oficial |
-| :--- | :---: | :--- | :--- | :---: | :--- | :---: |
-| **Daniel da Silva Batista** | `DOC-01` | *Atlas do Estado Brasileiro* (IPEA, 2024) e *PNAD Contínua - Setor Público* (IBGE, 2024) | Perfil sociodemográfico dos candidatos e servidores: predominância feminina (60%), faixas etárias maduras (35 a 55 anos) e demanda por editais e provas (TAR-01 e TAR-02) | 22/09/2026 | Dados abertos comprovam 60% de presença feminina, forte concentração entre 35 e 55 anos, mediana salarial de R$ 3,2 mil em cargos de apoio e dependência de PDFs de editais e provas anteriores para estudo. | [IPEA - Atlas do Estado Brasileiro](https://www.ipea.gov.br/atlasestado/) \| [IBGE - PNAD Contínua](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html) |
-| **Pedro Rocha Ferreira Lima** | `DOC-02` | *Painel Estatístico de Pessoal* (PEP/MGI, 2024) e *Diário Oficial do Distrito Federal* (DODF, 2024) | Concentração de vagas públicas no Centro-Oeste/DF e dinâmica de retificações de cronogramas em editais (TAR-03 e TAR-04) | 27/09/2026 | Dados comprovam que mais de 65% das vagas da região Centro-Oeste concentram-se no DF e entorno; cerca de 80% dos editais sofrem retificação de cronograma nas primeiras 3 semanas após publicação oficial. | [PEP - Painel Estatístico de Pessoal](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/painel-estatistico-de-pessoal-pep) \| [DODF - Diário Oficial do DF](https://dodf.df.gov.br/) |
-| **Arthur Sismene Carvalho** | `DOC-03` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
-| **Leonardo da Silva Lopes Júnior** | `DOC-04` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
-| **João Vitor Sales Ibiapina** | `DOC-05` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
+| Integrante | Código | Fonte Documental Investigada | Foco Temático da Investigação | Data | Principais Dados e Evidências Extraídas |
+| :--- | :---: | :--- | :--- | :---: | :--- |
+| **Daniel da Silva Batista** | `DOC-01` | • [*Atlas do Estado Brasileiro* (IPEA, 2024)](https://www.ipea.gov.br/atlasestado/)<br>• [*PNAD Contínua - Setor Público* (IBGE, 2024)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html) | Perfil sociodemográfico dos concurseiros; demanda por busca de editais e cadernos de provas (TAR-01 e TAR-02) | 22/09/2026 | • 60% de presença feminina no serviço público.<br>• Concentração de candidatos nas faixas de 35 a 55 anos.<br>• Mediana salarial de R$ 3,2 mil em cargos de apoio.<br>• Dependência de cadernos de prova e gabaritos em PDF. |
+| **Pedro Rocha Ferreira Lima** | `DOC-02` | • [*Painel Estatístico de Pessoal* (PEP/MGI, 2024)](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/painel-estatistico-de-pessoal-pep)<br>• [*Diário Oficial do DF* (DODF, 2024)](https://dodf.df.gov.br/) | Concentração regional no Centro-Oeste/DF e dinâmica de retificações de editais (TAR-03 e TAR-04) | 27/09/2026 | • Mais de 65% das vagas do Centro-Oeste concentram-se no DF e RIDE.<br>• ~80% dos editais sofrem retificação nas 3 primeiras semanas.<br>• Necessidade de filtro dedicado por UF e selo visual de retificação. |
+| **Arthur Sismene Carvalho** | `DOC-03` | *A definir pelo responsável* | Foco a definir (TAR-05 e TAR-06) | A definir | *A preencher pelo integrante após condução da análise documental.* |
+| **Leonardo da Silva Lopes Júnior** | `DOC-04` | *A definir pelo responsável* | Foco a definir (TAR-07 e TAR-08) | A definir | *A preencher pelo integrante após condução da análise documental.* |
+| **João Vitor Sales Ibiapina** | `DOC-05` | *A definir pelo responsável* | Foco a definir (TAR-09 e TAR-10) | A definir | *A preencher pelo integrante após condução da análise documental.* |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
