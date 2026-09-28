@@ -8,7 +8,7 @@
 | Arthur Sismene Carvalho | Revisão do elenco de personas e planejamento da modelagem individual. |
 | João Vitor Sales Ibiapina | Revisão das diretrizes do elenco e preparação para a modelagem da persona individual. |
 | Leonardo da Silva Lopes Júnior | Revisão metodológica das diretrizes de personas segundo Barbosa e Silva (2010). |
-| Pedro Rocha Ferreira Lima | Revisão dos critérios de priorização das personas no projeto. |
+| Pedro Rocha Ferreira Lima | Definição dos critérios de priorização das personas, modelagem empírica da Persona 2 (Lucas Ferreira Rocha) fundamentada em DOC-02 e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -48,7 +48,7 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 | ID | Tipo | Nome da Persona | Perfil Vinculado | Membro Responsável |
 | :---: | :---: | :--- | :---: | :--- |
 | **PER-01** | Primária | Maria Helena dos Santos | Perfil 2: Concurseiro Ativo / Adulto e Maduro | Daniel da Silva Batista |
-| **PER-02** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | Pedro Rocha Ferreira Lima |
+| **PER-02** | Secundária | Lucas Ferreira Rocha | Perfil 1: Estudante Universitário / Iniciante e Recém-formado | Pedro Rocha Ferreira Lima |
 | **PER-03** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | Arthur Sismene Carvalho |
 | **PER-04** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | Leonardo da Silva Lopes Júnior |
 | **PER-05** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | João Vitor Sales Ibiapina |
@@ -101,9 +101,43 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 
 ---
 
-### 4.2 Persona 2 — *Responsável: Pedro Rocha Ferreira Lima*
+### 4.2 Persona 2 — Lucas Ferreira Rocha (*Responsável: Pedro Rocha Ferreira Lima*)
 
-> *Seção reservada para a modelagem individual da persona pelo integrante Pedro Rocha Ferreira Lima, a ser elaborada com base nos dados empíricos de sua respectiva entrevista gravada.*
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 3: Ficha de Caracterização da Persona 2 (Lucas Ferreira Rocha)</b></p>
+
+| Atributo | Detalhamento da Persona |
+| :--- | :--- |
+| **Nome Completo** | Lucas Ferreira Rocha |
+| **Idade / Gênero** | 24 anos | Masculino |
+| **Escolaridade** | Ensino Superior Completo (Administração - UnB) |
+| **Ocupação Atual** | Assistente administrativo em escritório privado, em busca do primeiro cargo público |
+| **Localização** | Águas Claras, Distrito Federal (DF) |
+| **Classificação** | **Persona Secundária** (Representante do Perfil 1: Concurseiro Iniciante / Estudante Jovem e Recém-formado) |
+| **Dispositivos Utilizados** | Smartphone (Android) para consultas diárias e notebook (Windows) para resolver questões e ler editais |
+| **Frequência de Acesso** | Diária (acessa o portal de 3 a 5 vezes ao dia no intervalo do trabalho e à noite) |
+| **Citação Típica** | *"Eu moro em Brasília e quero passar em um concurso daqui; não adianta o site me mostrar dezenas de prefeituras do interior de Goiás ou Mato Grosso misturadas com os editais do DF."* |
+| **Base Empírica de Validação** | Modelada a partir da Análise Documental DOC-02 (dados abertos do PEP/MGI e do DODF sobre a concentração de certames no DF). |
+
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+#### 4.2.1 Objetivos e Motivações no Sistema
+* **Conquistar a Primeira Aprovação no DF:** Almeja ingressar no serviço público em cargos administrativos de nível superior ou intermediário em órgãos distritais ou federais sediados em Brasília (ex.: PPGG-DF, SLU, ministérios ou agências reguladoras), garantindo estabilidade e remuneração inicial competitiva sem necessidade de mudança de estado.
+* **Filtragem Exclusiva de Vagas Locais:** Acessa o PCI Concursos para encontrar certames com lotação estrita no Distrito Federal, necessitando de filtros que eliminem o ruído de municípios distantes da região Centro-Oeste.
+* **Monitoramento Ativo de Cronogramas e Retificações:** Precisa acompanhar com agilidade se as bancas publicaram alterações de datas de prova, prorrogações do período de inscrição ou mudanças no conteúdo programático de certames já em andamento.
+
+#### 4.2.2 Habilidades e Atitudes Frente à Tecnologia
+* **Perfil Tecnológico:** Usuário tecnófilo, nativo digital e hiperconectado. Opera com facilidade smartphones e notebooks, utiliza múltiplos navegadores, atalhos de teclado e ferramentas de nuvem.
+* **Comportamento Imediatista:** Busca informações resumidas e instantâneas; possui baixa tolerância a navegações lentas, páginas com excesso de texto condensado ou falta de filtros reativos.
+* **Atenção aos Detalhes Jurídicos:** Por ter estudado Direito Administrativo na faculdade, lê com rigor as publicações oficiais e preocupa-se com o cumprimento estrito dos prazos recursais e de inscrição.
+
+#### 4.2.3 Principais Dores e Frustrações com o PCI Concursos
+* **Mistura Regional Indesejada:** Na aba "Centro-Oeste", os concursos do DF ficam intercalados com pequenos municípios de MT, MS e GO, forçando uma varredura visual exaustiva para encontrar vagas de Brasília.
+* **Ausência de Alertas Visuais de Retificação:** O portal não sinaliza com clareza quando uma notícia de concurso foi alterada por uma retificação de edital, exigindo que o usuário abra manualmente os documentos para checar se prazos foram modificados.
+* **Interface Desatualizada para Dispositivos Móveis:** Dificuldade de navegar nas tabelas de concursos pelo smartphone durante o deslocamento de metrô ou intervalos de trabalho.
 
 ---
 
@@ -140,5 +174,6 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 | `1.0` | 21/09/2026 | Fundamentação teórica de personas (Cooper; Barbosa & Silva), definição do elenco com 5 personas e estruturação da Persona 1 (Mateus Oliveira). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 21/09/2026 | Remoção da antipersona e ajuste do elenco para designação por membro, reservando as seções 4.2 a 4.5 para modelagem individual após entrevistas de campo. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.2` | 25/09/2026 | Vinculação empírica da Persona 1 (Maria Helena) com a entrevista individual gravada USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.3` | 27/09/2026 | Modelagem da Persona 2 (Lucas Ferreira Rocha) por Pedro Rocha Ferreira Lima fundamentada na Análise Documental DOC-02. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 
 </div>

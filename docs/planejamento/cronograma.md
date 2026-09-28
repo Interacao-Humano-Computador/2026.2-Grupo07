@@ -113,8 +113,10 @@ Na Tabela 4, tem-se o registro do cronograma real de execução das atividades d
 | Matriz de Tarefas e Análise HTA (Tarefas 01 e 02) | Início: 20/09<br>Fim: 22/09 | Daniel da Silva Batista | Início: 22/09<br>Fim: 25/09 | Pedro Rocha, Arthur Sismene, João Vitor, Leonardo Lopes |
 | Matriz de Tarefas e Análise CTT (Tarefas 01 e 02) | Início: 20/09<br>Fim: 22/09 | Daniel da Silva Batista | Início: 22/09<br>Fim: 25/09 | Pedro Rocha, Arthur Sismene, João Vitor, Leonardo Lopes |
 | Condução e Gravação da Entrevista Individual USR-01 (06:19) | Início: 25/09<br>Fim: 25/09 | Daniel da Silva Batista | Início: 25/09<br>Fim: 25/09 | Pedro Rocha Ferreira Lima |
-| Condução das Entrevistas Individuais USR-02 a USR-05 | *Em andamento* | Arthur Sismene, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Daniel da Silva Batista |
-| Preenchimento Individual de Personas, Cenários e Tarefas (Membros 2 a 5) | *Em andamento* | Arthur Sismene, João Vitor, Leonardo Lopes, Pedro Lima | A definir | Daniel da Silva Batista |
+| Análise Documental Oficial (DOC-02 - PEP/MGI e DODF) | Início: 25/09<br>Fim: 27/09 | Pedro Rocha Ferreira Lima | Início: 27/09<br>Fim: 27/09 | Daniel da Silva Batista |
+| Modelagem de Persona (PER-02), Cenários (03 e 04) e Tarefas HTA/CTT (03 e 04) | Início: 25/09<br>Fim: 27/09 | Pedro Rocha Ferreira Lima | Início: 27/09<br>Fim: 27/09 | Daniel da Silva Batista |
+| Condução das Entrevistas Individuais USR-03 a USR-05 | *Em andamento* | Arthur Sismene, João Vitor, Leonardo Lopes | A definir | Daniel da Silva Batista |
+| Preenchimento Individual de Personas, Cenários e Tarefas (Membros 3 a 5) | *Em andamento* | Arthur Sismene, João Vitor, Leonardo Lopes | A definir | Daniel da Silva Batista |
 | Reunião de Alinhamento e Ata da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Todos os integrantes | Início: 27/09<br>Fim: 27/09 | Todos os integrantes |
 | Gravação da Apresentação da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Todos os integrantes | Início: 27/09<br>Fim: 27/09 | Todos os integrantes |
 
@@ -275,5 +277,6 @@ Na Tabela 11, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.2` | 10/09/2026 | Expansão do cronograma (Etapas 2 a 8), inserção de tarefas gerenciais e padronização de autoria. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.3` | 17/09/2026 | Adição da Tabela de Contribuição no início do artefato com padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.4` | 27/09/2026 | Inclusão e consolidação do Cronograma Executado da Etapa 2 com revisores e registro da entrevista USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.5` | 27/09/2026 | Atualização do Cronograma Executado com o registro da entrega do escopo de Pedro Rocha Ferreira Lima (DOC-02, PER-02, CEN-03/04 e TAR-03/04). | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 
 </div>

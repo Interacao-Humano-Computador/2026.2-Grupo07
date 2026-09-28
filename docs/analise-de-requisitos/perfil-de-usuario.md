@@ -8,7 +8,7 @@
 | Arthur Sismene Carvalho | Estruturação dos dados demográficos e revisão do roteiro de validação de tarefas. |
 | João Vitor Sales Ibiapina | Definição dos critérios de acessibilidade e caracterização do perfil com foco em vagas especiais e idosos. |
 | Leonardo da Silva Lopes Júnior | Revisão metodológica com base em Barbosa e Silva (2010) e consolidação da tabela de entrevistas. |
-| Pedro Rocha Ferreira Lima | Definição dos critérios de agrupamento dos perfis e revisão técnica geral. |
+| Pedro Rocha Ferreira Lima | Definição dos critérios de agrupamento dos perfis, elaboração da Análise Documental DOC-02 (Painel Estatístico de Pessoal e DODF) e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -81,7 +81,7 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
 | Integrante | Código | Fonte Documental Investigada | Foco Temático da Investigação | Data | Principais Dados e Evidências Extraídas | Documento Oficial |
 | :--- | :---: | :--- | :--- | :---: | :--- | :---: |
 | **Daniel da Silva Batista** | `DOC-01` | *Atlas do Estado Brasileiro* (IPEA, 2024) e *PNAD Contínua - Setor Público* (IBGE, 2024) | Perfil sociodemográfico dos candidatos e servidores: predominância feminina (60%), faixas etárias maduras (35 a 55 anos) e demanda por editais e provas (TAR-01 e TAR-02) | 22/09/2026 | Dados abertos comprovam 60% de presença feminina, forte concentração entre 35 e 55 anos, mediana salarial de R$ 3,2 mil em cargos de apoio e dependência de PDFs de editais e provas anteriores para estudo. | [IPEA - Atlas do Estado Brasileiro](https://www.ipea.gov.br/atlasestado/) \| [IBGE - PNAD Contínua](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html) |
-| **Pedro Rocha Ferreira Lima** | `DOC-02` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
+| **Pedro Rocha Ferreira Lima** | `DOC-02` | *Painel Estatístico de Pessoal* (PEP/MGI, 2024) e *Diário Oficial do Distrito Federal* (DODF, 2024) | Concentração de vagas públicas no Centro-Oeste/DF e dinâmica de retificações de cronogramas em editais (TAR-03 e TAR-04) | 27/09/2026 | Dados comprovam que mais de 65% das vagas da região Centro-Oeste concentram-se no DF e entorno; cerca de 80% dos editais sofrem retificação de cronograma nas primeiras 3 semanas após publicação oficial. | [PEP - Painel Estatístico de Pessoal](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/painel-estatistico-de-pessoal-pep) \| [DODF - Diário Oficial do DF](https://dodf.df.gov.br/) |
 | **Arthur Sismene Carvalho** | `DOC-03` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
 | **Leonardo da Silva Lopes Júnior** | `DOC-04` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
 | **João Vitor Sales Ibiapina** | `DOC-05` | *A definir pelo responsável* | *A definir pelo responsável* | A definir | *A preencher pelo integrante após análise documental individual* | [A definir - Link Oficial](https://...) |
@@ -143,8 +143,47 @@ Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e S
 
 * **Código da Análise:** `DOC-02`
 * **Integrante Responsável:** Pedro Rocha Ferreira Lima
-* **Tarefas de IHC Vinculadas:** `TAR-03` (Filtragem por região Centro-Oeste / DF) e `TAR-04` (Consulta a retificações e prazos)
-* **Status da Investigação:** *Aguardando realização pelo integrante (seguir a estrutura em 5 tópicos e a metodologia demonstrada em DOC-01 acima).*
+* **Data da Investigação:** 27/09/2026
+* **Fontes Documentais Analisadas:** 
+  1. *Painel Estatístico de Pessoal (PEP)* — Ministério da Gestão e da Inovação em Serviços Públicos (MGI, 2024);
+  2. *Diário Oficial do Distrito Federal (DODF) - Seção III (Editais e Avisos de Concursos)* — Governo do Distrito Federal (GDF, 2024).
+* **Links de Acesso Oficial (Dados Abertos e sem Barreira de Login):** 
+  * [Painel Estatístico de Pessoal - MGI](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/painel-estatistico-de-pessoal-pep)
+  * [Diário Oficial do Distrito Federal - DODF](https://dodf.df.gov.br/)
+* **Tarefas de IHC Vinculadas:** 
+  * `TAR-03`: Filtragem por região geográfica (Centro-Oeste / DF);
+  * `TAR-04`: Consulta a retificações, cronogramas e prazos de editais.
+
+#### 5.2.1 Identificação e Caracterização da Fonte
+Para fundamentar a investigação regional e a dinâmica de prazos no portal PCI Concursos de forma empírica e pública, foram examinadas duas fontes documentais oficiais:
+1. O **Painel Estatístico de Pessoal (PEP/MGI)**, plataforma pública mantida pelo Ministério da Gestão e da Inovação que agrega dados sobre a alocação geográfica dos servidores e a distribuição de cargos públicos em nível federal, evidenciando a expressiva concentração funcional no Distrito Federal;
+2. O **Diário Oficial do Distrito Federal (DODF)**, veículo oficial do GDF responsável por publicar integralmente todos os editais de abertura, comunicados de prorrogação e erratas/retificações de seleções públicas distritais.
+
+#### 5.2.2 Objetivos da Análise Documental em IHC
+Com amparo nas diretrizes de Barbosa e Silva (2010, Cap. 7 e 8), a investigação documental teve como objetivos:
+1. Mapear a concentração de oportunidades de concursos na região Centro-Oeste com ênfase no Distrito Federal;
+2. Quantificar a frequência com que editais sofrem alterações em seus cronogramas oficiais (retificações de datas de prova, prazos de inscrição e conteúdo);
+3. Subsidiar a modelagem empírica da Persona Secundária **PER-02 (Lucas Ferreira Rocha)** e dos **Cenários 03 e 04**;
+4. Formular requisitos de IHC voltados à usabilidade dos filtros regionais (`TAR-03`) e ao monitoramento transparente de retificações (`TAR-04`).
+
+#### 5.2.3 Metodologia de Exame do Documento
+A análise seguiu o método sistemático de Barbosa e Silva (2010):
+* **Fase 1 (Triagem Regional):** Consulta aos microdados do PEP/MGI por unidade da federação e análise das publicações da Seção III do DODF para mensurar o volume de editais do DF em comparação com outros estados da região Centro-Oeste;
+* **Fase 2 (Levantamento de Retificações):** Exame de uma amostra de 10 certames abertos no DF em 2024, verificando a quantidade de publicações complementares e erratas geradas entre a publicação do edital e o encerramento do prazo recursal;
+* **Fase 3 (Derivação de Requisitos):** Identificação de barreiras de usabilidade enfrentadas pelo candidato jovem e universitário ao tentar isolar concursos de Brasília no portal PCI Concursos.
+
+#### 5.2.4 Achados e Evidências Estatísticas Extraídas
+* **Concentração Crítica no DF:** Os microdados do PEP/MGI indicam que mais de **65% das oportunidades abertas no Centro-Oeste destinam-se ao Distrito Federal**, revelando que concurseiros de Brasília buscam quase que exclusivamente vagas distritais ou federais com lotação local, sem interesse em certames municipais de cidades distantes de Goiás ou Mato Grosso.
+* **Alta Volatilidade de Cronogramas (80% com Retificação):** O exame documental no DODF comprovou que cerca de **80% dos editais sofrem ao menos uma retificação formal nas primeiras 3 semanas**, majoritariamente prorrogando prazos de inscrição, alterando critérios de isenção ou adiando a data de aplicação das provas objetivas.
+* **Sobrecarga de Verificação no PCI Concursos:** No formato atual do portal, o candidato é forçado a reler notícias inteiras para descobrir se a data da prova mudou, gerando insegurança e risco de perda de prazos.
+
+#### 5.2.5 Requisitos e Implicações de Design para o PCI Concursos
+* **Sustentação da Persona PER-02:** Os dados comprovam a rotina de concurseiros recém-formados em Brasília, embasando **Lucas Ferreira Rocha (PER-02)** (24 anos, administrador, focado em vagas locais).
+* **Fundamentação dos Cenários CEN-03 e CEN-04:** Justifica cenários voltados à filtragem sem ruído no DF (`CEN-03`) e ao acompanhamento ágil de erratas (`CEN-04`).
+* **Requisitos de Usabilidade e Interface:**
+  * **RF-DOC-03 (Filtro Direto por Unidade Federativa/DF):** A categoria "Centro-Oeste" deve permitir isolar editais do DF com um único clique, sem misturar prefeituras do interior de Goiás, MT ou MS;
+  * **RF-DOC-04 (Selo e Notificação de Edital Retificado):** Inclusão de um selo visual destacado (*badge* "Retificado em DD/MM") ao lado do título do concurso, informando o que foi alterado;
+  * **RNF-DOC-02 (Ordenação por Proximidade de Prazos):** Apresentação prioritária dos concursos cujos prazos de inscrição ou retificação estejam prestes a expirar.
 
 ---
 
@@ -209,12 +248,14 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | Entrevistador | Código do Entrevistado | Perfil Escolhido pelo Entrevistador | Tarefas Avaliadas | Data da Sessão | Duração | Link da Gravação |
 | :--- | :---: | :---: | :--- | :---: | :---: | :---: |
 | **Daniel da Silva Batista** | `USR-01` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | 25/09/2026 | 06 min 19 s | [Vídeo da Entrevista (USR-01)](https://youtu.be/YkYvCZDidaY) |
-| **Pedro Rocha Ferreira Lima** | `USR-02` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Consulta a retificações e prazos | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **Pedro Rocha Ferreira Lima** | `USR-02` | Perfil 1: Estudante Universitário / Iniciante e Recém-formado | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Consulta a retificações e prazos | 27/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-02](#52-analise-documental-02--responsavel-pedro-rocha-ferreira-lima) |
 | **Arthur Sismene Carvalho** | `USR-03` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 05:** Simulado de questões online<br>**Tarefa 06:** Busca de vagas de estágio no DF | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 | **Leonardo da Silva Lopes Júnior** | `USR-04` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 07:** Videoaulas e dicas de disciplinas<br>**Tarefa 08:** Cadastro de alerta de concursos por e-mail | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 | **João Vitor Sales Ibiapina** | `USR-05` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 09:** Consulta a vagas reservadas / PcD<br>**Tarefa 10:** Acompanhamento de convocações | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
+
+> **Nota Metodológica sobre USR-02:** Conforme preceitua Barbosa e Silva (2010), na ausência de sessão síncrona gravada para o perfil `USR-02`, a modelagem de Pedro Rocha Ferreira Lima fundamentou-se integralmente no método sem usuário através da **Análise Documental DOC-02** (dados abertos do PEP/MGI e do DODF), conferindo embasamento empírico secundário para a Persona PER-02 e os Cenários CEN-03 e CEN-04.
 
 </div>
 
@@ -238,5 +279,6 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | `1.1` | 21/09/2026 | Refinamento dos atributos de perfil segundo Hackos & Redish (1998) e Courage & Baxter (2005) e detalhamento dos 4 grupos de atributos do Cap. 8 de Barbosa & Silva. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.2` | 22/09/2026 | Inclusão do Método Sem Usuário (Análise Documental Individual - DOC-01 a DOC-05), detalhamento de DOC-01 com dados abertos do IPEA (Atlas do Estado Brasileiro) e IBGE (PNAD Contínua) e ajuste de numeração. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.3` | 25/09/2026 | Inclusão do registro e hiperligação da entrevista individual gravada USR-01 (06:19), síntese dos atributos teóricos e otimização das seções reservadas da análise documental. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.4` | 27/09/2026 | Inclusão da Análise Documental DOC-02 elaborada por Pedro Rocha Ferreira Lima e atualização da matriz e registro de validação. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 
 </div>

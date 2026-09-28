@@ -8,7 +8,7 @@
 | Arthur Sismene Carvalho | Revisão dos operadores temporais de interação e estruturação das Tarefas 05 e 06. |
 | João Vitor Sales Ibiapina | Revisão das relações temporais e estruturação das Tarefas 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Revisão da classificação de tarefas de sistema e interação das Tarefas 07 e 08. |
-| Pedro Rocha Ferreira Lima | Definição das relações temporais de escolha e estruturação das Tarefas 03 e 04. |
+| Pedro Rocha Ferreira Lima | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas CTT em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -246,29 +246,192 @@ flowchart TD
 
 ---
 
-## 4. Estrutura para Modelagem das Tarefas 03 a 10 pelos Demais Integrantes
+## 4. Modelagem Detalhada das Tarefas (Pedro Rocha Ferreira Lima)
 
-As Tarefas 03 a 10 seguirão o padrão rigoroso estabelecido nas Tabelas 3 e 4, utilizando a classificação quadripartite de Paternò e detalhando a interação humano-máquina com base nas gravações empíricas:
+### 4.1 Tarefa 03: Filtrar concursos por região geográfica (Centro-Oeste / DF) (TAR-03)
 
-* **Tarefas 03 e 04 (Pedro Rocha Ferreira Lima):** Modelagem de filtragem regional com operadores de escolha alternativa (`[]`) e checagem periódica de retificações (`T*`).
+A representação em árvore de tarefas CTT para a Tarefa 03 é apresentada na Figura 3, decompondo os fluxos de filtragem regional com operadores temporais de ativação com transferência de informação (`[]>>`), escolha (`[]`) e ativação sequencial (`>>`). A especificação formal dos nós é detalhada na Tabela 5.
+
+#### Diagrama de Árvore CTT (Figura 3)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 3:</b> Representação em Árvore CTT da Tarefa 03</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    Root3["[Abstrata] Filtrar concursos por região geográfica (Centro-Oeste / DF)"]
+
+    P1["[Interação] Acessar menu regional Centro-Oeste"]
+    POp1{"[]>>"}
+    P2["[Sistema] Carregar listagem unificada de editais"]
+    POp2{">>"}
+    P3["[Abstrata] Localizar oportunidades para o Distrito Federal"]
+    POp3{">>"}
+    P4["[Interação] Clicar no link do concurso distrital"]
+
+    Root3 --> P1
+    Root3 --> POp1
+    Root3 --> P2
+    Root3 --> POp2
+    Root3 --> P3
+    Root3 --> POp3
+    Root3 --> P4
+
+    %% Decomposição de P3 (Estratégias de Localização - Escolha [])
+    P3_1["[Usuário] Varrer visualmente tabela buscando '/DF'"]
+    P3_Op{"[]"}
+    P3_2["[Abstrata] Localizar via busca interna do navegador (Ctrl+F)"]
+
+    P3 --> P3_1
+    P3 --> P3_Op
+    P3 --> P3_2
+
+    %% Decomposição de P3_2
+    P3_2_1["[Interação] Digitar 'DF' no localizador"]
+    P3_2_Op{"[]>>"}
+    P3_2_2["[Sistema] Destacar ocorrências de DF na tela"]
+    P3_2_Op2{">>"}
+    P3_2_3["[Usuário] Avaliar resultado destacado"]
+
+    P3_2 --> P3_2_1
+    P3_2 --> P3_2_Op
+    P3_2 --> P3_2_2
+    P3_2 --> P3_2_Op2
+    P3_2 --> P3_2_3
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+#### Tabela de Especificação dos Nós e Operadores da Tarefa 03
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 5: Especificação Formal dos Nós CTT da Tarefa 03</b></p>
+
+| Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
+| :--- | :---: | :---: | :--- |
+| **Filtrar concursos por região (Centro-Oeste / DF)** | Abstrata | - | Tarefa raiz de alto nível que abrange o afunilamento geográfico até a seleção de uma vaga distrital. |
+| **Acessar menu regional Centro-Oeste** | Interação | `[]>>` | O usuário clica na opção "Centro-Oeste" na navegação lateral, enviando a requisição de rota com a região selecionada. |
+| **Carregar listagem unificada de editais** | Sistema | `>>` | O servidor do portal consulta a base de dados e renderiza a listagem plana englobando DF, GO, MT e MS. |
+| **Localizar oportunidades para o Distrito Federal** | Abstrata | `>>` | Subtarefa complexa de triagem, onde o usuário adota uma de duas estratégias concorrentes de busca. |
+| **Varrer visualmente tabela buscando '/DF'** | Usuário | `[]` | Leitura cognitiva linha por linha dos títulos procurando a sigla distrital (estratégia manual). |
+| **Localizar via busca do navegador (Ctrl+F)** | Abstrata | - | Estratégia alternativa adotada para contornar a ausência de subfiltros nativos por UF no portal. |
+| **Digitar 'DF' no localizador** | Interação | `[]>>` | Entrada textual da sigla no utilitário de busca do navegador. |
+| **Destacar ocorrências de DF na tela** | Sistema | `>>` | O navegador renderiza o realce luminoso nas palavras coincidentes dentro do DOM da página. |
+| **Avaliar resultado destacado** | Usuário | - | Julgamento cognitivo do usuário sobre o órgão público distrital identificado. |
+| **Clicar no link do concurso distrital** | Interação | - | Ação física de clique sobre o título do concurso pretendido para abrir a página do edital. |
+
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+---
+
+### 4.2 Tarefa 04: Consultar retificações, cronogramas e datas de prova (TAR-04)
+
+A representação em árvore da Tarefa 04 é ilustrada na Figura 4, destacando o fluxo de inspeção de comunicados e confrontação de datas com o operador de ativação com dados (`[]>>`) e tarefas de julgamento cognitivo do usuário. A especificação formal dos nós e seus operadores temporais é apresentada na Tabela 6.
+
+#### Diagrama de Árvore CTT (Figura 4)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 4:</b> Representação em Árvore CTT da Tarefa 04</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    Root4["[Abstrata] Consultar retificações, cronogramas e datas de prova"]
+
+    Q1["[Interação] Acessar página de detalhes do concurso"]
+    QOp1{">>"}
+    Q2["[Interação] Rolar até seção de anexos e comunicados"]
+    QOp2{">>"}
+    Q3["[Usuário] Checar existência de retificações publicadas"]
+    QOp3{">>"}
+    Q4["[Abstrata] Inspecionar retificações e atualizar cronograma"]
+
+    Root4 --> Q1
+    Root4 --> QOp1
+    Root4 --> Q2
+    Root4 --> QOp2
+    Root4 --> Q3
+    Root4 --> QOp3
+    Root4 --> Q4
+
+    %% Decomposição de Q4
+    Q4_1["[Interação] Clicar no link do arquivo de Retificação (PDF)"]
+    Q4_Op1{"[]>>"}
+    Q4_2["[Sistema] Entregar e exibir arquivo PDF da retificação"]
+    Q4_Op2{">>"}
+    Q4_3["[Usuário] Confrontar novas datas e cláusulas retificadas"]
+
+    Q4 --> Q4_1
+    Q4 --> Q4_Op1
+    Q4 --> Q4_2
+    Q4 --> Q4_Op2
+    Q4 --> Q4_3
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+#### Tabela de Especificação dos Nós e Operadores da Tarefa 04
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 6: Especificação Formal dos Nós CTT da Tarefa 04</b></p>
+
+| Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
+| :--- | :---: | :---: | :--- |
+| **Consultar retificações e cronogramas** | Abstrata | - | Tarefa raiz de verificação da integridade das informações e prazos atualizados do edital. |
+| **Acessar página de detalhes do concurso** | Interação | `>>` | Clique no título do concurso a partir da listagem ou resultado de pesquisa. |
+| **Rolar até seção de anexos e comunicados** | Interação | `>>` | Ação física de rolagem na página para transpassar anúncios e chegar aos arquivos oficiais. |
+| **Checar existência de retificações** | Usuário | `>>` | Inspeção cognitiva da listagem de links para identificar termos como "Retificação", "Prorrogação" ou "Errata". |
+| **Inspecionar retificações e cronograma** | Abstrata | - | Subtarefa de obtenção documental e atualização dos marcos temporais da preparação. |
+| **Clicar no link da Retificação (PDF)** | Interação | `[]>>` | Disparo do evento de requisição do anexo suplementar ao servidor. |
+| **Entregar e exibir arquivo PDF** | Sistema | `>>` | O sistema processa e transmite o arquivo PDF da retificação para exibição ou download local. |
+| **Confrontar novas datas e cláusulas** | Usuário | - | Processamento cognitivo de comparação entre as datas retificadas e o cronograma originalmente anotado. |
+
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+---
+
+## 5. Estrutura para Modelagem das Tarefas 05 a 10 pelos Demais Integrantes
+
+As Tarefas 05 a 10 seguirão o padrão rigoroso estabelecido nas seções anteriores, utilizando a classificação quadripartite de Paternò e detalhando a interação humano-máquina com base nas gravações empíricas:
+
 * **Tarefas 05 e 06 (Arthur Sismene Carvalho):** Modelagem de fluxo interativo de resposta a questões em simulado e submissão de respostas com feedback instantâneo do sistema.
 * **Tarefas 07 e 08 (Leonardo da Silva Lopes Júnior):** Modelagem de reprodução audiovisual de mídia e envio de formulário com validação de formato de e-mail pelo sistema.
 * **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem de varredura de tabelas de vagas de PcD e acompanhamento de editais de resultado definitivo.
 
 ---
 
-## 5. Bibliografia
+## 6. Bibliografia
 
 > BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
 > MORI, Giulio; PATERNÒ, Fabio; SANTORO, Carmen. *CTTE: Support for Developing and Analyzing Task Models for Interactive System Design*. IEEE Transactions on Software Engineering, v. 28, n. 8, p. 797-813, 2002.  
 > PATERNÒ, Fabio. *Model-Based Design and Evaluation of Human-Computer Interfaces*. London: Springer-Verlag, 1999.
 
-## 6. Histórico de Versões
+## 7. Histórico de Versões
 
 <div align="center" markdown="1">
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/09/2026 | Fundamentação de CTT (Paternò; Barbosa & Silva), taxonomia de tarefas e operadores temporais, matriz das 10 tarefas, modelagem formal completa das Tarefas 01 e 02 (diagramas e tabelas de nós). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 27/09/2026 | Inclusão da modelagem CTT completa das Tarefas 03 e 04 (árvores de tarefas e especificações de nós formais) baseadas na Análise Documental (DOC-02) e persona Lucas Ferreira Rocha. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 
 </div>

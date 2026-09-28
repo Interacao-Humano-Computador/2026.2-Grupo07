@@ -8,7 +8,7 @@
 | Arthur Sismene Carvalho | Revisão da decomposição funcional e estruturação das Tarefas 05 e 06. |
 | João Vitor Sales Ibiapina | Revisão da decomposição hierárquica e estruturação das Tarefas 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Revisão das operações e planos condicionais das Tarefas 07 e 08. |
-| Pedro Rocha Ferreira Lima | Definição dos critérios de análise de problemas e estruturação das Tarefas 03 e 04. |
+| Pedro Rocha Ferreira Lima | Modelagem formal completa em HTA (diagramas e tabelas analíticas com problemas e recomendações) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas HTA em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -222,29 +222,196 @@ flowchart TD
 
 ---
 
-## 4. Estrutura para Validação das Tarefas 03 a 10 pelos Demais Integrantes
+## 4. Modelagem Detalhada das Tarefas (Pedro Rocha Ferreira Lima)
+
+### 4.1 Tarefa 03: Filtrar concursos por região geográfica (Centro-Oeste / DF) (TAR-03)
+
+A Tarefa 03 investiga o processo de busca e filtragem regional no portal PCI Concursos, foco principal da persona secundária Lucas Ferreira Rocha (`PER-02`) e respaldada pelos dados da Análise Documental (`DOC-02`), que apontam que mais de 65% das vagas do Centro-Oeste concentram-se no DF e na sua Região Integrada de Desenvolvimento (RIDE). A decomposição hierárquica é ilustrada na Figura 3, e a especificação de suas operações, problemas e recomendações é apresentada na Tabela 4.
+
+#### Diagrama de Decomposição HTA (Figura 3)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 3:</b> Diagrama HTA da Tarefa 03 - Filtrar concursos por região geográfica</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    T0["0. Filtrar concursos por região geográfica (Centro-Oeste / DF)<br><i>Plano 0: 1 depois 2 depois 3; se não localizar DF facilmente, fazer 4</i>"]
+    
+    T1["1. Acessar menu de regiões geográficas no portal<br><i>Plano 1: 1.1 e 1.2</i>"]
+    T11["1.1 Localizar bloco de navegação regional no menu lateral ou topo"]
+    T12["1.2 Identificar a opção correspondente à macrorregião 'Centro-Oeste'"]
+    
+    T2["2. Carregar e visualizar a listagem regional unificada<br><i>Plano 2: 2.1 e 2.2</i>"]
+    T21["2.1 Clicar no link 'Centro-Oeste'"]
+    T22["2.2 Aguardar carregamento da listagem com todos os estados (DF, GO, MT, MS)"]
+    
+    T3["3. Triar editais específicos para o Distrito Federal (DF)<br><i>Plano 3: 3.1 depois 3.2 depois 3.3</i>"]
+    T31["3.1 Varrer visualmente as linhas da tabela unificada"]
+    T32["3.2 Identificar a sigla '/DF' ou indicação de órgão sediado em Brasília"]
+    T33["3.3 Clicar no título do concurso distrital de interesse"]
+    
+    T4["4. Refinar localização com busca textual interna (se necessário)<br><i>Plano 4: 4.1 depois 4.2</i>"]
+    T41["4.1 Acionar busca na página (Ctrl+F) e digitar 'DF' ou 'Brasília'"]
+    T42["4.2 Percorrer ocorrências destacadas pelo navegador na tabela"]
+
+    T0 --> T1
+    T0 --> T2
+    T0 --> T3
+    T0 --> T4
+    
+    T1 --> T11
+    T1 --> T12
+    
+    T2 --> T21
+    T2 --> T22
+    
+    T3 --> T31
+    T3 --> T32
+    T3 --> T33
+    
+    T4 --> T41
+    T4 --> T42
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+#### Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 4: Análise HTA da Tarefa 03</b></p>
+
+| Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
+| :--- | :--- | :--- | :--- |
+| **0. Filtrar concursos por região geográfica (Centro-Oeste / DF)** | **Plano 0:** Executar 1, 2 e 3 em sequência. Se a varredura visual for ineficiente pela mistura de estados, executar 4. | O sistema agrupa todos os estados da macrorregião (DF, GO, MT, MS) em uma única listagem plana sem filtro dedicado por Unidade Federativa (UF). | Implementar subfiltros reativos por UF (DF, GO, MT, MS) ou abas específicas no topo da listagem regional (`RF-DOC-03`). |
+| **1. Acessar menu regional no portal** | **Plano 1:** Executar 1.1 e 1.2. | Os links de regiões geográficas na barra lateral competem com múltiplos banners publicitários de largura total. | Destacar o seletor geográfico no menu de navegação primário com ícones das regiões do Brasil. |
+| **1.1 Localizar bloco de navegação** | Ação visual | O seletor fica posicionado abaixo da dobra inicial em resoluções verticais menores. | Fixar a navegação de regiões no topo ou torná-la acessível via menu suspenso (*dropdown*). |
+| **1.2 Identificar 'Centro-Oeste'** | Operação cognitiva | Ausência de diferenciação visual para o Distrito Federal, que possui regime e demanda administrativa atípicos. | Permitir seleção direta de capitais e do Distrito Federal no menu de navegação. |
+| **2. Carregar listagem unificada** | **Plano 2:** Executar 2.1 e 2.2. | A tabela carrega centenas de editais simultaneamente sem paginação, aumentando o tempo de resposta e o consumo de dados. | Implementar paginação dinâmica (ex.: 20 a 50 certames por página) com carregamento sob demanda (*lazy loading*). |
+| **2.1 Clicar em 'Centro-Oeste'** | Ação física | O clique recarrega a página completa sem persistir preferências anteriores de visualização. | Utilizar carregamento assíncrono (AJAX/SPA) para atualização instantânea dos resultados. |
+| **2.2 Aguardar carregamento** | Ação de espera | Ausência de feedback de progresso durante o carregamento de tabelas com grande volume de dados. | Adicionar indicador visual de carregamento (*skeleton screens* ou *spinners*). |
+| **3. Triar editais para o DF** | **Plano 3:** Executar 3.1, 3.2 e 3.3. | **Sobrecarga Cognitiva Severa:** O usuário precisa ler linha por linha para descartar dezenas de certames municipais do interior de GO, MT e MS. | Disponibilizar *tag/badge* visual com cores distintas por estado (ex.: tag azul `[DF]`, verde `[GO]`, amarela `[MT]`). |
+| **3.1 Varrer visualmente as linhas** | Operação cognitiva | Tipografia densa, tamanho de fonte reduzido e baixo contraste das siglas de estado na tabela. | Melhorar o respiro tipográfico, tamanho de fonte (mínimo 14px) e espaçamento entre linhas da tabela. |
+| **3.2 Identificar sigla '/DF'** | Ação visual | Siglas de lotação estão no final do título do órgão, muitas vezes truncadas ou abreviadas de forma inconsistente. | Padronizar uma coluna exclusiva para a "UF / Cidade de Lotação" na tabela de certames. |
+| **3.3 Clicar no concurso distrital** | Ação física | A área clicável limita-se ao hiperlink sublinhado, gerando cliques perdidos no espaço da linha. | Tornar a linha inteira da tabela clicável (*row click* com hover destacado). |
+| **4. Refinar com busca no navegador** | **Plano 4:** Executar 4.1 e 4.2 se necessário. | A necessidade de acionar recurso externo do navegador (Ctrl+F) evidencia falha de usabilidade na interface interna de busca/filtro. | Incorporar campo de filtragem rápida instantânea em tempo real (*live search*) no topo da própria tabela regional. |
+
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+---
+
+### 4.2 Tarefa 04: Consultar retificações, cronogramas e prazos de editais (TAR-04)
+
+A Tarefa 04 compreende a inspeção das publicações complementares e prazos de um certame, atividade crucial identificada na Análise Documental (`DOC-02`), segundo a qual até 80% dos editais sofrem retificações em suas primeiras três semanas. A decomposição hierárquica é mostrada na Figura 4, e sua especificação analítica é descrita na Tabela 5.
+
+#### Diagrama de Decomposição HTA (Figura 4)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 4:</b> Diagrama HTA da Tarefa 04 - Consultar retificações, cronogramas e prazos</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    T0["0. Consultar retificações, cronogramas e prazos de editais<br><i>Plano 0: 1 depois 2; se houver retificações, fazer 3; depois fazer 4</i>"]
+    
+    T1["1. Acessar a página de detalhes do concurso pretendido<br><i>Plano 1: 1.1 e 1.2</i>"]
+    T11["1.1 Localizar o concurso na listagem regional ou busca"]
+    T12["1.2 Abrir a página de resumo do edital no portal"]
+    
+    T2["2. Localizar seção de publicações e anexos<br><i>Plano 2: 2.1 e 2.2</i>"]
+    T21["2.1 Rolar a página ultrapassando blocos de anúncios e síntese"]
+    T22["2.2 Identificar a listagem de arquivos anexados e comunicados"]
+    
+    T3["3. Identificar e baixar as retificações do certame<br><i>Plano 3: 3.1 depois 3.2</i>"]
+    T31["3.1 Identificar hiperlinks com rótulos de 'Retificação' ou 'Errata'"]
+    T32["3.2 Baixar e abrir o arquivo PDF da retificação"]
+    
+    T4["4. Verificar cronograma atualizado e prazos críticos<br><i>Plano 4: 4.1 e 4.2</i>"]
+    T41["4.1 Checar data de encerramento de inscrições e data da prova"]
+    T42["4.2 Confrontar alterações de datas publicadas com o texto original"]
+
+    T0 --> T1
+    T0 --> T2
+    T0 --> T3
+    T0 --> T4
+    
+    T1 --> T11
+    T1 --> T12
+    
+    T2 --> T21
+    T2 --> T22
+    
+    T3 --> T31
+    T3 --> T32
+    
+    T4 --> T41
+    T4 --> T42
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+#### Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 5: Análise HTA da Tarefa 04</b></p>
+
+| Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
+| :--- | :--- | :--- | :--- |
+| **0. Consultar retificações, cronogramas e prazos de editais** | **Plano 0:** Executar 1 e 2. Se existirem comunicados/erratas, executar 3; finalizar com 4. | **Risco Crítico de Desinformação:** Concursos com editais alterados não exibem aviso em destaque na listagem nem no cabeçalho do concurso. | Implementar selo de alerta visual no topo da página: *"Edital com Retificação Publicada em DD/MM/AAAA"* (`RF-DOC-04`). |
+| **1. Acessar página de detalhes do concurso** | **Plano 1:** Executar 1.1 e 1.2. | O link da listagem para a página de detalhes compete com anúncios externos com aparência idêntica a botões de navegação. | Padronizar botão de ação claro (*CTA - Call to Action*) com o texto *"Ver Detalhes do Concurso"*. |
+| **2. Localizar seção de publicações e anexos** | **Plano 2:** Executar 2.1 e 2.2. | A área de downloads e comunicados fica no fim da página, exigindo rolagem extensa em meio a anúncios intercalados. | Adicionar sumário com âncoras no topo (*Jump links*: "Resumo", "Cronograma", "Arquivos e Retificações"). |
+| **3. Identificar e baixar as retificações** | **Plano 3:** Executar 3.1 e 3.2. | As retificações aparecem como simples linhas de texto azul no rodapé, sem destaque cronológico ou resumo de conteúdo. | Apresentar um painel de "Histórico de Atualizações do Certame" ordenado por data decrescente. |
+| **3.1 Identificar hiperlinks de retificação** | Operação cognitiva | Falta de informação sobre o objeto da alteração: o usuário não sabe se a retificação mudou datas, requisitos ou vagas sem abrir o PDF. | Incluir breve descrição sintética ao lado do link: *(Ex.: "Retificação 01: Prorrogação de inscrições e alteração de conteúdo de Informática")*. |
+| **3.2 Baixar arquivo PDF da retificação** | Ação física | O PDF muitas vezes é aberto na mesma aba, fazendo o usuário perder a visualização dos dados cadastrais do certame. | Abrir links de anexos oficiais obrigatoriamente em nova aba (`target="_blank"`) e fornecer botão explícito de download. |
+| **4. Verificar cronograma e prazos críticos** | **Plano 4:** Executar 4.1 e 4.2. | Não existe um cronograma visual ou barra de progresso das fases do concurso (Inscrições $\rightarrow$ Isenção $\rightarrow$ Homologação $\rightarrow$ Prova). | Implementar componente de linha do tempo (*timeline* interativa) com indicação do status atual do certame. |
+| **4.1 Checar encerramento de inscrições** | Operação cognitiva | O horário limite para pagamento da taxa de inscrição frequentemente não é destacado, gerando perdas de prazo. | Exibir contador regressivo ou destaque em caixa de alerta: *"Inscrições encerram-se em X dias (às 23h59)"*. |
+| **4.2 Confrontar alterações de datas** | Operação cognitiva | O usuário é forçado a cruzar manualmente duas versões de documentos PDF para descobrir o novo prazo de prova. | Exibir tabela comparativa automática de alterações de cronograma diretamente na interface web. |
+
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+---
+
+## 5. Estrutura para Validação das Tarefas 05 a 10 pelos Demais Integrantes
 
 As demais tarefas modeladas pela equipe seguirão exatamente a mesma notação formal (diagrama Mermaid decomposto + tabela analítica de problemas e recomendações), integrando os achados empíricos das entrevistas gravadas:
 
-* **Tarefas 03 e 04 (Pedro Rocha Ferreira Lima):** Modelagem de filtragem regional (Centro-Oeste) e verificação de cronogramas/retificações.
 * **Tarefas 05 e 06 (Arthur Sismene Carvalho):** Modelagem de simulados online com feedback de acertos e busca de estágios/trainees.
 * **Tarefas 07 e 08 (Leonardo da Silva Lopes Júnior):** Modelagem do acesso a módulos audiovisuais de disciplinas e submissão de cadastro em mala direta/newsletter de editais.
 * **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem da checagem de vagas reservadas a PcD/idosos e conferência de portarias de nomeação.
 
 ---
 
-## 5. Bibliografia
+## 6. Bibliografia
 
 > ANNETT, John; DUNCAN, Keith D. *Task Analysis and Training Design*. Journal of Occupational Psychology, v. 41, p. 211-221, 1967.  
 > BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
 > DIAPER, Dan; STANTON, Neville. *The Handbook of Task Analysis for Human-Computer Interaction*. Mahwah: Lawrence Erlbaum Associates, 2004.
 
-## 6. Histórico de Versões
+## 7. Histórico de Versões
 
 <div align="center" markdown="1">
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/09/2026 | Fundamentação de HTA (Annett & Duncan; Barbosa & Silva), matriz das 10 tarefas, modelagem completa das Tarefas 01 e 02 (diagramas Mermaid e tabelas com problemas/recomendações). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 27/09/2026 | Inclusão da modelagem HTA completa das Tarefas 03 e 04 (diagramas Mermaid e tabelas com problemas e recomendações ergonômicas) baseadas na Análise Documental (DOC-02) e persona Lucas Ferreira Rocha. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 
 </div>
