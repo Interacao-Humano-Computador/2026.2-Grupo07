@@ -7,7 +7,7 @@
 | Daniel da Silva Batista | Fundamentação teórica (Cooper, 1999; Barbosa e Silva, 2010), estruturação da metodologia de personas, modelagem empírica e validação da Persona 1 (Maria Helena dos Santos) via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização do elenco para a equipe. |
 | Arthur Sismene Carvalho | Revisão do elenco de personas e modelagem integral da Persona 3 (Thiago Moraes Albuquerque), fundamentada nos dados documentais consolidados em `DOC-03`. |
 | João Vitor Sales Ibiapina | Revisão das diretrizes do elenco e preparação para a modelagem da persona individual. |
-| Leonardo da Silva Lopes Júnior | Revisão metodológica das diretrizes de personas segundo Barbosa e Silva (2010). |
+| Leonardo da Silva Lopes Júnior | Modelagem integral da Persona 4 (Renata Cristina Freitas), fundamentada na Análise Documental DOC-04 e nos hábitos do Perfil 2 (Concurseiro Ativo). |
 | Pedro Rocha Ferreira Lima | Definição dos critérios de priorização das personas, modelagem empírica da Persona 2 (Lucas Ferreira Rocha) fundamentada em DOC-02 e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
@@ -50,10 +50,10 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 | **PER-01** | Primária | Maria Helena dos Santos | Perfil 2: Concurseiro Ativo / Adulto e Maduro | Daniel da Silva Batista |
 | **PER-02** | Secundária | Lucas Ferreira Rocha | Perfil 1: Estudante Universitário / Iniciante e Recém-formado | Pedro Rocha Ferreira Lima |
 | **PER-03** | Primária | Thiago Moraes Albuquerque | Perfil 1: Estudante Universitário / Iniciante | Arthur Sismene Carvalho |
-| **PER-04** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | Leonardo da Silva Lopes Júnior |
+| **PER-04** | Primária | Renata Cristina Freitas | Perfil 2: Concurseiro Ativo / Adulto e Maduro | Leonardo da Silva Lopes Júnior |
 | **PER-05** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | João Vitor Sales Ibiapina |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -186,9 +186,47 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 
 ---
 
-### 4.4 Persona 4 — *Responsável: Leonardo da Silva Lopes Júnior*
+### 4.4 Persona 4 — Renata Cristina Freitas (*Responsável: Leonardo da Silva Lopes Júnior*)
 
-> *Seção reservada para a modelagem individual da persona pelo integrante Leonardo da Silva Lopes Júnior, a ser elaborada com base nos dados empíricos de sua respectiva entrevista gravada.*
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 5: Ficha de Caracterização da Persona 4 (Renata Cristina Freitas)</b></p>
+
+| Atributo | Detalhamento da Persona |
+| :--- | :--- |
+| **Nome Completo** | Renata Cristina Freitas |
+| **Idade / Gênero** | 31 anos | Feminino |
+| **Escolaridade** | Ensino Superior Completo (Administração de Empresas) |
+| **Ocupação Atual** | Assistente Administrativa em empresa de logística (CLT, 44 horas semanais) |
+| **Localização** | Águas Claras, Distrito Federal (DF) |
+| **Classificação** | **Persona Primária** (Representante do Perfil 2: Concurseiro Ativo / Adulto e Maduro) |
+| **Dispositivos Utilizados** | Smartphone Android intermediário (uso intensivo durante deslocamentos e intervalos de trabalho); computador desktop no escritório e notebook pessoal em casa |
+| **Frequência de Acesso** | Diária (acessa nos intervalos de almoço e consulta o e-mail várias vezes ao dia em busca de editais) |
+| **Citação Típica** | *"Como eu trabalho o dia todo, meu estudo precisa ser objetivo. Eu uso as pausas para assistir a videoaulas pontuais e dependo de alertas no meu e-mail para não perder prazos de inscrição."* |
+| **Base Empírica de Validação** | Modelada e fundamentada empiricamente a partir da [Análise Documental DOC-04](perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) (dados de consumo de vídeo e hábitos digitais da TIC Domicílios e Censo EAD.BR) e vinculada à sessão individual `USR-04`. |
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+#### 4.4.1 Objetivos e Motivações no PCI Concursos
+
+* **Conquistar Aprovação em Cargo Público de Nível Superior:** Almeja ingressar na carreira pública em cargos administrativos (como Analista Administrativo de Ministérios, Agências Reguladoras ou Tribunais do DF), visando plano de carreira estruturado e estabilidade funcional.
+* **Estudo Ágil e Focado por Meio de Videoaulas:** Utiliza a aba de aulas do PCI Concursos para sanar dúvidas teóricas pontuais de disciplinas básicas (Direito Administrativo, Direito Constitucional e Língua Portuguesa) durante intervalos de 15 a 30 minutos em sua rotina laboral (*microlearning*).
+* **Automação no Acompanhamento de Editais:** Depende de alertas recebidos por e-mail para ser notificada sobre a publicação de editais, retificações e aberturas de inscrições na região do DF sem despender horas diárias navegando ativamente por dezenas de páginas.
+
+#### 4.4.2 Relação com a Tecnologia e Hábitos de Estudo
+
+* **Usuária Digitalmente Fluente no Trabalho:** Lida rotineiramente com navegadores web, e-mails corporativos, editores de texto e planilhas eletrônicas. Espera interfaces diretas, sem burocracia ou fluxos desnecessários de navegação.
+* **Estudo Fragmentado no Celular:** Devido à jornada integral de trabalho, aproveita pequenos intervalos de tempo (como 20 a 30 minutos no almoço ou no transporte público) para estudar pelo smartphone com fones de ouvido.
+* **Relação com Alertas e Comunicação:** Considera o e-mail seu canal prioritário para comunicações formais e avisos de trabalho. Detesta receber malas diretas desorganizadas ou *spam* sobre concursos de outros estados para os quais não tem interesse em se inscrever.
+
+#### 4.4.3 Principais Dores e Frustrações com o PCI Concursos
+
+* **Desorganização Pedagógica na Seção de Videoaulas (`TAR-07`):** As aulas disponíveis no portal são meros vídeos embutidos do YouTube agrupados sem taxonomia refinada por disciplina ou tópico do edital. Não há indicação da duração dos blocos, cronômetro, índice de assuntos abordados ou links diretos para download de resumos e slides dos professores em PDF.
+* **Poluição Visual e Ruído Publicitário Intrusivo:** A página de reprodução das videoaulas é rodeada por anúncios dinâmicos expansíveis que distraem a atenção e, no celular, deslocam o player de vídeo, provocando cliques involuntários em banners comerciais.
+* **Formulário de Alertas Obsoleto e Sem Filtros (`TAR-08`):** O cadastro para recebimento de notícias de concursos não permite que Renata selecione suas preferências de carreira (ex.: Área Administrativa) ou localização geográfica (apenas DF/Centro-Oeste), fazendo com que sua caixa de entrada seja inundada por editais de prefeituras distantes.
+* **Ausência de Confirmação Dupla no Cadastro:** O formulário de e-mail possui apenas um campo para digitação, sem verificação de confirmação e sem mensagem de ativação por e-mail (*double opt-in*), gerando insegurança quanto ao correto registro do contato.
 
 ---
 
@@ -215,5 +253,6 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 | `1.2` | 25/09/2026 | Vinculação empírica da Persona 1 (Maria Helena) com a entrevista individual gravada USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.3` | 27/09/2026 | Modelagem da Persona 2 (Lucas Ferreira Rocha) por Pedro Rocha Ferreira Lima fundamentada na Análise Documental DOC-02. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.4` | 27/09/2026 | Modelagem integral da Persona 3 (Thiago Moraes Albuquerque), representante do Perfil 1, com ficha de caracterização, objetivos, atitudes tecnológicas e dores fundamentadas na análise documental DOC-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
+| `1.5` | 28/09/2026 | Modelagem integral da Persona 4 (Renata Cristina Freitas), representante do Perfil 2, fundamentada na Análise Documental DOC-04 e vinculada às tarefas TAR-07 e TAR-08. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>
