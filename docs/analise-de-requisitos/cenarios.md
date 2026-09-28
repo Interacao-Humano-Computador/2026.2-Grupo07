@@ -7,7 +7,7 @@
 | Daniel da Silva Batista | Fundamentação teórica de cenários (Carroll, 2000; Barbosa e Silva, 2010), estruturação dos elementos formais, redação e validação empírica dos Cenários 01 e 02 via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão conceitual dos elementos de cenário e redação integral dos Cenários 05 e 06, incluindo a modelagem do cenário de tarefa não suportada (CEN-06). |
 | João Vitor Sales Ibiapina | Revisão da matriz de cenários e estruturação dos Cenários 09 e 10. |
-| Leonardo da Silva Lopes Júnior | Revisão da coerência entre personas e contextos dos Cenários 07 e 08. |
+| Leonardo da Silva Lopes Júnior | Redação, contextualização e detalhamento narrativo integral dos Cenários 07 (videoaulas) e 08 (alertas de vagas por e-mail), fundamentados na persona Renata Cristina Freitas (PER-04) e na análise documental DOC-04. |
 | Pedro Rocha Ferreira Lima | Definição dos objetivos de busca regional, redação e fundamentação detalhada dos Cenários 03 e 04 com base em DOC-02 e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
@@ -53,8 +53,8 @@ A Tabela 1 a seguir apresenta a relação dos 10 cenários elaborados pelo grupo
 | **CEN-04** | Acompanhamento de Retificações e Prazos de Edital | **Lucas Ferreira Rocha (PER-02)** | Consulta a retificações e cronogramas | Pedro Rocha Ferreira Lima |
 | **CEN-05** | Resolução de Questões em Simulado Online no Smartphone | **Thiago Moraes Albuquerque (PER-03)** | Simulado de questões online | Arthur Sismene Carvalho |
 | **CEN-06** | Prospecção de Vagas de Estágio de Nível Superior no DF | **Thiago Moraes Albuquerque (PER-03)** | Busca de oportunidades de estágio | Arthur Sismene Carvalho |
-| **CEN-07** | Acesso Rápido a Videoaulas de Direito Administrativo | *A definir pelo responsável* | Consulta a videoaulas e dicas didáticas | Leonardo da Silva Lopes Júnior |
-| **CEN-08** | Configuração de Alertas Automáticos de Vagas por E-mail | *A definir pelo responsável* | Cadastro de avisos de concursos por e-mail | Leonardo da Silva Lopes Júnior |
+| **CEN-07** | Acesso Rápido a Videoaulas de Disciplinas Básicas no Intervalo de Almoço | **Renata Cristina Freitas (PER-04)** | Consulta a videoaulas e dicas didáticas | Leonardo da Silva Lopes Júnior |
+| **CEN-08** | Assinatura e Configuração de Alertas de Vagas por E-mail | **Renata Cristina Freitas (PER-04)** | Cadastro e configuração de avisos de vagas por e-mail | Leonardo da Silva Lopes Júnior |
 | **CEN-09** | Consulta a Vagas Reservadas e Isenção de Taxa para PcD | *A definir pelo responsável* | Verificação de vagas para cotas / PcD | João Vitor Sales Ibiapina |
 | **CEN-10** | Acompanhamento de Convocação de Concurso Homologado | *A definir pelo responsável* | Consulta a notícias de chamadas públicas | João Vitor Sales Ibiapina |
 
@@ -230,12 +230,64 @@ O detalhamento narrativo do Cenário 06 é apresentado na Tabela 7 a seguir:
 </div>
 
 ---
-### 4.7 Cenários 07 a 10: Estrutura Padronizada para Validação em Campo
+### 4.7 Cenário 07: Acesso Rápido a Videoaulas de Disciplinas Básicas no Intervalo de Almoço (CEN-07)
+* **Responsável:** Leonardo da Silva Lopes Júnior  
+* **Persona Associada:** Renata Cristina Freitas (PER-04 — Concurseira Ativa / 31 anos / CLT)  
+* **Fundamentação:** Ancorado na [Análise Documental DOC-04](perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior), que documenta o hábito de microaprendizagem mobile e estudo sob janelas de tempo reduzidas (Censo EAD.BR ABED e TIC Domicílios 2024) e vinculado à Tarefa 07 (Consulta a videoaulas e dicas didáticas). *A modelagem apoia-se em dados documentais secundários (conforme preceito metodológico de Barbosa e Silva, 2010), mantendo-se o registro empírico aberto para futura incorporação de teste filmado se aplicável.*
 
-Os cenários a seguir foram concebidos a partir do perfil dos usuários e seguem a mesma taxonomia formal de Carroll (2000), sendo validados e detalhados individualmente pelos respectivos integrantes responsáveis:
+O detalhamento narrativo do Cenário 07, estruturado segundo os sete elementos formais de Carroll (2000) e Barbosa e Silva (2010), é apresentado na Tabela 8:
 
-* **Cenário 07 (Responsável: Leonardo da Silva Lopes Júnior — Persona a definir):** O(A) participante / persona definida pelo integrante assiste a uma videoaula explicativa de Direito Constitucional em seu intervalo de descanso/almoço.
-* **Cenário 08 (Responsável: Leonardo da Silva Lopes Júnior — Persona a definir):** O(A) participante / persona definida pelo integrante cadastra seu endereço de e-mail no formulário de notícias para receber boletins automáticos sobre concursos da carreira judiciária.
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Detalhamento Narrativo do Cenário 07</b></p>
+
+| Elemento | Descrição Narrativa |
+| :--- | :--- |
+| **Ambiente / Contexto** | Quarta-feira, 12h35, na copa da empresa de logística onde trabalha no Setor de Indústria e Abastecimento (SIA), em Brasília-DF. Renata dispõe de 45 minutos de intervalo de almoço e utiliza seu smartphone pessoal (tela de 6.4", conectado à rede 4G) com fones de ouvido Bluetooth. O ambiente apresenta ruído residual de conversas e micro-ondas, exigindo foco visual e clareza acústica. Ela quer revisar rapidamente tópicos centrais de Direito Constitucional (Direitos e Garantias Fundamentais) para fixar conceitos antes do retorno ao expediente corporativo. |
+| **Atores** | **Renata Cristina Freitas** (31 anos, analista administrativa e concurseira em dupla jornada de 44h semanais, usuária ágil, autônoma e com foco pragmático na otimização de pequenas janelas diárias de estudo). |
+| **Objetivos** | Acessar a seção de videoaulas do PCI Concursos, selecionar a disciplina de Direito Constitucional, reproduzir uma aula didática curta com qualidade de áudio e vídeo legível e assimilar a explicação conceitual sem interrupções técnicas ou bloqueios visuais. |
+| **Planejamento** | Abrir o navegador Google Chrome no smartphone, acessar o portal `pciconcursos.com.br`, localizar o menu de "Aulas", filtrar pela matéria pretendida, escolher um módulo introdutório e assistir ao vídeo diretamente no player integrado sem precisar de login ou cadastros burocráticos. |
+| **Ações** | 1. Abre o navegador no celular e digita o endereço do portal.<br>2. Toca no menu superior de navegação procurando a opção correspondente a "Aulas".<br>3. Na página de Aulas, visualiza as categorias de disciplinas e toca em "Direito Constitucional".<br>4. Tenta localizar um campo de pesquisa interno para buscar aulas sobre o "Artigo 5º", constatando que a página oferece apenas uma listagem vertical corrida.<br>5. Rola a página para baixo até encontrar um vídeo com título pertinente e clica no card da aula.<br>6. Toca no botão de reprodução do player incorporado (YouTube) e gira o smartphone para o modo paisagem para ampliar a área útil de visualização.<br>7. Ajusta a velocidade de reprodução para 1.25x e tenta ligar legendas automáticas para mitigar o barulho da copa. |
+| **Eventos** | Ao abrir a tela da aula, blocos de anúncios publicitários em formato de banner ocupam grande parte da porção superior e inferior da viewport móvel. Ao rotacionar o aparelho para o modo horizontal, o layout responsivo apresenta falha de redimensionamento: anúncios laterais continuam flutuando e encobrindo parte dos controles do player, exigindo toque com precisão milimétrica para não abrir uma aba promocional. Não há botão para avançar para a "Próxima Aula" nem lista de reprodução sequencial organizada pedagogicamente; ao término do vídeo, o player exibe recomendações genéricas de terceiros do YouTube. Adicionalmente, inexiste opção para download de resumo esquemático em PDF do assunto abordado. |
+| **Avaliação** | Renata consegue absorver o conteúdo teórico ministrado pelo professor, mas avalia a experiência com forte insatisfação quanto à ergonomia móvel: a ausência de uma trilha estruturada de estudos, a poluição visual dos anúncios invasivos e a falta de materiais de apoio para leitura rápida pós-vídeo reduzem o valor didático do portal. Renata conclui que, no contexto de estudo móvel rápido, é mais vantajoso buscar vídeos diretamente no YouTube do que depender da seção desorganizada do portal. |
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+---
+
+### 4.8 Cenário 08: Assinatura e Configuração de Alertas de Vagas por E-mail (CEN-08)
+* **Responsável:** Leonardo da Silva Lopes Júnior  
+* **Persona Associada:** Renata Cristina Freitas (PER-04 — Concurseira Ativa / 31 anos / CLT)  
+* **Fundamentação:** Ancorado na [Análise Documental DOC-04](perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior), que identifica a sobrecarga informativa e a necessidade de alertas assíncronos segmentados para concurseiros em dupla jornada de trabalho (Comscore e TIC Domicílios 2024), vinculado à Tarefa 08 (Cadastro e configuração de alertas de vagas por e-mail).
+
+O detalhamento narrativo do Cenário 08, estruturado segundo os sete elementos formais de Carroll (2000) e Barbosa e Silva (2010), é apresentado na Tabela 9:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Detalhamento Narrativo do Cenário 08</b></p>
+
+| Elemento | Descrição Narrativa |
+| :--- | :--- |
+| **Ambiente / Contexto** | Domingo à noite, às 21h20, no quarto de seu apartamento no Guará-DF. Renata está conectada ao seu notebook pessoal revisando o planejamento da semana seguinte. Pela intensa rotina de 44 horas semanais no trabalho corporativo, ela vive sob constante apreensão de perder a publicação de editais de tribunais ou conselhos federais com lotação em Brasília e entorno imediato. Ela resolve cadastrar seu e-mail no PCI Concursos para receber avisos automáticos de novas seleções em sua caixa de entrada, evitando ter que inspecionar o site diariamente. |
+| **Atores** | **Renata Cristina Freitas** (31 anos, concurseira com foco restrito em cargos de nível superior da área administrativa/judiciária no DF e GO, avessa a spams e desorganização digital). |
+| **Objetivos** | Configurar o recebimento de alertas e boletins automáticos de vagas por e-mail, especificando filtros por região geográfica (Centro-Oeste / DF) e escolaridade (Nível Superior / Administrativo), assegurando que apenas notificações relevantes cheguem à sua caixa de entrada. |
+| **Planejamento** | Localizar na página inicial do PCI Concursos o módulo de assinatura de newsletter/alertas por e-mail, preencher seus dados cadastrais, marcar os filtros de preferência temática e regional e validar a inscrição por meio de link de confirmação. |
+| **Ações** | 1. Acessa o portal `pciconcursos.com.br` no navegador do notebook.<br>2. Percorre a página inicial procurando blocos com chamadas como "Receba Notícias", "Alertas por E-mail" ou "Boletim Diário".<br>3. Localiza um formulário minimalista de captura contendo unicamente um campo de texto rotulado com "E-mail" e o botão "Cadastrar".<br>4. Inspeciona a área ao redor procurando caixas de seleção (checkboxes) ou seletores para restringir as notificações ao Distrito Federal ou a cargos específicos.<br>5. Não encontrando filtros de segmentação, digita seu endereço de e-mail principal e clica no botão de submissão.<br>6. Abre seu serviço de webmail para verificar a mensagem de boas-vindas e checar se há link de personalização de preferências. |
+| **Eventos** | O formulário do sistema não disponibiliza nenhum mecanismo de parametrização ou filtragem: a captura é universal e indiferenciada. A submissão exibe um aviso em texto puro na tela com feedback básico de sucesso. No dia seguinte, Renata recebe na caixa de entrada um boletim massivo e exaustivo contendo centenas de seleções de prefeituras distantes de todo o território nacional (incluindo cargos operacionais do interior de outros estados), sem qualquer agrupamento ou destaque para o Distrito Federal. Adicionalmente, o e-mail não oferece opções de gerenciamento de preferências ou cancelamento pontual por tópico, disponibilizando apenas um link de descadastramento integral em letras miúdas no rodapé. |
+| **Avaliação** | Renata atinge formalmente a inscrição técnica do e-mail, mas o resultado é contraproducente: o volume excessivo de mensagens descontextualizadas polui sua caixa postal pessoal, gerando ruído cognitivo e risco de ocultar seus e-mails profissionais. A ausência de segmentação por UF e cargo anula o benefício da automação esperada, fazendo com que Renata cancele a assinatura da newsletter três dias depois, classificando o serviço como ineficiente para as necessidades de concurseiros com foco definido. |
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+---
+
+### 4.9 Cenários 09 e 10: Estrutura Padronizada para Validação em Campo
+
+Os cenários a seguir foram concebidos a partir do perfil dos usuários e seguem a mesma taxonomia formal de Carroll (2000), sendo validados e detalhados individualmente pelo integrante responsável:
+
 * **Cenário 09 (Responsável: João Vitor Sales Ibiapina — Persona a definir):** O(A) participante / persona definida pelo integrante busca auxílio para localizar no edital as regras de isenção de taxa de inscrição para candidatos de baixa renda e as vagas reservadas para pessoas com deficiência.
 * **Cenário 10 (Responsável: João Vitor Sales Ibiapina — Persona a definir):** O(A) participante / persona definida pelo integrante consulta a listagem de notícias de homologação do concurso de motorista municipal para conferir se seu número de inscrição consta na lista de convocados.
 
@@ -257,5 +309,6 @@ Os cenários a seguir foram concebidos a partir do perfil dos usuários e seguem
 | `1.1` | 25/09/2026 | Vinculação empírica dos Cenários 01 e 02 à execução real gravada na entrevista USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.2` | 27/09/2026 | Detalhamento formal dos Cenários 03 e 04 por Pedro Rocha Ferreira Lima fundamentados na Análise Documental DOC-02. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.3` | 27/09/2026 | Detalhamento narrativo integral dos Cenários 05 (simulado no smartphone) e 06 (prospecção de estágio), este último modelado como cenário de tarefa não suportada, com vinculação à Persona PER-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
+| `1.4` | 28/09/2026 | Redação e detalhamento narrativo integral dos Cenários 07 (videoaulas) e 08 (alertas por e-mail) fundamentados na Persona PER-04 e DOC-04. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>

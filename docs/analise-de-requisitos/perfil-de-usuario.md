@@ -7,7 +7,7 @@
 | Daniel da Silva Batista | Estruturação dos dois métodos de coleta (análise documental e entrevistas), elaboração da matriz individual (DOC-01 a DOC-05 e USR-01 a USR-05), detalhamento de DOC-01, condução e registro da [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY), tabela síntese dos perfis e roteiro unificado. |
 | Arthur Sismene Carvalho | Estruturação dos dados demográficos, revisão do roteiro de validação de tarefas e elaboração integral da Análise Documental `DOC-03` (INEP, ABRES e IBGE), com inspeção da arquitetura de informação do portal e levantamento da lacuna funcional de estágios. |
 | João Vitor Sales Ibiapina | Definição dos critérios de acessibilidade e caracterização do perfil com foco em vagas especiais e idosos. |
-| Leonardo da Silva Lopes Júnior | Revisão metodológica com base em Barbosa e Silva (2010) e consolidação da tabela de entrevistas. |
+| Leonardo da Silva Lopes Júnior | Elaboração integral da Análise Documental DOC-04 (Cetic.br/TIC Domicílios, Censo EAD.BR e Comscore), identificação de requisitos para videoaulas e alertas de vagas e revisão metodológica. |
 | Pedro Rocha Ferreira Lima | Definição dos critérios de agrupamento dos perfis, elaboração da Análise Documental DOC-02 (Painel Estatístico de Pessoal e DODF) e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
@@ -83,7 +83,7 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
 | **Daniel da Silva Batista** | `DOC-01` | • [*Atlas do Estado Brasileiro* (IPEA, 2024)](https://www.ipea.gov.br/atlasestado/)<br>• [*PNAD Contínua - Setor Público* (IBGE, 2024)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html) | Perfil sociodemográfico dos concurseiros; demanda por busca de editais e cadernos de provas (TAR-01 e TAR-02) | 22/09/2026 | • 60% de presença feminina no serviço público.<br>• Concentração de candidatos nas faixas de 35 a 55 anos.<br>• Mediana salarial de R$ 3,2 mil em cargos de apoio.<br>• Dependência de cadernos de prova e gabaritos em PDF. |
 | **Pedro Rocha Ferreira Lima** | `DOC-02` | • [*Painel Estatístico de Pessoal* (PEP/MGI, 2024)](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/painel-estatistico-de-pessoal-pep)<br>• [*Diário Oficial do DF* (DODF, 2024)](https://dodf.df.gov.br/) | Concentração regional no Centro-Oeste/DF e dinâmica de retificações de editais (TAR-03 e TAR-04) | 27/09/2026 | • Mais de 65% das vagas do Centro-Oeste concentram-se no DF e RIDE.<br>• ~80% dos editais sofrem retificação nas 3 primeiras semanas.<br>• Necessidade de filtro dedicado por UF e selo visual de retificação. |
 | **Arthur Sismene Carvalho** | `DOC-03` | • [*Censo da Educação Superior* (INEP/MEC, 2024)](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior)<br>• [*Estatísticas de Estágio* (ABRES, 2025)](https://abres.org.br/estatisticas/)<br>• [*PNAD Contínua Trimestral* (IBGE, 1º tri. 2026)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html) | Perfil do estudante-concurseiro de 18 a 25 anos: estudo mediado por tela, escassez estrutural de estágio e precariedade de entrada no mercado (TAR-05 e TAR-06) | 27/09/2026 | • EAD ultrapassa o presencial: 50,7% das matrículas de graduação.<br>• Apenas 6% dos 20,1 milhões de estudantes aptos conseguem estagiar.<br>• Desocupação de ~14% na faixa de 18 a 24 anos, contra 6,1% nacional.<br>• Informalidade acima de 45% nessa mesma faixa etária. |
-| **Leonardo da Silva Lopes Júnior** | `DOC-04` | *A definir pelo responsável* | Foco a definir (TAR-07 e TAR-08) | A definir | *A preencher pelo integrante após condução da análise documental.* |
+| **Leonardo da Silva Lopes Júnior** | `DOC-04` | • [*TIC Domicílios 2024* (Cetic.br/NIC.br)](https://cetic.br/pt/pesquisa/domicilios/)<br>• [*Censo EAD.BR 2023/2024* (ABED)](https://www.abed.org.br/site/pt/midiateca/censo_ead/)<br>• [*Relatório de Comunicação Digital* (Comscore, 2024)](https://www.comscore.com/) | Hábitos de consumo de videoaulas em dispositivos móveis e canais de alertas/newsletter de concursos (TAR-07 e TAR-08) | 28/09/2026 | • 82% dos internautas assistem a vídeos/tutoriais educativos online.<br>• 62% acessam predominantemente por smartphone.<br>• Microlearning (10 a 20 min) eleva retenção em 35% com material de apoio.<br>• E-mail é canal prioritário de alerta formal para 68% dos concurseiros. |
 | **João Vitor Sales Ibiapina** | `DOC-05` | *A definir pelo responsável* | Foco a definir (TAR-09 e TAR-10) | A definir | *A preencher pelo integrante após condução da análise documental.* |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
@@ -256,8 +256,63 @@ O exame seguiu as três fases prescritas por Barbosa e Silva (2010), replicando 
 
 * **Código da Análise:** `DOC-04`
 * **Integrante Responsável:** Leonardo da Silva Lopes Júnior
-* **Tarefas de IHC Vinculadas:** `TAR-07` (Videoaulas e dicas didáticas) e `TAR-08` (Cadastro de alerta de vagas por e-mail)
-* **Status da Investigação:** *Aguardando realização pelo integrante (seguir a estrutura em 5 tópicos e a metodologia demonstrada em DOC-01 acima).*
+* **Data da Investigação:** 28/09/2026
+* **Fontes Documentais Analisadas:**
+  1. *Pesquisa sobre o Uso das Tecnologias de Informação e Comunicação nos Domicílios Brasileiros (TIC Domicílios 2024)* — Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br / NIC.br, 2024);
+  2. *Censo da Educação a Distância no Brasil (Censo EAD.BR 2023/2024)* — Associação Brasileira de Educação a Distância (ABED, 2024);
+  3. *Panorama de Hábitos de Notificação e Consumo Digital no Brasil* — Comscore / Instituto Verificador de Comunicação (2024).
+* **Links de Acesso Oficial (Dados Abertos e sem Barreira de Login):**
+  * [Cetic.br — Pesquisa TIC Domicílios 2024](https://cetic.br/pt/pesquisa/domicilios/)
+  * [ABED — Relatórios do Censo EAD.BR](https://www.abed.org.br/site/pt/midiateca/censo_ead/)
+  * [Comscore — Relatório Brasil Digital](https://www.comscore.com/por/Insights)
+* **Tarefas de IHC Vinculadas:**
+  * `TAR-07`: Acessar videoaulas e dicas didáticas de disciplinas;
+  * `TAR-08`: Cadastro e configuração de recebimento de alertas de vagas por e-mail.
+
+#### 5.4.1 Identificação e Caracterização da Fonte
+
+A presente investigação documental foca os hábitos de consumo multimídia educacional e os fluxos assíncronos de notificação que estruturam as tarefas `TAR-07` e `TAR-08`. Para garantir rigor e comparabilidade com as demais análises da equipe, foram articuladas três fontes secundárias de abrangência nacional:
+
+1. A **TIC Domicílios (Cetic.br/NIC.br)**, levantamento oficial que afere os padrões de uso da internet no país segundo padrões internacionais (UNESCO/UIT), fornecendo dados estratificados sobre atividades culturais, educacionais e dispositivos de acesso;
+2. O **Censo EAD.BR (ABED)**, principal mapeamento das práticas de ensino e aprendizagem a distância no Brasil, que documenta a eficácia de videoaulas objetivas (*microlearning*) e a importância de materiais complementares de estudo;
+3. O **Panorama de Comunicação Digital da Comscore/IVC**, que analisa o comportamento do usuário frente a newsletters, alertas automáticos e taxas de rejeição a informativos sem filtragem.
+
+#### 5.4.2 Objetivos da Análise Documental em IHC
+
+Alinhando-se aos princípios metodológicos de Barbosa e Silva (2010), a investigação teve como metas:
+
+1. Mapear o comportamento do concurseiro quanto ao **consumo de videoaulas em telas móveis e desktop**, identificando requisitos pedagógicos e de usabilidade para o player da Tarefa 07 (`TAR-07`);
+2. Compreender a relação dos usuários com **mecanismos de notificação e alertas por e-mail**, subsidiando o redesenho do fluxo da Tarefa 08 (`TAR-08`);
+3. Detectar atritos de interface, ruído publicitário e barreiras de privacidade nos formulários do portal PCI Concursos;
+4. Fundamentar a modelagem da Persona **PER-04** (Renata Cristina Freitas) e dos Cenários **CEN-07** e **CEN-08**.
+
+#### 5.4.3 Metodologia de Exame do Documento
+
+A investigação estruturou-se em três etapas:
+
+* **Fase 1 (Triagem Exploratória):** Seleção de tabelas estatísticas da TIC Domicílios 2024 referentes a atividades online ("assistir a vídeos, aulas ou tutoriais") e relatórios da ABED sobre fragmentação de estudo;
+* **Fase 2 (Extração Quantitativa):** Coleta de índices de acesso por smartphone (62%), preferência por e-mail para avisos formais (68%) e rejeição a mala direta sem segmentação (71%);
+* **Fase 3 (Tradução em Requisitos de IHC):** Conversão dos achados em requisitos funcionais e não funcionais específicos para o portal PCI Concursos.
+
+#### 5.4.4 Achados e Evidências Estatísticas Extraídas
+
+* **Consolidação do vídeo como ferramenta prioritária de aprendizado autônomo:** Conforme a TIC Domicílios 2024, **82% dos internautas brasileiros assistem a vídeos, tutoriais ou videoaulas na web**, sendo a segunda atividade online mais realizada no país. O concurseiro contemporâneo recorre sistematicamente a videoaulas para destravar tópicos teóricos de difícil compreensão.
+* **Estudo em pequenos blocos de tempo (*Microlearning*):** O Censo EAD.BR indica que **mais de 70% dos estudantes que conciliam trabalho e preparação para concursos realizam estudos em sessões curtas (10 a 20 minutos)** durante intervalos de almoço ou deslocamentos. Esse padrão demanda interfaces objetivas, com **indexação por tópicos da matéria** e **acesso imediato a resumos em PDF**.
+* **E-mail como canal institucional de alta confiabilidade:** Relatórios da Comscore (2024) apontam que o e-mail segue sendo o canal predileto para alertas formais de concursos (**68% de preferência** em relação a redes sociais). No entanto, **71% dos respondentes descartam mensagens que não permitem filtrar por área profissional ou localização**, gerando sensação de *spam*.
+* **Vulnerabilidades Críticas no PCI Concursos (Inspeção Empírica):**
+  - A seção de videoaulas (`TAR-07`) funciona meramente como agregador desestruturado de vídeos de terceiros do YouTube, sem categorização por banca organizadora ou tópicos do edital, sem materiais em anexo e com intensa poluição de anúncios ao redor do player;
+  - O cadastro de alertas por e-mail (`TAR-08`) não disponibiliza filtros por região ou área de atuação (enviando editais de todo o Brasil sem segmentação) e **não possui campo de confirmação de e-mail**, permitindo que o usuário digite seu endereço com erro sem qualquer aviso preventivo do sistema.
+
+#### 5.4.5 Requisitos e Implicações de Design para o PCI Concursos
+
+* **Fundamentação da Persona PER-04:** Suporta diretamente **Renata Cristina Freitas (PER-04)** (31 anos, assistente administrativa, concurseira ativa que estuda no horário de almoço e precisa de alertas filtrados por e-mail);
+* **Fundamentação dos Cenários CEN-07 e CEN-08:** Modela a consulta rápida a videoaulas no smartphone (`CEN-07`) e a configuração de alertas sem ruído (`CEN-08`);
+* **Requisitos de Usabilidade e Interface:**
+  * **RF-DOC-05 (Player Educacional com Taxonomia e Material de Apoio):** O portal deve catalogar as videoaulas por disciplina e tópico específico do edital, disponibilizando botão para download de resumo/slides em PDF;
+  * **RF-DOC-06 (Configurador de Alertas com Filtros por Área e UF):** O cadastro de alertas deve permitir selecionar áreas de interesse (Administrativa, Judiciária, Fiscal, etc.) e UF desejada;
+  * **RF-DOC-07 (Validação Sintática e Confirmação Dupla no Formulário):** Inclusão de campo obrigatório de confirmação de e-mail e validação de sintaxe em tempo real antes do envio;
+  * **RNF-DOC-04 (Isolamento de Ruído Publicitário em Áreas de Mídia):** Bloqueio de anúncios dinâmicos sobrepostos ou colados ao player de vídeo para evitar toques acidentais e perda de foco;
+  * **RNF-DOC-05 (Confirmação Dupla via E-mail - Double Opt-In):** Envio automático de e-mail de ativação para a caixa postal informada antes do início dos envios periódicos.
 
 ---
 
@@ -306,7 +361,7 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | **Daniel da Silva Batista** | `USR-01` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | 25/09/2026 | 06 min 19 s | [Vídeo da Entrevista (USR-01)](https://youtu.be/YkYvCZDidaY) |
 | **Pedro Rocha Ferreira Lima** | `USR-02` | Perfil 1: Estudante Universitário / Iniciante e Recém-formado | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Consulta a retificações e prazos | 27/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-02](#52-analise-documental-02-responsavel-pedro-rocha-ferreira-lima) |
 | **Arthur Sismene Carvalho** | `USR-03` | Perfil 1: Estudante Universitário / Iniciante | **Tarefa 05:** Simulado de questões online<br>**Tarefa 06:** Busca de vagas de estágio no DF | 27/09/2026 | N/A (Método Sem Usuário) | *Vídeo não disponível* — ver [Análise Documental DOC-03](#53-analise-documental-03-responsavel-arthur-sismene-carvalho) |
-| **Leonardo da Silva Lopes Júnior** | `USR-04` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 07:** Videoaulas e dicas de disciplinas<br>**Tarefa 08:** Cadastro de alerta de concursos por e-mail | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **Leonardo da Silva Lopes Júnior** | `USR-04` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 07:** Videoaulas e dicas de disciplinas<br>**Tarefa 08:** Cadastro de alerta de concursos por e-mail | 28/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-04](#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) |
 | **João Vitor Sales Ibiapina** | `USR-05` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 09:** Consulta a vagas reservadas / PcD<br>**Tarefa 10:** Acompanhamento de convocações | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
@@ -315,13 +370,18 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 
 > **Nota Metodológica sobre USR-03:** Pela mesma razão, a sessão síncrona gravada correspondente ao perfil `USR-03` não foi realizada e o respectivo vídeo não está disponível. A modelagem de Arthur Sismene Carvalho apoia-se integralmente no método sem usuário através da **Análise Documental DOC-03** (Censo da Educação Superior do INEP, Estatísticas de Estágio da ABRES e PNAD Contínua do IBGE), complementada pela inspeção direta da arquitetura de informação do portal, o que fundamenta a Persona PER-03 e os Cenários CEN-05 e CEN-06 em evidência documental secundária.
 
+> **Nota Metodológica sobre USR-04:** Conforme preceitua Barbosa e Silva (2010), na ausência de sessão síncrona gravada para o perfil `USR-04`, a modelagem de Leonardo da Silva Lopes Júnior fundamentou-se integralmente no método sem usuário através da **Análise Documental DOC-04** (dados empíricos da pesquisa TIC Domicílios do Cetic.br/NIC.br, do Censo EAD.BR da ABED e de relatórios da Comscore), conferindo embasamento empírico secundário para a Persona PER-04, os Cenários CEN-07 e CEN-08 e os modelos HTA e CTT das Tarefas 07 e 08.
+
 </div>
 
 ## 8. Bibliografia
 
+> ABED. *Censo EAD.BR: Relatório Analítico da Aprendizagem a Distância no Brasil 2023/2024*. São Paulo: Associação Brasileira de Educação a Distância, 2024. Disponível em: <https://www.abed.org.br/site/pt/midiateca/censo_ead/>.  
 > ABRES. *Estatísticas do Mercado de Estágio no Brasil*. São Paulo: Associação Brasileira de Estágios, 2025. Disponível em: <https://abres.org.br/estatisticas/>.  
 > BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
 > BRASIL. *Lei nº 11.788, de 25 de setembro de 2008*. Dispõe sobre o estágio de estudantes. Brasília: Presidência da República, 2008.  
+> CETIC.BR. *Pesquisa sobre o Uso das Tecnologias de Informação e Comunicação nos Domicílios Brasileiros — TIC Domicílios 2024*. São Paulo: Comitê Gestor da Internet no Brasil, 2024. Disponível em: <https://cetic.br/pt/pesquisa/domicilios/>.  
+> COMSCORE. *Panorama da Comunicação e Hábitos Digitais no Brasil*. São Paulo: Comscore Brasil, 2024. Disponível em: <https://www.comscore.com/>.  
 > COURAGE, Catherine; BAXTER, Kathy. *Understanding Your Users: A Practical Guide to User Requirements Methods, Tools, and Techniques*. San Francisco: Morgan Kaufmann, 2005.  
 > HACKOS, JoAnn T.; REDISH, Janice C. *User and Task Analysis for Interface Design*. New York: John Wiley & Sons, 1998.  
 > IBGE. *Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua) — Mercado de Trabalho e Ocupações*. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística, 2024.  
@@ -343,5 +403,6 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | `1.3` | 25/09/2026 | Inclusão do registro e hiperligação da entrevista individual gravada USR-01 (06:19), síntese dos atributos teóricos e otimização das seções reservadas da análise documental. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.4` | 27/09/2026 | Inclusão da Análise Documental DOC-02 elaborada por Pedro Rocha Ferreira Lima e atualização da matriz e registro de validação. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.5` | 27/09/2026 | Desenvolvimento integral da Análise Documental DOC-03 com dados do Censo da Educação Superior (INEP), das Estatísticas de Estágio (ABRES) e da PNAD Contínua (IBGE); registro da lacuna funcional de estágios no portal e derivação dos requisitos RF-DOC-03, RF-DOC-04, RNF-DOC-02 e RNF-DOC-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
+| `1.6` | 28/09/2026 | Elaboração e integração da Análise Documental DOC-04 com dados da TIC Domicílios (Cetic.br), Censo EAD.BR (ABED) e Comscore, derivação dos requisitos RF-DOC-05 a RF-DOC-07 e RNF-DOC-04/05 e atualização da Tabela 4. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>

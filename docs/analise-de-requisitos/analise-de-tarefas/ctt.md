@@ -7,7 +7,7 @@
 | Daniel da Silva Batista | Fundamentação teórica de ConcurTaskTrees (Paternò, 1999; Barbosa e Silva, 2010), taxonomia de tipos de tarefas e operadores temporais, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão dos operadores temporais de interação e modelagem CTT integral das Tarefas 05 e 06, com emprego dos operadores de iteração (`T*`), suspensão (`|>`), escolha alternativa (`[]`) e desativação (`[>`) para formalizar o ciclo de respostas e o padrão de tentativa e abandono. |
 | João Vitor Sales Ibiapina | Revisão das relações temporais e estruturação das Tarefas 09 e 10. |
-| Leonardo da Silva Lopes Júnior | Revisão da classificação de tarefas de sistema e interação das Tarefas 07 e 08. |
+| Leonardo da Silva Lopes Júnior | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 07 e 08, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). |
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas CTT em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
@@ -639,23 +639,267 @@ flowchart TD
 
 ---
 
-## 6. Estrutura para Modelagem das Tarefas 07 a 10 pelos Demais Integrantes
+## 6. Modelagem Detalhada das Tarefas (Leonardo da Silva Lopes Júnior)
 
-As Tarefas 05 a 10 seguirão o padrão rigoroso estabelecido nas seções anteriores, utilizando a classificação quadripartite de Paternò e detalhando a interação humano-máquina com base nas gravações empíricas:
+### 6.1 Tarefa 07: Acessar videoaulas e dicas didáticas de disciplinas (TAR-07)
 
-* **Tarefas 07 e 08 (Leonardo da Silva Lopes Júnior):** Modelagem de reprodução audiovisual de mídia e envio de formulário com validação de formato de e-mail pelo sistema.
-* **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem de varredura de tabelas de vagas de PcD e acompanhamento de editais de resultado definitivo.
+A Tarefa 07 formaliza o diálogo interativo e as restrições temporais envolvidas no consumo de conteúdos audiovisuais pedagógicos disponibilizados pelo PCI Concursos. O modelo reflete a realidade de uso da persona primária **Renata Cristina Freitas (`PER-04`)**, que estuda em janelas reduzidas de tempo (intervalos de trabalho ou deslocamentos) em dispositivo móvel sob rede celular. A fundamentação empírica e documental deriva da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) (Cetic.br, 2024; ABED, 2024), que revela a centralidade do smartphone como terminal de microaprendizagem, onde o usuário busca assimilar conceitos em vídeos curtos e objetivos.
+
+Na árvore CTT da Tarefa 07 (Figura 7), destacam-se a passagem de informação entre a seleção da disciplina e a renderização do catálogo (`[]>>`), a concorrência entre a assimilação cognitiva do usuário e o streaming de vídeo (`|||`), a desativação do vídeo por ajustes de velocidade ou rotação (`[>`) e a modelagem formal das tarefas ausentes de trilha pedagógica e download de material de apoio.
+
+#### Diagrama de Árvore CTT (Figura 7)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 7:</b> Representação em Árvore CTT da Tarefa 07 - Acessar videoaulas e dicas didáticas</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    subgraph Legenda ["Legenda CTT"]
+        direction LR
+        L_Abs["[Abstrata]"]
+        L_Int["[Interação]"]
+        L_Sis["[Sistema]"]
+        L_Usu["[Usuário]"]
+    end
+
+    Root["[Abstrata] Acessar videoaulas e dicas didáticas"]
+
+    Sub1["[Interação] Navegar até o repositório de Aulas"]
+    Op1{">>"}
+    Sub2["[Sistema] Renderizar catálogo de videoaulas"]
+    Op2{"[]>>"}
+    Sub3["[Abstrata] Selecionar a disciplina e videoaula temática"]
+    Op3{">>"}
+    Sub4["[Abstrata] Ciclo de reprodução e controle do vídeo (T*)"]
+    Op4{">>"}
+    Sub5["[Abstrata] Aprofundamento pós-aula e progressão na trilha"]
+
+    Root --> Sub1
+    Root --> Op1
+    Root --> Sub2
+    Root --> Op2
+    Root --> Sub3
+    Root --> Op3
+    Root --> Sub4
+    Root --> Op4
+    Root --> Sub5
+
+    %% Decomposição de Sub3
+    Sub3_1["[Usuário] Escolher a disciplina básica pretendida"]
+    Sub3_Op{"[]>>"}
+    Sub3_2["[Interação] Clicar na matéria (ex.: Direito Constitucional)"]
+    Sub3_Op2{">>"}
+    Sub3_3["[Interação] Filtrar tópico por busca interna<br>(NÃO SUPORTADA)"]
+    Sub3_Op3{"[]"}
+    Sub3_4["[Interação] Rolar catálogo e selecionar o card da aula"]
+    Sub3 --> Sub3_1
+    Sub3 --> Sub3_Op
+    Sub3 --> Sub3_2
+    Sub3 --> Sub3_Op2
+    Sub3 --> Sub3_3
+    Sub3 --> Sub3_Op3
+    Sub3 --> Sub3_4
+
+    %% Decomposição de Sub4 (reprodução e ajustes)
+    Sub4_1["[Interação] Acionar play no player embutido"]
+    Sub4_Op{">>"}
+    Sub4_2["[Sistema] Transmitir stream de mídia (YouTube)"]
+    Sub4_Op2{"|||"}
+    Sub4_3["[Usuário] Assimilar explicação teórica do professor"]
+    Sub4_Op3{"[>"}
+    Sub4_4["[Interação] Ajustar velocidade de reprodução ou tela cheia"]
+    Sub4_Op4{"|||"}
+    Sub4_5["[Interação] Ativar legendas do player em ambiente ruidoso"]
+    Sub4 --> Sub4_1
+    Sub4 --> Sub4_Op
+    Sub4 --> Sub4_2
+    Sub4 --> Sub4_Op2
+    Sub4 --> Sub4_3
+    Sub4 --> Sub4_Op3
+    Sub4 --> Sub4_4
+    Sub4 --> Sub4_Op4
+    Sub4 --> Sub4_5
+
+    %% Decomposição de Sub5 (operações complementares)
+    Sub5_1["[Interação] Baixar resumo esquemático em PDF<br>(NÃO SUPORTADA)"]
+    Sub5_Op{">>"}
+    Sub5_2["[Interação] Avançar para próxima aula da trilha<br>(NÃO SUPORTADA)"]
+    Sub5_Op2{">>"}
+    Sub5_3["[Sistema] Registrar progresso no histórico do aluno<br>(NÃO SUPORTADA)"]
+    Sub5 --> Sub5_1
+    Sub5 --> Sub5_Op
+    Sub5 --> Sub5_2
+    Sub5 --> Sub5_Op2
+    Sub5 --> Sub5_3
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+#### Tabela de Especificação dos Nós e Operadores da Tarefa 07
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Especificação Formal dos Nós CTT da Tarefa 07</b></p>
+
+| Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
+| :--- | :---: | :---: | :--- |
+| **Acessar videoaulas e dicas didáticas** | Abstrata | - | Tarefa raiz que engloba a navegação, a seleção da matéria, o controle da reprodução audiovisual e a busca de complementos didáticos. |
+| **Navegar até o repositório de Aulas** | Interação | `>>` | O usuário clica no item "Aulas" no menu superior ou lateral de navegação do portal. |
+| **Renderizar catálogo de videoaulas** | Sistema | `[]>>` | O servidor consulta o acervo e exibe as categorias de matérias com miniaturas e títulos das aulas, repassando o catálogo à tela do usuário. |
+| **Selecionar disciplina e videoaula temática** | Abstrata | `>>` | Nó de composição que engloba a escolha cognitiva da matéria e o acionamento do vídeo específico. |
+| **Escolher disciplina básica pretendida** | Usuário | `[]>>` | Julgamento cognitivo sobre qual disciplina estudar (ex.: Direito Constitucional), transferindo a intenção para a ação na interface. |
+| **Clicar na matéria** | Interação | `>>` | Acionamento físico do link da disciplina na listagem para carregar as respectivas aulas. |
+| **Filtrar tópico por busca interna** | Interação | `[]` | **Tarefa pretendida pelo usuário e inexistente no portal.** A ausência de campo de busca interno impede a localização rápida de tópicos específicos de edital (ex.: "Artigo 5º"). |
+| **Rolar catálogo e selecionar card da aula** | Interação | `>>` | Ação física de varredura vertical e toque sobre o card da videoaula desejada em alternativa à busca direta. |
+| **Ciclo de reprodução e controle do vídeo** | Abstrata | `>>` | Nó iterativo (`T*`) que modela a execução audiovisual da aula e as eventuais intervenções ergonômicas de reprodução. |
+| **Acionar play no player embutido** | Interação | `>>` | Clique no botão de reprodução do reprodutor incorporado (YouTube). |
+| **Transmitir stream de mídia** | Sistema | `\|\|\|` | O servidor de streaming transfere o fluxo de áudio e vídeo de forma contínua para o dispositivo do estudante. |
+| **Assimilar explicação teórica do professor** | Usuário | `[>` | Processamento cognitivo de escuta ativa e compreensão dos preceitos teóricos expostos na videoaula. |
+| **Ajustar velocidade de reprodução ou tela cheia** | Interação | `\|\|\|` | Ação física sobre os controles do player para acelerar o vídeo (1.25x/1.5x) ou rotacionar o aparelho para modo paisagem, desativando temporariamente o foco de escuta pura. |
+| **Ativar legendas do player em ambiente ruidoso** | Interação | `>>` | Acionamento das legendas para garantir acessibilidade comunicacional em locais com barulho ambiente (ex.: copa ou transporte público). |
+| **Aprofundamento pós-aula e progressão na trilha** | Abstrata | — | Nó que agrupa as expectativas de fixação e continuidade pedagógica do concurseiro. |
+| **Baixar resumo esquemático em PDF** | Interação | `>>` | **Tarefa esperada pelo estudante e não suportada.** O portal não fornece anexos em PDF, resumos ou slides vinculados às videoaulas para estudo offline. |
+| **Avançar para próxima aula da trilha** | Interação | `>>` | **Tarefa não suportada.** Ausência de navegação sequencial pedagógica ("Próxima Aula") entre módulos de uma mesma matéria. |
+| **Registrar progresso no histórico do aluno** | Sistema | — | **Tarefa de sistema esperada e ausente.** O sistema não armazena quais aulas já foram assistidas nem a porcentagem de conclusão do conteúdo programático. |
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
 
 ---
 
-## 7. Bibliografia
+### 6.2 Tarefa 08: Cadastrar e configurar recebimento de alertas de vagas por e-mail (TAR-08)
+
+A Tarefa 08 formaliza a interação de assinatura e recebimento periódico de alertas de vagas e boletins de notícias via correio eletrônico. O modelo atende às necessidades da persona **Renata Cristina Freitas (`PER-04`)**, que, em virtude da jornada integral de trabalho de 44 horas semanais no setor privado, depende de alertas assíncronos precisos para não perder prazos de abertura de certames de seu interesse no Distrito Federal e entorno. A fundamentação apoia-se nos dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) (Comscore, 2024; TIC Domicílios, 2024), que evidenciam o alto engajamento em comunicações por e-mail quando devidamente segmentadas.
+
+Na árvore CTT da Tarefa 08 (Figura 8), destacam-se a passagem dos parâmetros de cadastro para o processamento do sistema (`[]>>`), a concorrência entre os campos de configuração pretendidos (`|||`), a ativação assíncrona do envio de boletins pelo sistema (`>>`) e o operador de escolha alternativa (`[]`) no momento em que o usuário depara-se com a sobrecarga de mensagens não segmentadas.
+
+#### Diagrama de Árvore CTT (Figura 8)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 8:</b> Representação em Árvore CTT da Tarefa 08 - Cadastrar e configurar alertas de vagas por e-mail</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    subgraph Legenda ["Legenda CTT"]
+        direction LR
+        L_Abs["[Abstrata]"]
+        L_Int["[Interação]"]
+        L_Sis["[Sistema]"]
+        L_Usu["[Usuário]"]
+    end
+
+    Root["[Abstrata] Cadastrar e configurar alertas de vagas por e-mail"]
+
+    Sub1["[Interação] Localizar formulário de cadastro no portal"]
+    Op1{">>"}
+    Sub2["[Abstrata] Parametrização e inserção de dados"]
+    Op2{"[]>>"}
+    Sub3["[Sistema] Processar requisição e registrar inscrição"]
+    Op3{">>"}
+    Sub4["[Sistema] Enviar boletim periódico à caixa postal"]
+    Op4{"[]>>"}
+    Sub5["[Abstrata] Triagem do boletim ou cancelamento da assinatura"]
+
+    Root --> Sub1
+    Root --> Op1
+    Root --> Sub2
+    Root --> Op2
+    Root --> Sub3
+    Root --> Op3
+    Root --> Sub4
+    Root --> Op4
+    Root --> Sub5
+
+    %% Decomposição de Sub2
+    Sub2_1["[Interação] Digitar endereço de e-mail"]
+    Sub2_Op{"|||"}
+    Sub2_2["[Interação] Selecionar UF e região pretendida<br>(NÃO SUPORTADA)"]
+    Sub2_Op2{"|||"}
+    Sub2_3["[Interação] Filtrar carreira e escolaridade<br>(NÃO SUPORTADA)"]
+    Sub2_Op3{">>"}
+    Sub2_4["[Interação] Clicar no botão 'Cadastrar' / 'Receber'"]
+    Sub2 --> Sub2_1
+    Sub2 --> Sub2_Op
+    Sub2 --> Sub2_2
+    Sub2 --> Sub2_Op2
+    Sub2 --> Sub2_3
+    Sub2 --> Sub2_Op3
+    Sub2 --> Sub2_4
+
+    %% Decomposição de Sub5
+    Sub5_1["[Usuário] Triar manualmente editais de interesse no boletim"]
+    Sub5_Op{"[]"}
+    Sub5_2["[Interação] Clicar em link de descadastramento total (opt-out)"]
+    Sub5_Op2{"[]"}
+    Sub5_3["[Interação] Personalizar frequência e pausar envios<br>(NÃO SUPORTADA)"]
+    Sub5 --> Sub5_1
+    Sub5 --> Sub5_Op
+    Sub5 --> Sub5_2
+    Sub5 --> Sub5_Op2
+    Sub5 --> Sub5_3
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+#### Tabela de Especificação dos Nós e Operadores da Tarefa 08
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Especificação Formal dos Nós CTT da Tarefa 08</b></p>
+
+| Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
+| :--- | :---: | :---: | :--- |
+| **Cadastrar e configurar alertas de vagas por e-mail** | Abstrata | - | Tarefa raiz que engloba a localização do formulário, o fornecimento de dados, a gravação pelo sistema e a gestão posterior das mensagens recebidas. |
+| **Localizar formulário de cadastro no portal** | Interação | `>>` | O usuário percorre visualmente a página inicial ou rodapé até encontrar o bloco de inscrição de newsletter. |
+| **Parametrização e inserção de dados** | Abstrata | `[]>>` | Nó de composição que reúne a digitação do contato e as configurações de segmentação, transferindo os dados para validação. |
+| **Digitar endereço de e-mail** | Interação | `\|\|\|` | Ação física de digitação do endereço eletrônico pessoal no campo de entrada de texto. |
+| **Selecionar UF e região pretendida** | Interação | `\|\|\|` | **Tarefa pretendida pelo usuário e não suportada.** A interface não oferece caixas de seleção ou filtros para delimitar avisos apenas ao DF e Goiás. |
+| **Filtrar carreira e escolaridade** | Interação | `>>` | **Tarefa pretendida e não suportada.** O sistema não permite selecionar categorias funcionais (ex.: Tribunais, Administrativa) nem escolaridade (Superior). |
+| **Clicar no botão 'Cadastrar' / 'Receber'** | Interação | `>>` | Disparo físico do envio dos dados preenchidos no formulário para os servidores do portal. |
+| **Processar requisição e registrar inscrição** | Sistema | `>>` | O servidor valida a sintaxe do e-mail, insere o endereço na lista de destinatários da newsletter e exibe confirmação na tela. |
+| **Enviar boletim periódico à caixa postal** | Sistema | `[]>>` | Disparo assíncrono automatizado de mensagens diárias contendo o apanhado massivo de editais publicados no território nacional. |
+| **Triagem do boletim ou cancelamento da assinatura** | Abstrata | — | Nó que expressa o dilema do usuário perante a infoxicação gerada pela ausência de segmentação. |
+| **Triar manualmente editais de interesse no boletim** | Usuário | `[]` | Esforço cognitivo exaustivo de varredura visual de dezenas de certames irrelevantes na mensagem em busca de vagas locais. |
+| **Clicar em link de descadastramento total (opt-out)** | Interação | `[]` | Acionamento do link miúdo de cancelamento definitivo no rodapé do e-mail perante a saturação de mensagens genéricas. |
+| **Personalizar frequência e pausar envios** | Interação | — | **Tarefa esperada e inexistente.** O usuário não dispõe de painel para espaçar envios (semanal) ou suspender temporariamente a assinatura. |
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+---
+
+## 7. Estrutura para Modelagem das Tarefas 09 e 10 (João Vitor Sales Ibiapina)
+
+As Tarefas 09 e 10 serão modeladas na sequência pelo integrante responsável, mantendo a notação rigorosa de ConcurTaskTrees (Paternò, 1999) e detalhando a interação humano-máquina:
+
+* **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem de varredura de tabelas de vagas de PcD (TAR-09) e acompanhamento de editais de resultado definitivo (TAR-10).
+
+---
+
+## 8. Bibliografia
 
 > BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
 > MORI, Giulio; PATERNÒ, Fabio; SANTORO, Carmen. *CTTE: Support for Developing and Analyzing Task Models for Interactive System Design*. IEEE Transactions on Software Engineering, v. 28, n. 8, p. 797-813, 2002.  
 > NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
 > PATERNÒ, Fabio. *Model-Based Design and Evaluation of Human-Computer Interfaces*. London: Springer-Verlag, 1999.
 
-## 8. Histórico de Versões
+## 9. Histórico de Versões
 
 <div align="center" markdown="1">
 
@@ -664,5 +908,6 @@ As Tarefas 05 a 10 seguirão o padrão rigoroso estabelecido nas seções anteri
 | `1.0` | 21/09/2026 | Fundamentação de CTT (Paternò; Barbosa & Silva), taxonomia de tarefas e operadores temporais, matriz das 10 tarefas, modelagem formal completa das Tarefas 01 e 02 (diagramas e tabelas de nós). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 27/09/2026 | Inclusão da modelagem CTT completa das Tarefas 03 e 04 (árvores de tarefas e especificações de nós formais) baseadas na Análise Documental (DOC-02) e persona Lucas Ferreira Rocha. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.2` | 27/09/2026 | Modelagem CTT completa das Tarefas 05 e 06 (Figuras 5 e 6, Tabelas 7 e 8), com formalização do ciclo iterativo de respostas, da suspensão não recuperável por perda de conexão e do padrão de tentativa e abandono da TAR-06 pelo operador de desativação. | Arthur Sismene Carvalho | Daniel da Silva Batista |
+| `1.3` | 28/09/2026 | Modelagem CTT completa das Tarefas 07 e 08 (Figuras 7 e 8, Tabelas 9 e 10), formalizando ciclo audiovisual em viewport móvel e disparo assíncrono de alertas de vagas, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>

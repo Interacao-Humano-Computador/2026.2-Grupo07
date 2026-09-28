@@ -7,7 +7,7 @@
 | Daniel da Silva Batista | Fundamentação teórica de HTA (Annett & Duncan, 1967; Barbosa e Silva, 2010), estruturação da matriz de tarefas, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão da decomposição funcional e modelagem HTA integral das Tarefas 05 e 06 (diagramas e tabelas analíticas), incluindo a caracterização da TAR-06 como tarefa não suportada e o levantamento da colisão terminológica de "estágio". |
 | João Vitor Sales Ibiapina | Revisão da decomposição hierárquica e estruturação das Tarefas 09 e 10. |
-| Leonardo da Silva Lopes Júnior | Revisão das operações e planos condicionais das Tarefas 07 e 08. |
+| Leonardo da Silva Lopes Júnior | Modelagem formal completa em HTA (diagramas de decomposição e tabelas analíticas com problemas e recomendações de usabilidade) das Tarefas 07 e 08, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). |
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em HTA (diagramas e tabelas analíticas com problemas e recomendações) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas HTA em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
@@ -579,16 +579,220 @@ flowchart TD
 
 ---
 
-## 6. Estrutura para Validação das Tarefas 07 a 10 pelos Demais Integrantes
+## 6. Modelagem Detalhada das Tarefas (Leonardo da Silva Lopes Júnior)
 
-As demais tarefas modeladas pela equipe seguirão exatamente a mesma notação formal (diagrama Mermaid decomposto + tabela analítica de problemas e recomendações), integrando os achados empíricos das entrevistas gravadas:
+### 6.1 Tarefa 07: Acessar videoaulas e dicas didáticas de disciplinas (TAR-07)
 
-* **Tarefas 07 e 08 (Leonardo da Silva Lopes Júnior):** Modelagem do acesso a módulos audiovisuais de disciplinas e submissão de cadastro em mala direta/newsletter de editais.
-* **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem da checagem de vagas reservadas a PcD/idosos e conferência de portarias de nomeação.
+A Tarefa 07 investiga a navegação, seleção e consumo de conteúdos audiovisuais pedagógicos oferecidos pelo portal PCI Concursos. Esta tarefa é centrada nas demandas da persona primária **Renata Cristina Freitas (`PER-04`)**, concurseira em dupla jornada (trabalho CLT e estudos) que dispõe de janelas curtas de tempo — como intervalos de almoço e deslocamentos — para realizar sessões de microaprendizagem no smartphone. A modelagem fundamenta-se nos dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior), apoiada nas pesquisas do Censo EAD.BR (ABED, 2024) e da TIC Domicílios (Cetic.br, 2024), que evidenciam o crescimento do consumo de videoaulas em telas móveis e sob conexões celulares 4G/5G.
+
+A decomposição hierárquica da Tarefa 07 é ilustrada na Figura 7, e sua análise crítica de operações, problemas e recomendações é consolidada na Tabela 8.
+
+#### Diagrama de Decomposição HTA (Figura 7)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 7:</b> Diagrama HTA da Tarefa 07 - Acessar videoaulas e dicas didáticas</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    T0["0. Acessar videoaulas e dicas didáticas de disciplinas<br><i>Plano 0: 1 depois 2 depois 3; se ruído/deslocamento, fazer 4; se buscar material escrito, tentar 5</i>"]
+
+    T1["1. Navegar até a seção de Videoaulas no portal<br><i>Plano 1: 1.1 e 1.2</i>"]
+    T11["1.1 Localizar o item 'Aulas' no menu de navegação"]
+    T12["1.2 Carregar a página do repositório de aulas"]
+
+    T2["2. Selecionar a disciplina e assunto de estudo<br><i>Plano 2: 2.1 depois 2.2; 2.3 indisponível</i>"]
+    T21["2.1 Escolher a disciplina básica pretendida (ex.: Direito Constitucional)"]
+    T22["2.2 Rolar a listagem e escolher a videoaula temática"]
+    T23["2.3 Filtrar por tópico específico via busca interna<br>(NÃO SUPORTADO)"]
+
+    T3["3. Reproduzir e controlar a videoaula<br><i>Plano 3: 3.1 depois 3.2 e 3.3</i>"]
+    T31["3.1 Acionar o reprodutor de vídeo embutido (YouTube)"]
+    T32["3.2 Rotacionar para modo paisagem (mobile) ou expandir tela cheia"]
+    T33["3.3 Ajustar parâmetros de reprodução (velocidade 1.25x/1.5x e qualidade)"]
+
+    T4["4. Adequar consumo ao ambiente e ruído externo<br><i>Plano 4: 4.1 ou 4.2</i>"]
+    T41["4.1 Conectar fones de ouvido e regular volume"]
+    T42["4.2 Ativar legendas do player para mitigar ruídos"]
+
+    T5["5. Obter material complementar e trilha de continuidade<br><i>Plano 5: 5.1 e 5.2 indisponíveis</i>"]
+    T51["5.1 Baixar resumo esquemático ou slides em PDF da aula<br>(NÃO SUPORTADO)"]
+    T52["5.2 Avançar para a próxima aula da trilha pedagógica<br>(NÃO SUPORTADO)"]
+
+    T0 --> T1
+    T0 --> T2
+    T0 --> T3
+    T0 --> T4
+    T0 --> T5
+
+    T1 --> T11
+    T1 --> T12
+
+    T2 --> T21
+    T2 --> T22
+    T2 --> T23
+
+    T3 --> T31
+    T3 --> T32
+    T3 --> T33
+
+    T4 --> T41
+    T4 --> T42
+
+    T5 --> T51
+    T5 --> T52
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+#### Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Análise HTA da Tarefa 07</b></p>
+
+| Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
+| :--- | :--- | :--- | :--- |
+| **0. Acessar videoaulas e dicas didáticas de disciplinas** | **Plano 0:** Executar 1, 2 e 3 em sequência. Em contextos ruidosos ou mobile, executar 4. Caso o estudante busque aprofundamento ou progressão didática contínua, tentar 5. | **Ausência de trilha pedagógica estruturada:** o sistema exibe vídeos como elementos soltos em repositório plano, sem indicação de sequência lógica, pré-requisitos, profundidade ou aderência a editais específicos. | Reestruturar a seção sob a forma de "Trilhas de Aprendizagem por Carreira e Disciplina" com indicador de progresso cumulativo (`RF-DOC-05`). |
+| **1. Navegar até a seção de Videoaulas no portal** | **Plano 1:** Executar 1.1 e 1.2. | O rótulo "Aulas" compete indistintamente com outros quatorze itens no menu geral, carecendo de agrupamento semântico voltado a recursos de preparação teórica. | Agrupar as ferramentas pedagógicas (Aulas, Simulados, Provas) sob cabeçalho destacado de "Preparação e Estudos". |
+| **1.1 Localizar item 'Aulas' no menu** | Ação visual | Em visualização móvel, o menu exige rolagem vertical longa e disputa visibilidade com banners flutuantes de anúncios publicitários. | Implementar barra de atalhos rápidos fixada no rodapé da visualização mobile com ícone de reprodução de vídeo e tamanho de toque acessível (WCAG 2.1). |
+| **1.2 Carregar página do repositório** | Tarefa de sistema | A página carrega dezenas de scripts de rastreamento e múltiplos contêineres de vídeo simultaneamente, retardando o carregamento em redes móveis (4G/3G). | Aplicar carregamento postergado (*lazy loading*) em todos os iframes e contêineres de mídia externa (`RNF-DOC-04`). |
+| **2. Selecionar disciplina e assunto de estudo** | **Plano 2:** Executar 2.1 e 2.2. A operação 2.3 é pretendida pelo usuário, mas **não é suportada pelo portal**. | A seleção limita-se a clicar em uma matéria geral (ex.: Direito Constitucional); a listagem resultante é puramente cronológica e não oferece filtro temático por tópicos do edital (ex.: "Artigo 5º", "Direitos Sociais"). | Incorporar filtro temático facetado por matéria, tópico de edital, banca examinadora e professor responsável. |
+| **2.1 Escolher disciplina pretendida** | Ação física | A lista de matérias não informa a quantidade de aulas disponíveis nem a data da última atualização do conteúdo. | Exibir badges informativos junto ao nome da disciplina (ex.: *"Direito Constitucional - 18 aulas atualizadas em 2026"*). |
+| **2.2 Rolar listagem e escolher videoaula** | Operação cognitiva | Cards de vídeo com títulos longos truncados, miniaturas genéricas sem padronização visual e ausência de indicação do tempo de duração do vídeo. | Padronizar os cards com título completo, miniatura nítida com logo da disciplina, minutagem explícita (ex.: *"12 min"*) e nível (básico/intermediário). |
+| **2.3 Filtrar por tópico específico via busca interna** | **Operação não suportada** | Inexistência de pesquisa textual interna no acervo de aulas; o estudante é forçado a uma varredura visual exaustiva em tela de smartphone. | Implementar campo de busca textual instantânea com suporte a palavras-chave de editais (`RF-DOC-05`). |
+| **3. Reproduzir e controlar a videoaula** | **Plano 3:** Executar 3.1, 3.2 e 3.3. | Poluição publicitária invasiva: anúncios gráficos piscantes circundam o player de vídeo, competindo intensamente pela atenção do usuário durante a explicação teórica. | Criar "Modo Foco / Cinema" que esmaeça a interface periférica e oculte publicidade durante a reprodução da aula. |
+| **3.1 Acionar reprodutor de vídeo embutido** | Ação física | O iframe do player (YouTube) concorre com scripts de sobreposição da página, podendo registrar toques acidentais em áreas promocionais externas. | Isolar o contêiner do player em camada de z-index protegida, prevenindo cliques acidentais fora do controle de mídia. |
+| **3.2 Rotacionar para modo paisagem** | Ação física | **Falha de responsividade em smartphones:** ao girar o aparelho para a horizontal, elementos publicitários sobrepõem-se à barra de rolagem e aos controles de tempo do player. | Ajustar regras de responsividade CSS (`@media landscape`) para expandir o reprodutor para 100% da viewport em modo horizontal. |
+| **3.3 Ajustar parâmetros de reprodução** | Ação física | O ajuste de velocidade (1.25x/1.5x) e resolução gráfica é de difícil acionamento em telas touch de dimensões reduzidas devido ao tamanho minúsculo do ícone de engrenagem nativo do iframe. | Exibir controles complementares nativos na própria página do portal para velocidade de reprodução rápida e alternância de qualidade (`RNF-DOC-04`). |
+| **4. Adequar consumo ao ambiente e ruído** | **Plano 4:** Executar 4.1 ou 4.2 dependendo das condições do local de estudo. | Limitação de acessibilidade auditiva: ausência de legendas próprias revisadas; o usuário depende da transcrição automática do YouTube, que comete erros frequentes em vocabulário jurídico e termos formais. | Disponibilizar legendas revisadas por humanos e transcrição textual completa sincronizada com o vídeo (WCAG 2.1, Critério 1.2.2). |
+| **4.1 Conectar fones e regular volume** | Ação física | Volume das gravações despadronizado entre diferentes disciplinas e professores, provocando saltos bruscos de pressão sonora. | Aplicar normalização de áudio em decibéis (padrão EBU R128) nas faixas de áudio das aulas hospedadas. |
+| **4.2 Ativar legendas do player** | Ação física | Botão de legendas do iframe fica oculto em telas menores de 5.5 polegadas ou sob corte de janela responsiva. | Exibir botão dedicado e destacado "Ativar Legendas" na barra de controle personalizada do portal. |
+| **5. Obter material complementar e trilha** | **Plano 5:** Ambas as operações 5.1 e 5.2 são pretendidas pelo estudante em rotina de concurso, mas **não são suportadas pelo sistema**. | Ao término do vídeo, a experiência encerra-se abruptamente com sugestões genéricas de terceiros geradas pelo algoritmo do YouTube, sem material em PDF de suporte nem continuidade pedagógica. | Integrar botão de download de resumo em PDF e navegação direta para a próxima aula da trilha temática (`RF-DOC-05`). |
+| **5.1 Baixar resumo esquemático em PDF** | **Operação não suportada** | A indisponibilidade de materiais de apoio escritos impossibilita a revisão offline rápida em intervalos de trabalho ou viagens sem internet. | Associar a cada aula um anexo oficial para download direto com slides, esquema teórico e questões de fixação resolvidas. |
+| **5.2 Avançar para a próxima aula da trilha** | **Operação não suportada** | O estudante é forçado a fechar a página, retornar à listagem geral e buscar visualmente a sequência temática do curso. | Inserir botões sequenciais *"Aula Anterior"* e *"Próxima Aula"* com histórico persistente de aulas já concluídas. |
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
 
 ---
 
-## 7. Bibliografia
+### 6.2 Tarefa 08: Cadastrar e configurar recebimento de alertas de vagas por e-mail (TAR-08)
+
+A Tarefa 08 compreende o processo de assinatura, parametrização e recebimento de boletins informativos de novos certames e editais publicados. A tarefa responde diretamente à rotina da persona **Renata Cristina Freitas (`PER-04`)**, que, em virtude da jornada de trabalho integral de 44 horas semanais, necessita de mecanismos assíncronos e automatizados para não perder prazos de abertura de inscrições no Distrito Federal e entorno imediato. Os dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) corroboram que o e-mail segue sendo um dos canais corporativos e individuais de maior adesão no Brasil, tornando o serviço de newsletter uma ferramenta crítica para retenção e satisfação dos concurseiros ativos.
+
+A decomposição hierárquica da Tarefa 08 é ilustrada na Figura 8, e a análise detalhada de seus gargalos e recomendações de design é apresentada na Tabela 9.
+
+#### Diagrama de Decomposição HTA (Figura 8)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 8:</b> Diagrama HTA da Tarefa 08 - Cadastrar e configurar recebimento de alertas de vagas por e-mail</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    T0["0. Cadastrar e configurar recebimento de alertas de vagas por e-mail<br><i>Plano 0: 1 depois 2 depois 3; depois 4; se insatisfação com volume, executar 5</i>"]
+
+    T1["1. Localizar o formulário de cadastro de alertas no portal<br><i>Plano 1: 1.1 depois 1.2</i>"]
+    T11["1.1 Percorrer a página inicial ou rodapé em busca do módulo de alertas"]
+    T12["1.2 Identificar a caixa de captura de e-mail / newsletter"]
+
+    T2["2. Configurar preferências e critérios de notificação<br><i>Plano 2: 2.1; 2.2 e 2.3 indisponíveis</i>"]
+    T21["2.1 Inserir endereço de e-mail válido no campo"]
+    T22["2.2 Segmentar alertas por região geográfica / UF<br>(NÃO SUPORTADO)"]
+    T23["2.3 Segmentar alertas por escolaridade ou carreira<br>(NÃO SUPORTADO)"]
+
+    T3["3. Submeter formulário e verificar confirmação imediata<br><i>Plano 3: 3.1 depois 3.2</i>"]
+    T31["3.1 Clicar no botão 'Cadastrar' / 'Receber'"]
+    T32["3.2 Avaliar mensagem de feedback do sistema na tela"]
+
+    T4["4. Acessar caixa de entrada e validar recebimento do boletim<br><i>Plano 4: 4.1 depois 4.2</i>"]
+    T41["4.1 Abrir provedor de correio eletrônico"]
+    T42["4.2 Identificar boletim massivo e triar editais pertinentes manualmente"]
+
+    T5["5. Gerenciar preferências ou descadastrar alertas<br><i>Plano 5: 5.1; 5.2 indisponível</i>"]
+    T51["5.1 Clicar em link de cancelamento total (opt-out irrestrito)"]
+    T52["5.2 Ajustar frequência de envio ou filtrar tópicos no e-mail<br>(NÃO SUPORTADO)"]
+
+    T0 --> T1
+    T0 --> T2
+    T0 --> T3
+    T0 --> T4
+    T0 --> T5
+
+    T1 --> T11
+    T1 --> T12
+
+    T2 --> T21
+    T2 --> T22
+    T2 --> T23
+
+    T3 --> T31
+    T3 --> T32
+
+    T4 --> T41
+    T4 --> T42
+
+    T5 --> T51
+    T5 --> T52
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+#### Tabela HTA: Objetivos, Operações, Problemas e Recomendações
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Análise HTA da Tarefa 08</b></p>
+
+| Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
+| :--- | :--- | :--- | :--- |
+| **0. Cadastrar e configurar recebimento de alertas de vagas por e-mail** | **Plano 0:** Executar 1, 2 e 3 em sequência. Conferir recebimento em 4. Em caso de insatisfação por volume desordenado, executar 5. | **Sobrecarga informativa (infoxicação):** o sistema oferece apenas uma captura universal e indiscriminada, disparando boletins diários densos com centenas de concursos de todo o Brasil, gerando frustração em concurseiros focados em seleções locais ou cargos específicos. | Converter o formulário em uma "Central de Alertas Personalizados de Vagas", permitindo seleção por UF, nível de escolaridade e carreira pretendida (`RF-DOC-06`). |
+| **1. Localizar formulário de cadastro de alertas** | **Plano 1:** Executar 1.1 e 1.2. | O bloco de cadastro de newsletter não possui posição fixa nem destaque visual de peso, situando-se próximo ao rodapé em meio a propagandas contextuais. | Posicionar o componente de assinatura com contraste visual suave no topo ou na barra lateral de serviços, sob o título claro *"Alertas de Concursos por E-mail"*. |
+| **1.1 Percorrer página em busca do módulo** | Ação visual | Confusão perceptual: usuários confundem o campo de newsletter com a caixa de pesquisa do site devido à similaridade de estilo visual. | Adicionar ícone universal de envelope e rotular explicitamente o campo como *"Digite seu e-mail para receber vagas"*. |
+| **1.2 Identificar a caixa de captura** | Operação cognitiva | **Conformidade com a LGPD e privacidade:** ausência de indicação explícita sobre a finalidade de uso do endereço eletrônico e inexistência de termo de consentimento prévio. | Incluir caixa de consentimento informada (opt-in explícito) com link direto para a Política de Privacidade e Proteção de Dados (`RNF-DOC-05`). |
+| **2. Configurar preferências de notificação** | **Plano 2:** Executar 2.1. As operações 2.2 e 2.3 são objetivos centrais do usuário, mas **não são suportadas pelo sistema**. | O formulário aceita unicamente o endereço de e-mail, sem possibilitar nenhum tipo de parametrização geográfica, de remuneração ou de formação acadêmica. | Adicionar seletores dinâmicos de preferências: Unidade Federativa (UF), Nível de Escolaridade (Médio/Técnico/Superior) e Carreira (Jurídica, Fiscal, Administrativa, etc.) (`RF-DOC-06`). |
+| **2.1 Inserir e-mail válido** | Ação física | O campo não executa validação sintática imediata em tempo real (*client-side*), permitindo submeter e-mails incompletos ou com erros tipográficos óbvios (ex.: falta de `@` ou domínio incorreto). | Implementar validação imediata no navegador via HTML5 (`type="email"`) e regex com mensagem de ajuda explicativa. |
+| **2.2 Segmentar alertas por região/UF** | **Operação não suportada** | Usuários residentes no Distrito Federal recebem compulsivamente vagas de conselhos municipais de regiões distantes sem qualquer relevância para seu perfil. | Tornar a seleção de estado/UF um parâmetro configurável obrigatório ou opcional na inscrição (`RF-DOC-06`). |
+| **2.3 Segmentar alertas por escolaridade ou carreira** | **Operação não suportada** | Concurseiros com nível superior em Direito/Administração recebem alertas de cargos operacionais elementares, elevando o ruído cognitivo. | Permitir a seleção múltipla de áreas profissionais desejadas para entrega de conteúdo sob medida (`RF-DOC-06`). |
+| **3. Submeter formulário e verificar confirmação** | **Plano 3:** Executar 3.1 e 3.2. | Feedback visual precário e frágil: a confirmação é exibida como uma simples linha de texto cinza, sem confirmação segura em duas etapas (*double opt-in*). | Adicionar modal comemorativo de cadastro e implementar fluxo seguro de confirmação por e-mail (*double opt-in* com link de validação). |
+| **3.1 Clicar em 'Cadastrar' / 'Receber'** | Ação física | O botão não exibe estado de carregamento (*loading spinner*), levando o usuário a múltiplos cliques na incerteza de envio. | Adicionar animação de carregamento e desabilitar o botão temporariamente após o primeiro acionamento. |
+| **3.2 Avaliar mensagem de feedback** | Operação cognitiva | O usuário não é orientado sobre a periodicidade das mensagens (diária, semanal) nem sobre quando receberá a primeira edição. | Comunicar com precisão: *"Cadastro confirmado! Você receberá nosso boletim diário às 07h da manhã com as vagas selecionadas"*. |
+| **4. Acessar caixa de entrada e validar boletim** | **Plano 4:** Executar 4.1 e 4.2. | O e-mail recebido consiste em uma listagem longa e corrida em texto quase puro, sem hierarquia visual, sem sumário de destaques e sem formatação responsiva para leitura rápida em celulares. | Desenhar template HTML moderno de e-mail com cartões estruturados (Órgão, Vagas, Salário, Prazo Final) e destaques de editais do DF no topo. |
+| **4.1 Abrir provedor de correio eletrônico** | Ação física | Risco de desvio das mensagens para a pasta de Spam ou Lixo Eletrônico devido à ausência de orientações de inclusão do remetente na lista de confiáveis. | Orientar o usuário na mensagem de confirmação: *"Adicione nosso remetente aos seus contatos para garantir a entrega"*. |
+| **4.2 Triar editais pertinentes no boletim** | Operação cognitiva | **Custo cognitivo severo de triagem:** o usuário é obrigado a ler linha a linha de uma mensagem extensa para verificar se há alguma vaga em sua cidade. | Organizar o conteúdo do boletim com seções bem demarcadas por estado e links diretos para a página de inscrição oficial. |
+| **5. Gerenciar preferências ou descadastrar** | **Plano 5:** Executar 5.1. A operação 5.2 não é suportada pelo sistema. | **Políticas de saída restritivas:** o e-mail não permite pausar envios nem ajustar a frequência (ex.: migrar de diário para semanal), oferecendo apenas o cancelamento total e definitivo. | Implementar central do assinante com opções de pausar envio por 30 dias, alternar para resumo semanal ou trocar as áreas de interesse (`RF-DOC-07`). |
+| **5.1 Clicar em link de cancelamento total** | Ação física | O link de cancelamento é apresentado em fonte minúscula (8px) no rodapé do e-mail, contrariando boas práticas de usabilidade e diretrizes de descadastramento rápido. | Disponibilizar botão claro e visível de descadastramento com um único clique (*one-click unsubscribe*, padrão RFC 8058). |
+| **5.2 Ajustar frequência de envio** | **Operação não suportada** | Inexistência de seletor de periodicidade; concurseiros com caixas postais lotadas não conseguem receber resumos consolidados aos finais de semana. | Oferecer opção de escolha: Diário, Semanal (às sextas-feiras) ou Apenas Grandes Editais (`RF-DOC-07`). |
+
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+---
+
+## 7. Estrutura para Validação das Tarefas 09 e 10 (João Vitor Sales Ibiapina)
+
+As demais tarefas modeladas pela equipe seguirão a mesma notação formal (diagrama Mermaid decomposto + tabela analítica de problemas e recomendações), sob responsabilidade de João Vitor Sales Ibiapina:
+
+* **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem da checagem de vagas reservadas a PcD/idosos (TAR-09) e conferência de portarias de homologação e nomeação (TAR-10).
+
+---
+
+## 8. Bibliografia
 
 > ANNETT, John; DUNCAN, Keith D. *Task Analysis and Training Design*. Journal of Occupational Psychology, v. 41, p. 211-221, 1967.  
 > BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
@@ -596,7 +800,7 @@ As demais tarefas modeladas pela equipe seguirão exatamente a mesma notação f
 > NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
 > W3C. *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium, 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>.
 
-## 8. Histórico de Versões
+## 9. Histórico de Versões
 
 <div align="center" markdown="1">
 
@@ -605,5 +809,6 @@ As demais tarefas modeladas pela equipe seguirão exatamente a mesma notação f
 | `1.0` | 21/09/2026 | Fundamentação de HTA (Annett & Duncan; Barbosa & Silva), matriz das 10 tarefas, modelagem completa das Tarefas 01 e 02 (diagramas Mermaid e tabelas com problemas/recomendações). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 27/09/2026 | Inclusão da modelagem HTA completa das Tarefas 03 e 04 (diagramas Mermaid e tabelas com problemas e recomendações ergonômicas) baseadas na Análise Documental (DOC-02) e persona Lucas Ferreira Rocha. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.2` | 27/09/2026 | Modelagem HTA completa das Tarefas 05 e 06 (Figuras 5 e 6, Tabelas 6 e 7), com registro da TAR-06 como tarefa não suportada pelo sistema, identificação da colisão terminológica "estágio/estágio probatório" e inclusão das referências Nielsen (1993) e WCAG 2.1. | Arthur Sismene Carvalho | Daniel da Silva Batista |
+| `1.3` | 28/09/2026 | Modelagem HTA completa das Tarefas 07 e 08 (Figuras 7 e 8, Tabelas 8 e 9), detalhando consumo de videoaulas sob restrição móvel e formulário de alertas de vagas, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>
