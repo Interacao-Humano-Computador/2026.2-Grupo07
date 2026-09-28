@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | Daniel da Silva Batista | Fundamentação teórica (Cooper, 1999; Barbosa e Silva, 2010), estruturação da metodologia de personas, modelagem empírica e validação da Persona 1 (Maria Helena dos Santos) via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização do elenco para a equipe. |
-| Arthur Sismene Carvalho | Revisão do elenco de personas e planejamento da modelagem individual. |
+| Arthur Sismene Carvalho | Revisão do elenco de personas e modelagem integral da Persona 3 (Thiago Moraes Albuquerque), fundamentada nos dados documentais consolidados em `DOC-03`. |
 | João Vitor Sales Ibiapina | Revisão das diretrizes do elenco e preparação para a modelagem da persona individual. |
 | Leonardo da Silva Lopes Júnior | Revisão metodológica das diretrizes de personas segundo Barbosa e Silva (2010). |
 | Pedro Rocha Ferreira Lima | Definição dos critérios de priorização das personas, modelagem empírica da Persona 2 (Lucas Ferreira Rocha) fundamentada em DOC-02 e revisão técnica geral. |
@@ -49,7 +49,7 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 | :---: | :---: | :--- | :---: | :--- |
 | **PER-01** | Primária | Maria Helena dos Santos | Perfil 2: Concurseiro Ativo / Adulto e Maduro | Daniel da Silva Batista |
 | **PER-02** | Secundária | Lucas Ferreira Rocha | Perfil 1: Estudante Universitário / Iniciante e Recém-formado | Pedro Rocha Ferreira Lima |
-| **PER-03** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | Arthur Sismene Carvalho |
+| **PER-03** | Primária | Thiago Moraes Albuquerque | Perfil 1: Estudante Universitário / Iniciante | Arthur Sismene Carvalho |
 | **PER-04** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | Leonardo da Silva Lopes Júnior |
 | **PER-05** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | João Vitor Sales Ibiapina |
 
@@ -141,9 +141,48 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 
 ---
 
-### 4.3 Persona 3 — *Responsável: Arthur Sismene Carvalho*
+### 4.3 Persona 3 — Thiago Moraes Albuquerque (*Responsável: Arthur Sismene Carvalho*)
 
-> *Seção reservada para a modelagem individual da persona pelo integrante Arthur Sismene Carvalho, a ser elaborada com base nos dados empíricos de sua respectiva entrevista gravada.*
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 4: Ficha de Caracterização da Persona 3 (Thiago Moraes Albuquerque)</b></p>
+
+| Atributo | Detalhamento da Persona |
+| :--- | :--- |
+| **Nome Completo** | Thiago Moraes Albuquerque |
+| **Idade / Gênero** | 21 anos | Masculino |
+| **Escolaridade** | Ensino Superior Incompleto (5º semestre de Administração, curso noturno em instituição privada) |
+| **Ocupação Atual** | Estudante; complementa a renda com trabalho intermitente de meio período no comércio |
+| **Localização** | Ceilândia, Distrito Federal (DF) — desloca-se diariamente cerca de 1h30 até o campus |
+| **Classificação** | **Persona Primária** (Representante do Perfil 1: Estudante Universitário / Iniciante) |
+| **Dispositivos Utilizados** | Smartphone Android intermediário como dispositivo principal, com plano de dados limitado; notebook compartilhado com a família, disponível apenas nos fins de semana |
+| **Frequência de Acesso** | Irregular e em rajadas (2 a 3 vezes por semana), concentrada nos deslocamentos de ônibus e nos intervalos entre aulas |
+| **Citação Típica** | *"Eu tenho quarenta minutos de ônibus todo dia, dava pra matar umas dez questões nesse tempo. Mas no celular eu erro de clicar, perco o que respondi e no final nem sei quantas acertei."* |
+| **Base Empírica de Validação** | Modelada a partir dos dados secundários consolidados na [Análise Documental DOC-03](perfil-de-usuario.md#53-analise-documental-03-responsavel-arthur-sismene-carvalho) (INEP, ABRES e IBGE). *A sessão `USR-03` não foi realizada e o respectivo vídeo não está disponível; a modelagem apoia-se exclusivamente em dados documentais secundários.* |
+
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+#### 4.3.1 Objetivos e Motivações no Sistema
+
+* **Conquistar o Primeiro Vínculo Formal:** Thiago precisa cumprir o estágio obrigatório previsto na matriz curricular do curso e enxerga o setor público como destino desejável pela previsibilidade de horário, o que lhe permitiria conciliar trabalho e aulas noturnas. Sua motivação é reforçada pelo contexto documentado em `DOC-03`: a desocupação de aproximadamente 14% na faixa de 18 a 24 anos e a informalidade superior a 45% tornam o estágio a via mais concreta de entrada qualificada no mercado.
+* **Aproveitar Janelas Curtas de Tempo Morto para Estudar:** Diferentemente do concurseiro com rotina estruturada de estudos, Thiago não dispõe de blocos longos e contínuos. Sua estratégia é fragmentar o estudo em sessões de 10 a 40 minutos durante os deslocamentos, resolvendo questões objetivas pelo celular — comportamento coerente com a consolidação do estudo mediado por tela apontada pelo Censo da Educação Superior, em que a modalidade a distância já responde por 50,7% das matrículas.
+* **Calibrar o Próprio Nível de Preparo:** Como iniciante no domínio, Thiago ainda não sabe dimensionar a distância entre seu conhecimento atual e a exigência real das bancas. Recorre aos simulados menos para revisar conteúdo e mais para obter um **diagnóstico quantitativo** de desempenho que orientaria sua rotina de estudos.
+
+#### 4.3.2 Habilidades e Atitudes Frente à Tecnologia
+
+* **Perfil Tecnológico:** Nativo digital e tecnófilo. Opera múltiplas abas com desenvoltura, digita rapidamente em teclado virtual, reconhece padrões de interface consolidados em aplicativos e espera respostas imediatas do sistema. Domina plenamente o meio digital, mas desconhece o domínio de concursos.
+* **Baixa Tolerância a Atrito:** Sua fluência tecnológica se traduz em **impaciência**. Abandona fluxos que exijam mais de três ou quatro toques sem retorno visível de progresso e interpreta lentidão de carregamento como defeito do serviço, não como limitação da própria conexão.
+* **Restrição de Recurso, não de Habilidade:** A barreira de Thiago é material, e não cognitiva: plano de dados limitado, bateria disputada ao longo do dia, conexão 4G instável em trajeto e uso predominante do aparelho com uma única mão, em pé, em transporte coletivo em movimento.
+* **Desconhecimento do Vocabulário do Domínio:** Não distingue banca organizadora de órgão contratante, ignora o significado de retificação, homologação ou cadastro de reserva e, sobretudo, **desconhece que "estágio probatório" não se refere a estágio estudantil** — ambiguidade terminológica que o conduz a resultados de busca inteiramente irrelevantes.
+
+#### 4.3.3 Principais Dores e Frustrações com o PCI Concursos
+
+* **Ausência de Oferta para o seu Estágio de Carreira:** A dor mais severa de Thiago é de natureza funcional, e não estética: o portal simplesmente **não indexa vagas de estágio**. A seção "Vagas" lista exclusivamente cargos efetivos e nenhum dos itens do menu contempla estágio ou programas de ingresso, o que faz com que a principal necessidade do maior segmento estudantil do país — mais de 18 milhões de estudantes aptos e não colocados, segundo a ABRES — permaneça inteiramente desatendida.
+* **Simulado Desenhado para Desktop:** A seção de simulados apresenta uma árvore extensa de disciplinas e assuntos com milhares de questões cada (por exemplo, Direito Administrativo com mais de 7 mil questões), sem oferecer configuração de sessão por quantidade de questões nem cronômetro. No smartphone, as áreas de toque reduzidas e o deslocamento de layout provocado pelo carregamento tardio de anúncios resultam em marcação acidental de alternativas.
+* **Ausência de Retorno Consolidado de Desempenho:** Ao encerrar a sessão de questões, Thiago não recebe placar agregado de acertos, histórico de evolução ou comentário explicativo das questões erradas, o que frustra justamente o objetivo diagnóstico que o trouxe à ferramenta.
+* **Perda de Progresso por Instabilidade de Conexão:** Como estuda em trânsito, oscilações de sinal interrompem a sessão. Sem preservação automática do progresso, o trabalho já realizado é perdido — o que o desestimula a retomar a atividade em ocasiões subsequentes.
 
 ---
 
@@ -175,5 +214,6 @@ A Tabela 1 a seguir consolida a designação do elenco de personas por integrant
 | `1.1` | 21/09/2026 | Remoção da antipersona e ajuste do elenco para designação por membro, reservando as seções 4.2 a 4.5 para modelagem individual após entrevistas de campo. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.2` | 25/09/2026 | Vinculação empírica da Persona 1 (Maria Helena) com a entrevista individual gravada USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.3` | 27/09/2026 | Modelagem da Persona 2 (Lucas Ferreira Rocha) por Pedro Rocha Ferreira Lima fundamentada na Análise Documental DOC-02. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
+| `1.4` | 27/09/2026 | Modelagem integral da Persona 3 (Thiago Moraes Albuquerque), representante do Perfil 1, com ficha de caracterização, objetivos, atitudes tecnológicas e dores fundamentadas na análise documental DOC-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 
 </div>
