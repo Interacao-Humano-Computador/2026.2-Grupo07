@@ -9,7 +9,7 @@ Este projeto tem como objetivo a análise rigorosa, avaliação heurística, lev
 ### Navegação Rápida
 * **Etapa 1:** [Planejamento do Projeto](planejamento/planejamento-do-projeto.md) e [Site Escolhido](planejamento/site-escolhido.md)
 * **Etapa 2:** Análise de Requisitos (em desenvolvimento)
-* **Apresentações:** [Apresentação da Etapa 1](apresentacao/apresentacao-1.md)
+* **Verificação:** [Nosso Projeto](apresentacao/apresentacao-1.md), [Grupo 06](apresentacao/grupo-06.md) e [Grupo 08](apresentacao/grupo-08.md)
 
 ---
 
