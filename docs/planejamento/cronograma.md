@@ -118,7 +118,7 @@ Na Tabela 4, tem-se o registro do cronograma real de execução das atividades d
 | Análise Documental Individual DOC-03 (INEP, ABRES e IBGE) | Início: 27/09<br>Fim: 27/09 | Arthur Sismene Carvalho | Início: 27/09<br>Fim: 27/09 | Daniel da Silva Batista |
 | Modelagem da Persona PER-03 e dos Cenários CEN-05 e CEN-06 | Início: 27/09<br>Fim: 27/09 | Arthur Sismene Carvalho | Início: 27/09<br>Fim: 27/09 | Daniel da Silva Batista |
 | Modelagem HTA e CTT das Tarefas 05 e 06 | Início: 27/09<br>Fim: 27/09 | Arthur Sismene Carvalho | Início: 27/09<br>Fim: 27/09 | Daniel da Silva Batista |
-| Gravação da Avaliação do Grupo 08 | Início: 27/09<br>Fim: 27/09 | Arthur Sismene Carvalho | Início: 27/09<br>Fim: 27/09 | Daniel da Silva Batista |
+| Gravação da Verificação do Grupo 08 | Início: 27/09<br>Fim: 27/09 | Arthur Sismene Carvalho | Início: 27/09<br>Fim: 27/09 | Daniel da Silva Batista |
 | Condução das Entrevistas Individuais USR-03 a USR-05 | *Em andamento* | Arthur Sismene, João Vitor, Leonardo Lopes | A definir | Daniel da Silva Batista |
 | Preenchimento Individual de Personas, Cenários e Tarefas (Membros 4 e 5) | *Em andamento* | João Vitor, Leonardo Lopes | A definir | Daniel da Silva Batista |
 | Reunião de Alinhamento e Ata da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Todos os integrantes | Início: 27/09<br>Fim: 27/09 | Todos os integrantes |
