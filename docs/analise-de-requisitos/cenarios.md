@@ -4,14 +4,14 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Fundamentação teórica de cenários (Carroll, 2000; Barbosa e Silva, 2010), estruturação dos elementos formais, redação e validação empírica dos Cenários 01 e 02 via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização dos templates para a equipe. |
+| Daniel da Silva Batista | Fundamentação teórica de cenários (Carroll, 2000; Rosson & Carroll, 2002; Barbosa e Silva, 2010), explicitação da relação formal entre Personas e Cenários, estruturação dos elementos formais, redação e validação empírica dos Cenários 01 e 02 via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão conceitual dos elementos de cenário e redação integral dos Cenários 05 e 06, incluindo a modelagem do cenário de tarefa não suportada (CEN-06). |
 | João Vitor Sales Ibiapina | Revisão da matriz de cenários e estruturação dos Cenários 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Redação, contextualização e detalhamento narrativo integral dos Cenários 07 (videoaulas) e 08 (alertas de vagas por e-mail), fundamentados na persona Renata Cristina Freitas (PER-04) e na análise documental DOC-04. |
 | Pedro Rocha Ferreira Lima | Definição dos objetivos de busca regional, redação e fundamentação detalhada dos Cenários 03 e 04 com base em DOC-02 e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -19,13 +19,13 @@
 
 ## 1. Introdução
 
-Na Engenharia de Requisitos e no Design de Interação, os **Cenários** constituem narrativas contextuais concretas que descrevem o comportamento de um usuário durante a realização de uma ou mais atividades com o apoio de um sistema interativo (Barbosa e Silva, 2010). Fundamentada nos trabalhos seminais de John Carroll (2000), a técnica de design baseado em cenários permite que a equipe compreenda as motivações, as estratégias de planejamento, as ações físicas e a interpretação de resultados dos usuários em situações reais de uso.
+Na Engenharia de Requisitos e no Design de Interação, os **Cenários** constituem narrativas contextuais concretas que descrevem o comportamento de um usuário durante a realização de uma ou mais atividades com o apoio de um sistema interativo (Barbosa e Silva, 2010). Fundamentada nos trabalhos seminais de John Carroll (2000) e Rosson e Carroll (2002), a técnica de *Scenario-Based Design* permite que a equipe compreenda as motivações, as estratégias de planejamento, as ações físicas e a interpretação de resultados dos usuários em situações reais e cotidianas de uso.
 
-Enquanto a [Persona](personas.md) define *quem* utiliza o sistema, o Cenário estabelece o *quando*, o *onde*, o *porquê* e o *como* essa interação ocorre, tornando explícitos os obstáculos ergonômicos e as barreiras de usabilidade que surgem ao longo do caminho.
+Enquanto a [Persona](personas.md) define *quem* utiliza o sistema, o Cenário estabelece o *quando*, o *onde*, o *porquê* e o *como* essa interação ocorre, tornando explícitos os obstáculos ergonômicos e as barreiras de usabilidade que surgem ao longo do percurso de interação.
 
 ## 2. Elementos Constitutivos de um Cenário
 
-Para manter a consistência metodológica exigida na literatura de IHC, cada cenário documentado neste projeto é estruturado a partir dos sete elementos formais preconizados por Barbosa e Silva (2010, p. 182-183):
+Para manter a consistência metodológica exigida na literatura de IHC, cada cenário documentado neste projeto é estruturado a partir dos sete elementos formais preconizados por Barbosa e Silva (2010, p. 182-183) e Carroll (2000):
 
 1. **Ambiente ou Contexto:** Detalhes da situação física, temporal, psicológica e social em que a interação ocorre, incluindo restrições de tempo, ruídos externos e dispositivos empregados.
 2. **Atores:** As pessoas envolvidas na narrativa, diretamente vinculadas às [Personas](personas.md) previamente modeladas.
@@ -37,28 +37,40 @@ Para manter a consistência metodológica exigida na literatura de IHC, cada cen
 
 ---
 
-## 3. Matriz de Cenários do PCI Concursos
+## 3. Relação Formal entre Personas e Cenários
 
-A Tabela 1 a seguir apresenta a relação dos 10 cenários elaborados pelo grupo, mapeando a persona envolvida, a tarefa associada e o integrante responsável:
+Conforme apontam Carroll (2000) e Barbosa e Silva (2010, Cap. 8.3), **Personas e Cenários são técnicas complementares e interdependentes**:
+
+* A **Persona** confere ancoragem empírica e coerência psicológica à narrativa, impedindo que os cenários descrevam interações de um "usuário genérico ideal", desprovido de falhas ou limitações.
+* O **Cenário**, por sua vez, operacionaliza os objetivos e motivações abstratas da persona, inserindo-a em um fluxo temporal concreto repleto de restrições de tempo, atritos ambientais e respostas reais da interface.
+
+No projeto do **PCI Concursos**, cada persona do elenco primário/secundário protagoniza diretamente um par dedicado de cenários que cobrem tarefas fundamentais e revelam vulnerabilidades críticas da interface:
+
+* **Maria Helena dos Santos (PER-01 — Cenários CEN-01 e CEN-02):** Concurseira madura (53 anos) que busca estabilidade. No `CEN-01`, sua cautela operacional é posta à prova na busca textual de editais em meio a banners agressivos. No `CEN-02`, seu hábito de baixar provas e gabaritos em PDF para estudo impresso expõe os riscos de botões falsos de download (*dark patterns* acidentais).
+* **Lucas Ferreira Rocha (PER-02 — Cenários CEN-03 e CEN-04):** Concurseiro recém-formado (24 anos) focado exclusivamente no DF. No `CEN-03`, sua busca por agilidade colide com a mistura desorganizada de cidades do Centro-Oeste no portal. No `CEN-04`, seu rigor com cronogramas evidencia a ausência de sinalizações visuais de retificações de editais.
+* **Thiago Moraes Albuquerque (PER-03 — Cenários CEN-05 e CEN-06):** Estudante universitário de baixa renda (21 anos). No `CEN-05`, sua necessidade de *microlearning* em transporte público enfrenta a falta de responsividade dos simulados no celular. No `CEN-06`, sua busca urgente por estágio curricular revela uma **tarefa não suportada**, comprovando que o portal sequer cataloga vagas de estágio.
+* **Renata Cristina Freitas (PER-04 — Cenários CEN-07 e CEN-08):** Concurseira ativa que concilia trabalho CLT e estudos (31 anos). No `CEN-07`, o consumo de videoaulas em intervalos curtos é prejudicado pela ausência de indexação e materiais em PDF. No `CEN-08`, sua tentativa de automatizar alertas por e-mail resulta em sobrecarga de mensagens irrelevantes (*spam*) pela ausência de filtros por área e UF.
+
+A Tabela 1 a seguir consolida a matriz formal de rastreabilidade entre Personas, Cenários e Tarefas:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Matriz de Cenários de Interação</b></p>
+<p align="center"><b>Tabela 1: Matriz de Rastreabilidade entre Personas, Cenários e Tarefas</b></p>
 
-| ID | Título do Cenário | Persona Associada | Tarefa Relacionada | Responsável |
+| ID do Cenário | Título do Cenário | Persona Associada (Ator) | Tarefa de IHC Relacionada | Responsável |
 | :---: | :--- | :---: | :--- | :--- |
-| **CEN-01** | Localização Ágil de Edital de Concurso no DF | **Maria Helena dos Santos (PER-01)** | Busca de edital por palavra-chave / órgão | Daniel da Silva Batista |
-| **CEN-02** | Download Seguro de Provas Anteriores e Gabaritos em PDF | **Maria Helena dos Santos (PER-01)** | Download de caderno de provas e gabarito | Daniel da Silva Batista |
-| **CEN-03** | Filtragem de Concursos Abertos na Região Centro-Oeste / DF | **Lucas Ferreira Rocha (PER-02)** | Filtragem de editais por região geográfica | Pedro Rocha Ferreira Lima |
-| **CEN-04** | Acompanhamento de Retificações e Prazos de Edital | **Lucas Ferreira Rocha (PER-02)** | Consulta a retificações e cronogramas | Pedro Rocha Ferreira Lima |
-| **CEN-05** | Resolução de Questões em Simulado Online no Smartphone | **Thiago Moraes Albuquerque (PER-03)** | Simulado de questões online | Arthur Sismene Carvalho |
-| **CEN-06** | Prospecção de Vagas de Estágio de Nível Superior no DF | **Thiago Moraes Albuquerque (PER-03)** | Busca de oportunidades de estágio | Arthur Sismene Carvalho |
-| **CEN-07** | Acesso Rápido a Videoaulas de Disciplinas Básicas no Intervalo de Almoço | **Renata Cristina Freitas (PER-04)** | Consulta a videoaulas e dicas didáticas | Leonardo da Silva Lopes Júnior |
-| **CEN-08** | Assinatura e Configuração de Alertas de Vagas por E-mail | **Renata Cristina Freitas (PER-04)** | Cadastro e configuração de avisos de vagas por e-mail | Leonardo da Silva Lopes Júnior |
-| **CEN-09** | Consulta a Vagas Reservadas e Isenção de Taxa para PcD | *A definir pelo responsável* | Verificação de vagas para cotas / PcD | João Vitor Sales Ibiapina |
-| **CEN-10** | Acompanhamento de Convocação de Concurso Homologado | *A definir pelo responsável* | Consulta a notícias de chamadas públicas | João Vitor Sales Ibiapina |
+| **CEN-01** | Localização Ágil de Edital de Concurso no DF | **Maria Helena dos Santos (PER-01)** | `TAR-01`: Busca de edital por palavra-chave / órgão | Daniel da Silva Batista |
+| **CEN-02** | Download Seguro de Provas Anteriores e Gabaritos em PDF | **Maria Helena dos Santos (PER-01)** | `TAR-02`: Download de caderno de provas e gabarito | Daniel da Silva Batista |
+| **CEN-03** | Filtragem de Concursos Abertos na Região Centro-Oeste / DF | **Lucas Ferreira Rocha (PER-02)** | `TAR-03`: Filtragem de editais por região geográfica | Pedro Rocha Ferreira Lima |
+| **CEN-04** | Acompanhamento de Retificações e Prazos de Edital | **Lucas Ferreira Rocha (PER-02)** | `TAR-04`: Consulta a retificações e cronogramas | Pedro Rocha Ferreira Lima |
+| **CEN-05** | Resolução de Questões em Simulado Online no Smartphone | **Thiago Moraes Albuquerque (PER-03)** | `TAR-05`: Simulado de questões online | Arthur Sismene Carvalho |
+| **CEN-06** | Prospecção de Vagas de Estágio de Nível Superior no DF | **Thiago Moraes Albuquerque (PER-03)** | `TAR-06`: Busca de oportunidades de estágio | Arthur Sismene Carvalho |
+| **CEN-07** | Acesso Rápido a Videoaulas de Disciplinas Básicas no Intervalo de Almoço | **Renata Cristina Freitas (PER-04)** | `TAR-07`: Consulta a videoaulas e dicas didáticas | Leonardo da Silva Lopes Júnior |
+| **CEN-08** | Assinatura e Configuração de Alertas de Vagas por E-mail | **Renata Cristina Freitas (PER-04)** | `TAR-08`: Cadastro de avisos de vagas por e-mail | Leonardo da Silva Lopes Júnior |
+| **CEN-09** | Consulta a Vagas Reservadas e Isenção de Taxa para PcD | *A definir pelo responsável* | `TAR-09`: Verificação de cotas e isenção de taxa | João Vitor Sales Ibiapina |
+| **CEN-10** | Acompanhamento de Convocação de Concurso Homologado | *A definir pelo responsável* | `TAR-10`: Consulta a notícias de convocações | João Vitor Sales Ibiapina |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026), com base nas Personas modeladas e nas tarefas do PCI Concursos.</p>
 
 </div>
 
@@ -87,7 +99,7 @@ O detalhamento narrativo do Cenário 01, estruturado segundo os sete elementos f
 | **Eventos** | A página demora alguns segundos para carregar completamente devido à grande quantidade de scripts publicitários. Na tela de resultados da busca, anúncios gráficos patrocinados aparecem intercalados no mesmo formato visual dos links de notícias, forçando Maria Helena a aproximar o rosto da tela e reler com cuidado para não clicar em anúncios promocionais enganosos. |
 | **Avaliação** | Maria Helena atinge o objetivo de localizar o edital e anotar os prazos, mas relata desconforto com a poluição visual e cansaço nos olhos ao tentar diferenciar os links editoriais legítimos das propagandas comerciais. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base na Entrevista Gravada USR-01 e nos dados do IPEA (2024).</p>
 
 </div>
 
@@ -114,7 +126,7 @@ O detalhamento narrativo do Cenário 02 é apresentado na Tabela 3 a seguir:
 | **Eventos** | Na página de download, banners publicitários exibem botões verdes chamativos com a palavra *"DOWNLOAD"* em caixa alta. Maria Helena quase clica no anúncio comercial antes de perceber que o link de download autêntico é apenas um texto sublinhado simples com tipografia menor situado logo abaixo. |
 | **Avaliação** | Maria Helena conclui o download dos PDFs com sucesso, mas avalia com ressalvas a experiência, destacando a insegurança gerada pelos botões falsos e o risco de usuários maduros baixarem programas maliciosos por desatenção visual. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base na Entrevista Gravada USR-01 e na Persona PER-01.</p>
 
 </div>
 
@@ -141,7 +153,7 @@ O detalhamento narrativo do Cenário 03 é apresentado na Tabela 4 a seguir:
 | **Eventos** | A página do Centro-Oeste lista todos os concursos em ordem cronológica de publicação misturando todos os estados. O layout responsivo em tela pequena quebra as linhas de tabela e banners de propaganda intercalados empurram o conteúdo para baixo a cada toque, provocando rolagem acidental. |
 | **Avaliação** | Lucas consegue encontrar as informações do concurso distrital, mas reclama da perda de tempo provocada pela ausência de um botão direto para filtrar apenas o Distrito Federal e da lentidão de carregamento dos banners na rede móvel. |
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 
 </div>
 
@@ -168,7 +180,7 @@ O detalhamento narrativo do Cenário 04 é apresentado na Tabela 5 a seguir:
 | **Eventos** | Na página do certame, o título principal permanece inalterado com a data antiga, e a retificação nº 02 foi apenas adicionada no final do texto como uma pequena linha de atualização sem destaque cromático. Lucas quase fecha a página achando que a notícia era boato antes de rolar até o rodapé da notícia. |
 | **Avaliação** | Lucas confirma a nova data da prova e consegue atualizar seu plano de estudos, mas avalia negativamente a usabilidade do portal, criticando a falta de um selo ou aviso destacado no topo informando imediatamente que o cronograma foi retificado. |
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 
 </div>
 
@@ -195,7 +207,7 @@ O detalhamento narrativo do Cenário 05, estruturado segundo os sete elementos f
 | **Eventos** | A página inicial demora a estabilizar por causa do carregamento tardio dos blocos publicitários, que deslocam o conteúdo e fazem Thiago tocar em um link indesejado na primeira tentativa. A árvore de assuntos exibe volumes muito grandes por tópico (Direito Administrativo, por exemplo, com mais de sete mil questões) e não oferece opção de montar uma sessão com quantidade definida de questões nem cronômetro. As áreas de toque das alternativas são pequenas para uso com uma única mão em veículo em movimento, e em duas ocasiões ele marca a alternativa vizinha à pretendida. Ao atravessar um trecho de sombra de sinal, a página recarrega e o progresso das questões já respondidas é perdido. Ao final, o sistema não apresenta placar agregado de acertos nem comentário das questões erradas. |
 | **Avaliação** | Thiago conclui o trajeto tendo respondido menos questões do que pretendia e **sem alcançar seu objetivo principal**: não obteve o diagnóstico quantitativo de desempenho que motivou o uso da ferramenta. Avalia que o conteúdo do portal é bom e abundante, mas que a experiência "não foi feita para o celular", e considera migrar para um aplicativo dedicado de questões nas próximas sessões de estudo. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base na Análise Documental DOC-03 e na Persona PER-03.</p>
 
 </div>
 
@@ -225,7 +237,7 @@ O detalhamento narrativo do Cenário 06 é apresentado na Tabela 7 a seguir:
 | **Eventos** | A seção "Vagas" não oferece qualquer filtro por nível de escolaridade em curso ou por modalidade de contratação, pois sua indexação pressupõe candidatos já qualificados para cargos efetivos. A busca textual por "estágio" retorna ocorrências do termo **estágio probatório** — período de avaliação do servidor recém-nomeado, presente em praticamente todos os editais do domínio —, resultado tecnicamente correto mas semanticamente inútil para a intenção de Thiago, que não conhece a distinção entre as duas acepções e inicialmente acredita ter encontrado o que procurava. A navegação regional devolve apenas concursos para cargos permanentes, e a listagem de cargos não contempla a entrada "Estagiário". Em nenhum momento o sistema comunica explicitamente que **não cobre esse tipo de oportunidade**, de modo que Thiago permanece supondo que a falha é sua, e não do escopo do portal. |
 | **Avaliação** | **Tarefa não concluída por ausência de suporte funcional do sistema.** Thiago encerra a interação frustrado e com a percepção equivocada de que "não soube procurar", quando de fato buscava uma funcionalidade inexistente. O custo mais relevante não é o tempo perdido, mas a **ausência de resposta honesta do sistema**: um estado vazio informativo teria resolvido a questão em segundos. Ele migra para portais de agentes de integração e passa a associar o PCI Concursos exclusivamente ao público de concursos efetivos, reduzindo a frequência com que retorna ao site. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base nas estatísticas da ABRES e na Persona PER-03.</p>
 
 </div>
 
@@ -251,7 +263,7 @@ O detalhamento narrativo do Cenário 07, estruturado segundo os sete elementos f
 | **Eventos** | Ao abrir a tela da aula, blocos de anúncios publicitários em formato de banner ocupam grande parte da porção superior e inferior da viewport móvel. Ao rotacionar o aparelho para o modo horizontal, o layout responsivo apresenta falha de redimensionamento: anúncios laterais continuam flutuando e encobrindo parte dos controles do player, exigindo toque com precisão milimétrica para não abrir uma aba promocional. Não há botão para avançar para a "Próxima Aula" nem lista de reprodução sequencial organizada pedagogicamente; ao término do vídeo, o player exibe recomendações genéricas de terceiros do YouTube. Adicionalmente, inexiste opção para download de resumo esquemático em PDF do assunto abordado. |
 | **Avaliação** | Renata consegue absorver o conteúdo teórico ministrado pelo professor, mas avalia a experiência com forte insatisfação quanto à ergonomia móvel: a ausência de uma trilha estruturada de estudos, a poluição visual dos anúncios invasivos e a falta de materiais de apoio para leitura rápida pós-vídeo reduzem o valor didático do portal. Renata conclui que, no contexto de estudo móvel rápido, é mais vantajoso buscar vídeos diretamente no YouTube do que depender da seção desorganizada do portal. |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
 </div>
 
@@ -278,7 +290,7 @@ O detalhamento narrativo do Cenário 08, estruturado segundo os sete elementos f
 | **Eventos** | O formulário do sistema não disponibiliza nenhum mecanismo de parametrização ou filtragem: a captura é universal e indiferenciada. A submissão exibe um aviso em texto puro na tela com feedback básico de sucesso. No dia seguinte, Renata recebe na caixa de entrada um boletim massivo e exaustivo contendo centenas de seleções de prefeituras distantes de todo o território nacional (incluindo cargos operacionais do interior de outros estados), sem qualquer agrupamento ou destaque para o Distrito Federal. Adicionalmente, o e-mail não oferece opções de gerenciamento de preferências ou cancelamento pontual por tópico, disponibilizando apenas um link de descadastramento integral em letras miúdas no rodapé. |
 | **Avaliação** | Renata atinge formalmente a inscrição técnica do e-mail, mas o resultado é contraproducente: o volume excessivo de mensagens descontextualizadas polui sua caixa postal pessoal, gerando ruído cognitivo e risco de ocultar seus e-mails profissionais. A ausência de segmentação por UF e cargo anula o benefício da automação esperada, fazendo com que Renata cancele a assinatura da newsletter três dias depois, classificando o serviço como ineficiente para as necessidades de concurseiros com foco definido. |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
 </div>
 
@@ -310,5 +322,8 @@ Os cenários a seguir foram concebidos a partir do perfil dos usuários e seguem
 | `1.2` | 27/09/2026 | Detalhamento formal dos Cenários 03 e 04 por Pedro Rocha Ferreira Lima fundamentados na Análise Documental DOC-02. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.3` | 27/09/2026 | Detalhamento narrativo integral dos Cenários 05 (simulado no smartphone) e 06 (prospecção de estágio), este último modelado como cenário de tarefa não suportada, com vinculação à Persona PER-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.4` | 28/09/2026 | Redação e detalhamento narrativo integral dos Cenários 07 (videoaulas) e 08 (alertas por e-mail) fundamentados na Persona PER-04 e DOC-04. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.5` | 04/10/2026 | Inclusão da fundamentação formal da relação entre Personas e Cenários (Carroll; Barbosa & Silva), explicitação dos papéis na matriz e padronização tipográfica das legendas com base empírica (Issue #11). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
