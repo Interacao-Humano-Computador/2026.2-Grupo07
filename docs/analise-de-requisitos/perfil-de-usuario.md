@@ -107,6 +107,8 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
 * **Tarefas de IHC Vinculadas:** 
   * `TAR-01`: Busca de edital por palavra-chave e localização de vagas;
   * `TAR-02`: Download de cadernos de provas e gabaritos preliminares/definitivos em PDF.
+* **Foco da Investigação:** Perfil sociodemográfico (gênero, faixa etária e remuneração) dos candidatos a vagas públicas e seu impacto direto no modelo mental de estudo e manuseio de arquivos em PDF.
+* **Pergunta de Pesquisa:** *Qual é o perfil sociodemográfico real dos postulantes a carreiras públicas no Brasil e de que maneira suas características etárias e ocupacionais condicionam a demanda por editais e provas anteriores em PDF no portal?*
 
 #### 5.1.1 Identificação e Caracterização da Fonte
 Para viabilizar uma investigação empírica auditável, pública e sem barreiras de autenticação, foram examinadas duas bases estatísticas oficiais de referência nacional:
@@ -117,8 +119,8 @@ Para viabilizar uma investigação empírica auditável, pública e sem barreira
 Conforme preceituam Barbosa e Silva (2010, Cap. 7 e 8), a Análise Documental permite extrair dados sociodemográficos fidedignos e compreender as regras do domínio antes da interação direta com usuários. Os objetivos específicos foram:
 1. Mapear o perfil demográfico real dos cidadãos que buscam concursos no Brasil a partir de estatísticas de acesso público;
 2. Desconstruir estereótipos que assumem que concurseiros são exclusivamente jovens universitários;
-3. Fornecer embasamento quantitativo para a criação da Persona Primária **PER-01 (Maria Helena dos Santos)**;
-4. Derivar requisitos funcionais e de usabilidade para as tarefas de busca de editais (**TAR-01**) e download de cadernos de provas e gabaritos em PDF (**TAR-02**).
+3. Fornecer embasamento quantitativo para a definição do **Perfil de Usuário Trabalhado** e modelagem da Persona Primária **PER-01 (Maria Helena dos Santos)**;
+4. Identificar necessidades de usabilidade para as tarefas de busca de editais (**TAR-01**) e download de cadernos de provas e gabaritos em PDF (**TAR-02**).
 
 #### 5.1.3 Metodologia de Exame do Documento
 Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e Silva (2010):
@@ -128,17 +130,14 @@ Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e S
 
 #### 5.1.4 Achados e Evidências Estatísticas Extraídas
 * **Maioria Feminina no Serviço Público:** Os microdados consolidados pelo IPEA revelam que cerca de **60% do funcionalismo público civil é composto por mulheres**, dado que se reflete diretamente no contingente de concurseiras que almejam a estabilidade no setor público.
-* **Concentração em Faixas Adultas e Maduras:** O cruzamento das bases do IPEA e do IBGE comprova que a maior fatia de profissionais ativos e postulantes a cargos públicos concentra-se entre **35 e 55 anos**, desmontando a premissa de um público estritamente jovem e comprovando a relevância crítica do **Perfil 2 (Concurseiro Ativo / Adulto e Maduro)**.
+* **Concentração em Faixas Adultas e Maduras:** O cruzamento das bases do IPEA e do IBGE comprova que a maior fatia de profissionais ativos e postulantes a cargos públicos concentra-se entre **35 e 55 anos**, desmontando a premissa de um público estritamente jovem e comprovando a relevância crítica do perfil de concurseiros adultos.
 * **Realidade Remuneratória e Cargos de Apoio:** A mediana salarial do funcionalismo público situa-se em torno de R$ 3,2 mil, indicando que a maciça maioria dos concurseiros busca vagas de nível médio, técnico ou assistencial em órgãos distritais e municipais em busca de previsibilidade financeira.
-* **Hábito de Estudo por Resolução de Provas Anteriores em PDF:** Por conciliarem trabalho e estudo, candidatos adultos de 40 a 55 anos priorizam métodos pragmáticos de treino baseados na impressão ou download de cadernos de provas anteriores e gabaritos em formato PDF.
+* **Hábito de Estudo por Resolução de Provas Anteriores em PDF:** Por conciliarem trabalho e estudo, candidatos adultos priorizam métodos pragmáticos de treino baseados na impressão ou download de cadernos de provas anteriores e gabaritos em formato PDF.
 
-#### 5.1.5 Requisitos e Implicações de Design para o PCI Concursos
-* **Validação Científica da Persona PER-01:** Os dados do IPEA e do IBGE sustentam diretamente o perfil de **Maria Helena dos Santos (PER-01)** (53 anos, mulher, técnica administrativa em busca de estabilidade funcional no DF).
-* **Fundamentação dos Cenários CEN-01 e CEN-02:** Justifica a formulação de cenários centrados na busca rápida de editais de suporte no DF (`CEN-01`) e no download imediato de cadernos de provas e gabaritos oficiais em PDF (`CEN-02`).
-* **Requisitos de Usabilidade e Interface:**
-  * **RF-DOC-01 (Filtro Descomplicado por Região/Cargo):** A ferramenta de busca do PCI Concursos deve permitir filtrar concursos por região (Centro-Oeste/DF) e escolaridade sem exigir preenchimento de cadastros prévios;
-  * **RF-DOC-02 (Links Diretos para PDFs de Provas e Gabaritos):** O portal deve disponibilizar links diretos, legíveis e destacados para download de provas e gabaritos, sem confusão visual com anúncios fraudulentos;
-  * **RNF-DOC-01 (Acessibilidade Visual e Contraste):** Adequação tipográfica e de contraste visual voltada a candidatos maduros (35 a 55+ anos), em conformidade com as diretrizes de Barbosa e Silva (2010).
+#### 5.1.5 Embasamento para o Perfil de Usuário, Personas e IHC
+* **Sustentação Empírica da Persona PER-01:** Os dados do IPEA e do IBGE sustentam diretamente as características sociodemográficas de **Maria Helena dos Santos (PER-01)** (53 anos, mulher, técnica administrativa em busca de estabilidade funcional no DF).
+* **Fundamentação dos Cenários CEN-01 e CEN-02:** Os achados justificam cenários centrados na busca rápida de editais de apoio no DF (`CEN-01`) e no download imediato de cadernos de provas e gabaritos oficiais em PDF (`CEN-02`).
+* **Diretrizes de Usabilidade:** As evidências apontam a necessidade de links diretos e legíveis para arquivos em PDF (evitando sobrecarga visual e confusão com anúncios publicitários) e de tipografia com contraste adequado, respeitando as capacidades do usuário adulto conforme preconizado por Barbosa e Silva (2010).
 
 ---
 
@@ -156,6 +155,8 @@ Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e S
 * **Tarefas de IHC Vinculadas:** 
   * `TAR-03`: Filtragem por região geográfica (Centro-Oeste / DF);
   * `TAR-04`: Consulta a retificações, cronogramas e prazos de editais.
+* **Foco da Investigação:** Concentração geográfica de oportunidades públicas na macrorregião Centro-Oeste e dinâmica de publicação de retificações e alterações de prazos em diários oficiais.
+* **Pergunta de Pesquisa:** *Qual o grau de concentração de vagas públicas no Distrito Federal frente aos demais estados do Centro-Oeste e qual a frequência de retificações de cronograma enfrentadas pelos candidatos nas primeiras semanas após o edital?*
 
 #### 5.2.1 Identificação e Caracterização da Fonte
 Para fundamentar a investigação regional e a dinâmica de prazos no portal PCI Concursos de forma empírica e pública, foram examinadas duas fontes documentais oficiais:
@@ -167,26 +168,23 @@ Com amparo nas diretrizes de Barbosa e Silva (2010, Cap. 7 e 8), a investigaçã
 1. Mapear a concentração de oportunidades de concursos na região Centro-Oeste com ênfase no Distrito Federal;
 2. Quantificar a frequência com que editais sofrem alterações em seus cronogramas oficiais (retificações de datas de prova, prazos de inscrição e conteúdo);
 3. Subsidiar a modelagem empírica da Persona Secundária **PER-02 (Lucas Ferreira Rocha)** e dos **Cenários 03 e 04**;
-4. Formular requisitos de IHC voltados à usabilidade dos filtros regionais (`TAR-03`) e ao monitoramento transparente de retificações (`TAR-04`).
+4. Identificar necessidades de usabilidade dos filtros regionais (`TAR-03`) e de monitoramento transparente de retificações (`TAR-04`).
 
 #### 5.2.3 Metodologia de Exame do Documento
 A análise seguiu o método sistemático de Barbosa e Silva (2010):
 * **Fase 1 (Triagem Regional):** Consulta aos microdados do PEP/MGI por unidade da federação e análise das publicações da Seção III do DODF para mensurar o volume de editais do DF em comparação com outros estados da região Centro-Oeste;
 * **Fase 2 (Levantamento de Retificações):** Exame de uma amostra de 10 certames abertos no DF em 2024, verificando a quantidade de publicações complementares e erratas geradas entre a publicação do edital e o encerramento do prazo recursal;
-* **Fase 3 (Derivação de Requisitos):** Identificação de barreiras de usabilidade enfrentadas pelo candidato jovem e universitário ao tentar isolar concursos de Brasília no portal PCI Concursos.
+* **Fase 3 (Mapeamento de Necessidades de IHC):** Identificação de barreiras de usabilidade enfrentadas pelo candidato jovem e universitário ao tentar isolar concursos de Brasília no portal PCI Concursos.
 
 #### 5.2.4 Achados e Evidências Estatísticas Extraídas
 * **Concentração Crítica no DF:** Os microdados do PEP/MGI indicam que mais de **65% das oportunidades abertas no Centro-Oeste destinam-se ao Distrito Federal**, revelando que concurseiros de Brasília buscam quase que exclusivamente vagas distritais ou federais com lotação local, sem interesse em certames municipais de cidades distantes de Goiás ou Mato Grosso.
 * **Alta Volatilidade de Cronogramas (80% com Retificação):** O exame documental no DODF comprovou que cerca de **80% dos editais sofrem ao menos uma retificação formal nas primeiras 3 semanas**, majoritariamente prorrogando prazos de inscrição, alterando critérios de isenção ou adiando a data de aplicação das provas objetivas.
 * **Sobrecarga de Verificação no PCI Concursos:** No formato atual do portal, o candidato é forçado a reler notícias inteiras para descobrir se a data da prova mudou, gerando insegurança e risco de perda de prazos.
 
-#### 5.2.5 Requisitos e Implicações de Design para o PCI Concursos
+#### 5.2.5 Embasamento para o Perfil de Usuário, Personas e IHC
 * **Sustentação da Persona PER-02:** Os dados comprovam a rotina de concurseiros recém-formados em Brasília, embasando **Lucas Ferreira Rocha (PER-02)** (24 anos, administrador, focado em vagas locais).
-* **Fundamentação dos Cenários CEN-03 e CEN-04:** Justifica cenários voltados à filtragem sem ruído no DF (`CEN-03`) e ao acompanhamento ágil de erratas (`CEN-04`).
-* **Requisitos de Usabilidade e Interface:**
-  * **RF-DOC-03 (Filtro Direto por Unidade Federativa/DF):** A categoria "Centro-Oeste" deve permitir isolar editais do DF com um único clique, sem misturar prefeituras do interior de Goiás, MT ou MS;
-  * **RF-DOC-04 (Selo e Notificação de Edital Retificado):** Inclusão de um selo visual destacado (*badge* "Retificado em DD/MM") ao lado do título do concurso, informando o que foi alterado;
-  * **RNF-DOC-02 (Ordenação por Proximidade de Prazos):** Apresentação prioritária dos concursos cujos prazos de inscrição ou retificação estejam prestes a expirar.
+* **Fundamentação dos Cenários CEN-03 e CEN-04:** Justifica a formulação de cenários voltados à filtragem sem ruído no DF (`CEN-03`) e ao acompanhamento ágil de erratas (`CEN-04`).
+* **Diretrizes de Usabilidade:** Demonstra a relevância de permitir a seleção direta por Unidade Federativa (DF) sem misturar cidades do interior da macrorregião, bem como a necessidade de sinalização visual clara e imediata de editais retificados (evitando que o usuário precise abrir e ler todo o corpo da notícia para identificar alterações em prazos cruciais).
 
 ---
 
@@ -206,10 +204,12 @@ A análise seguiu o método sistemático de Barbosa e Silva (2010):
 * **Tarefas de IHC Vinculadas:**
   * `TAR-05`: Realização de simulado de questões online com feedback de gabarito;
   * `TAR-06`: Busca de oportunidades de estágio de nível superior no Distrito Federal.
+* **Foco da Investigação:** Comportamento do estudante de graduação (predomínio de EAD e estudo mediado por tela) e dimensão da demanda reprimida por oportunidades de estágio no setor público.
+* **Pergunta de Pesquisa:** *Qual é o perfil do estudante-concurseiro de 18 a 25 anos no Brasil e de que maneira o predomínio do estudo digital e a escassez de vagas de estágio justificam a necessidade de simulados online e de uma categoria dedicada a estágios no portal?*
 
 #### 5.3.1 Identificação e Caracterização da Fonte
 
-Enquanto a análise documental `DOC-01` caracterizou o concurseiro adulto e maduro já inserido no mercado, a presente investigação dedica-se ao extremo oposto da pirâmide etária do domínio: o **estudante em formação que utiliza o portal como porta de entrada no serviço público**, correspondente ao **Perfil 1 (Estudante Universitário / Iniciante)** da Tabela 1. Para tanto, foram trianguladas três bases públicas e auditáveis, sem exigência de autenticação:
+Enquanto a análise documental `DOC-01` caracterizou o concurseiro adulto e maduro já inserido no mercado, a presente investigação dedica-se ao extremo oposto da pirâmide etária do domínio: o **estudante em formação que utiliza o portal como porta de entrada no serviço público**, correspondente ao **Perfil 1 (Candidato / Concurseiro)** da Tabela 1. Para tanto, foram trianguladas três bases públicas e auditáveis, sem exigência de autenticação:
 
 1. O **Censo da Educação Superior (INEP/MEC)**, levantamento censitário anual obrigatório que cobre a totalidade das instituições de ensino superior brasileiras, fornecendo matrículas, modalidade de oferta (presencial ou a distância), rede administrativa, ingressantes e concluintes;
 2. As **Estatísticas do Mercado de Estágio (ABRES)**, compiladas pela Associação Brasileira de Estágios a partir dos registros de agentes de integração e das bases do Ministério do Trabalho e Emprego sob a égide da Lei nº 11.788/2008 (Lei do Estágio), que quantificam a população estudantil apta ao estágio e a efetivamente contratada;
@@ -221,8 +221,8 @@ A escolha por fontes de naturezas distintas — educacional, laboral-setorial e 
 
 Em conformidade com o roteiro de análise documental preconizado por Barbosa e Silva (2010, Cap. 7 e 8), a investigação perseguiu quatro objetivos:
 
-1. Dimensionar quantitativamente a população estudantil que constitui o Perfil 1 e verificar se seu volume justifica a classificação como persona primária, e não meramente secundária;
-2. Caracterizar o **contexto de estudo** predominante dessa coorte — em especial a modalidade de ensino e o dispositivo de acesso —, de modo a fundamentar os requisitos de responsividade da tarefa de simulado (`TAR-05`);
+1. Dimensionar quantitativamente a população estudantil que busca oportunidades no portal;
+2. Caracterizar o **contexto de estudo** predominante dessa coorte — em especial a modalidade de ensino e o dispositivo de acesso —, de modo a fundamentar a responsividade da tarefa de simulado (`TAR-05`);
 3. Quantificar a **demanda latente por oportunidades de estágio** no Brasil, a fim de avaliar se a ausência dessa funcionalidade no PCI Concursos configura uma lacuna funcional relevante (`TAR-06`);
 4. Fornecer a base empírica para a modelagem da Persona **PER-03** e dos Cenários **CEN-05** e **CEN-06**.
 
@@ -232,26 +232,22 @@ O exame seguiu as três fases prescritas por Barbosa e Silva (2010), replicando 
 
 * **Fase 1 (Triagem Exploratória):** Consulta às sinopses estatísticas e às apresentações oficiais de divulgação do Censo da Educação Superior, ao painel de estatísticas da ABRES e aos *releases* trimestrais da PNAD Contínua, com recorte nas dimensões "modalidade de ensino", "estudantes aptos ao estágio" e "desocupação por faixa etária";
 * **Fase 2 (Extração Quantitativa):** Coleta dos valores absolutos e relativos de matrículas por modalidade, da razão entre estudantes aptos e estudantes efetivamente estagiando, e das taxas de desocupação e informalidade da faixa de 18 a 24 anos;
-* **Fase 3 (Mapeamento de Necessidades de IHC):** Tradução de cada achado estatístico em uma implicação concreta de projeto para a interface do PCI Concursos, formalizada como requisito funcional (RF) ou não funcional (RNF) rastreável.
+* **Fase 3 (Mapeamento de Necessidades de IHC):** Análise de como o perfil estudantil impacta as necessidades de interface, responsividade móvel e busca no portal PCI Concursos.
 
 #### 5.3.4 Achados e Evidências Estatísticas Extraídas
 
-* **O Ensino a Distância tornou-se majoritário, consolidando o estudo mediado por tela:** O Censo da Educação Superior 2024 registra, **pela primeira vez na série histórica**, a superação do ensino presencial pela modalidade a distância, que passou a concentrar **50,7% das matrículas de graduação** (5.189.391 em EAD contra 5.037.482 presenciais), com crescimento de **286,7% na década de 2014 a 2024**. O estudante contemporâneo, portanto, já está habituado a consumir conteúdo educacional integralmente por interfaces digitais — o que eleva, e não reduz, sua expectativa quanto à qualidade de ferramentas de estudo online como o simulado do portal.
-* **Volume populacional que sustenta o Perfil 1 como primário:** Somadas as matrículas de graduação (aproximadamente 10,2 milhões) às do ensino médio e técnico (10.090.568 alunos, conforme a ABRES), o contingente de estudantes brasileiros em formação supera **20,1 milhões de pessoas**, massa crítica que desautoriza tratar o estudante iniciante como público marginal no domínio de concursos públicos.
-* **Escassez estrutural de estágio: apenas 6% de aproveitamento:** Os dados da ABRES revelam que, dos cerca de **20,1 milhões de estudantes aptos ao estágio**, apenas **6% conseguem efetivamente uma oportunidade**. A desagregação é ainda mais severa no ensino médio e técnico, onde apenas **264 mil dos 10.090.568 alunos estagiam (2,61%)**, enquanto no ensino superior **836 mil dos 9.976.782 graduandos estagiam (8,38%)**. Trata-se de uma demanda reprimida de mais de 18 milhões de estudantes buscando ativamente vagas que não encontram.
-* **O estágio como principal porta de entrada formal:** Ainda segundo a ABRES, as taxas de efetivação de estagiários situam-se entre **40% e 60%**, o que caracteriza o estágio não como atividade acessória, mas como o canal mais eficaz de transição da formação para o emprego formal — reforçando a centralidade da busca por essas vagas no comportamento informacional do estudante.
-* **Pressão econômica desproporcional sobre a coorte de 18 a 24 anos:** A PNAD Contínua do 1º trimestre de 2026 aponta taxa de desocupação nacional de **6,1%**, enquanto na faixa de **18 a 24 anos o índice alcança aproximadamente 14%** — mais que o dobro da média —, acompanhado de **informalidade superior a 45%**. Esse quadro explica a urgência com que o estudante recorre a portais de oportunidades e a baixa tolerância que demonstra a fluxos de navegação improdutivos.
+* **O Ensino a Distância tornou-se majoritário, consolidando o estudo mediado por tela:** O Censo da Educação Superior 2024 registra, **pela primeira vez na série histórica**, a superação do ensino presencial pela modalidade a distância, que passou a concentrar **50,7% das matrículas de graduação** (5.189.391 em EAD contra 5.037.482 presenciais), com crescimento de **286,7% na década de 2014 a 2024**. O estudante contemporâneo, portanto, já está habituado a consumir conteúdo educacional integralmente por interfaces digitais — o que eleva sua expectativa quanto à qualidade de ferramentas de estudo online como o simulado do portal.
+* **Volume populacional expressivo:** Somadas as matrículas de graduação (aproximadamente 10,2 milhões) às do ensino médio e técnico (10.090.568 alunos, conforme a ABRES), o contingente de estudantes brasileiros em formação supera **20,1 milhões de pessoas**, demonstrando a relevância do público jovem no ecossistema de concursos.
+* **Escassez estrutural de estágio (apenas 6% de aproveitamento):** Os dados da ABRES revelam que, dos cerca de **20,1 milhões de estudantes aptos ao estágio**, apenas **6% conseguem efetivamente uma oportunidade**. A desagregação é ainda mais severa no ensino médio e técnico, onde apenas **264 mil dos 10.090.568 alunos estagiam (2,61%)**, enquanto no ensino superior **836 mil dos 9.976.782 graduandos estagiam (8,38%)**. Trata-se de uma demanda reprimida de mais de 18 milhões de estudantes buscando ativamente vagas que não encontram.
+* **O estágio como principal porta de entrada formal:** Ainda segundo a ABRES, as taxas de efetivação de estagiários situam-se entre **40% e 60%**, caracterizando o estágio como o canal mais eficaz de transição para o mercado formal de trabalho.
+* **Pressão econômica desproporcional sobre a coorte de 18 a 24 anos:** A PNAD Contínua do 1º trimestre de 2026 aponta taxa de desocupação nacional de **6,1%**, enquanto na faixa de **18 a 24 anos o índice alcança aproximadamente 14%**, acompanhado de **informalidade superior a 45%**. Esse quadro explica a urgência com que o estudante recorre a portais de oportunidades e a baixa tolerância a fluxos de navegação improdutivos.
 
-#### 5.3.5 Requisitos e Implicações de Design para o PCI Concursos
+#### 5.3.5 Embasamento para o Perfil de Usuário, Personas e IHC
 
-* **Fundamentação Científica da Persona PER-03:** Os três conjuntos de dados sustentam diretamente o perfil de **Thiago Moraes Albuquerque (PER-03)** (21 anos, graduando noturno em instituição privada, residente na Ceilândia-DF, com acesso predominantemente móvel e sob pressão para conseguir o estágio obrigatório do curso).
-* **Fundamentação dos Cenários CEN-05 e CEN-06:** Justifica a formulação de um cenário de estudo por questões em janelas curtas de tempo e em dispositivo móvel (`CEN-05`) e de um cenário de prospecção de estágio (`CEN-06`).
-* **Evidência de Lacuna Funcional (achado crítico):** A inspeção da arquitetura de informação do PCI Concursos, realizada em 27/09/2026, confirmou que o portal **não dispõe de seção, filtro ou categoria dedicada a vagas de estágio**: a seção "Vagas" indexa exclusivamente cargos efetivos de concursos e processos seletivos, e nenhum dos quinze itens do menu principal contempla estágio, estagiário ou programa de trainee. Confrontada com a demanda reprimida de mais de 18 milhões de estudantes documentada pela ABRES, essa ausência deixa de ser uma limitação de escopo editorial e passa a constituir uma **lacuna funcional de alto impacto** no maior portal de concursos do país.
-* **Requisitos de Usabilidade e Interface:**
-  * **RF-DOC-03 (Seção Dedicada a Estágios e Programas de Ingresso):** O portal deve criar uma categoria própria para estágios, jovem aprendiz e programas de trainee do setor público, indexando os processos seletivos de agentes de integração e de órgãos públicos, com filtro por unidade federativa e nível de escolaridade em curso;
-  * **RF-DOC-04 (Configurador de Simulado e Retorno de Desempenho):** A seção de simulados deve permitir que o usuário defina disciplina, quantidade de questões e cronômetro antes de iniciar a sessão, preservar o progresso em caso de perda de conexão e apresentar, ao final, um placar consolidado de acertos com gabarito comentado;
-  * **RNF-DOC-02 (Prioridade ao Acesso Móvel):** Dado que 50,7% das matrículas já são a distância e que o dispositivo predominante da coorte é o smartphone, os fluxos de estudo devem ser projetados sob a premissa *mobile-first*, com áreas de toque de no mínimo 44 × 44 px (WCAG 2.1, critério 2.5.5) e estabilidade de layout que impeça deslocamento de conteúdo por carregamento tardio de anúncios;
-  * **RNF-DOC-03 (Desambiguação Terminológica):** Considerando que no domínio de concursos o termo "estágio" designa majoritariamente o *estágio probatório* — período de avaliação do servidor recém-nomeado —, o mecanismo de busca deve desambiguar explicitamente as duas acepções, evitando que o estudante receba editais de nomeação como resposta à busca por oportunidades de estágio curricular.
+* **Fundamentação Empírica da Persona PER-03:** Os dados sustentam diretamente o perfil de **Thiago Moraes Albuquerque (PER-03)** (21 anos, graduando noturno em instituição privada, residente na Ceilândia-DF, com acesso predominantemente móvel e sob pressão para conseguir estágio curricular).
+* **Fundamentação dos Cenários CEN-05 e CEN-06:** Justifica a formulação de cenários voltados à resolução ágil de simulados no celular (`CEN-05`) e à busca ativa por oportunidades de estágio (`CEN-06`).
+* **Identificação de Lacuna Funcional de IHC:** A inspeção da arquitetura de informação do PCI Concursos confirmou que o portal **não dispõe de seção, filtro ou categoria dedicada a vagas de estágio**, gerando frustração nos milhões de estudantes que acessam o site em busca de oportunidades formativas.
+* **Diretrizes de Usabilidade:** As evidências apontam a relevância de projetar os simulados sob a premissa *mobile-first* (com alvos de toque adequados conforme WCAG 2.1) e de permitir desambiguação clara entre o termo "estágio curricular" e "estágio probatório" nas consultas.
 
 ---
 
@@ -271,6 +267,8 @@ O exame seguiu as três fases prescritas por Barbosa e Silva (2010), replicando 
 * **Tarefas de IHC Vinculadas:**
   * `TAR-07`: Acessar videoaulas e dicas didáticas de disciplinas;
   * `TAR-08`: Cadastro e configuração de recebimento de alertas de vagas por e-mail.
+* **Foco da Investigação:** Hábitos de consumo multimídia educacional (videoaulas e *microlearning*) em dispositivos móveis e critérios de confiabilidade e segmentação em alertas e notificações por e-mail.
+* **Pergunta de Pesquisa:** *De que maneira o concurseiro utiliza videoaulas em pequenos blocos de tempo no celular e quais filtros por área e UF são indispensáveis para que alertas de editais por e-mail não sejam descartados como spam?*
 
 #### 5.4.1 Identificação e Caracterização da Fonte
 
@@ -295,7 +293,7 @@ A investigação estruturou-se em três etapas:
 
 * **Fase 1 (Triagem Exploratória):** Seleção de tabelas estatísticas da TIC Domicílios 2024 referentes a atividades online ("assistir a vídeos, aulas ou tutoriais") e relatórios da ABED sobre fragmentação de estudo;
 * **Fase 2 (Extração Quantitativa):** Coleta de índices de acesso por smartphone (62%), preferência por e-mail para avisos formais (68%) e rejeição a mala direta sem segmentação (71%);
-* **Fase 3 (Tradução em Requisitos de IHC):** Conversão dos achados em requisitos funcionais e não funcionais específicos para o portal PCI Concursos.
+* **Fase 3 (Tradução em Requisitos de IHC):** Conversão dos achados em diretrizes e requisitos de usabilidade para o portal PCI Concursos.
 
 #### 5.4.4 Achados e Evidências Estatísticas Extraídas
 
@@ -306,16 +304,14 @@ A investigação estruturou-se em três etapas:
   - A seção de videoaulas (`TAR-07`) funciona meramente como agregador desestruturado de vídeos de terceiros do YouTube, sem categorização por banca organizadora ou tópicos do edital, sem materiais em anexo e com intensa poluição de anúncios ao redor do player;
   - O cadastro de alertas por e-mail (`TAR-08`) não disponibiliza filtros por região ou área de atuação (enviando editais de todo o Brasil sem segmentação) e **não possui campo de confirmação de e-mail**, permitindo que o usuário digite seu endereço com erro sem qualquer aviso preventivo do sistema.
 
-#### 5.4.5 Requisitos e Implicações de Design para o PCI Concursos
+#### 5.4.5 Embasamento para o Perfil de Usuário, Personas e IHC
 
-* **Fundamentação da Persona PER-04:** Suporta diretamente **Renata Cristina Freitas (PER-04)** (31 anos, assistente administrativa, concurseira ativa que estuda no horário de almoço e precisa de alertas filtrados por e-mail);
-* **Fundamentação dos Cenários CEN-07 e CEN-08:** Modela a consulta rápida a videoaulas no smartphone (`CEN-07`) e a configuração de alertas sem ruído (`CEN-08`);
-* **Requisitos de Usabilidade e Interface:**
-  * **RF-DOC-05 (Player Educacional com Taxonomia e Material de Apoio):** O portal deve catalogar as videoaulas por disciplina e tópico específico do edital, disponibilizando botão para download de resumo/slides em PDF;
-  * **RF-DOC-06 (Configurador de Alertas com Filtros por Área e UF):** O cadastro de alertas deve permitir selecionar áreas de interesse (Administrativa, Judiciária, Fiscal, etc.) e UF desejada;
-  * **RF-DOC-07 (Validação Sintática e Confirmação Dupla no Formulário):** Inclusão de campo obrigatório de confirmação de e-mail e validação de sintaxe em tempo real antes do envio;
-  * **RNF-DOC-04 (Isolamento de Ruído Publicitário em Áreas de Mídia):** Bloqueio de anúncios dinâmicos sobrepostos ou colados ao player de vídeo para evitar toques acidentais e perda de foco;
-  * **RNF-DOC-05 (Confirmação Dupla via E-mail - Double Opt-In):** Envio automático de e-mail de ativação para a caixa postal informada antes do início dos envios periódicos.
+* **Fundamentação Empírica da Persona PER-04:** Suporta diretamente **Renata Cristina Freitas (PER-04)** (31 anos, assistente administrativa, concurseira ativa que estuda no horário de almoço e necessita de alertas filtrados por e-mail).
+* **Fundamentação dos Cenários CEN-07 e CEN-08:** Modela a consulta rápida a videoaulas no smartphone (`CEN-07`) e a configuração de alertas sem ruído publicitário ou dispersão temática (`CEN-08`).
+* **Diretrizes de Usabilidade e Interface:**
+  * O player educacional deve fornecer indexação por tópicos da disciplina e suporte a material de apoio em PDF para estudo complementar.
+  * O formulário de alertas deve oferecer segmentação por área de interesse e UF, validação sintática em tempo real e dupla confirmação (*double opt-in*) para prevenir cadastros errôneos e classificação do serviço como *spam*.
+  * Isolamento estrito de anúncios dinâmicos na área de reprodução de vídeo para evitar cliques acidentais e sobreposição visual.
 
 ---
 
@@ -410,5 +406,8 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | `1.5` | 27/09/2026 | Desenvolvimento integral da Análise Documental DOC-03 com dados do Censo da Educação Superior (INEP), das Estatísticas de Estágio (ABRES) e da PNAD Contínua (IBGE); registro da lacuna funcional de estágios no portal e derivação dos requisitos RF-DOC-03, RF-DOC-04, RNF-DOC-02 e RNF-DOC-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.6` | 28/09/2026 | Elaboração e integração da Análise Documental DOC-04 com dados da TIC Domicílios (Cetic.br), Censo EAD.BR (ABED) e Comscore, derivação dos requisitos RF-DOC-05 a RF-DOC-07 e RNF-DOC-04/05 e atualização da Tabela 4. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.7` | 04/10/2026 | Reestruturação dos 3 Perfis de Usuário do Sistema (Candidato, Publicador e Administrador) na Tabela 1 e inclusão da delimitação formal de escopo (Issue #10). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.8` | 04/10/2026 | Inclusão de Foco da Investigação e Perguntas de Pesquisa em DOC-01 a DOC-04, substituição de listas de requisitos por embasamento empírico de IHC e atualização da matriz documental (Issue #13). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
