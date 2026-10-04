@@ -11,7 +11,7 @@
 | Pedro Rocha Ferreira Lima | Definição dos critérios de agrupamento dos perfis, elaboração da Análise Documental DOC-02 (Painel Estatístico de Pessoal e DODF) e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -41,30 +41,33 @@ A caracterização do perfil apoia-se nas diretrizes teóricas de Hackos e Redis
 
 Esses atributos subsidiam a consolidação dos perfis sintetizados a seguir.
 
-## 4. Tabela Síntese dos Perfis de Usuário
+## 4. Tabela Síntese dos Perfis de Usuário do Sistema
 
-A partir do cruzamento dos dados documentais de domínio com as interações de campo, foram consolidados **três perfis de usuário distintos**, sintetizados na Tabela 1 abaixo de acordo com o modelo de caracterização de Barbosa e Silva (2010, p. 178, Exemplo 8.1).
+A partir da análise holística do domínio do portal **PCI Concursos**, foram consolidados **três perfis de usuário do sistema**, abrangendo tanto os usuários finais quanto os atores responsáveis pela operação e sustentação do portal, conforme estruturado na Tabela 1 segundo o modelo de Barbosa e Silva (2010, p. 178, Exemplo 8.1):
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Síntese dos Perfis de Usuário do PCI Concursos</b></p>
+<p align="center"><b>Tabela 1: Síntese dos Três Perfis de Usuário do Sistema PCI Concursos</b></p>
 
-| Atributo | Perfil 1: Estudante Universitário / Iniciante | Perfil 2: Concurseiro Ativo / Adulto e Maduro | Perfil 3: Baixo Letramento / Idoso / Vagas Especiais |
+| Atributo | Perfil 1: Candidato / Concurseiro *(Perfil Trabalhado no Projeto)* | Perfil 2: Publicador / Alimentador de Editais | Perfil 3: Administrador / Gestor do Portal |
 | :--- | :--- | :--- | :--- |
-| **Prioridade de Design** | Primário | Primário | Secundário (foco em acessibilidade e inclusão) |
-| **Faixa Etária** | 18 a 25 anos (jovens) | 26 a 55 anos (adultos e maduros) | 56 anos ou mais (seniores e terceira idade) |
-| **Nível de Instrução** | Superior incompleto ou recém-formado | Superior completo ou Pós-graduação | Ensino Fundamental a Médio completo |
-| **Cargo / Ocupação Típica** | Estudante de graduação / Estagiário | Analista CLT, servidor público ou profissional liberal | Autônomo, motorista, aposentado ou trabalhador do comércio |
-| **Atividades Principais no Sistema** | Buscar editais de órgãos conhecidos, baixar provas anteriores com gabaritos e resolver simulados no celular | Filtrar editais por região Centro-Oeste/DF, verificar retificações de cronograma e assinar alertas por e-mail | Buscar notícias de processos seletivos de apoio, verificar vagas reservadas a PcD/idosos e acompanhar chamadas |
-| **Experiência Tecnológica** | Alta no smartphone; média/alta no computador; navega com agilidade e utiliza atalhos. | Alta em computador e dispositivos móveis; uso frequente no ambiente de trabalho. | Baixa a moderada; uso predominantemente móvel; dificuldade com downloads e PDFs. |
-| **Conhecimento do Domínio** | Baixo a moderado; focado em estágios, vagas de nível médio ou concursos de tribunais/bancos. | Avançado; conhece bancas organizadoras, prazos de retificação, remunerações e jurisprudência. | Baixo; busca informações pontuais de cargos operacionais, cotas de idade/PcD ou notícias locais. |
-| **Frequência de Acesso** | Semanal ou esporádica (orientada a notícias de editais em alta). | Quase diária (rotina de estudos, acompanhamento de editais e resolução de questões). | Ocasional (quando avisado por familiares ou imprensa). |
-| **Dispositivo Principal** | Smartphones e notebooks pessoais | Computadores de mesa (desktop) e notebooks | Smartphones básicos ou computadores compartilhados |
-| **Principais Dores na Interface** | Sobrecarga visual, poluição de banners e lentidão ao navegar no celular. | Dificuldade de filtrar por estados/cidades com precisão e excesso de cliques para achar anexos. | Confusão entre botões de download legítimos e anúncios falsos; fontes minúsculas e falta de contraste. |
+| **Papel no Sistema** | Usuário final externo (consumidor de oportunidades e materiais) | Usuário operacional interno (alimentador e curador de conteúdo) | Usuário técnico/administrativo (gestão de infraestrutura e receita) |
+| **Prioridade de Design** | **Primário** (foco principal do reprojeto em IHC) | Secundário (foco em produtividade e agilidade de cadastro) | Secundário (foco em estabilidade, moderação e métricas) |
+| **Faixa Etária** | 18 a 55+ anos (ampla diversidade: jovens a seniores) | 22 a 45 anos | 28 a 55 anos |
+| **Nível de Instrução** | Ensino Fundamental a Superior completo / Pós-graduação | Ensino Superior em Comunicação, Jornalismo, Letras ou TI | Ensino Superior ou Pós-graduação em TI / Gestão |
+| **Ocupação Típica** | Estudantes, recém-formados, empregados CLT, servidores e autônomos | Redator web, analista de conteúdo, estagiário de curadoria de certames | Administrador de sistemas (SysAdmin), desenvolvedor ou gestor de tráfego |
+| **Atividades Principais** | Pesquisar editais por palavra-chave/órgão, filtrar vagas regionais, baixar cadernos de provas e gabaritos em PDF e resolver simulados | Realizar triagem diária em diários oficiais (DOU, DODF, DOE), cadastrar novos concursos, anexar retificações e atualizar prazos de inscrição | Gerenciar servidores e banco de dados, monitorar métricas de audiência, moderar fóruns/comentários e configurar inventário de publicidade |
+| **Experiência Tecnológica** | Moderada a alta (uso rotineiro de navegadores móveis e desktop) | Alta (habilidade com painéis administrativos, CMS, digitação ágil e web) | Avançada (experiência profunda em infraestrutura, redes e segurança) |
+| **Conhecimento do Domínio** | Variável (desde iniciantes até concurseiros experientes) | Avançado (amplo conhecimento da legislação de certames e diários oficiais) | Técnico (focado na arquitetura do portal, CDN e disponibilidade de links) |
+| **Frequência de Acesso** | Diária a semanal (guiada pelo calendário de certames e rotina de estudos) | Contínua durante a jornada de trabalho (alimentação em tempo real) | Diária (monitoramento contínuo de disponibilidade e picos de acessos) |
+| **Dispositivo Principal** | Smartphones pessoais, notebooks e computadores de trabalho | Computadores desktop com múltiplos monitores na estação de trabalho | Computadores de mesa (estações de trabalho técnicas) e servidores |
+| **Principais Dores na Interface** | Sobrecarga de anúncios enganosos, botões falsos de download de PDF, ausência de filtros refinados por UF e perda de prazos de retificações | Dificuldade de captura de dados em diários oficiais, lentidão na publicação manual de anexos e risco de duplicidade de editais | Sobrecarga de tráfego em dias de grandes certames (ex.: CNU), vulnerabilidade a scripts de raspagem abusiva e poluição do layout por anúncios |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026), com base no domínio do PCI Concursos e no modelo de Barbosa e Silva (2010).</p>
 
 </div>
+
+> **Nota de Delimitação do Escopo:** Em consonância com as diretrizes da disciplina de Interação Humano-Computador e as instruções do docente, embora o sistema envolva os três perfis de usuários mapeados acima, o presente projeto concentrará seus esforços de **análise empírica, elicitação de requisitos, modelagem de personas, cenários e reprojeto de interface estritamente no Perfil 1 (Candidato / Concurseiro)**. Essa escolha justifica-se pelo fato de os candidatos constituírem a imensa maioria dos usuários ativos e os maiores impactados pelas barreiras de usabilidade e acessibilidade do portal.
 
 ---
 
@@ -86,7 +89,7 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
 | **Leonardo da Silva Lopes Júnior** | `DOC-04` | • [*TIC Domicílios 2024* (Cetic.br/NIC.br)](https://cetic.br/pt/pesquisa/domicilios/)<br>• [*Censo EAD.BR 2023/2024* (ABED)](https://www.abed.org.br/site/pt/midiateca/censo_ead/)<br>• [*Relatório de Comunicação Digital* (Comscore, 2024)](https://www.comscore.com/) | Hábitos de consumo de videoaulas em dispositivos móveis e canais de alertas/newsletter de concursos (TAR-07 e TAR-08) | 28/09/2026 | • 82% dos internautas assistem a vídeos/tutoriais educativos online.<br>• 62% acessam predominantemente por smartphone.<br>• Microlearning (10 a 20 min) eleva retenção em 35% com material de apoio.<br>• E-mail é canal prioritário de alerta formal para 68% dos concurseiros. |
 | **João Vitor Sales Ibiapina** | `DOC-05` | *A definir pelo responsável* | Foco a definir (TAR-09 e TAR-10) | A definir | *A preencher pelo integrante após condução da análise documental.* |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026), a partir de dados públicos do IPEA, IBGE, MGI e GDF.</p>
 
 </div>
 
@@ -342,7 +345,7 @@ Para padronizar a coleta empírica entre os 5 integrantes do grupo, foi estabele
 | **Bloco 5: Execução Prática das Tarefas** | 4 min | Pedir ao participante que compartilhe a tela e execute as **duas tarefas específicas** designadas ao integrante no portal PCI Concursos, utilizando o método *Think-Aloud* (pensar em voz alta enquanto clica e busca). Anotar dúvidas, hesitações e tropeços em anúncios. |
 | **Bloco 6: Fechamento e Avaliação Subjetiva** | 2 min | Solicitar uma nota de 1 a 5 para a facilidade do site, ouvir as principais críticas e sugestões de melhoria do voluntário e finalizar a gravação agradecendo sua contribuição. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Barbosa e Silva (2010).</p>
 
 </div>
 
@@ -357,14 +360,16 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 <p align="center"><b>Tabela 4: Registro de Gravações de Entrevistas com Usuários Reais</b></p>
 
 | Entrevistador | Código do Entrevistado | Perfil Escolhido pelo Entrevistador | Tarefas Avaliadas | Data da Sessão | Duração | Link da Gravação |
-| :--- | :---: | :---: | :--- | :---: | :---: | :---: |
+| :--- | :---: | :---: | :--- | :---: | :---: | :--- |
 | **Daniel da Silva Batista** | `USR-01` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | 25/09/2026 | 06 min 19 s | [Vídeo da Entrevista (USR-01)](https://youtu.be/YkYvCZDidaY) |
 | **Pedro Rocha Ferreira Lima** | `USR-02` | Perfil 1: Estudante Universitário / Iniciante e Recém-formado | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Consulta a retificações e prazos | 27/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-02](#52-analise-documental-02-responsavel-pedro-rocha-ferreira-lima) |
 | **Arthur Sismene Carvalho** | `USR-03` | Perfil 1: Estudante Universitário / Iniciante | **Tarefa 05:** Simulado de questões online<br>**Tarefa 06:** Busca de vagas de estágio no DF | 27/09/2026 | N/A (Método Sem Usuário) | *Vídeo não disponível* — ver [Análise Documental DOC-03](#53-analise-documental-03-responsavel-arthur-sismene-carvalho) |
 | **Leonardo da Silva Lopes Júnior** | `USR-04` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 07:** Videoaulas e dicas de disciplinas<br>**Tarefa 08:** Cadastro de alerta de concursos por e-mail | 28/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-04](#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) |
 | **João Vitor Sales Ibiapina** | `USR-05` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 09:** Consulta a vagas reservadas / PcD<br>**Tarefa 10:** Acompanhamento de convocações | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
 
 > **Nota Metodológica sobre USR-02:** Conforme preceitua Barbosa e Silva (2010), na ausência de sessão síncrona gravada para o perfil `USR-02`, a modelagem de Pedro Rocha Ferreira Lima fundamentou-se integralmente no método sem usuário através da **Análise Documental DOC-02** (dados abertos do PEP/MGI e do DODF), conferindo embasamento empírico secundário para a Persona PER-02 e os Cenários CEN-03 e CEN-04.
 
@@ -372,7 +377,7 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 
 > **Nota Metodológica sobre USR-04:** Conforme preceitua Barbosa e Silva (2010), na ausência de sessão síncrona gravada para o perfil `USR-04`, a modelagem de Leonardo da Silva Lopes Júnior fundamentou-se integralmente no método sem usuário através da **Análise Documental DOC-04** (dados empíricos da pesquisa TIC Domicílios do Cetic.br/NIC.br, do Censo EAD.BR da ABED e de relatórios da Comscore), conferindo embasamento empírico secundário para a Persona PER-04, os Cenários CEN-07 e CEN-08 e os modelos HTA e CTT das Tarefas 07 e 08.
 
-</div>
+---
 
 ## 8. Bibliografia
 
@@ -404,5 +409,6 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | `1.4` | 27/09/2026 | Inclusão da Análise Documental DOC-02 elaborada por Pedro Rocha Ferreira Lima e atualização da matriz e registro de validação. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.5` | 27/09/2026 | Desenvolvimento integral da Análise Documental DOC-03 com dados do Censo da Educação Superior (INEP), das Estatísticas de Estágio (ABRES) e da PNAD Contínua (IBGE); registro da lacuna funcional de estágios no portal e derivação dos requisitos RF-DOC-03, RF-DOC-04, RNF-DOC-02 e RNF-DOC-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.6` | 28/09/2026 | Elaboração e integração da Análise Documental DOC-04 com dados da TIC Domicílios (Cetic.br), Censo EAD.BR (ABED) e Comscore, derivação dos requisitos RF-DOC-05 a RF-DOC-07 e RNF-DOC-04/05 e atualização da Tabela 4. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.7` | 04/10/2026 | Reestruturação dos 3 Perfis de Usuário do Sistema (Candidato, Publicador e Administrador) na Tabela 1 e inclusão da delimitação formal de escopo (Issue #10). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>

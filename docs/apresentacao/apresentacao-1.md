@@ -13,13 +13,13 @@
 
 </div>
 
-# Verificação — Grupo 07 (Nosso Projeto)
+# Apresentação 1 — Grupo 07
 
-Esta página reúne os vídeos de verificação do projeto do **Grupo 07**, organizados por etapa da disciplina. As verificações realizadas sobre os projetos de outras equipes estão nas páginas [Grupo 06](grupo-06.md) e [Grupo 08](grupo-08.md).
+Esta página reúne o vídeo da **Apresentação 1** do projeto do **Grupo 07**, referente à Etapa 1 da disciplina (Planejamento). As verificações e inspeções cruzadas realizadas sobre os projetos de outras equipes estão nas páginas [Grupo 06](grupo-06.md) e [Grupo 08](grupo-08.md).
 
-## 1. Vídeo de Verificação — Etapa 1
+## 1. Vídeo de Apresentação — Etapa 1
 
-Vídeo de verificação da Etapa 1 do projeto (Planejamento).
+Vídeo de apresentação da Etapa 1 do projeto (Planejamento).
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/fpSAeVCTQV4"

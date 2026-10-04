@@ -52,11 +52,11 @@ markdown_extensions:
 
 nav:
   - Início: index.md
+  - Apresentação: apresentacao/apresentacao-1.md
   - Verificação:
-    - Nosso Projeto (Grupo 07): apresentacao/apresentacao-1.md
     - Grupo 06: apresentacao/grupo-06.md
     - Grupo 08: apresentacao/grupo-08.md
-  - Planejamento 1 (Etapa 1):
+  - Planejamento (Etapa 1):
     - Equipe: planejamento/membros.md
     - Planejamento do Projeto: planejamento/planejamento-do-projeto.md
     - Heatmap de Disponibilidade: planejamento/heatmap.md
