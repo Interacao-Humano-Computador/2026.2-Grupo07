@@ -41,6 +41,7 @@ markdown_extensions:
   - tables
   - admonition
   - md_in_html
+  - attr_list
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
@@ -74,3 +75,5 @@ nav:
     - Análise de Tarefas:
       - HTA: analise-de-requisitos/analise-de-tarefas/hta.md
       - CTT: analise-de-requisitos/analise-de-tarefas/ctt.md
+  - Diretrizes e Metas (Etapa 3):
+    - Princípios Gerais de Projeto: analise-de-requisitos/principios-gerais-de-projeto.md
