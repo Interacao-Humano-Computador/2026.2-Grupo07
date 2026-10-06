@@ -1,330 +1,282 @@
+**Responsável:** Leonardo da Silva Lopes Júnior — Guia de estilo  
+**Autor dos itens 15, 16 e 17:** Leonardo da Silva Lopes Júnior
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Leonardo da Silva Lopes Júnior | Concepção, fundamentação teórica (Mayhew, 1999; Marcus, 1992), estruturação das 6 seções normativas do Guia de Estilo, definição da paleta de cores com verificação de contraste WCAG 2.1, escala tipográfica, grid responsivo, diretrizes de interação, elementos de ação (padrão antitrapaça de download) e vocabulário do domínio para o reprojeto do PCI Concursos. |
+| Leonardo da Silva Lopes Júnior | Concepção, fundamentação teórica (Mayhew, 1999; Marcus, 1992; Barbosa e Silva, 2010), estruturação formal dos itens 15, 16 e 17 com inclusão dos recortes bibliográficos do livro (Figuras 1 e 2), especificação completa das 6 seções normativas do Guia de Estilo (Introdução, Resultados de Análise, Elementos de Interface, Elementos de Interação, Elementos de Ação e Vocabulário), inclusão do padrão antitrapaça de download, paleta auditada WCAG 2.1 e demonstração de correspondência com o portal PCI Concursos. |
 | Daniel da Silva Batista | Revisão técnica da coerência metodológica com o ciclo de Mayhew e alinhamento com as metas de usabilidade. |
 | Pedro Rocha Ferreira Lima | Revisão da conformidade visual com os achados de análise de requisitos e padrões de acessibilidade. |
 | Gemini | Auxílio na estruturação textual, organização dos códigos de cores, diagramação em Markdown e checagem de conformidade com o checklist de IHC (conforme Política de Uso de IA). |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center"><b>Tabela 1:</b> Contribuição neste artefato. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
-# Guia de Estilo
+# Guia de Estilo — PCI Concursos
 
-## 1. Introdução
+## Introdução
 
-### 1.1 Propósito e Objetivos do Guia de Estilo
-O presente **Guia de Estilo** constitui o manual normativo de interface para o processo de redesign e reprojeto do portal **PCI Concursos** (`pciconcursos.com.br`). Seu objetivo primordial é estabelecer um conjunto consistente, rigoroso e acessível de diretrizes visuais, estruturais e de interação humana-computador, eliminando as ambiguidades ergonômicas, a poluição visual, a armadilha de botões falsos e os ruídos de navegação identificados ao longo da etapa de Análise de Requisitos.
+Este documento apresenta o **Guia de Estilo** para o reprojeto do portal **PCI Concursos** (`pciconcursos.com.br`), correspondente aos **itens oficiais 15, 16 e 17** da Entrega 3 da disciplina de Interação Humano-Computador da Universidade de Brasília (SALES, 2026).
 
-Como destacado por Marcus (1992) e Barbosa e Silva (2010), o design de interface não é uma atividade meramente estética, mas um compromisso de engenharia comunicacional. Uma interface coesa permite que os usuários transfiram conhecimentos adquiridos entre diferentes telas do sistema, reduzindo a carga cognitiva de processamento e aumentando significativamente a previsibilidade operacional.
+No modelo de ciclo de vida da Engenharia de Usabilidade proposto por Deborah Mayhew (1999), adotado pelo Grupo 07 em seu [Processo de Design](../planejamento/processo-de-design.md), a fase de **Análise de Requisitos** tem como um de seus principais produtos a elaboração do guia de estilo. Esse documento sintetiza e operacionaliza as diretrizes, princípios de IHC e metas de usabilidade derivados da análise de tarefas, do perfil de usuário e das possibilidades e limitações da plataforma, garantindo que as decisões de design sejam mantidas e reflitam no produto final de forma consistente (BARBOSA; SILVA, 2010, p. 109-110, 282).
 
-### 1.2 O Guia de Estilo no Ciclo de Vida de Mayhew (1999)
-No âmbito do processo metodológico adotado pela equipe — o **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew (1999)** —, o Guia de Estilo atua como a espinha dorsal de transição entre a **Fase 1 (Análise de Requisitos)** e a **Fase 2 (Design, Avaliação e Desenvolvimento)**, conforme ilustrado no fluxo metodológico da Figura 1:
+---
 
-<div align="center" markdown="1">
+## Itens de Conteúdo da Disciplina
 
-```mermaid
-flowchart TD
-    subgraph Fase1 ["Fase 1: Análise de Requisitos"]
-        A1["Perfil de Usuário<br>& Análise Documental"] --> A2["Metas de Usabilidade"]
-        A2 --> A3["Análise de Tarefas<br>(HTA e CTT)"]
-    end
+### O que é um Guia de Estilo (Item 15)
+* **Autor do item:** Leonardo da Silva Lopes Júnior
 
-    subgraph GuiaEstiloSec ["Espinha Dorsal Normativa"]
-        GE["GUIA DE ESTILO<br><i>(Manual Normativo de Interface)</i>"]
-    end
+Segundo Barbosa e Silva (2010, p. 282), é prática comum, sobretudo em projetos de grande escala ou em reprojetos de sistemas complexos, reunir os princípios e as diretrizes adotados em um documento formal intitulado **guia de estilo**. Esse documento atua como o registro central das principais decisões de design concebidas pela equipe, impedindo que se dispersem ao longo do ciclo de vida e assegurando que sejam fielmente incorporadas à interface final.
 
-    subgraph Fase2 ["Fase 2: Design, Avaliação e Desenvolvimento"]
-        N1["Nível 1: Reengenharia e Protótipo de Baixa Fidelidade<br>(Papel / Wireframe)"]
-        N2["Nível 2: Padrões de Design de Tela<br>(Média Fidelidade)"]
-        N3["Nível 3: Design Detalhado da Interface<br>(Alta Fidelidade no Figma)"]
-        N1 --> N2 --> N3
-    end
+Além disso, os autores destacam que os guias de estilo desempenham um papel fundamental como ferramenta de comunicação entre os designers de interação, desenvolvedores front-end, redatores e mantenedores do sistema, permitindo que soluções consolidadas sejam consultadas e reaproveitadas em extensões e versões futuras. Conforme apontado por Mayhew (1999), um guia de estilo pode abranger quatro escopos:
+1. **De plataforma:** restrito às convenções do sistema operacional e hardware;
+2. **Corporativo:** padronização entre diversos produtos de uma mesma instituição;
+3. **De família de produtos:** regras comuns a uma suíte de softwares integrados;
+4. **De um produto específico:** escopo este adotado formalmente neste projeto, focado nas particularidades e fluxos do **PCI Concursos**.
 
-    A1 -.-> GE
-    A2 -.-> GE
-    A3 -.-> GE
-    GE ==> N1
-    GE ==> N2
-    GE ==> N3
-```
-
-<p align="center"><b>Figura 1:</b> O papel articulador do Guia de Estilo no Ciclo de Mayhew. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), adaptado de Mayhew (1999).</p>
-
-</div>
-
-O Guia de Estilo documenta os acordos de design estabelecidos pela equipe para assegurar que:
-1. **No Nível 1 (Prototipação de Baixa Fidelidade / Protótipo de Papel):** As decisões de reengenharia respeitem a taxonomia do vocabulário, a divisão das zonas de tela e os fluxos hierárquicos delineados no HTA e CTT.
-2. **No Nível 2 (Padrões de Design de Tela / Média Fidelidade):** A grade (*grid*), os espaçamentos, a disposição espacial dos componentes e os estilos de interação mantenham uniformidade estrutural.
-3. **No Nível 3 (Design Detalhado / Alta Fidelidade):** As especificações exatas de paleta de cores (com contraste auditado), tipografia fluida, iconografia vetorial e estados de botões e formulários sejam aplicadas com fidelidade de produção.
-
-### 1.3 Público-Alvo e Forma de Utilização
-Este guia destina-se a múltiplos papéis envolvidos no ciclo de vida do projeto:
-* **Projetistas e Designers de Interação (UI/UX):** Como especificação mandatória de padrões visuais, grids, dimensões de toque e componentes reutilizáveis para a prototipação no Figma.
-* **Desenvolvedores Front-End:** Como biblioteca viva de design tokens (variáveis de cor, espaçamentos, regras de responsividade e comportamentos de estados).
-* **Avaliadores de Usabilidade:** Como instrumento de inspeção analítica e verificação heurística, confrontando os protótipos gerados com as normas aqui padronizadas.
-* **Redatores e Conteudistas (UX Writers):** Como referência lexical para manutenção do tom de voz e prevenção de ambiguidades terminológicas no domínio de seleções públicas.
-
-### 1.4 Conformidade com o Checklist da Disciplina (Itens 15, 16 e 17)
-Em estrito cumprimento aos critérios de avaliação da disciplina de Interação Humano-Computador (SALES, 2026), este documento atende integralmente aos itens de verificação do Guia de Estilo:
+A Figura 1 reproduz o trecho da literatura (Seção 8.4, p. 282) que fundamenta a definição e a importância do guia de estilo.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Conformidade com os Itens de Verificação do Guia de Estilo</b></p>
+![Definição e escopo de Guias de Estilo na literatura de IHC](../assets/images/barbosa-guia-estilo-definicao-p282.png)
 
-| Item do Checklist | Critério Avaliado | Onde é Atendido neste Documento |
-| :---: | :--- | :--- |
-| **Item 15** | *O artefato possui uma introdução contextualizando o propósito do guia, sua vinculação com a Engenharia de Usabilidade de Mayhew (1999) e seu público-alvo?* | **Seção 1 (Introdução):** Subseções 1.1, 1.2, 1.3 e diagrama metodológico da Figura 1. |
-| **Item 16** | *O artefato documenta e articula os resultados das etapas anteriores de análise (perfil de usuário, personas, cenários, análise de tarefas) que fundamentaram as decisões de design?* | **Seção 2 (Resultados de Análise):** Mapeamento empírico de DOC-01 a DOC-04, Personas PER-01 a PER-04, gargalos do HTA/CTT e derivação de metas na Tabela 2. |
-| **Item 17** | *O artefato estabelece detalhadamente as diretrizes de Elementos de Interface (grid, cores, tipografia), Elementos de Interação, Elementos de Ação e Vocabulário/Padrões?* | **Seções 3, 4, 5 e 6:** Especificação completa com paleta auditada por contraste WCAG, escala tipográfica modular, botões com regra antitrapaça de download e vocabulário controlado. |
-
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center"><b>Figura 1:</b> Definição e escopo de Guias de Estilo na literatura de IHC. <b>Fonte:</b> BARBOSA; SILVA (2010, p. 282), recorte do livro.</p>
 
 </div>
 
 ---
 
-## 2. Resultados de Análise: Fundamentação das Decisões de Design
+### Estrutura do Guia de Estilo (Item 16)
+* **Autor do item:** Leonardo da Silva Lopes Júnior
 
-O design proposto neste guia não decorre de preferências arbitrárias, mas de uma resposta direta e fundamentada aos diagnósticos empíricos e documentais levantados na [Etapa 2 (Análise de Requisitos)](../analise-de-requisitos/perfil-de-usuario.md).
+Para garantir abrangência, rigor técnico e conformidade acadêmica, Barbosa e Silva (2010, p. 283) sintetizam a estrutura clássica proposta por Marcus (1992) e Mayhew (1999) para a composição de guias de estilo. Essa estrutura organiza as decisões de design em seis seções fundamentais:
 
-### 2.1 Conexão com Perfis de Usuário e Análise Documental
-Os estudos documentais demonstraram que o portal atende a um público amplo e heterogêneo sob condições tecnológicas desafiadoras:
-* **DOC-01 (Demografia Geral de Concurseiros):** Usuários de diversas faixas etárias demandam previsibilidade e alta clareza na hierarquia da informação.
-* **DOC-02 (Concentração Geográfica e Prazos):** Mais de 65% das oportunidades de interesse regional concentram-se no DF e RIDE, e até 80% dos editais sofrem retificações. Isso exige destaque visual imediato para estados e alertas cronológicos evidentes no cabeçalho dos certames.
-* **DOC-03 (Mobile e Estudantes Universitários):** Mais de 50% dos estudantes acessam materiais por smartphones em trânsito ou redes celulares de banda limitada, exigindo layout responsivo com zero deslocamento de conteúdo (*Cumulative Layout Shift*).
-* **DOC-04 (Microaprendizagem e Dupla Jornada):** Concurseiros que trabalham em regime CLT dispõem de pequenas janelas de estudo (intervalos de almoço) e dependem de notificações assíncronas segmentadas por e-mail para não perder prazos de abertura de vagas.
+1. **Introdução:** define o objetivo do guia, sua organização interna, o público-alvo (programadores, gerentes, equipe de suporte, designers), diretrizes de uso tanto na produção quanto na manutenção e procedimentos para mantê-lo atualizado;
+2. **Resultados de análise:** registra a descrição do ambiente de trabalho do usuário (condições físicas, contextuais e técnicas de uso identificadas no perfil do usuário e na plataforma) e metas de usabilidade;
+3. **Elementos de interface:** padroniza a disposição espacial e grid de tela, comportamento de janelas e modais, tipografia institucional, símbolos não tipográficos (ícones e marcas), paleta de cores e animações/transições;
+4. **Elementos de interação:** especifica os estilos de interação suportados (menus, busca, links), a justificativa da seleção dos estilos predominantes e aceleradores (teclas de atalho e acessibilidade);
+5. **Elementos de ação:** padroniza os mecanismos de preenchimento de campos em formulários, elementos de seleção (dropdowns, checkboxes, rádios) e mecanismos de ativação (botões e acionadores);
+6. **Vocabulário e padrões:** estabelece a terminologia oficial e compreensível para os termos de domínio, os tipos de telas para as tarefas comuns e as sequências de diálogos (mensagens de confirmação, avisos de erro e feedback).
 
-### 2.2 Requisitos Derivados das Personas
+Adicionalmente, Mayhew (1999) recomenda explicitar o *design rationale* (a justificativa de cada decisão), assegurando o rastreamento direto entre os problemas levantados nas etapas anteriores e os elementos de interface projetados. A Figura 2 ilustra o trecho da literatura (Seção 8.4, p. 283) que estabelece essa divisão estrutural.
+
+<div align="center" markdown="1">
+
+![Estrutura de Guia de Estilo segundo Marcus (1992) e Mayhew (1999)](../assets/images/barbosa-guia-estilo-estrutura-p283.png)
+
+<p align="center"><b>Figura 2:</b> Estrutura de Guia de Estilo segundo Marcus (1992) e Mayhew (1999). <b>Fonte:</b> BARBOSA; SILVA (2010, p. 283), recorte do livro.</p>
+
+</div>
+
+---
+
+## Estrutura Normativa do Guia de Estilo
+
+A seguir, apresentam-se as decisões de design do novo **PCI Concursos** organizadas rigorosamente segundo os seis eixos normativos da literatura (MARCUS, 1992; MAYHEW, 1999; BARBOSA; SILVA, 2010).
+
+---
+
+### 1. Introdução
+
+#### 1.1 Objetivo do guia de estilo
+O objetivo deste Guia de Estilo é estabelecer os padrões normativos de interface, diretrizes de usabilidade, convenções de interação e vocabulário controlado para o reprojeto do portal **PCI Concursos**. Este documento serve como referência técnica e projetual para a equipe do Grupo 07 durante a elaboração dos protótipos de baixa fidelidade (Protótipo de Papel / Nível 1) e alta fidelidade (Figma / Nível 3), garantindo que as metas de usabilidade definidas na fase de Análise de Requisitos sejam cumpridas e que o sistema ofereça uma experiência de uso consistente, segura, transparente e despoluída aos concurseiros e estudantes de todo o país.
+
+#### 1.2 Organização e conteúdo do guia de estilo
+O guia está estruturado em estrita conformidade com as diretrizes consolidadas de IHC, dividindo-se em:
+* **Resultados de análise:** contextualização do ambiente físico, técnico e cognitivo do usuário, requisitos das personas e metas de usabilidade;
+* **Elementos de interface:** normas de grid responsivo modular, janelas/modais, tipografia de alta legibilidade, iconografia padronizada, paleta cromática auditada (WCAG 2.1) e animações suaves;
+* **Elementos de interação:** estilos de diálogo homem-máquina, critérios de seleção de estilos e atalhos de acessibilidade;
+* **Elementos de ação:** padrões para preenchimento de formulários, seleção de itens, hierarquia de ativação de botões e o **padrão antitrapaça de download**;
+* **Vocabulário e padrões:** glossário oficial de concursos públicos, padrões estruturais de telas e sequências de diálogos com feedback imediato;
+* **Correspondência com o site avaliado:** demonstração ponto a ponto da aderência das decisões à resolução dos diagnósticos empíricos do PCI Concursos.
+
+#### 1.3 Público-alvo
+Este guia destina-se aos seguintes papéis envolvidos no projeto:
+* **Designers de Interação e Avaliadores (Grupo 07):** responsáveis por conceber os protótipos e inspecionar conformidades ergonômicas;
+* **Desenvolvedores Front-end:** responsáveis pela codificação fiel dos componentes visuais, respeitando tokens de cor, espaçamentos e acessibilidade;
+* **Analistas de Usabilidade e Acessibilidade:** responsáveis por auditorias heurísticas e testes com usuários;
+* **Gestores Editoriais e Conteudistas:** responsáveis pela publicação de editais, videoaulas, simulados e comunicados oficiais.
+
+#### 1.4 Como utilizar o guia
+* **Em produção (projeto e desenvolvimento):** deve ser consultado obrigatoriamente antes da criação de qualquer novo fluxo, componente ou tela, servindo como especificação normativa para escolha de cores, tamanhos de fonte, espaçamentos, áreas de toque e mensagens de erro;
+* **Em manutenção e avaliação:** serve como checklist de referência durante avaliações heurísticas, testes de usabilidade e auditorias de acessibilidade, orientando correções rápidas de divergências visuais e comportamentais.
+
+#### 1.5 Como manter o guia
+O guia deve ser revisado de forma iterativa ao final de cada ciclo de avaliação com usuários (Etapas 5 e 7). Quaisquer modificações em decisões de design devem ser registradas no histórico de versão do documento, acompanhadas de seu respectivo *design rationale* (a justificativa da alteração embasada nos dados observados nas avaliações empíricas).
+
+---
+
+### 2. Resultados de Análise
+
+#### 2.1 Descrição do ambiente de trabalho do usuário
+Com base no [Perfil do Usuário](../analise-de-requisitos/perfil-de-usuario.md) consolidado na Etapa 2 e nas análises documentais ([DOC-01](../analise-de-requisitos/perfil-de-usuario.md#51-analise-documental-01-responsavel-daniel-da-silva-batista) a [DOC-04](../analise-de-requisitos/perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior)), identificou-se que o público do PCI Concursos caracteriza-se por:
+* **Dispositivos e Resoluções:** Uso heterogêneo entre smartphones (telas de 5 a 6,7 polegadas em trânsito, ônibus e intervalos de trabalho sob redes 4G/5G oscilantes) e computadores desktop/notebooks (monitores de 13 a 24 polegadas em casa ou escritórios). O layout deve assegurar legibilidade sem depender de zoom manual;
+* **Condições de Iluminação e Fadiga Ocular:** Variações extremas desde leitura sob sol intenso em pontos de ônibus até sessões noturnas prolongadas de estudo em quartos com iluminação reduzida, justificando a oferta indispensável de modo escuro com alto contraste;
+* **Carga Cognitiva e Estresse Temporal:** Concurseiros estudam sob pressão de datas limites de inscrição e prazos curtos de intervalos de descanso. A interface deve eliminar anúncios piscantes e concorrentes, priorizando respiro visual e clareza informativa;
+* **Conectividade:** Grande parcela dos acessos móveis dá-se sob planos limitados de dados móveis, exigindo carregamento leve de ativos, ausência de scripts desnecessários e **zero salto de layout (*Zero CLS*)**.
+
+#### 2.2 Requisitos derivados das personas e análise documental
 As quatro personas modeladas no projeto orientam diretamente as escolhas de interface:
-1. **Maria Helena dos Santos (PER-01 — 53 anos, Concurseira Ativa e Cautelosa):** Apresenta fadiga visual decorrente de leitura prolongada em telas e vulnerabilidade cognitiva a anúncios que mimetizam links operacionais.  
-   $\rightarrow$ *Decisão de Design:* Contraste tipográfico elevado (WCAG AAA), espaçamento generoso entre linhas e **completo isolamento cromático e espacial dos botões de download legítimos**.
-2. **Lucas Ferreira Rocha (PER-02 — 24 anos, Iniciante Dinâmico):** Navega predominantemente por smartphone à procura de editais imediatos no DF.  
-   $\rightarrow$ *Decisão de Design:* Filtros regionais instantâneos (*chips/pills* reativas) e sumário de prazos visíveis sem rolagem longa.
-3. **Thiago Moraes Albuquerque (PER-03 — 21 anos, Estudante Universitário):** Utiliza smartphones de tela pequena em transporte público e busca simulados e oportunidades de estágio.  
-   $\rightarrow$ *Decisão de Design:* Áreas de toque aumentadas (mínimo de 44x44px), modo foco para resolução de questões e desambiguação clara do vocabulário "estágio de estudante" versus "estágio probatório".
-4. **Renata Cristina Freitas (PER-04 — 31 anos, Analista Administrativa CLT):** Estuda videoaulas durante intervalos de trabalho e precisa receber boletins no e-mail sem poluição de spams.  
-   $\rightarrow$ *Decisão de Design:* Player de vídeo integrado sem sobreposição de banners no modo horizontal móvel e formulário de inscrição em newsletter com segmentação obrigatória por estado (UF) e carreira.
+* **Maria Helena dos Santos (PER-01 — 53 anos, Concurseira Ativa e Cautelosa):** Sofre com ardência visual ao ler na tela e quase clicou em botões verdes falsos de *"DOWNLOAD"* de propagandas no teste real (USR-01 / CEN-02). $\rightarrow$ *Demanda botões oficiais de download isolados de anúncios e contraste elevado.*
+* **Lucas Ferreira Rocha (PER-02 — 24 anos, Iniciante Dinâmico):** Precisa localizar editais abertos no DF sem ter que rolar dezenas de páginas de cidades do interior de outros estados (CEN-03). $\rightarrow$ *Demanda chips reativos de filtragem por UF no topo da tabela.*
+* **Thiago Moraes Albuquerque (PER-03 — 21 anos, Estudante Universitário):** Utiliza smartphones no transporte público e busca simulados e vagas de estágio, mas perdeu o progresso das questões e confundiu-se com termos ambíguos de estágio probatório (CEN-05 e CEN-06). $\rightarrow$ *Demanda alvos de toque aumentados (44x44px), modo foco e busca inteligente com desambiguação semântica.*
+* **Renata Cristina Freitas (PER-04 — 31 anos, Analista Administrativa CLT):** Assiste a videoaulas no intervalo de almoço no celular e cadastrou e-mail para receber vagas, mas foi bombardeada por mensagens genéricas de prefeituras distantes (CEN-07 e CEN-08). $\rightarrow$ *Demanda player móvel que não sobreponha anúncios aos controles no modo paisagem e newsletter com filtros por UF e carreira, com saída em 1 clique (LGPD).*
 
-### 2.3 Metas de Usabilidade e Experiência do Usuário (Mayhew, 1999)
-A Tabela 2 sintetiza as metas de usabilidade acordadas e como os padrões do guia asseguram seu atingimento:
+#### 2.3 Metas de usabilidade do projeto
+Conforme preconizado por Mayhew (1999) e Barbosa e Silva (2010), o guia operacionaliza as seguintes metas de usabilidade:
+1. **Segurança no Uso:** Eliminação total de armadilhas visuais e anúncios enganosos que induzam o usuário a baixar arquivos maliciosos;
+2. **Eficácia:** Garantia de que concurseiros e estudantes encontrem o edital, videoaula ou prova desejada em menos de 3 minutos de navegação;
+3. **Eficiência:** Redução drástica do tempo de resposta das consultas mediante carregamento assíncrono e filtros reativos;
+4. **Facilidade de Aprendizado (*Learnability*):** Menus simplificados em 4 agrupamentos funcionais com ícones autoexplicativos;
+5. **Acessibilidade Universal (WCAG 2.1 AA):** Garantia de contraste mínimo de 4.5:1 para texto normal, 3:1 para componentes de interface e áreas de toque mínimas de 44x44px.
+
+---
+
+### 3. Elementos de Interface
+
+#### 3.1 Disposição espacial e grid
+* **Sistema de Grid:** Baseado em **12 colunas** no desktop (largura máxima centralizada de 1280px), **8 colunas** em tablets e **4 colunas** no mobile, estruturado sobre uma escala modular de múltiplos de 8 pontos (**8pt Grid System**);
+* **Margens e Calhas (*Gutters*):**
+  * *Desktop:* margens externas de 32px e calhas de 24px;
+  * *Tablet:* margens externas de 24px e calhas de 16px;
+  * *Mobile:* margens externas de 16px e calhas de 12px;
+* **Tokens de Espaçamento:**
+  * `$space-xxs: 4px` (microajustes);
+  * `$space-xs: 8px` (padding interno de tags e badges);
+  * `$space-sm: 16px` (padding interno de cartões e inputs);
+  * `$space-md: 24px` (gutter de colunas e distância entre campos);
+  * `$space-lg: 32px` (respiro entre seções de conteúdo);
+  * `$space-xl: 48px` (raio protetivo antitrapaça de downloads);
+  * `$space-2xl: 64px` (respiro de rodapé).
+
+#### 3.2 Janelas e modais
+* **Modais de Diálogo:** Reservados para ações focadas e de confirmação (ex.: confirmar descadastramento de e-mail, visualizar detalhes rápidos de uma questão de simulado ou exibir filtros avançados em telas móveis);
+* **Mecanismos de Saída:** Todo modal deve oferecer três vias seguras de fechamento:
+  1. Botão explícito *"Fechar [X]"* no canto superior direito (área mínima de 44x44px);
+  2. Clique na máscara semitransparente externa (*overlay* com opacidade de 50%);
+  3. Pressionamento da tecla `Esc` no teclado;
+* **Controle de Foco (*Focus Trap*):** Enquanto o modal estiver ativo, a navegação via `Tab` deve permanecer confinada exclusivamente aos elementos internos do modal.
+
+#### 3.3 Tipografia
+Adotam-se famílias tipográficas sem serifa modernas, de excelente legibilidade em telas de alta e baixa densidade de pixels. A Tabela 2 apresenta a escala modular padronizada:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 2: Metas de Usabilidade do Projeto e Soluções Normativas</b></p>
+<p align="center"><b>Tabela 2: Escala Tipográfica Padronizada do PCI Concursos</b></p>
 
-| Meta de Usabilidade | Problema Diagnosticado no PCI Atual | Solução Padronizada no Guia de Estilo |
-| :--- | :--- | :--- |
-| **Segurança no Uso** | Usuários clicam em anúncios com falsos botões *"DOWNLOAD"*, correndo risco de instalar malwares ou assinar serviços indesejados. | **Padrão Antitrapaça:** Botão de download de provas/editais possui identidade visual exclusiva (azul sólido com ícone de PDF e peso do arquivo) e área de respiro de no mínimo 32px livre de publicidade externa. |
-| **Eficácia** | Usuários gastam até 12 minutos buscando vagas de estágio ou editais do DF sem encontrar resultados válidos por falta de filtros. | **Filtros Facetados e Desambiguação:** Seletor nativo por Unidade Federativa (UF) no topo da tabela e autocompletar com distinção semântica entre estágio estudantil e probatório. |
-| **Eficiência** | Navegação lenta exigindo múltiplos recarregamentos de página (*full reload*) e rolagem exaustiva de listas não paginadas. | **Carregamento Assíncrono e Paginação:** Atualização de resultados sob demanda com resposta em menos de 200ms e paginação compacta de 20 a 50 certames por bloco. |
-| **Facilidade de Aprendizado (*Learnability*)** | Menus com 15 itens desorganizados sem taxonomia lógica, confundindo ferramentas de estudo com notícias. | **Hierarquia de Navegação Semântica:** Agrupamento do menu principal em quatro categorias funcionais com ícones e rótulos concisos. |
-| **Acessibilidade (WCAG 2.1 AA)** | Textos em fontes inferiores a 12px, baixo contraste de cores e áreas de clique reduzidas no mobile. | **Conformidade WCAG 2.1:** Contraste mínimo de texto de 4.5:1 (normal) e 7:1 (grande), tipografia base de 16px e alvos de toque mínimos de 44x44px. |
+| Nível / Uso | Família Tipográfica | Tamanho | Peso | Altura de Linha (*Line-height*) |
+| :--- | :--- | :---: | :---: | :---: |
+| **Título Principal (H1)** | *Inter*, sans-serif | 32 px (Desktop) / 28 px (Mobile) | 700 (Bold) | 1.25 (40 px) |
+| **Título de Seção (H2)** | *Inter*, sans-serif | 24 px (Desktop) / 22 px (Mobile) | 600 (Semi-bold) | 1.30 (32 px) |
+| **Título de Módulo (H3)** | *Inter*, sans-serif | 20 px (Desktop) / 18 px (Mobile) | 600 (Semi-bold) | 1.35 (28 px) |
+| **Subtítulos e Destaques** | *Inter*, sans-serif | 16 px | 500 (Medium) | 1.40 (22 px) |
+| **Corpo de Texto (Padrão)** | *Inter*, sans-serif | 16 px | 400 (Regular) | 1.55 (24 px) |
+| **Rótulos e Metadados** | *Inter*, sans-serif | 14 px | 500 (Medium) | 1.45 (20 px) |
+| **Legendas e Badges** | *Inter*, sans-serif | 12 px (tamanho mínimo absoluto) | 600 (Semi-bold) | 1.40 (16 px) |
+| **Numerais e Protocolos** | Monospaçada (`ui-monospace, Consolas`) | 14 px | 500 (Medium) | 1.40 (20 px) |
 
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
----
+#### 3.4 Símbolos não tipográficos (ícones e marcas)
+* **Estilo Visual:** Linhas geométricas limpas (*outline*), bidimensionais, com espessura uniforme de 2px e dimensões de base de `24 x 24 px` (com versões de `16 x 16 px` para botões compactos);
+* **Catálogo de Ícones Essenciais:**
+  * 🔍 **Lupa:** Busca geral e acionamento de pesquisas;
+  * 📄 **Documento PDF:** Exclusivo para arquivos autênticos de provas e editais oficiais;
+  * 📍 **Pin / Mapa:** Tag de localização geográfica de concursos (ex.: `[📍 DF]`);
+  * 📅 **Calendário:** Prazos de inscrição e datas de provas objetivas;
+  * 🔔 **Sino:** Central de alertas de vagas e newsletters;
+  * ▶️ **Play:** Reprodução de videoaulas e dicas didáticas;
+  * ⚠️ **Alerta:** Retificações de editais e erratas de bancas;
+  * ♿ **Acessibilidade:** Vagas reservadas para Pessoas com Deficiência (PcD).
+* **Logotipo Oficial:** Margem de respiro mínima equivalente à altura da letra "P". No cabeçalho escuro, utiliza-se obrigatoriamente a versão com tipografia branca (`pci_logo_white.png`).
 
-## 3. Elementos de Interface
-
-### 3.1 Disposição Espacial e Sistema de Grid
-Para garantir consistência e adaptabilidade fluida entre diferentes formatos de tela (smartphones, tablets, notebooks e monitores de mesa), adota-se um **sistema de grid baseado em 12 colunas** com dimensionamento modular baseado na unidade de **8 pontos (8pt Grid System)**:
+#### 3.5 Cores
+A paleta preserva a identidade visual consagrada do PCI Concursos (azul clássico), corrigindo os graves problemas de contraste anteriores. Todas as cores foram auditadas conforme o critério 1.4.3 da WCAG 2.1:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 3: Especificações do Grid Responsivo por Dispositivo</b></p>
+<p align="center"><b>Tabela 3: Paleta Cromática Padronizada e Auditoria de Contraste</b></p>
 
-| Parâmetro | Mobile (Smartphone) | Tablet (Retrato/Paisagem) | Desktop (Notebook/Monitor) |
-| :--- | :---: | :---: | :---: |
-| **Faixa de Viewport** | 360 px a 767 px | 768 px a 1023 px | 1024 px a 1440 px+ |
-| **Número de Colunas** | 4 colunas | 8 colunas | 12 colunas |
-| **Margem Externa (*Margin*)** | 16 px | 24 px | 32 px (centralizado com largura máx. de 1280 px) |
-| **Espaçamento entre Colunas (*Gutter*)** | 12 px | 16 px | 24 px |
-| **Unidade Base de Espaçamento** | 4 px / 8 px | 8 px | 8 px |
+| Categoria | Nome do Token | Código Hexadecimal | Amostra | Uso Recomendado | Razão de Contraste | Nível WCAG |
+| :--- | :--- | :---: | :---: | :--- | :---: | :---: |
+| **Primária** | `$color-primary-dark` | `#003366` | <span style="background-color:#003366;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#003366</span> | Cabeçalho principal, títulos H1/H2 e barras de topo | 11.2:1 (sobre branco) | **AAA** |
+| **Primária** | `$color-primary` | `#0056B3` | <span style="background-color:#0056B3;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#0056B3</span> | Botões primários oficiais, links ativos e abas selecionadas | 7.3:1 (sobre branco) | **AAA** |
+| **Superfície** | `$color-surface-bg` | `#F8F9FA` | <span style="background-color:#F8F9FA;color:#24292F;padding:3px 10px;border-radius:4px;border:1px solid #D0D7DE;font-weight:bold;">#F8F9FA</span> | Fundo geral da página (respiro sem ofuscamento) | Base | — |
+| **Superfície** | `$color-surface-card` | `#FFFFFF` | <span style="background-color:#FFFFFF;color:#24292F;padding:3px 10px;border-radius:4px;border:1px solid #D0D7DE;font-weight:bold;">#FFFFFF</span> | Fundo de cartões de concursos, modais e tabelas | Base | — |
+| **Bordas** | `$color-border` | `#D0D7DE` | <span style="background-color:#D0D7DE;color:#24292F;padding:3px 10px;border-radius:4px;font-weight:bold;">#D0D7DE</span> | Divisores de blocos, linhas de tabelas e contornos | 3.1:1 (UI component) | **AA** |
+| **Texto** | `$color-text-main` | `#24292F` | <span style="background-color:#24292F;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#24292F</span> | Títulos, corpos de notícias e enunciados de questões | 13.8:1 (sobre branco) | **AAA** |
+| **Texto** | `$color-text-muted` | `#57606A` | <span style="background-color:#57606A;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#57606A</span> | Metadados, datas, bancas e legendas secundárias | 4.8:1 (sobre branco) | **AA** |
+| **Semântica** | `$color-success` | `#1A7F37` | <span style="background-color:#1A7F37;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#1A7F37</span> | *"Inscrições Abertas"*, acertos em simulados | 4.6:1 (sobre branco) | **AA** |
+| **Semântica** | `$color-warning` | `#9A6700` | <span style="background-color:#9A6700;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#9A6700</span> | *"Retificação Publicada"*, *"Últimos Dias"* de inscrição | 4.7:1 (sobre branco) | **AA** |
+| **Semântica** | `$color-danger` | `#CF222E` | <span style="background-color:#CF222E;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#CF222E</span> | *"Inscrições Encerradas"*, erros e cancelamento | 4.9:1 (sobre branco) | **AA** |
 
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
-#### Escala Modular de Espaçamentos (Spacing Tokens)
-Todos os espaçamentos internos (*padding*) e externos (*margin*) dos componentes devem utilizar estritamente a escala de múltiplos de 8px (com exceção do token de 4px para microajustes de ícones e badges):
-* `$space-xxs`: `4px` (margem mínima entre ícone e rótulo de texto)
-* `$space-xs`: `8px` (padding interno de badges e botões compactos)
-* `$space-sm`: `16px` (padding interno de cartões e inputs de formulário)
-* `$space-md`: `24px` (gutter de colunas em desktop e respiro entre blocos de formulário)
-* `$space-lg`: `32px` (distância entre seções consecutivas de conteúdo)
-* `$space-xl`: `48px` (margem de respiro de títulos principais e áreas de banner)
-* `$space-2xl`: `64px` (espaçamento de rodapé institucional)
-
-#### Zonas Estruturais da Tela
-A interface do novo PCI Concursos é dividida em quatro zonas funcionais bem definidas:
-1. **Cabeçalho Persistente (*Header*):** Altura fixa de 64px no desktop (56px no mobile), integrando o logotipo oficial à esquerda, barra de pesquisa global centralizada com atalho `/`, e acesso rápido a perfis e alertas à direita.
-2. **Barra de Navegação Primária (*Navigation Bar*):** Disposta logo abaixo do cabeçalho, categorizada em blocos semânticos: *Início*, *Concursos por Região*, *Provas & Gabaritos*, *Aulas & Dicas*, *Simulados* e *Alertas por E-mail*.
-3. **Área Principal de Conteúdo (*Main Content Area*):** Largura máxima delimitada de 1280px, centralizada na janela. **Regra de layout:** Proibida a intercalação de publicidade comercial entre itens de uma mesma listagem de notícias ou tabelas de concursos.
-4. **Rodapé Institucional (*Footer*):** Zonas claramente delimitadas para mapa do site, informações institucionais, link de acessibilidade, política de privacidade (LGPD) e canais de contato.
+#### 3.6 Animações e transições
+* **Duração e Curva:** Transições de abertura de acordeões, modais e abas devem ter duração restrita entre **150ms e 200ms** com curva de desaceleração suave (`ease-out`);
+* **Acessibilidade:** Suporte mandatório à diretiva `prefers-reduced-motion: reduce`, desligando animações para usuários suscetíveis a labirintite ou vertigem.
 
 ---
 
-### 3.2 Paleta de Cores e Contraste Acessível
-A paleta cromática do novo portal foi concebida para preservar a identidade visual histórica do PCI Concursos (centrada nos tons de azul), corrigindo rigorosamente os graves problemas de contraste e ilegibilidade identificados no site original.
+### 4. Elementos de Interação
 
-Todas as combinações de cor para textos e fundos foram auditadas com base no algoritmo WCAG 2.1, assegurando no mínimo o nível **AA** (razão de contraste de 4.5:1 para texto normal e 3:1 para texto grande/componentes interativos) e alcançando o nível **AAA** (7:1) nos elementos de maior importância de leitura.
+#### 4.1 Estilos de interação
+1. **Navegação Categorizada Estruturada:** O menu superior substitui a lista caótica de 15 itens por quatro grandes blocos temáticos: *Oportunidades (Concursos por Região e Cargos)*, *Estudos (Provas, Aulas e Simulados)*, *Serviços (Alertas por E-mail)* e *Institucional*;
+2. **Busca Direta com Sugestão Preditiva:** Campo de busca com autocompletar instantâneo agrupado por categoria (Órgãos, Disciplinas, Bancas);
+3. **Manipulação Direta Reativa (Filtros por Chips):** Filtragem de concursos na tabela via cliques em chips (ex.: clicar em `[DF]` filtra a tabela em tempo real sem reload completo de página).
+
+#### 4.2 Seleção de um estilo
+A combinação entre navegação categorizada e busca facetada responde diretamente aos dois perfis de comportamento diagnosticados na Etapa 2:
+* **Usuário com Objetivo Definido (ex.: Lucas e Maria Helena):** Deseja buscar um órgão específico ("Correios", "TJDFT") ou filtrar imediatamente sua região sem fricção;
+* **Usuário Exploratório / Em Trânsito (ex.: Thiago e Renata):** Busca opções rápidas de estudo ou vagas do dia, demandando catálogo categorizado e de escaneamento visual limpo.
+
+#### 4.3 Aceleradores (teclas de atalho)
+Para garantir eficiência operacional e acessibilidade motora:
+* **Tecla `/`:** Foca imediatamente o cursor na barra de pesquisa principal do cabeçalho;
+* **Tecla `Esc`:** Fecha qualquer modal ativo, menu suspenso ou filtro aberto;
+* **Atalhos de Pulo (*Skip Links*):**
+  * `Alt + 1`: Salta direto para o conteúdo principal;
+  * `Alt + 2`: Salta para o menu de navegação;
+  * `Alt + 3`: Salta para a barra de busca;
+  * `Alt + 4`: Salta para o rodapé;
+* **Anel de Foco Visível:** Elementos focados pelo teclado recebem contorno azul destacado de **3px** (`box-shadow: 0 0 0 3px #0056B3`), eliminando o foco invisível.
+
+---
+
+### 5. Elementos de Ação
+
+#### 5.1 Preenchimento de campos em formulários
+* **Rótulos Permanentes (*Top Labels*):** O rótulo fica fixo acima da caixa de entrada, nunca sumindo durante a digitação;
+* **Validação em Tempo Real:** Validação sintática instantânea ao sair do campo (*onBlur*), com mensagem de erro em fonte 14px em vermelho (`#CF222E`) e ícone explicativo;
+* **Dimensão Mínima de Toque:** Campos de texto com altura mínima de **48px** e padding horizontal de **16px**.
+
+#### 5.2 Seleção
+* **Caixas de Seleção (*Checkboxes*):** Usadas para seleções múltiplas e independentes (ex.: selecionar as UFs de interesse: `[x] DF`, `[x] GO`, `[ ] MT`);
+* **Botões de Rádio (*Radio Buttons*):** Exclusivos para escolhas mutuamente excludentes (ex.: periodicidade da newsletter: `(o) Diária` ou `( ) Semanal`);
+* **Menus Suspensos (*Dropdowns*):** Empregados para listas com mais de 7 opções (como lista de todas as 27 UFs do Brasil).
+
+#### 5.3 Ativação e hierarquia de botões
+Os botões seguem hierarquia visual estrita de quatro níveis (Tabela 4):
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 4: Paleta Cromática Institucional e Operacional</b></p>
+<p align="center"><b>Tabela 4: Padrões de Botões e Mecanismos de Ativação</b></p>
 
-| Nome do Token | Código Hexadecimal | Amostra Visual | Uso Recomendado | Razão de Contraste (Fundo) | Nível WCAG |
-| :--- | :---: | :---: | :--- | :---: | :---: |
-| **`$color-primary-dark`** | `#003366` | <span style="background-color:#003366;color:#FFF;padding:4px 12px;border-radius:4px;font-weight:bold;">#003366</span> | Azul institucional escuro. Cabeçalhos principais, títulos H1/H2 e barras de topo. | 11.2:1 (sobre fundo branco) | **AAA** |
-| **`$color-primary`** | `#0056B3` | <span style="background-color:#0056B3;color:#FFF;padding:4px 12px;border-radius:4px;font-weight:bold;">#0056B3</span> | Azul de ação principal. Botões primários legítimos, links ativos e abas selecionadas. | 7.3:1 (sobre fundo branco) | **AAA** |
-| **`$color-primary-light`** | `#EBF3FA` | <span style="background-color:#EBF3FA;color:#003366;padding:4px 12px;border-radius:4px;font-weight:bold;">#EBF3FA</span> | Azul suave. Fundo de cards destacados, linhas zebradas de tabelas e estados hover suaves. | 10.5:1 (com texto escuro) | **AAA** |
-| **`$color-surface-bg`** | `#F8F9FA` | <span style="background-color:#F8F9FA;color:#24292F;padding:4px 12px;border-radius:4px;border:1px solid #D0D7DE;font-weight:bold;">#F8F9FA</span> | Fundo geral da página. Garante respiro e conforto visual sem ofuscamento de branco puro. | Base | — |
-| **`$color-surface-card`** | `#FFFFFF` | <span style="background-color:#FFFFFF;color:#24292F;padding:4px 12px;border-radius:4px;border:1px solid #D0D7DE;font-weight:bold;">#FFFFFF</span> | Branco puro. Superfície de cartões, modais de diálogo e caixas de formulário. | Base | — |
-| **`$color-text-main`** | `#24292F` | <span style="background-color:#24292F;color:#FFF;padding:4px 12px;border-radius:4px;font-weight:bold;">#24292F</span> | Cinza escuro profundo (quase preto). Corpo de texto, parágrafos e enunciados de questões. | 13.8:1 (sobre fundo branco) | **AAA** |
-| **`$color-text-muted`** | `#57606A` | <span style="background-color:#57606A;color:#FFF;padding:4px 12px;border-radius:4px;font-weight:bold;">#57606A</span> | Cinza médio. Metadados, datas de postagem, legendas, número de vagas e créditos. | 4.8:1 (sobre fundo branco) | **AA** |
-| **`$color-border`** | `#D0D7DE` | <span style="background-color:#D0D7DE;color:#24292F;padding:4px 12px;border-radius:4px;font-weight:bold;">#D0D7DE</span> | Cinza claro neutro. Linhas divisórias, bordas de cards e contornos de inputs inativos. | 3.1:1 (componente UI) | **AA** |
-| **`$color-success`** | `#1A7F37` | <span style="background-color:#1A7F37;color:#FFF;padding:4px 12px;border-radius:4px;font-weight:bold;">#1A7F37</span> | Verde semântico. Status *"Inscrições Abertas"*, resposta correta em simulados e confirmação. | 4.6:1 (sobre fundo branco) | **AA** |
-| **`$color-warning`** | `#9A6700` | <span style="background-color:#9A6700;color:#FFF;padding:4px 12px;border-radius:4px;font-weight:bold;">#9A6700</span> | Âmbar escuro. Status *"Retificação Publicada"*, *"Últimos Dias"* e prazos em encerramento. | 4.7:1 (sobre fundo branco) | **AA** |
-| **`$color-danger`** | `#CF222E` | <span style="background-color:#CF222E;color:#FFF;padding:4px 12px;border-radius:4px;font-weight:bold;">#CF222E</span> | Vermelho semântico. Status *"Inscrições Encerradas"*, gabarito incorreto e erros de formulário. | 4.9:1 (sobre fundo branco) | **AA** |
-
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
-
-</div>
-
-#### Paleta para Modo Escuro (Alto Contraste)
-O portal deve suportar nativamente a alternância para Modo Escuro via token de preferência (`prefers-color-scheme: dark`) ou seletor manual na barra superior:
-* Superfície de fundo: `#0D1117`
-* Superfície de cartões: `#161B22`
-* Bordas divisórias: `#30363D`
-* Texto principal: `#E6EDF3` (contraste de 14.1:1)
-* Texto secundário: `#8B949E` (contraste de 5.2:1)
-* Azul primário no modo escuro: `#388BFD` (contraste de 6.1:1 sobre `#0D1117`)
-
----
-
-### 3.3 Tipografia
-A tipografia foi selecionada para garantir altíssima legibilidade em telas de diferentes resoluções e densidades de pixels (especialmente telas de smartphones com renderização sob luz solar).
-
-* **Família Tipográfica Primária:** `Inter`, com fallback para fontes do sistema operacional (`-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif`). A família *Inter* possui altura-x elevada, numerais tabulares claros e grande distinção entre caracteres facilmente confundíveis (como `I`, `l` e `1`).
-* **Família Tipográfica Monospaçada (para códigos de vaga, datas e protocolos):** `ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace`.
-
-<div align="center" markdown="1">
-
-<p align="center"><b>Tabela 5: Escala Tipográfica Modular do Sistema</b></p>
-
-| Nível / Uso | Tamanho da Fonte | Altura de Linha (*Line Height*) | Peso (*Font Weight*) | Exemplo de Aplicação |
-| :--- | :---: | :---: | :---: | :--- |
-| **Título H1 (Display)** | 28 px (Mobile) / 32 px (Desktop) | 1.25 (36 px a 40 px) | Bold (700) | Nome do órgão no edital, título da página principal. |
-| **Título H2 (Seção)** | 22 px (Mobile) / 24 px (Desktop) | 1.30 (28 px a 32 px) | SemiBold (600) | Títulos de categorias ("Concursos no Distrito Federal", "Aulas"). |
-| **Título H3 (Subseção)** | 18 px (Mobile) / 20 px (Desktop) | 1.35 (24 px a 28 px) | SemiBold (600) | Título de cards de concursos, nomes de disciplinas. |
-| **Subtítulo / Destaque** | 16 px | 1.40 (22 px) | Medium (500) | Resumo do concurso (cargos, escolaridade e remuneração). |
-| **Corpo de Texto (Padrão)** | 16 px | 1.55 (24 px) | Regular (400) | Texto descritivo da notícia, enunciados de simulados, artigos. |
-| **Texto Secundário / Apoio** | 14 px | 1.45 (20 px) | Regular (400) | Rótulos de campos de busca, metadados de datas e bancas. |
-| **Legendas / Metadados** | 12 px | 1.40 (16 px) | Medium (500) | Badges de status ("DF", "Superior", "Inscrições Abertas"). |
-
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
-
-</div>
-
-**Regras Mandatórias de Tipografia:**
-1. **Tamanho Mínimo Absoluto:** Nenhum texto legível pelo usuário (inclusive notas de rodapé de certame e termos legais) pode ter corpo inferior a **12px**.
-2. **Largura Máxima de Linha de Leitura:** Em textos longos e descrições de editais, a largura do parágrafo não deve ultrapassar **75 a 80 caracteres por linha**, evitando fadiga ocular e desvio de foco visual.
-3. **Alinhamento:** Todo texto de corpo deve ser **alinhado à esquerda**. O alinhamento justificado é estritamente proibido em ambientes web por criar espaçamentos irregulares (*rios brancos*) que dificultam a leitura para usuários com dislexia ou visão reduzida.
-
----
-
-### 3.4 Iconografia e Logotipo
-
-#### Padrão de Iconografia
-A biblioteca de ícones adota um estilo **linear geométrico com espessura de traço uniforme de 2px** (*outline*), baseado no padrão visual *Lucide / Material Symbols*.
-* **Dimensões Padronizadas:**
-  * Ícones inline de texto e botões: `16 x 16 px` ou `20 x 20 px`.
-  * Ícones de navegação e cartões de ferramentas: `24 x 24 px`.
-  * Ícones de estados vazios e ilustrações funcionais: `48 x 48 px`.
-* **Semântica Mandatória de Ícones:**
-  * 🔍 **Busca:** Lupa sem detalhes internos.
-  * 📄 **Download Autêntico de PDF:** Folha de documento com dobra superior e texto identificador `PDF`.
-  * 📍 **Região / Localização:** Marcador de mapa (*pin*), utilizado nas tags regionais (ex.: `[📍 DF]`).
-  * 📅 **Datas e Cronogramas:** Calendário de parede com indicação numérica.
-  * 🔔 **Alertas e Notificações:** Sino com badge numérico.
-  * ▶️ **Videoaulas:** Triângulo de reprodução circunscrito em círculo ou retângulo arredondado.
-  * ⚠️ **Retificação de Edital:** Triângulo de exclamação em tom âmbar.
-  * ♿ **Acessibilidade / PcD:** Símbolo internacional de acesso universal.
-
-#### Aplicação do Logotipo do PCI Concursos
-O logotipo oficial do portal deve ser exibido com área mínima de respiro igual à altura da letra inicial "P" em todas as suas margens laterais.
-* Proibida a distorção proporcional da marca (estiramento horizontal ou vertical).
-* No modo escuro, utiliza-se a versão monocromática branca/azul-claro (`pci_logo_white.png`), garantindo perfeito contraste contra o cabeçalho.
-
----
-
-## 4. Elementos de Interação
-
-### 4.1 Estilos de Interação Predominantes
-O novo portal combina harmoniosamente três estilos de interação consagrados na literatura de IHC (Paternò, 1999; Barbosa e Silva, 2010):
-
-1. **Manipulação Direta Reativa (Filtros e Chips):** A filtragem de concursos por região (Centro-Oeste, DF, GO) ou por área de formação não exige mais o recarregamento total da página. O usuário clica na etiqueta (*chip*) desejada e a lista é reordenada dinamicamente via requisição assíncrona com transição suave, mantendo o usuário em seu contexto original de tarefa.
-2. **Preenchimento Guiado (Formulários e Busca Assistida):** Campos de pesquisa inteligente com sugestão preditiva (*autocompletar*) que apresenta os resultados agrupados por tipo (Órgãos Públicos, Disciplinas de Aulas, Bancas Examinadoras).
-3. **Navegação em Camadas (Tabs e Acordeões):** Páginas de detalhamento de concursos organizam o grande volume de dados do edital em abas limpas: *"Visão Geral"*, *"Cargos e Salários"*, *"Cronograma & Retificações"* e *"Downloads Oficiais"*.
-
-### 4.2 Aceleradores e Acessibilidade por Teclado
-Para atender aos usuários frequentes (como Maria Helena e Renata) e garantir acessibilidade a pessoas com limitações motoras ou que dependem de leitores de tela:
-
-* **Atalho Global de Busca:** Pressionar a tecla `/` em qualquer tela foca imediatamente o cursor no campo de pesquisa principal.
-* **Atalho de Fechamento:** Pressionar a tecla `Esc` fecha qualquer modal aberto, menu gaveta (*drawer*) ou lista suspensa de autocompletar.
-* **Navegação Sequencial por Tabulação (`Tab` e `Shift+Tab`):** Todos os componentes interativos (links, botões, campos de texto, checkboxes) possuem ordem lógica estrita no DOM (`tabindex`), percorrendo a tela de cima para baixo e da esquerda para a direita.
-* **Anel de Foco Visível (*Focus Indicator*):** Componentes focados via teclado recebem um anel de contorno azul destacado de **3px com offset de 2px** (`box-shadow: 0 0 0 3px #0056B3`), eliminando a invisibilidade do foco.
-
-### 4.3 Estados dos Componentes Interativos
-Todo componente clicável deve fornecer feedback visual instantâneo para os cinco estados fundamentais:
-
-<div align="center" markdown="1">
-
-<p align="center"><b>Tabela 6: Matriz de Estados de Componentes Interativos</b></p>
-
-| Estado | Comportamento Visual Padronizado | Feedback ao Usuário |
-| :--- | :--- | :--- |
-| **Padrão (*Default*)** | Cor institucional sólida ou contorno nítido conforme a hierarquia do componente. | O componente está disponível e pronto para uso. |
-| **Passagem (*Hover*)** | Elevação de brilho/escurecimento sutil (10%), elevação de sombra de 2px para 4px e cursor em formato de mão (*pointer*). | Indica claramente que o elemento é clicável antes da ação. |
-| **Foco (*Focus*)** | Anel externo azul com alto contraste de 3px, independente da cor de fundo. | Sinaliza a posição atual de navegação pelo teclado. |
-| **Pressionado (*Active*)** | Redução sutil de escala visual (0.98) e escurecimento temporário de 15%. | Confirma fisicamente que o toque ou clique foi registrado. |
-| **Carregando (*Loading*)** | Substituição do texto do botão por um indicador giratório (*spinner*) sutil e desativação de novos cliques. | Evita submissões repetidas e previne erros de rede. |
-| **Desabilitado (*Disabled*)** | Opacidade reduzida para 45%, fundo cinza neutro e cursor em formato de bloqueio (*not-allowed*). | Comunica que a ação está temporariamente indisponível. |
-
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
-
-</div>
-
-### 4.4 Prevenção de Deslocamento de Layout (Zero CLS)
-Um dos problemas mais graves relatados pelos usuários no PCI Concursos atual foi o salto involuntário de conteúdo (*layout shift*) gerado pelo carregamento tardio de propagandas comerciais, fazendo com que usuários tocassem acidentalmente em links não desejados (observado em USR-01, CEN-03 e CEN-05).
-
-**Norma de Engenharia de Interface:**
-* Todo e qualquer contêiner de anúncio, imagem ou vídeo deve ter suas dimensões de altura e largura reservadas previamente no CSS (`min-height` fixo e `aspect-ratio` definido). O layout da página deve permanecer 100% estático durante todo o processo de carregamento de scripts externos, mantendo a métrica **CLS (Cumulative Layout Shift) inferior a 0.05**.
-
----
-
-## 5. Elementos de Ação
-
-### 5.1 Hierarquia de Botões (Buttons & Actions)
-Os botões do novo sistema são padronizados em quatro categorias formais, impedindo a concorrência visual desordenada:
-
-<div align="center" markdown="1">
-
-<p align="center"><b>Tabela 7: Hierarquia e Especificações de Botões</b></p>
-
-| Tipo de Botão | Estilo Visual | Especificação CSS / Tokens | Exemplo de Aplicação no PCI |
+| Tipo | Estilo Visual | Uso Principal | Comportamento de Hover |
 | :--- | :--- | :--- | :--- |
-| **Botão Primário** | Fundo azul sólido (`#0056B3`), texto branco, cantos arredondados de 6px, fonte semibold 16px. | `background: #0056B3; color: #FFF; border: none; padding: 12px 24px;` | *"Baixar Prova Oficial (PDF)"*, *"Buscar Concursos"*, *"Cadastrar Alertas"*. |
-| **Botão Secundário** | Fundo transparente, borda de 1.5px em azul (`#0056B3`), texto azul, cantos arredondados de 6px. | `background: transparent; color: #0056B3; border: 1.5px solid #0056B3; padding: 12px 24px;` | *"Ver Retificações"*, *"Filtrar por Região"*, *"Refazer Questão"*. |
-| **Botão Terciário (Fantasma)** | Fundo transparente, sem bordas, texto azul sublinhado no hover, padding compacto. | `background: transparent; color: #0056B3; border: none; padding: 8px 12px;` | *"Limpar Filtros"*, *"Voltar"*, *"Cancelar"*, *"Ver mais detalhes"*. |
-| **Botão Destrutivo / Alerta** | Fundo vermelho sólido (`#CF222E`), texto branco, cantos de 6px. | `background: #CF222E; color: #FFF; border: none; padding: 12px 24px;` | *"Cancelar Assinatura de Alertas"*, *"Excluir Dados Salvos"*. |
+| **Botão Primário** | Fundo azul sólido (`#0056B3`), texto branco, cantos arredondados de 6px | Ação principal da tela (ex.: "Pesquisar", "Cadastrar Alerta", "Baixar Prova Oficial") | Clareia o fundo para `#0069D9` e exibe cursor *pointer* |
+| **Botão Secundário** | Fundo transparente, borda de 1.5px em azul (`#0056B3`), texto azul | Ações de apoio (ex.: "Ver Retificações", "Filtrar por Região", "Refazer Questão") | Fundo suave `rgba(0, 86, 179, 0.08)` |
+| **Botão Terciário (Link)** | Sem borda e sem fundo, texto azul sublinhado no hover | Ações de cancelamento ou suporte (ex.: "Limpar Filtros", "Cancelar", "Voltar") | Adiciona sublinhado e muda cor para azul escuro |
+| **Botão Destrutivo** | Fundo vermelho sólido (`#CF222E`), texto branco, cantos de 6px | Ações irreversíveis (ex.: "Cancelar Assinatura de Alertas", "Excluir Conta") | Escurece o tom para `#A40E26` |
 
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
@@ -332,10 +284,8 @@ Os botões do novo sistema são padronizados em quatro categorias formais, imped
 
 ---
 
-### 5.2 O Padrão Antitrapaça de Download (Diretriz Crítica de Segurança e Usabilidade)
-Conforme documentado nas sessões empíricas com usuários (USR-01) e nas análises de tarefas (TAR-02 e CEN-02), o portal original exibe banners de terceiros com grandes botões verdes com o texto *"DOWNLOAD"* posicionados estrategicamente ao lado do link real do arquivo. Isso induz usuários experientes e maduros a erros críticos de navegação.
-
-Para eliminar definitivamente esse antipadrão, o novo portal institui a **Norma Mandatória Antitrapaça de Download**:
+#### 5.4 O Padrão Antitrapaça de Download Oficial (Diretriz Crítica de Segurança)
+Para extirpar a vulnerabilidade diagnosticada em USR-01, TAR-02 e CEN-02, na qual participantes quase caíram em anúncios publicitários disfarçados de botões verdes *"DOWNLOAD"*, institui-se o **Padrão Antitrapaça de Download**:
 
 <div align="center" markdown="1">
 
@@ -360,121 +310,87 @@ Para eliminar definitivamente esse antipadrão, o novo portal institui a **Norma
 +-----------------------------------------------------------------------------------+
 ```
 
-<p align="center"><b>Figura 2:</b> Esquema do Padrão Antitrapaça de Download Seguro. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center"><b>Figura 3:</b> Esquema do Padrão Antitrapaça de Download Seguro. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
-**Requisitos do Padrão Antitrapaça:**
-1. **Identificação Explícita do Arquivo:** O botão DEVE exibir o ícone universal de PDF, o nome do arquivo, a extensão `.pdf` e o tamanho em megabytes (ex.: `2.1 MB`).
-2. **Selo de Verificação:** A caixa deve conter a etiqueta *"Arquivo Original e Verificado pelo PCI Concursos"*.
-3. **Disparo Transparente:** O link deve forçar a abertura em nova aba com cabeçalho seguro ou download direto (`download="nome_arquivo.pdf"`), sem passar por páginas intermediárias de contagem regressiva comercial (*interstitials*).
+* **Norma Mandatória:** A área de download oficial deve ter um **raio protetivo de 48px** absolutamente livre de banners promocionais e exibir claramente o nome do arquivo, formato `.pdf`, tamanho em megabytes e selo de arquivo verificado.
 
 ---
 
-### 5.3 Formulários e Campos de Entrada de Dados
-
-#### Regras de Construção de Campos
-* **Rótulos Fixos (*Floating Labels* ou *Top Labels*):** O rótulo do campo deve permanecer visível acima da caixa de texto o tempo todo. É terminantemente proibido utilizar o atributo `placeholder` como substituto do rótulo, pois o texto desaparece no momento em que o usuário inicia a digitação.
-* **Mensagens de Ajuda e Validação em Tempo Real:** Erros de digitação (ex.: formato de e-mail inválido) devem ser sinalizados imediatamente ao sair do campo (*onBlur*), com borda vermelha suave (`#CF222E`) e mensagem de instrução clara posicionada abaixo do campo.
-* **Alvos de Toque Acessíveis:** Em dispositivos móveis, todos os campos de texto e caixas de seleção devem ter altura mínima de **48px** e padding horizontal de **16px**.
+#### 5.5 Busca com Desambiguação Semântica (Resolução de TAR-06)
+Para sanar a colisão terminológica de *"estágio"* identificada em TAR-06 e CEN-06:
+* O campo de busca ativa um menu preditivo desambiguador:
+  * 🎓 *"Vagas de Estágio para Estudantes (Nível Médio e Superior no DF)"*;
+  * ⚖️ *"Regras de Estágio Probatório de Servidores Públicos (Editais Efetivos)"*.
 
 ---
 
-### 5.4 Componente de Busca Inteligente com Desambiguação
-Para resolver a falha crítica diagnosticada na Tarefa 06 (TAR-06) e no Cenário 06 (CEN-06), onde a busca pelo termo *"estágio"* retornava dezenas de referências ao *estágio probatório* do servidor público em vez de vagas para estudantes, o componente de busca implementa **Desambiguação Semântica Instantânea**:
+#### 5.6 Formulário Parametrizado de Alertas por E-mail (Resolução de TAR-08)
+O formulário de newsletter deixa de ser um campo de texto isolado e torna-se uma **Central de Alertas Personalizados**:
+* Campo de e-mail com validação em tempo real;
+* Seletores de UFs prioritárias (`DF`, `GO`, etc.);
+* Seletores de escolaridade (*Médio*, *Técnico*, *Superior*);
+* Seletores de carreira (*Administrativa*, *Tribunais*, *Fiscal*, etc.);
+* Termo de consentimento explícito em conformidade com a LGPD e cancelamento garantido com 1 clique.
+
+---
+
+### 6. Vocabulário e Padrões de Conteúdo
+
+#### 6.1 Terminologia controlada do domínio
+A Tabela 5 estabelece a padronização entre termos ambíguos do sistema antigo e o vocabulário normatizado:
 
 <div align="center" markdown="1">
 
-```
-Campo de Busca: [ estágio____________________________________________ ] [Buscar]
-                |
-                v  (Menu Suspenso Preditivo de Desambiguação)
-+-------------------------------------------------------------------------------+
-|  Você está procurando por:                                                    |
-|                                                                               |
-|  🎓 Vagas de Estágio para Estudantes (Nível Superior / Médio no DF)          |
-|     Ver oportunidades de estágio e programas de ingresso em órgãos públicos  |
-|                                                                               |
-|  ⚖️ Regras de Estágio Probatório de Servidores Públicos                       |
-|     Ver cláusulas de avaliação em editais de concursos efetivos               |
-+-------------------------------------------------------------------------------+
-```
+<p align="center"><b>Tabela 5: Vocabulário Controlado de Termos do PCI Concursos</b></p>
 
-<p align="center"><b>Figura 3:</b> Padrão de Desambiguação Semântica da Busca. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
-
-</div>
-
----
-
-### 5.5 Formulário de Alertas de Vagas por E-mail (Resolução de TAR-08)
-O formulário de assinatura da newsletter é reestruturado de uma caixa genérica para uma **Central de Alertas Personalizados de Vagas**, atendendo às demandas da Persona Renata (`PER-04`):
-
-1. **Campo de E-mail:** Com validação sintática imediata em tempo real.
-2. **Seletores Obrigatórios de Segmentação:**
-   * Caixas de seleção de Unidades Federativas de interesse (com destaque para `Distrito Federal (DF)` e `Goiás (GO)`).
-   * Seletor de Escolaridade Mínima (*Nível Médio*, *Nível Técnico*, *Nível Superior*).
-   * Seletor de Carreira Prioritária (*Administrativa*, *Tribunais/Jurídica*, *Fiscal*, *Segurança Pública*, *Educação*, *Saúde*).
-3. **Periodicidade:** Opção de escolha entre *Boletim Diário (resumo matinal)* ou *Boletim Semanal Consolidado (às sextas-feiras)*.
-4. **Consentimento Explícito (LGPD):** Caixa de seleção desmarcada por padrão: *"Concordo em receber alertas de concursos conforme a Política de Privacidade e posso cancelar a qualquer momento com 1 clique"*.
-
----
-
-## 6. Vocabulário e Padrões de Conteúdo
-
-### 6.1 Taxonomia Padronizada do Domínio de Concursos
-Para reduzir a sobrecarga de leitura e padronizar o vocabulário técnico entre diferentes órgãos e bancas examinadoras, adota-se o glossário unificado da Tabela 8:
-
-<div align="center" markdown="1">
-
-<p align="center"><b>Tabela 8: Vocabulário Controlado de Termos do PCI Concursos</b></p>
-
-| Termo Padronizado | Definição Semântica | Termos Proibidos / Obsoletos |
+| Termo Antigo / Proibido | Termo Padronizado no Guia | Significado Operacional no Sistema |
 | :--- | :--- | :--- |
-| **Inscrições Abertas** | O certame está com o período de cadastro e pagamento da taxa ativo no momento da consulta. | "Aberta", "Inscrição ativa", "Matrículas". |
-| **Inscrições Previstas / Autorizado** | O concurso foi autorizado oficialmente ou teve edital iminente anunciado, mas os cadastros ainda não iniciaram. | "Previsto", "Vai sair", "Em breve". |
-| **Inscrições Encerradas** | O prazo limite para submissão de cadastro expirou; aguarda-se realização de prova ou resultados. | "Fechado", "Encerrado", "Passou o prazo". |
-| **Retificação de Edital** | Publicação oficial contendo alteração formal de cronograma, requisitos, conteúdo programático ou cotas. | "Errata avulsa", "Mudança", "Nota de jornal". |
-| **Caderno de Provas** | Arquivo oficial contendo as questões aplicadas na prova objetiva/discursiva para determinado cargo. | "Teste", "Exame", "Avaliação". |
-| **Gabarito Oficial Preliminar** | Folha de respostas divulgada pela banca organizadora antes do julgamento dos recursos dos candidatos. | "Chave de respostas", "Resultados provisórios". |
-| **Gabarito Oficial Definitivo** | Folha de respostas final validada pós-recursos, indicando formalmente eventuais questões anuladas. | "Gabarito final", "Respostas definitivas". |
-| **Estágio para Estudantes** | Oportunidade de estágio curricular remunerado para alunos de graduação ou ensino médio. | Apenas "Estágio" (ambíguo com probatório). |
-| **Estágio Probatório** | Período legal de avaliação de aptidão funcional do servidor público recém-empossado (Lei 8.112/90). | Apenas "Estágio". |
+| "Aberta", "Matrículas" | **Inscrições Abertas** | Período de submissão de formulário e pagamento de taxa ativo. |
+| "Vai sair", "Previsto" | **Inscrições Previstas / Autorizado** | Concurso autorizado oficialmente, aguardando publicação do edital. |
+| "Fechado", "Passou prazo" | **Inscrições Encerradas** | Prazo expirado; certame aguarda provas ou convocações. |
+| "Errata", "Mudança avulsa" | **Retificação de Edital** | Documento retificador oficial de cronograma, requisitos ou vagas. |
+| "Teste", "Exame" | **Caderno de Provas** | Caderno oficial de questões em PDF para download. |
+| "Chave de respostas" | **Gabarito Oficial Preliminar** | Respostas divulgadas pela banca antes dos recursos. |
+| "Gabarito final" | **Gabarito Oficial Definitivo** | Respostas pós-recursos, indicando formalmente anulações. |
+| Apenas "Estágio" | **Estágio para Estudantes** | Vagas de estágio curricular para graduandos ou ensino médio. |
+| Apenas "Estágio" | **Estágio Probatório** | Período legal de avaliação do servidor público efetivo. |
 
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
-### 6.2 Tom de Voz e Diretrizes de Redação (UX Writing)
-* **Objetivo e Claro:** Textos breves e informativos. Concurseiros estudam sob pressão de tempo e necessitam de informações cruciais (órgão, vagas, remuneração, data da prova e taxa) nos primeiros 3 segundos de leitura.
-* **Transparente e Fidedigno:** Nunca utilizar chamadas sensacionalistas (*clickbait*) como *"Salários milionários abertos!"*. Empregar o valor remuneratório exato estipulado no edital com indicação da jornada de trabalho (ex.: *"Remuneração: R$ 8.529,67 - 40h semanais"*).
-* **Empático e Orientador em Falhas:** Mensagens de erro devem sempre prescrever a rota de solução para o usuário. Em vez de *"Erro 404: Concurso não encontrado"*, utilizar: *"Não encontramos concursos para 'Mecânico em Brasília'. Tente selecionar 'Todas as Cidades do DF' ou conferir concursos previstos."*
+#### 6.2 Tipos de tela para tarefas comuns
+* **Tela Inicial (*Homepage*):** Cabeçalho com busca inteligente com atalho `/`, menu categorizado em 4 blocos, carrossel dos 3 principais concursos nacionais, tabela de concursos abertos agrupados por região com filtros reativos e acesso direto a videoaulas e provas;
+* **Tela de Resultados de Busca / Listagem Regional:** Layout com barra de chips de estados no topo (`[Todos] [DF] [GO] [MT] [MS]`), listagem paginada (20 a 50 itens) com tags visuais coloridas de status e sem publicidade intercalada;
+* **Ficha Detalhada do Concurso:** Abas limpas (*Visão Geral*, *Cargos e Salários*, *Cronograma & Retificações*, *Downloads Oficiais* com padrão antitrapaça);
+* **Tela de Videoaulas e Dicas:** Player responsivo com "Modo Foco" (oculta anúncios ao redor durante a reprodução), trilha sequencial pedagógica (*"Próxima Aula"*) e botão para download de resumo esquemático em PDF.
 
-### 6.3 Padrão de Estados Vazios (*Empty States*)
-Quando uma filtragem ou pesquisa não retornar resultados, a interface DEVE apresentar um componente de estado vazio educativo, contendo:
-1. Ilustração suave ou ícone representativo (48px).
-2. Título claro: *"Nenhum concurso encontrado para os filtros selecionados"*.
-3. Texto explicativo com sugestão alternativa.
-4. Botão de ação direta: `[Limpar todos os filtros]` ou `[Cadastrar Alerta para quando esta vaga abrir]`.
+#### 6.3 Sequências de diálogos e feedback
+* **Carregamento Assíncrono (*Skeleton Screens*):** Durante a filtragem de certames, a interface exibe contêineres esqueletos cinzas pulsantes nas dimensões exatas das linhas, evitando saltos de layout (*Zero CLS*);
+* **Resultados Inexistentes (*Empty States*):** Nunca exibir tela em branco. Deve-se apresentar ilustração amigável com mensagem acolhedora: *"Nenhum concurso encontrado para os filtros selecionados. Dica: tente selecionar 'Todas as UFs' ou cadastre um alerta para receber avisos quando o edital abrir"*, acompanhado do botão `[Limpar Filtros]`;
+* **Mensagens de Confirmação:** Ao cadastrar alertas por e-mail, exibir banner verde de sucesso com instruções claras sobre o recebimento da mensagem de validação na caixa postal.
 
 ---
 
-## 7. Apresentação do Guia: Como o Novo Design Resolve os Diagnósticos da Etapa 2
+## Correspondência com o Site Avaliado (Item 17)
 
-Na apresentação formal da Etapa 3 perante a disciplina, este Guia de Estilo demonstra como o novo design soluciona de ponta a ponta cada um dos problemas identificados na avaliação do portal:
+O Guia de Estilo formulado atende estritamente ao **Item 17** da lista de verificação da disciplina, estabelecendo correspondência direta com as características reais e com os gargalos observados no portal **PCI Concursos**:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 9: Mapeamento Diagnóstico-Solução do Reprojeto PCI Concursos</b></p>
+<p align="center"><b>Tabela 6: Correspondência entre o Guia de Estilo e os Diagnósticos do PCI Concursos</b></p>
 
-| Problema Diagnosticado na Etapa 2 | Artefato de Origem | Solução Padronizada no Guia de Estilo | Impacto Direto na Experiência |
+| Problema Diagnosticado na Etapa 2 | Artefato de Origem | Diretriz Padronizada no Guia de Estilo | Impacto Direto no Novo PCI Concursos |
 | :--- | :---: | :--- | :--- |
-| Botões falsos de download em anúncios enganosos | **USR-01 / CEN-02 / TAR-02** | **Padrão Antitrapaça de Download (Seção 5.2):** Botão azul sólido padronizado com ícone de PDF, tamanho do arquivo e raio de isolamento de 48px livre de publicidade. | Elimina o risco de cliques enganosos para usuários maduros como Maria Helena (`PER-01`). |
-| Impossibilidade de filtrar apenas o DF na listagem do Centro-Oeste | **DOC-02 / CEN-03 / TAR-03** | **Grid Reativo com Chips Regionais (Seções 3.1 e 4.1):** Seletores instantâneos de UF no topo da tabela sem recarregamento de página. | Permite a Lucas (`PER-02`) encontrar seleções de Brasília em menos de 5 segundos no celular. |
-| Retificações de editais ocultas no fim da página sem destaque visual | **DOC-02 / CEN-04 / TAR-04** | **Badges e Alertas Semânticos (Seções 3.2 e 6.1):** Selo âmbar destacado no cabeçalho: `[⚠️ Retificação Publicada em DD/MM]`. | Impede a perda de prazos de inscrições e provas alteradas por bancas. |
-| Layout quebrado no celular e perda de progresso em simulados | **DOC-03 / CEN-05 / TAR-05** | **Grid Mobile Modular e Zero CLS (Seções 3.1 e 4.4):** Áreas de toque de 48px, contêineres estáveis e persistência de dados no navegador. | Garante a Thiago (`PER-03`) resolver questões no ônibus sem marcações acidentais. |
-| Colisão terminológica de "estágio" e ausência de vagas estudantis | **DOC-03 / CEN-06 / TAR-06** | **Desambiguação Semântica na Busca (Seção 5.4) e Vocabulário Controlado:** Distinção entre estágio acadêmico e probatório. | Evita 12 minutos de busca frustrada e abandono do portal por estudantes. |
-| Videoaulas sem trilha pedagógica e layout móvel instável | **DOC-04 / CEN-07 / TAR-07** | **Modo Foco e Player Responsivo (Seções 3.1 e 4.3):** Eliminação de banners sobrepostos no modo paisagem e trilhas com PDF anexo. | Permite a Renata (`PER-04`) estudar em intervalos de trabalho de 30 minutos com qualidade. |
-| Newsletter massiva sem filtro regional e sem saída fácil | **DOC-04 / CEN-08 / TAR-08** | **Central de Alertas Parametrizados (Seção 5.5):** Seleção de UF e carreira, frequência configurável e cancelamento em 1 clique (LGPD). | Acaba com a poluição de caixa de entrada de concurseiros ativos com dupla jornada. |
+| Botões falsos verdes de *"DOWNLOAD"* em anúncios comerciais fraudulentos | **USR-01 / CEN-02 / TAR-02** | **Padrão Antitrapaça de Download (Seção 5.4):** Botão primário azul sólido padronizado com ícone de PDF, tamanho em MB e raio de isolamento protetivo de 48px livre de anúncios. | Protege usuários maduros (como Maria Helena) contra malwares e cliques acidentais. |
+| Agrupamento indiscriminado de todos os estados no Centro-Oeste sem filtro para o DF | **DOC-02 / CEN-03 / TAR-03** | **Grid Reativo com Chips Regionais (Seções 3.1 e 4.1):** Seletores instantâneos de UF no topo da tabela sem recarregar a tela. | Permite a Lucas (`PER-02`) filtrar oportunidades de Brasília em menos de 5 segundos no celular. |
+| Retificações de editais ocultas no fim da página sem destaque visual | **DOC-02 / CEN-04 / TAR-04** | **Badges e Alertas Semânticos (Seções 3.5 e 6.1):** Selo âmbar destacado no cabeçalho: `[⚠️ Retificação Publicada em DD/MM]`. | Evita perda de prazos de inscrição e datas de provas alteradas por bancas examinadoras. |
+| Layout desconfigurado no mobile e perda de progresso de questões em simulados | **DOC-03 / CEN-05 / TAR-05** | **Grid Mobile Modular e Zero CLS (Seções 3.1 e 4.4):** Áreas de toque de 48px, contêineres de altura fixa e persistência de dados localmente. | Garante a Thiago (`PER-03`) resolver questões no ônibus em movimento sem marcações involuntárias. |
+| Colisão terminológica de "estágio" e ausência de vagas estudantis | **DOC-03 / CEN-06 / TAR-06** | **Desambiguação Semântica na Busca (Seção 5.5) e Vocabulário Controlado:** Distinção entre estágio acadêmico e estágio probatório. | Elimina 12 minutos de busca frustrada e abandono do portal por universitários. |
+| Videoaulas sem trilha pedagógica e layout móvel sobrepondo anúncios no player | **DOC-04 / CEN-07 / TAR-07** | **Modo Foco e Player Responsivo (Seções 3.1 e 6.2):** Ocultação de banners laterais no modo horizontal móvel e trilha sequencial com PDF. | Permite a Renata (`PER-04`) estudar em intervalos de trabalho de 30 minutos com qualidade. |
+| Newsletter massiva e generalista sem segmentação por UF nem cancelamento fácil | **DOC-04 / CEN-08 / TAR-08** | **Central de Alertas Parametrizados (Seção 5.6):** Seleção de UF e carreira, periodicidade flexível e descadastramento em 1 clique (LGPD). | Elimina a sobrecarga de spams na caixa postal de concurseiros com dupla jornada de trabalho. |
 
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
@@ -482,24 +398,36 @@ Na apresentação formal da Etapa 3 perante a disciplina, este Guia de Estilo de
 
 ---
 
-## 8. Bibliografia
+## Agradecimentos
 
-> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
-> BARBOSA, Simone D. J. et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
-> COOPER, Alan. *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity*. Indianapolis: Sams Publishing, 1999.  
-> MARCUS, Aaron. *Graphic Design for Electronic Documents and User Interfaces*. New York: ACM Press / Addison-Wesley, 1992.  
-> MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.  
-> NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
-> PATERNÒ, Fabio. *Model-Based Design and Evaluation of Human-Computer Interfaces*. London: Springer-Verlag, 1999.  
-> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: FCTE/UnB, 2026.  
-> W3C. *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium, 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>.
+A equipe agradece o apoio da ferramenta de inteligência artificial generativa **Gemini (Google)** na organização textual, cálculo das razões de contraste cromático e formatação em Markdown deste artefato, em estrita conformidade com a Política de Uso de IA da disciplina. A fundamentação teórica, a seleção dos trechos bibliográficos dos livros, as decisões de design normativo e a revisão técnica foram conduzidas e validadas integralmente pelo autor responsável.
 
-## 9. Histórico de Versões
+---
+
+## Bibliografia
+
+> [1] SALES, André Barros de. *Plano de Ensino FIHC 022026 - Turma 01*. Brasília: FCTE/UnB, 2026.  
+> [2] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> [3] BARBOSA, Simone D. J. et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
+> [4] MARCUS, Aaron. *Graphic Design for Electronic Displays*. New York: ACM Press, 1992.  
+> [5] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.  
+> [6] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
+> [7] COOPER, Alan. *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity*. Indianapolis: Sams Publishing, 1999.  
+> [8] PATERNÒ, Fabio. *Model-Based Design and Evaluation of Human-Computer Interfaces*. London: Springer-Verlag, 1999.  
+> [9] PCI CONCURSOS. *Portal PCI Concursos*. Disponível em: <https://www.pciconcursos.com.br/>. Acesso em: 6 out. 2026.  
+> [10] GOVERNO DIGITAL. *Design System do Governo Federal*. Disponível em: <https://www.gov.br/ds/>. Acesso em: 6 out. 2026.  
+> [11] W3C. *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium, 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>.
+
+---
+
+## Histórico de Versões
 
 <div align="center" markdown="1">
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 06/10/2026 | Criação do Guia de Estilo para a Etapa 3 segundo o ciclo de Mayhew (1999), estruturado nas 6 seções normativas (Introdução, Resultados de Análise, Elementos de Interface, Elementos de Interação, Elementos de Ação e Vocabulário), inclusão do padrão antitrapaça de download, paleta acessível WCAG 2.1 e articulação com os Itens 15, 16 e 17 do checklist da disciplina. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `0.1` | 28/09/2026 | Abertura do documento de Guia de Estilo da Etapa 3 e estruturação inicial. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.0` | 05/10/2026 | Implementação da fundamentação teórica dos Itens 15 e 16 com inclusão dos recortes bibliográficos do livro (Figuras 1 e 2). | Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
+| `1.1` | 06/10/2026 | Preenchimento completo das 6 seções estruturais do guia de estilo (Marcus; Mayhew), detalhamento do padrão antitrapaça de download, paleta auditada WCAG 2.1 e correspondência com o PCI Concursos (Item 17). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>
