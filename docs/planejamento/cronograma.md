@@ -140,7 +140,7 @@ Na Tabela 5, tem-se o cronograma planejado para as atividades da terceira entreg
 | :--- | :---: | :--- | :---: | :--- |
 | Definir Princípios Gerais do Projeto | Início: 28/09<br>Fim: 04/10 | A definir | Início: 05/10<br>Fim: 05/10 | A definir |
 | Estabelecer Metas de Usabilidade | Início: 28/09<br>Fim: 04/10 | A definir | Início: 05/10<br>Fim: 05/10 | A definir |
-| Criar Guia de Estilo | Início: 28/09<br>Fim: 04/10 | A definir | Início: 05/10<br>Fim: 05/10 | A definir |
+| Criar Guia de Estilo | Início: 28/09<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
 | Reunião de Alinhamento e Ata | Início: 05/10<br>Fim: 05/10 | A definir | Início: 05/10<br>Fim: 05/10 | A definir |
 | Gravar apresentação da Etapa 3 | Início: 05/10<br>Fim: 06/10 | A definir | Início: 06/10<br>Fim: 06/10 | A definir |
 | Correção pós-apresentação | Início: 06/10<br>Fim: 06/10 | A definir | Início: 06/10<br>Fim: 06/10 | A definir |
@@ -283,5 +283,6 @@ Na Tabela 11, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.4` | 27/09/2026 | Inclusão e consolidação do Cronograma Executado da Etapa 2 com revisores e registro da entrevista USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.5` | 27/09/2026 | Atualização do Cronograma Executado com o registro da entrega do escopo de Pedro Rocha Ferreira Lima (DOC-02, PER-02, CEN-03/04 e TAR-03/04). | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.6` | 27/09/2026 | Registro no Cronograma Executado da Etapa 2 das entregas individuais concluídas (DOC-03, PER-03, CEN-05/06, HTA e CTT das Tarefas 05 e 06 e avaliação do Grupo 08). | Arthur Sismene Carvalho | Daniel da Silva Batista |
+| `1.7` | 06/10/2026 | Atualização do responsável pelo Guia de Estilo na Etapa 3 (Leonardo da Silva Lopes Júnior) e alinhamento das datas de desenvolvimento e revisão. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>
