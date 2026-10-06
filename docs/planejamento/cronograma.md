@@ -142,7 +142,7 @@ Na Tabela 5, tem-se o cronograma planejado para as atividades da terceira entreg
 | :--- | :---: | :--- | :---: | :--- |
 | Definir Princípios Gerais do Projeto | Início: 28/09<br>Fim: 05/10 | Daniel da Silva Batista | Início: 06/10<br>Fim: 06/10 | Pedro Rocha Ferreira Lima |
 | Estabelecer Metas de Usabilidade | Início: 28/09<br>Fim: 05/10 | Pedro Rocha Ferreira Lima | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista |
-| Criar Guia de Estilo | Início: 28/09<br>Fim: 05/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Arthur Sismene Carvalho |
+| Criar Guia de Estilo | Início: 28/09<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
 | Definir Características da Plataforma para o Projeto | Início: 28/09<br>Fim: 05/10 | Arthur Sismene Carvalho | Início: 06/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior |
 | Reunião de Alinhamento e Ata da Etapa 3 | Início: 05/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 | Gravar apresentação da Etapa 3 | Início: 05/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
@@ -164,7 +164,7 @@ Na Tabela 6, tem-se o registro da execução real das atividades da terceira ent
 | :--- | :---: | :--- | :---: | :--- |
 | Elaboração do artefato de Princípios Gerais de Projeto | Início: 04/10<br>Fim: 06/10 | Daniel da Silva Batista | Início: 06/10<br>Fim: 06/10 | Pedro Rocha Ferreira Lima |
 | Elaboração do artefato de Metas de Usabilidade | Início: 05/10<br>Fim: 06/10 | Pedro Rocha Ferreira Lima | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista |
-| Elaboração do artefato de Guia de Estilo | Início: 05/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Arthur Sismene Carvalho |
+| Elaboração do artefato de Guia de Estilo | Início: 05/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
 | Elaboração do artefato de Características da Plataforma | Início: 05/10<br>Fim: 06/10 | Arthur Sismene Carvalho | Início: 06/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior |
 | Atualização da navegação e menu da Etapa 3 no MkDocs | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista | Início: 06/10<br>Fim: 06/10 | Pedro Rocha Ferreira Lima |
 | Gravação da Apresentação da Etapa 3 | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
@@ -308,6 +308,6 @@ Na Tabela 12, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.4` | 27/09/2026 | Inclusão e consolidação do Cronograma Executado da Etapa 2 com revisores e registro da entrevista USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.5` | 27/09/2026 | Atualização do Cronograma Executado com o registro da entrega do escopo de Pedro Rocha Ferreira Lima (DOC-02, PER-02, CEN-03/04 e TAR-03/04). | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.6` | 27/09/2026 | Registro no Cronograma Executado da Etapa 2 das entregas individuais concluídas (DOC-03, PER-03, CEN-05/06, HTA e CTT das Tarefas 05 e 06 e avaliação do Grupo 08). | Arthur Sismene Carvalho | Daniel da Silva Batista |
-| `1.7` | 06/10/2026 | Inclusão do Cronograma Executado da Etapa 3 e atualização do Cronograma Planejado com as atribuições dos 4 integrantes ativos. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.7` | 06/10/2026 | Atualização do Cronograma Planejado e inserção do Cronograma Executado da Etapa 3, com registro dos artefatos de Princípios Gerais de Projeto e Guia de Estilo. | Daniel da Silva Batista, Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
 
 </div>

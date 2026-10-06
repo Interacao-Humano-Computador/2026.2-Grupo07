@@ -74,6 +74,6 @@ nav:
     - Cenários: analise-de-requisitos/cenarios.md
     - Análise de Tarefas:
       - HTA: analise-de-requisitos/analise-de-tarefas/hta.md
-      - CTT: analise-de-requisitos/analise-de-tarefas/ctt.md
-  - Diretrizes e Metas (Etapa 3):
+  - Design, Avaliação e Desenvolvimento (Etapa 3):
     - Princípios Gerais de Projeto: analise-de-requisitos/principios-gerais-de-projeto.md
+    - Guia de Estilo: design-avaliacao-desenvolvimento/guia-de-estilo.md
