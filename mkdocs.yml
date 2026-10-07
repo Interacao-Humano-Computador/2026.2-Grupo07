@@ -76,6 +76,7 @@ nav:
       - HTA: analise-de-requisitos/analise-de-tarefas/hta.md
       - CTT: analise-de-requisitos/analise-de-tarefas/ctt.md
   - Design, Avaliação e Desenvolvimento (Etapa 3):
+    - Características da Plataforma: design-avaliacao-desenvolvimento/caracteristicas-da-plataforma.md
     - Princípios Gerais de Projeto: analise-de-requisitos/principios-gerais-de-projeto.md
     - Guia de Estilo: design-avaliacao-desenvolvimento/guia-de-estilo.md
     - Metas de Usabilidade: design-avaliacao-desenvolvimento/metas-de-usabilidade.md
