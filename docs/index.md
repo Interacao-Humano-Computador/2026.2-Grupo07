@@ -29,10 +29,10 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 
 ---
 
-### Diretrizes e Metas (Etapa 3)
+### Design, Avaliação e Desenvolvimento (Etapa 3)
 * [Princípios Gerais de Projeto](analise-de-requisitos/principios-gerais-de-projeto.md)
+* [Guia de Estilo](design-avaliacao-desenvolvimento/guia-de-estilo.md)
 * *Metas de Usabilidade (em desenvolvimento)*
-* *Guia de Estilo (em desenvolvimento)*
 * *Características da Plataforma para o Projeto (em desenvolvimento)*
 
 ---

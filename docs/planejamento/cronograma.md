@@ -166,7 +166,6 @@ Na Tabela 6, tem-se o registro da execução real das atividades da terceira ent
 | Elaboração do artefato de Metas de Usabilidade | Início: 05/10<br>Fim: 06/10 | Pedro Rocha Ferreira Lima | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista |
 | Elaboração do artefato de Guia de Estilo | Início: 05/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
 | Elaboração do artefato de Características da Plataforma | Início: 05/10<br>Fim: 06/10 | Arthur Sismene Carvalho | Início: 06/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior |
-| Atualização da navegação e menu da Etapa 3 no MkDocs | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista | Início: 06/10<br>Fim: 06/10 | Pedro Rocha Ferreira Lima |
 | Gravação da Apresentação da Etapa 3 | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 | Reunião de Alinhamento e Ata da Etapa 3 | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 

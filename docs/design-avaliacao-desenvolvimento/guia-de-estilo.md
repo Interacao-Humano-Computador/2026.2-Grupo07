@@ -1,6 +1,3 @@
-**Responsável:** Leonardo da Silva Lopes Júnior — Guia de estilo  
-**Autor dos itens 15, 16 e 17:** Leonardo da Silva Lopes Júnior
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
@@ -12,7 +9,7 @@
 | Pedro Rocha Ferreira Lima | Revisão da conformidade visual com os achados de análise de requisitos e padrões de acessibilidade. |
 | Gemini | Auxílio na estruturação textual, organização dos códigos de cores, diagramação em Markdown e checagem de conformidade com o checklist de IHC (conforme Política de Uso de IA). |
 
-<p align="center"><b>Tabela 1:</b> Contribuição neste artefato. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -20,17 +17,15 @@
 
 ## Introdução
 
-Este documento apresenta o **Guia de Estilo** para o reprojeto do portal **PCI Concursos** (`pciconcursos.com.br`), correspondente aos **itens oficiais 15, 16 e 17** da Entrega 3 da disciplina de Interação Humano-Computador da Universidade de Brasília (SALES, 2026).
+Este documento apresenta o **Guia de Estilo** para o reprojeto do portal **PCI Concursos** (`pciconcursos.com.br`), elaborado para a Entrega 3 da disciplina de Interação Humano-Computador da Universidade de Brasília (SALES, 2026).
 
 No modelo de ciclo de vida da Engenharia de Usabilidade proposto por Deborah Mayhew (1999), adotado pelo Grupo 07 em seu [Processo de Design](../planejamento/processo-de-design.md), a fase de **Análise de Requisitos** tem como um de seus principais produtos a elaboração do guia de estilo. Esse documento sintetiza e operacionaliza as diretrizes, princípios de IHC e metas de usabilidade derivados da análise de tarefas, do perfil de usuário e das possibilidades e limitações da plataforma, garantindo que as decisões de design sejam mantidas e reflitam no produto final de forma consistente (BARBOSA; SILVA, 2010, p. 109-110, 282).
 
 ---
 
-## Itens de Conteúdo da Disciplina
+## 1. Fundamentação Teórica
 
-### O que é um Guia de Estilo (Item 15)
-* **Autor do item:** Leonardo da Silva Lopes Júnior
-
+### 1.1 O que é um Guia de Estilo
 Segundo Barbosa e Silva (2010, p. 282), é prática comum, sobretudo em projetos de grande escala ou em reprojetos de sistemas complexos, reunir os princípios e as diretrizes adotados em um documento formal intitulado **guia de estilo**. Esse documento atua como o registro central das principais decisões de design concebidas pela equipe, impedindo que se dispersem ao longo do ciclo de vida e assegurando que sejam fielmente incorporadas à interface final.
 
 Além disso, os autores destacam que os guias de estilo desempenham um papel fundamental como ferramenta de comunicação entre os designers de interação, desenvolvedores front-end, redatores e mantenedores do sistema, permitindo que soluções consolidadas sejam consultadas e reaproveitadas em extensões e versões futuras. Conforme apontado por Mayhew (1999), um guia de estilo pode abranger quatro escopos:
@@ -41,19 +36,19 @@ Além disso, os autores destacam que os guias de estilo desempenham um papel fun
 
 A Figura 1 reproduz o trecho da literatura (Seção 8.4, p. 282) que fundamenta a definição e a importância do guia de estilo.
 
-<div align="center" markdown="1">
+<div align="center">
 
-![Definição e escopo de Guias de Estilo na literatura de IHC](../assets/images/barbosa-guia-estilo-definicao-p282.png)
+<p align="center"><b>Figura 1: Referência Bibliográfica — Definição e Importância de Guia de Estilo</b></p>
 
-<p align="center"><b>Figura 1:</b> Definição e escopo de Guias de Estilo na literatura de IHC. <b>Fonte:</b> BARBOSA; SILVA (2010, p. 282), recorte do livro.</p>
+<img src="../../assets/images/barbosa-guia-estilo-definicao-p282.png" alt="Definição e escopo de Guias de Estilo na literatura de IHC" style="max-width: 80%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA e SILVA (2010, p. 282).</p>
 
 </div>
 
 ---
 
-### Estrutura do Guia de Estilo (Item 16)
-* **Autor do item:** Leonardo da Silva Lopes Júnior
-
+### 1.2 Estrutura Canônica do Guia de Estilo
 Para garantir abrangência, rigor técnico e conformidade acadêmica, Barbosa e Silva (2010, p. 283) sintetizam a estrutura clássica proposta por Marcus (1992) e Mayhew (1999) para a composição de guias de estilo. Essa estrutura organiza as decisões de design em seis seções fundamentais:
 
 1. **Introdução:** define o objetivo do guia, sua organização interna, o público-alvo (programadores, gerentes, equipe de suporte, designers), diretrizes de uso tanto na produção quanto na manutenção e procedimentos para mantê-lo atualizado;
@@ -65,17 +60,19 @@ Para garantir abrangência, rigor técnico e conformidade acadêmica, Barbosa e 
 
 Adicionalmente, Mayhew (1999) recomenda explicitar o *design rationale* (a justificativa de cada decisão), assegurando o rastreamento direto entre os problemas levantados nas etapas anteriores e os elementos de interface projetados. A Figura 2 ilustra o trecho da literatura (Seção 8.4, p. 283) que estabelece essa divisão estrutural.
 
-<div align="center" markdown="1">
+<div align="center">
 
-![Estrutura de Guia de Estilo segundo Marcus (1992) e Mayhew (1999)](../assets/images/barbosa-guia-estilo-estrutura-p283.png)
+<p align="center"><b>Figura 2: Referência Bibliográfica — Estrutura Canônica de Guia de Estilo</b></p>
 
-<p align="center"><b>Figura 2:</b> Estrutura de Guia de Estilo segundo Marcus (1992) e Mayhew (1999). <b>Fonte:</b> BARBOSA; SILVA (2010, p. 283), recorte do livro.</p>
+<img src="../../assets/images/barbosa-guia-estilo-estrutura-p283.png" alt="Estrutura de Guia de Estilo segundo Marcus (1992) e Mayhew (1999)" style="max-width: 80%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA e SILVA (2010, p. 283).</p>
 
 </div>
 
 ---
 
-## Estrutura Normativa do Guia de Estilo
+## 2. Estrutura Normativa do Guia de Estilo
 
 A seguir, apresentam-se as decisões de design do novo **PCI Concursos** organizadas rigorosamente segundo os seis eixos normativos da literatura (MARCUS, 1992; MAYHEW, 1999; BARBOSA; SILVA, 2010).
 
@@ -374,9 +371,9 @@ A Tabela 5 estabelece a padronização entre termos ambíguos do sistema antigo 
 
 ---
 
-## Correspondência com o Site Avaliado (Item 17)
+## 3. Correspondência com o Site Avaliado
 
-O Guia de Estilo formulado atende estritamente ao **Item 17** da lista de verificação da disciplina, estabelecendo correspondência direta com as características reais e com os gargalos observados no portal **PCI Concursos**:
+O Guia de Estilo estabelece correspondência direta entre as decisões projetuais e os gargalos empíricos diagnosticados no portal **PCI Concursos**:
 
 <div align="center" markdown="1">
 
@@ -398,13 +395,13 @@ O Guia de Estilo formulado atende estritamente ao **Item 17** da lista de verifi
 
 ---
 
-## Agradecimentos
+## 4. Agradecimentos
 
 A equipe agradece o apoio da ferramenta de inteligência artificial generativa **Gemini (Google)** na organização textual, cálculo das razões de contraste cromático e formatação em Markdown deste artefato, em estrita conformidade com a Política de Uso de IA da disciplina. A fundamentação teórica, a seleção dos trechos bibliográficos dos livros, as decisões de design normativo e a revisão técnica foram conduzidas e validadas integralmente pelo autor responsável.
 
 ---
 
-## Bibliografia
+## 5. Bibliografia
 
 > [1] SALES, André Barros de. *Plano de Ensino FIHC 022026 - Turma 01*. Brasília: FCTE/UnB, 2026.  
 > [2] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
@@ -420,7 +417,7 @@ A equipe agradece o apoio da ferramenta de inteligência artificial generativa *
 
 ---
 
-## Histórico de Versões
+## 6. Histórico de Versões
 
 <div align="center" markdown="1">
 
@@ -429,5 +426,7 @@ A equipe agradece o apoio da ferramenta de inteligência artificial generativa *
 | `0.1` | 28/09/2026 | Abertura do documento de Guia de Estilo da Etapa 3 e estruturação inicial. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.0` | 05/10/2026 | Implementação da fundamentação teórica dos Itens 15 e 16 com inclusão dos recortes bibliográficos do livro (Figuras 1 e 2). | Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
 | `1.1` | 06/10/2026 | Preenchimento completo das 6 seções estruturais do guia de estilo (Marcus; Mayhew), detalhamento do padrão antitrapaça de download, paleta auditada WCAG 2.1 e correspondência com o PCI Concursos (Item 17). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
