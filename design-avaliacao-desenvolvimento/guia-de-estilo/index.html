@@ -1,0 +1,3072 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto da disciplina de Interação Humano-Computador (FGA-UnB) - Análise e Reprojeto do PCI Concursos">
+      
+      
+        <meta name="author" content="Equipe Grupo 07 - IHC">
+      
+      
+        <link rel="canonical" href="https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/design-avaliacao-desenvolvimento/guia-de-estilo/">
+      
+      
+        <link rel="prev" href="../../analise-de-requisitos/principios-gerais-de-projeto/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Guia de Estilo - IHC - PCI Concursos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guia-de-estilo-pci-concursos" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="IHC - PCI Concursos" class="md-header__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC - PCI Concursos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guia de Estilo
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Escuro (Alto Contraste)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Escuro (Alto Contraste)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../apresentacao/apresentacao-1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Apresentação
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../apresentacao/grupo-06/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/membros/" class="md-tabs__link">
+          
+  
+  
+  Planejamento (Etapa 1)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../analise-de-requisitos/aspectos-eticos/" class="md-tabs__link">
+          
+  
+  
+  Análise de Requisitos (Etapa 2)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../analise-de-requisitos/principios-gerais-de-projeto/" class="md-tabs__link">
+          
+  
+  
+  Design, Avaliação e Desenvolvimento (Etapa 3)
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IHC - PCI Concursos" class="md-nav__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    IHC - PCI Concursos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacao/apresentacao-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacao/grupo-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo 06
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacao/grupo-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo 08
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento (Etapa 1)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento (Etapa 1)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/membros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/planejamento-do-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heatmap de Disponibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites Avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/site-escolhido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site Selecionado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ata-reuniao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas de Reunião
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos (Etapa 2)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos (Etapa 2)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos Éticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/perfil-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil do Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/analise-de-tarefas/hta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/analise-de-tarefas/ctt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CTT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design, Avaliação e Desenvolvimento (Etapa 3)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design, Avaliação e Desenvolvimento (Etapa 3)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/principios-gerais-de-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Princípios Gerais de Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de Estilo
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de Estilo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Fundamentação Teórica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Fundamentação Teórica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-o-que-e-um-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 O que é um Guia de Estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-estrutura-canonica-do-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 Estrutura Canônica do Guia de Estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-estrutura-normativa-do-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Estrutura Normativa do Guia de Estilo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Estrutura Normativa do Guia de Estilo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-objetivo-do-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 Objetivo do guia de estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-organizacao-e-conteudo-do-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 Organização e conteúdo do guia de estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-publico-alvo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 Público-alvo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-como-utilizar-o-guia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 Como utilizar o guia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-como-manter-o-guia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 Como manter o guia
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-resultados-de-analise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Resultados de Análise
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Resultados de Análise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-descricao-do-ambiente-de-trabalho-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Descrição do ambiente de trabalho do usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-requisitos-derivados-das-personas-e-analise-documental" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Requisitos derivados das personas e análise documental
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-metas-de-usabilidade-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Metas de usabilidade do projeto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-elementos-de-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Elementos de Interface
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Elementos de Interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-disposicao-espacial-e-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Disposição espacial e grid
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-janelas-e-modais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Janelas e modais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-tipografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Tipografia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-simbolos-nao-tipograficos-icones-e-marcas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Símbolos não tipográficos (ícones e marcas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-cores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Cores
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-animacoes-e-transicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Animações e transições
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-elementos-de-interacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Elementos de Interação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Elementos de Interação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-estilos-de-interacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Estilos de interação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-selecao-de-um-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Seleção de um estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-aceleradores-teclas-de-atalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Aceleradores (teclas de atalho)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-elementos-de-acao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Elementos de Ação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Elementos de Ação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-preenchimento-de-campos-em-formularios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Preenchimento de campos em formulários
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-selecao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Seleção
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-ativacao-e-hierarquia-de-botoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Ativação e hierarquia de botões
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-o-padrao-antitrapaca-de-download-oficial-diretriz-critica-de-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 O Padrão Antitrapaça de Download Oficial (Diretriz Crítica de Segurança)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-busca-com-desambiguacao-semantica-resolucao-de-tar-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 Busca com Desambiguação Semântica (Resolução de TAR-06)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-formulario-parametrizado-de-alertas-por-e-mail-resolucao-de-tar-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Formulário Parametrizado de Alertas por E-mail (Resolução de TAR-08)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-vocabulario-e-padroes-de-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Vocabulário e Padrões de Conteúdo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Vocabulário e Padrões de Conteúdo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-terminologia-controlada-do-dominio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Terminologia controlada do domínio
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-tipos-de-tela-para-tarefas-comuns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Tipos de tela para tarefas comuns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-sequencias-de-dialogos-e-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Sequências de diálogos e feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-correspondencia-com-o-site-avaliado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Correspondência com o Site Avaliado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bibliografia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Fundamentação Teórica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Fundamentação Teórica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-o-que-e-um-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 O que é um Guia de Estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-estrutura-canonica-do-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 Estrutura Canônica do Guia de Estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-estrutura-normativa-do-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Estrutura Normativa do Guia de Estilo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Estrutura Normativa do Guia de Estilo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-objetivo-do-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 Objetivo do guia de estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-organizacao-e-conteudo-do-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 Organização e conteúdo do guia de estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-publico-alvo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 Público-alvo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-como-utilizar-o-guia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 Como utilizar o guia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-como-manter-o-guia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 Como manter o guia
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-resultados-de-analise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Resultados de Análise
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Resultados de Análise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-descricao-do-ambiente-de-trabalho-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Descrição do ambiente de trabalho do usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-requisitos-derivados-das-personas-e-analise-documental" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Requisitos derivados das personas e análise documental
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-metas-de-usabilidade-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Metas de usabilidade do projeto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-elementos-de-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Elementos de Interface
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Elementos de Interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-disposicao-espacial-e-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Disposição espacial e grid
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-janelas-e-modais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Janelas e modais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-tipografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Tipografia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-simbolos-nao-tipograficos-icones-e-marcas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Símbolos não tipográficos (ícones e marcas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-cores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Cores
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-animacoes-e-transicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Animações e transições
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-elementos-de-interacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Elementos de Interação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Elementos de Interação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-estilos-de-interacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Estilos de interação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-selecao-de-um-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Seleção de um estilo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-aceleradores-teclas-de-atalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Aceleradores (teclas de atalho)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-elementos-de-acao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Elementos de Ação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Elementos de Ação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-preenchimento-de-campos-em-formularios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Preenchimento de campos em formulários
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-selecao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Seleção
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-ativacao-e-hierarquia-de-botoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Ativação e hierarquia de botões
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-o-padrao-antitrapaca-de-download-oficial-diretriz-critica-de-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 O Padrão Antitrapaça de Download Oficial (Diretriz Crítica de Segurança)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-busca-com-desambiguacao-semantica-resolucao-de-tar-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 Busca com Desambiguação Semântica (Resolução de TAR-06)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-formulario-parametrizado-de-alertas-por-e-mail-resolucao-de-tar-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Formulário Parametrizado de Alertas por E-mail (Resolução de TAR-08)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-vocabulario-e-padroes-de-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Vocabulário e Padrões de Conteúdo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Vocabulário e Padrões de Conteúdo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-terminologia-controlada-do-dominio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Terminologia controlada do domínio
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-tipos-de-tela-para-tarefas-comuns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Tipos de tela para tarefas comuns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-sequencias-de-dialogos-e-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Sequências de diálogos e feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-correspondencia-com-o-site-avaliado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Correspondência com o Site Avaliado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bibliografia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div align="center">
+<p align="center"><b>Tabela de Contribuição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Membro</th>
+<th style="text-align: left;">Contribuição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Leonardo da Silva Lopes Júnior</td>
+<td style="text-align: left;">Concepção, fundamentação teórica (Mayhew, 1999; Marcus, 1992; Barbosa e Silva, 2010), estruturação formal dos itens 15, 16 e 17 com inclusão dos recortes bibliográficos do livro (Figuras 1 e 2), especificação completa das 6 seções normativas do Guia de Estilo (Introdução, Resultados de Análise, Elementos de Interface, Elementos de Interação, Elementos de Ação e Vocabulário), inclusão do padrão antitrapaça de download, paleta auditada WCAG 2.1 e demonstração de correspondência com o portal PCI Concursos.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">Revisão técnica da coerência metodológica com o ciclo de Mayhew e alinhamento com as metas de usabilidade.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">Revisão da conformidade visual com os achados de análise de requisitos e padrões de acessibilidade.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gemini</td>
+<td style="text-align: left;">Auxílio na estruturação textual, organização dos códigos de cores, diagramação em Markdown e checagem de conformidade com o checklist de IHC (conforme Política de Uso de IA).</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+</div>
+<h1 id="guia-de-estilo-pci-concursos">Guia de Estilo — PCI Concursos</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento apresenta o <strong>Guia de Estilo</strong> para o reprojeto do portal <strong>PCI Concursos</strong> (<code>pciconcursos.com.br</code>), elaborado para a Entrega 3 da disciplina de Interação Humano-Computador da Universidade de Brasília (SALES, 2026).</p>
+<p>No modelo de ciclo de vida da Engenharia de Usabilidade proposto por Deborah Mayhew (1999), adotado pelo Grupo 07 em seu <a href="../../planejamento/processo-de-design/">Processo de Design</a>, a fase de <strong>Análise de Requisitos</strong> tem como um de seus principais produtos a elaboração do guia de estilo. Esse documento sintetiza e operacionaliza as diretrizes, princípios de IHC e metas de usabilidade derivados da análise de tarefas, do perfil de usuário e das possibilidades e limitações da plataforma, garantindo que as decisões de design sejam mantidas e reflitam no produto final de forma consistente (BARBOSA; SILVA, 2010, p. 109-110, 282).</p>
+<hr />
+<h2 id="1-fundamentacao-teorica">1. Fundamentação Teórica</h2>
+<h3 id="11-o-que-e-um-guia-de-estilo">1.1 O que é um Guia de Estilo</h3>
+<p>Segundo Barbosa e Silva (2010, p. 282), é prática comum, sobretudo em projetos de grande escala ou em reprojetos de sistemas complexos, reunir os princípios e as diretrizes adotados em um documento formal intitulado <strong>guia de estilo</strong>. Esse documento atua como o registro central das principais decisões de design concebidas pela equipe, impedindo que se dispersem ao longo do ciclo de vida e assegurando que sejam fielmente incorporadas à interface final.</p>
+<p>Além disso, os autores destacam que os guias de estilo desempenham um papel fundamental como ferramenta de comunicação entre os designers de interação, desenvolvedores front-end, redatores e mantenedores do sistema, permitindo que soluções consolidadas sejam consultadas e reaproveitadas em extensões e versões futuras. Conforme apontado por Mayhew (1999), um guia de estilo pode abranger quatro escopos:
+1. <strong>De plataforma:</strong> restrito às convenções do sistema operacional e hardware;
+2. <strong>Corporativo:</strong> padronização entre diversos produtos de uma mesma instituição;
+3. <strong>De família de produtos:</strong> regras comuns a uma suíte de softwares integrados;
+4. <strong>De um produto específico:</strong> escopo este adotado formalmente neste projeto, focado nas particularidades e fluxos do <strong>PCI Concursos</strong>.</p>
+<p>A Figura 1 reproduz o trecho da literatura (Seção 8.4, p. 282) que fundamenta a definição e a importância do guia de estilo.</p>
+<div align="center">
+
+<p align="center"><b>Figura 1: Referência Bibliográfica — Definição e Importância de Guia de Estilo</b></p>
+
+<img src="../../assets/images/barbosa-guia-estilo-definicao-p282.png" alt="Definição e escopo de Guias de Estilo na literatura de IHC" style="max-width: 80%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA e SILVA (2010, p. 282).</p>
+
+</div>
+
+<hr />
+<h3 id="12-estrutura-canonica-do-guia-de-estilo">1.2 Estrutura Canônica do Guia de Estilo</h3>
+<p>Para garantir abrangência, rigor técnico e conformidade acadêmica, Barbosa e Silva (2010, p. 283) sintetizam a estrutura clássica proposta por Marcus (1992) e Mayhew (1999) para a composição de guias de estilo. Essa estrutura organiza as decisões de design em seis seções fundamentais:</p>
+<ol>
+<li><strong>Introdução:</strong> define o objetivo do guia, sua organização interna, o público-alvo (programadores, gerentes, equipe de suporte, designers), diretrizes de uso tanto na produção quanto na manutenção e procedimentos para mantê-lo atualizado;</li>
+<li><strong>Resultados de análise:</strong> registra a descrição do ambiente de trabalho do usuário (condições físicas, contextuais e técnicas de uso identificadas no perfil do usuário e na plataforma) e metas de usabilidade;</li>
+<li><strong>Elementos de interface:</strong> padroniza a disposição espacial e grid de tela, comportamento de janelas e modais, tipografia institucional, símbolos não tipográficos (ícones e marcas), paleta de cores e animações/transições;</li>
+<li><strong>Elementos de interação:</strong> especifica os estilos de interação suportados (menus, busca, links), a justificativa da seleção dos estilos predominantes e aceleradores (teclas de atalho e acessibilidade);</li>
+<li><strong>Elementos de ação:</strong> padroniza os mecanismos de preenchimento de campos em formulários, elementos de seleção (dropdowns, checkboxes, rádios) e mecanismos de ativação (botões e acionadores);</li>
+<li><strong>Vocabulário e padrões:</strong> estabelece a terminologia oficial e compreensível para os termos de domínio, os tipos de telas para as tarefas comuns e as sequências de diálogos (mensagens de confirmação, avisos de erro e feedback).</li>
+</ol>
+<p>Adicionalmente, Mayhew (1999) recomenda explicitar o <em>design rationale</em> (a justificativa de cada decisão), assegurando o rastreamento direto entre os problemas levantados nas etapas anteriores e os elementos de interface projetados. A Figura 2 ilustra o trecho da literatura (Seção 8.4, p. 283) que estabelece essa divisão estrutural.</p>
+<div align="center">
+
+<p align="center"><b>Figura 2: Referência Bibliográfica — Estrutura Canônica de Guia de Estilo</b></p>
+
+<img src="../../assets/images/barbosa-guia-estilo-estrutura-p283.png" alt="Estrutura de Guia de Estilo segundo Marcus (1992) e Mayhew (1999)" style="max-width: 80%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA e SILVA (2010, p. 283).</p>
+
+</div>
+
+<hr />
+<h2 id="2-estrutura-normativa-do-guia-de-estilo">2. Estrutura Normativa do Guia de Estilo</h2>
+<p>A seguir, apresentam-se as decisões de design do novo <strong>PCI Concursos</strong> organizadas rigorosamente segundo os seis eixos normativos da literatura (MARCUS, 1992; MAYHEW, 1999; BARBOSA; SILVA, 2010).</p>
+<hr />
+<h3 id="1-introducao">1. Introdução</h3>
+<h4 id="11-objetivo-do-guia-de-estilo">1.1 Objetivo do guia de estilo</h4>
+<p>O objetivo deste Guia de Estilo é estabelecer os padrões normativos de interface, diretrizes de usabilidade, convenções de interação e vocabulário controlado para o reprojeto do portal <strong>PCI Concursos</strong>. Este documento serve como referência técnica e projetual para a equipe do Grupo 07 durante a elaboração dos protótipos de baixa fidelidade (Protótipo de Papel / Nível 1) e alta fidelidade (Figma / Nível 3), garantindo que as metas de usabilidade definidas na fase de Análise de Requisitos sejam cumpridas e que o sistema ofereça uma experiência de uso consistente, segura, transparente e despoluída aos concurseiros e estudantes de todo o país.</p>
+<h4 id="12-organizacao-e-conteudo-do-guia-de-estilo">1.2 Organização e conteúdo do guia de estilo</h4>
+<p>O guia está estruturado em estrita conformidade com as diretrizes consolidadas de IHC, dividindo-se em:
+* <strong>Resultados de análise:</strong> contextualização do ambiente físico, técnico e cognitivo do usuário, requisitos das personas e metas de usabilidade;
+* <strong>Elementos de interface:</strong> normas de grid responsivo modular, janelas/modais, tipografia de alta legibilidade, iconografia padronizada, paleta cromática auditada (WCAG 2.1) e animações suaves;
+* <strong>Elementos de interação:</strong> estilos de diálogo homem-máquina, critérios de seleção de estilos e atalhos de acessibilidade;
+* <strong>Elementos de ação:</strong> padrões para preenchimento de formulários, seleção de itens, hierarquia de ativação de botões e o <strong>padrão antitrapaça de download</strong>;
+* <strong>Vocabulário e padrões:</strong> glossário oficial de concursos públicos, padrões estruturais de telas e sequências de diálogos com feedback imediato;
+* <strong>Correspondência com o site avaliado:</strong> demonstração ponto a ponto da aderência das decisões à resolução dos diagnósticos empíricos do PCI Concursos.</p>
+<h4 id="13-publico-alvo">1.3 Público-alvo</h4>
+<p>Este guia destina-se aos seguintes papéis envolvidos no projeto:
+* <strong>Designers de Interação e Avaliadores (Grupo 07):</strong> responsáveis por conceber os protótipos e inspecionar conformidades ergonômicas;
+* <strong>Desenvolvedores Front-end:</strong> responsáveis pela codificação fiel dos componentes visuais, respeitando tokens de cor, espaçamentos e acessibilidade;
+* <strong>Analistas de Usabilidade e Acessibilidade:</strong> responsáveis por auditorias heurísticas e testes com usuários;
+* <strong>Gestores Editoriais e Conteudistas:</strong> responsáveis pela publicação de editais, videoaulas, simulados e comunicados oficiais.</p>
+<h4 id="14-como-utilizar-o-guia">1.4 Como utilizar o guia</h4>
+<ul>
+<li><strong>Em produção (projeto e desenvolvimento):</strong> deve ser consultado obrigatoriamente antes da criação de qualquer novo fluxo, componente ou tela, servindo como especificação normativa para escolha de cores, tamanhos de fonte, espaçamentos, áreas de toque e mensagens de erro;</li>
+<li><strong>Em manutenção e avaliação:</strong> serve como checklist de referência durante avaliações heurísticas, testes de usabilidade e auditorias de acessibilidade, orientando correções rápidas de divergências visuais e comportamentais.</li>
+</ul>
+<h4 id="15-como-manter-o-guia">1.5 Como manter o guia</h4>
+<p>O guia deve ser revisado de forma iterativa ao final de cada ciclo de avaliação com usuários (Etapas 5 e 7). Quaisquer modificações em decisões de design devem ser registradas no histórico de versão do documento, acompanhadas de seu respectivo <em>design rationale</em> (a justificativa da alteração embasada nos dados observados nas avaliações empíricas).</p>
+<hr />
+<h3 id="2-resultados-de-analise">2. Resultados de Análise</h3>
+<h4 id="21-descricao-do-ambiente-de-trabalho-do-usuario">2.1 Descrição do ambiente de trabalho do usuário</h4>
+<p>Com base no <a href="../../analise-de-requisitos/perfil-de-usuario/">Perfil do Usuário</a> consolidado na Etapa 2 e nas análises documentais (<a href="../../analise-de-requisitos/perfil-de-usuario/#51-analise-documental-01-responsavel-daniel-da-silva-batista">DOC-01</a> a <a href="../../analise-de-requisitos/perfil-de-usuario/#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior">DOC-04</a>), identificou-se que o público do PCI Concursos caracteriza-se por:
+* <strong>Dispositivos e Resoluções:</strong> Uso heterogêneo entre smartphones (telas de 5 a 6,7 polegadas em trânsito, ônibus e intervalos de trabalho sob redes 4G/5G oscilantes) e computadores desktop/notebooks (monitores de 13 a 24 polegadas em casa ou escritórios). O layout deve assegurar legibilidade sem depender de zoom manual;
+* <strong>Condições de Iluminação e Fadiga Ocular:</strong> Variações extremas desde leitura sob sol intenso em pontos de ônibus até sessões noturnas prolongadas de estudo em quartos com iluminação reduzida, justificando a oferta indispensável de modo escuro com alto contraste;
+* <strong>Carga Cognitiva e Estresse Temporal:</strong> Concurseiros estudam sob pressão de datas limites de inscrição e prazos curtos de intervalos de descanso. A interface deve eliminar anúncios piscantes e concorrentes, priorizando respiro visual e clareza informativa;
+* <strong>Conectividade:</strong> Grande parcela dos acessos móveis dá-se sob planos limitados de dados móveis, exigindo carregamento leve de ativos, ausência de scripts desnecessários e <strong>zero salto de layout (<em>Zero CLS</em>)</strong>.</p>
+<h4 id="22-requisitos-derivados-das-personas-e-analise-documental">2.2 Requisitos derivados das personas e análise documental</h4>
+<p>As quatro personas modeladas no projeto orientam diretamente as escolhas de interface:
+* <strong>Maria Helena dos Santos (PER-01 — 53 anos, Concurseira Ativa e Cautelosa):</strong> Sofre com ardência visual ao ler na tela e quase clicou em botões verdes falsos de <em>"DOWNLOAD"</em> de propagandas no teste real (USR-01 / CEN-02). $\rightarrow$ <em>Demanda botões oficiais de download isolados de anúncios e contraste elevado.</em>
+* <strong>Lucas Ferreira Rocha (PER-02 — 24 anos, Iniciante Dinâmico):</strong> Precisa localizar editais abertos no DF sem ter que rolar dezenas de páginas de cidades do interior de outros estados (CEN-03). $\rightarrow$ <em>Demanda chips reativos de filtragem por UF no topo da tabela.</em>
+* <strong>Thiago Moraes Albuquerque (PER-03 — 21 anos, Estudante Universitário):</strong> Utiliza smartphones no transporte público e busca simulados e vagas de estágio, mas perdeu o progresso das questões e confundiu-se com termos ambíguos de estágio probatório (CEN-05 e CEN-06). $\rightarrow$ <em>Demanda alvos de toque aumentados (44x44px), modo foco e busca inteligente com desambiguação semântica.</em>
+* <strong>Renata Cristina Freitas (PER-04 — 31 anos, Analista Administrativa CLT):</strong> Assiste a videoaulas no intervalo de almoço no celular e cadastrou e-mail para receber vagas, mas foi bombardeada por mensagens genéricas de prefeituras distantes (CEN-07 e CEN-08). $\rightarrow$ <em>Demanda player móvel que não sobreponha anúncios aos controles no modo paisagem e newsletter com filtros por UF e carreira, com saída em 1 clique (LGPD).</em></p>
+<h4 id="23-metas-de-usabilidade-do-projeto">2.3 Metas de usabilidade do projeto</h4>
+<p>Conforme preconizado por Mayhew (1999) e Barbosa e Silva (2010), o guia operacionaliza as seguintes metas de usabilidade:
+1. <strong>Segurança no Uso:</strong> Eliminação total de armadilhas visuais e anúncios enganosos que induzam o usuário a baixar arquivos maliciosos;
+2. <strong>Eficácia:</strong> Garantia de que concurseiros e estudantes encontrem o edital, videoaula ou prova desejada em menos de 3 minutos de navegação;
+3. <strong>Eficiência:</strong> Redução drástica do tempo de resposta das consultas mediante carregamento assíncrono e filtros reativos;
+4. <strong>Facilidade de Aprendizado (<em>Learnability</em>):</strong> Menus simplificados em 4 agrupamentos funcionais com ícones autoexplicativos;
+5. <strong>Acessibilidade Universal (WCAG 2.1 AA):</strong> Garantia de contraste mínimo de 4.5:1 para texto normal, 3:1 para componentes de interface e áreas de toque mínimas de 44x44px.</p>
+<hr />
+<h3 id="3-elementos-de-interface">3. Elementos de Interface</h3>
+<h4 id="31-disposicao-espacial-e-grid">3.1 Disposição espacial e grid</h4>
+<ul>
+<li><strong>Sistema de Grid:</strong> Baseado em <strong>12 colunas</strong> no desktop (largura máxima centralizada de 1280px), <strong>8 colunas</strong> em tablets e <strong>4 colunas</strong> no mobile, estruturado sobre uma escala modular de múltiplos de 8 pontos (<strong>8pt Grid System</strong>);</li>
+<li><strong>Margens e Calhas (<em>Gutters</em>):</strong></li>
+<li><em>Desktop:</em> margens externas de 32px e calhas de 24px;</li>
+<li><em>Tablet:</em> margens externas de 24px e calhas de 16px;</li>
+<li><em>Mobile:</em> margens externas de 16px e calhas de 12px;</li>
+<li><strong>Tokens de Espaçamento:</strong></li>
+<li><code>$space-xxs: 4px</code> (microajustes);</li>
+<li><code>$space-xs: 8px</code> (padding interno de tags e badges);</li>
+<li><code>$space-sm: 16px</code> (padding interno de cartões e inputs);</li>
+<li><code>$space-md: 24px</code> (gutter de colunas e distância entre campos);</li>
+<li><code>$space-lg: 32px</code> (respiro entre seções de conteúdo);</li>
+<li><code>$space-xl: 48px</code> (raio protetivo antitrapaça de downloads);</li>
+<li><code>$space-2xl: 64px</code> (respiro de rodapé).</li>
+</ul>
+<h4 id="32-janelas-e-modais">3.2 Janelas e modais</h4>
+<ul>
+<li><strong>Modais de Diálogo:</strong> Reservados para ações focadas e de confirmação (ex.: confirmar descadastramento de e-mail, visualizar detalhes rápidos de uma questão de simulado ou exibir filtros avançados em telas móveis);</li>
+<li><strong>Mecanismos de Saída:</strong> Todo modal deve oferecer três vias seguras de fechamento:</li>
+<li>Botão explícito <em>"Fechar [X]"</em> no canto superior direito (área mínima de 44x44px);</li>
+<li>Clique na máscara semitransparente externa (<em>overlay</em> com opacidade de 50%);</li>
+<li>Pressionamento da tecla <code>Esc</code> no teclado;</li>
+<li><strong>Controle de Foco (<em>Focus Trap</em>):</strong> Enquanto o modal estiver ativo, a navegação via <code>Tab</code> deve permanecer confinada exclusivamente aos elementos internos do modal.</li>
+</ul>
+<h4 id="33-tipografia">3.3 Tipografia</h4>
+<p>Adotam-se famílias tipográficas sem serifa modernas, de excelente legibilidade em telas de alta e baixa densidade de pixels. A Tabela 2 apresenta a escala modular padronizada:</p>
+<div align="center">
+<p align="center"><b>Tabela 2: Escala Tipográfica Padronizada do PCI Concursos</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Nível / Uso</th>
+<th style="text-align: left;">Família Tipográfica</th>
+<th style="text-align: center;">Tamanho</th>
+<th style="text-align: center;">Peso</th>
+<th style="text-align: center;">Altura de Linha (<em>Line-height</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Título Principal (H1)</strong></td>
+<td style="text-align: left;"><em>Inter</em>, sans-serif</td>
+<td style="text-align: center;">32 px (Desktop) / 28 px (Mobile)</td>
+<td style="text-align: center;">700 (Bold)</td>
+<td style="text-align: center;">1.25 (40 px)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Título de Seção (H2)</strong></td>
+<td style="text-align: left;"><em>Inter</em>, sans-serif</td>
+<td style="text-align: center;">24 px (Desktop) / 22 px (Mobile)</td>
+<td style="text-align: center;">600 (Semi-bold)</td>
+<td style="text-align: center;">1.30 (32 px)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Título de Módulo (H3)</strong></td>
+<td style="text-align: left;"><em>Inter</em>, sans-serif</td>
+<td style="text-align: center;">20 px (Desktop) / 18 px (Mobile)</td>
+<td style="text-align: center;">600 (Semi-bold)</td>
+<td style="text-align: center;">1.35 (28 px)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Subtítulos e Destaques</strong></td>
+<td style="text-align: left;"><em>Inter</em>, sans-serif</td>
+<td style="text-align: center;">16 px</td>
+<td style="text-align: center;">500 (Medium)</td>
+<td style="text-align: center;">1.40 (22 px)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Corpo de Texto (Padrão)</strong></td>
+<td style="text-align: left;"><em>Inter</em>, sans-serif</td>
+<td style="text-align: center;">16 px</td>
+<td style="text-align: center;">400 (Regular)</td>
+<td style="text-align: center;">1.55 (24 px)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Rótulos e Metadados</strong></td>
+<td style="text-align: left;"><em>Inter</em>, sans-serif</td>
+<td style="text-align: center;">14 px</td>
+<td style="text-align: center;">500 (Medium)</td>
+<td style="text-align: center;">1.45 (20 px)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Legendas e Badges</strong></td>
+<td style="text-align: left;"><em>Inter</em>, sans-serif</td>
+<td style="text-align: center;">12 px (tamanho mínimo absoluto)</td>
+<td style="text-align: center;">600 (Semi-bold)</td>
+<td style="text-align: center;">1.40 (16 px)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Numerais e Protocolos</strong></td>
+<td style="text-align: left;">Monospaçada (<code>ui-monospace, Consolas</code>)</td>
+<td style="text-align: center;">14 px</td>
+<td style="text-align: center;">500 (Medium)</td>
+<td style="text-align: center;">1.40 (20 px)</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+</div>
+<h4 id="34-simbolos-nao-tipograficos-icones-e-marcas">3.4 Símbolos não tipográficos (ícones e marcas)</h4>
+<ul>
+<li><strong>Estilo Visual:</strong> Linhas geométricas limpas (<em>outline</em>), bidimensionais, com espessura uniforme de 2px e dimensões de base de <code>24 x 24 px</code> (com versões de <code>16 x 16 px</code> para botões compactos);</li>
+<li><strong>Catálogo de Ícones Essenciais:</strong></li>
+<li>🔍 <strong>Lupa:</strong> Busca geral e acionamento de pesquisas;</li>
+<li>📄 <strong>Documento PDF:</strong> Exclusivo para arquivos autênticos de provas e editais oficiais;</li>
+<li>📍 <strong>Pin / Mapa:</strong> Tag de localização geográfica de concursos (ex.: <code>[📍 DF]</code>);</li>
+<li>📅 <strong>Calendário:</strong> Prazos de inscrição e datas de provas objetivas;</li>
+<li>🔔 <strong>Sino:</strong> Central de alertas de vagas e newsletters;</li>
+<li>▶️ <strong>Play:</strong> Reprodução de videoaulas e dicas didáticas;</li>
+<li>⚠️ <strong>Alerta:</strong> Retificações de editais e erratas de bancas;</li>
+<li>♿ <strong>Acessibilidade:</strong> Vagas reservadas para Pessoas com Deficiência (PcD).</li>
+<li><strong>Logotipo Oficial:</strong> Margem de respiro mínima equivalente à altura da letra "P". No cabeçalho escuro, utiliza-se obrigatoriamente a versão com tipografia branca (<code>pci_logo_white.png</code>).</li>
+</ul>
+<h4 id="35-cores">3.5 Cores</h4>
+<p>A paleta preserva a identidade visual consagrada do PCI Concursos (azul clássico), corrigindo os graves problemas de contraste anteriores. Todas as cores foram auditadas conforme o critério 1.4.3 da WCAG 2.1:</p>
+<div align="center">
+<p align="center"><b>Tabela 3: Paleta Cromática Padronizada e Auditoria de Contraste</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Categoria</th>
+<th style="text-align: left;">Nome do Token</th>
+<th style="text-align: center;">Código Hexadecimal</th>
+<th style="text-align: center;">Amostra</th>
+<th style="text-align: left;">Uso Recomendado</th>
+<th style="text-align: center;">Razão de Contraste</th>
+<th style="text-align: center;">Nível WCAG</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Primária</strong></td>
+<td style="text-align: left;"><code>$color-primary-dark</code></td>
+<td style="text-align: center;"><code>#003366</code></td>
+<td style="text-align: center;"><span style="background-color:#003366;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#003366</span></td>
+<td style="text-align: left;">Cabeçalho principal, títulos H1/H2 e barras de topo</td>
+<td style="text-align: center;">11.2:1 (sobre branco)</td>
+<td style="text-align: center;"><strong>AAA</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Primária</strong></td>
+<td style="text-align: left;"><code>$color-primary</code></td>
+<td style="text-align: center;"><code>#0056B3</code></td>
+<td style="text-align: center;"><span style="background-color:#0056B3;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#0056B3</span></td>
+<td style="text-align: left;">Botões primários oficiais, links ativos e abas selecionadas</td>
+<td style="text-align: center;">7.3:1 (sobre branco)</td>
+<td style="text-align: center;"><strong>AAA</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Superfície</strong></td>
+<td style="text-align: left;"><code>$color-surface-bg</code></td>
+<td style="text-align: center;"><code>#F8F9FA</code></td>
+<td style="text-align: center;"><span style="background-color:#F8F9FA;color:#24292F;padding:3px 10px;border-radius:4px;border:1px solid #D0D7DE;font-weight:bold;">#F8F9FA</span></td>
+<td style="text-align: left;">Fundo geral da página (respiro sem ofuscamento)</td>
+<td style="text-align: center;">Base</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Superfície</strong></td>
+<td style="text-align: left;"><code>$color-surface-card</code></td>
+<td style="text-align: center;"><code>#FFFFFF</code></td>
+<td style="text-align: center;"><span style="background-color:#FFFFFF;color:#24292F;padding:3px 10px;border-radius:4px;border:1px solid #D0D7DE;font-weight:bold;">#FFFFFF</span></td>
+<td style="text-align: left;">Fundo de cartões de concursos, modais e tabelas</td>
+<td style="text-align: center;">Base</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Bordas</strong></td>
+<td style="text-align: left;"><code>$color-border</code></td>
+<td style="text-align: center;"><code>#D0D7DE</code></td>
+<td style="text-align: center;"><span style="background-color:#D0D7DE;color:#24292F;padding:3px 10px;border-radius:4px;font-weight:bold;">#D0D7DE</span></td>
+<td style="text-align: left;">Divisores de blocos, linhas de tabelas e contornos</td>
+<td style="text-align: center;">3.1:1 (UI component)</td>
+<td style="text-align: center;"><strong>AA</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Texto</strong></td>
+<td style="text-align: left;"><code>$color-text-main</code></td>
+<td style="text-align: center;"><code>#24292F</code></td>
+<td style="text-align: center;"><span style="background-color:#24292F;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#24292F</span></td>
+<td style="text-align: left;">Títulos, corpos de notícias e enunciados de questões</td>
+<td style="text-align: center;">13.8:1 (sobre branco)</td>
+<td style="text-align: center;"><strong>AAA</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Texto</strong></td>
+<td style="text-align: left;"><code>$color-text-muted</code></td>
+<td style="text-align: center;"><code>#57606A</code></td>
+<td style="text-align: center;"><span style="background-color:#57606A;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#57606A</span></td>
+<td style="text-align: left;">Metadados, datas, bancas e legendas secundárias</td>
+<td style="text-align: center;">4.8:1 (sobre branco)</td>
+<td style="text-align: center;"><strong>AA</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Semântica</strong></td>
+<td style="text-align: left;"><code>$color-success</code></td>
+<td style="text-align: center;"><code>#1A7F37</code></td>
+<td style="text-align: center;"><span style="background-color:#1A7F37;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#1A7F37</span></td>
+<td style="text-align: left;"><em>"Inscrições Abertas"</em>, acertos em simulados</td>
+<td style="text-align: center;">4.6:1 (sobre branco)</td>
+<td style="text-align: center;"><strong>AA</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Semântica</strong></td>
+<td style="text-align: left;"><code>$color-warning</code></td>
+<td style="text-align: center;"><code>#9A6700</code></td>
+<td style="text-align: center;"><span style="background-color:#9A6700;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#9A6700</span></td>
+<td style="text-align: left;"><em>"Retificação Publicada"</em>, <em>"Últimos Dias"</em> de inscrição</td>
+<td style="text-align: center;">4.7:1 (sobre branco)</td>
+<td style="text-align: center;"><strong>AA</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Semântica</strong></td>
+<td style="text-align: left;"><code>$color-danger</code></td>
+<td style="text-align: center;"><code>#CF222E</code></td>
+<td style="text-align: center;"><span style="background-color:#CF222E;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#CF222E</span></td>
+<td style="text-align: left;"><em>"Inscrições Encerradas"</em>, erros e cancelamento</td>
+<td style="text-align: center;">4.9:1 (sobre branco)</td>
+<td style="text-align: center;"><strong>AA</strong></td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+</div>
+<h4 id="36-animacoes-e-transicoes">3.6 Animações e transições</h4>
+<ul>
+<li><strong>Duração e Curva:</strong> Transições de abertura de acordeões, modais e abas devem ter duração restrita entre <strong>150ms e 200ms</strong> com curva de desaceleração suave (<code>ease-out</code>);</li>
+<li><strong>Acessibilidade:</strong> Suporte mandatório à diretiva <code>prefers-reduced-motion: reduce</code>, desligando animações para usuários suscetíveis a labirintite ou vertigem.</li>
+</ul>
+<hr />
+<h3 id="4-elementos-de-interacao">4. Elementos de Interação</h3>
+<h4 id="41-estilos-de-interacao">4.1 Estilos de interação</h4>
+<ol>
+<li><strong>Navegação Categorizada Estruturada:</strong> O menu superior substitui a lista caótica de 15 itens por quatro grandes blocos temáticos: <em>Oportunidades (Concursos por Região e Cargos)</em>, <em>Estudos (Provas, Aulas e Simulados)</em>, <em>Serviços (Alertas por E-mail)</em> e <em>Institucional</em>;</li>
+<li><strong>Busca Direta com Sugestão Preditiva:</strong> Campo de busca com autocompletar instantâneo agrupado por categoria (Órgãos, Disciplinas, Bancas);</li>
+<li><strong>Manipulação Direta Reativa (Filtros por Chips):</strong> Filtragem de concursos na tabela via cliques em chips (ex.: clicar em <code>[DF]</code> filtra a tabela em tempo real sem reload completo de página).</li>
+</ol>
+<h4 id="42-selecao-de-um-estilo">4.2 Seleção de um estilo</h4>
+<p>A combinação entre navegação categorizada e busca facetada responde diretamente aos dois perfis de comportamento diagnosticados na Etapa 2:
+* <strong>Usuário com Objetivo Definido (ex.: Lucas e Maria Helena):</strong> Deseja buscar um órgão específico ("Correios", "TJDFT") ou filtrar imediatamente sua região sem fricção;
+* <strong>Usuário Exploratório / Em Trânsito (ex.: Thiago e Renata):</strong> Busca opções rápidas de estudo ou vagas do dia, demandando catálogo categorizado e de escaneamento visual limpo.</p>
+<h4 id="43-aceleradores-teclas-de-atalho">4.3 Aceleradores (teclas de atalho)</h4>
+<p>Para garantir eficiência operacional e acessibilidade motora:
+* <strong>Tecla <code>/</code>:</strong> Foca imediatamente o cursor na barra de pesquisa principal do cabeçalho;
+* <strong>Tecla <code>Esc</code>:</strong> Fecha qualquer modal ativo, menu suspenso ou filtro aberto;
+* <strong>Atalhos de Pulo (<em>Skip Links</em>):</strong>
+  * <code>Alt + 1</code>: Salta direto para o conteúdo principal;
+  * <code>Alt + 2</code>: Salta para o menu de navegação;
+  * <code>Alt + 3</code>: Salta para a barra de busca;
+  * <code>Alt + 4</code>: Salta para o rodapé;
+* <strong>Anel de Foco Visível:</strong> Elementos focados pelo teclado recebem contorno azul destacado de <strong>3px</strong> (<code>box-shadow: 0 0 0 3px #0056B3</code>), eliminando o foco invisível.</p>
+<hr />
+<h3 id="5-elementos-de-acao">5. Elementos de Ação</h3>
+<h4 id="51-preenchimento-de-campos-em-formularios">5.1 Preenchimento de campos em formulários</h4>
+<ul>
+<li><strong>Rótulos Permanentes (<em>Top Labels</em>):</strong> O rótulo fica fixo acima da caixa de entrada, nunca sumindo durante a digitação;</li>
+<li><strong>Validação em Tempo Real:</strong> Validação sintática instantânea ao sair do campo (<em>onBlur</em>), com mensagem de erro em fonte 14px em vermelho (<code>#CF222E</code>) e ícone explicativo;</li>
+<li><strong>Dimensão Mínima de Toque:</strong> Campos de texto com altura mínima de <strong>48px</strong> e padding horizontal de <strong>16px</strong>.</li>
+</ul>
+<h4 id="52-selecao">5.2 Seleção</h4>
+<ul>
+<li><strong>Caixas de Seleção (<em>Checkboxes</em>):</strong> Usadas para seleções múltiplas e independentes (ex.: selecionar as UFs de interesse: <code>[x] DF</code>, <code>[x] GO</code>, <code>[ ] MT</code>);</li>
+<li><strong>Botões de Rádio (<em>Radio Buttons</em>):</strong> Exclusivos para escolhas mutuamente excludentes (ex.: periodicidade da newsletter: <code>(o) Diária</code> ou <code>( ) Semanal</code>);</li>
+<li><strong>Menus Suspensos (<em>Dropdowns</em>):</strong> Empregados para listas com mais de 7 opções (como lista de todas as 27 UFs do Brasil).</li>
+</ul>
+<h4 id="53-ativacao-e-hierarquia-de-botoes">5.3 Ativação e hierarquia de botões</h4>
+<p>Os botões seguem hierarquia visual estrita de quatro níveis (Tabela 4):</p>
+<div align="center">
+<p align="center"><b>Tabela 4: Padrões de Botões e Mecanismos de Ativação</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tipo</th>
+<th style="text-align: left;">Estilo Visual</th>
+<th style="text-align: left;">Uso Principal</th>
+<th style="text-align: left;">Comportamento de Hover</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Botão Primário</strong></td>
+<td style="text-align: left;">Fundo azul sólido (<code>#0056B3</code>), texto branco, cantos arredondados de 6px</td>
+<td style="text-align: left;">Ação principal da tela (ex.: "Pesquisar", "Cadastrar Alerta", "Baixar Prova Oficial")</td>
+<td style="text-align: left;">Clareia o fundo para <code>#0069D9</code> e exibe cursor <em>pointer</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Botão Secundário</strong></td>
+<td style="text-align: left;">Fundo transparente, borda de 1.5px em azul (<code>#0056B3</code>), texto azul</td>
+<td style="text-align: left;">Ações de apoio (ex.: "Ver Retificações", "Filtrar por Região", "Refazer Questão")</td>
+<td style="text-align: left;">Fundo suave <code>rgba(0, 86, 179, 0.08)</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Botão Terciário (Link)</strong></td>
+<td style="text-align: left;">Sem borda e sem fundo, texto azul sublinhado no hover</td>
+<td style="text-align: left;">Ações de cancelamento ou suporte (ex.: "Limpar Filtros", "Cancelar", "Voltar")</td>
+<td style="text-align: left;">Adiciona sublinhado e muda cor para azul escuro</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Botão Destrutivo</strong></td>
+<td style="text-align: left;">Fundo vermelho sólido (<code>#CF222E</code>), texto branco, cantos de 6px</td>
+<td style="text-align: left;">Ações irreversíveis (ex.: "Cancelar Assinatura de Alertas", "Excluir Conta")</td>
+<td style="text-align: left;">Escurece o tom para <code>#A40E26</code></td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+</div>
+<hr />
+<h4 id="54-o-padrao-antitrapaca-de-download-oficial-diretriz-critica-de-seguranca">5.4 O Padrão Antitrapaça de Download Oficial (Diretriz Crítica de Segurança)</h4>
+<p>Para extirpar a vulnerabilidade diagnosticada em USR-01, TAR-02 e CEN-02, na qual participantes quase caíram em anúncios publicitários disfarçados de botões verdes <em>"DOWNLOAD"</em>, institui-se o <strong>Padrão Antitrapaça de Download</strong>:</p>
+<div align="center">
+<div class="highlight"><pre><span></span><code>+-----------------------------------------------------------------------------------+
+|  [ZONA PROTEGIDA DE DOWNLOAD OFICIAL DO PCI CONCURSOS]                            |
+|                                                                                   |
+|   +---------------------------------------------------------------------------+   |
+|   |  [PDF] Baixar Caderno de Questões Oficial (Assistente_Adm_2026.pdf)       |   |
+|   |  Formato: PDF Oficial | Tamanho: 2.1 MB | Verificado: Banca Oficial       |   |
+|   +---------------------------------------------------------------------------+   |
+|   (Botão Primário Azul Sólido #0056B3 - Largura Total - Altura Mínima 52px)       |
+|                                                                                   |
+|   +---------------------------------------------------------------------------+   |
+|   |  [PDF] Baixar Gabarito Definitivo Oficial (Pós-Recurso) (Gabarito.pdf)    |   |
+|   |  Formato: PDF Oficial | Tamanho: 340 KB | Retificado em: 15/09/2026       |   |
+|   +---------------------------------------------------------------------------+   |
+|   (Botão Secundário Contornado com Ícone de Chave de Respostas)                   |
+|                                                                                   |
+|  * RAIO DE EXCLUSÃO PROTETIVO: Nenhum banner ou anúncio publicitário pode ser    |
+|    posicionado a menos de 48px de distância vertical ou horizontal desta caixa.  |
++-----------------------------------------------------------------------------------+
+</code></pre></div>
+<p align="center"><b>Figura 3:</b> Esquema do Padrão Antitrapaça de Download Seguro. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+</div>
+<ul>
+<li><strong>Norma Mandatória:</strong> A área de download oficial deve ter um <strong>raio protetivo de 48px</strong> absolutamente livre de banners promocionais e exibir claramente o nome do arquivo, formato <code>.pdf</code>, tamanho em megabytes e selo de arquivo verificado.</li>
+</ul>
+<hr />
+<h4 id="55-busca-com-desambiguacao-semantica-resolucao-de-tar-06">5.5 Busca com Desambiguação Semântica (Resolução de TAR-06)</h4>
+<p>Para sanar a colisão terminológica de <em>"estágio"</em> identificada em TAR-06 e CEN-06:
+* O campo de busca ativa um menu preditivo desambiguador:
+  * 🎓 <em>"Vagas de Estágio para Estudantes (Nível Médio e Superior no DF)"</em>;
+  * ⚖️ <em>"Regras de Estágio Probatório de Servidores Públicos (Editais Efetivos)"</em>.</p>
+<hr />
+<h4 id="56-formulario-parametrizado-de-alertas-por-e-mail-resolucao-de-tar-08">5.6 Formulário Parametrizado de Alertas por E-mail (Resolução de TAR-08)</h4>
+<p>O formulário de newsletter deixa de ser um campo de texto isolado e torna-se uma <strong>Central de Alertas Personalizados</strong>:
+* Campo de e-mail com validação em tempo real;
+* Seletores de UFs prioritárias (<code>DF</code>, <code>GO</code>, etc.);
+* Seletores de escolaridade (<em>Médio</em>, <em>Técnico</em>, <em>Superior</em>);
+* Seletores de carreira (<em>Administrativa</em>, <em>Tribunais</em>, <em>Fiscal</em>, etc.);
+* Termo de consentimento explícito em conformidade com a LGPD e cancelamento garantido com 1 clique.</p>
+<hr />
+<h3 id="6-vocabulario-e-padroes-de-conteudo">6. Vocabulário e Padrões de Conteúdo</h3>
+<h4 id="61-terminologia-controlada-do-dominio">6.1 Terminologia controlada do domínio</h4>
+<p>A Tabela 5 estabelece a padronização entre termos ambíguos do sistema antigo e o vocabulário normatizado:</p>
+<div align="center">
+<p align="center"><b>Tabela 5: Vocabulário Controlado de Termos do PCI Concursos</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Termo Antigo / Proibido</th>
+<th style="text-align: left;">Termo Padronizado no Guia</th>
+<th style="text-align: left;">Significado Operacional no Sistema</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">"Aberta", "Matrículas"</td>
+<td style="text-align: left;"><strong>Inscrições Abertas</strong></td>
+<td style="text-align: left;">Período de submissão de formulário e pagamento de taxa ativo.</td>
+</tr>
+<tr>
+<td style="text-align: left;">"Vai sair", "Previsto"</td>
+<td style="text-align: left;"><strong>Inscrições Previstas / Autorizado</strong></td>
+<td style="text-align: left;">Concurso autorizado oficialmente, aguardando publicação do edital.</td>
+</tr>
+<tr>
+<td style="text-align: left;">"Fechado", "Passou prazo"</td>
+<td style="text-align: left;"><strong>Inscrições Encerradas</strong></td>
+<td style="text-align: left;">Prazo expirado; certame aguarda provas ou convocações.</td>
+</tr>
+<tr>
+<td style="text-align: left;">"Errata", "Mudança avulsa"</td>
+<td style="text-align: left;"><strong>Retificação de Edital</strong></td>
+<td style="text-align: left;">Documento retificador oficial de cronograma, requisitos ou vagas.</td>
+</tr>
+<tr>
+<td style="text-align: left;">"Teste", "Exame"</td>
+<td style="text-align: left;"><strong>Caderno de Provas</strong></td>
+<td style="text-align: left;">Caderno oficial de questões em PDF para download.</td>
+</tr>
+<tr>
+<td style="text-align: left;">"Chave de respostas"</td>
+<td style="text-align: left;"><strong>Gabarito Oficial Preliminar</strong></td>
+<td style="text-align: left;">Respostas divulgadas pela banca antes dos recursos.</td>
+</tr>
+<tr>
+<td style="text-align: left;">"Gabarito final"</td>
+<td style="text-align: left;"><strong>Gabarito Oficial Definitivo</strong></td>
+<td style="text-align: left;">Respostas pós-recursos, indicando formalmente anulações.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Apenas "Estágio"</td>
+<td style="text-align: left;"><strong>Estágio para Estudantes</strong></td>
+<td style="text-align: left;">Vagas de estágio curricular para graduandos ou ensino médio.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Apenas "Estágio"</td>
+<td style="text-align: left;"><strong>Estágio Probatório</strong></td>
+<td style="text-align: left;">Período legal de avaliação do servidor público efetivo.</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+</div>
+<h4 id="62-tipos-de-tela-para-tarefas-comuns">6.2 Tipos de tela para tarefas comuns</h4>
+<ul>
+<li><strong>Tela Inicial (<em>Homepage</em>):</strong> Cabeçalho com busca inteligente com atalho <code>/</code>, menu categorizado em 4 blocos, carrossel dos 3 principais concursos nacionais, tabela de concursos abertos agrupados por região com filtros reativos e acesso direto a videoaulas e provas;</li>
+<li><strong>Tela de Resultados de Busca / Listagem Regional:</strong> Layout com barra de chips de estados no topo (<code>[Todos] [DF] [GO] [MT] [MS]</code>), listagem paginada (20 a 50 itens) com tags visuais coloridas de status e sem publicidade intercalada;</li>
+<li><strong>Ficha Detalhada do Concurso:</strong> Abas limpas (<em>Visão Geral</em>, <em>Cargos e Salários</em>, <em>Cronograma &amp; Retificações</em>, <em>Downloads Oficiais</em> com padrão antitrapaça);</li>
+<li><strong>Tela de Videoaulas e Dicas:</strong> Player responsivo com "Modo Foco" (oculta anúncios ao redor durante a reprodução), trilha sequencial pedagógica (<em>"Próxima Aula"</em>) e botão para download de resumo esquemático em PDF.</li>
+</ul>
+<h4 id="63-sequencias-de-dialogos-e-feedback">6.3 Sequências de diálogos e feedback</h4>
+<ul>
+<li><strong>Carregamento Assíncrono (<em>Skeleton Screens</em>):</strong> Durante a filtragem de certames, a interface exibe contêineres esqueletos cinzas pulsantes nas dimensões exatas das linhas, evitando saltos de layout (<em>Zero CLS</em>);</li>
+<li><strong>Resultados Inexistentes (<em>Empty States</em>):</strong> Nunca exibir tela em branco. Deve-se apresentar ilustração amigável com mensagem acolhedora: <em>"Nenhum concurso encontrado para os filtros selecionados. Dica: tente selecionar 'Todas as UFs' ou cadastre um alerta para receber avisos quando o edital abrir"</em>, acompanhado do botão <code>[Limpar Filtros]</code>;</li>
+<li><strong>Mensagens de Confirmação:</strong> Ao cadastrar alertas por e-mail, exibir banner verde de sucesso com instruções claras sobre o recebimento da mensagem de validação na caixa postal.</li>
+</ul>
+<hr />
+<h2 id="3-correspondencia-com-o-site-avaliado">3. Correspondência com o Site Avaliado</h2>
+<p>O Guia de Estilo estabelece correspondência direta entre as decisões projetuais e os gargalos empíricos diagnosticados no portal <strong>PCI Concursos</strong>:</p>
+<div align="center">
+<p align="center"><b>Tabela 6: Correspondência entre o Guia de Estilo e os Diagnósticos do PCI Concursos</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Problema Diagnosticado na Etapa 2</th>
+<th style="text-align: center;">Artefato de Origem</th>
+<th style="text-align: left;">Diretriz Padronizada no Guia de Estilo</th>
+<th style="text-align: left;">Impacto Direto no Novo PCI Concursos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Botões falsos verdes de <em>"DOWNLOAD"</em> em anúncios comerciais fraudulentos</td>
+<td style="text-align: center;"><strong>USR-01 / CEN-02 / TAR-02</strong></td>
+<td style="text-align: left;"><strong>Padrão Antitrapaça de Download (Seção 5.4):</strong> Botão primário azul sólido padronizado com ícone de PDF, tamanho em MB e raio de isolamento protetivo de 48px livre de anúncios.</td>
+<td style="text-align: left;">Protege usuários maduros (como Maria Helena) contra malwares e cliques acidentais.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Agrupamento indiscriminado de todos os estados no Centro-Oeste sem filtro para o DF</td>
+<td style="text-align: center;"><strong>DOC-02 / CEN-03 / TAR-03</strong></td>
+<td style="text-align: left;"><strong>Grid Reativo com Chips Regionais (Seções 3.1 e 4.1):</strong> Seletores instantâneos de UF no topo da tabela sem recarregar a tela.</td>
+<td style="text-align: left;">Permite a Lucas (<code>PER-02</code>) filtrar oportunidades de Brasília em menos de 5 segundos no celular.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Retificações de editais ocultas no fim da página sem destaque visual</td>
+<td style="text-align: center;"><strong>DOC-02 / CEN-04 / TAR-04</strong></td>
+<td style="text-align: left;"><strong>Badges e Alertas Semânticos (Seções 3.5 e 6.1):</strong> Selo âmbar destacado no cabeçalho: <code>[⚠️ Retificação Publicada em DD/MM]</code>.</td>
+<td style="text-align: left;">Evita perda de prazos de inscrição e datas de provas alteradas por bancas examinadoras.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Layout desconfigurado no mobile e perda de progresso de questões em simulados</td>
+<td style="text-align: center;"><strong>DOC-03 / CEN-05 / TAR-05</strong></td>
+<td style="text-align: left;"><strong>Grid Mobile Modular e Zero CLS (Seções 3.1 e 4.4):</strong> Áreas de toque de 48px, contêineres de altura fixa e persistência de dados localmente.</td>
+<td style="text-align: left;">Garante a Thiago (<code>PER-03</code>) resolver questões no ônibus em movimento sem marcações involuntárias.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Colisão terminológica de "estágio" e ausência de vagas estudantis</td>
+<td style="text-align: center;"><strong>DOC-03 / CEN-06 / TAR-06</strong></td>
+<td style="text-align: left;"><strong>Desambiguação Semântica na Busca (Seção 5.5) e Vocabulário Controlado:</strong> Distinção entre estágio acadêmico e estágio probatório.</td>
+<td style="text-align: left;">Elimina 12 minutos de busca frustrada e abandono do portal por universitários.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Videoaulas sem trilha pedagógica e layout móvel sobrepondo anúncios no player</td>
+<td style="text-align: center;"><strong>DOC-04 / CEN-07 / TAR-07</strong></td>
+<td style="text-align: left;"><strong>Modo Foco e Player Responsivo (Seções 3.1 e 6.2):</strong> Ocultação de banners laterais no modo horizontal móvel e trilha sequencial com PDF.</td>
+<td style="text-align: left;">Permite a Renata (<code>PER-04</code>) estudar em intervalos de trabalho de 30 minutos com qualidade.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Newsletter massiva e generalista sem segmentação por UF nem cancelamento fácil</td>
+<td style="text-align: center;"><strong>DOC-04 / CEN-08 / TAR-08</strong></td>
+<td style="text-align: left;"><strong>Central de Alertas Parametrizados (Seção 5.6):</strong> Seleção de UF e carreira, periodicidade flexível e descadastramento em 1 clique (LGPD).</td>
+<td style="text-align: left;">Elimina a sobrecarga de spams na caixa postal de concurseiros com dupla jornada de trabalho.</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+</div>
+<hr />
+<h2 id="4-agradecimentos">4. Agradecimentos</h2>
+<p>A equipe agradece o apoio da ferramenta de inteligência artificial generativa <strong>Gemini (Google)</strong> na organização textual, cálculo das razões de contraste cromático e formatação em Markdown deste artefato, em estrita conformidade com a Política de Uso de IA da disciplina. A fundamentação teórica, a seleção dos trechos bibliográficos dos livros, as decisões de design normativo e a revisão técnica foram conduzidas e validadas integralmente pelo autor responsável.</p>
+<hr />
+<h2 id="5-bibliografia">5. Bibliografia</h2>
+<blockquote>
+<p>[1] SALES, André Barros de. <em>Plano de Ensino FIHC 022026 - Turma 01</em>. Brasília: FCTE/UnB, 2026.<br />
+[2] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. <em>Interação Humano-Computador</em>. Rio de Janeiro: Elsevier, 2010.<br />
+[3] BARBOSA, Simone D. J. et al. <em>Interação Humano-Computador e Experiência do Usuário</em>. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.<br />
+[4] MARCUS, Aaron. <em>Graphic Design for Electronic Displays</em>. New York: ACM Press, 1992.<br />
+[5] MAYHEW, Deborah J. <em>The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design</em>. San Francisco: Morgan Kaufmann, 1999.<br />
+[6] NIELSEN, Jakob. <em>Usability Engineering</em>. San Francisco: Morgan Kaufmann, 1993.<br />
+[7] COOPER, Alan. <em>The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity</em>. Indianapolis: Sams Publishing, 1999.<br />
+[8] PATERNÒ, Fabio. <em>Model-Based Design and Evaluation of Human-Computer Interfaces</em>. London: Springer-Verlag, 1999.<br />
+[9] PCI CONCURSOS. <em>Portal PCI Concursos</em>. Disponível em: <a href="https://www.pciconcursos.com.br/">https://www.pciconcursos.com.br/</a>. Acesso em: 6 out. 2026.<br />
+[10] GOVERNO DIGITAL. <em>Design System do Governo Federal</em>. Disponível em: <a href="https://www.gov.br/ds/">https://www.gov.br/ds/</a>. Acesso em: 6 out. 2026.<br />
+[11] W3C. <em>Web Content Accessibility Guidelines (WCAG) 2.1</em>. World Wide Web Consortium, 2018. Disponível em: <a href="https://www.w3.org/TR/WCAG21/">https://www.w3.org/TR/WCAG21/</a>.</p>
+</blockquote>
+<hr />
+<h2 id="6-historico-de-versoes">6. Histórico de Versões</h2>
+<div align="center">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor(es)</th>
+<th style="text-align: center;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>0.1</code></td>
+<td style="text-align: center;">28/09/2026</td>
+<td style="text-align: left;">Abertura do documento de Guia de Estilo da Etapa 3 e estruturação inicial.</td>
+<td style="text-align: center;">Leonardo da Silva Lopes Júnior</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">05/10/2026</td>
+<td style="text-align: left;">Implementação da fundamentação teórica dos Itens 15 e 16 com inclusão dos recortes bibliográficos do livro (Figuras 1 e 2).</td>
+<td style="text-align: center;">Leonardo da Silva Lopes Júnior</td>
+<td style="text-align: center;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td style="text-align: center;">06/10/2026</td>
+<td style="text-align: left;">Preenchimento completo das 6 seções estruturais do guia de estilo (Marcus; Mayhew), detalhamento do padrão antitrapaça de download, paleta auditada WCAG 2.1 e correspondência com o PCI Concursos (Item 17).</td>
+<td style="text-align: center;">Leonardo da Silva Lopes Júnior</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
