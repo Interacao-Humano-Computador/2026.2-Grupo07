@@ -130,6 +130,8 @@ Na Tabela 4, tem-se o registro do cronograma real de execução das atividades d
 
 ## 3. Etapa 3 - Princípios Gerais de Projeto e Metas de Usabilidade
 
+### 3.1 Cronograma Planejado
+
 Na Tabela 5, tem-se o cronograma planejado para as atividades da terceira entrega.
 
 <div align="center" markdown="1">
@@ -138,12 +140,34 @@ Na Tabela 5, tem-se o cronograma planejado para as atividades da terceira entreg
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Definir Princípios Gerais do Projeto | Início: 28/09<br>Fim: 04/10 | A definir | Início: 05/10<br>Fim: 05/10 | A definir |
-| Estabelecer Metas de Usabilidade | Início: 28/09<br>Fim: 04/10 | A definir | Início: 05/10<br>Fim: 05/10 | A definir |
+| Definir Princípios Gerais do Projeto | Início: 28/09<br>Fim: 05/10 | Daniel da Silva Batista | Início: 06/10<br>Fim: 06/10 | Pedro Rocha Ferreira Lima |
+| Estabelecer Metas de Usabilidade | Início: 28/09<br>Fim: 05/10 | Pedro Rocha Ferreira Lima | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista |
 | Criar Guia de Estilo | Início: 28/09<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
-| Reunião de Alinhamento e Ata | Início: 05/10<br>Fim: 05/10 | A definir | Início: 05/10<br>Fim: 05/10 | A definir |
-| Gravar apresentação da Etapa 3 | Início: 05/10<br>Fim: 06/10 | A definir | Início: 06/10<br>Fim: 06/10 | A definir |
-| Correção pós-apresentação | Início: 06/10<br>Fim: 06/10 | A definir | Início: 06/10<br>Fim: 06/10 | A definir |
+| Definir Características da Plataforma para o Projeto | Início: 28/09<br>Fim: 05/10 | Arthur Sismene Carvalho | Início: 06/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior |
+| Reunião de Alinhamento e Ata da Etapa 3 | Início: 05/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Gravar apresentação da Etapa 3 | Início: 05/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 06/10<br>Fim: 07/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 07/10<br>Fim: 07/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+### 3.2 Cronograma Executado
+
+Na Tabela 6, tem-se o registro da execução real das atividades da terceira entrega, com os respectivos responsáveis e revisores.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 6 - Cronograma Executado (Etapa 3)</b></p>
+
+| Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
+| :--- | :---: | :--- | :---: | :--- |
+| Elaboração do artefato de Princípios Gerais de Projeto | Início: 04/10<br>Fim: 06/10 | Daniel da Silva Batista | Início: 06/10<br>Fim: 06/10 | Pedro Rocha Ferreira Lima |
+| Elaboração do artefato de Metas de Usabilidade | Início: 05/10<br>Fim: 06/10 | Pedro Rocha Ferreira Lima | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista |
+| Elaboração do artefato de Guia de Estilo | Início: 05/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
+| Elaboração do artefato de Características da Plataforma | Início: 05/10<br>Fim: 06/10 | Arthur Sismene Carvalho | Início: 06/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior |
+| Gravação da Apresentação da Etapa 3 | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Reunião de Alinhamento e Ata da Etapa 3 | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -151,11 +175,11 @@ Na Tabela 5, tem-se o cronograma planejado para as atividades da terceira entreg
 
 ## 4. Etapa 4 - Planejamento da Avaliação
 
-Na Tabela 6, tem-se o cronograma planejado para as atividades da quarta entrega.
+Na Tabela 7, tem-se o cronograma planejado para as atividades da quarta entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 6 - Cronograma Planejado (Etapa 4)</b></p>
+<p align="center"><b>Tabela 7 - Cronograma Planejado (Etapa 4)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -172,11 +196,11 @@ Na Tabela 6, tem-se o cronograma planejado para as atividades da quarta entrega.
 
 ## 5. Etapa 5 - Relato dos Resultados e Protótipo de Papel
 
-Na Tabela 7, tem-se o cronograma planejado para as atividades da quinta entrega.
+Na Tabela 8, tem-se o cronograma planejado para as atividades da quinta entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 7 - Cronograma Planejado (Etapa 5)</b></p>
+<p align="center"><b>Tabela 8 - Cronograma Planejado (Etapa 5)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -193,11 +217,11 @@ Na Tabela 7, tem-se o cronograma planejado para as atividades da quinta entrega.
 
 ## 6. Etapa 6 - Relato do Protótipo de Papel e Alta Fidelidade
 
-Na Tabela 8, tem-se o cronograma planejado para as atividades da sexta entrega.
+Na Tabela 9, tem-se o cronograma planejado para as atividades da sexta entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 8 - Cronograma Planejado (Etapa 6)</b></p>
+<p align="center"><b>Tabela 9 - Cronograma Planejado (Etapa 6)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -213,11 +237,11 @@ Na Tabela 8, tem-se o cronograma planejado para as atividades da sexta entrega.
 
 ## 7. Etapa 7 - Relato do Protótipo de Alta Fidelidade
 
-Na Tabela 9, tem-se o cronograma planejado para as atividades da sétima entrega.
+Na Tabela 10, tem-se o cronograma planejado para as atividades da sétima entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 9 - Cronograma Planejado (Etapa 7)</b></p>
+<p align="center"><b>Tabela 10 - Cronograma Planejado (Etapa 7)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -233,11 +257,11 @@ Na Tabela 9, tem-se o cronograma planejado para as atividades da sétima entrega
 
 ## 8. Etapa 8 - Verificação dos Artefatos
 
-Na Tabela 10, tem-se o cronograma planejado para as atividades da oitava entrega.
+Na Tabela 11, tem-se o cronograma planejado para as atividades da oitava entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 10 - Cronograma Planejado (Etapa 8)</b></p>
+<p align="center"><b>Tabela 11 - Cronograma Planejado (Etapa 8)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -253,11 +277,11 @@ Na Tabela 10, tem-se o cronograma planejado para as atividades da oitava entrega
 
 ## 9. Projeto Final
 
-Na Tabela 11, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
+Na Tabela 12, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 11 - Cronograma Planejado (Projeto Final)</b></p>
+<p align="center"><b>Tabela 12 - Cronograma Planejado (Projeto Final)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -283,6 +307,6 @@ Na Tabela 11, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.4` | 27/09/2026 | Inclusão e consolidação do Cronograma Executado da Etapa 2 com revisores e registro da entrevista USR-01. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.5` | 27/09/2026 | Atualização do Cronograma Executado com o registro da entrega do escopo de Pedro Rocha Ferreira Lima (DOC-02, PER-02, CEN-03/04 e TAR-03/04). | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.6` | 27/09/2026 | Registro no Cronograma Executado da Etapa 2 das entregas individuais concluídas (DOC-03, PER-03, CEN-05/06, HTA e CTT das Tarefas 05 e 06 e avaliação do Grupo 08). | Arthur Sismene Carvalho | Daniel da Silva Batista |
-| `1.7` | 06/10/2026 | Atualização do responsável pelo Guia de Estilo na Etapa 3 (Leonardo da Silva Lopes Júnior) e alinhamento das datas de desenvolvimento e revisão. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.7` | 06/10/2026 | Atualização do Cronograma Planejado e inserção do Cronograma Executado da Etapa 3, com registro dos artefatos de Princípios Gerais de Projeto e Guia de Estilo. | Daniel da Silva Batista, Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
 
 </div>
