@@ -7,7 +7,7 @@
 | Daniel da Silva Batista | Fundamentação teórica de HTA (Annett & Duncan, 1967; Barbosa e Silva, 2010), estruturação da matriz de tarefas, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão da decomposição funcional e modelagem HTA integral das Tarefas 05 e 06 (diagramas e tabelas analíticas), incluindo a caracterização da TAR-06 como tarefa não suportada e o levantamento da colisão terminológica de "estágio". |
 | João Vitor Sales Ibiapina | Revisão da decomposição hierárquica e estruturação das Tarefas 09 e 10. |
-| Leonardo da Silva Lopes Júnior | Modelagem formal completa em HTA (diagramas de decomposição e tabelas analíticas com problemas e recomendações de usabilidade) das Tarefas 07 e 08, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). |
+| Leonardo da Silva Lopes Júnior | Modelagem formal completa em HTA (diagramas de decomposição e tabelas analíticas com problemas e recomendações de usabilidade) das Tarefas 07 e 08, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04); estruturação da Seção 2.1 de enquadramento ergonômico e níveis de complexidade, e refinamento do escopo de tarefas interativas propositivas (TAR-04, TAR-05 e TAR-08) (Issue #14). |
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em HTA (diagramas e tabelas analíticas com problemas e recomendações) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas HTA em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
@@ -35,6 +35,19 @@ No HTA, a execução dos subobjetivos e operações é rigorosamente regida por 
 
 Com base nos três perfis de usuário delineados na pesquisa de requisitos e no escopo funcional do portal **PCI Concursos**, foram selecionadas **dez tarefas representativas** para a avaliação empírica e modelagem formal. Cada integrante da equipe é responsável pela condução e especificação aprofundada de duas tarefas complementares, articulando o diagrama de decomposição com a análise crítica de usabilidade.
 
+### 2.1 Enquadramento Ergonômico e Níveis de Complexidade das Tarefas
+
+Em conformidade com as recomendações do professor da disciplina (SALES, 2026) e as diretrizes ergonômicas de Annett e Duncan (1967), Diaper (2003) e Barbosa e Silva (2010), uma análise de tarefas consistente em IHC não pode se restringir a procedimentos meramente operacionais e rasos (como simples cliques para download de arquivos ou leituras passivas de tabelas estáticas). A literatura prescreve que o valor da análise reside em mapear o raciocínio cognitivo, os processos de tomada de decisão, o tratamento de incertezas e os ciclos interativos homem-máquina.
+
+Para assegurar essa profundidade — alinhando-se ao rigor demonstrado na delimitação de tarefas do Grupo 06 —, o Grupo 07 organizou as tarefas em **três níveis de complexidade funcional**:
+
+* **Nível 1 — Tarefas de Acesso e Recuperação da Informação (TAR-01 a TAR-03):** Representam os fluxos de consulta inicial, recuperação documental e filtragem macro de certames;
+* **Nível 2 — Tarefas Interativas Ricas e Engajamento Cognitivo (TAR-04, TAR-05 e TAR-08):** Constituem funcionalidades bidirecionais de alta relevância ergonômica:
+  - **`TAR-04` (Cronograma Visual e Timeline Interativa de Fases):** Supera a leitura dispersa de textos longos ao prover uma linha do tempo dinâmica de fases com contadores regressivos (*countdowns*), alertas visuais de retificação e integração com calendários digitais (.ics / Google Agenda);
+  - **`TAR-05` (Sistema de Simulados Online Interativo):** Provê um motor avaliativo com parametrização de filtros (disciplina, banca, volume de questões, temporizador regressivo), áreas de toque móveis adaptadas ($\ge 48\text{px}$), feedback formativo imediato por alternativa, gabarito oficial comentado e consolidação estatística com tolerância a oscilações de sinal (*Zero Data Loss*);
+  - **`TAR-08` (Central de Alertas Inteligentes e Parametrizados por E-mail):** Substitui a captura cega e passiva de newsletters por um configurador proativo com filtros avançados multicritério (UF com prioridade DF, escolaridade, carreiras e remuneração), validação sintática em tempo real no cliente, dupla confirmação de consentimento (*Double Opt-In*) e gerenciamento autônomo de descadastro com 1 clique (LGPD).
+* **Nível 3 — Tarefas Propositivas e Superação de Lacunas de IHC (TAR-06, TAR-07, TAR-09 e TAR-10):** Tratam de tarefas que expandem o escopo do portal para atender demandas reprimidas (como a inclusão de estágios de nível superior no DF e reprojeto de videoaulas com *Modo Foco*).
+
 A Tabela 1 a seguir consolida a matriz geral de tarefas da equipe:
 
 <div align="center" markdown="1">
@@ -46,15 +59,15 @@ A Tabela 1 a seguir consolida a matriz geral de tarefas da equipe:
 | **TAR-01** | Buscar edital de concurso por palavra-chave ou órgão | Daniel da Silva Batista |
 | **TAR-02** | Baixar caderno de provas anteriores e gabarito oficial em PDF | Daniel da Silva Batista |
 | **TAR-03** | Filtrar concursos por região geográfica (Centro-Oeste / DF) | Pedro Rocha Ferreira Lima |
-| **TAR-04** | Consultar retificações, cronogramas e datas de prova | Pedro Rocha Ferreira Lima |
-| **TAR-05** | Realizar simulado de questões online com feedback de gabarito | Arthur Sismene Carvalho |
+| **TAR-04** | Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação | Pedro Rocha Ferreira Lima |
+| **TAR-05** | Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho | Arthur Sismene Carvalho |
 | **TAR-06** | Buscar oportunidades de estágio de nível superior no DF | Arthur Sismene Carvalho |
 | **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
-| **TAR-08** | Cadastrar e configurar recebimento de alertas de vagas por e-mail | Leonardo da Silva Lopes Júnior |
+| **TAR-08** | Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério | Leonardo da Silva Lopes Júnior |
 | **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor Sales Ibiapina |
 | **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor Sales Ibiapina |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -309,37 +322,38 @@ flowchart TD
 
 ---
 
-### 4.2 Tarefa 04: Consultar retificações, cronogramas e prazos de editais (TAR-04)
+### 4.2 Tarefa 04: Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação (TAR-04)
 
-A Tarefa 04 compreende a inspeção das publicações complementares e prazos de um certame, atividade crucial identificada na Análise Documental (`DOC-02`), segundo a qual até 80% dos editais sofrem retificações em suas primeiras três semanas. A decomposição hierárquica é mostrada na Figura 4, e sua especificação analítica é descrita na Tabela 5.
+A Tarefa 04 compreende a inspeção das publicações complementares, do cronograma de fases e dos prazos críticos de um certame, atividade essencial identificada na Análise Documental (`DOC-02`), segundo a qual até 80% dos editais sofrem retificações em suas primeiras semanas. A decomposição hierárquica é ilustrada na Figura 4, e sua especificação analítica é descrita na Tabela 5.
 
 #### Diagrama de Decomposição HTA (Figura 4)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 4:</b> Diagrama HTA da Tarefa 04 - Consultar retificações, cronogramas e prazos</p>
+<p align="center"><b>Figura 4:</b> Diagrama HTA da Tarefa 04 - Acompanhar cronograma visual e timeline interativa de fases do certame</p>
 
 </div>
 
 ```mermaid
 flowchart TD
-    T0["0. Consultar retificações, cronogramas e prazos de editais<br><i>Plano 0: 1 depois 2; se houver retificações, fazer 3; depois fazer 4</i>"]
+    T0["0. Acompanhar cronograma visual e timeline interativa de fases do certame<br><i>Plano 0: 1 depois 2; paralelamente 3; se desejar salvar marcos, fazer 4</i>"]
     
-    T1["1. Acessar a página de detalhes do concurso pretendido<br><i>Plano 1: 1.1 e 1.2</i>"]
+    T1["1. Acessar a página oficial e o painel de fases do certame<br><i>Plano 1: 1.1 e 1.2</i>"]
     T11["1.1 Localizar o concurso na listagem regional ou busca"]
-    T12["1.2 Abrir a página de resumo do edital no portal"]
+    T12["1.2 Acessar a ficha detalhada do concurso no portal"]
     
-    T2["2. Localizar seção de publicações e anexos<br><i>Plano 2: 2.1 e 2.2</i>"]
-    T21["2.1 Rolar a página ultrapassando blocos de anúncios e síntese"]
-    T22["2.2 Identificar a listagem de arquivos anexados e comunicados"]
+    T2["2. Navegar na timeline cronológica interativa de fases<br><i>Plano 2: 2.1 depois 2.2</i>"]
+    T21["2.1 Inspecionar barra gráfica de fases ativas, concluídas e futuras"]
+    T22["2.2 Selecionar fase específica para detalhar requisitos e prazos"]
     
-    T3["3. Identificar e baixar as retificações do certame<br><i>Plano 3: 3.1 depois 3.2</i>"]
-    T31["3.1 Identificar hiperlinks com rótulos de 'Retificação' ou 'Errata'"]
-    T32["3.2 Baixar e abrir o arquivo PDF da retificação"]
+    T3["3. Inspecionar alertas de retificações e contadores regressivos<br><i>Plano 3: 3.1, 3.2 e 3.3</i>"]
+    T31["3.1 Verificar selo âmbar de retificação destacada no topo"]
+    T32["3.2 Checar contador dinâmico de encerramento de inscrições/provas"]
+    T33["3.3 Abrir comparativo sintético de alterações de datas e cláusulas"]
     
-    T4["4. Verificar cronograma atualizado e prazos críticos<br><i>Plano 4: 4.1 e 4.2</i>"]
-    T41["4.1 Checar data de encerramento de inscrições e data da prova"]
-    T42["4.2 Confrontar alterações de datas publicadas com o texto original"]
+    T4["4. Sincronizar marcos temporais com calendário pessoal<br><i>Plano 4: 4.1 depois 4.2</i>"]
+    T41["4.1 Clicar no botão 'Exportar para Agenda' (.ics)"]
+    T42["4.2 Selecionar serviço de calendário (Google Agenda / Apple Calendar)"]
 
     T0 --> T1
     T0 --> T2
@@ -354,6 +368,7 @@ flowchart TD
     
     T3 --> T31
     T3 --> T32
+    T3 --> T33
     
     T4 --> T41
     T4 --> T42
@@ -361,7 +376,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -373,17 +388,22 @@ flowchart TD
 
 | Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
 | :--- | :--- | :--- | :--- |
-| **0. Consultar retificações, cronogramas e prazos de editais** | **Plano 0:** Executar 1 e 2. Se existirem comunicados/erratas, executar 3; finalizar com 4. | **Risco Crítico de Desinformação:** Concursos com editais alterados não exibem aviso em destaque na listagem nem no cabeçalho do concurso. | Implementar selo de alerta visual no topo da página: *"Edital com Retificação Publicada em DD/MM/AAAA"* (`RF-DOC-04`). |
-| **1. Acessar página de detalhes do concurso** | **Plano 1:** Executar 1.1 e 1.2. | O link da listagem para a página de detalhes compete com anúncios externos com aparência idêntica a botões de navegação. | Padronizar botão de ação claro (*CTA - Call to Action*) com o texto *"Ver Detalhes do Concurso"*. |
-| **2. Localizar seção de publicações e anexos** | **Plano 2:** Executar 2.1 e 2.2. | A área de downloads e comunicados fica no fim da página, exigindo rolagem extensa em meio a anúncios intercalados. | Adicionar sumário com âncoras no topo (*Jump links*: "Resumo", "Cronograma", "Arquivos e Retificações"). |
-| **3. Identificar e baixar as retificações** | **Plano 3:** Executar 3.1 e 3.2. | As retificações aparecem como simples linhas de texto azul no rodapé, sem destaque cronológico ou resumo de conteúdo. | Apresentar um painel de "Histórico de Atualizações do Certame" ordenado por data decrescente. |
-| **3.1 Identificar hiperlinks de retificação** | Operação cognitiva | Falta de informação sobre o objeto da alteração: o usuário não sabe se a retificação mudou datas, requisitos ou vagas sem abrir o PDF. | Incluir breve descrição sintética ao lado do link: *(Ex.: "Retificação 01: Prorrogação de inscrições e alteração de conteúdo de Informática")*. |
-| **3.2 Baixar arquivo PDF da retificação** | Ação física | O PDF muitas vezes é aberto na mesma aba, fazendo o usuário perder a visualização dos dados cadastrais do certame. | Abrir links de anexos oficiais obrigatoriamente em nova aba (`target="_blank"`) e fornecer botão explícito de download. |
-| **4. Verificar cronograma e prazos críticos** | **Plano 4:** Executar 4.1 e 4.2. | Não existe um cronograma visual ou barra de progresso das fases do concurso (Inscrições $\rightarrow$ Isenção $\rightarrow$ Homologação $\rightarrow$ Prova). | Implementar componente de linha do tempo (*timeline* interativa) com indicação do status atual do certame. |
-| **4.1 Checar encerramento de inscrições** | Operação cognitiva | O horário limite para pagamento da taxa de inscrição frequentemente não é destacado, gerando perdas de prazo. | Exibir contador regressivo ou destaque em caixa de alerta: *"Inscrições encerram-se em X dias (às 23h59)"*. |
-| **4.2 Confrontar alterações de datas** | Operação cognitiva | O usuário é forçado a cruzar manualmente duas versões de documentos PDF para descobrir o novo prazo de prova. | Exibir tabela comparativa automática de alterações de cronograma diretamente na interface web. |
+| **0. Acompanhar cronograma visual e timeline interativa de fases do certame** | **Plano 0:** Executar 1 e 2; examinar retificações em 3; sincronizar com calendário pessoal em 4. | **Risco Crítico de Desinformação e Perda de Prazos:** Editais com retificações não exibem alertas no topo e não possuem linha do tempo de fases, obrigando à leitura de textos longos. | Projetar componente de Timeline Interativa de Fases com sinalizador visual de retificações e contadores regressivos em tempo real (`RF-DOC-04`). |
+| **1. Acessar página oficial e painel de fases** | **Plano 1:** Executar 1.1 e 1.2. | O link da listagem para a página de detalhes compete com banners publicitários com aparência de botões falsos. | Padronizar botão de ação primário (*CTA*) rotulado como *"Acessar Ficha Completa do Concurso"*. |
+| **1.1 Localizar concurso na listagem** | Ação visual | Siglas de UF e status do certame misturam-se sem hierarquia visual clara. | Exibir badges coloridos no card do concurso indicando status: `[Inscrições Abertas]` ou `[Retificado]`. |
+| **1.2 Acessar ficha detalhada** | Ação física | Carregamento lento em conexões móveis devido a scripts de terceiros. | Otimizar tempo de resposta da página e priorizar a renderização inicial dos marcos do cronograma. |
+| **2. Navegar na timeline interativa de fases** | **Plano 2:** Executar 2.1 e 2.2. | **Funcionalidade Ausente no Portal Atual:** Inexiste representação cronológica gráfica do ciclo de vida do certame (Inscrição $\rightarrow$ Isenção $\rightarrow$ Prova $\rightarrow$ Gabarito $\rightarrow$ Resultados). | Implementar barra horizontal responsiva de etapas com nós clicáveis e indicador da fase atual do certame. |
+| **2.1 Inspecionar barra gráfica de fases** | Operação cognitiva | O usuário é forçado a calcular mentalmente em qual etapa o concurso se encontra. | Utilizar código de cores semântico: nós verdes (concluídos), azul vibrante (fase atual) e cinza (fases futuras). |
+| **2.2 Selecionar fase específica** | Ação física | Impossibilidade de consultar detalhes de uma etapa sem ler todo o histórico de publicações. | Exibir gaveta expansível (*accordion*) com datas, links de editais e instruções ao clicar em cada nó da timeline. |
+| **3. Inspecionar retificações e contadores** | **Plano 3:** Executar 3.1, 3.2 e 3.3. | Retificações aparecem como texto miúdo no rodapé da página; horários limites de pagamento da taxa não são destacados. | Implementar selo âmbar destacado no cabeçalho: `[⚠️ Retificação Publicada em DD/MM]` e contador regressivo ativo. |
+| **3.1 Verificar selo de retificação** | Ação visual | Falta de visibilidade: candidato supõe que o cronograma original ainda é válido. | Posicionar o alerta com destaque no topo e com contraste auditado (WCAG 2.1 AA/AAA). |
+| **3.2 Checar contador dinâmico de encerramento** | Operação cognitiva | Dúvidas sobre o horário exato limite de pagamento do boleto bancário da taxa de inscrição. | Exibir contador regressivo com dias, horas e minutos: *"Inscrições encerram-se em 2 dias e 14 horas"*. |
+| **3.3 Abrir comparativo sintético de alterações** | Ação física | O candidato precisa abrir múltiplos arquivos PDF para descobrir quais cláusulas mudaram. | Disponibilizar modal de "Resumo das Alterações da Retificação" confrontando as datas anteriores com as novas. |
+| **4. Sincronizar marcos com calendário pessoal** | **Plano 4:** Executar 4.1 e 4.2. | **Funcionalidade Ausente no Portal Atual:** Não há suporte para exportar datas para agendas pessoais digitais. | Adicionar botão *"Adicionar à Agenda"* com suporte a arquivos padrão `.ics` e links diretos para Google Agenda e Apple Calendar. |
+| **4.1 Clicar em 'Exportar para Agenda'** | Ação física | O candidato precisa transcrever manualmente cada data para seu celular ou agenda. | Disparar geração automática de arquivo de calendário com alertas programados para 24h antes do prazo final. |
+| **4.2 Selecionar serviço de calendário** | Ação física | Falta de integração com ecossistemas móveis (Android e iOS). | Oferecer opções de integração em 1 clique para Google Agenda, Outlook e Apple Calendar. |
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -391,39 +411,40 @@ flowchart TD
 
 ## 5. Modelagem Detalhada das Tarefas (Arthur Sismene Carvalho)
 
-### 5.1 Tarefa 05: Realizar simulado de questões online com feedback de gabarito (TAR-05)
+### 5.1 Tarefa 05: Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho (TAR-05)
 
-A decomposição hierárquica da Tarefa 05 é ilustrada na Figura 5, e a especificação de suas operações, problemas e recomendações é apresentada na Tabela 6. A modelagem considera o contexto de uso predominante da persona **PER-03 (Lucas Andrade Ferreira)**: execução em smartphone, em deslocamento, sob conexão instável.
+A decomposição hierárquica da Tarefa 05 é ilustrada na Figura 5, e a especificação de suas operações, problemas e recomendações é apresentada na Tabela 6. A modelagem considera o contexto de uso da persona **PER-03 (Thiago Moraes Albuquerque)**: execução em smartphone, em deslocamento de transporte público, sob conexão celular móvel instável.
 
 #### Diagrama de Decomposição HTA (Figura 5)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 5:</b> Diagrama HTA da Tarefa 05 - Realizar simulado de questões online</p>
+<p align="center"><b>Figura 5:</b> Diagrama HTA da Tarefa 05 - Realizar simulado de questões online interativo</p>
 
 </div>
 
 ```mermaid
 flowchart TD
-    T0["0. Realizar simulado de questões online com feedback de gabarito<br><i>Plano 0: 1 depois 2 depois 3 (iterativo) depois 4</i>"]
+    T0["0. Realizar simulado online interativo com feedback automático de gabarito<br><i>Plano 0: 1 depois 2 depois 3 (iterativo) depois 4</i>"]
 
-    T1["1. Acessar a seção de Simulados<br><i>Plano 1: 1.1 depois 1.2</i>"]
-    T11["1.1 Localizar o item 'Simulados' no menu"]
-    T12["1.2 Aguardar carregamento da árvore de disciplinas"]
+    T1["1. Acessar a seção de Simulados no portal<br><i>Plano 1: 1.1 depois 1.2</i>"]
+    T11["1.1 Localizar o item 'Simulados' no menu de ferramentas"]
+    T12["1.2 Aguardar carregamento da tela de preparação"]
 
-    T2["2. Definir o escopo do simulado<br><i>Plano 2: 2.1 depois 2.2; 2.3 indisponível</i>"]
-    T21["2.1 Selecionar a disciplina pretendida"]
-    T22["2.2 Refinar por assunto ou subtópico"]
-    T23["2.3 Definir quantidade de questões e cronômetro<br>(NÃO SUPORTADO)"]
+    T2["2. Parametrizar a sessão de simulado interativo<br><i>Plano 2: 2.1 depois 2.2 depois 2.3</i>"]
+    T21["2.1 Selecionar disciplina e banca examinadora pretendida"]
+    T22["2.2 Refinar por assunto ou subtópico do edital"]
+    T23["2.3 Definir volume de questões e acionar cronômetro regressivo"]
 
-    T3["3. Responder às questões<br><i>Plano 3: repetir 3.1 a 3.3 até encerrar</i>"]
-    T31["3.1 Ler e interpretar o enunciado"]
-    T32["3.2 Marcar a alternativa escolhida"]
-    T33["3.3 Avançar para a questão seguinte"]
+    T3["3. Responder às questões na interface mobile adaptativa<br><i>Plano 3: repetir 3.1 a 3.4 até concluir a bateria</i>"]
+    T31["3.1 Ler enunciado em tipografia fluida sem zoom forçado"]
+    T32["3.2 Marcar alternativa escolhida com área de toque de 48px"]
+    T33["3.3 Receber feedback imediato com comentário oficial da questão"]
+    T34["3.4 Avançar para a questão seguinte com persistência local (Zero Data Loss)"]
 
-    T4["4. Conferir o desempenho obtido<br><i>Plano 4: 4.1; 4.2 indisponível</i>"]
-    T41["4.1 Verificar o gabarito da questão individual"]
-    T42["4.2 Consultar placar consolidado de acertos<br>(NÃO SUPORTADO)"]
+    T4["4. Concluir sessão e avaliar diagnóstico de desempenho<br><i>Plano 4: 4.1 depois 4.2</i>"]
+    T41["4.1 Submeter bateria e encerrar temporizador"]
+    T42["4.2 Analisar placar consolidado, tempo médio e histórico evolutivo"]
 
     T0 --> T1
     T0 --> T2
@@ -440,6 +461,7 @@ flowchart TD
     T3 --> T31
     T3 --> T32
     T3 --> T33
+    T3 --> T34
 
     T4 --> T41
     T4 --> T42
@@ -447,7 +469,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -459,21 +481,22 @@ flowchart TD
 
 | Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
 | :--- | :--- | :--- | :--- |
-| **0. Realizar simulado de questões online com feedback de gabarito** | **Plano 0:** Executar 1 e 2 em sequência; repetir 3 até o encerramento da sessão; então executar 4. | A tarefa não é tratada pelo sistema como uma **sessão de estudo** com início, escopo e encerramento definidos, mas como navegação avulsa por um repositório de questões, o que impede o fechamento do ciclo diagnóstico pretendido pelo usuário. | Reconceber o fluxo como sessão: configurar, executar, encerrar e relatar desempenho, preservando o estado em caso de interrupção. |
-| **1. Acessar a seção de Simulados** | **Plano 1:** Executar 1.1 e 1.2. | O item "Simulados" concorre com outros quatorze rótulos no menu principal, sem hierarquia visual que distinga ferramentas interativas de seções de conteúdo editorial. | Agrupar as ferramentas de estudo (Simulados, Provas, Aulas, Apostilas) em bloco visualmente destacado do menu. |
-| **1.1 Localizar item no menu** | Ação visual | Em viewport móvel o menu é colapsado e exige rolagem extensa; o rótulo não possui ícone de apoio ao reconhecimento. | Fixar barra de navegação inferior no mobile com as quatro ferramentas de estudo mais acessadas e respectivos ícones. |
-| **1.2 Aguardar carregamento** | Tarefa de sistema | O carregamento tardio dos blocos publicitários desloca o conteúdo já renderizado, provocando toque em alvo indesejado (*layout shift*). | Reservar previamente o espaço dos contêineres de anúncio (`min-height`) para manter CLS próximo de zero. |
-| **2. Definir o escopo do simulado** | **Plano 2:** Executar 2.1 e 2.2. A operação 2.3 é pretendida pelo usuário, mas **não é suportada pelo sistema**. | A seleção ocorre sobre uma árvore extensa de assuntos com volumes muito elevados por tópico (Direito Administrativo com mais de 7.000 questões), sem que o usuário possa delimitar uma sessão exequível no tempo de que dispõe. | Inserir configurador prévio de sessão com disciplina, quantidade de questões (10/20/50), nível de dificuldade, banca e cronômetro opcional. |
-| **2.1 Selecionar disciplina** | Ação física | Lista hierárquica longa, sem campo de filtro instantâneo nem histórico de disciplinas recentes. | Adicionar busca incremental por disciplina e atalho para os últimos assuntos praticados. |
-| **2.2 Refinar por assunto** | Ação física | A contagem de questões por assunto é informativa, mas não orienta sobre o tempo estimado de resolução. | Exibir estimativa de duração (ex.: *"10 questões ≈ 15 min"*) ao lado de cada opção. |
-| **2.3 Definir quantidade e cronômetro** | **Operação não suportada** | Ausência completa de parametrização da sessão: o usuário não controla a extensão do exercício, inviabilizando o estudo em janelas curtas de tempo. | Implementar a parametrização como requisito funcional (**RF-DOC-04**). |
-| **3. Responder às questões** | **Plano 3:** Repetir 3.1, 3.2 e 3.3 iterativamente até esgotar o escopo ou interromper por fator externo. | O progresso da sessão não é persistido: recarregamento de página ou queda de conexão descarta todas as respostas já registradas. | Persistir o progresso localmente (`localStorage`) e sincronizar ao restabelecer conexão. |
-| **3.1 Ler e interpretar enunciado** | Operação cognitiva | Corpo tipográfico reduzido em telas pequenas obriga ampliação por gesto de pinça a cada questão. | Adotar tipografia fluida com mínimo de 16 px em mobile e largura de linha controlada. |
-| **3.2 Marcar alternativa** | Ação física | Áreas de toque das alternativas inferiores ao mínimo recomendado, gerando marcação acidental em uso com uma única mão e em veículo em movimento. | Garantir alvos de toque de no mínimo 44 × 44 px (WCAG 2.1, critério 2.5.5) e tornar todo o bloco da alternativa clicável. |
-| **3.3 Avançar para a seguinte** | Ação física | Ausência de indicador de posição na sequência (ex.: "questão 4 de 10"), impedindo a percepção de progresso. | Inserir barra de progresso e contador de posição fixos no topo da sessão. |
-| **4. Conferir o desempenho obtido** | **Plano 4:** Executar 4.1 por questão. A operação 4.2 é o objetivo central do usuário, mas **não é suportada**. | O retorno é pontual e por questão, nunca agregado. O usuário encerra a sessão **sem saber quantas questões acertou**, frustrando o propósito diagnóstico da tarefa. | Apresentar relatório de encerramento com total de acertos, percentual por assunto, tempo médio por questão e histórico evolutivo entre sessões. |
-| **4.1 Verificar gabarito individual** | Tarefa de sistema | O gabarito informa apenas a alternativa correta, sem justificativa, o que limita o valor pedagógico para usuário iniciante no domínio. | Incorporar comentário explicativo da questão e referência ao dispositivo legal ou regra gramatical aplicável. |
-| **4.2 Consultar placar consolidado** | **Operação não suportada** | Inexistência de consolidação de resultados e de histórico de desempenho. | Implementar placar e histórico como requisito funcional (**RF-DOC-04**). |
+| **0. Realizar simulado online interativo com feedback automático de gabarito** | **Plano 0:** Executar 1 e 2; responder iterativamente em 3 até o fim; consolidar em 4. | O portal atual trata o simulado como mera listagem corrida estática de questões, sem temporizador, sem feedback imediato e sem placar final. | Reconceber como **motor interativo de avaliação**: parametrizar, executar com feedback formativo imediato e emitir relatório de desempenho (`RF-DOC-04`). |
+| **1. Acessar a seção de Simulados** | **Plano 1:** Executar 1.1 e 1.2. | O link de simulados concorre com 15 itens sem agrupamento e compete com banners publicitários flutuantes. | Agrupar ferramentas de estudo na barra de navegação com destaque visual e ícones ilustrativos. |
+| **1.1 Localizar item no menu** | Ação visual | Em tela de celular o menu exige rolagem longa e não traz ícones de identificação rápida. | Implementar barra de atalhos rápidos fixada no rodapé da visualização mobile com ícone de lápis/questões. |
+| **1.2 Aguardar carregamento** | Tarefa de sistema | Blocos de propaganda causam saltos repentinos de tela (*Cumulative Layout Shift* - CLS), deslocando o conteúdo. | Reservar contêineres de altura fixa para publicidade garantindo *Zero CLS* durante o carregamento. |
+| **2. Parametrizar sessão de simulado** | **Plano 2:** Executar 2.1, 2.2 e 2.3. | **Funcionalidade Inexistente no Portal Atual:** O usuário não consegue escolher quantas questões quer resolver (10, 20 ou 30) nem colocar tempo limite. | Inserir configurador prévio de sessão: filtros de disciplina, banca examinadora, quantidade de itens e modo cronometrado. |
+| **2.1 Selecionar disciplina e banca** | Ação física | Listagem hierárquica longa sem campo de busca instantânea nem histórico de matérias recentes. | Adicionar busca preditiva por disciplina e chips com bancas mais frequentes (Cebraspe, FGV, FCC). |
+| **2.2 Refinar por assunto** | Ação física | Contagens de questões não informam o tempo médio estimado para resolução. | Exibir estimativa de tempo (ex.: *"10 questões ≈ 15 a 20 min"*). |
+| **2.3 Definir volume e cronômetro** | Ação física | Falta de controle temporal: candidatos precisam treinar ritmo de prova contra o relógio. | Disponibilizar temporizador com contagem regressiva e aviso sonoro/visual discreto aos 5 minutos finais. |
+| **3. Responder questões em mobile** | **Plano 3:** Repetir 3.1 a 3.4 até concluir a bateria. | Áreas de toque muito reduzidas e instabilidade de conexão causam perda de dados em transporte público. | Assegurar alvos de toque $\ge 48\text{px}$ (WCAG 2.1 AA) e persistência local (*Zero Data Loss* via `localStorage`). |
+| **3.1 Ler enunciado em tipografia fluida** | Operação cognitiva | Fontes minúsculas exigem gestos contínuos de zoom com os dedos em telas touch. | Adotar tipografia fluida com tamanho mínimo de 16px para enunciados e 14px para alternativas. |
+| **3.2 Marcar alternativa (toque 48px)** | Ação física | Toques acidentais na alternativa vizinha devido ao espaçamento insuficiente entre opções. | Transformar todo o contêiner retangular da alternativa em botão clicável com feedback cromático ao toque (*active*). |
+| **3.3 Receber feedback e comentário** | Tarefa de sistema | Ausência de feedback formativo: o sistema não explica a regra gramatical ou jurídica após a marcação. | Exibir caixa retrátil com o gabarito oficial e justificativa didática comentada por professores. |
+| **3.4 Avançar com persistência local** | Ação física | Oscilação de rede 4G recarrega a página e descarta todas as questões já resolvidas. | Salvar estado da sessão localmente no dispositivo para retomada transparente sem perda de progresso. |
+| **4. Concluir e avaliar diagnóstico** | **Plano 4:** Executar 4.1 e 4.2. | **Grave Falha de IHC:** O candidato encerra o simulado **sem saber quantas questões acertou**, frustrando o objetivo pedagógico. | Gerar relatório de fechamento com total de acertos, gráfico percentual, tempo médio por questão e histórico de estudos. |
+| **4.1 Submeter bateria e encerrar** | Ação física | Falta de botão formal de encerramento; o usuário apenas sai da página. | Exibir botão de destaque *"Finalizar Simulado e Ver Resultados"* com tela de confirmação. |
+| **4.2 Analisar placar consolidado** | Operação cognitiva | Ausência de métricas de aprendizado para guiar pontos fracos de estudo. | Apresentar painel com acertos, taxa de precisão por subtópico e botão *"Refazer Questões Erradas"*. |
 
 <p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -684,9 +707,9 @@ flowchart TD
 
 ---
 
-### 6.2 Tarefa 08: Cadastrar e configurar recebimento de alertas de vagas por e-mail (TAR-08)
+### 6.2 Tarefa 08: Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério (TAR-08)
 
-A Tarefa 08 compreende o processo de assinatura, parametrização e recebimento de boletins informativos de novos certames e editais publicados. A tarefa responde diretamente à rotina da persona **Renata Cristina Freitas (`PER-04`)**, que, em virtude da jornada de trabalho integral de 44 horas semanais, necessita de mecanismos assíncronos e automatizados para não perder prazos de abertura de inscrições no Distrito Federal e entorno imediato. Os dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) corroboram que o e-mail segue sendo um dos canais corporativos e individuais de maior adesão no Brasil, tornando o serviço de newsletter uma ferramenta crítica para retenção e satisfação dos concurseiros ativos.
+A Tarefa 08 compreende o processo de assinatura, parametrização avançada e recebimento de boletins informativos e notificações de novos certames e editais publicados. A tarefa responde diretamente à rotina da persona **Renata Cristina Freitas (`PER-04`)**, que, em virtude da jornada de trabalho integral de 44 horas semanais, necessita de mecanismos assíncronos e automatizados para não perder prazos de abertura de inscrições no Distrito Federal e entorno imediato. Os dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) corroboram que o e-mail segue sendo um dos canais corporativos e individuais de maior adesão no Brasil, tornando o serviço de newsletter uma ferramenta crítica para retenção e satisfação dos concurseiros ativos quando devidamente segmentado.
 
 A decomposição hierárquica da Tarefa 08 é ilustrada na Figura 8, e a análise detalhada de seus gargalos e recomendações de design é apresentada na Tabela 9.
 
@@ -694,34 +717,36 @@ A decomposição hierárquica da Tarefa 08 é ilustrada na Figura 8, e a anális
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 8:</b> Diagrama HTA da Tarefa 08 - Cadastrar e configurar recebimento de alertas de vagas por e-mail</p>
+<p align="center"><b>Figura 8:</b> Diagrama HTA da Tarefa 08 - Cadastrar e parametrizar alertas inteligentes de editais por e-mail</p>
 
 </div>
 
 ```mermaid
 flowchart TD
-    T0["0. Cadastrar e configurar recebimento de alertas de vagas por e-mail<br><i>Plano 0: 1 depois 2 depois 3; depois 4; se insatisfação com volume, executar 5</i>"]
+    T0["0. Cadastrar e parametrizar alertas inteligentes de editais por e-mail<br><i>Plano 0: 1 depois 2 depois 3; após confirmação, 4; para gestão contínua, 5</i>"]
 
-    T1["1. Localizar o formulário de cadastro de alertas no portal<br><i>Plano 1: 1.1 depois 1.2</i>"]
-    T11["1.1 Percorrer a página inicial ou rodapé em busca do módulo de alertas"]
-    T12["1.2 Identificar a caixa de captura de e-mail / newsletter"]
+    T1["1. Localizar a Central de Alertas Inteligentes no portal<br><i>Plano 1: 1.1 depois 1.2</i>"]
+    T11["1.1 Percorrer a página inicial ou barra de serviços do portal"]
+    T12["1.2 Identificar módulo de alertas com ícone destacado e contraste suave"]
 
-    T2["2. Configurar preferências e critérios de notificação<br><i>Plano 2: 2.1; 2.2 e 2.3 indisponíveis</i>"]
-    T21["2.1 Inserir endereço de e-mail válido no campo"]
-    T22["2.2 Segmentar alertas por região geográfica / UF<br>(NÃO SUPORTADO)"]
-    T23["2.3 Segmentar alertas por escolaridade ou carreira<br>(NÃO SUPORTADO)"]
+    T2["2. Configurar preferências e filtros avançados multicritério<br><i>Plano 2: 2.1, 2.2 e 2.3 concorrentes; depois 2.4</i>"]
+    T21["2.1 Selecionar região geográfica com foco prioritário no DF"]
+    T22["2.2 Segmentar por área de carreira e nível de escolaridade"]
+    T23["2.3 Definir periodicidade de notificações (instantânea, diária, semanal)"]
+    T24["2.4 Inserir endereço de e-mail com validação sintática em tempo real"]
 
-    T3["3. Submeter formulário e verificar confirmação imediata<br><i>Plano 3: 3.1 depois 3.2</i>"]
-    T31["3.1 Clicar no botão 'Cadastrar' / 'Receber'"]
-    T32["3.2 Avaliar mensagem de feedback do sistema na tela"]
+    T3["3. Submeter formulário, consentir com LGPD e validar dupla confirmação<br><i>Plano 3: 3.1 depois 3.2 depois 3.3</i>"]
+    T31["3.1 Marcar caixa de consentimento explícito de privacidade (LGPD)"]
+    T32["3.2 Clicar no botão 'Ativar Alertas Inteligentes'"]
+    T33["3.3 Acessar e-mail e clicar no link de confirmação segura (Double Opt-In)"]
 
-    T4["4. Acessar caixa de entrada e validar recebimento do boletim<br><i>Plano 4: 4.1 depois 4.2</i>"]
-    T41["4.1 Abrir provedor de correio eletrônico"]
-    T42["4.2 Identificar boletim massivo e triar editais pertinentes manualmente"]
+    T4["4. Receber notificações customizadas sem sobrecarga de spam<br><i>Plano 4: 4.1 e 4.2</i>"]
+    T41["4.1 Receber boletim com card visual limpo estruturado por UF"]
+    T42["4.2 Clicar em link direto e seguro para edital oficial"]
 
-    T5["5. Gerenciar preferências ou descadastrar alertas<br><i>Plano 5: 5.1; 5.2 indisponível</i>"]
-    T51["5.1 Clicar em link de cancelamento total (opt-out irrestrito)"]
-    T52["5.2 Ajustar frequência de envio ou filtrar tópicos no e-mail<br>(NÃO SUPORTADO)"]
+    T5["5. Gerenciar preferências ou suspender alertas<br><i>Plano 5: 5.1 ou 5.2</i>"]
+    T51["5.1 Ajustar frequência ou pausar envios temporariamente"]
+    T52["5.2 Efetuar descadastramento imediato em 1 clique (One-Click Unsubscribe)"]
 
     T0 --> T1
     T0 --> T2
@@ -735,9 +760,11 @@ flowchart TD
     T2 --> T21
     T2 --> T22
     T2 --> T23
+    T2 --> T24
 
     T3 --> T31
     T3 --> T32
+    T3 --> T33
 
     T4 --> T41
     T4 --> T42
@@ -760,7 +787,7 @@ flowchart TD
 
 | Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
 | :--- | :--- | :--- | :--- |
-| **0. Cadastrar e configurar recebimento de alertas de vagas por e-mail** | **Plano 0:** Executar 1, 2 e 3 em sequência. Conferir recebimento em 4. Em caso de insatisfação por volume desordenado, executar 5. | **Sobrecarga informativa (infoxicação):** o sistema oferece apenas uma captura universal e indiscriminada, disparando boletins diários densos com centenas de concursos de todo o Brasil, gerando frustração em concurseiros focados em seleções locais ou cargos específicos. | Converter o formulário em uma "Central de Alertas Personalizados de Vagas", permitindo seleção por UF, nível de escolaridade e carreira pretendida (`RF-DOC-06`). |
+| **0. Cadastrar e parametrizar alertas inteligentes de editais por e-mail** | **Plano 0:** Executar 1, 2 e 3 em sequência. Confirmar recebimento em 4. Gerenciar preferências ou descadastrar em 5. | **Sobrecarga informativa (infoxicação):** o sistema oferece apenas uma captura universal e indiscriminada, disparando boletins diários densos com centenas de concursos de todo o Brasil, gerando frustração em concurseiros focados em seleções locais ou cargos específicos. | Converter o formulário em uma "Central de Alertas Personalizados de Vagas", permitindo seleção por UF, nível de escolaridade e carreira pretendida (`RF-DOC-06`). |
 | **1. Localizar formulário de cadastro de alertas** | **Plano 1:** Executar 1.1 e 1.2. | O bloco de cadastro de newsletter não possui posição fixa nem destaque visual de peso, situando-se próximo ao rodapé em meio a propagandas contextuais. | Posicionar o componente de assinatura com contraste visual suave no topo ou na barra lateral de serviços, sob o título claro *"Alertas de Concursos por E-mail"*. |
 | **1.1 Percorrer página em busca do módulo** | Ação visual | Confusão perceptual: usuários confundem o campo de newsletter com a caixa de pesquisa do site devido à similaridade de estilo visual. | Adicionar ícone universal de envelope e rotular explicitamente o campo como *"Digite seu e-mail para receber vagas"*. |
 | **1.2 Identificar a caixa de captura** | Operação cognitiva | **Conformidade com a LGPD e privacidade:** ausência de indicação explícita sobre a finalidade de uso do endereço eletrônico e inexistência de termo de consentimento prévio. | Incluir caixa de consentimento informada (opt-in explícito) com link direto para a Política de Privacidade e Proteção de Dados (`RNF-DOC-05`). |
@@ -810,5 +837,8 @@ As demais tarefas modeladas pela equipe seguirão a mesma notação formal (diag
 | `1.1` | 27/09/2026 | Inclusão da modelagem HTA completa das Tarefas 03 e 04 (diagramas Mermaid e tabelas com problemas e recomendações ergonômicas) baseadas na Análise Documental (DOC-02) e persona Lucas Ferreira Rocha. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.2` | 27/09/2026 | Modelagem HTA completa das Tarefas 05 e 06 (Figuras 5 e 6, Tabelas 6 e 7), com registro da TAR-06 como tarefa não suportada pelo sistema, identificação da colisão terminológica "estágio/estágio probatório" e inclusão das referências Nielsen (1993) e WCAG 2.1. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.3` | 28/09/2026 | Modelagem HTA completa das Tarefas 07 e 08 (Figuras 7 e 8, Tabelas 8 e 9), detalhando consumo de videoaulas sob restrição móvel e formulário de alertas de vagas, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.4` | 06/10/2026 | Inclusão da Seção 2.1 de enquadramento ergonômico e níveis de complexidade das tarefas, enriquecimento de TAR-04 (timeline de fases), TAR-05 (simulado online interativo) e TAR-08 (central de alertas inteligentes com LGPD) (Issue #14). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+
+</div>
 
 </div>

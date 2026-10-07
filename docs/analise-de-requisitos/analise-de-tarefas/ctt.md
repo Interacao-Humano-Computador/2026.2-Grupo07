@@ -7,7 +7,7 @@
 | Daniel da Silva Batista | Fundamentação teórica de ConcurTaskTrees (Paternò, 1999; Barbosa e Silva, 2010), taxonomia de tipos de tarefas e operadores temporais, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão dos operadores temporais de interação e modelagem CTT integral das Tarefas 05 e 06, com emprego dos operadores de iteração (`T*`), suspensão (`|>`), escolha alternativa (`[]`) e desativação (`[>`) para formalizar o ciclo de respostas e o padrão de tentativa e abandono. |
 | João Vitor Sales Ibiapina | Revisão das relações temporais e estruturação das Tarefas 09 e 10. |
-| Leonardo da Silva Lopes Júnior | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 07 e 08, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). |
+| Leonardo da Silva Lopes Júnior | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 07 e 08; refinamento da modelagem CTT das tarefas interativas propositivas (TAR-04, TAR-05 e TAR-08) com operadores formais ricos (`>>`, `[]>>`, `|||`, `[>`, `|>` e `*`) para resolução da Issue #14. |
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas CTT em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
@@ -63,15 +63,15 @@ A equipe consolidou a matriz com as dez tarefas avaliadas no portal, mapeando a 
 | **TAR-01** | Buscar edital de concurso por palavra-chave ou órgão | Daniel da Silva Batista |
 | **TAR-02** | Baixar caderno de provas anteriores e gabarito oficial em PDF | Daniel da Silva Batista |
 | **TAR-03** | Filtrar concursos por região geográfica (Centro-Oeste / DF) | Pedro Rocha Ferreira Lima |
-| **TAR-04** | Consultar retificações, cronogramas e datas de prova | Pedro Rocha Ferreira Lima |
-| **TAR-05** | Realizar simulado de questões online com feedback de gabarito | Arthur Sismene Carvalho |
+| **TAR-04** | Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação | Pedro Rocha Ferreira Lima |
+| **TAR-05** | Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho | Arthur Sismene Carvalho |
 | **TAR-06** | Buscar oportunidades de estágio de nível superior no DF | Arthur Sismene Carvalho |
 | **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
-| **TAR-08** | Cadastrar e configurar recebimento de alertas de vagas por e-mail | Leonardo da Silva Lopes Júnior |
+| **TAR-08** | Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério | Leonardo da Silva Lopes Júnior |
 | **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor Sales Ibiapina |
 | **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor Sales Ibiapina |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -334,92 +334,17 @@ flowchart TD
 
 ---
 
-### 4.2 Tarefa 04: Consultar retificações, cronogramas e datas de prova (TAR-04)
+### 4.2 Tarefa 04: Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação (TAR-04)
 
-A representação em árvore da Tarefa 04 é ilustrada na Figura 4, destacando o fluxo de inspeção de comunicados e confrontação de datas com o operador de ativação com dados (`[]>>`) e tarefas de julgamento cognitivo do usuário. A especificação formal dos nós e seus operadores temporais é apresentada na Tabela 6.
+No âmbito do aprimoramento de escopo orientado pela **Issue #14**, a Tarefa 04 transcende a consulta passiva a documentos PDF dispersos. A interação foi modelada para contemplar uma **Timeline Interativa de Fases do Certame**, com identificação em tempo real de marcos temporais (Inscrições, Isenção, Provas, Gabaritos e Recursos), contadores regressivos dinâmicos, filtros de retificações e erratas de prazos com destaque visual, bem como a sincronização assíncrona dos eventos críticos com o calendário pessoal do usuário (`.ics` / Google Calendar / Outlook).
+
+Essa abordagem atende às necessidades críticas do perfil de usuário e da persona **Lucas Ferreira Rocha (`PER-02`)**, cuja restrição de tempo entre faculdade e estágio demanda acompanhamento ágil e à prova de perda de prazos. A árvore de tarefas CTT é apresentada na Figura 4, e sua especificação formal de nós, tipos e operadores temporais é detalhada na Tabela 6.
 
 #### Diagrama de Árvore CTT (Figura 4)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 4:</b> Representação em Árvore CTT da Tarefa 04</p>
-
-</div>
-
-```mermaid
-flowchart TD
-    Root4["[Abstrata] Consultar retificações, cronogramas e datas de prova"]
-
-    Q1["[Interação] Acessar página de detalhes do concurso"]
-    QOp1{">>"}
-    Q2["[Interação] Rolar até seção de anexos e comunicados"]
-    QOp2{">>"}
-    Q3["[Usuário] Checar existência de retificações publicadas"]
-    QOp3{">>"}
-    Q4["[Abstrata] Inspecionar retificações e atualizar cronograma"]
-
-    Root4 --> Q1
-    Root4 --> QOp1
-    Root4 --> Q2
-    Root4 --> QOp2
-    Root4 --> Q3
-    Root4 --> QOp3
-    Root4 --> Q4
-
-    %% Decomposição de Q4
-    Q4_1["[Interação] Clicar no link do arquivo de Retificação (PDF)"]
-    Q4_Op1{"[]>>"}
-    Q4_2["[Sistema] Entregar e exibir arquivo PDF da retificação"]
-    Q4_Op2{">>"}
-    Q4_3["[Usuário] Confrontar novas datas e cláusulas retificadas"]
-
-    Q4 --> Q4_1
-    Q4 --> Q4_Op1
-    Q4 --> Q4_2
-    Q4 --> Q4_Op2
-    Q4 --> Q4_3
-```
-
-<div align="center" markdown="1">
-
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026).</p>
-
-</div>
-
-#### Tabela de Especificação dos Nós e Operadores da Tarefa 04
-
-<div align="center" markdown="1">
-
-<p align="center"><b>Tabela 6: Especificação Formal dos Nós CTT da Tarefa 04</b></p>
-
-| Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
-| :--- | :---: | :---: | :--- |
-| **Consultar retificações e cronogramas** | Abstrata | - | Tarefa raiz de verificação da integridade das informações e prazos atualizados do edital. |
-| **Acessar página de detalhes do concurso** | Interação | `>>` | Clique no título do concurso a partir da listagem ou resultado de pesquisa. |
-| **Rolar até seção de anexos e comunicados** | Interação | `>>` | Ação física de rolagem na página para transpassar anúncios e chegar aos arquivos oficiais. |
-| **Checar existência de retificações** | Usuário | `>>` | Inspeção cognitiva da listagem de links para identificar termos como "Retificação", "Prorrogação" ou "Errata". |
-| **Inspecionar retificações e cronograma** | Abstrata | - | Subtarefa de obtenção documental e atualização dos marcos temporais da preparação. |
-| **Clicar no link da Retificação (PDF)** | Interação | `[]>>` | Disparo do evento de requisição do anexo suplementar ao servidor. |
-| **Entregar e exibir arquivo PDF** | Sistema | `>>` | O sistema processa e transmite o arquivo PDF da retificação para exibição ou download local. |
-| **Confrontar novas datas e cláusulas** | Usuário | - | Processamento cognitivo de comparação entre as datas retificadas e o cronograma originalmente anotado. |
-
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
-
-</div>
-
----
-
-## 5. Modelagem Detalhada das Tarefas (Arthur Sismene Carvalho)
-
-### 5.1 Tarefa 05: Realizar simulado de questões online com feedback de gabarito (TAR-05)
-
-A modelagem CTT da Tarefa 05 evidencia sua característica distintiva em relação às Tarefas 01 e 02: trata-se de uma tarefa **fortemente iterativa**, cujo núcleo é um ciclo de resposta repetido sob o operador de iteração (`T*`), e cuja conclusão depende de uma tarefa de sistema (consolidação do desempenho) que o portal não executa.
-
-#### Diagrama de Árvore CTT (Figura 5)
-
-<div align="center" markdown="1">
-
-<p align="center"><b>Figura 5:</b> Representação em Árvore CTT da Tarefa 05</p>
+<p align="center"><b>Figura 4:</b> Representação em Árvore CTT da Tarefa 04 - Acompanhar cronograma visual e timeline interativa</p>
 
 </div>
 
@@ -433,72 +358,203 @@ flowchart TD
         L_Usu["[Usuário]"]
     end
 
-    Root["[Abstrata] Realizar simulado de questões online"]
+    Root4["[Abstrata] Acompanhar cronograma visual e timeline de fases do certame"]
 
-    Sub1["[Interação] Acessar a seção de Simulados"]
-    Op1{">>"}
-    Sub2["[Sistema] Carregar árvore de disciplinas e assuntos"]
-    Op2{"[]>>"}
-    Sub3["[Abstrata] Delimitar o escopo do simulado"]
+    Q1["[Interação] Acessar página de detalhes do certame"]
+    QOp1{">>"}
+    Q2["[Sistema] Renderizar timeline cronológica e contadores regressivos"]
+    QOp2{"[]>>"}
+    Q3["[Abstrata] Explorar fases e gerenciar marcos temporais"]
+    QOp3{">>"}
+    Q4["[Abstrata] Sincronizar eventos com calendário externo"]
+
+    Root4 --> Q1
+    Root4 --> QOp1
+    Root4 --> Q2
+    Root4 --> QOp2
+    Root4 --> Q3
+    Root4 --> QOp3
+    Root4 --> Q4
+
+    %% Decomposição de Q3 (Explorar fases e gerenciar marcos)
+    Q3_1["[Usuário] Inspecionar status visual das etapas na timeline"]
+    Q3_Op1{"|||"}
+    Q3_2["[Usuário] Avaliar contador regressivo para a data da prova"]
+    Q3_Op2{"|||"}
+    Q3_3["[Interação] Alternar filtro de retificações e erratas de prazos"]
+    Q3_Op3{"[]>>"}
+    Q3_4["[Sistema] Destacar alterações de datas e exibir badge de prorrogação"]
+
+    Q3 --> Q3_1
+    Q3 --> Q3_Op1
+    Q3 --> Q3_2
+    Q3 --> Q3_Op2
+    Q3 --> Q3_3
+    Q3 --> Q3_Op3
+    Q3 --> Q3_4
+
+    %% Decomposição de Q4 (Sincronização de calendário)
+    Q4_1["[Interação] Clicar no botão 'Sincronizar com Agenda'"]
+    Q4_Op1{"[]>>"}
+    Q4_2["[Sistema] Gerar payload de calendário (.ics / link webcal)"]
+    Q4_Op2{">>"}
+    Q4_3["[Interação] Confirmar importação no aplicativo de calendário do usuário"]
+    Q4_Op3{">>"}
+    Q4_4["[Sistema] Registrar sincronização e programar notificações prévias"]
+
+    Q4 --> Q4_1
+    Q4 --> Q4_Op1
+    Q4 --> Q4_2
+    Q4 --> Q4_Op2
+    Q4 --> Q4_3
+    Q4 --> Q4_Op3
+    Q4 --> Q4_4
+```
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+#### Tabela de Especificação dos Nós e Operadores da Tarefa 04
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 6: Especificação Formal dos Nós CTT da Tarefa 04</b></p>
+
+| Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
+| :--- | :---: | :---: | :--- |
+| **Acompanhar cronograma visual e timeline do certame** | Abstrata | - | Tarefa raiz de gerenciamento temporal e acompanhamento interativo do ciclo de vida do concurso público. |
+| **Acessar página de detalhes do certame** | Interação | `>>` | Clique no título do concurso a partir da listagem geral ou busca por palavras-chave. |
+| **Renderizar timeline cronológica e contadores regressivos** | Sistema | `[]>>` | O sistema extrai as datas do banco de dados e exibe a linha do tempo gráfica com estágios ativos/passados e contadores regressivos. |
+| **Explorar fases e gerenciar marcos temporais** | Abstrata | `>>` | Nó de composição que reúne a inspeção cognitiva do candidato e a manipulação dos filtros de retificação. |
+| **Inspecionar status visual das etapas na timeline** | Usuário | `\|\|\|` | Avaliação cognitiva das etapas (Inscrições abertas, homologação, período de recursos) baseada em código de cores e badges de status. |
+| **Avaliar contador regressivo para a data da prova** | Usuário | `\|\|\|` | Julgamento cognitivo do tempo restante de estudo (dias/horas) até a aplicação da prova objetiva. |
+| **Alternar filtro de retificações e erratas de prazos** | Interação | `[]>>` | Clique no alternador (toggle) para filtrar exclusivamente etapas que sofreram alteração ou prorrogação após o edital de abertura. |
+| **Destacar alterações de datas e exibir badge de prorrogação** | Sistema | - | O sistema atualiza os nós da timeline em tempo real com realce em vermelho/âmbar, indicando as notas de retificação aplicadas. |
+| **Sincronizar eventos com calendário externo** | Abstrata | - | Subtarefa de integração entre a plataforma de concursos e o ecossistema de produtividade pessoal do usuário. |
+| **Clicar no botão 'Sincronizar com Agenda'** | Interação | `[]>>` | Acionamento do botão de ação primária para solicitar a geração do arquivo de calendário ou link de subscrição. |
+| **Gerar payload de calendário (.ics / link webcal)** | Sistema | `>>` | O servidor compila os eventos das fases com horários-limite e URLs do edital em formato padrão iCalendar (RFC 5545). |
+| **Confirmar importação no aplicativo de calendário** | Interação | `>>` | Interação externa do usuário na aplicação de calendário nativa (Google, Apple, Outlook) validando a inscrição dos eventos. |
+| **Registrar sincronização e programar notificações prévias** | Sistema | - | Agendamento de notificações preventivas (ex.: 48h antes do encerramento das inscrições e na véspera da prova). |
+
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+---
+
+## 5. Modelagem Detalhada das Tarefas (Arthur Sismene Carvalho)
+
+### 5.1 Tarefa 05: Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho (TAR-05)
+
+No escopo inicial do portal, a execução de simulados resumia-se a uma listagem estática e fragmentada de itens de múltipla escolha, sem possibilidade de parametrização da bateria nem consolidação diagnóstica de erros e acertos ao final. Em atendimento às diretrizes da **Issue #14**, a Tarefa 05 foi remodelada como uma **interação ergonômica de alta densidade pedagógica**, projetada com foco nas necessidades da persona **Thiago Mendonça Silva (`PER-01`)**, que estuda via smartphone em trajetos de transporte coletivo.
+
+A modelagem CTT formaliza:
+1. A **parametrização inicial da sessão** (disciplina, número fixo de questões e modo com temporizador regressivo);
+2. O **ciclo iterativo de resposta (`T*`)**, com áreas de toque adequadas a alvos móveis ($\ge 48\times 48$ px), tolerância a falhas de conexão (*Zero Data Loss* com persistência assíncrona de estado), feedback imediato de acerto/erro com comentários didáticos e sinalização de itens para revisão;
+3. O **painel consolidado de diagnóstico**, com cálculo automático da taxa de aproveitamento, tempo médio de resposta por item e visualização analítica por tópicos.
+
+#### Diagrama de Árvore CTT (Figura 5)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 5:</b> Representação em Árvore CTT da Tarefa 05 - Simulado interativo com feedback e diagnóstico</p>
+
+</div>
+
+```mermaid
+flowchart TD
+    subgraph Legenda ["Legenda CTT"]
+        direction LR
+        L_Abs["[Abstrata]"]
+        L_Int["[Interação]"]
+        L_Sis["[Sistema]"]
+        L_Usu["[Usuário]"]
+    end
+
+    Root5["[Abstrata] Realizar simulado interativo com feedback e diagnóstico"]
+
+    Sub1["[Abstrata] Parametrizar bateria de simulado"]
+    Op1{"[]>>"}
+    Sub2["[Sistema] Inicializar sessão e renderizar primeira questão com cronômetro"]
+    Op2{">>"}
+    Sub3["[Abstrata] Ciclo iterativo de resposta com feedback imediato (T*)"]
     Op3{">>"}
-    Sub4["[Abstrata] Ciclo de resposta às questões (T*)"]
-    Op4{">>"}
-    Sub5["[Usuário] Avaliar o próprio desempenho"]
+    Sub4["[Abstrata] Concluir bateria e analisar diagnóstico analítico"]
 
-    Root --> Sub1
-    Root --> Op1
-    Root --> Sub2
-    Root --> Op2
-    Root --> Sub3
-    Root --> Op3
-    Root --> Sub4
-    Root --> Op4
-    Root --> Sub5
+    Root5 --> Sub1
+    Root5 --> Op1
+    Root5 --> Sub2
+    Root5 --> Op2
+    Root5 --> Sub3
+    Root5 --> Op3
+    Root5 --> Sub4
 
-    %% Decomposição de Sub3
-    Sub3_1["[Usuário] Escolher a disciplina pretendida"]
-    Sub3_Op{"[]>>"}
-    Sub3_2["[Interação] Selecionar o assunto na árvore"]
+    %% Decomposição de Sub1 (Parametrização)
+    Sub1_1["[Interação] Selecionar disciplina e assunto pretendido"]
+    Sub1_Op1{"|||"}
+    Sub1_2["[Interação] Configurar quantidade de itens (ex.: bloco de 10)"]
+    Sub1_Op2{"|||"}
+    Sub1_3["[Interação] Ativar temporizador com contagem regressiva"]
+    Sub1_Op3{">>"}
+    Sub1_4["[Interação] Disparar botão 'Iniciar Simulado'"]
+
+    Sub1 --> Sub1_1
+    Sub1 --> Sub1_Op1
+    Sub1 --> Sub1_2
+    Sub1 --> Sub1_Op2
+    Sub1 --> Sub1_3
+    Sub1 --> Sub1_Op3
+    Sub1 --> Sub1_4
+
+    %% Decomposição de Sub3 (Ciclo iterativo T*)
+    Sub3_1["[Usuário] Ler enunciado e alternativas com tipografia acessível"]
+    Sub3_Op1{"[]>>"}
+    Sub3_2["[Interação] Selecionar alternativa (área de toque >= 48px)"]
     Sub3_Op2{">>"}
-    Sub3_3["[Interação] Parametrizar quantidade e tempo<br>(NÃO SUPORTADA)"]
+    Sub3_3["[Sistema] Persistir resposta em tempo real (Zero Data Loss)"]
+    Sub3_Op3{">>"}
+    Sub3_4["[Interação] Confirmar resposta e solicitar validação"]
+    Sub3_Op4{"[]>>"}
+    Sub3_5["[Sistema] Exibir gabarito instantâneo e resolução comentada"]
+    Sub3_Op5{"[>"}
+    Sub3_6["[Interação] Marcar questão para revisão posterior"]
+
     Sub3 --> Sub3_1
-    Sub3 --> Sub3_Op
+    Sub3 --> Sub3_Op1
     Sub3 --> Sub3_2
     Sub3 --> Sub3_Op2
     Sub3 --> Sub3_3
+    Sub3 --> Sub3_Op3
+    Sub3 --> Sub3_4
+    Sub3 --> Sub3_Op4
+    Sub3 --> Sub3_5
+    Sub3 --> Sub3_Op5
+    Sub3 --> Sub3_6
 
-    %% Decomposição de Sub4 (ciclo iterativo)
-    Sub4_1["[Sistema] Renderizar a questão"]
-    Sub4_Op{">>"}
-    Sub4_2["[Usuário] Interpretar o enunciado"]
-    Sub4_Op2{"[]>>"}
-    Sub4_3["[Interação] Marcar a alternativa"]
-    Sub4_Op3{">>"}
-    Sub4_4["[Sistema] Registrar resposta e exibir gabarito"]
-    Sub4_Op4{"|>"}
-    Sub4_5["[Sistema] Perda de progresso por queda de conexão<br>(SUSPENSÃO NÃO RECUPERÁVEL)"]
+    %% Decomposição de Sub4 (Diagnóstico analítico)
+    Sub4_1["[Interação] Finalizar bateria de questões"]
+    Sub4_Op1{"[]>>"}
+    Sub4_2["[Sistema] Consolidar taxa de acertos, tempo médio e matriz de erros"]
+    Sub4_Op2{">>"}
+    Sub4_3["[Usuário] Analisar gráfico de desempenho e diagnóstico por matéria"]
+    Sub4_Op3{"[]"}
+    Sub4_4["[Interação] Reiniciar treino focado em erros ou exportar resultado"]
+
     Sub4 --> Sub4_1
-    Sub4 --> Sub4_Op
+    Sub4 --> Sub4_Op1
     Sub4 --> Sub4_2
     Sub4 --> Sub4_Op2
     Sub4 --> Sub4_3
     Sub4 --> Sub4_Op3
     Sub4 --> Sub4_4
-    Sub4 --> Sub4_Op4
-    Sub4 --> Sub4_5
-
-    %% Decomposição de Sub5
-    Sub5_1["[Usuário] Conferir gabarito questão a questão"]
-    Sub5_Op{">>"}
-    Sub5_2["[Sistema] Consolidar placar de acertos<br>(NÃO SUPORTADA)"]
-    Sub5 --> Sub5_1
-    Sub5 --> Sub5_Op
-    Sub5 --> Sub5_2
 ```
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -510,24 +566,27 @@ flowchart TD
 
 | Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
 | :--- | :---: | :---: | :--- |
-| **Realizar simulado de questões online** | Abstrata | - | Tarefa raiz que engloba o acesso, a delimitação de escopo, o ciclo de respostas e a avaliação de desempenho. |
-| **Acessar a seção de Simulados** | Interação | `>>` | O usuário localiza e aciona o item "Simulados" entre os quinze rótulos do menu principal. |
-| **Carregar árvore de disciplinas e assuntos** | Sistema | `[]>>` | O servidor renderiza a hierarquia de disciplinas com as respectivas contagens de questões e repassa a estrutura navegável ao usuário. |
-| **Delimitar o escopo do simulado** | Abstrata | `>>` | Nó de composição que agrupa as decisões de recorte temático da sessão de estudo. |
-| **Escolher a disciplina pretendida** | Usuário | `[]>>` | Julgamento cognitivo sobre qual disciplina praticar, com passagem da decisão à etapa de seleção. |
-| **Selecionar o assunto na árvore** | Interação | `>>` | Acionamento do subtópico específico dentro da disciplina escolhida. |
-| **Parametrizar quantidade e tempo** | Interação | — | **Tarefa de interação pretendida pelo usuário e ausente no sistema.** A impossibilidade de definir o número de questões e o cronômetro inviabiliza o ajuste da sessão à janela de tempo disponível. |
-| **Ciclo de resposta às questões** | Abstrata | `>>` | Nó iterativo (`T*`) que se repete até o esgotamento do escopo ou a interrupção por fator externo. |
-| **Renderizar a questão** | Sistema | `>>` | Exibição do enunciado e das alternativas na viewport do dispositivo. |
-| **Interpretar o enunciado** | Usuário | `[]>>` | Esforço cognitivo de leitura e compreensão, com produção da decisão que alimenta a marcação. |
-| **Marcar a alternativa** | Interação | `>>` | Toque ou clique sobre a alternativa eleita, sujeito a erro por alvo de toque reduzido. |
-| **Registrar resposta e exibir gabarito** | Sistema | `\|>` | O sistema processa a resposta e devolve a alternativa correta, sem comentário explicativo. |
-| **Perda de progresso por queda de conexão** | Sistema | — | **Suspensão não recuperável.** Modelada com o operador `\|>` para explicitar que a interrupção suspende o ciclo sem possibilidade de retomada, uma vez que o estado da sessão não é persistido — violação do princípio de prevenção de perda de trabalho do usuário. |
-| **Avaliar o próprio desempenho** | Usuário | `>>` | Julgamento final sobre o resultado alcançado, objetivo central que motivou o uso da ferramenta. |
-| **Conferir gabarito questão a questão** | Usuário | `>>` | Verificação pontual e fragmentada, a única efetivamente disponível no portal. |
-| **Consolidar placar de acertos** | Sistema | — | **Tarefa de sistema esperada e inexistente.** Sua ausência impede o fechamento do ciclo diagnóstico e constitui o principal ponto de ruptura da tarefa. |
+| **Realizar simulado interativo com feedback e diagnóstico** | Abstrata | - | Tarefa raiz que abrange a parametrização do teste, o ciclo dinâmico de resolução e a análise de desempenho do concurseiro. |
+| **Parametrizar bateria de simulado** | Abstrata | `[]>>` | Nó de composição que reúne as opções de customização da sessão de estudos antes do disparo. |
+| **Selecionar disciplina e assunto pretendido** | Interação | `\|\|\|` | Escolha da matéria específica no menu de opções temáticas. |
+| **Configurar quantidade de itens** | Interação | `\|\|\|` | Definição da quantidade de questões a serem resolvidas (ex.: bloco ágil de 10 itens para estudo em trânsito). |
+| **Ativar temporizador com contagem regressiva** | Interação | `>>` | Habilitação do cronômetro regressivo simulando a restrição de tempo real de prova de concurso. |
+| **Disparar botão 'Iniciar Simulado'** | Interação | `[]>>` | Acionamento físico do início do teste, enviando os parâmetros da sessão para a API do sistema. |
+| **Inicializar sessão e renderizar primeira questão** | Sistema | `>>` | O sistema aloca a sessão, embaralha as questões selecionadas e exibe a primeira tela com cronômetro ativo. |
+| **Ciclo iterativo de resposta com feedback imediato** | Abstrata | `>>` | Nó iterativo (`T*`) que se repete a cada questão até a submissão final do teste. |
+| **Ler enunciado e alternativas com tipografia acessível** | Usuário | `[]>>` | Leitura e interpretação cognitiva do enunciado com contraste e legibilidade adequados para dispositivos móveis. |
+| **Selecionar alternativa (área de toque >= 48px)** | Interação | `>>` | Toque seguro no componente de alternativa, prevenindo toques acidentais e erros de digitação. |
+| **Persistir resposta em tempo real (Zero Data Loss)** | Sistema | `>>` | Gravação assíncrona imediata da opção marcada no armazenamento local/servidor, prevenindo perda de progresso em caso de queda de rede móvel. |
+| **Confirmar resposta e solicitar validação** | Interação | `[]>>` | Acionamento do botão para checagem imediata da resposta escolhida. |
+| **Exibir gabarito instantâneo e resolução comentada** | Sistema | `[>` | Apresentação imediata do status (Correto/Incorreto) acompanhado de comentário detalhado do professor especialista. |
+| **Marcar questão para revisão posterior** | Interação | - | Sinalização opcional de dúvida (flag) para permitir reanálise antes da finalização do simulado. |
+| **Concluir bateria e analisar diagnóstico analítico** | Abstrata | - | Subtarefa de fechamento da sessão e processamento dos resultados pedagógicos. |
+| **Finalizar bateria de questões** | Interação | `[]>>` | Submissão do simulado após a resposta da última questão ou esgotamento do tempo. |
+| **Consolidar taxa de acertos, tempo médio e matriz de erros** | Sistema | `>>` | O motor de processamento compila os resultados, classifica os tópicos de maior dificuldade e gera o sumário estatístico. |
+| **Analisar gráfico de desempenho e diagnóstico** | Usuário | `[]` | Avaliação cognitiva do estudante sobre sua proficiência e áreas que necessitam de reforço. |
+| **Reiniciar treino focado em erros ou exportar resultado** | Interação | - | Escolha do usuário entre gerar novo simulado adaptativo apenas com as questões erradas ou exportar relatório em PDF. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -775,17 +834,21 @@ flowchart TD
 
 ---
 
-### 6.2 Tarefa 08: Cadastrar e configurar recebimento de alertas de vagas por e-mail (TAR-08)
+### 6.2 Tarefa 08: Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério (TAR-08)
 
-A Tarefa 08 formaliza a interação de assinatura e recebimento periódico de alertas de vagas e boletins de notícias via correio eletrônico. O modelo atende às necessidades da persona **Renata Cristina Freitas (`PER-04`)**, que, em virtude da jornada integral de trabalho de 44 horas semanais no setor privado, depende de alertas assíncronos precisos para não perder prazos de abertura de certames de seu interesse no Distrito Federal e entorno. A fundamentação apoia-se nos dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) (Comscore, 2024; TIC Domicílios, 2024), que evidenciam o alto engajamento em comunicações por e-mail quando devidamente segmentadas.
+Em atendimento às diretrizes ergonômicas e pedagógicas da **Issue #14**, a Tarefa 08 formaliza a interação na **Central de Alertas Inteligentes de Editais**, superando o modelo rudimentar de subscrição de newsletters genéricas que sobrecarregavam a caixa postal com certames dispersos e irrelevantes (*infoxicação*). A tarefa atende primordialmente às necessidades da persona **Renata Cristina Freitas (`PER-04`)**, que, em virtude de sua extensa rotina de 44 horas semanais no setor privado, depende de comunicações assíncronas altamente assertivas para não perder janelas de inscrição no Distrito Federal e entorno. A fundamentação apoia-se nos dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) (Comscore, 2024; TIC Domicílios, 2024).
 
-Na árvore CTT da Tarefa 08 (Figura 8), destacam-se a passagem dos parâmetros de cadastro para o processamento do sistema (`[]>>`), a concorrência entre os campos de configuração pretendidos (`|||`), a ativação assíncrona do envio de boletins pelo sistema (`>>`) e o operador de escolha alternativa (`[]`) no momento em que o usuário depara-se com a sobrecarga de mensagens não segmentadas.
+A modelagem CTT formaliza:
+1. A **parametrização multicritério concorrente (`|||`)** de filtros avançados (delimitação por UF/região, carreira/órgão e periodicidade de recebimento);
+2. A **validação segura de consentimento em conformidade com a LGPD**, com verificação sintática instantânea de e-mail e autenticação criptográfica por *Double Opt-In*;
+3. O **disparo automatizado de boletins segmentados** com cards estruturados de oportunidades;
+4. O **painel de autoatendimento e governança de privacidade**, que viabiliza o ajuste dinâmico de filtros, a pausa temporária de envios ou o cancelamento definitivo com um clique (*opt-out* instantâneo).
 
 #### Diagrama de Árvore CTT (Figura 8)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 8:</b> Representação em Árvore CTT da Tarefa 08 - Cadastrar e configurar alertas de vagas por e-mail</p>
+<p align="center"><b>Figura 8:</b> Representação em Árvore CTT da Tarefa 08 - Central de Alertas Inteligentes com filtros avançados</p>
 
 </div>
 
@@ -799,60 +862,87 @@ flowchart TD
         L_Usu["[Usuário]"]
     end
 
-    Root["[Abstrata] Cadastrar e configurar alertas de vagas por e-mail"]
+    Root8["[Abstrata] Cadastrar e gerenciar alertas inteligentes com filtros e LGPD"]
 
-    Sub1["[Interação] Localizar formulário de cadastro no portal"]
+    Sub1["[Interação] Acessar Central de Alertas Inteligentes"]
     Op1{">>"}
-    Sub2["[Abstrata] Parametrização e inserção de dados"]
+    Sub2["[Abstrata] Parametrizar filtros multicritério de monitoramento"]
     Op2{"[]>>"}
-    Sub3["[Sistema] Processar requisição e registrar inscrição"]
+    Sub3["[Abstrata] Fornecer dados e efetivar autenticação Double Opt-In"]
     Op3{">>"}
-    Sub4["[Sistema] Enviar boletim periódico à caixa postal"]
+    Sub4["[Sistema] Disparar digest segmentado de editais"]
     Op4{"[]>>"}
-    Sub5["[Abstrata] Triagem do boletim ou cancelamento da assinatura"]
+    Sub5["[Abstrata] Gerenciar preferências de alertas e direitos de privacidade"]
 
-    Root --> Sub1
-    Root --> Op1
-    Root --> Sub2
-    Root --> Op2
-    Root --> Sub3
-    Root --> Op3
-    Root --> Sub4
-    Root --> Op4
-    Root --> Sub5
+    Root8 --> Sub1
+    Root8 --> Op1
+    Root8 --> Sub2
+    Root8 --> Op2
+    Root8 --> Sub3
+    Root8 --> Op3
+    Root8 --> Sub4
+    Root8 --> Op4
+    Root8 --> Sub5
 
-    %% Decomposição de Sub2
-    Sub2_1["[Interação] Digitar endereço de e-mail"]
-    Sub2_Op{"|||"}
-    Sub2_2["[Interação] Selecionar UF e região pretendida<br>(NÃO SUPORTADA)"]
+    %% Decomposição de Sub2 (Filtros multicritério concorrentes)
+    Sub2_1["[Interação] Selecionar localidade e UF pretendida (DF/Entorno)"]
+    Sub2_Op1{"|||"}
+    Sub2_2["[Interação] Filtrar carreira, área de atuação e escolaridade"]
     Sub2_Op2{"|||"}
-    Sub2_3["[Interação] Filtrar carreira e escolaridade<br>(NÃO SUPORTADA)"]
+    Sub2_3["[Interação] Definir periodicidade de notificação"]
     Sub2_Op3{">>"}
-    Sub2_4["[Interação] Clicar no botão 'Cadastrar' / 'Receber'"]
+    Sub2_4["[Interação] Submeter configuração de monitoramento"]
+
     Sub2 --> Sub2_1
-    Sub2 --> Sub2_Op
+    Sub2 --> Sub2_Op1
     Sub2 --> Sub2_2
     Sub2 --> Sub2_Op2
     Sub2 --> Sub2_3
     Sub2 --> Sub2_Op3
     Sub2 --> Sub2_4
 
-    %% Decomposição de Sub5
-    Sub5_1["[Usuário] Triar manualmente editais de interesse no boletim"]
-    Sub5_Op{"[]"}
-    Sub5_2["[Interação] Clicar em link de descadastramento total (opt-out)"]
+    %% Decomposição de Sub3 (Validação e Double Opt-In)
+    Sub3_1["[Interação] Digitar e-mail com validação sintática em tempo real"]
+    Sub3_Op1{"|||"}
+    Sub3_2["[Interação] Aceitar termos de consentimento e privacidade (LGPD)"]
+    Sub3_Op2{"[]>>"}
+    Sub3_3["[Sistema] Emitir token temporário de validação criptográfica"]
+    Sub3_Op3{">>"}
+    Sub3_4["[Interação] Confirmar token de validação via link seguro (Double Opt-In)"]
+    Sub3_Op4{">>"}
+    Sub3_5["[Sistema] Ativar perfil de monitoramento personalizado"]
+
+    Sub3 --> Sub3_1
+    Sub3 --> Sub3_Op1
+    Sub3 --> Sub3_2
+    Sub3 --> Sub3_Op2
+    Sub3 --> Sub3_3
+    Sub3 --> Sub3_Op3
+    Sub3 --> Sub3_4
+    Sub3 --> Sub3_Op4
+    Sub3 --> Sub3_5
+
+    %% Decomposição de Sub5 (Gestão e LGPD)
+    Sub5_1["[Usuário] Avaliar relevância dos cards de oportunidades no digest"]
+    Sub5_Op1{"[]"}
+    Sub5_2["[Interação] Acessar painel de autoatendimento para editar filtros"]
     Sub5_Op2{"[]"}
-    Sub5_3["[Interação] Personalizar frequência e pausar envios<br>(NÃO SUPORTADA)"]
+    Sub5_3["[Interação] Solicitar descadastramento imediato (opt-out em 1 clique)"]
+    Sub5_Op3{">>"}
+    Sub5_4["[Sistema] Excluir registros cadastrais da base e confirmar remoção"]
+
     Sub5 --> Sub5_1
-    Sub5 --> Sub5_Op
+    Sub5 --> Sub5_Op1
     Sub5 --> Sub5_2
     Sub5 --> Sub5_Op2
     Sub5 --> Sub5_3
+    Sub5 --> Sub5_Op3
+    Sub5 --> Sub5_4
 ```
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -864,19 +954,25 @@ flowchart TD
 
 | Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
 | :--- | :---: | :---: | :--- |
-| **Cadastrar e configurar alertas de vagas por e-mail** | Abstrata | - | Tarefa raiz que engloba a localização do formulário, o fornecimento de dados, a gravação pelo sistema e a gestão posterior das mensagens recebidas. |
-| **Localizar formulário de cadastro no portal** | Interação | `>>` | O usuário percorre visualmente a página inicial ou rodapé até encontrar o bloco de inscrição de newsletter. |
-| **Parametrização e inserção de dados** | Abstrata | `[]>>` | Nó de composição que reúne a digitação do contato e as configurações de segmentação, transferindo os dados para validação. |
-| **Digitar endereço de e-mail** | Interação | `\|\|\|` | Ação física de digitação do endereço eletrônico pessoal no campo de entrada de texto. |
-| **Selecionar UF e região pretendida** | Interação | `\|\|\|` | **Tarefa pretendida pelo usuário e não suportada.** A interface não oferece caixas de seleção ou filtros para delimitar avisos apenas ao DF e Goiás. |
-| **Filtrar carreira e escolaridade** | Interação | `>>` | **Tarefa pretendida e não suportada.** O sistema não permite selecionar categorias funcionais (ex.: Tribunais, Administrativa) nem escolaridade (Superior). |
-| **Clicar no botão 'Cadastrar' / 'Receber'** | Interação | `>>` | Disparo físico do envio dos dados preenchidos no formulário para os servidores do portal. |
-| **Processar requisição e registrar inscrição** | Sistema | `>>` | O servidor valida a sintaxe do e-mail, insere o endereço na lista de destinatários da newsletter e exibe confirmação na tela. |
-| **Enviar boletim periódico à caixa postal** | Sistema | `[]>>` | Disparo assíncrono automatizado de mensagens diárias contendo o apanhado massivo de editais publicados no território nacional. |
-| **Triagem do boletim ou cancelamento da assinatura** | Abstrata | — | Nó que expressa o dilema do usuário perante a infoxicação gerada pela ausência de segmentação. |
-| **Triar manualmente editais de interesse no boletim** | Usuário | `[]` | Esforço cognitivo exaustivo de varredura visual de dezenas de certames irrelevantes na mensagem em busca de vagas locais. |
-| **Clicar em link de descadastramento total (opt-out)** | Interação | `[]` | Acionamento do link miúdo de cancelamento definitivo no rodapé do e-mail perante a saturação de mensagens genéricas. |
-| **Personalizar frequência e pausar envios** | Interação | — | **Tarefa esperada e inexistente.** O usuário não dispõe de painel para espaçar envios (semanal) ou suspender temporariamente a assinatura. |
+| **Cadastrar e gerenciar alertas inteligentes** | Abstrata | - | Tarefa raiz de gerenciamento proativo de avisos de editais com filtros de afinidade e conformidade de privacidade. |
+| **Acessar Central de Alertas Inteligentes** | Interação | `>>` | O usuário navega até a seção dedicada de alertas através do menu ou banner de chamada na página inicial. |
+| **Parametrizar filtros multicritério de monitoramento** | Abstrata | `[]>>` | Nó de composição que reúne a parametrização dos critérios de busca, transferindo os dados de configuração para a etapa de cadastro. |
+| **Selecionar localidade e UF pretendida (DF/Entorno)** | Interação | `\|\|\|` | Seleção de múltiplos estados e municípios de interesse (foco no DF e cidades satélites). |
+| **Filtrar carreira, área de atuação e escolaridade** | Interação | `\|\|\|` | Marcação de filtros por cargos (ex.: Tribunais, Gestão Pública) e exigência de escolaridade mínima. |
+| **Definir periodicidade de notificação** | Interação | `>>` | Escolha da cadência de envio dos alertas (imediata por edital, resumo diário às 19h ou boletim semanal aos sábados). |
+| **Submeter configuração de monitoramento** | Interação | `>>` | Disparo da confirmação dos parâmetros para abertura do bloco de validação de dados de contato. |
+| **Fornecer dados e efetivar autenticação Double Opt-In** | Abstrata | `>>` | Subtarefa de verificação de autenticidade do usuário e garantia de consentimento livre e informado sob a LGPD. |
+| **Digitar e-mail com validação sintática em tempo real** | Interação | `\|\|\|` | Preenchimento do endereço eletrônico com checagem inline de formato (`usuario@dominio.com`), prevenindo erros tipográficos. |
+| **Aceitar termos de consentimento e privacidade (LGPD)** | Interação | `[]>>` | Marcação obrigatória de checkbox com leitura clara das finalidades de tratamento de dados pessoais. |
+| **Emitir token temporário de validação criptográfica** | Sistema | `>>` | O servidor gera um hash de verificação de curta duração e despacha a mensagem de confirmação para a caixa postal indicada. |
+| **Confirmar token de validação via link seguro** | Interação | `>>` | O usuário abre a mensagem no seu cliente de correio e clica no link único de ativação (*Double Opt-In*). |
+| **Ativar perfil de monitoramento personalizado** | Sistema | - | O sistema valida a autenticidade do contato, grava o perfil no banco e exibe tela de boas-vindas com resumo dos filtros ativos. |
+| **Disparar digest segmentado de editais** | Sistema | `[]>>` | Processamento assíncrono em lote que compara novos certames cadastrados com a matriz de preferências e envia o resumo personalizado. |
+| **Gerenciar preferências e direitos de privacidade** | Abstrata | - | Nó de composição para manutenção contínua da assinatura ou encerramento do vínculo de comunicações. |
+| **Avaliar relevância dos cards no digest** | Usuário | `[]` | Leitura cognitiva rápida dos resumos recebidos para identificar editais promissores. |
+| **Acessar painel de autoatendimento para editar filtros** | Interação | `[]` | Navegação direta para reconfiguração de UFs, carreiras ou alteração da periodicidade de recebimento. |
+| **Solicitar descadastramento imediato (opt-out em 1 clique)** | Interação | `>>` | Acionamento de botão visível e inequívoco no cabeçalho/rodapé do e-mail para revogação imediata do consentimento. |
+| **Excluir registros cadastrais da base e confirmar remoção** | Sistema | - | O sistema purgeia o endereço e parâmetros da base de envios ativos e emite mensagem de confirmação de exclusão em respeito à LGPD. |
 
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
@@ -909,5 +1005,6 @@ As Tarefas 09 e 10 serão modeladas na sequência pelo integrante responsável, 
 | `1.1` | 27/09/2026 | Inclusão da modelagem CTT completa das Tarefas 03 e 04 (árvores de tarefas e especificações de nós formais) baseadas na Análise Documental (DOC-02) e persona Lucas Ferreira Rocha. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.2` | 27/09/2026 | Modelagem CTT completa das Tarefas 05 e 06 (Figuras 5 e 6, Tabelas 7 e 8), com formalização do ciclo iterativo de respostas, da suspensão não recuperável por perda de conexão e do padrão de tentativa e abandono da TAR-06 pelo operador de desativação. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.3` | 28/09/2026 | Modelagem CTT completa das Tarefas 07 e 08 (Figuras 7 e 8, Tabelas 9 e 10), formalizando ciclo audiovisual em viewport móvel e disparo assíncrono de alertas de vagas, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.4` | 06/10/2026 | Enriquecimento do escopo ergonômico das tarefas no CTT (Issue #14): remodelagem formal da TAR-04 (timeline interativa e sincronização com calendário), TAR-05 (simulados parametrizados, feedback imediato e diagnóstico analítico) e TAR-08 (central de alertas inteligentes com filtros multicritério e Double Opt-In sob a LGPD), alinhando operadores temporais (>>, []>>, \|\|\|, [>, \|>, *) às diretrizes do Grupo 06. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>
