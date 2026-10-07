@@ -8,7 +8,7 @@
 | Pedro Rocha Ferreira Lima | Revisão da documentação das ferramentas do projeto. |
 | Gemini | Auxílio na formatação da tabela de logos e ferramentas em Markdown (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

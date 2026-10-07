@@ -12,7 +12,7 @@
 | Pedro Rocha Ferreira Lima | Revisão da conformidade visual com os achados de análise de requisitos e padrões de acessibilidade. |
 | Gemini | Auxílio na estruturação textual, organização dos códigos de cores, diagramação em Markdown e checagem de conformidade com o checklist de IHC (conforme Política de Uso de IA). |
 
-<p align="center"><b>Tabela 1:</b> Contribuição neste artefato. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -45,7 +45,9 @@ A Figura 1 reproduz o trecho da literatura (Seção 8.4, p. 282) que fundamenta 
 
 ![Definição e escopo de Guias de Estilo na literatura de IHC](../assets/images/barbosa-guia-estilo-definicao-p282.png)
 
-<p align="center"><b>Figura 1:</b> Definição e escopo de Guias de Estilo na literatura de IHC. <b>Fonte:</b> BARBOSA; SILVA (2010, p. 282), recorte do livro.</p>
+<p align="center"><b>Figura 1:</b> Definição e Escopo de Guias de Estilo na Literatura de IHC</p>
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA; SILVA (2010, p. 282), recorte do livro.</p>
 
 </div>
 
@@ -69,7 +71,9 @@ Adicionalmente, Mayhew (1999) recomenda explicitar o *design rationale* (a justi
 
 ![Estrutura de Guia de Estilo segundo Marcus (1992) e Mayhew (1999)](../assets/images/barbosa-guia-estilo-estrutura-p283.png)
 
-<p align="center"><b>Figura 2:</b> Estrutura de Guia de Estilo segundo Marcus (1992) e Mayhew (1999). <b>Fonte:</b> BARBOSA; SILVA (2010, p. 283), recorte do livro.</p>
+<p align="center"><b>Figura 2:</b> Estrutura de Guia de Estilo segundo Marcus (1992) e Mayhew (1999)</p>
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA; SILVA (2010, p. 283), recorte do livro.</p>
 
 </div>
 
@@ -180,7 +184,7 @@ Adotam-se famílias tipográficas sem serifa modernas, de excelente legibilidade
 | **Legendas e Badges** | *Inter*, sans-serif | 12 px (tamanho mínimo absoluto) | 600 (Semi-bold) | 1.40 (16 px) |
 | **Numerais e Protocolos** | Monospaçada (`ui-monospace, Consolas`) | 14 px | 500 (Medium) | 1.40 (20 px) |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -217,7 +221,7 @@ A paleta preserva a identidade visual consagrada do PCI Concursos (azul clássic
 | **Semântica** | `$color-warning` | `#9A6700` | <span style="background-color:#9A6700;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#9A6700</span> | *"Retificação Publicada"*, *"Últimos Dias"* de inscrição | 4.7:1 (sobre branco) | **AA** |
 | **Semântica** | `$color-danger` | `#CF222E` | <span style="background-color:#CF222E;color:#FFF;padding:3px 10px;border-radius:4px;font-weight:bold;">#CF222E</span> | *"Inscrições Encerradas"*, erros e cancelamento | 4.9:1 (sobre branco) | **AA** |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -278,7 +282,7 @@ Os botões seguem hierarquia visual estrita de quatro níveis (Tabela 4):
 | **Botão Terciário (Link)** | Sem borda e sem fundo, texto azul sublinhado no hover | Ações de cancelamento ou suporte (ex.: "Limpar Filtros", "Cancelar", "Voltar") | Adiciona sublinhado e muda cor para azul escuro |
 | **Botão Destrutivo** | Fundo vermelho sólido (`#CF222E`), texto branco, cantos de 6px | Ações irreversíveis (ex.: "Cancelar Assinatura de Alertas", "Excluir Conta") | Escurece o tom para `#A40E26` |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -310,7 +314,9 @@ Para extirpar a vulnerabilidade diagnosticada em USR-01, TAR-02 e CEN-02, na qua
 +-----------------------------------------------------------------------------------+
 ```
 
-<p align="center"><b>Figura 3:</b> Esquema do Padrão Antitrapaça de Download Seguro. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center"><b>Figura 3:</b> Esquema do Padrão Antitrapaça de Download Seguro</p>
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -357,7 +363,7 @@ A Tabela 5 estabelece a padronização entre termos ambíguos do sistema antigo 
 | Apenas "Estágio" | **Estágio para Estudantes** | Vagas de estágio curricular para graduandos ou ensino médio. |
 | Apenas "Estágio" | **Estágio Probatório** | Período legal de avaliação do servidor público efetivo. |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -392,7 +398,7 @@ O Guia de Estilo formulado atende estritamente ao **Item 17** da lista de verifi
 | Videoaulas sem trilha pedagógica e layout móvel sobrepondo anúncios no player | **DOC-04 / CEN-07 / TAR-07** | **Modo Foco e Player Responsivo (Seções 3.1 e 6.2):** Ocultação de banners laterais no modo horizontal móvel e trilha sequencial com PDF. | Permite a Renata (`PER-04`) estudar em intervalos de trabalho de 30 minutos com qualidade. |
 | Newsletter massiva e generalista sem segmentação por UF nem cancelamento fácil | **DOC-04 / CEN-08 / TAR-08** | **Central de Alertas Parametrizados (Seção 5.6):** Seleção de UF e carreira, periodicidade flexível e descadastramento em 1 clique (LGPD). | Elimina a sobrecarga de spams na caixa postal de concurseiros com dupla jornada de trabalho. |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 

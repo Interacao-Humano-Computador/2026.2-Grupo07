@@ -11,7 +11,7 @@
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas CTT em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -44,7 +44,7 @@ A grande potência do CTT reside em sua gramática de **operadores temporais for
 | `T1 \|> T2` | **Suspensão e Retomada** | `T1` é temporariamente suspensa por `T2` e retoma sua execução após o término de `T2`. |
 | `T*` | **Iteração** | A tarefa `T` é executada repetidas vezes até que uma condição de parada seja satisfeita. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -71,7 +71,7 @@ A equipe consolidou a matriz com as dez tarefas avaliadas no portal, mapeando a 
 | **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor Sales Ibiapina |
 | **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor Sales Ibiapina |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -142,7 +142,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado pelos autores (2026).</p>
 
 </div>
 
@@ -165,7 +165,7 @@ flowchart TD
 | **Avaliar relevância da listagem** | Usuário | `>>` | Leitura das manchetes para identificar a data e o órgão correto. |
 | **Selecionar concurso desejado** | Interação | - | Clique no hiperlink do concurso selecionado para abrir a página do edital. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -219,7 +219,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado pelos autores (2026).</p>
 
 </div>
 
@@ -240,7 +240,7 @@ flowchart TD
 | **Clicar em link do Gabarito** | Interação | `[]>>` | Retorno à página e clique no hiperlink correspondente à folha de gabarito. |
 | **Entregar arquivo PDF do Gabarito** | Sistema | - | O sistema dispara o download da chave de respostas oficiais. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -305,7 +305,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 
 </div>
 
@@ -328,7 +328,7 @@ flowchart TD
 | **Avaliar resultado destacado** | Usuário | - | Julgamento cognitivo do usuário sobre o órgão público distrital identificado. |
 | **Clicar no link do concurso distrital** | Interação | - | Ação física de clique sobre o título do concurso pretendido para abrir a página do edital. |
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 
 </div>
 
@@ -413,7 +413,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -439,7 +439,7 @@ flowchart TD
 | **Confirmar importação no aplicativo de calendário** | Interação | `>>` | Interação externa do usuário na aplicação de calendário nativa (Google, Apple, Outlook) validando a inscrição dos eventos. |
 | **Registrar sincronização e programar notificações prévias** | Sistema | - | Agendamento de notificações preventivas (ex.: 48h antes do encerramento das inscrições e na véspera da prova). |
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -554,7 +554,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -586,7 +586,7 @@ flowchart TD
 | **Analisar gráfico de desempenho e diagnóstico** | Usuário | `[]` | Avaliação cognitiva do estudante sobre sua proficiência e áreas que necessitam de reforço. |
 | **Reiniciar treino focado em erros ou exportar resultado** | Interação | - | Escolha do usuário entre gerar novo simulado adaptativo apenas com as questões erradas ou exportar relatório em PDF. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -667,7 +667,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base nas estatísticas da ABRES e na Persona PER-03.</p>
 
 </div>
 
@@ -692,7 +692,7 @@ flowchart TD
 | **Atribuir a si o fracasso da busca** | Usuário | `>>` | Consequência mais grave do fluxo: na ausência de comunicação explícita de escopo, o usuário conclui que "não soube procurar", com prejuízo à autoconfiança — violação da heurística de visibilidade do estado do sistema (Nielsen, 1993). |
 | **Migrar para portal externo de estágios** | Interação | - | Perda de retenção de um usuário que tenderia a converter-se em concurseiro pleno nos anos subsequentes. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base nas estatísticas da ABRES e na Persona PER-03.</p>
 
 </div>
 
@@ -797,7 +797,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
 </div>
 
@@ -828,7 +828,7 @@ flowchart TD
 | **Avançar para próxima aula da trilha** | Interação | `>>` | **Tarefa não suportada.** Ausência de navegação sequencial pedagógica ("Próxima Aula") entre módulos de uma mesma matéria. |
 | **Registrar progresso no histórico do aluno** | Sistema | — | **Tarefa de sistema esperada e ausente.** O sistema não armazena quais aulas já foram assistidas nem a porcentagem de conclusão do conteúdo programático. |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
 </div>
 
@@ -942,7 +942,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -974,7 +974,7 @@ flowchart TD
 | **Solicitar descadastramento imediato (opt-out em 1 clique)** | Interação | `>>` | Acionamento de botão visível e inequívoco no cabeçalho/rodapé do e-mail para revogação imediata do consentimento. |
 | **Excluir registros cadastrais da base e confirmar remoção** | Sistema | - | O sistema purgeia o endereço e parâmetros da base de envios ativos e emite mensagem de confirmação de exclusão em respeito à LGPD. |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
 </div>
 

@@ -6,7 +6,7 @@
 | :--- | :--- |
 | Arthur Sismene Carvalho | Gravação do vídeo de verificação do Grupo 08 e inclusão no MkDocs. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
 

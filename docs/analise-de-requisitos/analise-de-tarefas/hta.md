@@ -11,7 +11,7 @@
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em HTA (diagramas e tabelas analíticas com problemas e recomendações) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas HTA em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -67,7 +67,7 @@ A Tabela 1 a seguir consolida a matriz geral de tarefas da equipe:
 | **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor Sales Ibiapina |
 | **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor Sales Ibiapina |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -93,15 +93,15 @@ flowchart TD
     
     T1["1. Acessar o campo de busca no portal<br><i>Plano 1: 1.1 e 1.2</i>"]
     T11["1.1 Localizar barra de pesquisa no cabeçalho"]
-    T12["1.2 Clicar na caixa de texto"]
+    T12["1.2 Posicionar foco no campo de pesquisa"]
     
     T2["2. Inserir critério de pesquisa<br><i>Plano 2: 2.1 depois 2.2</i>"]
     T21["2.1 Digitar nome do órgão ou cargo pretendido"]
-    T22["2.2 Pressionar Enter ou clicar no ícone de lupa"]
+    T22["2.2 Submeter requisição de busca"]
     
     T3["3. Analisar resultados retornados<br><i>Plano 3: 3.1 depois 3.2</i>"]
     T31["3.1 Diferenciar links de notícias editoriais de blocos de anúncios"]
-    T32["3.2 Clicar no título do concurso correspondente"]
+    T32["3.2 Selecionar certame pretendido"]
     
     T4["4. Refinar critérios de busca (se necessário)<br><i>Plano 4: 4.1 ou 4.2</i>"]
     T41["4.1 Alterar termo de busca com palavras-chave alternativas"]
@@ -127,7 +127,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado pelos autores (2026).</p>
 
 </div>
 
@@ -142,16 +142,16 @@ flowchart TD
 | **0. Buscar edital de concurso por palavra-chave ou órgão** | **Plano 0:** Executar 1, 2 e 3 em sequência. Se a listagem não trouxer o resultado esperado, executar 4. | O mecanismo de busca interna depende de busca textual com baixa tolerância a erros ortográficos ou sinônimos. | Implementar algoritmo de busca semântica com autocompletar e sugestões de correção ortográfica. |
 | **1. Acessar o campo de busca no portal** | **Plano 1:** Executar 1.1 e 1.2. | A barra de busca no topo divide espaço com anúncios gráficos piscantes, dificultando a localização visual imediata. | Centralizar a barra de pesquisa no topo com contraste visual elevado e destacar o ícone de lupa. |
 | **1.1 Localizar barra de pesquisa** | Ação visual | Dificuldade de percepção para usuários com baixa visão. | Garantir contraste mínimo 4.5:1 (WCAG AA). |
-| **1.2 Clicar na caixa de texto** | Ação física | Falta de foco visual (`outline`) destacado ao clicar. | Adicionar indicação visual clara de foco ativo. |
+| **1.2 Posicionar foco no campo de busca** | Operação de interface | Falta de foco visual (`outline`) destacado no elemento ativo. | Adicionar indicação visual clara de foco ativo. |
 | **2. Inserir critério de pesquisa** | **Plano 2:** Executar 2.1 e 2.2. | Ausência de dicas de contexto ou *placeholders* explicativos na caixa. | Inserir *placeholder* dinâmico: *"Ex: TJDFT, Banco do Brasil, Analista..."*. |
 | **2.1 Digitar termo pretendido** | Operação cognitiva/física | Ao digitar siglas, o sistema pode não correlacionar com o nome por extenso. | Adicionar dicionário de sinônimos de órgãos públicos. |
-| **2.2 Pressionar Enter ou clicar na lupa** | Ação física | O clique na lupa às vezes aciona recarregamento completo sem transição suave. | Adicionar indicador visual de carregamento (*spinner*). |
+| **2.2 Submeter requisição de busca** | Operação de interface | O disparo de busca às vezes aciona recarregamento síncrono completo sem transição suave. | Adicionar indicador visual de carregamento (*spinner*). |
 | **3. Analisar resultados retornados** | **Plano 3:** Executar 3.1 e 3.2. | A página de resultados mescla anúncios do Google Ads que imitam manchetes de notícias de concursos. | Separar rigorosamente blocos patrocinados de resultados orgânicos com rótulo "Publicidade". |
 | **3.1 Diferenciar notícias de anúncios** | Operação cognitiva | Alta carga cognitiva e propensão ao clique errôneo por usuários leigos. | Adicionar borda e fundo diferenciado aos cards de notícias oficiais. |
-| **3.2 Clicar no link do concurso** | Ação física | Área de clique restrita apenas ao texto do hiperlink em azul claro. | Tornar todo o card do concurso clicável (*hit area* expandida). |
+| **3.2 Selecionar certame pretendido** | Operação de interface | Área interativa restrita apenas ao texto do hiperlink em azul claro. | Tornar todo o card do concurso clicável (*hit area* expandida). |
 | **4. Refinar critérios de busca** | **Plano 4:** Executar 4.1 ou 4.2 se necessário. | A interface não oferece filtros de faceta rápidos (por estado, status ou escolaridade) na tela de resultados. | Adicionar filtros laterais interativos (Estado, Escolaridade, Salário). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -186,7 +186,7 @@ flowchart TD
     T32["3.2 Abrir ou salvar o arquivo PDF no dispositivo"]
     
     T4["4. Selecionar e baixar o gabarito oficial<br><i>Plano 4: 4.1 e 4.2</i>"]
-    T41["4.1 Clicar no link correspondente ao 'Gabarito'"]
+    T41["4.1 Requisitar folha de gabarito em PDF"]
     T42["4.2 Salvar o arquivo de gabarito para conferência"]
 
     T0 --> T1
@@ -209,7 +209,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado pelos autores (2026).</p>
 
 </div>
 
@@ -229,7 +229,7 @@ flowchart TD
 | **3.2 Salvar arquivo PDF** | Ação física | Dependendo da configuração do navegador, o PDF é aberto na mesma aba, perdendo o contexto da página do concurso. | Forçar abertura em nova guia (`target="_blank"`) ou disparar o download direto com atributo `download`. |
 | **4. Baixar o gabarito oficial** | **Plano 4:** Executar 4.1 e 4.2. | Se o gabarito tiver retificações (anulação de questões), o portal nem sempre indica claramente a versão final. | Indicar textualmente: *"Gabarito Definitivo (Pós-Recurso)"* ao lado do link. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -258,13 +258,13 @@ flowchart TD
     T12["1.2 Identificar a opção correspondente à macrorregião 'Centro-Oeste'"]
     
     T2["2. Carregar e visualizar a listagem regional unificada<br><i>Plano 2: 2.1 e 2.2</i>"]
-    T21["2.1 Clicar no link 'Centro-Oeste'"]
+    T21["2.1 Selecionar filtro regional Centro-Oeste"]
     T22["2.2 Aguardar carregamento da listagem com todos os estados (DF, GO, MT, MS)"]
     
     T3["3. Triar editais específicos para o Distrito Federal (DF)<br><i>Plano 3: 3.1 depois 3.2 depois 3.3</i>"]
     T31["3.1 Varrer visualmente as linhas da tabela unificada"]
     T32["3.2 Identificar a sigla '/DF' ou indicação de órgão sediado em Brasília"]
-    T33["3.3 Clicar no título do concurso distrital de interesse"]
+    T33["3.3 Selecionar certame do Distrito Federal"]
     
     T4["4. Refinar localização com busca textual interna (se necessário)<br><i>Plano 4: 4.1 depois 4.2</i>"]
     T41["4.1 Acionar busca na página (Ctrl+F) e digitar 'DF' ou 'Brasília'"]
@@ -291,7 +291,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -308,15 +308,15 @@ flowchart TD
 | **1.1 Localizar bloco de navegação** | Ação visual | O seletor fica posicionado abaixo da dobra inicial em resoluções verticais menores. | Fixar a navegação de regiões no topo ou torná-la acessível via menu suspenso (*dropdown*). |
 | **1.2 Identificar 'Centro-Oeste'** | Operação cognitiva | Ausência de diferenciação visual para o Distrito Federal, que possui regime e demanda administrativa atípicos. | Permitir seleção direta de capitais e do Distrito Federal no menu de navegação. |
 | **2. Carregar listagem unificada** | **Plano 2:** Executar 2.1 e 2.2. | A tabela carrega centenas de editais simultaneamente sem paginação, aumentando o tempo de resposta e o consumo de dados. | Implementar paginação dinâmica (ex.: 20 a 50 certames por página) com carregamento sob demanda (*lazy loading*). |
-| **2.1 Clicar em 'Centro-Oeste'** | Ação física | O clique recarrega a página completa sem persistir preferências anteriores de visualização. | Utilizar carregamento assíncrono (AJAX/SPA) para atualização instantânea dos resultados. |
+| **2.1 Selecionar filtro Centro-Oeste** | Operação de interface | A requisição recarrega a página completa sem persistir preferências anteriores de visualização. | Utilizar carregamento assíncrono (AJAX/SPA) para atualização instantânea dos resultados. |
 | **2.2 Aguardar carregamento** | Ação de espera | Ausência de feedback de progresso durante o carregamento de tabelas com grande volume de dados. | Adicionar indicador visual de carregamento (*skeleton screens* ou *spinners*). |
 | **3. Triar editais para o DF** | **Plano 3:** Executar 3.1, 3.2 e 3.3. | **Sobrecarga Cognitiva Severa:** O usuário precisa ler linha por linha para descartar dezenas de certames municipais do interior de GO, MT e MS. | Disponibilizar *tag/badge* visual com cores distintas por estado (ex.: tag azul `[DF]`, verde `[GO]`, amarela `[MT]`). |
 | **3.1 Varrer visualmente as linhas** | Operação cognitiva | Tipografia densa, tamanho de fonte reduzido e baixo contraste das siglas de estado na tabela. | Melhorar o respiro tipográfico, tamanho de fonte (mínimo 14px) e espaçamento entre linhas da tabela. |
 | **3.2 Identificar sigla '/DF'** | Ação visual | Siglas de lotação estão no final do título do órgão, muitas vezes truncadas ou abreviadas de forma inconsistente. | Padronizar uma coluna exclusiva para a "UF / Cidade de Lotação" na tabela de certames. |
-| **3.3 Clicar no concurso distrital** | Ação física | A área clicável limita-se ao hiperlink sublinhado, gerando cliques perdidos no espaço da linha. | Tornar a linha inteira da tabela clicável (*row click* com hover destacado). |
+| **3.3 Selecionar certame distrital** | Operação de interface | A área ativa limita-se ao hiperlink sublinhado, gerando toques ou cliques perdidos no espaço da linha. | Tornar a linha inteira da tabela clicável (*row click* com hover destacado). |
 | **4. Refinar com busca no navegador** | **Plano 4:** Executar 4.1 e 4.2 se necessário. | A necessidade de acionar recurso externo do navegador (Ctrl+F) evidencia falha de usabilidade na interface interna de busca/filtro. | Incorporar campo de filtragem rápida instantânea em tempo real (*live search*) no topo da própria tabela regional. |
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 
 </div>
 
@@ -352,7 +352,7 @@ flowchart TD
     T33["3.3 Abrir comparativo sintético de alterações de datas e cláusulas"]
     
     T4["4. Sincronizar marcos temporais com calendário pessoal<br><i>Plano 4: 4.1 depois 4.2</i>"]
-    T41["4.1 Clicar no botão 'Exportar para Agenda' (.ics)"]
+    T41["4.1 Acionar exportação de eventos para agenda (.ics)"]
     T42["4.2 Selecionar serviço de calendário (Google Agenda / Apple Calendar)"]
 
     T0 --> T1
@@ -376,7 +376,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 
 </div>
 
@@ -394,16 +394,16 @@ flowchart TD
 | **1.2 Acessar ficha detalhada** | Ação física | Carregamento lento em conexões móveis devido a scripts de terceiros. | Otimizar tempo de resposta da página e priorizar a renderização inicial dos marcos do cronograma. |
 | **2. Navegar na timeline interativa de fases** | **Plano 2:** Executar 2.1 e 2.2. | **Funcionalidade Ausente no Portal Atual:** Inexiste representação cronológica gráfica do ciclo de vida do certame (Inscrição $\rightarrow$ Isenção $\rightarrow$ Prova $\rightarrow$ Gabarito $\rightarrow$ Resultados). | Implementar barra horizontal responsiva de etapas com nós clicáveis e indicador da fase atual do certame. |
 | **2.1 Inspecionar barra gráfica de fases** | Operação cognitiva | O usuário é forçado a calcular mentalmente em qual etapa o concurso se encontra. | Utilizar código de cores semântico: nós verdes (concluídos), azul vibrante (fase atual) e cinza (fases futuras). |
-| **2.2 Selecionar fase específica** | Ação física | Impossibilidade de consultar detalhes de uma etapa sem ler todo o histórico de publicações. | Exibir gaveta expansível (*accordion*) com datas, links de editais e instruções ao clicar em cada nó da timeline. |
+| **2.2 Selecionar fase específica** | Ação física | Impossibilidade de consultar detalhes de uma etapa sem ler todo o histórico de publicações. | Exibir gaveta expansível (*accordion*) com datas, links de editais e instruções ao selecionar cada nó da timeline. |
 | **3. Inspecionar retificações e contadores** | **Plano 3:** Executar 3.1, 3.2 e 3.3. | Retificações aparecem como texto miúdo no rodapé da página; horários limites de pagamento da taxa não são destacados. | Implementar selo âmbar destacado no cabeçalho: `[⚠️ Retificação Publicada em DD/MM]` e contador regressivo ativo. |
 | **3.1 Verificar selo de retificação** | Ação visual | Falta de visibilidade: candidato supõe que o cronograma original ainda é válido. | Posicionar o alerta com destaque no topo e com contraste auditado (WCAG 2.1 AA/AAA). |
 | **3.2 Checar contador dinâmico de encerramento** | Operação cognitiva | Dúvidas sobre o horário exato limite de pagamento do boleto bancário da taxa de inscrição. | Exibir contador regressivo com dias, horas e minutos: *"Inscrições encerram-se em 2 dias e 14 horas"*. |
 | **3.3 Abrir comparativo sintético de alterações** | Ação física | O candidato precisa abrir múltiplos arquivos PDF para descobrir quais cláusulas mudaram. | Disponibilizar modal de "Resumo das Alterações da Retificação" confrontando as datas anteriores com as novas. |
 | **4. Sincronizar marcos com calendário pessoal** | **Plano 4:** Executar 4.1 e 4.2. | **Funcionalidade Ausente no Portal Atual:** Não há suporte para exportar datas para agendas pessoais digitais. | Adicionar botão *"Adicionar à Agenda"* com suporte a arquivos padrão `.ics` e links diretos para Google Agenda e Apple Calendar. |
-| **4.1 Clicar em 'Exportar para Agenda'** | Ação física | O candidato precisa transcrever manualmente cada data para seu celular ou agenda. | Disparar geração automática de arquivo de calendário com alertas programados para 24h antes do prazo final. |
+| **4.1 Acionar exportação para agenda** | Operação de interface | O candidato precisa transcrever manualmente cada data para seu celular ou agenda. | Disparar geração automática de arquivo de calendário com alertas programados para 24h antes do prazo final. |
 | **4.2 Selecionar serviço de calendário** | Ação física | Falta de integração com ecossistemas móveis (Android e iOS). | Oferecer opções de integração em 1 clique para Google Agenda, Outlook e Apple Calendar. |
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 
 </div>
 
@@ -469,7 +469,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-03 e na Persona PER-01.</p>
 
 </div>
 
@@ -498,7 +498,7 @@ flowchart TD
 | **4.1 Submeter bateria e encerrar** | Ação física | Falta de botão formal de encerramento; o usuário apenas sai da página. | Exibir botão de destaque *"Finalizar Simulado e Ver Resultados"* com tela de confirmação. |
 | **4.2 Analisar placar consolidado** | Operação cognitiva | Ausência de métricas de aprendizado para guiar pontos fracos de estudo. | Apresentar painel com acertos, taxa de precisão por subtópico e botão *"Refazer Questões Erradas"*. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base nas estatísticas da ABRES e na Persona PER-03.</p>
 
 </div>
 
@@ -567,7 +567,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base nas estatísticas da ABRES e na Persona PER-03.</p>
 
 </div>
 
@@ -596,7 +596,7 @@ flowchart TD
 | **5.1 Atribuir a falha a si** | Operação cognitiva | Violação direta da heurística de Nielsen (1993) de visibilidade do estado do sistema e de mensagens de erro compreensíveis. | Comunicar limitações de escopo de forma explícita e imediata. |
 | **5.2 Migrar para portal externo** | Ação física | Perda de retenção de um usuário de longo prazo, que tende a converter-se em concurseiro pleno nos anos subsequentes. | Reter o usuário ofertando alternativa adjacente e cadastro de alerta para quando a cobertura de estágios for lançada. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base nas estatísticas da ABRES e na Persona PER-03.</p>
 
 </div>
 
@@ -670,7 +670,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
 </div>
 
@@ -686,7 +686,7 @@ flowchart TD
 | **1. Navegar até a seção de Videoaulas no portal** | **Plano 1:** Executar 1.1 e 1.2. | O rótulo "Aulas" compete indistintamente com outros quatorze itens no menu geral, carecendo de agrupamento semântico voltado a recursos de preparação teórica. | Agrupar as ferramentas pedagógicas (Aulas, Simulados, Provas) sob cabeçalho destacado de "Preparação e Estudos". |
 | **1.1 Localizar item 'Aulas' no menu** | Ação visual | Em visualização móvel, o menu exige rolagem vertical longa e disputa visibilidade com banners flutuantes de anúncios publicitários. | Implementar barra de atalhos rápidos fixada no rodapé da visualização mobile com ícone de reprodução de vídeo e tamanho de toque acessível (WCAG 2.1). |
 | **1.2 Carregar página do repositório** | Tarefa de sistema | A página carrega dezenas de scripts de rastreamento e múltiplos contêineres de vídeo simultaneamente, retardando o carregamento em redes móveis (4G/3G). | Aplicar carregamento postergado (*lazy loading*) em todos os iframes e contêineres de mídia externa (`RNF-DOC-04`). |
-| **2. Selecionar disciplina e assunto de estudo** | **Plano 2:** Executar 2.1 e 2.2. A operação 2.3 é pretendida pelo usuário, mas **não é suportada pelo portal**. | A seleção limita-se a clicar em uma matéria geral (ex.: Direito Constitucional); a listagem resultante é puramente cronológica e não oferece filtro temático por tópicos do edital (ex.: "Artigo 5º", "Direitos Sociais"). | Incorporar filtro temático facetado por matéria, tópico de edital, banca examinadora e professor responsável. |
+| **2. Selecionar disciplina e assunto de estudo** | **Plano 2:** Executar 2.1 e 2.2. A operação 2.3 é pretendida pelo usuário, mas **não é suportada pelo portal**. | A seleção limita-se a escolher uma matéria geral (ex.: Direito Constitucional); a listagem resultante é puramente cronológica e não oferece filtro temático por tópicos do edital (ex.: "Artigo 5º", "Direitos Sociais"). | Incorporar filtro temático facetado por matéria, tópico de edital, banca examinadora e professor responsável. |
 | **2.1 Escolher disciplina pretendida** | Ação física | A lista de matérias não informa a quantidade de aulas disponíveis nem a data da última atualização do conteúdo. | Exibir badges informativos junto ao nome da disciplina (ex.: *"Direito Constitucional - 18 aulas atualizadas em 2026"*). |
 | **2.2 Rolar listagem e escolher videoaula** | Operação cognitiva | Cards de vídeo com títulos longos truncados, miniaturas genéricas sem padronização visual e ausência de indicação do tempo de duração do vídeo. | Padronizar os cards com título completo, miniatura nítida com logo da disciplina, minutagem explícita (ex.: *"12 min"*) e nível (básico/intermediário). |
 | **2.3 Filtrar por tópico específico via busca interna** | **Operação não suportada** | Inexistência de pesquisa textual interna no acervo de aulas; o estudante é forçado a uma varredura visual exaustiva em tela de smartphone. | Implementar campo de busca textual instantânea com suporte a palavras-chave de editais (`RF-DOC-05`). |
@@ -701,7 +701,7 @@ flowchart TD
 | **5.1 Baixar resumo esquemático em PDF** | **Operação não suportada** | A indisponibilidade de materiais de apoio escritos impossibilita a revisão offline rápida em intervalos de trabalho ou viagens sem internet. | Associar a cada aula um anexo oficial para download direto com slides, esquema teórico e questões de fixação resolvidas. |
 | **5.2 Avançar para a próxima aula da trilha** | **Operação não suportada** | O estudante é forçado a fechar a página, retornar à listagem geral e buscar visualmente a sequência temática do curso. | Inserir botões sequenciais *"Aula Anterior"* e *"Próxima Aula"* com histórico persistente de aulas já concluídas. |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
 </div>
 
@@ -737,12 +737,12 @@ flowchart TD
 
     T3["3. Submeter formulário, consentir com LGPD e validar dupla confirmação<br><i>Plano 3: 3.1 depois 3.2 depois 3.3</i>"]
     T31["3.1 Marcar caixa de consentimento explícito de privacidade (LGPD)"]
-    T32["3.2 Clicar no botão 'Ativar Alertas Inteligentes'"]
-    T33["3.3 Acessar e-mail e clicar no link de confirmação segura (Double Opt-In)"]
+    T32["3.2 Confirmar envio do formulário de monitoramento"]
+    T33["3.3 Confirmar token de validação via link seguro (Double Opt-In)"]
 
     T4["4. Receber notificações customizadas sem sobrecarga de spam<br><i>Plano 4: 4.1 e 4.2</i>"]
     T41["4.1 Receber boletim com card visual limpo estruturado por UF"]
-    T42["4.2 Clicar em link direto e seguro para edital oficial"]
+    T42["4.2 Acessar edital oficial correspondente a partir do card"]
 
     T5["5. Gerenciar preferências ou suspender alertas<br><i>Plano 5: 5.1 ou 5.2</i>"]
     T51["5.1 Ajustar frequência ou pausar envios temporariamente"]
@@ -775,7 +775,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
 </div>
 
@@ -796,16 +796,16 @@ flowchart TD
 | **2.2 Segmentar alertas por região/UF** | **Operação não suportada** | Usuários residentes no Distrito Federal recebem compulsivamente vagas de conselhos municipais de regiões distantes sem qualquer relevância para seu perfil. | Tornar a seleção de estado/UF um parâmetro configurável obrigatório ou opcional na inscrição (`RF-DOC-06`). |
 | **2.3 Segmentar alertas por escolaridade ou carreira** | **Operação não suportada** | Concurseiros com nível superior em Direito/Administração recebem alertas de cargos operacionais elementares, elevando o ruído cognitivo. | Permitir a seleção múltipla de áreas profissionais desejadas para entrega de conteúdo sob medida (`RF-DOC-06`). |
 | **3. Submeter formulário e verificar confirmação** | **Plano 3:** Executar 3.1 e 3.2. | Feedback visual precário e frágil: a confirmação é exibida como uma simples linha de texto cinza, sem confirmação segura em duas etapas (*double opt-in*). | Adicionar modal comemorativo de cadastro e implementar fluxo seguro de confirmação por e-mail (*double opt-in* com link de validação). |
-| **3.1 Clicar em 'Cadastrar' / 'Receber'** | Ação física | O botão não exibe estado de carregamento (*loading spinner*), levando o usuário a múltiplos cliques na incerteza de envio. | Adicionar animação de carregamento e desabilitar o botão temporariamente após o primeiro acionamento. |
+| **3.1 Confirmar cadastro de alertas** | Operação de interface | O botão não exibe estado de carregamento (*loading spinner*), levando o usuário a múltiplos cliques na incerteza de envio. | Adicionar animação de carregamento e desabilitar o botão temporariamente após o primeiro acionamento. |
 | **3.2 Avaliar mensagem de feedback** | Operação cognitiva | O usuário não é orientado sobre a periodicidade das mensagens (diária, semanal) nem sobre quando receberá a primeira edição. | Comunicar com precisão: *"Cadastro confirmado! Você receberá nosso boletim diário às 07h da manhã com as vagas selecionadas"*. |
 | **4. Acessar caixa de entrada e validar boletim** | **Plano 4:** Executar 4.1 e 4.2. | O e-mail recebido consiste em uma listagem longa e corrida em texto quase puro, sem hierarquia visual, sem sumário de destaques e sem formatação responsiva para leitura rápida em celulares. | Desenhar template HTML moderno de e-mail com cartões estruturados (Órgão, Vagas, Salário, Prazo Final) e destaques de editais do DF no topo. |
 | **4.1 Abrir provedor de correio eletrônico** | Ação física | Risco de desvio das mensagens para a pasta de Spam ou Lixo Eletrônico devido à ausência de orientações de inclusão do remetente na lista de confiáveis. | Orientar o usuário na mensagem de confirmação: *"Adicione nosso remetente aos seus contatos para garantir a entrega"*. |
 | **4.2 Triar editais pertinentes no boletim** | Operação cognitiva | **Custo cognitivo severo de triagem:** o usuário é obrigado a ler linha a linha de uma mensagem extensa para verificar se há alguma vaga em sua cidade. | Organizar o conteúdo do boletim com seções bem demarcadas por estado e links diretos para a página de inscrição oficial. |
 | **5. Gerenciar preferências ou descadastrar** | **Plano 5:** Executar 5.1. A operação 5.2 não é suportada pelo sistema. | **Políticas de saída restritivas:** o e-mail não permite pausar envios nem ajustar a frequência (ex.: migrar de diário para semanal), oferecendo apenas o cancelamento total e definitivo. | Implementar central do assinante com opções de pausar envio por 30 dias, alternar para resumo semanal ou trocar as áreas de interesse (`RF-DOC-07`). |
-| **5.1 Clicar em link de cancelamento total** | Ação física | O link de cancelamento é apresentado em fonte minúscula (8px) no rodapé do e-mail, contrariando boas práticas de usabilidade e diretrizes de descadastramento rápido. | Disponibilizar botão claro e visível de descadastramento com um único clique (*one-click unsubscribe*, padrão RFC 8058). |
+| **5.1 Acionar link de cancelamento definitivo** | Operação de interface | O link de cancelamento é apresentado em fonte minúscula (8px) no rodapé do e-mail, contrariando boas práticas de usabilidade e diretrizes de descadastramento rápido. | Disponibilizar botão claro e visível de descadastramento com um único clique (*one-click unsubscribe*, padrão RFC 8058). |
 | **5.2 Ajustar frequência de envio** | **Operação não suportada** | Inexistência de seletor de periodicidade; concurseiros com caixas postais lotadas não conseguem receber resumos consolidados aos finais de semana. | Oferecer opção de escolha: Diário, Semanal (às sextas-feiras) ou Apenas Grandes Editais (`RF-DOC-07`). |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
 </div>
 

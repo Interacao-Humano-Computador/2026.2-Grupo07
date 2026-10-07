@@ -9,7 +9,7 @@
 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Preenchimento individual da grade de horários disponíveis. |
 | Gemini | Auxílio na formatação Markdown e revisão do texto (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
 

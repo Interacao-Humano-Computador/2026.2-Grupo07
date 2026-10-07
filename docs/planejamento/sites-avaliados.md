@@ -10,7 +10,7 @@
 | Arthur Sismene Carvalho | Avaliação Heurística individual do aplicativo CNH do Brasil e redação da seção 4. |
 | Gemini | Revisão ortográfica, gramatical e padronização da formatação Markdown (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

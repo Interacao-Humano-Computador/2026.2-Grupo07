@@ -11,7 +11,7 @@
 | Pedro Rocha Ferreira Lima | Revisão técnica e validação dos direitos do participante e anonimização de dados. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -84,7 +84,7 @@ Caso tenha dúvidas sobre a pesquisa ou deseje revogar o seu consentimento a qua
 | **Participante** | A preencher na sessão | Verbal Gravado / Escrito | __/__/2026 | [ Aceite Registrado em Vídeo ] |
 | **Aluno(a) Pesquisador(a)** | A preencher pelo(a) integrante | Registro Acadêmico | __/__/2026 | [ Assinatura do(a) Aluno(a) ] |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

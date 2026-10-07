@@ -9,7 +9,7 @@
 | Arthur Sismene Carvalho, Pedro Rocha Ferreira Lima | Preenchimento das respostas com base na reunião de inspeção e gravação do vídeo de verificação. |
 | Claude (Anthropic) | Apoio à organização e à redação do artefato (conforme Política de Uso de IA). |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -66,7 +66,7 @@ A Tabela 1 consolida a distribuição das respostas nos três blocos de itens ve
 | Elaborados pelo grupo | 3 | 1 | 2 | 0 |
 | **Total** | **26** | **16** | **9** | **1** |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -92,7 +92,7 @@ A Tabela 2 apresenta a avaliação dos 11 itens de desenvolvimento do projeto ex
 | 10 | O GitHub Pages do projeto possui tabela de contribuição no início do artefato, com o nome de todos os integrantes? | **Sim** | Os cinco artefatos do grupo abrem com a Tabela 1 – Contribuição, identificando integrantes e respectivas atividades. |
 | 11 | O GitHub Pages do projeto possui a seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa no artefato? | **Não** | Não foi localizada seção de agradecimentos nem qualquer menção ao uso de IA generativa nos artefatos da Entrega 2 ou na página de apresentações. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -119,7 +119,7 @@ A Tabela 3 apresenta os 12 itens de conteúdo da disciplina verificados na Entre
 | 11 | O projeto apresenta uma atividade para cada integrante modelada em ao menos duas técnicas (HTA com diagrama, legenda e tabela; GOMS/KLM/CMN-GOMS/CPM-GOMS/CTT)? Incluindo referência bibliográfica e foto do texto da referência. | **Sim** | A Tabela 2 do artefato de análise de tarefas registra uma atividade para cada um dos cinco integrantes, cada qual modelada em HTA e CTT. Os diagramas estão nas páginas das entregas individuais, que ficaram fora do escopo desta inspeção. | Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima |
 | 12 | O grupo utilizou alguma técnica para especificar as tarefas? | **Sim** | Foram utilizadas a Análise Hierárquica de Tarefas (HTA) e as Árvores de Tarefas Concorrentes (CTT). | — |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -146,7 +146,7 @@ Esta seção reúne os itens adicionais de verificação definidos pelo Grupo 07
 | **Autor** | Pedro Rocha Ferreira Lima |
 | **Fonte** | BARBOSA et al. (2021), Cap. 7, Subseção 7.5.1 (Entrevistas), p. 158. |
 
-<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -169,7 +169,7 @@ Esta seção reúne os itens adicionais de verificação definidos pelo Grupo 07
 | **Autor** | Arthur Sismene Carvalho |
 | **Fonte** | BARBOSA et al. (2021), Cap. 7, Seção 7.4 (Aspectos Éticos de Pesquisas Envolvendo Pessoas), p. 151. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
 
@@ -192,7 +192,7 @@ Esta seção reúne os itens adicionais de verificação definidos pelo Grupo 07
 | **Autor** | Daniel da Silva Batista |
 | **Fonte** | BARBOSA et al. (2021), Cap. 8, Seção 8.3 (Cenários), p. 184. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

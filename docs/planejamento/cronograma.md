@@ -10,7 +10,7 @@
 | Pedro Rocha Ferreira Lima | Revisão da expansão do cronograma das Etapas 2 a 8. |
 | Gemini | Auxílio na formatação de tabelas em Markdown e estruturação de períodos (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -41,7 +41,7 @@ Na Tabela 1, tem-se o cronograma planejado na reunião inicial para as atividade
 | Gravar apresentação | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
 | Correção pós apresentação | Início: 08/09<br>Fim: 08/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 08/09<br>Fim: 09/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
 
-<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -66,7 +66,7 @@ Na Tabela 2, tem-se o registro do cronograma real de execução do projeto, docu
 | Gravar apresentação | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 | Correção pós apresentação | Início: 08/09<br>Fim: 08/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 08/09<br>Fim: 09/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -92,7 +92,7 @@ Na Tabela 3, tem-se o cronograma planejado para as atividades da segunda entrega
 | Gravar apresentação da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
 | Correção pós-apresentação | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -124,7 +124,7 @@ Na Tabela 4, tem-se o registro do cronograma real de execução das atividades d
 | Reunião de Alinhamento e Ata da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Todos os integrantes | Início: 27/09<br>Fim: 27/09 | Todos os integrantes |
 | Gravação da Apresentação da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Todos os integrantes | Início: 27/09<br>Fim: 27/09 | Todos os integrantes |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -145,7 +145,7 @@ Na Tabela 5, tem-se o cronograma planejado para as atividades da terceira entreg
 | Gravar apresentação da Etapa 3 | Início: 05/10<br>Fim: 06/10 | A definir | Início: 06/10<br>Fim: 06/10 | A definir |
 | Correção pós-apresentação | Início: 06/10<br>Fim: 06/10 | A definir | Início: 06/10<br>Fim: 06/10 | A definir |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -166,7 +166,7 @@ Na Tabela 6, tem-se o cronograma planejado para as atividades da quarta entrega.
 | Gravar apresentação da Etapa 4 | Início: 12/10<br>Fim: 13/10 | A definir | Início: 13/10<br>Fim: 13/10 | A definir |
 | Correção pós-apresentação | Início: 13/10<br>Fim: 13/10 | A definir | Início: 13/10<br>Fim: 13/10 | A definir |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -187,7 +187,7 @@ Na Tabela 7, tem-se o cronograma planejado para as atividades da quinta entrega.
 | Gravar apresentação da Etapa 5 | Início: 24/10<br>Fim: 25/10 | A definir | Início: 25/10<br>Fim: 25/10 | A definir |
 | Correção pós-apresentação | Início: 25/10<br>Fim: 25/10 | A definir | Início: 25/10<br>Fim: 25/10 | A definir |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -207,7 +207,7 @@ Na Tabela 8, tem-se o cronograma planejado para as atividades da sexta entrega.
 | Gravar apresentação da Etapa 6 | Início: 02/11<br>Fim: 03/11 | A definir | Início: 03/11<br>Fim: 03/11 | A definir |
 | Correção pós-apresentação | Início: 03/11<br>Fim: 03/11 | A definir | Início: 03/11<br>Fim: 03/11 | A definir |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -227,7 +227,7 @@ Na Tabela 9, tem-se o cronograma planejado para as atividades da sétima entrega
 | Gravar apresentação da Etapa 7 | Início: 14/11<br>Fim: 15/11 | A definir | Início: 15/11<br>Fim: 15/11 | A definir |
 | Correção pós-apresentação | Início: 15/11<br>Fim: 15/11 | A definir | Início: 15/11<br>Fim: 15/11 | A definir |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -247,7 +247,7 @@ Na Tabela 10, tem-se o cronograma planejado para as atividades da oitava entrega
 | Gravar apresentação da Etapa 8 | Início: 21/11<br>Fim: 22/11 | A definir | Início: 22/11<br>Fim: 22/11 | A definir |
 | Correção pós-apresentação | Início: 22/11<br>Fim: 22/11 | A definir | Início: 22/11<br>Fim: 22/11 | A definir |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -266,7 +266,7 @@ Na Tabela 11, tem-se o cronograma planejado para as atividades da entrega final 
 | Gravar apresentação do Projeto Final | Início: 29/11<br>Fim: 30/11 | A definir | Início: 30/11<br>Fim: 30/11 | A definir |
 | Correção pós-apresentação | Início: 30/11<br>Fim: 30/11 | A definir | Início: 30/11<br>Fim: 30/11 | A definir |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

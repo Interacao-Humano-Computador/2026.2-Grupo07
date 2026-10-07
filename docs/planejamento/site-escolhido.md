@@ -10,7 +10,7 @@
 | Pedro Rocha Ferreira Lima | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
 | Gemini | Auxílio na formatação de listas em Markdown e revisão gramatical (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
