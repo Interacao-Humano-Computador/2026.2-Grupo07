@@ -1,0 +1,2039 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto da disciplina de Interação Humano-Computador (FGA-UnB) - Análise e Reprojeto do PCI Concursos">
+      
+      
+        <meta name="author" content="Equipe Grupo 07 - IHC">
+      
+      
+        <link rel="canonical" href="https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/design-avaliacao-desenvolvimento/caracteristicas-da-plataforma/">
+      
+      
+        <link rel="prev" href="../../analise-de-requisitos/analise-de-tarefas/ctt/">
+      
+      
+        <link rel="next" href="../../analise-de-requisitos/principios-gerais-de-projeto/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>Características da Plataforma - IHC - PCI Concursos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#caracteristicas-da-plataforma" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="IHC - PCI Concursos" class="md-header__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC - PCI Concursos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Características da Plataforma
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Escuro (Alto Contraste)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Escuro (Alto Contraste)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../apresentacao/apresentacao-1/" class="md-tabs__link">
+        
+  
+    
+  
+  Apresentação
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../apresentacao/grupo-06/" class="md-tabs__link">
+          
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/membros/" class="md-tabs__link">
+          
+  
+  Planejamento (Etapa 1)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../analise-de-requisitos/aspectos-eticos/" class="md-tabs__link">
+          
+  
+  Análise de Requisitos (Etapa 2)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Design, Avaliação e Desenvolvimento (Etapa 3)
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IHC - PCI Concursos" class="md-nav__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    IHC - PCI Concursos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacao/apresentacao-1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Verificação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacao/grupo-06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grupo 06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacao/grupo-08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grupo 08
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Planejamento (Etapa 1)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento (Etapa 1)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/membros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Equipe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/planejamento-do-projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap de Disponibilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Processo de Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sites Avaliados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/site-escolhido/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Site Selecionado
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ata-reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atas de Reunião
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise de Requisitos (Etapa 2)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Análise de Requisitos (Etapa 2)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/aspectos-eticos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aspectos Éticos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/perfil-de-usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perfil do Usuário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise de Tarefas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Análise de Tarefas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/analise-de-tarefas/hta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HTA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/analise-de-tarefas/ctt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Design, Avaliação e Desenvolvimento (Etapa 3)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Design, Avaliação e Desenvolvimento (Etapa 3)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Características da Plataforma
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Características da Plataforma
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Fundamentação Teórica
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Fundamentação Teórica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-plataforma-como-escopo-de-um-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Plataforma como escopo de um guia de estilo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-elementos-de-design-condicionados-pela-plataforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Elementos de design condicionados pela plataforma
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-a-tecnologia-disponivel-como-atributo-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 A tecnologia disponível como atributo do usuário
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-caracterizacao-tecnica-do-pci-concursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Caracterização Técnica do PCI Concursos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Caracterização Técnica do PCI Concursos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-natureza-da-plataforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Natureza da plataforma
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-modelo-de-entrega-de-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Modelo de entrega de conteúdo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-navegadores-homologados" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Navegadores Homologados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-resolucoes-e-pontos-de-quebra" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Resoluções e Pontos de Quebra
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-limitacoes-tecnicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Limitações Técnicas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Limitações Técnicas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-publicidade-e-orcamento-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 Publicidade e orçamento de desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-consumo-de-documentos-em-dispositivos-moveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2 Consumo de documentos em dispositivos móveis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-rede-e-hardware-do-publico" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.3 Rede e hardware do público
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-comportamento-especificado-da-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Comportamento Especificado da Interface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-sintese-das-caracteristicas-da-plataforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Síntese das Características da Plataforma
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Agradecimentos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Bibliografia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-requisitos/principios-gerais-de-projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Princípios Gerais de Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia-de-estilo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de Estilo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../metas-de-usabilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metas de Usabilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Fundamentação Teórica
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Fundamentação Teórica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-plataforma-como-escopo-de-um-guia-de-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Plataforma como escopo de um guia de estilo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-elementos-de-design-condicionados-pela-plataforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Elementos de design condicionados pela plataforma
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-a-tecnologia-disponivel-como-atributo-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 A tecnologia disponível como atributo do usuário
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-caracterizacao-tecnica-do-pci-concursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Caracterização Técnica do PCI Concursos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Caracterização Técnica do PCI Concursos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-natureza-da-plataforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Natureza da plataforma
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-modelo-de-entrega-de-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Modelo de entrega de conteúdo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-navegadores-homologados" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Navegadores Homologados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-resolucoes-e-pontos-de-quebra" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Resoluções e Pontos de Quebra
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-limitacoes-tecnicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Limitações Técnicas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Limitações Técnicas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-publicidade-e-orcamento-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 Publicidade e orçamento de desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-consumo-de-documentos-em-dispositivos-moveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2 Consumo de documentos em dispositivos móveis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-rede-e-hardware-do-publico" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.3 Rede e hardware do público
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-comportamento-especificado-da-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Comportamento Especificado da Interface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-sintese-das-caracteristicas-da-plataforma" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Síntese das Características da Plataforma
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Agradecimentos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Bibliografia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<div align="center">
+<p align="center"><b>Tabela de Contribuição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Membro</th>
+<th style="text-align: left;">Contribuição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+<td style="text-align: left;">Concepção do artefato, fundamentação teórica com recortes bibliográficos (Figuras 1 e 2), caracterização técnica do PCI Concursos, homologação de navegadores, definição das resoluções e dos pontos de quebra, levantamento das limitações técnicas e especificação do comportamento da interface.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">Revisão técnica.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">Revisão de coerência com o Guia de Estilo.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Claude (Anthropic)</td>
+<td style="text-align: left;">Auxílio na estruturação textual, e diagramação em Markdown (conforme Política de Uso de IA).</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<h1 id="caracteristicas-da-plataforma">Características da Plataforma</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>Este artefato especifica a <strong>plataforma técnica</strong> sobre a qual o PCI Concursos é executado e para a qual o reprojeto do grupo deve ser dimensionado. Ele responde a quatro perguntas: que tecnologias sustentam o portal, em quais navegadores a solução será homologada, que resoluções de tela precisam ser atendidas e que limitações técnicas condicionam as decisões de design.</p>
+<p>A delimitação da plataforma não é um detalhe de implementação. Ela antecede e restringe boa parte das decisões registradas no <a href="../guia-de-estilo/">Guia de Estilo</a>: a largura disponível determina o grid, a densidade de pixels determina a escala tipográfica, e a capacidade de processamento e a qualidade da rede determinam quanto peso a interface pode carregar antes de se tornar inutilizável para o seu público.</p>
+<hr />
+<h2 id="2-fundamentacao-teorica">2. Fundamentação Teórica</h2>
+<h3 id="21-plataforma-como-escopo-de-um-guia-de-estilo">2.1 Plataforma como escopo de um guia de estilo</h3>
+<p>Barbosa et al. (2021), com base em Mayhew (1999), registram que um guia de estilo pode ser elaborado com diferentes escopos, e o primeiro deles é justamente o da plataforma, entendida como a <strong>composição entre dispositivo e sistema operacional</strong>. É esse escopo que este artefato delimita para o PCI Concursos. A Figura 1 reproduz o trecho da literatura (Seção 10.5, p. 281) que fundamenta essa definição.</p>
+<div align="center">
+
+<p align="center"><b>Figura 1: Referência Bibliográfica — Guias de Estilo, Escopos Possíveis e Elementos de Design</b></p>
+
+<img src="../../assets/images/barbosa-guia-estilo-escopo-plataforma-p281.png" alt="Seção 10.5 de Barbosa et al. (2021), com a definição de guia de estilo, os escopos em que pode ser elaborado — entre eles o de plataforma, como composição de dispositivo e sistema operacional — e os elementos de design de interface considerados por Marcus (1991)" style="max-width: 80%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 281).</p>
+
+</div>
+
+<p>A consequência prática é que "plataforma" não se reduz ao navegador. Ela abrange o par dispositivo + sistema operacional, e um mesmo navegador se comporta de modo distinto conforme esse par — o Safari em iOS, por exemplo, impõe restrições de reprodução de mídia e de gestão de memória que o Safari em macOS não impõe.</p>
+<h3 id="22-elementos-de-design-condicionados-pela-plataforma">2.2 Elementos de design condicionados pela plataforma</h3>
+<p>Ainda na Figura 1, Marcus (1991) enumera os elementos de design de interface que um guia de estilo deve endereçar: layout, tipografia, simbolismo, cores, visualização de informação e design de telas e <em>widgets</em>. Todos eles são sensíveis à plataforma — o <em>layout</em> depende da largura útil, a <em>tipografia</em> depende da densidade de pixels, as <em>cores</em> dependem da calibração e do modo de exibição do dispositivo, e a <em>visualização de informação</em> depende da área disponível para gráficos e tabelas.</p>
+<p>É por isso que este artefato precede o guia de estilo na ordem lógica do projeto: sem fixar a plataforma, cada um desses seis elementos ficaria sem parâmetro para ser especificado.</p>
+<h3 id="23-a-tecnologia-disponivel-como-atributo-do-usuario">2.3 A tecnologia disponível como atributo do usuário</h3>
+<p>A especificação da plataforma não decorre apenas do que o sistema oferece, mas também do que o usuário possui. Entre os atributos de um perfil de usuário, Barbosa et al. (2021) listam a <strong>tecnologia disponível</strong>, que abrange o hardware a que o usuário tem acesso — incluindo explicitamente o tamanho e a resolução da tela e a velocidade de processamento —, além do software e das demais ferramentas. A Figura 2 reproduz o trecho da literatura (Seção 7.2, p. 147) que estabelece esse atributo.</p>
+<div align="center">
+
+<p align="center"><b>Figura 2: Referência Bibliográfica — Tipos de Dados Coletados sobre o Usuário e Tecnologia Disponível</b></p>
+
+<img src="../../assets/images/barbosa-perfil-tecnologia-disponivel-p147.png" alt="Seção 7.2 de Barbosa et al. (2021), com os tipos de dados a coletar sobre o usuário, entre eles a tecnologia disponível, que abrange hardware, tamanho e resolução da tela, velocidade de processamento, software e demais ferramentas a que o usuário tem acesso" style="max-width: 80%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 147).</p>
+
+</div>
+
+<p>É esse atributo que liga este artefato ao <a href="../../analise-de-requisitos/perfil-de-usuario/">Perfil de Usuário</a> do grupo, no qual se registrou que <strong>62% do público acessa predominantemente por smartphone</strong>. A plataforma do PCI Concursos é, portanto, majoritariamente móvel, ainda que o portal tenha sido historicamente concebido para o desktop.</p>
+<hr />
+<h2 id="3-caracterizacao-tecnica-do-pci-concursos">3. Caracterização Técnica do PCI Concursos</h2>
+<h3 id="31-natureza-da-plataforma">3.1 Natureza da plataforma</h3>
+<p>O PCI Concursos é uma <strong>aplicação web de acesso público</strong>, servida por HTTPS e consumida diretamente pelo navegador, sem instalação de aplicativo nativo obrigatória. A Tabela 1 reúne os indícios técnicos observados na inspeção do portal e o modo como cada um foi constatado.</p>
+<div align="center">
+<p align="center"><b>Tabela 1: Indícios Técnicos Observados no PCI Concursos</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Indício</th>
+<th style="text-align: left;">Observação</th>
+<th style="text-align: left;">Como foi constatado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Intenção de responsividade</td>
+<td style="text-align: left;">Presença da meta tag <code>viewport</code> com <code>width=device-width</code></td>
+<td style="text-align: left;">Inspeção do documento HTML da página inicial</td>
+</tr>
+<tr>
+<td style="text-align: left;">Comportamento tipo aplicativo em iOS</td>
+<td style="text-align: left;">Presença de <code>apple-mobile-web-app-capable: yes</code></td>
+<td style="text-align: left;">Inspeção do documento HTML da página inicial</td>
+</tr>
+<tr>
+<td style="text-align: left;">Entrega de mídia por CDN</td>
+<td style="text-align: left;">Imagens servidas a partir do domínio <code>cdn.pci.app.br</code></td>
+<td style="text-align: left;">Inspeção dos endereços de recurso da página inicial</td>
+</tr>
+<tr>
+<td style="text-align: left;">Autenticação federada</td>
+<td style="text-align: left;">Opção "Entrar com Google" no topo da página</td>
+<td style="text-align: left;">Elemento visível na página inicial</td>
+</tr>
+<tr>
+<td style="text-align: left;">Volume de acervo</td>
+<td style="text-align: left;">Indicação de 268.500 provas disponíveis para download</td>
+<td style="text-align: left;">Texto da página inicial</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ausência de domínio móvel separado</td>
+<td style="text-align: left;">Não há subdomínio <code>m.</code> nem caminho <code>/mobile</code></td>
+<td style="text-align: left;">Inspeção dos endereços de navegação</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026), a partir de inspeção do portal em 06/10/2026.</p>
+</div>
+<p>Duas leituras decorrem da tabela. A primeira é que <strong>não existe versão móvel separada</strong>: o mesmo documento é servido a todos os dispositivos, e a adaptação, quando ocorre, é feita no cliente. A segunda é que a presença da meta tag <code>viewport</code> indica <em>intenção</em> de responsividade, o que não equivale a uma adaptação efetiva de layout — a verificação do comportamento real em cada ponto de quebra é objeto da Seção 5.</p>
+<h3 id="32-modelo-de-entrega-de-conteudo">3.2 Modelo de entrega de conteúdo</h3>
+<p>O portal combina dois modos de entrega com exigências técnicas distintas:</p>
+<ol>
+<li><strong>Conteúdo navegável em HTML</strong> — listagens de concursos, notícias, páginas de detalhe de edital e simulados. É o conteúdo sobre o qual o guia de estilo tem controle direto.</li>
+<li><strong>Documentos para download</strong> — editais, retificações e provas anteriores. Esse conteúdo é produzido por bancas e órgãos externos, e o portal atua como repositório. O grupo não controla sua formatação interna, apenas o fluxo de acesso a ele.</li>
+</ol>
+<p>A distinção importa porque as decisões de design do reprojeto só alcançam o primeiro grupo. Para o segundo, o que se pode especificar é o <strong>comportamento do fluxo de obtenção</strong> — rotulagem, indicação de tamanho e formato, e tratamento do arquivo em telas pequenas.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota de verificação</p>
+<p>O formato exato em que as provas e os editais são servidos não pôde ser confirmado por inspeção remota das páginas de listagem. A especificação da Seção 6.2 trata o consumo de PDF como caso de uso crítico por ser o formato usual no domínio de concursos públicos; a confirmação em campo deve ser registrada na próxima versão deste artefato.</p>
+</div>
+<hr />
+<h2 id="4-navegadores-homologados">4. Navegadores Homologados</h2>
+<p>A homologação adota o critério de <strong>cobrir os três motores de renderização em uso relevante</strong> — Blink, Gecko e WebKit —, de modo que uma incompatibilidade específica de motor seja detectada antes da publicação. A Tabela 2 apresenta os navegadores homologados.</p>
+<div align="center">
+<p align="center"><b>Tabela 2: Navegadores Homologados e Política de Versões</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Navegador</th>
+<th style="text-align: center;">Motor</th>
+<th style="text-align: left;">Plataforma</th>
+<th style="text-align: left;">Versões cobertas</th>
+<th style="text-align: center;">Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Google Chrome</td>
+<td style="text-align: center;">Blink</td>
+<td style="text-align: left;">Android, Windows, macOS</td>
+<td style="text-align: left;">Duas últimas versões estáveis</td>
+<td style="text-align: center;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;">Microsoft Edge</td>
+<td style="text-align: center;">Blink</td>
+<td style="text-align: left;">Windows</td>
+<td style="text-align: left;">Duas últimas versões estáveis</td>
+<td style="text-align: center;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;">Mozilla Firefox</td>
+<td style="text-align: center;">Gecko</td>
+<td style="text-align: left;">Windows, Android</td>
+<td style="text-align: left;">Duas últimas versões estáveis</td>
+<td style="text-align: center;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;">Safari</td>
+<td style="text-align: center;">WebKit</td>
+<td style="text-align: left;">iOS, iPadOS, macOS</td>
+<td style="text-align: left;">Duas últimas versões estáveis</td>
+<td style="text-align: center;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<p>Três decisões sustentam a tabela:</p>
+<ul>
+<li><strong>Chrome e Safari recebem prioridade alta</strong> porque concentram o acesso móvel, que é o acesso majoritário do público segundo o perfil de usuário do grupo.</li>
+<li><strong>A política é de duas últimas versões estáveis</strong>, e não de números fixos de versão, para que o artefato não envelheça a cada ciclo de lançamento dos navegadores.</li>
+<li><strong>Não há homologação de Internet Explorer.</strong> O navegador está descontinuado, e suportá-lo exigiria renunciar a recursos de layout — notadamente <em>grid</em> e <em>flexbox</em> — dos quais o guia de estilo depende.</li>
+</ul>
+<p>Fora da homologação, aplica-se <strong>degradação graciosa</strong>: o conteúdo permanece legível e navegável, ainda que sem os refinamentos visuais especificados no guia de estilo.</p>
+<hr />
+<h2 id="5-resolucoes-e-pontos-de-quebra">5. Resoluções e Pontos de Quebra</h2>
+<p>A especificação adota uma abordagem <em>mobile first</em>, coerente com o predomínio do acesso por smartphone registrado no perfil de usuário. A Tabela 3 define as faixas de largura atendidas.</p>
+<div align="center">
+<p align="center"><b>Tabela 3: Pontos de Quebra e Resoluções de Referência</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Faixa</th>
+<th style="text-align: center;">Largura</th>
+<th style="text-align: center;">Resolução de referência</th>
+<th style="text-align: center;">Colunas do grid</th>
+<th style="text-align: left;">Uso predominante</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Móvel compacto</td>
+<td style="text-align: center;">320 px a 479 px</td>
+<td style="text-align: center;">360 × 640</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Smartphones de entrada</td>
+</tr>
+<tr>
+<td style="text-align: left;">Móvel padrão</td>
+<td style="text-align: center;">480 px a 767 px</td>
+<td style="text-align: center;">414 × 896</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Smartphones correntes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Tablet</td>
+<td style="text-align: center;">768 px a 1023 px</td>
+<td style="text-align: center;">768 × 1024</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">Tablets e celulares na horizontal</td>
+</tr>
+<tr>
+<td style="text-align: left;">Desktop padrão</td>
+<td style="text-align: center;">1024 px a 1439 px</td>
+<td style="text-align: center;">1366 × 768</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">Notebooks de entrada</td>
+</tr>
+<tr>
+<td style="text-align: left;">Desktop largo</td>
+<td style="text-align: center;">1440 px ou mais</td>
+<td style="text-align: center;">1920 × 1080</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">Monitores externos</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<p>Quatro regras decorrem da tabela:</p>
+<ul>
+<li><strong>A largura mínima suportada é 320 px.</strong> Abaixo disso não se garante ausência de rolagem horizontal.</li>
+<li><strong>A resolução de projeto para desktop é 1366 × 768.</strong> É a referência de desenho para notebooks de entrada, que compõem o segundo dispositivo mais citado no perfil de usuário; larguras maiores recebem o mesmo grid com margens laterais ampliadas.</li>
+<li><strong>O conteúdo tem largura máxima de leitura.</strong> Acima de 1440 px, a coluna principal de texto não acompanha a largura da janela, para preservar o comprimento de linha confortável definido no guia de estilo.</li>
+<li><strong>A orientação paisagem em smartphones é tratada pela faixa de tablet</strong>, e não por uma faixa própria, evitando a multiplicação de pontos de quebra.</li>
+</ul>
+<hr />
+<h2 id="6-limitacoes-tecnicas">6. Limitações Técnicas</h2>
+<h3 id="61-publicidade-e-orcamento-de-desempenho">6.1 Publicidade e orçamento de desempenho</h3>
+<p>A análise de <a href="../../analise-de-requisitos/principios-gerais-de-projeto/">Princípios Gerais de Projeto</a> do grupo registrou que o portal apresenta "severa sobrecarga informativa", com "volume desproporcional de blocos promocionais em banners piscantes", e que anúncios exibem "grandes botões gráficos retangulares em tons verdes chamativos" enquanto os links legítimos aparecem como "textos sublinhados azuis simples em fontes de tamanho reduzido".</p>
+<p>Essa constatação tem duas consequências técnicas, e não apenas estéticas:</p>
+<ol>
+<li><strong>Custo de carregamento.</strong> Blocos publicitários são carregados por scripts de terceiros, fora do controle do portal, e competem por banda e por tempo de processamento com o conteúdo útil. Em conexões móveis instáveis, são eles que determinam o tempo até a primeira interação possível.</li>
+<li><strong>Deslocamento de layout.</strong> Anúncios que chegam depois do conteúdo empurram elementos já renderizados, provocando cliques acidentais — risco agravado em telas pequenas, onde a área de toque é reduzida.</li>
+</ol>
+<p>A Tabela 4 fixa o orçamento de desempenho que decorre dessas consequências.</p>
+<div align="center">
+<p align="center"><b>Tabela 4: Orçamento de Desempenho Especificado para o Reprojeto</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Métrica</th>
+<th style="text-align: left;">Limite especificado</th>
+<th style="text-align: left;">Justificativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Peso total da página de listagem</td>
+<td style="text-align: left;">1,5 MB</td>
+<td style="text-align: left;">Viabiliza o carregamento em conexão móvel limitada</td>
+</tr>
+<tr>
+<td style="text-align: left;">Peso de scripts de terceiros</td>
+<td style="text-align: left;">30% do peso total</td>
+<td style="text-align: left;">Impede que a publicidade domine o orçamento</td>
+</tr>
+<tr>
+<td style="text-align: left;">Deslocamento cumulativo de layout</td>
+<td style="text-align: left;">Próximo de zero após a primeira renderização</td>
+<td style="text-align: left;">Espaço dos anúncios reservado antes do carregamento</td>
+</tr>
+<tr>
+<td style="text-align: left;">Interface utilizável sem JavaScript de terceiros</td>
+<td style="text-align: left;">Obrigatória</td>
+<td style="text-align: left;">A falha de um script externo não pode bloquear a consulta</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<p>A quarta linha é a mais restritiva e a mais importante: <strong>a consulta a concursos deve funcionar mesmo que todo o conteúdo de terceiros falhe</strong>. Para um candidato verificando um prazo de inscrição em uma conexão ruim, essa é a diferença entre o portal servir ou não.</p>
+<h3 id="62-consumo-de-documentos-em-dispositivos-moveis">6.2 Consumo de documentos em dispositivos móveis</h3>
+<p>Editais e provas anteriores são documentos longos, paginados e diagramados para o papel. Em telas estreitas, isso produz três problemas conhecidos: texto reduzido a tamanho ilegível quando a página inteira cabe na tela, necessidade de ampliação com rolagem nos dois eixos, e consumo de dados elevado em arquivos extensos.</p>
+<p>A especificação para o reprojeto é:</p>
+<ul>
+<li><strong>Informar antes de baixar.</strong> O formato e o tamanho do arquivo devem aparecer no próprio link, para que o usuário decida com conhecimento do custo em dados.</li>
+<li><strong>Não depender de visualizador embutido.</strong> A abertura deve ser delegada ao leitor nativo do sistema operacional, que oferece controles de ampliação e refluxo de texto melhores que os de um visualizador improvisado em página.</li>
+<li><strong>Preservar o contexto.</strong> A abertura do documento não pode descartar a consulta em andamento, para que o retorno à listagem não exija refazer os filtros.</li>
+</ul>
+<h3 id="63-rede-e-hardware-do-publico">6.3 Rede e hardware do público</h3>
+<p>O perfil de usuário do grupo descreve um público que acessa predominantemente por smartphone e que inclui candidatos com menor letramento digital e usuários maduros com necessidades de acessibilidade visual. Combinados, esses dois fatos impõem restrições que a plataforma precisa absorver:</p>
+<ul>
+<li><strong>Não se pode pressupor conexão estável.</strong> Operações críticas, como a consulta a um prazo, devem ser resilientes a falhas parciais de carregamento.</li>
+<li><strong>Não se pode pressupor hardware recente.</strong> Animações e efeitos que exijam processamento gráfico intenso ficam restritos a enfeites dispensáveis, nunca a elementos funcionais.</li>
+<li><strong>Não se pode pressupor franquia de dados abundante.</strong> O peso de cada tela é uma decisão de design, não um resíduo da implementação.</li>
+</ul>
+<hr />
+<h2 id="7-comportamento-especificado-da-interface">7. Comportamento Especificado da Interface</h2>
+<p>Esta seção traduz as restrições anteriores em comportamento observável, e é o núcleo da apresentação deste artefato: <strong>como a interface precisa se comportar no computador e no celular</strong>. A Tabela 5 detalha esse comportamento por faixa de dispositivo.</p>
+<div align="center">
+<p align="center"><b>Tabela 5: Comportamento Especificado por Faixa de Dispositivo</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Elemento</th>
+<th style="text-align: left;">Desktop (1024 px ou mais)</th>
+<th style="text-align: left;">Celular (até 767 px)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Navegação principal</td>
+<td style="text-align: left;">Barra horizontal com itens visíveis</td>
+<td style="text-align: left;">Menu recolhido, acionado por botão com rótulo textual</td>
+</tr>
+<tr>
+<td style="text-align: left;">Filtros de busca</td>
+<td style="text-align: left;">Painel lateral persistente, sempre visível</td>
+<td style="text-align: left;">Painel em camada sobreposta, acionado sob demanda, com filtros ativos resumidos em chips</td>
+</tr>
+<tr>
+<td style="text-align: left;">Listagem de concursos</td>
+<td style="text-align: left;">Tabela com colunas de órgão, vagas, prazo e taxa</td>
+<td style="text-align: left;">Cartões empilhados, com prazo e taxa em destaque no topo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Alvos de toque</td>
+<td style="text-align: left;">Mínimo de 24 px</td>
+<td style="text-align: left;">Mínimo de 44 px, respeitando a precisão do dedo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Documentos</td>
+<td style="text-align: left;">Abertura em nova aba</td>
+<td style="text-align: left;">Delegação ao leitor nativo, com formato e tamanho informados antes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Publicidade</td>
+<td style="text-align: left;">Espaço reservado em coluna lateral</td>
+<td style="text-align: left;">Espaço reservado entre blocos de conteúdo, nunca sobreposto a alvos de toque</td>
+</tr>
+<tr>
+<td style="text-align: left;">Tabelas longas</td>
+<td style="text-align: left;">Exibição integral</td>
+<td style="text-align: left;">Rolagem horizontal contida, com a primeira coluna fixa</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<p>O princípio que atravessa a tabela é a <strong>paridade funcional sem paridade de layout</strong>: nenhuma funcionalidade disponível no desktop pode estar ausente no celular, mas a forma de apresentá-la muda conforme a largura e o modo de apontamento. O caminho inverso — reduzir o celular a um desktop encolhido — é o que produz a maior parte dos problemas identificados na análise de requisitos do grupo.</p>
+<hr />
+<h2 id="8-sintese-das-caracteristicas-da-plataforma">8. Síntese das Características da Plataforma</h2>
+<p>A Tabela 6 consolida as especificações definidas neste artefato.</p>
+<div align="center">
+<p align="center"><b>Tabela 6: Síntese das Características da Plataforma</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Dimensão</th>
+<th style="text-align: left;">Especificação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Tipo de plataforma</td>
+<td style="text-align: left;">Aplicação web pública, sem instalação obrigatória</td>
+</tr>
+<tr>
+<td style="text-align: left;">Escopo do guia de estilo</td>
+<td style="text-align: left;">Plataforma, no sentido de composição dispositivo + sistema operacional (Mayhew, 1999)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sistemas operacionais</td>
+<td style="text-align: left;">Android, iOS, iPadOS, Windows, macOS</td>
+</tr>
+<tr>
+<td style="text-align: left;">Navegadores homologados</td>
+<td style="text-align: left;">Chrome, Edge, Firefox e Safari, duas últimas versões estáveis</td>
+</tr>
+<tr>
+<td style="text-align: left;">Largura mínima suportada</td>
+<td style="text-align: left;">320 px</td>
+</tr>
+<tr>
+<td style="text-align: left;">Resolução de projeto</td>
+<td style="text-align: left;">360 × 640 no celular; 1366 × 768 no desktop</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pontos de quebra</td>
+<td style="text-align: left;">480 px, 768 px, 1024 px e 1440 px</td>
+</tr>
+<tr>
+<td style="text-align: left;">Abordagem de layout</td>
+<td style="text-align: left;"><em>Mobile first</em>, com paridade funcional entre faixas</td>
+</tr>
+<tr>
+<td style="text-align: left;">Orçamento de página</td>
+<td style="text-align: left;">1,5 MB na listagem, com no máximo 30% em conteúdo de terceiros</td>
+</tr>
+<tr>
+<td style="text-align: left;">Requisito de resiliência</td>
+<td style="text-align: left;">Consulta funcional sem o JavaScript de terceiros</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<hr />
+<h2 id="9-agradecimentos">9. Agradecimentos</h2>
+<p>A equipe agradece o apoio da ferramenta de inteligência artificial generativa <strong>Claude (Anthropic)</strong> na estruturação textual, extração dos recortes bibliográficos e formatação em Markdown deste artefato, em estrita conformidade com a Política de Uso de IA da disciplina. A fundamentação teórica, a inspeção técnica do portal, as decisões de especificação da plataforma e a revisão técnica foram conduzidas e validadas integralmente pelo autor responsável e pelos revisores.</p>
+<hr />
+<h2 id="10-bibliografia">10. Bibliografia</h2>
+<blockquote>
+<p>[1] BARBOSA, Simone D. J. et al. <em>Interação Humano-Computador e Experiência do Usuário</em>. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.<br />
+[2] MARCUS, Aaron. <em>Graphic Design for Electronic Documents and User Interfaces</em>. New York: ACM Press, 1991.<br />
+[3] MAYHEW, Deborah J. <em>The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design</em>. San Francisco: Morgan Kaufmann, 1999.<br />
+[4] PCI CONCURSOS. <em>Portal PCI Concursos</em>. Disponível em: <a href="https://www.pciconcursos.com.br/">https://www.pciconcursos.com.br/</a>. Acesso em: 6 out. 2026.</p>
+</blockquote>
+<hr />
+<h2 id="11-historico-de-versoes">11. Histórico de Versões</h2>
+<div align="center">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor(es)</th>
+<th style="text-align: center;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">06/10/2026</td>
+<td style="text-align: left;">Criação do artefato: fundamentação teórica com recortes bibliográficos (Figuras 1 e 2), caracterização técnica do portal, homologação de navegadores, pontos de quebra, limitações técnicas e comportamento especificado da interface (Item 10).</td>
+<td style="text-align: center;">Arthur Sismene Carvalho</td>
+<td style="text-align: center;">Pedro Rocha Ferreira Lima</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+    
+  </body>
+</html>
