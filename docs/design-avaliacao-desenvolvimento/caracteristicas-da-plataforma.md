@@ -266,13 +266,7 @@ A Tabela 6 consolida as especificações definidas neste artefato.
 
 ---
 
-## 9. Agradecimentos
-
-A equipe agradece o apoio da ferramenta de inteligência artificial generativa **Claude (Anthropic)** na estruturação textual, extração dos recortes bibliográficos e formatação em Markdown deste artefato, em estrita conformidade com a Política de Uso de IA da disciplina. A fundamentação teórica, a inspeção técnica do portal, as decisões de especificação da plataforma e a revisão técnica foram conduzidas e validadas integralmente pelo autor responsável e pelos revisores.
-
----
-
-## 10. Bibliografia
+## 9. Bibliografia
 
 > [1] BARBOSA, Simone D. J. et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
 > [2] MARCUS, Aaron. *Graphic Design for Electronic Documents and User Interfaces*. New York: ACM Press, 1991.  
@@ -281,7 +275,7 @@ A equipe agradece o apoio da ferramenta de inteligência artificial generativa *
 
 ---
 
-## 11. Histórico de Versões
+## 10. Histórico de Versões
 
 <div align="center" markdown="1">
 
