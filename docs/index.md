@@ -31,15 +31,20 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 
 ### Design, Avaliação e Desenvolvimento (Etapa 3)
 * [Princípios Gerais de Projeto](analise-de-requisitos/principios-gerais-de-projeto.md)
-* [Guia de Estilo](design-avaliacao-desenvolvimento/guia-de-estilo.md)
-* *Metas de Usabilidade (em desenvolvimento)*
-* *Características da Plataforma para o Projeto (em desenvolvimento)*
+* [Guia de Estilo (incluindo Características da Plataforma e Metas de Usabilidade)](design-avaliacao-desenvolvimento/guia-de-estilo.md)
 
 ---
 
-### Apresentações e Verificação Cruzada
+### Verificações
+* [Verificação da Etapa 1 — Grupo 08 (Grupo +1)](apresentacao/grupo-08.md)
+* [Verificação da Etapa 2 — Grupo 06 (Grupo -1)](apresentacao/grupo-06.md)
+* [Verificação da Etapa 3 — Grupo 07 (Autoavaliação)](apresentacao/verificacao-etapa-3-grupo-07.md)
+* [Verificação da Etapa 3 — Grupo 08 (Grupo +1)](apresentacao/verificacao-etapa-3-grupo-08.md)
+
+---
+
+### Apresentações
 * [Apresentação da Etapa 1](apresentacao/apresentacao-1.md)
-* **Verificação Cruzada:** [Grupo 06 (Senado)](apresentacao/grupo-06.md) e [Grupo 08 (Diolinux)](apresentacao/grupo-08.md)
 
 ---
 

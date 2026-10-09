@@ -53,10 +53,6 @@ markdown_extensions:
 
 nav:
   - Início: index.md
-  - Apresentação: apresentacao/apresentacao-1.md
-  - Verificação:
-    - Grupo 06: apresentacao/grupo-06.md
-    - Grupo 08: apresentacao/grupo-08.md
   - Planejamento (Etapa 1):
     - Equipe: planejamento/membros.md
     - Planejamento do Projeto: planejamento/planejamento-do-projeto.md
@@ -78,3 +74,10 @@ nav:
   - Design, Avaliação e Desenvolvimento (Etapa 3):
     - Princípios Gerais de Projeto: analise-de-requisitos/principios-gerais-de-projeto.md
     - Guia de Estilo: design-avaliacao-desenvolvimento/guia-de-estilo.md
+  - Verificação:
+    - Etapa 1 — Grupo 08 (Grupo +1): apresentacao/grupo-08.md
+    - Etapa 2 — Grupo 06 (Grupo -1): apresentacao/grupo-06.md
+    - Etapa 3 — Grupo 07 (Autoavaliação): apresentacao/verificacao-etapa-3-grupo-07.md
+    - Etapa 3 — Grupo 08 (Grupo +1): apresentacao/verificacao-etapa-3-grupo-08.md
+  - Apresentações:
+    - Apresentação 1: apresentacao/apresentacao-1.md
