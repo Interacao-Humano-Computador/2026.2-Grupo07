@@ -4,9 +4,8 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Fundamentação teórica de HTA (Annett & Duncan, 1967; Barbosa e Silva, 2010), estruturação da matriz de tarefas, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
+| Daniel da Silva Batista | Fundamentação teórica de HTA (Annett & Duncan, 1967; Barbosa e Silva, 2010), elaboração da tabela de legenda da notação, estruturação da matriz de tarefas, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão da decomposição funcional e modelagem HTA integral das Tarefas 05 e 06 (diagramas e tabelas analíticas), incluindo a caracterização da TAR-06 como tarefa não suportada e o levantamento da colisão terminológica de "estágio". |
-| João Vitor Sales Ibiapina | Revisão da decomposição hierárquica e estruturação das Tarefas 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Modelagem formal completa em HTA (diagramas de decomposição e tabelas analíticas com problemas e recomendações de usabilidade) das Tarefas 07 e 08, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). |
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em HTA (diagramas e tabelas analíticas com problemas e recomendações) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas HTA em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
@@ -23,23 +22,40 @@ A **Análise Hierárquica de Tarefas** (*Hierarchical Task Analysis* - HTA), des
 
 No HTA, a execução dos subobjetivos e operações é rigorosamente regida por **planos**, que especificam as condições lógicas, sequenciais ou alternativas sob as quais as ações devem ser realizadas (por exemplo: sequências estritas, decisões condicionais do tipo "se... então", repetições cíclicas ou execuções paralelas). Essa abordagem permite identificar gargalos cognitivos, erros operacionais recorrentes e propor recomendações ergonômicas de design de interface centradas na eficácia e satisfação do usuário.
 
-### Elementos Estruturais da Notação HTA:
-* **Objetivos e Subobjetivos:** Estados finais que a pessoa deseja atingir no sistema (ex.: "Baixar edital em PDF").
-* **Operações:** Unidades básicas de comportamento físico ou cognitivo necessárias para atingir um subobjetivo (ex.: "Digitar nome do órgão no campo de busca").
-* **Planos:** Instruções lógicas e condicionais que determinam a ordem, a frequência e as circunstâncias em que os subobjetivos e operações devem ser executados (ex.: "Plano 0: Fazer 1; depois 2; se erro, repetir 1; senão fazer 3").
-* **Identificação de Problemas e Recomendações:** A análise em IHC expande a representação funcional para mapear barreiras de usabilidade, falhas ergonômicas e propor recomendações de reprojeto para cada etapa da tarefa.
+### 1.1 Legenda e Notação da Técnica HTA
+
+Para assegurar legibilidade técnica e uniformidade aos diagramas elaborados pela equipe, a Tabela 1 apresenta a **legenda formal dos elementos constitutivos da notação HTA** adotada neste projeto, conforme os preceitos de Barbosa e Silva (2010, p. 179) e Annett e Duncan (1967):
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 1: Notação e Legenda dos Elementos da HTA</b></p>
+
+| Elemento Gráfico / Estrutural | Representação no Diagrama | Significado e Função Metodológica |
+| :--- | :---: | :--- |
+| **Objetivo Raiz (Nível 0)** | Caixa retangular com identificador `0.` | Estado final de mais alto nível que o usuário busca alcançar no sistema (ex.: *0. Buscar edital de concurso*). |
+| **Subobjetivo (Níveis 1, 2, ...)** | Caixa retangular com numeração hierárquica decimal (`1.`, `1.1`, `2.1`) | Decomposição intermediária necessária para cumprir o objetivo pai correspondente. |
+| **Operação Terminal (Ação)** | Folha terminal da árvore de decomposição | Ação atômica física (clicar, digitar) ou cognitiva (ler, comparar, decidir) que não necessita de subdivisão adicional. |
+| **Plano de Execução** | Texto em itálico abaixo do objetivo (`Plano X: ...`) | Regra lógica formal que dita a ordem, condições ou repetições para a execução dos subobjetivos filhos. |
+| **Plano Sequencial** | `1 depois 2 depois 3` ou `1 > 2 > 3` | Os subobjetivos devem ser executados em ordem cronológica linear e obrigatória. |
+| **Plano Condicional / Seletivo** | `Se [condição], fazer X; senão, Y` | Bifurcação lógica: o caminho a seguir depende do retorno da interface ou da decisão do usuário. |
+| **Plano Cíclico / Repetição** | `Repetir X até que [critério]` | Execução iterativa de uma operação até que o objetivo intermediário seja atingido. |
+| **Operação Não Suportada** | Indicação textual de bloqueio / ausência | Funcionalidade demandada pelo modelo mental da persona, mas inexistente no portal atual. |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Barbosa e Silva (2010).</p>
+
+</div>
 
 ---
 
 ## 2. Matriz de Tarefas do PCI Concursos
 
-Com base nos três perfis de usuário delineados na pesquisa de requisitos e no escopo funcional do portal **PCI Concursos**, foram selecionadas **dez tarefas representativas** para a avaliação empírica e modelagem formal. Cada integrante da equipe é responsável pela condução e especificação aprofundada de duas tarefas complementares, articulando o diagrama de decomposição com a análise crítica de usabilidade.
+Com base nos perfis de usuário delineados na pesquisa de requisitos e no escopo funcional do portal **PCI Concursos**, foram consolidadas **oito tarefas representativas**, correspondendo exatamente a **duas tarefas por integrante ativo da equipe**, articulando o diagrama de decomposição com a análise crítica de usabilidade.
 
-A Tabela 1 a seguir consolida a matriz geral de tarefas da equipe:
+A Tabela 2 a seguir consolida a matriz oficial de tarefas da equipe:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Matriz Geral de Tarefas Avaliadas</b></p>
+<p align="center"><b>Tabela 2: Matriz Oficial de Tarefas Avaliadas</b></p>
 
 | ID | Descrição da Tarefa | Integrante Responsável |
 | :---: | :--- | :--- |
@@ -48,11 +64,9 @@ A Tabela 1 a seguir consolida a matriz geral de tarefas da equipe:
 | **TAR-03** | Filtrar concursos por região geográfica (Centro-Oeste / DF) | Pedro Rocha Ferreira Lima |
 | **TAR-04** | Consultar retificações, cronogramas e datas de prova | Pedro Rocha Ferreira Lima |
 | **TAR-05** | Realizar simulado de questões online com feedback de gabarito | Arthur Sismene Carvalho |
-| **TAR-06** | Buscar oportunidades de estágio de nível superior no DF | Arthur Sismene Carvalho |
+| **TAR-06** | Buscar oportunidades de estágio de nível superior no DF *(Tarefa não suportada)* | Arthur Sismene Carvalho |
 | **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
 | **TAR-08** | Cadastrar e configurar recebimento de alertas de vagas por e-mail | Leonardo da Silva Lopes Júnior |
-| **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor Sales Ibiapina |
-| **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor Sales Ibiapina |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -76,6 +90,7 @@ A decomposição hierárquica de objetivos e planos da Tarefa 01 é ilustrada na
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     T0["0. Buscar edital de concurso por palavra-chave ou órgão<br><i>Plano 0: 1 depois 2 depois 3; se não encontrar, fazer 4</i>"]
     
     T1["1. Acessar o campo de busca no portal<br><i>Plano 1: 1.1 e 1.2</i>"]
@@ -158,6 +173,7 @@ A decomposição da Tarefa 02 é apresentada no diagrama da Figura 2, e sua corr
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     T0["0. Baixar caderno de provas anteriores e gabarito em PDF<br><i>Plano 0: 1 depois 2 depois 3 depois 4</i>"]
     
     T1["1. Navegar até a seção de Provas Anteriores<br><i>Plano 1: 1.1 e 1.2</i>"]
@@ -238,6 +254,7 @@ A Tarefa 03 investiga o processo de busca e filtragem regional no portal PCI Con
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     T0["0. Filtrar concursos por região geográfica (Centro-Oeste / DF)<br><i>Plano 0: 1 depois 2 depois 3; se não localizar DF facilmente, fazer 4</i>"]
     
     T1["1. Acessar menu de regiões geográficas no portal<br><i>Plano 1: 1.1 e 1.2</i>"]
@@ -323,6 +340,7 @@ A Tarefa 04 compreende a inspeção das publicações complementares e prazos de
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     T0["0. Consultar retificações, cronogramas e prazos de editais<br><i>Plano 0: 1 depois 2; se houver retificações, fazer 3; depois fazer 4</i>"]
     
     T1["1. Acessar a página de detalhes do concurso pretendido<br><i>Plano 1: 1.1 e 1.2</i>"]
@@ -405,6 +423,7 @@ A decomposição hierárquica da Tarefa 05 é ilustrada na Figura 5, e a especif
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     T0["0. Realizar simulado de questões online com feedback de gabarito<br><i>Plano 0: 1 depois 2 depois 3 (iterativo) depois 4</i>"]
 
     T1["1. Acessar a seção de Simulados<br><i>Plano 1: 1.1 depois 1.2</i>"]
@@ -498,6 +517,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     T0["0. Buscar oportunidades de estágio de nível superior no DF<br><i>Plano 0: 1 depois tentar 2, 3 ou 4; se todas falharem, fazer 5</i>"]
 
     T1["1. Formular hipótese de localização da oferta<br><i>Plano 1: 1.1 depois 1.2</i>"]
@@ -597,6 +617,7 @@ A decomposição hierárquica da Tarefa 07 é ilustrada na Figura 7, e sua anál
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     T0["0. Acessar videoaulas e dicas didáticas de disciplinas<br><i>Plano 0: 1 depois 2 depois 3; se ruído/deslocamento, fazer 4; se buscar material escrito, tentar 5</i>"]
 
     T1["1. Navegar até a seção de Videoaulas no portal<br><i>Plano 1: 1.1 e 1.2</i>"]
@@ -700,6 +721,7 @@ A decomposição hierárquica da Tarefa 08 é ilustrada na Figura 8, e a anális
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     T0["0. Cadastrar e configurar recebimento de alertas de vagas por e-mail<br><i>Plano 0: 1 depois 2 depois 3; depois 4; se insatisfação com volume, executar 5</i>"]
 
     T1["1. Localizar o formulário de cadastro de alertas no portal<br><i>Plano 1: 1.1 depois 1.2</i>"]
@@ -784,23 +806,15 @@ flowchart TD
 
 ---
 
-## 7. Estrutura para Validação das Tarefas 09 e 10 (João Vitor Sales Ibiapina)
-
-As demais tarefas modeladas pela equipe seguirão a mesma notação formal (diagrama Mermaid decomposto + tabela analítica de problemas e recomendações), sob responsabilidade de João Vitor Sales Ibiapina:
-
-* **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem da checagem de vagas reservadas a PcD/idosos (TAR-09) e conferência de portarias de homologação e nomeação (TAR-10).
-
----
-
-## 8. Bibliografia
+## 7. Referências Bibliográficas
 
 > ANNETT, John; DUNCAN, Keith D. *Task Analysis and Training Design*. Journal of Occupational Psychology, v. 41, p. 211-221, 1967.  
-> BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
 > DIAPER, Dan; STANTON, Neville. *The Handbook of Task Analysis for Human-Computer Interaction*. Mahwah: Lawrence Erlbaum Associates, 2004.  
 > NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
 > W3C. *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium, 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>.
 
-## 9. Histórico de Versões
+## 8. Histórico de Versões
 
 <div align="center" markdown="1">
 
@@ -810,5 +824,7 @@ As demais tarefas modeladas pela equipe seguirão a mesma notação formal (diag
 | `1.1` | 27/09/2026 | Inclusão da modelagem HTA completa das Tarefas 03 e 04 (diagramas Mermaid e tabelas com problemas e recomendações ergonômicas) baseadas na Análise Documental (DOC-02) e persona Lucas Ferreira Rocha. | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.2` | 27/09/2026 | Modelagem HTA completa das Tarefas 05 e 06 (Figuras 5 e 6, Tabelas 6 e 7), com registro da TAR-06 como tarefa não suportada pelo sistema, identificação da colisão terminológica "estágio/estágio probatório" e inclusão das referências Nielsen (1993) e WCAG 2.1. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.3` | 28/09/2026 | Modelagem HTA completa das Tarefas 07 e 08 (Figuras 7 e 8, Tabelas 8 e 9), detalhando consumo de videoaulas sob restrição móvel e formulário de alertas de vagas, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.4` | 09/10/2026 | Atendimento à OBS 6 da avaliação docente: inclusão da Tabela 1 com legenda e notação formal da HTA (objetivos, planos e operações), consolidação da matriz em 8 tarefas completas dos 4 membros ativos e adequação de Referências Bibliográficas. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.5` | 09/10/2026 | Correção do cabeçalho da Tabela de Contribuição e padronização visual dos diagramas HTA no estilo do livro (Barbosa e Silva, 2010), eliminando tons rosados. | Daniel da Silva Batista | Arthur Sismene Carvalho |
 
 </div>

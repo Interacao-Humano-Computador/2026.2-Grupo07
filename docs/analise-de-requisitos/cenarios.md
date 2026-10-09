@@ -4,9 +4,8 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Fundamentação teórica de cenários (Carroll, 2000; Rosson & Carroll, 2002; Barbosa e Silva, 2010), explicitação da relação formal entre Personas e Cenários, estruturação dos elementos formais, redação e validação empírica dos Cenários 01 e 02 via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização dos templates para a equipe. |
+| Daniel da Silva Batista | Fundamentação teórica de cenários (Carroll, 2000; Rosson & Carroll, 2002; Barbosa e Silva, 2010), explicitação da relação formal entre Personas e Cenários, estruturação dos elementos formais, redação e validação empírica dos Cenários 01 e 02 via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e consolidação da matriz de cenários. |
 | Arthur Sismene Carvalho | Revisão conceitual dos elementos de cenário e redação integral dos Cenários 05 e 06, incluindo a modelagem do cenário de tarefa não suportada (CEN-06). |
-| João Vitor Sales Ibiapina | Revisão da matriz de cenários e estruturação dos Cenários 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Redação, contextualização e detalhamento narrativo integral dos Cenários 07 (videoaulas) e 08 (alertas de vagas por e-mail), fundamentados na persona Renata Cristina Freitas (PER-04) e na análise documental DOC-04. |
 | Pedro Rocha Ferreira Lima | Definição dos objetivos de busca regional, redação e fundamentação detalhada dos Cenários 03 e 04 com base em DOC-02 e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
@@ -67,8 +66,6 @@ A Tabela 1 a seguir consolida a matriz formal de rastreabilidade entre Personas,
 | **CEN-06** | Prospecção de Vagas de Estágio de Nível Superior no DF | **Thiago Moraes Albuquerque (PER-03)** | `TAR-06`: Busca de oportunidades de estágio | Arthur Sismene Carvalho |
 | **CEN-07** | Acesso Rápido a Videoaulas de Disciplinas Básicas no Intervalo de Almoço | **Renata Cristina Freitas (PER-04)** | `TAR-07`: Consulta a videoaulas e dicas didáticas | Leonardo da Silva Lopes Júnior |
 | **CEN-08** | Assinatura e Configuração de Alertas de Vagas por E-mail | **Renata Cristina Freitas (PER-04)** | `TAR-08`: Cadastro de avisos de vagas por e-mail | Leonardo da Silva Lopes Júnior |
-| **CEN-09** | Consulta a Vagas Reservadas e Isenção de Taxa para PcD | *A definir pelo responsável* | `TAR-09`: Verificação de cotas e isenção de taxa | João Vitor Sales Ibiapina |
-| **CEN-10** | Acompanhamento de Convocação de Concurso Homologado | *A definir pelo responsável* | `TAR-10`: Consulta a notícias de convocações | João Vitor Sales Ibiapina |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026), com base nas Personas modeladas e nas tarefas do PCI Concursos.</p>
 
@@ -296,18 +293,9 @@ O detalhamento narrativo do Cenário 08, estruturado segundo os sete elementos f
 
 ---
 
-### 4.9 Cenários 09 e 10: Estrutura Padronizada para Validação em Campo
+## 5. Referências Bibliográficas
 
-Os cenários a seguir foram concebidos a partir do perfil dos usuários e seguem a mesma taxonomia formal de Carroll (2000), sendo validados e detalhados individualmente pelo integrante responsável:
-
-* **Cenário 09 (Responsável: João Vitor Sales Ibiapina — Persona a definir):** O(A) participante / persona definida pelo integrante busca auxílio para localizar no edital as regras de isenção de taxa de inscrição para candidatos de baixa renda e as vagas reservadas para pessoas com deficiência.
-* **Cenário 10 (Responsável: João Vitor Sales Ibiapina — Persona a definir):** O(A) participante / persona definida pelo integrante consulta a listagem de notícias de homologação do concurso de motorista municipal para conferir se seu número de inscrição consta na lista de convocados.
-
----
-
-## 5. Bibliografia
-
-> BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
 > CARROLL, John M. *Making Use: Scenario-Based Design of Human-Computer Interactions*. Cambridge: MIT Press, 2000.  
 > ROSSON, Mary Beth; CARROLL, John M. *Usability Engineering: Scenario-Based Development of Human-Computer Interaction*. San Francisco: Morgan Kaufmann, 2002.
 
@@ -323,6 +311,7 @@ Os cenários a seguir foram concebidos a partir do perfil dos usuários e seguem
 | `1.3` | 27/09/2026 | Detalhamento narrativo integral dos Cenários 05 (simulado no smartphone) e 06 (prospecção de estágio), este último modelado como cenário de tarefa não suportada, com vinculação à Persona PER-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.4` | 28/09/2026 | Redação e detalhamento narrativo integral dos Cenários 07 (videoaulas) e 08 (alertas por e-mail) fundamentados na Persona PER-04 e DOC-04. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.5` | 04/10/2026 | Inclusão da fundamentação formal da relação entre Personas e Cenários (Carroll; Barbosa & Silva), explicitação dos papéis na matriz e padronização tipográfica das legendas com base empírica (Issue #11). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.6` | 09/10/2026 | Atendimento à OBS 5 da avaliação docente: consolidação da matriz em 8 cenários completos e fechados (exatamente 2 por integrante ativo da equipe), remoção dos cenários 09 e 10 incompletos e adequação de Referências Bibliográficas. | Daniel da Silva Batista | Leonardo da Silva Lopes Júnior |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

@@ -101,3 +101,159 @@
   background-color: #d32f2f;
   color: #ffffff;
 }
+
+/* ==========================================================================
+   Padronização Visual dos Diagramas Mermaid (HTA e CTT)
+   Estilo Livro com Caixas Pretas e Texto Branco Nítido
+   (Fundo das caixas preto/escuro, texto branco visível, sem tons de rosa)
+   ========================================================================== */
+.mermaid,
+div.mermaid,
+pre.mermaid,
+.md-typeset .mermaid,
+.md-typeset div.mermaid,
+.md-typeset pre.mermaid {
+  background-color: transparent !important;
+  margin: 1.5em auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  overflow-x: auto !important;
+}
+
+/* Fundo de TODAS as caixas (nós) do Mermaid em PRETO */
+.md-typeset .mermaid svg .node rect,
+.md-typeset .mermaid svg .node polygon,
+.md-typeset .mermaid svg .node circle,
+.md-typeset .mermaid svg .node ellipse,
+.md-typeset .mermaid svg .node path,
+.md-typeset .mermaid svg [class*="node"] rect,
+.md-typeset .mermaid svg [class*="node"] polygon,
+.md-typeset .mermaid svg [class*="node"] circle,
+.md-typeset .mermaid svg [class*="node"] path,
+.md-typeset .mermaid svg g.node rect,
+.md-typeset .mermaid svg g.node polygon,
+.md-typeset .mermaid svg .label-container,
+.md-typeset .mermaid svg rect.basic.label-container,
+.md-typeset .mermaid svg polygon.basic.label-container,
+.md-typeset svg[id^="mermaid-"] .node rect,
+.md-typeset svg[id^="mermaid-"] .node polygon,
+.md-typeset svg[id^="mermaid-"] .label-container,
+.mermaid svg g.node > rect,
+.mermaid svg g.node > polygon,
+.mermaid svg g.node > path {
+  fill: #1e1e1e !important;
+  stroke: #000000 !important;
+  stroke-width: 1.6px !important;
+  rx: 4px !important;
+  ry: 4px !important;
+}
+
+/* Texto de TODOS os nós do Mermaid em BRANCO nítido */
+.md-typeset .mermaid svg .node text,
+.md-typeset .mermaid svg .node text *,
+.md-typeset .mermaid svg .node tspan,
+.md-typeset .mermaid svg .node .label,
+.md-typeset .mermaid svg .node .label *,
+.md-typeset .mermaid svg .node span,
+.md-typeset .mermaid svg .node p,
+.md-typeset .mermaid svg .node div,
+.md-typeset .mermaid svg [class*="node"] text,
+.md-typeset .mermaid svg [class*="node"] text *,
+.md-typeset .mermaid svg [class*="node"] foreignObject,
+.md-typeset .mermaid svg [class*="node"] foreignObject *,
+.md-typeset .mermaid svg foreignObject div,
+.md-typeset .mermaid svg foreignObject span,
+.md-typeset .mermaid svg foreignObject p,
+.md-typeset .mermaid svg foreignObject i,
+.md-typeset .mermaid svg foreignObject em,
+.md-typeset svg[id^="mermaid-"] .node text,
+.md-typeset svg[id^="mermaid-"] .node foreignObject *,
+.mermaid svg g.node text,
+.mermaid svg g.node foreignObject * {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+  font-family: inherit !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+  text-align: center !important;
+}
+
+/* Destaque para planos em itálico dentro dos nós */
+.md-typeset .mermaid svg .node i,
+.md-typeset .mermaid svg .node em,
+.md-typeset .mermaid svg foreignObject i,
+.md-typeset .mermaid svg foreignObject em {
+  color: #e0e0e0 !important;
+  fill: #e0e0e0 !important;
+  font-style: italic !important;
+}
+
+
+/* Subgraphs e Clusters (Legendas e Agrupamentos) */
+.mermaid svg .cluster rect,
+svg[id^="mermaid-"] .cluster rect {
+  fill: #f4f5f7 !important;
+  stroke: #444444 !important;
+  stroke-width: 1.2px !important;
+  stroke-dasharray: 4, 4 !important;
+  rx: 4px !important;
+  ry: 4px !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid svg .cluster rect,
+[data-md-color-scheme="slate"] svg[id^="mermaid-"] .cluster rect {
+  fill: #141721 !important;
+  stroke: #777777 !important;
+}
+
+.mermaid svg .cluster text,
+.mermaid svg .cluster .label,
+.mermaid svg .cluster span,
+svg[id^="mermaid-"] .cluster text,
+svg[id^="mermaid-"] .cluster .label,
+svg[id^="mermaid-"] .cluster span {
+  fill: #222222 !important;
+  color: #222222 !important;
+  font-weight: 700 !important;
+  font-size: 13px !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid svg .cluster text,
+[data-md-color-scheme="slate"] .mermaid svg .cluster .label,
+[data-md-color-scheme="slate"] .mermaid svg .cluster span,
+[data-md-color-scheme="slate"] svg[id^="mermaid-"] .cluster text,
+[data-md-color-scheme="slate"] svg[id^="mermaid-"] .cluster .label,
+[data-md-color-scheme="slate"] svg[id^="mermaid-"] .cluster span {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* Arestas, Linhas de Conexão e Setas */
+.mermaid svg .edgePath .path,
+svg[id^="mermaid-"] .edgePath .path {
+  stroke: #333333 !important;
+  stroke-width: 1.5px !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid svg .edgePath .path,
+[data-md-color-scheme="slate"] svg[id^="mermaid-"] .edgePath .path {
+  stroke: #bbbbbb !important;
+}
+
+.mermaid svg .arrowMarkerPath,
+.mermaid svg marker path,
+svg[id^="mermaid-"] .arrowMarkerPath,
+svg[id^="mermaid-"] marker path {
+  fill: #333333 !important;
+  stroke: #333333 !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid svg .arrowMarkerPath,
+[data-md-color-scheme="slate"] .mermaid svg marker path,
+[data-md-color-scheme="slate"] svg[id^="mermaid-"] .arrowMarkerPath,
+[data-md-color-scheme="slate"] svg[id^="mermaid-"] marker path {
+  fill: #bbbbbb !important;
+  stroke: #bbbbbb !important;
+}
+
