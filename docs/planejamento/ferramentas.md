@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Seleção, documentação e justificativa das ferramentas tecnológicas do projeto. |
-| Pedro Rocha Ferreira Lima | Revisão da documentação das ferramentas do projeto. |
-| Gemini | Auxílio na formatação da tabela de logos e ferramentas em Markdown (conforme Política de IA). |
+| Daniel da Silva Batista | [Seleção, documentação e justificativa das ferramentas tecnológicas do projeto](#1-introducao) |
+| Pedro Rocha Ferreira Lima | [Revisão técnica da documentação das ferramentas do projeto](#1-introducao) |
+| Gemini | Apoio na formatação da tabela de logos e ferramentas em Markdown (conforme Política de IA). |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -41,13 +41,14 @@ A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa 
 
 ---
 
-## 2. Bibliografia
+## 2. Referências Bibliográficas
 
-> GITHUB. *Sobre o GitHub*. Disponível em: <https://docs.github.com/pt>. Acesso em: 04 de setembro de 2026.
-> 
-> MKDOCS. *MkDocs Material Documentation*. Disponível em: <https://squidfunk.github.io/mkdocs-material/>. Acesso em: 04 de setembro de 2026.
-> 
-> FIGMA. *Figma: The Collaborative Interface Design Tool*. Disponível em: <https://www.figma.com/>. Acesso em: 04 de setembro de 2026.
+> FIGMA. *Figma: The Collaborative Interface Design Tool*. Disponível em: <https://www.figma.com/>. Acesso em: 04 set. 2026.  
+> GITHUB. *Sobre o GitHub*. Disponível em: <https://docs.github.com/pt>. Acesso em: 04 set. 2026.  
+> MKDOCS. *MkDocs Material Documentation*. Disponível em: <https://squidfunk.github.io/mkdocs-material/>. Acesso em: 04 set. 2026.  
+> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.
+
+---
 
 ## 3. Histórico de Versões
 
@@ -57,5 +58,6 @@ A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa 
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 04/09/2026 | Documentação das ferramentas de comunicação, design e versionamento utilizadas pela equipe. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 17/09/2026 | Adição da Tabela de Contribuição, padronização da IA Gemini e atualização da fonte das tabelas. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.2` | 09/10/2026 | Atendimento às observações do monitor (OBS 10, 11 e 12): inclusão de referências bibliográficas, agradecimentos e hiperligações na tabela de contribuição. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>

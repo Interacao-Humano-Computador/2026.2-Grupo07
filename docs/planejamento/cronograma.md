@@ -4,11 +4,11 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Leonardo da Silva Lopes Júnior | Criação e estruturação inicial do Cronograma Planejado da Etapa 1. |
-| Daniel da Silva Batista | Inclusão do Cronograma Executado da Etapa 1 e expansão do cronograma planejado para as Etapas 2 a 8. |
-| Arthur Sismene Carvalho | Revisão do cronograma planejado e executado da Etapa 1. |
-| Pedro Rocha Ferreira Lima | Revisão da expansão do cronograma das Etapas 2 a 8. |
-| Gemini | Auxílio na formatação de tabelas em Markdown e estruturação de períodos (conforme Política de IA). |
+| Leonardo da Silva Lopes Júnior | [Criação e estruturação inicial do Cronograma Planejado da Etapa 1](#11-cronograma-planejado) |
+| Daniel da Silva Batista | [Inclusão do Cronograma Executado e expansão das Etapas 2 a 8](#12-cronograma-executado) |
+| Arthur Sismene Carvalho | [Revisão técnica do cronograma planejado e executado da Etapa 1](#1-etapa-1-planejamento-do-projeto) |
+| Pedro Rocha Ferreira Lima | [Revisão e detalhamento das atividades das Etapas 2 a 8](#2-etapa-2-perfil-do-usuario-e-analise-de-tarefas) |
+| Gemini | Apoio na formatação das tabelas e estruturação em Markdown (conforme Política de IA). |
 
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
@@ -26,20 +26,20 @@ Na Tabela 1, tem-se o cronograma planejado na reunião inicial para as atividade
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1 - Cronograma Planejado</b></p>
+<p align="center"><b>Tabela 1 - Cronograma Planejado (Etapa 1)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
 | Implementar Git Page | Início: 03/09<br>Fim: 06/09 | Pedro Rocha Ferreira Lima | Início: 06/09<br>Fim: 06/09 | Daniel da Silva Batista |
-| Selecionar site | Início: 03/09<br>Fim: 03/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 03/09<br>Fim: 03/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
+| Selecionar site | Início: 03/09<br>Fim: 03/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 03/09<br>Fim: 03/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 | Selecionar ferramentas do projeto | Início: 06/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Pedro Rocha Ferreira Lima |
 | Realização do cronograma | Início: 03/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior | Início: 06/09<br>Fim: 06/09 | Arthur Sismene Carvalho |
 | Heatmap de Disponibilidade | Início: 03/09<br>Fim: 06/09 | Arthur Sismene Carvalho | Início: 06/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior |
-| Processo de Design | Início: 03/09<br>Fim: 06/09 | Joao Vitor Sales Ibiapina | Início: 06/09<br>Fim: 06/09 | Arthur Sismene Carvalho |
+| Processo de Design | Início: 03/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Arthur Sismene Carvalho |
 | Documentar Equipe | Início: 03/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior |
-| Reunião de Alinhamento e Ata | Início: 06/09<br>Fim: 06/09 | A definir | Início: 06/09<br>Fim: 06/09 | A definir |
-| Gravar apresentação | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
-| Correção pós apresentação | Início: 08/09<br>Fim: 08/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 08/09<br>Fim: 09/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
+| Reunião de Alinhamento e Ata | Início: 06/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Pedro Rocha Ferreira Lima |
+| Gravar apresentação | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós apresentação | Início: 08/09<br>Fim: 08/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 08/09<br>Fim: 09/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
@@ -51,7 +51,7 @@ Na Tabela 2, tem-se o registro do cronograma real de execução do projeto, docu
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 2 - Cronograma Executado</b></p>
+<p align="center"><b>Tabela 2 - Cronograma Executado (Etapa 1)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -62,7 +62,7 @@ Na Tabela 2, tem-se o registro do cronograma real de execução do projeto, docu
 | Heatmap de Disponibilidade | Início: 03/09<br>Fim: 06/09 | Arthur Sismene Carvalho | Início: 06/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior |
 | Processo de Design | Início: 03/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Pedro Rocha Ferreira Lima |
 | Documentar Equipe | Início: 03/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Leonardo da Silva Lopes Júnior |
-| Reunião de Alinhamento e Ata | Início: 06/09<br>Fim: 06/09 | A definir | Início: 06/09<br>Fim: 06/09 | A definir |
+| Reunião de Alinhamento e Ata | Início: 06/09<br>Fim: 06/09 | Daniel da Silva Batista | Início: 06/09<br>Fim: 06/09 | Pedro Rocha Ferreira Lima |
 | Gravar apresentação | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/09<br>Fim: 06/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 | Correção pós apresentação | Início: 08/09<br>Fim: 08/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 08/09<br>Fim: 09/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
@@ -75,7 +75,7 @@ Na Tabela 2, tem-se o registro do cronograma real de execução do projeto, docu
 
 ### 2.1 Cronograma Planejado
 
-Na Tabela 3, tem-se o cronograma planejado para as atividades da segunda entrega.
+Na Tabela 3, tem-se o cronograma planejado para as atividades da segunda entrega, detalhando as técnicas de coleta com usuários e as técnicas formais de análise de tarefas com participação de todos os integrantes (conforme OBS 4).
 
 <div align="center" markdown="1">
 
@@ -84,13 +84,15 @@ Na Tabela 3, tem-se o cronograma planejado para as atividades da segunda entrega
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
 | Definir Perfil do Usuário | Início: 08/09<br>Fim: 25/09 | Daniel da Silva Batista | Início: 26/09<br>Fim: 26/09 | Pedro Rocha Ferreira Lima |
-| Elaborar Personas | Início: 08/09<br>Fim: 25/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor | Início: 26/09<br>Fim: 26/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor |
-| Documentar Aspectos Éticos | Início: 08/09<br>Fim: 25/09 | Daniel da Silva Batista | Início: 26/09<br>Fim: 26/09 | Pedro Rocha Ferreira Lima |
-| Elaborar Cenários | Início: 08/09<br>Fim: 25/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor | Início: 26/09<br>Fim: 26/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor |
-| Conduzir Análise de Tarefas (HTA e CTT) | Início: 08/09<br>Fim: 25/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor | Início: 26/09<br>Fim: 26/09 | Daniel Batista, Pedro Lima, Arthur Sismene, Leonardo Lopes, João Vitor |
-| Reunião de Alinhamento e Ata | Início: 26/09<br>Fim: 26/09 | A definir | Início: 26/09<br>Fim: 26/09 | A definir |
-| Gravar apresentação da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
-| Correção pós-apresentação | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Joao Vitor, Leonardo Lopes, Pedro Lima |
+| Documentar Aspectos Éticos e Termo de Consentimento Livre e Esclarecido (TCLE) | Início: 08/09<br>Fim: 25/09 | Daniel da Silva Batista | Início: 26/09<br>Fim: 26/09 | Pedro Rocha Ferreira Lima |
+| Técnicas de Coleta com Usuários (Entrevistas Semiestruturadas e Análise Documental Oficial) | Início: 08/09<br>Fim: 25/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 26/09<br>Fim: 26/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Elaborar Elenco de Personas | Início: 08/09<br>Fim: 25/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 26/09<br>Fim: 26/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Elaborar Cenários de Interação | Início: 08/09<br>Fim: 25/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 26/09<br>Fim: 26/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Análise de Tarefas: Análise Hierárquica de Tarefas (HTA) | Início: 08/09<br>Fim: 25/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 26/09<br>Fim: 26/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Análise de Tarefas: Árvores de Tarefas Concorrentes (CTT) | Início: 08/09<br>Fim: 25/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 26/09<br>Fim: 26/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Reunião de Alinhamento e Ata da Etapa 2 | Início: 26/09<br>Fim: 26/09 | Daniel da Silva Batista | Início: 26/09<br>Fim: 26/09 | Pedro Rocha Ferreira Lima |
+| Gravar apresentação da Etapa 2 | Início: 26/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 27/09<br>Fim: 27/09 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -175,7 +177,7 @@ Na Tabela 6, tem-se o registro da execução real das atividades da terceira ent
 
 ## 4. Etapa 4 - Planejamento da Avaliação
 
-Na Tabela 7, tem-se o cronograma planejado para as atividades da quarta entrega.
+Na Tabela 7, tem-se o cronograma planejado para as atividades da quarta entrega, com responsáveis e revisores preliminares distribuídos equilibradamente entre os membros da equipe.
 
 <div align="center" markdown="1">
 
@@ -183,12 +185,12 @@ Na Tabela 7, tem-se o cronograma planejado para as atividades da quarta entrega.
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Planejar Avaliação do Storyboard | Início: 07/10<br>Fim: 11/10 | A definir | Início: 12/10<br>Fim: 12/10 | A definir |
-| Planejar Avaliação da Análise de Tarefas | Início: 07/10<br>Fim: 11/10 | A definir | Início: 12/10<br>Fim: 12/10 | A definir |
-| Planejamento do Relato dos Resultados | Início: 07/10<br>Fim: 11/10 | A definir | Início: 12/10<br>Fim: 12/10 | A definir |
-| Reunião de Alinhamento e Ata | Início: 12/10<br>Fim: 12/10 | A definir | Início: 12/10<br>Fim: 12/10 | A definir |
-| Gravar apresentação da Etapa 4 | Início: 12/10<br>Fim: 13/10 | A definir | Início: 13/10<br>Fim: 13/10 | A definir |
-| Correção pós-apresentação | Início: 13/10<br>Fim: 13/10 | A definir | Início: 13/10<br>Fim: 13/10 | A definir |
+| Planejar Avaliação do Storyboard | Início: 07/10<br>Fim: 11/10 | Daniel da Silva Batista | Início: 12/10<br>Fim: 12/10 | Arthur Sismene Carvalho |
+| Planejar Avaliação da Análise de Tarefas | Início: 07/10<br>Fim: 11/10 | Pedro Rocha Ferreira Lima | Início: 12/10<br>Fim: 12/10 | Leonardo da Silva Lopes Júnior |
+| Planejamento do Relato dos Resultados | Início: 07/10<br>Fim: 11/10 | Arthur Sismene Carvalho | Início: 12/10<br>Fim: 12/10 | Daniel da Silva Batista |
+| Reunião de Alinhamento e Ata | Início: 12/10<br>Fim: 12/10 | Leonardo da Silva Lopes Júnior | Início: 12/10<br>Fim: 12/10 | Pedro Rocha Ferreira Lima |
+| Gravar apresentação da Etapa 4 | Início: 12/10<br>Fim: 13/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 13/10<br>Fim: 13/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 13/10<br>Fim: 13/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 13/10<br>Fim: 13/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -204,12 +206,12 @@ Na Tabela 8, tem-se o cronograma planejado para as atividades da quinta entrega.
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Relatar Resultados do Storyboard | Início: 14/10<br>Fim: 23/10 | A definir | Início: 24/10<br>Fim: 24/10 | A definir |
-| Relatar Resultados da Análise de Tarefas | Início: 14/10<br>Fim: 23/10 | A definir | Início: 24/10<br>Fim: 24/10 | A definir |
-| Planejar Avaliação do Protótipo de Papel | Início: 14/10<br>Fim: 23/10 | A definir | Início: 24/10<br>Fim: 24/10 | A definir |
-| Reunião de Alinhamento e Ata | Início: 24/10<br>Fim: 24/10 | A definir | Início: 24/10<br>Fim: 24/10 | A definir |
-| Gravar apresentação da Etapa 5 | Início: 24/10<br>Fim: 25/10 | A definir | Início: 25/10<br>Fim: 25/10 | A definir |
-| Correção pós-apresentação | Início: 25/10<br>Fim: 25/10 | A definir | Início: 25/10<br>Fim: 25/10 | A definir |
+| Relatar Resultados do Storyboard | Início: 14/10<br>Fim: 23/10 | Leonardo da Silva Lopes Júnior | Início: 24/10<br>Fim: 24/10 | Daniel da Silva Batista |
+| Relatar Resultados da Análise de Tarefas | Início: 14/10<br>Fim: 23/10 | Arthur Sismene Carvalho | Início: 24/10<br>Fim: 24/10 | Pedro Rocha Ferreira Lima |
+| Planejar Avaliação do Protótipo de Papel | Início: 14/10<br>Fim: 23/10 | Daniel da Silva Batista | Início: 24/10<br>Fim: 24/10 | Leonardo da Silva Lopes Júnior |
+| Reunião de Alinhamento e Ata | Início: 24/10<br>Fim: 24/10 | Pedro Rocha Ferreira Lima | Início: 24/10<br>Fim: 24/10 | Arthur Sismene Carvalho |
+| Gravar apresentação da Etapa 5 | Início: 24/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 25/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 25/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 25/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -225,11 +227,11 @@ Na Tabela 9, tem-se o cronograma planejado para as atividades da sexta entrega.
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Relatar Resultados do Protótipo de Papel | Início: 26/10<br>Fim: 01/11 | A definir | Início: 02/11<br>Fim: 02/11 | A definir |
-| Planejar Avaliação do Protótipo de Alta Fidelidade | Início: 26/10<br>Fim: 01/11 | A definir | Início: 02/11<br>Fim: 02/11 | A definir |
-| Reunião de Alinhamento e Ata | Início: 02/11<br>Fim: 02/11 | A definir | Início: 02/11<br>Fim: 02/11 | A definir |
-| Gravar apresentação da Etapa 6 | Início: 02/11<br>Fim: 03/11 | A definir | Início: 03/11<br>Fim: 03/11 | A definir |
-| Correção pós-apresentação | Início: 03/11<br>Fim: 03/11 | A definir | Início: 03/11<br>Fim: 03/11 | A definir |
+| Relatar Resultados do Protótipo de Papel | Início: 26/10<br>Fim: 01/11 | Pedro Rocha Ferreira Lima | Início: 02/11<br>Fim: 02/11 | Arthur Sismene Carvalho |
+| Planejar Avaliação do Protótipo de Alta Fidelidade | Início: 26/10<br>Fim: 01/11 | Leonardo da Silva Lopes Júnior | Início: 02/11<br>Fim: 02/11 | Daniel da Silva Batista |
+| Reunião de Alinhamento e Ata | Início: 02/11<br>Fim: 02/11 | Daniel da Silva Batista | Início: 02/11<br>Fim: 02/11 | Pedro Rocha Ferreira Lima |
+| Gravar apresentação da Etapa 6 | Início: 02/11<br>Fim: 03/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 03/11<br>Fim: 03/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 03/11<br>Fim: 03/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 03/11<br>Fim: 03/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -245,11 +247,11 @@ Na Tabela 10, tem-se o cronograma planejado para as atividades da sétima entreg
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Conduzir Avaliação de Alta Fidelidade | Início: 04/11<br>Fim: 13/11 | A definir | Início: 14/11<br>Fim: 14/11 | A definir |
-| Relatar Resultados do Protótipo de Alta Fidelidade | Início: 04/11<br>Fim: 13/11 | A definir | Início: 14/11<br>Fim: 14/11 | A definir |
-| Reunião de Alinhamento e Ata | Início: 14/11<br>Fim: 14/11 | A definir | Início: 14/11<br>Fim: 14/11 | A definir |
-| Gravar apresentação da Etapa 7 | Início: 14/11<br>Fim: 15/11 | A definir | Início: 15/11<br>Fim: 15/11 | A definir |
-| Correção pós-apresentação | Início: 15/11<br>Fim: 15/11 | A definir | Início: 15/11<br>Fim: 15/11 | A definir |
+| Conduzir Avaliação de Alta Fidelidade | Início: 04/11<br>Fim: 13/11 | Arthur Sismene Carvalho | Início: 14/11<br>Fim: 14/11 | Leonardo da Silva Lopes Júnior |
+| Relatar Resultados do Protótipo de Alta Fidelidade | Início: 04/11<br>Fim: 13/11 | Daniel da Silva Batista | Início: 14/11<br>Fim: 14/11 | Pedro Rocha Ferreira Lima |
+| Reunião de Alinhamento e Ata | Início: 14/11<br>Fim: 14/11 | Leonardo da Silva Lopes Júnior | Início: 14/11<br>Fim: 14/11 | Arthur Sismene Carvalho |
+| Gravar apresentação da Etapa 7 | Início: 14/11<br>Fim: 15/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 15/11<br>Fim: 15/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 15/11<br>Fim: 15/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 15/11<br>Fim: 15/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -265,11 +267,11 @@ Na Tabela 11, tem-se o cronograma planejado para as atividades da oitava entrega
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Inspecionar artefatos do projeto | Início: 16/11<br>Fim: 20/11 | A definir | Início: 21/11<br>Fim: 21/11 | A definir |
-| Elaborar Documento de Verificação | Início: 16/11<br>Fim: 20/11 | A definir | Início: 21/11<br>Fim: 21/11 | A definir |
-| Reunião de Alinhamento e Ata | Início: 21/11<br>Fim: 21/11 | A definir | Início: 21/11<br>Fim: 21/11 | A definir |
-| Gravar apresentação da Etapa 8 | Início: 21/11<br>Fim: 22/11 | A definir | Início: 22/11<br>Fim: 22/11 | A definir |
-| Correção pós-apresentação | Início: 22/11<br>Fim: 22/11 | A definir | Início: 22/11<br>Fim: 22/11 | A definir |
+| Inspecionar artefatos do projeto | Início: 16/11<br>Fim: 20/11 | Pedro Rocha Ferreira Lima | Início: 21/11<br>Fim: 21/11 | Daniel da Silva Batista |
+| Elaborar Documento de Verificação | Início: 16/11<br>Fim: 20/11 | Daniel da Silva Batista | Início: 21/11<br>Fim: 21/11 | Leonardo da Silva Lopes Júnior |
+| Reunião de Alinhamento e Ata | Início: 21/11<br>Fim: 21/11 | Arthur Sismene Carvalho | Início: 21/11<br>Fim: 21/11 | Pedro Rocha Ferreira Lima |
+| Gravar apresentação da Etapa 8 | Início: 21/11<br>Fim: 22/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 22/11<br>Fim: 22/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 22/11<br>Fim: 22/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 22/11<br>Fim: 22/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -285,14 +287,23 @@ Na Tabela 12, tem-se o cronograma planejado para as atividades da entrega final 
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Consolidar documentação final | Início: 23/11<br>Fim: 28/11 | A definir | Início: 29/11<br>Fim: 29/11 | A definir |
-| Reunião de Alinhamento e Ata | Início: 29/11<br>Fim: 29/11 | A definir | Início: 29/11<br>Fim: 29/11 | A definir |
-| Gravar apresentação do Projeto Final | Início: 29/11<br>Fim: 30/11 | A definir | Início: 30/11<br>Fim: 30/11 | A definir |
-| Correção pós-apresentação | Início: 30/11<br>Fim: 30/11 | A definir | Início: 30/11<br>Fim: 30/11 | A definir |
+| Consolidar documentação final | Início: 23/11<br>Fim: 28/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 29/11<br>Fim: 29/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Reunião de Alinhamento e Ata | Início: 29/11<br>Fim: 29/11 | Daniel da Silva Batista | Início: 29/11<br>Fim: 29/11 | Pedro Rocha Ferreira Lima |
+| Gravar apresentação do Projeto Final | Início: 29/11<br>Fim: 30/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 30/11<br>Fim: 30/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 30/11<br>Fim: 30/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 30/11<br>Fim: 30/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
+---
+
+## Referências Bibliográficas
+
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
+> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.
+
+---
 
 ## 10. Histórico de Versões
 
@@ -308,5 +319,6 @@ Na Tabela 12, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.5` | 27/09/2026 | Atualização do Cronograma Executado com o registro da entrega do escopo de Pedro Rocha Ferreira Lima (DOC-02, PER-02, CEN-03/04 e TAR-03/04). | Pedro Rocha Ferreira Lima | Daniel da Silva Batista |
 | `1.6` | 27/09/2026 | Registro no Cronograma Executado da Etapa 2 das entregas individuais concluídas (DOC-03, PER-03, CEN-05/06, HTA e CTT das Tarefas 05 e 06 e avaliação do Grupo 08). | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.7` | 06/10/2026 | Atualização do Cronograma Planejado e inserção do Cronograma Executado da Etapa 3, com registro dos artefatos de Princípios Gerais de Projeto e Guia de Estilo. | Daniel da Silva Batista, Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
+| `1.8` | 09/10/2026 | Resolução das pendências apontadas pelo monitor (OBS 3 e OBS 4): atribuição balanceada de responsáveis para as Etapas 4 a 8, detalhamento das técnicas de análise de tarefas e inclusão de referências bibliográficas e agradecimentos. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>

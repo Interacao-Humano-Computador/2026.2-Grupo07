@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Redação do documento, consolidação dos critérios de escolha e motivações da seleção do portal PCI Concursos. |
-| Arthur Sismene Carvalho | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
-| Leonardo da Silva Lopes Júnior | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
-| Pedro Rocha Ferreira Lima | Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento. |
+| Daniel da Silva Batista | [Redação do documento, consolidação dos critérios de escolha e motivações da seleção do portal PCI Concursos](#3-o-site-selecionado-pci-concursos) |
+| Arthur Sismene Carvalho | [Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento](#2-criterios-para-escolha) |
+| Leonardo da Silva Lopes Júnior | [Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento](#2-criterios-para-escolha) |
+| Pedro Rocha Ferreira Lima | [Participação na definição dos critérios de escolha, seleção em consenso e revisão do documento](#2-criterios-para-escolha) |
 | Gemini | Auxílio na formatação de listas em Markdown e revisão gramatical (conforme Política de IA). |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -52,9 +52,9 @@ Uma inspeção técnica preliminar orientada pelas 10 Heurísticas de Usabilidad
   - Índices de contraste insuficientes entre tipografia azul/cinza e fundos claros, dificultando a leitura por usuários com baixa visão ou idosos.
 * **Consistência e Padrões (Heurística 4):** Falta de padronização na hierarquia de links e cabeçalhos entre as páginas regionais de concursos e a página inicial, quebrando o modelo mental do usuário ao navegar pelos editais.
 
-## 5. Bibliografia
+## 5. Referências Bibliográficas
 
-> BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
 > NIELSEN, Jakob. *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group, 1994. Disponível em: <https://www.nngroup.com/articles/ten-usability-heuristics/>. Acesso em: 21 de setembro de 2026.  
 > W3C. *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium, 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>. Acesso em: 21 de setembro de 2026.
 
@@ -67,5 +67,6 @@ Uma inspeção técnica preliminar orientada pelas 10 Heurísticas de Usabilidad
 | `1.0` | 04/09/2026 | Documentação das motivações, critérios e definição do site selecionado preliminar (TCDF). | Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima |
 | `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `2.0` | 21/09/2026 | Redefinição estratégica do objeto de estudo para o **PCI Concursos** visando assegurar a viabilidade de usuários reais e acessibilidade. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `2.1` | 09/10/2026 | Atendimento às observações do monitor (OBS 10 e 11): inclusão de hiperligações na tabela de contribuição e adequação de Referências Bibliográficas. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
