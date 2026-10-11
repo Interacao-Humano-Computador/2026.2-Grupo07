@@ -10,9 +10,9 @@
 
 </div>
 
-# Verificação — Grupo 08
+# Verificação — Etapa 1 (Grupo 08 — Grupo +1)
 
-Esta página reúne a verificação realizada pelo Grupo 07 sobre o projeto do **Grupo 08**, no âmbito da verificação cruzada entre as equipes da disciplina.
+Esta página reúne a verificação realizada pelo Grupo 07 sobre o projeto do **Grupo 08 (Grupo +1)**, referente à **Etapa 1 (Planejamento)**, no âmbito da verificação cruzada entre as equipes da disciplina.
 
 ## 1. Vídeo de Verificação — Etapa 1
 
