@@ -8,7 +8,7 @@
 | Pedro Rocha Ferreira Lima | [Revisão técnica das políticas de repositório e diretrizes de integridade acadêmica](#3-politica-de-uso-de-inteligencia-artificial) |
 | Gemini | Apoio na formatação e validação sintática em Markdown (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

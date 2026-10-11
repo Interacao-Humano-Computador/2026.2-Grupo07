@@ -6,13 +6,13 @@
 | :--- | :--- |
 | Arthur Sismene Carvalho | Gravação do vídeo de verificação do Grupo 08 e inclusão no MkDocs. |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
 
-# Verificação — Grupo 08
+# Verificação — Etapa 1 (Grupo 08 — Grupo +1)
 
-Esta página reúne a verificação realizada pelo Grupo 07 sobre o projeto do **Grupo 08**, no âmbito da verificação cruzada entre as equipes da disciplina.
+Esta página reúne a verificação realizada pelo Grupo 07 sobre o projeto do **Grupo 08 (Grupo +1)**, referente à **Etapa 1 (Planejamento)**, no âmbito da verificação cruzada entre as equipes da disciplina.
 
 ## 1. Vídeo de Verificação — Etapa 1
 

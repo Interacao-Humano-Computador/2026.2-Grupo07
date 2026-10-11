@@ -10,7 +10,7 @@
 | Arthur Sismene Carvalho | [Avaliação Heurística individual e aplicação do framework DECIDE no aplicativo CNH do Brasil](#4-cnh-do-brasil-aplicativo) |
 | Gemini | Apoio na formatação Markdown, estruturação das tabelas e revisão de texto (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

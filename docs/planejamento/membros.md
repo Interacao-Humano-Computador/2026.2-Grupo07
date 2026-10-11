@@ -9,7 +9,7 @@
 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | [Fornecimento de dados individuais, fotos e perfis do GitHub](#membros-do-grupo) |
 | Gemini | Apoio na estilização e formatação da grade de membros em Markdown (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
