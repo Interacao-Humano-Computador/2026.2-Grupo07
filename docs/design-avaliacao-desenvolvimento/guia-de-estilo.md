@@ -294,7 +294,7 @@ Para extirpar a vulnerabilidade diagnosticada em USR-01, TAR-02 e CEN-02, na qua
 |   |  [PDF] Baixar Caderno de Questões Oficial (Assistente_Adm_2026.pdf)       |   |
 |   |  Formato: PDF Oficial | Tamanho: 2.1 MB | Verificado: Banca Oficial       |   |
 |   +---------------------------------------------------------------------------+   |
-|   (Botão Primário Azul Sólido #0056B3 - Largura Total - Altura Mínima 52px)       |
+|   (Botão Primário Azul Sólido #0056B3 - Largura Total - Altura Mínima 52px)       | 
 |                                                                                   |
 |   +---------------------------------------------------------------------------+   |
 |   |  [PDF] Baixar Gabarito Definitivo Oficial (Pós-Recurso) (Gabarito.pdf)    |   |
@@ -302,8 +302,8 @@ Para extirpar a vulnerabilidade diagnosticada em USR-01, TAR-02 e CEN-02, na qua
 |   +---------------------------------------------------------------------------+   |
 |   (Botão Secundário Contornado com Ícone de Chave de Respostas)                   |
 |                                                                                   |
-|  * RAIO DE EXCLUSÃO PROTETIVO: Nenhum banner ou anúncio publicitário pode ser    |
-|    posicionado a menos de 48px de distância vertical ou horizontal desta caixa.  |
+|  * RAIO DE EXCLUSÃO PROTETIVO: Nenhum banner ou anúncio publicitário pode ser     |
+|    posicionado a menos de 48px de distância vertical ou horizontal desta caixa.   |
 +-----------------------------------------------------------------------------------+
 ```
 
@@ -395,13 +395,7 @@ O Guia de Estilo estabelece correspondência direta entre as decisões projetuai
 
 ---
 
-## 4. Agradecimentos
-
-A equipe agradece o apoio da ferramenta de inteligência artificial generativa **Gemini (Google)** na organização textual, cálculo das razões de contraste cromático e formatação em Markdown deste artefato, em estrita conformidade com a Política de Uso de IA da disciplina. A fundamentação teórica, a seleção dos trechos bibliográficos dos livros, as decisões de design normativo e a revisão técnica foram conduzidas e validadas integralmente pelo autor responsável.
-
----
-
-## 5. Bibliografia
+## 4. Bibliografia
 
 > [1] SALES, André Barros de. *Plano de Ensino FIHC 022026 - Turma 01*. Brasília: FCTE/UnB, 2026.  
 > [2] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
@@ -417,7 +411,7 @@ A equipe agradece o apoio da ferramenta de inteligência artificial generativa *
 
 ---
 
-## 6. Histórico de Versões
+## 5. Histórico de Versões
 
 <div align="center" markdown="1">
 
