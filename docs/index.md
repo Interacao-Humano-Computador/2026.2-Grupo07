@@ -45,6 +45,7 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 
 ### Apresentações
 * [Apresentação da Etapa 1](apresentacao/apresentacao-1.md)
+* [Apresentação da Etapa 3](apresentacao/apresentacao-3.md)
 
 ---
 
