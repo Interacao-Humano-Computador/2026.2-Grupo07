@@ -13,11 +13,11 @@
 
 </div>
 
-# Verificação — Grupo 06
+# Verificação — Etapa 2 (Grupo 06 — Grupo -1)
 
 ## 1. Objetivo e Escopo
 
-Este artefato reúne a lista de verificação da Entrega 2 do **Grupo 06**, elaborada pelo Grupo 07 com base nos critérios definidos pelo professor André Barros de Sales no plano de ensino (SALES, 2026). A inspeção recai sobre os artefatos produzidos pelo Grupo 06 e publicados no [GitHub Pages do projeto](https://interacao-humano-computador.github.io/2026.2-Grupo06/), que tem como objeto de estudo o Portal do Senado Federal.
+Este artefato reúne a lista de verificação da Entrega 2 do **Grupo 06 (Grupo -1)**, elaborada pelo Grupo 07 com base nos critérios definidos pelo professor André Barros de Sales no plano de ensino (SALES, 2026). A inspeção recai sobre os artefatos produzidos pelo Grupo 06 e publicados no [GitHub Pages do projeto](https://interacao-humano-computador.github.io/2026.2-Grupo06/), que tem como objeto de estudo o Portal do Senado Federal.
 
 A lista reúne **26 itens**, distribuídos em três blocos: 11 itens de desenvolvimento do projeto ([seção 5](#5-itens-de-desenvolvimento-do-projeto)), 12 itens de conteúdo da disciplina ([seção 6](#6-itens-de-conteudo-da-disciplina)) e 3 itens elaborados pelo próprio grupo verificador ([seção 7](#7-itens-elaborados-pelo-grupo)). Os itens dos dois primeiros blocos reproduzem a lista oficial da disciplina; os do terceiro foram formulados pelo Grupo 07 e trazem a referência bibliográfica e o trecho do livro que os fundamenta.
 
