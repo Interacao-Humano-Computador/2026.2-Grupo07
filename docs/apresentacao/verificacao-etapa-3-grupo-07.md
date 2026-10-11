@@ -1,10 +1,10 @@
-<div align="center" markdown="1">
+﻿<div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | **Concepção, estruturação metodológica e elaboração integral da Lista de Verificação (LV) da Etapa 3** (baseada no plano de ensino de Sales, 2026), formulação dos critérios dos itens 11 e 12 (Princípios Gerais do Projeto), item extra 19 (Dark Patterns e Projeto para Erros), conferência rigorosa de conformidade e consolidação da autoavaliação. |
+| **Daniel da Silva Batista** | **Concepção, estruturação metodológica e elaboração integral da Lista de Verificação (LV) da Etapa 3** (baseada no plano de ensino de Sales, 2026), formulação dos critérios dos itens 11 e 12 (Princípios Gerais do Projeto), item extra 19 (Dark Patterns e Projeto para Erros), conferência rigorosa de conformidade, consolidação da autoavaliação e **gravação do vídeo de apresentação da autoavaliação**. |
 | Pedro Rocha Ferreira Lima | Elaboração de seus tópicos específicos atribuídos: itens 10, 13 e 14 (Características da Plataforma e Metas de Usabilidade) e item extra 18 (Acessibilidade WCAG 2.1). |
 | Leonardo da Silva Lopes Júnior | Elaboração de seus tópicos específicos atribuídos: itens 15 e 16 (Guia de Estilo e sua estrutura canônica) e item extra 21 (Design Tokens e Grid Modular). |
 | Arthur Sismene Carvalho | Elaboração de seus tópicos específicos atribuídos: item 17 (Correspondência do Guia de Estilo com o site avaliado) e item extra 20 (Rastreabilidade com Personas/Cenários). |
@@ -44,18 +44,18 @@ Para cada item são registrados: a resposta obtida, a data da avaliação, a obs
 O vídeo a seguir apresenta a autoavaliação e a conferência dos artefatos da Etapa 3 realizada pelos integrantes do Grupo 07.
 
 <iframe width="720" height="405"
-  src="https://www.youtube.com/embed/placeholder"
+  src="https://www.youtube.com/embed/Yc_5IUtRXjM"
   title="Autoavaliação Etapa 3 - Grupo 07"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Fonte:</b> Equipe Grupo 07 (2026).</p>
+<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 * **Categoria no YouTube:** não listado;
-* **Participantes:** Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima;
-* **Data da gravação:** 09/10/2026.
+* **Participante:** Daniel da Silva Batista;
+* **Data da gravação:** 10/10/2026.
 
 ---
 
@@ -69,12 +69,12 @@ A Tabela 1 consolida a distribuição quantitativa das respostas obtidas na auto
 
 | Bloco | Total de Itens | Sim | Incompleto | Não |
 | :--- | :---: | :---: | :---: | :---: |
-| Desenvolvimento do projeto | 10 | 10 | 0 | 0 |
-| Conteúdo da disciplina (Etapa 3) | 8 | 8 | 0 | 0 |
-| Itens elaborados pelo grupo | 4 | 4 | 0 | 0 |
-| **Total Geral** | **22** | **22** | **0** | **0** |
+| Desenvolvimento do projeto (Itens 1 a 10) | 10 | 8 | 0 | 2 |
+| Conteúdo da disciplina (Itens 11 a 17) | 7 | 5 | 2 | 0 |
+| Itens elaborados pelo grupo (Itens 18 a 21) | 4 | 2 | 2 | 0 |
+| **Total Geral** | **21** | **15** | **4** | **2** |
 
-<p align="center"><b>Fonte:</b> Equipe Grupo 07 (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -96,12 +96,12 @@ A Tabela 2 apresenta a autoavaliação dos 10 itens gerais de desenvolvimento do
 | 4 | No GitHub Pages do projeto, as tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Sim** | Todas as tabelas e figuras possuem numeração unívoca, título descritivo, fonte centralizada e são expressamente referenciadas no corpo dos textos. |
 | 5 | O GitHub Pages do projeto possui um texto fazendo uma introdução dos artefatos? | **Sim** | Os artefatos iniciam com contextualização teórica e prática do ciclo de Mayhew (1999) e dos objetivos projetuais do PCI Concursos. |
 | 6 | O GitHub Pages do projeto possui o cronograma executado, indicando quem realizou cada artefato ou atividade e as datas de início e fim? | **Sim** | O artefato `cronograma.md` apresenta na Tabela 6 o cronograma executado da Etapa 3, com tarefas detalhadas, datas e responsáveis nominais. |
-| 7 | O GitHub Pages do projeto possui ata(s) da(s) reunião(ões), com data, horário de início e fim, participantes, objetivo e atividades definidas? | **Sim** | A página de atas registra os encontros de alinhamento com dados completos de horário, pauta, presenças e compromissos. |
-| 8 | O GitHub Pages do projeto possui a gravação da reunião do grupo? | **Sim** | As atas e apresentações contam com vídeos gravados e incorporados via YouTube na categoria não listado. |
+| 7 | O GitHub Pages do projeto possui ata(s) da(s) reunião(ões), com data, horário de início e fim, participantes, objetivo e atividades definidas? | **Não** | Não foi elaborada ata de reunião formalizada com horário de início e término para a Etapa 3 no repositório. |
+| 8 | O GitHub Pages do projeto possui a gravação da reunião do grupo? | **Não** | Não foi disponibilizada gravação em vídeo de reunião do grupo para a Etapa 3. |
 | 9 | O GitHub Pages do projeto possui vídeo de apresentação publicado na categoria "não listado" no YouTube? | **Sim** | As apresentações de etapas são devidamente incorporadas e documentadas com metadados e links diretos no YouTube. |
 | 10 | O GitHub Pages do projeto possui tabela de contribuição no início do artefato, com o nome de todos os integrantes? | **Sim** | Todos os artefatos da Etapa 3 iniciam com a Tabela de Contribuição no topo da página, indicando o papel e a atividade realizada por cada membro da equipe. |
 
-<p align="center"><b>Fonte:</b> Equipe Grupo 07 (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -117,16 +117,15 @@ A Tabela 3 detalha a avaliação dos 8 itens de conteúdo da disciplina (itens 1
 
 | Item | Critério Verificado | Resposta | Observação | Autor |
 | :---: | :--- | :---: | :--- | :--- |
-| 10 | As características da plataforma para o projeto? | **Sim** | Documentadas na Seção 2.1 do Guia de Estilo, contemplando arquitetura web responsiva (Desktop, Tablet e Mobile), limitações de banda, suporte cross-browser e alvos de toque. | Pedro Rocha Ferreira Lima |
-| 11 | Os Princípios Gerais do Projeto que serão utilizados no projeto? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando os Princípios Gerais do Projeto. | **Sim** | Apresentados no artefato `principios-gerais-de-projeto.md` (Seção 1 e Figura 1), fundamentados em Barbosa e Silva (2010, p. 264-265) e Norman (1988). | Daniel da Silva Batista |
-| 12 | Os Princípios Gerais do Projeto contêm os seguintes 8 tópicos: (1) correspondência com expectativas; (2) simplicidade nas tarefas; (3) equilíbrio entre controle e liberdade; (4) consistência e padronização (promoção da eficiência); (5) antecipação das necessidades; (6) visibilidade e reconhecimento; (7) conteúdo relevante e expressão adequada; e (8) projeto para erros? Adicionar referência bibliográfica da fonte e fotos do texto da referência. | **Sim** | Todos os 8 princípios são analisados minuciosamente nas Seções 3 a 10 de `principios-gerais-de-projeto.md`, cada qual acompanhado da foto correspondente do livro (Figuras 2 a 9), diagnóstico no portal PCI Concursos e proposta de reprojeto. | Daniel da Silva Batista |
-| 13 | As metas de usabilidade que devem ser alcançadas no projeto ou os objetivos de uma avaliação de IHC? Adicionar referência bibliográfica da fonte e foto do texto da referência. | **Sim** | Especificadas na Seção 2.3 do Guia de Estilo (Segurança no Uso, Eficácia, Eficiência, Facilidade de Aprendizado e Acessibilidade Universal), fundamentadas em Barbosa e Silva (2010) e Mayhew (1999). | Pedro Rocha Ferreira Lima |
+| 11 | As características da plataforma para o projeto? | **Sim** | Documentadas no artefato próprio caracteristicas-da-plataforma.md, contemplando arquitetura web responsiva, limitações de banda, suporte cross-browser e alvos de toque. | Pedro Rocha Ferreira Lima |
+| 12 | Os Princípios Gerais do Projeto que serão utilizados no projeto contêm os seguintes 8 tópicos: (1) correspondência com expectativas; (2) simplicidade nas tarefas; (3) equilíbrio entre controle e liberdade; (4) consistência e padronização; (5) antecipação das necessidades; (6) visibilidade e reconhecimento; (7) conteúdo relevante e expressão adequada; e (8) projeto para erros? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando os Princípios Gerais do Projeto. | **Sim** | Todos os 8 princípios são analisados e estruturados no artefato principios-gerais-de-projeto.md, fundamentados na literatura de IHC e com diagnósticos práticos aplicados ao PCI Concursos. | Daniel da Silva Batista |
+| 13 | As metas de usabilidade que devem ser alcançadas no projeto ou os objetivos de uma avaliação de IHC? Adicionar referência bibliográfica da fonte e foto do texto da referência. | **Incompleto** | As metas de usabilidade estão conceituadas no projeto, contudo faltam os registros fotográficos completos dos trechos conceituais da literatura de referência no corpo do artefato. | Pedro Rocha Ferreira Lima |
 | 14 | A razão da seleção das metas de usabilidade? | **Sim** | Justificada na Seção 2.2 e 2.3 do Guia de Estilo com base nas dores identificadas nos testes com usuários, nas quatro personas modeladas e nos cenários de uso (evitar anúncios maliciosos, reduzir tempo de busca, suporte a telas móveis). | Pedro Rocha Ferreira Lima |
-| 15 | O Guia de Estilo do projeto? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando o Guia de Estilo. | **Sim** | Documentado de forma integral em `guia-de-estilo.md`, fundamentado em Barbosa e Silva (2010, p. 282) e Mayhew (1999), com registro fotográfico do trecho conceitual na Figura 1 do artefato. | Leonardo da Silva Lopes Júnior |
+| 15 | O Guia de Estilo do projeto? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando o Guia de Estilo. | **Incompleto** | O Guia de Estilo está documentado em guia-de-estilo.md, porém não apresenta imagens e recortes fotográficos para todas as seções e definições conceituais exigidas. | Leonardo da Silva Lopes Júnior |
 | 16 | O Guia de Estilo do projeto possui a seguinte estrutura canônica: 1. Introdução; 2. Resultados de análise; 3. Elementos de interface; 4. Elementos de interação; 5. Elementos de ação; 6. Vocabulário e padrões? Adicionar referência bibliográfica da fonte e foto do texto da referência. | **Sim** | O artefato segue rigorosamente as 6 seções normativas de Marcus (1992) e Mayhew (1999), com fundamentação e imagem da página 283 de Barbosa e Silva (2010) apresentadas na Figura 2. | Leonardo da Silva Lopes Júnior |
 | 17 | O Guia de Estilo corresponde ao site avaliado? | **Sim** | Totalmente adaptado para a realidade do PCI Concursos, contemplando a tabela de concursos por UF, chips reativos, simulados móveis, player de videoaulas e zona de segurança antitrapaça contra banners de falso download. | Arthur Sismene Carvalho |
 
-<p align="center"><b>Fonte:</b> Equipe Grupo 07 (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -145,7 +144,7 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 | Campo | Registro |
 | :--- | :--- |
 | **Critério** | O Guia de Estilo e as decisões de projeto definem formalmente requisitos de acessibilidade para que a interface não imponha barreiras para a interação e para o acesso à informação, assegurando que usuários com diferentes necessidades e limitações (motoras, visuais, auditivas ou temporárias) possam perceber, compreender e utilizar o sistema sem obstáculos? |
-| **Resposta** | **Sim** |
+| **Resposta** | **Incompleto** |
 | **Data da avaliação** | 09/10/2026 |
 | **Observação** | Documentado nas Seções 2.3 e 3.5 de `guia-de-estilo.md`. Todas as cores da paleta foram auditadas com conformidade WCAG 2.1 AA (4.5:1 para texto e 3:1 para componentes), além de estipular alvos de toque móveis mínimos de 44x44px e compatibilidade semântica para tecnologias assistivas. |
 | **Autor** | Pedro Rocha Ferreira Lima |
@@ -207,7 +206,7 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 | Campo | Registro |
 | :--- | :--- |
 | **Critério** | O Guia de Estilo adota e documenta padrões de design (*design patterns*) como descrições de melhores práticas para solucionar desafios recorrentes de interface, definindo contexto de aplicação, comportamento interativo e solução gráfica dos componentes? |
-| **Resposta** | **Sim** |
+| **Resposta** | **Incompleto** |
 | **Data da avaliação** | 09/10/2026 |
 | **Observação** | Documentado nas Seções 3 e 4 de `guia-de-estilo.md`, estruturando padrões reutilizáveis para cards expansíveis, modais com foco retido, tabs de navegação, chips de filtragem e tabelas responsivas de certames com comportamentos claramente descritos. |
 | **Autor** | Arthur Sismene Carvalho |
@@ -282,3 +281,5 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 | `1.0` | 09/10/2026 | Concepção e elaboração integral da Lista de Verificação da Etapa 3 (22 itens), estruturação da autoavaliação do Grupo 07, fundamentação teórica e síntese dos resultados. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima, Leonardo da Silva Lopes Júnior, Arthur Sismene Carvalho |
 
 </div>
+
+

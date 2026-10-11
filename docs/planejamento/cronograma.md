@@ -1,4 +1,4 @@
-<div align="center" markdown="1">
+﻿<div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
 
@@ -167,7 +167,7 @@ Na Tabela 6, tem-se o registro da execução real das atividades da terceira ent
 | Elaboração do artefato de Guia de Estilo | Início: 05/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
 | Elaboração do artefato de Características da Plataforma | Início: 05/10<br>Fim: 06/10 | Arthur Sismene Carvalho | Início: 06/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior |
 | Gravação da Apresentação da Etapa 3 | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
-| Reunião de Alinhamento e Ata da Etapa 3 | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Verificação e Gravação da Etapa 3 (Grupo 07 e Grupo 08) | Início: 09/10<br>Fim: 10/10 | Daniel da Silva Batista | - | - |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -310,3 +310,5 @@ Na Tabela 12, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.7` | 06/10/2026 | Atualização do Cronograma Planejado e inserção do Cronograma Executado da Etapa 3, com registro dos artefatos de Princípios Gerais de Projeto e Guia de Estilo. | Daniel da Silva Batista, Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
 
 </div>
+
+

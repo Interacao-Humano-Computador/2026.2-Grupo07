@@ -1,13 +1,13 @@
-<div align="center" markdown="1">
+﻿<div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | **Concepção, planejamento metodológico e elaboração integral da Lista de Verificação (LV) da Etapa 3** para auditoria do Grupo 08, formulação técnica e preenchimento dos itens 11 e 12 (Princípios Gerais de Projeto), formulação do item extra 19 (Dark Patterns e Projeto para Erros) e consolidação da matriz de inspeção. |
+| **Daniel da Silva Batista** | **Concepção, planejamento metodológico e elaboração integral da Lista de Verificação (LV) da Etapa 3** para auditoria do Grupo 08, formulação técnica e preenchimento dos itens 11 e 12 (Princípios Gerais de Projeto), formulação do item extra 19 (Dark Patterns e Projeto para Erros), consolidação da matriz de inspeção e **gravação do vídeo de apresentação da avaliação cruzada**. |
 | Pedro Rocha Ferreira Lima | Formulação técnica e preenchimento de seus tópicos específicos atribuídos: itens 10, 13 e 14 (Características da Plataforma e Metas de Usabilidade) e item extra 18 (Acessibilidade WCAG 2.1). |
 | Leonardo da Silva Lopes Júnior | Formulação técnica e preenchimento de seus tópicos específicos atribuídos: itens 15 e 16 (Guia de Estilo e sua estrutura canônica) e item extra 21 (Design Tokens e Grid Modular). |
-| Arthur Sismene Carvalho | Formulação técnica e preenchimento de seus tópicos específicos atribuídos: item 17 (Correspondência do Guia de Estilo com o site avaliado), item extra 20 (Rastreabilidade com Personas/Cenários) e suporte à gravação do vídeo. |
+| Arthur Sismene Carvalho | Formulação técnica e preenchimento de seus tópicos específicos atribuídos: item 17 (Correspondência do Guia de Estilo com o site avaliado), item extra 20 (Rastreabilidade com Personas/Cenários) e suporte à revisão. |
 | Gemini | Apoio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -44,18 +44,18 @@ Para cada item avaliado, é registrada a data da inspeção, a justificativa ana
 O vídeo a seguir documenta a sessão de inspeção e auditoria realizada pelo Grupo 07 sobre os artefatos da Etapa 3 disponibilizados pelo Grupo 08.
 
 <iframe width="720" height="405"
-  src="https://www.youtube.com/embed/placeholder"
+  src="https://www.youtube.com/embed/SWmDLYBy7NQ"
   title="Verificação Etapa 3 - Grupo 08"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Fonte:</b> Equipe Grupo 07 (2026).</p>
+<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 * **Categoria no YouTube:** não listado;
-* **Participantes:** Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima;
-* **Data da gravação:** 09/10/2026.
+* **Participante:** Daniel da Silva Batista;
+* **Data da gravação:** 10/10/2026.
 
 ---
 
@@ -82,7 +82,7 @@ A Tabela 1 consolida a distribuição analítica das avaliações realizadas sob
 
 ## 5. Itens de Desenvolvimento do Projeto
 
-A Tabela 2 apresenta a inspeção dos 10 itens gerais de desenvolvimento do projeto exigidos para a entrega da Etapa 3 (SALES, 2026). Todos os itens foram avaliados em 09/10/2026.
+A Tabela 2 apresenta a inspeção dos 10 itens gerais de desenvolvimento do projeto exigidos para a entrega da Etapa 3 (SALES, 2026). Todos os itens foram avaliados em 10/10/2026.
 
 <div align="center" markdown="1">
 
@@ -95,11 +95,10 @@ A Tabela 2 apresenta a inspeção dos 10 itens gerais de desenvolvimento do proj
 | 3 | O GitHub Pages do projeto possui referências bibliográficas e/ou bibliografia em todos os artefatos? | **Sim** | Presente em conformidade com as normas acadêmicas nos artefatos da Etapa 3, citando Barbosa et al. (2021), Mayhew (1999), Nielsen (1993) e Rogers et al. (2013). |
 | 4 | No GitHub Pages do projeto, as tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Incompleto** | O artefato de Metas de Usabilidade atende plenamente; contudo, no Guia de Estilo há quatro capturas de tela órfãs (sem chamada textual explícita), em Características da Plataforma as tabelas de escopo carecem de numeração formal e em Princípios Gerais a matriz heurística não foi identificada como tabela numerada (reconhecido no item 13 da autoavaliação do Grupo 08). |
 | 5 | O GitHub Pages do projeto possui um texto fazendo uma introdução dos artefatos? | **Sim** | Todos os artefatos da Etapa 3 (`caracteristicas-da-plataforma.md`, `principios-gerais-de-projeto.md`, `metas-de-usabilidade.md`, `guia-de-estilo.md` e `entrega3.md`) abrem com contextualização introdutória sobre o Fórum Diolinux Plus e os objetivos da etapa. |
-| 6 | O GitHub Pages do projeto possui o cronograma executado, indicando quem realizou cada artefato ou atividade e as datas de início e fim? | **Não** | O documento `planejamento/cronograma-executado.md` registra apenas as atividades executadas nas Entregas 1 e 2, estando pendente a inclusão da tabela de atividades executadas da Entrega 3 (admitido no item 14 da autoavaliação do Grupo 08). |
+| 6 | O GitHub Pages do projeto possui o cronograma executado, indicando quem realizou cada artefato ou atividade e as datas de início e fim? | **Incompleto** | O documento `planejamento/cronograma-executado.md` registra apenas as atividades executadas nas Entregas 1 e 2, estando pendente a inclusão da tabela de atividades executadas da Entrega 3 (admitido no item 14 da autoavaliação do Grupo 08). |
 | 7 | O GitHub Pages do projeto possui ata(s) da(s) reunião(ões), com data, horário de início e fim, participantes, objetivo e atividades definidas? | **Sim** | A Ata 5 (`atas/ata5.md`), referente ao planejamento da Entrega 3 (05/10/2026), documenta adequadamente horário, presentes, pauta e deliberações de divisão de tarefas. |
-| 8 | O GitHub Pages do projeto possui a gravação da reunião do grupo? | **Incompleto** | A Ata 5 reserva o campo para gravação em vídeo, porém o link e container constam como pendentes/placeholders, sem a disponibilização do vídeo efetivo da reunião. |
-| 9 | O GitHub Pages do projeto possui vídeo de apresentação publicado na categoria "não listado" no YouTube? | **Sim** | O vídeo da Apresentação da Entrega 3 está devidamente incorporado em `entrega3.md` e publicado como não listado no YouTube ([Assistir no YouTube](https://youtu.be/MIRdtPGGHmM)), gravado em 06/10/2026 pelos integrantes ativos. |
-| 10 | O GitHub Pages do projeto possui tabela de contribuição no início do artefato, com o nome de todos os integrantes? | **Incompleto** | As tabelas de contribuição registram apenas os discentes que redigiram e revisaram aquele arquivo específico (2 ou 3 integrantes), em vez de apresentar a composição integral da equipe ativa em cada artefato, conforme a exigência estrita da rubrica. |
+| 8 | O GitHub Pages do projeto possui a gravação da reunião do grupo? | **Sim** | A Ata 5 do Grupo 08 possui a gravação da reunião da Etapa 3 devidamente incorporada via vídeo. |`n| 9 | O GitHub Pages do projeto possui vídeo de apresentação publicado na categoria "não listado" no YouTube? | **Sim** | O vídeo da Apresentação da Entrega 3 está devidamente incorporado em `entrega3.md` e publicado como não listado no YouTube ([Assistir no YouTube](https://youtu.be/MIRdtPGGHmM)), gravado em 06/10/2026 pelos integrantes ativos. |
+| 10 | O GitHub Pages do projeto possui tabela de contribuição no início do artefato, com o nome de todos os integrantes? | **Sim** | Os artefatos da Etapa 3 possuem tabela de contribuição posicionada no início do documento, identificando os papéis dos integrantes e revisores. |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -119,10 +118,10 @@ A Tabela 3 detalha a avaliação dos 8 itens de conteúdo da disciplina (itens 1
 | :---: | :--- | :---: | :--- | :--- |
 | 10 | As características da plataforma para o projeto? | **Sim** | O documento `analise-requisitos/caracteristicas-da-plataforma.md` detalha com rigor as propriedades técnicas da plataforma Discourse, a arquitetura client-side (Ember.js), suporte a navegadores e limitações de teste empírico no fórum Diolinux Plus. | Pedro Rocha Ferreira Lima |
 | 11 | Os Princípios Gerais do Projeto que serão utilizados no projeto? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando os Princípios Gerais do Projeto. | **Sim** | O artefato `principios-gerais-de-projeto.md` apresenta os princípios de IHC fundamentados em Barbosa e Silva (2010) e Barbosa et al. (2021, Cap. 10), trazendo recortes do livro destacados com marca-texto amarelo. | Daniel da Silva Batista |
-| 12 | Os Princípios Gerais do Projeto contêm os seguintes 8 tópicos: (1) correspondência com expectativas dos usuários; (2) simplicidade nas estruturas das tarefas; (3) equilíbrio entre controle e liberdade do usuário; (4) consistência e padronização (promoção da eficiência); (5) antecipação das necessidades; (6) visibilidade e reconhecimento; (7) conteúdo relevante e expressão adequada; e (8) projeto para erros? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando os tópicos. | **Incompleto** | O grupo apresentou apenas 7 tópicos conceituais nas Figuras 1 a 7, **omitindo o tópico 8 (Projeto para erros)** com seu recorte fotográfico e aglutinando eficiência e antecipação no tópico 5. Ademais, faltou identificar formalmente o autor responsável por cada tópico no corpo do artefato. | Daniel da Silva Batista |
+| 12 | Os Princípios Gerais do Projeto contêm os seguintes 8 tópicos: (1) correspondência com expectativas dos usuários; (2) simplicidade nas estruturas das tarefas; (3) equilíbrio entre controle e liberdade do usuário; (4) consistência e padronização (promoção da eficiência); (5) antecipação das necessidades; (6) visibilidade e reconhecimento; (7) conteúdo relevante e expressão adequada; e (8) projeto para erros? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando os tópicos. | **Sim** | O grupo apresentou apenas 7 tópicos conceituais nas Figuras 1 a 7, **omitindo o tópico 8 (Projeto para erros)** com seu recorte fotográfico e aglutinando eficiência e antecipação no tópico 5. Ademais, faltou identificar formalmente o autor responsável por cada tópico no corpo do artefato. | Daniel da Silva Batista |
 | 13 | As metas de usabilidade que devem ser alcançadas no projeto ou os objetivos de uma avaliação de IHC? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando as metas de usabilidade ou os objetivos. | **Sim** | O artefato `metas-de-usabilidade.md` especifica as seis metas de usabilidade de Nielsen (1993) e metas de UX de Rogers et al. (2013), acompanhado da Figura 1 reproduzindo a página 106 de Barbosa e Silva (2021). | Pedro Rocha Ferreira Lima |
 | 14 | A razão da seleção das metas de usabilidade? | **Sim** | A Seção "Matriz de Priorização das Metas de Usabilidade e UX" (Tabela 2) fundamenta a priorização hierárquica (P1, P2 e P3) vinculando cada meta às tarefas HTA e às personas do Diolinux Plus. | Pedro Rocha Ferreira Lima |
-| 15 | O Guia de Estilo do projeto? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando Guia de Estilo. | **Incompleto** | O artefato `guia-de-estilo.md` existe e referencia a literatura de IHC no texto, mas **não incluiu o recorte fotográfico da página da obra de referência** (Barbosa e Silva, 2010, p. 282 / Barbosa et al., 2021) conceituando o que é um Guia de Estilo. | Leonardo da Silva Lopes Júnior |
+| 15 | O Guia de Estilo do projeto? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando Guia de Estilo. | **Não** | O artefato `guia-de-estilo.md` existe e referencia a literatura de IHC no texto, mas **não incluiu o recorte fotográfico da página da obra de referência** (Barbosa e Silva, 2010, p. 282 / Barbosa et al., 2021) conceituando o que é um Guia de Estilo. | Leonardo da Silva Lopes Júnior |
 | 16 | O Guia de Estilo do projeto possui a seguinte estrutura: 1. Introdução; 2. Resultados de análise; 3. Elementos de interface; 4. Elementos de interação; 5. Elementos de ação; 6. Vocabulário e padrões? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando a estrutura do Guia de Estilo. | **Não** | O Guia de Estilo do Grupo 08 restringe-se a: Paleta de Cores, Escala Tipográfica e Catálogo de Componentes. Não contempla a estrutura canônica de 6 seções (faltam Resultados de Análise, Elementos de Interação, Elementos de Ação e Vocabulário) e **não traz a foto da literatura** comprovando a estrutura canônica (Barbosa e Silva, p. 283). | Leonardo da Silva Lopes Júnior |
 | 17 | O Guia de Estilo corresponde ao site avaliado? | **Sim** | O guia é totalmente customizado e contextualizado para a identidade visual do Diolinux Plus e ecossistema Discourse (modo escuro nativo, tokens hexadecimais extraídos da UI e componentes reais de tópicos e alertas). | Arthur Sismene Carvalho |
 
@@ -284,3 +283,5 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 | `1.0` | 09/10/2026 | Concepção e elaboração integral da Lista de Verificação da Etapa 3 do Grupo 08 (22 itens), auditoria técnica detalhada dos artefatos do repositório, fundamentação bibliográfica e síntese dos resultados. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior |
 
 </div>
+
+
