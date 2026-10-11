@@ -7,7 +7,7 @@
 | Daniel da Silva Batista | Estruturação dos dois métodos de coleta (análise documental e entrevistas), elaboração da matriz individual (DOC-01 a DOC-05 e USR-01 a USR-05), detalhamento de DOC-01, condução e registro da [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY), tabela síntese dos perfis e roteiro unificado. |
 | Arthur Sismene Carvalho | Estruturação dos dados demográficos, revisão do roteiro de validação de tarefas e elaboração integral da Análise Documental `DOC-03` (INEP, ABRES e IBGE), com inspeção da arquitetura de informação do portal e levantamento da lacuna funcional de estágios. |
 | João Vitor Sales Ibiapina | Definição dos critérios de acessibilidade e caracterização do perfil com foco em vagas especiais e idosos. |
-| Leonardo da Silva Lopes Júnior | Elaboração integral da Análise Documental DOC-04 (Cetic.br/TIC Domicílios, Censo EAD.BR e Comscore), identificação de requisitos para videoaulas e alertas de vagas e revisão metodológica. |
+| Leonardo da Silva Lopes Júnior | Elaboração integral da Análise Documental DOC-04 (Cetic.br/TIC Domicílios, Censo EAD.BR e Comscore), identificação de requisitos para videoaulas e alertas de vagas, estruturação da Seção 6 de delimitação e enriquecimento do escopo funcional de IHC (Issue #14) e revisão metodológica. |
 | Pedro Rocha Ferreira Lima | Definição dos critérios de agrupamento dos perfis, elaboração da Análise Documental DOC-02 (Painel Estatístico de Pessoal e DODF) e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
@@ -347,20 +347,54 @@ Para padronizar a coleta empírica entre os 5 integrantes do grupo, foi estabele
 
 ---
 
+## 6. Delimitação e Enriquecimento do Escopo Funcional de IHC
+
+Em consonância com as orientações do docente da disciplina (SALES, 2026) e seguindo as boas práticas consolidadas na literatura de Engenharia de Usabilidade (BARBOSA; SILVA, 2010; DIAPER, 2003; MAYHEW, 1999) — a exemplo da metodologia de delimitação adotada pelo Grupo 06 —, a análise de IHC não deve limitar-se à inspeção de fluxos meramente operacionais ou superficiais (como a simples visualização de textos, download passivo de arquivos em PDF ou seleções triviais de menus). 
+
+Para que a avaliação e o subsequente reprojeto ofereçam valor ergonômico substancial, o Grupo 07 estabeleceu a **delimitação e o enriquecimento do escopo funcional** em **três camadas de complexidade ergonômica**:
+
+1. **Camada 1 — Acesso e Consulta Básica:** Engloba tarefas operacionais de recuperação da informação, como a busca textual por palavras-chave (`TAR-01`), o download de cadernos de provas e gabaritos em PDF (`TAR-02`) e a filtragem macro por macrorregiões geográficas (`TAR-03`). Embora essenciais, essas tarefas representam a camada transacional de entrada do portal;
+2. **Camada 2 — Interação e Engajamento Cognitivo Rico:** Constitui o núcleo propositivo deste projeto de IHC, demandando processamento de regras de negócio, persistência de dados, ciclos iterativos e feedback bidirecional contínuo em tempo real entre o usuário e o sistema:
+   * **`TAR-04` — Cronograma Visual e Timeline Interativa de Fases do Certame:** Supera a leitura linear e estática de notícias ao estruturar uma linha do tempo gráfica e dinâmica com todas as fases do concurso (Inscrição $\rightarrow$ Isenção de Taxa $\rightarrow$ Homologação $\rightarrow$ Prova Objetiva $\rightarrow$ Gabaritos $\rightarrow$ Recursos $\rightarrow$ Resultados), incorporando contagem regressiva em tempo real (*countdown timer*), destaque semântico obrigatório para retificações de edital (`[⚠️ Retificação Publicada em DD/MM]`) e exportação direta de datas para calendários pessoais (Google Agenda, Apple Calendar, formato `.ics`);
+   * **`TAR-05` — Sistema de Simulados Online Interativo com Feedback Automático de Gabarito:** Transforma o mero repositório textual de perguntas em um motor interativo de avaliação cognitiva. Permite parametrização de simulados (disciplina, banca, volume de questões, modo cronometrado com contagem regressiva), resolução ergonômica adaptada para smartphones (alvos de toque $\ge 48\text{px}$), feedback formativo imediato por alternativa, gabarito oficial comentado e geração de relatório estatístico final de desempenho (taxa de acertos, tempo médio por questão e histórico persistente com resiliência a oscilações de conexão — *Zero Data Loss*);
+   * **`TAR-08` — Central de Alertas Inteligentes e Parametrizados por E-mail:** Rompe com a prática invasiva de newsletters generalistas e ruidosas (*spam*) ao fornecer um configurador avançado de notificações com filtros multicritério (região geográfica com foco prioritário no DF, área profissional/carreira, nível de escolaridade e faixa salarial), periodicidade ajustável (instantânea, diária ou semanal), validação sintática em tempo real no cliente, dupla confirmação de consentimento (*Double Opt-In*) e painel autônomo de gestão e cancelamento granular com 1 clique, em estrita conformidade com a Lei Geral de Proteção de Dados (LGPD).
+3. **Camada 3 — Proposição de Novas Capacidades e Inclusão:** Focada na superação de lacunas funcionais críticas diagnosticadas na arquitetura de informação do portal:
+   * **`TAR-06` — Central de Oportunidades de Estágio de Nível Superior:** Reprojeto com desambiguação semântica no motor de busca (*"estágio curricular"* versus *"estágio probatório"*) e catálogo dedicado a universitários (`PER-03`);
+   * **`TAR-07` — Plataforma Pedagógica com Modo Foco e Trilhas Didáticas em Videoaulas:** Player educacional responsivo com eliminação de sobreposição de anúncios (*Modo Foco*), trilhas sequenciais de estudo e download integrado de material esquemático em PDF;
+   * **`TAR-09` — Módulo de Reserva de Vagas e Acessibilidade:** Filtragem dedicada e transparente para cotas e pessoas com deficiência (PcD).
+
+A Tabela 4 a seguir sintetiza a evolução do escopo da equipe, evidenciando como a abordagem do Grupo 07 transcende tarefas operacionais rasas em favor de um ecossistema interativo robusto:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 4: Comparativo de Escopo: Tarefas Operacionais Básicas vs. Funcionalidades Enriquecidas de IHC</b></p>
+
+| Tarefa / Funcionalidade | Escopo Básico / Operacional Raso | Escopo Enriquecido e Propositivo de IHC (Grupo 07) | Impacto Ergonômico e Cognitivo |
+| :--- | :--- | :--- | :--- |
+| **Acompanhamento de Prazos (`TAR-04`)** | Leitura estática de texto corrido em notícias do edital; retificações ocultas no rodapé sem destaque. | **Cronograma Visual e Timeline Interativa de Fases:** Linha do tempo gráfica, alertas visuais de retificação, contadores regressivos e exportação para agenda (.ics). | Elimina a perda de prazos de inscrição e datas de prova por falta de visibilidade temporal. |
+| **Simulados de Questões (`TAR-05`)** | Leitura corrida de páginas longas de questões, sem filtro de quantidade, sem temporizador e sem pontuação ao final. | **Sistema de Simulados Online Interativo:** Parametrização por banca/matéria, cronômetro regressivo, feedback imediato de gabarito comentado, áreas de toque de 48px e relatório de desempenho. | Proporciona diagnóstico formativo do aprendizado com suporte a estudo móvel resiliente (*Zero Data Loss*). |
+| **Alertas de Oportunidades (`TAR-08`)** | Formulário genérico com campo único de e-mail; envio massivo de prefeituras de todo o país sem segmentação (*spam*). | **Central de Alertas Inteligentes e Parametrizados:** Filtros multicritério por UF/DF, carreira e escolaridade, validação em tempo real, *Double Opt-In* e conformidade com a LGPD. | Reduz drasticamente a sobrecarga cognitiva e garante entrega cirúrgica de certames do interesse do candidato. |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+---
+
 ## 7. Registro e Comprovação das Entrevistas Gravadas
 
 A tabela a seguir consolida o registro das sessões gravadas por cada um dos integrantes da equipe. Cada entrevistador é responsável por recrutar o usuário e escolher o perfil (Perfil 1, 2 ou 3) a ser investigado em sua sessão individual, documentando os dados empíricos após a condução da entrevista:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 4: Registro de Gravações de Entrevistas com Usuários Reais</b></p>
+<p align="center"><b>Tabela 5: Registro de Gravações de Entrevistas com Usuários Reais</b></p>
 
 | Entrevistador | Código do Entrevistado | Perfil Escolhido pelo Entrevistador | Tarefas Avaliadas | Data da Sessão | Duração | Link da Gravação |
 | :--- | :---: | :---: | :--- | :---: | :---: | :--- |
 | **Daniel da Silva Batista** | `USR-01` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | 25/09/2026 | 06 min 19 s | [Vídeo da Entrevista (USR-01)](https://youtu.be/YkYvCZDidaY) |
-| **Pedro Rocha Ferreira Lima** | `USR-02` | Perfil 1: Estudante Universitário / Iniciante e Recém-formado | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Consulta a retificações e prazos | 27/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-02](#52-analise-documental-02-responsavel-pedro-rocha-ferreira-lima) |
-| **Arthur Sismene Carvalho** | `USR-03` | Perfil 1: Estudante Universitário / Iniciante | **Tarefa 05:** Simulado de questões online<br>**Tarefa 06:** Busca de vagas de estágio no DF | 27/09/2026 | N/A (Método Sem Usuário) | *Vídeo não disponível* — ver [Análise Documental DOC-03](#53-analise-documental-03-responsavel-arthur-sismene-carvalho) |
-| **Leonardo da Silva Lopes Júnior** | `USR-04` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 07:** Videoaulas e dicas de disciplinas<br>**Tarefa 08:** Cadastro de alerta de concursos por e-mail | 28/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-04](#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) |
+| **Pedro Rocha Ferreira Lima** | `USR-02` | Perfil 1: Estudante Universitário / Iniciante e Recém-formado | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Cronograma visual e timeline interativa de fases do certame | 27/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-02](#52-analise-documental-02-responsavel-pedro-rocha-ferreira-lima) |
+| **Arthur Sismene Carvalho** | `USR-03` | Perfil 1: Estudante Universitário / Iniciante | **Tarefa 05:** Simulado online interativo com feedback automático de gabarito<br>**Tarefa 06:** Busca de vagas de estágio no DF | 27/09/2026 | N/A (Método Sem Usuário) | *Vídeo não disponível* — ver [Análise Documental DOC-03](#53-analise-documental-03-responsavel-arthur-sismene-carvalho) |
+| **Leonardo da Silva Lopes Júnior** | `USR-04` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 07:** Videoaulas e dicas didáticas de disciplinas<br>**Tarefa 08:** Alertas inteligentes de editais por e-mail com filtros avançados | 28/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-04](#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) |
 | **João Vitor Sales Ibiapina** | `USR-05` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 09:** Consulta a vagas reservadas / PcD<br>**Tarefa 10:** Acompanhamento de convocações | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
@@ -407,6 +441,7 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | `1.6` | 28/09/2026 | Elaboração e integração da Análise Documental DOC-04 com dados da TIC Domicílios (Cetic.br), Censo EAD.BR (ABED) e Comscore, derivação dos requisitos RF-DOC-05 a RF-DOC-07 e RNF-DOC-04/05 e atualização da Tabela 4. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.7` | 04/10/2026 | Reestruturação dos 3 Perfis de Usuário do Sistema (Candidato, Publicador e Administrador) na Tabela 1 e inclusão da delimitação formal de escopo (Issue #10). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.8` | 04/10/2026 | Inclusão de Foco da Investigação e Perguntas de Pesquisa em DOC-01 a DOC-04, substituição de listas de requisitos por embasamento empírico de IHC e atualização da matriz documental (Issue #13). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.9` | 06/10/2026 | Inclusão da Seção 6 formal de Delimitação e Enriquecimento do Escopo Funcional de IHC em 3 camadas ergonômicas, superando tarefas rasas com simulados online interativos, timeline visual e alertas inteligentes (Issue #14). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

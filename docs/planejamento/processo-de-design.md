@@ -9,7 +9,7 @@
 | Pedro Rocha Ferreira Lima | Revisão técnica do alinhamento do processo com o cronograma de entregas. |
 | Gemini | Auxílio na revisão textual e padronização em Markdown (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
