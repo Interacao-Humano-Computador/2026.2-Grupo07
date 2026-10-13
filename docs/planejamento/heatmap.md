@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho | Elaboração do Heatmap de disponibilidade da equipe e redação da análise de horários. |
-| Leonardo da Silva Lopes Júnior | Revisão do artefato e validação dos horários da equipe. |
-| Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Preenchimento individual da grade de horários disponíveis. |
-| Gemini | Auxílio na formatação Markdown e revisão do texto (conforme Política de IA). |
+| Arthur Sismene Carvalho | [Elaboração do Heatmap de disponibilidade da equipe e redação da análise de horários](#2-heatmap) |
+| Leonardo da Silva Lopes Júnior | [Revisão do artefato e validação dos horários da equipe](#3-analise-da-disponibilidade) |
+| Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | [Preenchimento individual da grade de horários disponíveis](#1-introducao) |
+| Gemini | Apoio na formatação Markdown e conformidade estrutural (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -19,11 +19,11 @@
 
 Para viabilizar o agendamento das reuniões síncronas da equipe ao longo do semestre, foi construído um **Heatmap (mapa de calor) de disponibilidade**, consolidando os horários livres de todos os integrantes do grupo.
 
-Cada um dos 5 membros preencheu individualmente os seus horários disponíveis em uma ferramenta online de agendamento colaborativo. A sobreposição das respostas gera o mapa de calor: quanto **mais escura** a tonalidade de verde, **maior o número de integrantes disponíveis** naquele horário; células em branco indicam ausência total de disponibilidade.
+Os membros preencheram individualmente seus horários disponíveis em ferramenta colaborativa online. A sobreposição das respostas gera o mapa de calor: quanto **mais escura** a tonalidade de verde, **maior o número de integrantes disponíveis** naquele horário; células em branco indicam ausência de disponibilidade comum.
 
 ## 2. Heatmap
 
-A Figura 1 apresenta o mapa de calor consolidado com as respostas de todos os integrantes (5/5).
+A Figura 1 apresenta o mapa de calor consolidado com as disponibilidades dos membros da equipe.
 
 <div align="center" markdown="1">
 
@@ -44,6 +44,14 @@ A partir da leitura do mapa de calor, a equipe identificou os seguintes pontos:
 * **Horários diurnos viáveis:** destacam-se ainda a **segunda-feira pela manhã (08:00 às 10:00)**, a **quarta-feira à tarde (15:00 às 16:00)** e a **sexta-feira (10:00 às 11:00 e 17:00 às 18:00)**.
 * **Horários a evitar:** a faixa próxima às **19:00** (domingo, segunda e quarta) e o **sábado entre 13:30 e 14:30** apresentam lacunas de disponibilidade e não devem ser utilizados para reuniões.
 
+---
+
+## Referências Bibliográficas
+
+> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.
+
+---
+
 ## 4. Histórico de Versões
 
 <div align="center" markdown="1">
@@ -52,5 +60,6 @@ A partir da leitura do mapa de calor, a equipe identificou os seguintes pontos:
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 06/09/2026 | Construção do Heatmap de Disponibilidade da equipe e análise dos melhores horários de reunião. | Arthur Sismene Carvalho | Leonardo da Silva Lopes Júnior |
 | `1.1` | 17/09/2026 | Adição da Tabela de Contribuição, padronização da IA Gemini e atualização da fonte da figura. | Leonardo da Silva Lopes Júnior | Arthur Sismene Carvalho |
+| `1.2` | 09/10/2026 | Atendimento às observações do monitor (OBS 7, 10, 11 e 12): inclusão de referências bibliográficas, agradecimentos e hiperligações na tabela de contribuição. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 
 </div>

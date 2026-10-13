@@ -6,7 +6,6 @@
 | :--- | :--- |
 | Daniel da Silva Batista | Redação da introdução, dos princípios bioéticos, fundamentação regulamentar (CNS e LGPD) e elaboração do modelo de TCLE com consentimento de gravação. |
 | Arthur Sismene Carvalho | Revisão textual e conformidade das cláusulas de consentimento com a pesquisa de campo. |
-| João Vitor Sales Ibiapina | Revisão das diretrizes éticas e conformidade com o termo de consentimento livre e esclarecido. |
 | Leonardo da Silva Lopes Júnior | Revisão da adequação às diretrizes da disciplina de IHC. |
 | Pedro Rocha Ferreira Lima | Revisão técnica e validação dos direitos do participante e anonimização de dados. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
@@ -90,9 +89,9 @@ Caso tenha dúvidas sobre a pesquisa ou deseje revogar o seu consentimento a qua
 
 ---
 
-## 5. Bibliografia
+## 5. Referências Bibliográficas
 
-> BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
 > BRASIL. *Resolução nº 466, de 12 de dezembro de 2012*. Conselho Nacional de Saúde. Brasília, DF, 2012.  
 > BRASIL. *Resolução nº 510, de 7 de abril de 2016*. Conselho Nacional de Saúde. Brasília, DF, 2016.  
 > BRASIL. *Lei nº 13.709, de 14 de agosto de 2018*. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União, Brasília, DF, 2018.
@@ -105,5 +104,6 @@ Caso tenha dúvidas sobre a pesquisa ou deseje revogar o seu consentimento a qua
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/09/2026 | Criação do artefato de Aspectos Éticos, fundamentação na bioética/CNS/LGPD e modelo oficial de TCLE com consentimento de gravação. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 21/09/2026 | Adequação estrita ao Cap. 5 de Barbosa e Silva (2010), definindo a responsabilidade direta dos alunos pesquisadores na condução e guarda dos dados. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.2` | 09/10/2026 | Atualização da Tabela de Contribuição para os membros ativos e adequação das Referências Bibliográficas segundo as normas da ABNT. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>

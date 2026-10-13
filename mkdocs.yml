@@ -1,4 +1,4 @@
-﻿site_name: IHC - PCI Concursos
+site_name: IHC - PCI Concursos
 site_description: DocumentaÃ§Ã£o do projeto da disciplina de InteraÃ§Ã£o Humano-Computador (FGA-UnB) - AnÃ¡lise e Reprojeto do PCI Concursos
 site_author: Equipe Grupo 07 - IHC
 site_url: https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/
@@ -83,3 +83,4 @@ nav:
       - Etapa 3 – Grupo 08 (Grupo +1): apresentacao/verificacao-etapa-3-grupo-08.md
   - Apresentações:
       - Apresentação 1: apresentacao/apresentacao-1.md
+      - Apresentação 3: apresentacao/apresentacao-3.md

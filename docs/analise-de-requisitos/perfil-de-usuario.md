@@ -4,11 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Estruturação dos dois métodos de coleta (análise documental e entrevistas), elaboração da matriz individual (DOC-01 a DOC-05 e USR-01 a USR-05), detalhamento de DOC-01, condução e registro da [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY), tabela síntese dos perfis e roteiro unificado. |
+| Daniel da Silva Batista | Estruturação dos dois métodos de coleta (análise documental e entrevistas), elaboração da matriz individual (DOC-01 a DOC-04 e USR-01 a USR-04), detalhamento de DOC-01, condução e registro da [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY), tabela síntese dos perfis e roteiro unificado. |
 | Arthur Sismene Carvalho | Estruturação dos dados demográficos, revisão do roteiro de validação de tarefas e elaboração integral da Análise Documental `DOC-03` (INEP, ABRES e IBGE), com inspeção da arquitetura de informação do portal e levantamento da lacuna funcional de estágios. |
-| João Vitor Sales Ibiapina | Definição dos critérios de acessibilidade e caracterização do perfil com foco em vagas especiais e idosos. |
 | Leonardo da Silva Lopes Júnior | Elaboração integral da Análise Documental DOC-04 (Cetic.br/TIC Domicílios, Censo EAD.BR e Comscore), identificação de requisitos para videoaulas e alertas de vagas, estruturação da Seção 6 de delimitação e enriquecimento do escopo funcional de IHC (Issue #14) e revisão metodológica. |
-| Pedro Rocha Ferreira Lima | Definição dos critérios de agrupamento dos perfis, elaboração da Análise Documental DOC-02 (Painel Estatístico de Pessoal e DODF) e revisão técnica geral. |
+| Pedro Rocha Ferreira Lima | Definição dos critérios de agrupamento dos perfis, detalhamento dos 3 perfis e papéis distintos do sistema (Candidato, Publicador, Administrador), elaboração da Análise Documental DOC-02 (Painel Estatístico de Pessoal e DODF) e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -36,12 +35,14 @@ A caracterização do perfil apoia-se nas diretrizes teóricas de Hackos e Redis
 
 1. **Dados Demográficos e Faixa Etária:** Jovens/estudantes (18 a 25 anos), adultos e candidatos maduros (26 a 55 anos) e candidatos seniores (56+ anos), considerando escolaridade, ocupação profissional e demandas visuais e cognitivas.
 2. **Nível de Experiência e Competências:** Varia de candidatos *leigos/iniciantes* a concurseiros *experientes/especialistas*, avaliando a familiaridade com termos burocráticos de editais, bancas e normas jurídicas.
-3. **Atitudes Frente à Tecnologia:** Comportamento entre *tecnófilos* (alta agilidade, atalhos de teclado e exploração autônoma) e *tecnófobos* (insegurança com downloads de arquivos, navegação cautelosa e aversão a propagandas enganosas).
+3. **Atitudes Frente à Tecnologia (Tecnófilos vs. Tecnófobos):** Conforme Barbosa e Silva (2010, p. 175), os usuários apresentam atitudes marcadamente distintas em relação ao uso de sistemas computacionais:
+    * **Tecnófilos:** Usuários receptivos e entusiastas da inovação tecnológica, que exploram a interface por tentativa e erro, utilizam atalhos de busca rápida, têm facilidade em lidar com múltiplos formatos de arquivos e exigem alta eficiência de interação.
+    * **Tecnófobos:** Usuários que apresentam receio, cautela extrema ou ansiedade no uso de ferramentas digitais. Têm medo de cometer erros irreparáveis ou de baixar vírus/softwares maliciosos (situação crítica no portal PCI Concursos devido aos banners publicitários que imitam botões de download de editais), necessitam de instruções claras, vocabulário simples e feedback visual imediato para cada ação realizada.
 4. **Tarefas Primárias no Sistema:** Atividades centrais de busca de editais por órgãos/regiões, consulta de cronogramas, realização de simulados e download de provas e gabaritos oficiais em PDF.
 
 Esses atributos subsidiam a consolidação dos perfis sintetizados a seguir.
 
-## 4. Tabela Síntese dos Perfis de Usuário do Sistema
+## 4. Síntese e Caracterização dos Três Perfis de Usuário do Sistema
 
 A partir da análise holística do domínio do portal **PCI Concursos**, foram consolidados **três perfis de usuário do sistema**, abrangendo tanto os usuários finais quanto os atores responsáveis pela operação e sustentação do portal, conforme estruturado na Tabela 1 segundo o modelo de Barbosa e Silva (2010, p. 178, Exemplo 8.1):
 
@@ -58,6 +59,7 @@ A partir da análise holística do domínio do portal **PCI Concursos**, foram c
 | **Ocupação Típica** | Estudantes, recém-formados, empregados CLT, servidores e autônomos | Redator web, analista de conteúdo, estagiário de curadoria de certames | Administrador de sistemas (SysAdmin), desenvolvedor ou gestor de tráfego |
 | **Atividades Principais** | Pesquisar editais por palavra-chave/órgão, filtrar vagas regionais, baixar cadernos de provas e gabaritos em PDF e resolver simulados | Realizar triagem diária em diários oficiais (DOU, DODF, DOE), cadastrar novos concursos, anexar retificações e atualizar prazos de inscrição | Gerenciar servidores e banco de dados, monitorar métricas de audiência, moderar fóruns/comentários e configurar inventário de publicidade |
 | **Experiência Tecnológica** | Moderada a alta (uso rotineiro de navegadores móveis e desktop) | Alta (habilidade com painéis administrativos, CMS, digitação ágil e web) | Avançada (experiência profunda em infraestrutura, redes e segurança) |
+| **Atitude Frente à Tecnologia** | **Heterogêneo (Tecnófobos a Tecnófilos moderados):** Concentra desde concurseiros maduros/iniciantes com traços *tecnófobos* (insegurança diante de propagandas invasivas e receio de downloads maliciosos) até jovens universitários *tecnófilos* (busca de atalhos e alta produtividade). | **Tecnófilo Moderado:** Familiarizado com tecnologias de curadoria de conteúdo, sistemas CMS e ferramentas digitais de publicação. | **Tecnófilo Avançado:** Alta afinidade e naturalidade técnica com arquiteturas de servidores, métricas web e ferramentas de backend. |
 | **Conhecimento do Domínio** | Variável (desde iniciantes até concurseiros experientes) | Avançado (amplo conhecimento da legislação de certames e diários oficiais) | Técnico (focado na arquitetura do portal, CDN e disponibilidade de links) |
 | **Frequência de Acesso** | Diária a semanal (guiada pelo calendário de certames e rotina de estudos) | Contínua durante a jornada de trabalho (alimentação em tempo real) | Diária (monitoramento contínuo de disponibilidade e picos de acessos) |
 | **Dispositivo Principal** | Smartphones pessoais, notebooks e computadores de trabalho | Computadores desktop com múltiplos monitores na estação de trabalho | Computadores de mesa (estações de trabalho técnicas) e servidores |
@@ -67,7 +69,30 @@ A partir da análise holística do domínio do portal **PCI Concursos**, foram c
 
 </div>
 
-> **Nota de Delimitação do Escopo:** Em consonância com as diretrizes da disciplina de Interação Humano-Computador e as instruções do docente, embora o sistema envolva os três perfis de usuários mapeados acima, o presente projeto concentrará seus esforços de **análise empírica, elicitação de requisitos, modelagem de personas, cenários e reprojeto de interface estritamente no Perfil 1 (Candidato / Concurseiro)**. Essa escolha justifica-se pelo fato de os candidatos constituírem a imensa maioria dos usuários ativos e os maiores impactados pelas barreiras de usabilidade e acessibilidade do portal.
+### 4.1 Perfil 1: Candidato / Concurseiro (Consumidor Final de Oportunidades)
+
+O **Perfil 1** representa o usuário final externo do portal PCI Concursos. Seu papel primário é o **consumo de informações de certames e recursos de estudo**. Este perfil engloba cidadãos que buscam ativamente a aprovação em concursos públicos, processos seletivos simplificados ou seleções de estágio. 
+
+* **Comportamento e Necessidades:** Acessa o site sob diferentes estados emocionais (ansiedade por editais iminentes, urgência em consultar resultados ou rotina metódica de resolução de questões). Suas tarefas centrais envolvem filtrar oportunidades geográficas, localizar editais oficiais, realizar download de provas anteriores e gabaritos em PDF e receber comunicados de retificação.
+* **Atitude Tecnológica:** Apresenta perfil marcadamente híbrido. Enquanto candidatos jovens (18 a 25 anos) comportam-se como tecnófilos habituados ao uso móvel, candidatos adultos e seniores (35 a 55+ anos) exibem traços tecnófobos, demandando comandos explícitos, fontes legíveis e interfaces livres de armadilhas publicitárias (*dark patterns*).
+
+### 4.2 Perfil 2: Publicador / Alimentador de Editais (Operador Interno de Conteúdo)
+
+O **Perfil 2** corresponde ao usuário operacional interno responsável pela **curadoria, triagem e inserção contínua de conteúdos no portal**. Este ator conecta o ecossistema de órgãos públicos e bancas examinadoras aos candidatos.
+
+* **Comportamento e Necessidades:** Realiza varreduras diárias em diários oficiais (DOU, DODF, Diários Municipais e Estaduais) e nos portais das bancas organizadoras (Cebraspe, FGV, FCC, Instituto Mais, etc.). Suas tarefas consistem em cadastrar novos certames, categorizar vagas por nível de escolaridade e remuneração, anexar retificações e manter prazos atualizados em tempo real.
+* **Atitude Tecnológica:** Tecnófilo moderado a experiente, habituado a operar sistemas de gerenciamento de conteúdo (CMS), formulários extensos e múltiplas abas de navegação. Demanda recursos de produtividade, como preenchimento automatizado de metadados, validação de duplicidade e indexação rápida de anexos em PDF.
+
+### 4.3 Perfil 3: Administrador / Gestor do Portal (Gestão Técnica e Infraestrutura)
+
+O **Perfil 3** engloba a equipe técnica e de negócios responsável pela **estabilidade operacional, segurança da informação, arquitetura de servidores e monetização do portal PCI Concursos**.
+
+* **Comportamento e Necessidades:** Gerencia a infraestrutura de hospedagem e redes de distribuição de conteúdo (CDN) para suportar picos de tráfego maciços em dias de abertura de grandes certames nacionais. Monitora métricas de audiência, modera fóruns de discussão e gerencia a inserção de inventários publicitários (Google AdSense e anunciantes diretos), equilibrando a receita do portal com a estabilidade de navegação.
+* **Atitude Tecnológica:** Tecnófilo avançado (administradores de sistemas, engenheiros de software e analistas de infraestrutura), com amplo domínio de arquiteturas cliente-servidor, segurança contra raspagem de dados (*anti-scraping*) e painéis analíticos complexos.
+
+### 4.4 Delimitação de Escopo de Design e Foco do Reprojeto de IHC
+
+> **Nota de Delimitação do Escopo:** Em estrita observância às diretrizes da disciplina de Interação Humano-Computador e às orientações do docente, embora o ecossistema do PCI Concursos englobe os três perfis de usuários mapeados acima, o presente projeto concentrará seus esforços de **análise empírica, elicitação de requisitos, modelagem de personas, cenários e reprojeto de interface estritamente no Perfil 1 (Candidato / Concurseiro)**. Essa decisão metodológica justifica-se pelo fato de os candidatos constituírem a imensa maioria dos usuários ativos e os atores diretamente prejudicados pelas barreiras de usabilidade, acessibilidade e poluicão visual do portal.
 
 ---
 
@@ -87,7 +112,6 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
 | **Pedro Rocha Ferreira Lima** | `DOC-02` | • [*Painel Estatístico de Pessoal* (PEP/MGI, 2024)](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/painel-estatistico-de-pessoal-pep)<br>• [*Diário Oficial do DF* (DODF, 2024)](https://dodf.df.gov.br/) | Concentração regional no Centro-Oeste/DF e dinâmica de retificações de editais (TAR-03 e TAR-04) | 27/09/2026 | • Mais de 65% das vagas do Centro-Oeste concentram-se no DF e RIDE.<br>• ~80% dos editais sofrem retificação nas 3 primeiras semanas.<br>• Necessidade de filtro dedicado por UF e selo visual de retificação. |
 | **Arthur Sismene Carvalho** | `DOC-03` | • [*Censo da Educação Superior* (INEP/MEC, 2024)](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior)<br>• [*Estatísticas de Estágio* (ABRES, 2025)](https://abres.org.br/estatisticas/)<br>• [*PNAD Contínua Trimestral* (IBGE, 1º tri. 2026)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html) | Perfil do estudante-concurseiro de 18 a 25 anos: estudo mediado por tela, escassez estrutural de estágio e precariedade de entrada no mercado (TAR-05 e TAR-06) | 27/09/2026 | • EAD ultrapassa o presencial: 50,7% das matrículas de graduação.<br>• Apenas 6% dos 20,1 milhões de estudantes aptos conseguem estagiar.<br>• Desocupação de ~14% na faixa de 18 a 24 anos, contra 6,1% nacional.<br>• Informalidade acima de 45% nessa mesma faixa etária. |
 | **Leonardo da Silva Lopes Júnior** | `DOC-04` | • [*TIC Domicílios 2024* (Cetic.br/NIC.br)](https://cetic.br/pt/pesquisa/domicilios/)<br>• [*Censo EAD.BR 2023/2024* (ABED)](https://www.abed.org.br/site/pt/midiateca/censo_ead/)<br>• [*Relatório de Comunicação Digital* (Comscore, 2024)](https://www.comscore.com/) | Hábitos de consumo de videoaulas em dispositivos móveis e canais de alertas/newsletter de concursos (TAR-07 e TAR-08) | 28/09/2026 | • 82% dos internautas assistem a vídeos/tutoriais educativos online.<br>• 62% acessam predominantemente por smartphone.<br>• Microlearning (10 a 20 min) eleva retenção em 35% com material de apoio.<br>• E-mail é canal prioritário de alerta formal para 68% dos concurseiros. |
-| **João Vitor Sales Ibiapina** | `DOC-05` | *A definir pelo responsável* | Foco a definir (TAR-09 e TAR-10) | A definir | *A preencher pelo integrante após condução da análise documental.* |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026), a partir de dados públicos do IPEA, IBGE, MGI e GDF.</p>
 
@@ -315,18 +339,9 @@ A investigação estruturou-se em três etapas:
 
 ---
 
-### 5.5 Análise Documental 05 — *Responsável: João Vitor Sales Ibiapina*
-
-* **Código da Análise:** `DOC-05`
-* **Integrante Responsável:** João Vitor Sales Ibiapina
-* **Tarefas de IHC Vinculadas:** `TAR-09` (Consulta a vagas reservadas / PcD) e `TAR-10` (Acompanhamento de convocações)
-* **Status da Investigação:** *Aguardando realização pelo integrante (seguir a estrutura em 5 tópicos e a metodologia demonstrada em DOC-01 acima).*
-
----
-
 ## 6. Método Com Usuário: Roteiro Guia Unificado para as Entrevistas Gravadas
 
-Para padronizar a coleta empírica entre os 5 integrantes do grupo, foi estabelecido o roteiro semiestruturado de 10 a 15 minutos apresentado na Tabela 3, a ser aplicado na sessão remota ou presencial gravada com o usuário:
+Para padronizar a coleta empírica entre os 4 integrantes ativos da equipe, foi estabelecido o roteiro semiestruturado de 10 a 15 minutos apresentado na Tabela 3, a ser aplicado na sessão remota ou presencial gravada com o usuário:
 
 <div align="center" markdown="1">
 
@@ -383,7 +398,7 @@ A Tabela 4 a seguir sintetiza a evolução do escopo da equipe, evidenciando com
 
 ## 7. Registro e Comprovação das Entrevistas Gravadas
 
-A tabela a seguir consolida o registro das sessões gravadas por cada um dos integrantes da equipe. Cada entrevistador é responsável por recrutar o usuário e escolher o perfil (Perfil 1, 2 ou 3) a ser investigado em sua sessão individual, documentando os dados empíricos após a condução da entrevista:
+A Tabela 4 consolida o registro das sessões dos integrantes da equipe ativa. Cada entrevistador é responsável por conduzir a investigação empírica (ou aplicar o método secundário fundamentado na literatura de IHC) com os usuários reais:
 
 <div align="center" markdown="1">
 
@@ -391,11 +406,10 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 
 | Entrevistador | Código do Entrevistado | Perfil Escolhido pelo Entrevistador | Tarefas Avaliadas | Data da Sessão | Duração | Link da Gravação |
 | :--- | :---: | :---: | :--- | :---: | :---: | :--- |
-| **Daniel da Silva Batista** | `USR-01` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | 25/09/2026 | 06 min 19 s | [Vídeo da Entrevista (USR-01)](https://youtu.be/YkYvCZDidaY) |
+| **Daniel da Silva Batista** | `USR-01` | Perfil 1: Concurseiro Ativo / Adulto e Maduro | **Tarefa 01:** Busca por palavra-chave / órgão<br>**Tarefa 02:** Download de prova e gabarito em PDF | 25/09/2026 | 06 min 19 s | [Vídeo da Entrevista (USR-01)](https://youtu.be/YkYvCZDidaY) |
 | **Pedro Rocha Ferreira Lima** | `USR-02` | Perfil 1: Estudante Universitário / Iniciante e Recém-formado | **Tarefa 03:** Filtragem por região Centro-Oeste / DF<br>**Tarefa 04:** Cronograma visual e timeline interativa de fases do certame | 27/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-02](#52-analise-documental-02-responsavel-pedro-rocha-ferreira-lima) |
 | **Arthur Sismene Carvalho** | `USR-03` | Perfil 1: Estudante Universitário / Iniciante | **Tarefa 05:** Simulado online interativo com feedback automático de gabarito<br>**Tarefa 06:** Busca de vagas de estágio no DF | 27/09/2026 | N/A (Método Sem Usuário) | *Vídeo não disponível* — ver [Análise Documental DOC-03](#53-analise-documental-03-responsavel-arthur-sismene-carvalho) |
-| **Leonardo da Silva Lopes Júnior** | `USR-04` | Perfil 2: Concurseiro Ativo / Adulto e Maduro | **Tarefa 07:** Videoaulas e dicas didáticas de disciplinas<br>**Tarefa 08:** Alertas inteligentes de editais por e-mail com filtros avançados | 28/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-04](#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) |
-| **João Vitor Sales Ibiapina** | `USR-05` | *A definir pelo entrevistador* (Perfil 1, 2 ou 3) | **Tarefa 09:** Consulta a vagas reservadas / PcD<br>**Tarefa 10:** Acompanhamento de convocações | A definir | ~12 min | [A definir - Vídeo YouTube](https://youtube.com) |
+| **Leonardo da Silva Lopes Júnior** | `USR-04` | Perfil 1: Concurseiro Ativo / Adulto e Maduro | **Tarefa 07:** Videoaulas e dicas didáticas de disciplinas<br>**Tarefa 08:** Alertas inteligentes de editais por e-mail com filtros avançados | 28/09/2026 | N/A (Método Sem Usuário) | [Análise Documental DOC-04](#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
 
@@ -409,20 +423,20 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 
 ---
 
-## 8. Bibliografia
+## 8. Referências Bibliográficas
 
-> ABED. *Censo EAD.BR: Relatório Analítico da Aprendizagem a Distância no Brasil 2023/2024*. São Paulo: Associação Brasileira de Educação a Distância, 2024. Disponível em: <https://www.abed.org.br/site/pt/midiateca/censo_ead/>.  
-> ABRES. *Estatísticas do Mercado de Estágio no Brasil*. São Paulo: Associação Brasileira de Estágios, 2025. Disponível em: <https://abres.org.br/estatisticas/>.  
-> BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> ABED. *Censo EAD.BR: Relatório Analítico da Aprendizagem a Distância no Brasil 2023/2024*. São Paulo: Associação Brasileira de Educação a Distância, 2024. Disponível em: <https://www.abed.org.br/site/pt/midiateca/censo_ead/>. Acesso em: 09 out. 2026.  
+> ABRES. *Estatísticas do Mercado de Estágio no Brasil*. São Paulo: Associação Brasileira de Estágios, 2025. Disponível em: <https://abres.org.br/estatisticas/>. Acesso em: 09 out. 2026.  
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
 > BRASIL. *Lei nº 11.788, de 25 de setembro de 2008*. Dispõe sobre o estágio de estudantes. Brasília: Presidência da República, 2008.  
-> CETIC.BR. *Pesquisa sobre o Uso das Tecnologias de Informação e Comunicação nos Domicílios Brasileiros — TIC Domicílios 2024*. São Paulo: Comitê Gestor da Internet no Brasil, 2024. Disponível em: <https://cetic.br/pt/pesquisa/domicilios/>.  
-> COMSCORE. *Panorama da Comunicação e Hábitos Digitais no Brasil*. São Paulo: Comscore Brasil, 2024. Disponível em: <https://www.comscore.com/>.  
+> CETIC.BR. *Pesquisa sobre o Uso das Tecnologias de Informação e Comunicação nos Domicílios Brasileiros — TIC Domicílios 2024*. São Paulo: Comitê Gestor da Internet no Brasil, 2024. Disponível em: <https://cetic.br/pt/pesquisa/domicilios/>. Acesso em: 09 out. 2026.  
+> COMSCORE. *Panorama da Comunicação e Hábitos Digitais no Brasil*. São Paulo: Comscore Brasil, 2024. Disponível em: <https://www.comscore.com/>. Acesso em: 09 out. 2026.  
 > COURAGE, Catherine; BAXTER, Kathy. *Understanding Your Users: A Practical Guide to User Requirements Methods, Tools, and Techniques*. San Francisco: Morgan Kaufmann, 2005.  
 > HACKOS, JoAnn T.; REDISH, Janice C. *User and Task Analysis for Interface Design*. New York: John Wiley & Sons, 1998.  
 > IBGE. *Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua) — Mercado de Trabalho e Ocupações*. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística, 2024.  
-> IBGE. *PNAD Contínua Trimestral — 1º trimestre de 2026*. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística, 2026. Disponível em: <https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html>.  
-> INEP. *Censo da Educação Superior 2024: notas estatísticas*. Brasília: Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira, 2025. Disponível em: <https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior>.  
-> IPEA. *Atlas do Estado Brasileiro*. Brasília: Instituto de Pesquisa Econômica Aplicada, 2024. Disponível em: <https://www.ipea.gov.br/atlasestado/>.  
+> IBGE. *PNAD Contínua Trimestral — 1º trimestre de 2026*. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística, 2026. Disponível em: <https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html>. Acesso em: 09 out. 2026.  
+> INEP. *Censo da Educação Superior 2024: notas estatísticas*. Brasília: Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira, 2025. Disponível em: <https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior>. Acesso em: 09 out. 2026.  
+> IPEA. *Atlas do Estado Brasileiro*. Brasília: Instituto de Pesquisa Econômica Aplicada, 2024. Disponível em: <https://www.ipea.gov.br/atlasestado/>. Acesso em: 09 out. 2026.  
 > NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
 > SOMMERVILLE, Ian. *Engenharia de Software*. 9. ed. São Paulo: Pearson, 2011.
 
@@ -431,7 +445,7 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 <div align="center" markdown="1">
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :---: | :---: |
+| :---: | :---: | :--- | :---: | :--- |
 | `1.0` | 21/09/2026 | Estruturação metodológica do perfil de usuário, definição dos 3 perfis segundo Exemplo 8.1 de Barbosa & Silva, roteiro unificado de entrevista e tabela de gravações. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 21/09/2026 | Refinamento dos atributos de perfil segundo Hackos & Redish (1998) e Courage & Baxter (2005) e detalhamento dos 4 grupos de atributos do Cap. 8 de Barbosa & Silva. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.2` | 22/09/2026 | Inclusão do Método Sem Usuário (Análise Documental Individual - DOC-01 a DOC-05), detalhamento de DOC-01 com dados abertos do IPEA (Atlas do Estado Brasileiro) e IBGE (PNAD Contínua) e ajuste de numeração. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
@@ -442,6 +456,7 @@ A tabela a seguir consolida o registro das sessões gravadas por cada um dos int
 | `1.7` | 04/10/2026 | Reestruturação dos 3 Perfis de Usuário do Sistema (Candidato, Publicador e Administrador) na Tabela 1 e inclusão da delimitação formal de escopo (Issue #10). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.8` | 04/10/2026 | Inclusão de Foco da Investigação e Perguntas de Pesquisa em DOC-01 a DOC-04, substituição de listas de requisitos por embasamento empírico de IHC e atualização da matriz documental (Issue #13). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.9` | 06/10/2026 | Inclusão da Seção 6 formal de Delimitação e Enriquecimento do Escopo Funcional de IHC em 3 camadas ergonômicas, superando tarefas rasas com simulados online interativos, timeline visual e alertas inteligentes (Issue #14). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `2.0` | 09/10/2026 | Atendimento à OBS 8 da avaliação docente: caracterização aprofundada dos três perfis com papéis distintos no sistema (subseções 4.1 a 4.4), consolidação dos registros dos 4 membros ativos (DOC-01 a DOC-04 e USR-01 a USR-04) e adequação das Referências Bibliográficas em conformidade com a ABNT. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

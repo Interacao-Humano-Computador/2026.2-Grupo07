@@ -4,9 +4,8 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Fundamentação teórica (Cooper, 1999; Pruitt & Adlin, 2006; Barbosa e Silva, 2010), estruturação da metodologia de personas e anatomia arquetípica, modelagem narrativa e validação empírica da Persona 1 (Maria Helena dos Santos) via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e organização do elenco para a equipe. |
+| Daniel da Silva Batista | Fundamentação teórica (Cooper, 1999; Pruitt & Adlin, 2006; Barbosa e Silva, 2010), estruturação da metodologia de personas e anatomia arquetípica, modelagem narrativa e validação empírica da Persona 1 (Maria Helena dos Santos) via [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e consolidação do elenco de 4 personas. |
 | Arthur Sismene Carvalho | Revisão do elenco de personas e modelagem narrativa integral da Persona 3 (Thiago Moraes Albuquerque), fundamentada nos dados documentais consolidados em `DOC-03`. |
-| João Vitor Sales Ibiapina | Revisão das diretrizes do elenco e preparação para a modelagem da persona individual. |
 | Leonardo da Silva Lopes Júnior | Modelagem narrativa integral da Persona 4 (Renata Cristina Freitas), fundamentada na Análise Documental DOC-04 e nos hábitos do Perfil 2 (Concurseiro Ativo). |
 | Pedro Rocha Ferreira Lima | Definição dos critérios de priorização das personas, modelagem narrativa da Persona 2 (Lucas Ferreira Rocha) fundamentada em DOC-02 e revisão técnica geral. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
@@ -47,25 +46,30 @@ Conforme enfatizam Pruitt e Adlin (2006) e Barbosa e Silva (2010), **uma persona
 
 ## 3. Elenco de Personas
 
-### 3.1 Justificativa da Quantidade de Personas
+### 3.1 Justificativa da Quantidade e da Composição do Elenco
 
-O elenco do projeto é composto por **cinco personas individuais**, sendo exatamente **uma persona modelada por cada integrante da equipe** a partir dos dados empíricos coletados em sua respectiva sessão de campo ou investigação documental. Essa quantidade cumpre o critério de participação individual da disciplina e situa-se dentro da faixa recomendada por Barbosa e Silva (2010, p. 180), que estabelece a definição de 3 a 12 personas para manter o foco do design sem sobrecarregar a tomada de decisão da equipe.
+O elenco do projeto é estruturado em **quatro personas arquetípicas**, correspondendo ao contingente dos quatro integrantes ativos da equipe e alinhando-se rigorosamente às diretrizes seminais de Alan Cooper (1999) e Pruitt e Adlin (2006; Barbosa e Silva, 2010, p. 180). Segundo Cooper, o número recomendável de personas para orientar o design de um produto interativo deve situar-se entre **3 e 4 personas**, uma vez que um elenco excessivamente volumoso dilui o foco ergonômico e gera contradições nas prioridades de projeto (*"projetar para todo mundo é projetar para ninguém"*).
 
-A Tabela 1 a seguir consolida a matriz de rastreabilidade do elenco de personas:
+A definição destas quatro personas justifica-se metodologicamente pela necessidade de cobrir as dimensões críticas e polaridades do espaço do problema no portal **PCI Concursos**:
+
+1. **Polaridade Geracional e Letramento Digital:** Desde a concurseira madura (Maria Helena, 53 anos), cautelosa frente a armadilhas de interface e dependente de documentos em PDF legíveis, até o jovem universitário (Thiago, 21 anos), dinâmico e focado em testes ágeis no smartphone.
+2. **Contexto e Plataforma de Uso:** Uso estacionário e focado em tela grande de computadores de mesa/notebooks (Maria Helena e Lucas) em contraste com o uso móvel em trânsito ou intervalos de trabalho (Thiago e Renata).
+3. **Escopo e Complexidade de Tarefas:** Desde a busca nuclear por editais e gabaritos até a resolução interativa de simulados com gabarito imediato, videoaulas didáticas e assinaturas de alertas personalizados por e-mail.
+
+A Tabela 1 consolida a matriz de rastreabilidade do elenco, detalhando a **justificativa de design para a classificação de cada persona como Primária ou Secundária**:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Elenco e Matriz de Rastreabilidade das Personas</b></p>
+<p align="center"><b>Tabela 1: Elenco, Rastreabilidade e Justificativa de Design das Personas</b></p>
 
-| ID | Tipo | Nome da Persona | Perfil Vinculado | Membro Responsável | Base Empírica Principal |
-| :---: | :---: | :--- | :---: | :--- | :--- |
-| **PER-01** | Primária | Maria Helena dos Santos | Perfil 2: Concurseiro Ativo / Adulto e Maduro | Daniel da Silva Batista | [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e DOC-01 (IPEA/IBGE) |
-| **PER-02** | Secundária | Lucas Ferreira Rocha | Perfil 1: Estudante Universitário / Recém-formado | Pedro Rocha Ferreira Lima | Análise Documental DOC-02 (PEP/MGI e DODF) |
-| **PER-03** | Primária | Thiago Moraes Albuquerque | Perfil 1: Estudante Universitário / Iniciante | Arthur Sismene Carvalho | Análise Documental DOC-03 (INEP, ABRES e IBGE) |
-| **PER-04** | Primária | Renata Cristina Freitas | Perfil 2: Concurseiro Ativo / Adulto e Maduro | Leonardo da Silva Lopes Júnior | Análise Documental DOC-04 (Cetic.br, ABED e Comscore) |
-| **PER-05** | *A definir* | *A definir pelo responsável* | *A definir (Perfil 1, 2 ou 3)* | João Vitor Sales Ibiapina | *A definir após condução empírica individual* |
+| ID | Classificação | Nome da Persona | Perfil Vinculado | Responsável | Justificativa de Design (Primária vs. Secundária) | Base Empírica Principal |
+| :---: | :---: | :--- | :---: | :--- | :--- | :--- |
+| **PER-01** | **Primária** | Maria Helena dos Santos | Candidato / Concurseiro Maduro | Daniel da Silva Batista | **Núcleo central de uso do portal:** Representa o maior contingente do PCI Concursos (candidatos maduros com foco em estabilidade). Suas metas definem o fluxo indispensável de busca de editais e download de provas em PDF. Por possuir perfil tecnófobo/cauteloso, suas dores com anúncios enganosos impõem os requisitos mais restritivos de clareza e previsibilidade de interface. Se a interface não atender a Maria Helena, o produto falha em sua missão pública. | [Entrevista Gravada USR-01](https://youtu.be/YkYvCZDidaY) e DOC-01 (IPEA/IBGE) |
+| **PER-02** | **Secundária** | Lucas Ferreira Rocha | Estudante Universitário / Recém-formado | Pedro Rocha Ferreira Lima | **Complementaridade regional e dinâmica de retificações:** Compartilha das tarefas essenciais de busca de editais já resolvidas no design de Maria Helena, mas introduz restrições específicas de filtragem por unidade federativa (DF e Centro-Oeste) e acompanhamento ágil de erratas/prazos de inscrição. | Análise Documental DOC-02 (PEP/MGI e DODF) |
+| **PER-03** | **Primária (Mobile / Simulado)** | Thiago Moraes Albuquerque | Estudante Universitário / Iniciante | Arthur Sismene Carvalho | **Foco na experiência móvel e interatividade ágil:** Não pode ter suas necessidades supridas apenas pelo design de tela cheia para desktop. Suas metas exigem ergonomia para uso em smartphones com uma mão só, telas de simulados interativos com resposta imediata e visualização responsiva sem poluição de banners. | Análise Documental DOC-03 (INEP, ABRES e IBGE) |
+| **PER-04** | **Secundária** | Renata Cristina Freitas | Concurseira Ativa / CLT | Leonardo da Silva Lopes Júnior | **Demanda multimídia e alertas assíncronos:** Suas necessidades de preparação em horários restritos são contempladas pela estrutura geral de concursos, mas demandam componentes adicionais de reprojeto: reprodutor de videoaulas em pequenos blocos (microlearning) e cadastro segmentado de newsletter/alertas por e-mail sem spam. | Análise Documental DOC-04 (Cetic.br, ABED e Comscore) |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026), com base no Perfil do Usuário e nas fontes empíricas do projeto.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026), com base no Perfil do Usuário e na fundamentação de Cooper (1999).</p>
 
 </div>
 
@@ -188,15 +192,9 @@ A Tabela 1 a seguir consolida a matriz de rastreabilidade do elenco de personas:
 
 ---
 
-### 4.5 Persona 5 — *Responsável: João Vitor Sales Ibiapina*
+## 5. Referências Bibliográficas
 
-> *Seção reservada para a modelagem individual da persona pelo integrante João Vitor Sales Ibiapina, a ser elaborada no padrão narrativo arquetípico com base nos dados empíricos de sua respectiva entrevista gravada.*
-
----
-
-## 5. Bibliografia
-
-> BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
 > COOPER, Alan. *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity*. Indianapolis: Sams Publishing, 1999.  
 > COURAGE, Catherine; BAXTER, Kathy. *Understanding Your Users: A Practical Guide to User Requirements Methods, Tools, and Techniques*. San Francisco: Morgan Kaufmann, 2005.  
 > PRUITT, John; ADLIN, Tamara. *The Persona Lifecycle: Keeping People in Mind Throughout Product Design*. San Francisco: Morgan Kaufmann, 2006.
@@ -214,6 +212,7 @@ A Tabela 1 a seguir consolida a matriz de rastreabilidade do elenco de personas:
 | `1.4` | 27/09/2026 | Modelagem integral da Persona 3 (Thiago Moraes Albuquerque), representante do Perfil 1, fundamentada na análise documental DOC-03. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.5` | 28/09/2026 | Modelagem integral da Persona 4 (Renata Cristina Freitas), representante do Perfil 2, fundamentada na Análise Documental DOC-04 e vinculada às tarefas TAR-07 e TAR-08. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.6` | 04/10/2026 | Adequação metodológica das personas ao formato narrativo de Barbosa & Silva (2010) e Pruitt & Adlin (2006), eliminação das tabelas de atributos individuais, inclusão da anatomia formal da persona e padronização tipográfica das legendas (Issue #11). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.7` | 09/10/2026 | Atendimento à OBS 4 da avaliação docente: consolidação do elenco com 4 personas ativas, remoção da Persona 5 pendente, explicitação da fundamentação de design para classificação de personas primárias e secundárias e justificativa da quantidade com base em Cooper (1999). | Daniel da Silva Batista | Arthur Sismene Carvalho |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

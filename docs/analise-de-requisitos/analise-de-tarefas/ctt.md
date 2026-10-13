@@ -6,7 +6,6 @@
 | :--- | :--- |
 | Daniel da Silva Batista | Fundamentação teórica de ConcurTaskTrees (Paternò, 1999; Barbosa e Silva, 2010), taxonomia de tipos de tarefas e operadores temporais, modelagem formal completa com diagramas e tabelas das Tarefas 01 e 02 e organização dos templates para a equipe. |
 | Arthur Sismene Carvalho | Revisão dos operadores temporais de interação e modelagem CTT integral das Tarefas 05 e 06, com emprego dos operadores de iteração (`T*`), suspensão (`|>`), escolha alternativa (`[]`) e desativação (`[>`) para formalizar o ciclo de respostas e o padrão de tentativa e abandono. |
-| João Vitor Sales Ibiapina | Revisão das relações temporais e estruturação das Tarefas 09 e 10. |
 | Leonardo da Silva Lopes Júnior | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 07 e 08; refinamento da modelagem CTT das tarefas interativas propositivas (TAR-04, TAR-05 e TAR-08) com operadores formais ricos (`>>`, `[]>>`, `|||`, `[>`, `|>` e `*`) para resolução da Issue #14. |
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
 | Gemini | Geração dos diagramas CTT em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
@@ -52,28 +51,27 @@ A grande potência do CTT reside em sua gramática de **operadores temporais for
 
 ## 2. Matriz de Tarefas do PCI Concursos
 
-A equipe consolidou a matriz com as dez tarefas avaliadas no portal, mapeando a distribuição individual entre os integrantes:
+A equipe consolidou a matriz com as oito tarefas oficiais avaliadas no portal, mapeando a distribuição individual entre os quatro integrantes ativos:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 2: Matriz de Tarefas Mapeadas para CTT</b></p>
+<p align="center"><b>Tabela 2: Matriz Oficial de Tarefas Mapeadas para CTT</b></p>
 
-| ID | Descrição da Tarefa | Responsável |
+| ID | Descrição da Tarefa | Integrante Responsável |
 | :---: | :--- | :--- |
 | **TAR-01** | Buscar edital de concurso por palavra-chave ou órgão | Daniel da Silva Batista |
 | **TAR-02** | Baixar caderno de provas anteriores e gabarito oficial em PDF | Daniel da Silva Batista |
 | **TAR-03** | Filtrar concursos por região geográfica (Centro-Oeste / DF) | Pedro Rocha Ferreira Lima |
 | **TAR-04** | Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação | Pedro Rocha Ferreira Lima |
 | **TAR-05** | Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho | Arthur Sismene Carvalho |
-| **TAR-06** | Buscar oportunidades de estágio de nível superior no DF | Arthur Sismene Carvalho |
+| **TAR-06** | Buscar oportunidades de estágio de nível superior no DF *(Tarefa não suportada)* | Arthur Sismene Carvalho |
 | **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
 | **TAR-08** | Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério | Leonardo da Silva Lopes Júnior |
-| **TAR-09** | Consultar vagas reservadas para cotas e pessoas com deficiência (PcD) | João Vitor Sales Ibiapina |
-| **TAR-10** | Acompanhar notícias de homologação e convocações de aprovados | João Vitor Sales Ibiapina |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
+
 
 ---
 
@@ -93,6 +91,7 @@ A representação em árvore de tarefas CTT para a Tarefa 01 é apresentada no d
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -185,6 +184,7 @@ A representação em árvore da Tarefa 02 é ilustrada na Figura 2 a seguir, e s
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     Root2["[Abstrata] Baixar prova anterior e gabarito em PDF"]
 
     N1["[Interação] Acessar menu de provas"]
@@ -262,6 +262,7 @@ A representação em árvore de tarefas CTT para a Tarefa 03 é apresentada na F
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     Root3["[Abstrata] Filtrar concursos por região geográfica (Centro-Oeste / DF)"]
 
     P1["[Interação] Acessar menu regional Centro-Oeste"]
@@ -350,6 +351,7 @@ Essa abordagem atende às necessidades críticas do perfil de usuário e da pers
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -609,6 +611,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -716,6 +719,7 @@ Na árvore CTT da Tarefa 07 (Figura 7), destacam-se a passagem de informação e
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -854,6 +858,7 @@ A modelagem CTT formaliza:
 
 ```mermaid
 flowchart TD
+    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -980,22 +985,14 @@ flowchart TD
 
 ---
 
-## 7. Estrutura para Modelagem das Tarefas 09 e 10 (João Vitor Sales Ibiapina)
+## 7. Referências Bibliográficas
 
-As Tarefas 09 e 10 serão modeladas na sequência pelo integrante responsável, mantendo a notação rigorosa de ConcurTaskTrees (Paternò, 1999) e detalhando a interação humano-máquina:
-
-* **Tarefas 09 e 10 (João Vitor Sales Ibiapina):** Modelagem de varredura de tabelas de vagas de PcD (TAR-09) e acompanhamento de editais de resultado definitivo (TAR-10).
-
----
-
-## 8. Bibliografia
-
-> BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
 > MORI, Giulio; PATERNÒ, Fabio; SANTORO, Carmen. *CTTE: Support for Developing and Analyzing Task Models for Interactive System Design*. IEEE Transactions on Software Engineering, v. 28, n. 8, p. 797-813, 2002.  
 > NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
 > PATERNÒ, Fabio. *Model-Based Design and Evaluation of Human-Computer Interfaces*. London: Springer-Verlag, 1999.
 
-## 9. Histórico de Versões
+## 8. Histórico de Versões
 
 <div align="center" markdown="1">
 
@@ -1006,5 +1003,6 @@ As Tarefas 09 e 10 serão modeladas na sequência pelo integrante responsável, 
 | `1.2` | 27/09/2026 | Modelagem CTT completa das Tarefas 05 e 06 (Figuras 5 e 6, Tabelas 7 e 8), com formalização do ciclo iterativo de respostas, da suspensão não recuperável por perda de conexão e do padrão de tentativa e abandono da TAR-06 pelo operador de desativação. | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.3` | 28/09/2026 | Modelagem CTT completa das Tarefas 07 e 08 (Figuras 7 e 8, Tabelas 9 e 10), formalizando ciclo audiovisual em viewport móvel e disparo assíncrono de alertas de vagas, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.4` | 06/10/2026 | Enriquecimento do escopo ergonômico das tarefas no CTT (Issue #14): remodelagem formal da TAR-04 (timeline interativa e sincronização com calendário), TAR-05 (simulados parametrizados, feedback imediato e diagnóstico analítico) e TAR-08 (central de alertas inteligentes com filtros multicritério e Double Opt-In sob a LGPD), alinhando operadores temporais (>>, []>>, \|\|\|, [>, \|>, *) às diretrizes do Grupo 06. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.5` | 09/10/2026 | Atendimento às OBS da avaliação docente: consolidação da matriz em exatamente 8 tarefas dos 4 integrantes ativos, padronização visual dos diagramas CTT no estilo do livro (Barbosa e Silva, 2010) eliminando tons rosados, correção do cabeçalho da Tabela de Contribuição e adequação de Referências Bibliográficas (ABNT). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho |
 
 </div>
