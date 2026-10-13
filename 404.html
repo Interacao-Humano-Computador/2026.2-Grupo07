@@ -57,6 +57,20 @@
 
     
     
+  
+  <script>
+    // Intercept attachShadow BEFORE bundle runs to keep shadowRoot open
+    (function() {
+      var orig = Element.prototype.attachShadow;
+      Element.prototype.attachShadow = function(init) {
+        if (init && init.mode === 'closed') {
+          init.mode = 'open';
+        }
+        return orig.call(this, init);
+      };
+    })();
+  </script>
+
   </head>
   
   
@@ -1509,6 +1523,8 @@
     
     
       <script src="/2026.2-Grupo07/assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="/2026.2-Grupo07/javascripts/extra.js"></script>
       
     
   </body>

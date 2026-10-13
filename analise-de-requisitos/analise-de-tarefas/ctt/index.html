@@ -63,6 +63,20 @@
 
     
     
+  
+  <script>
+    // Intercept attachShadow BEFORE bundle runs to keep shadowRoot open
+    (function() {
+      var orig = Element.prototype.attachShadow;
+      Element.prototype.attachShadow = function(init) {
+        if (init && init.mode === 'closed') {
+          init.mode = 'open';
+        }
+        return orig.call(this, init);
+      };
+    })();
+  </script>
+
   </head>
   
   
@@ -1056,15 +1070,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#31-tarefa-01-buscar-edital-de-concurso-por-palavra-chave-ou-orgao-tar-01" class="md-nav__link">
+  <a href="#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)
+        3.1 Tarefa 01: Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado (TAR-01)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)">
+    <nav class="md-nav" aria-label="3.1 Tarefa 01: Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado (TAR-01)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1095,15 +1109,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#32-tarefa-02-baixar-caderno-de-provas-anteriores-e-gabarito-oficial-em-pdf-tar-02" class="md-nav__link">
+  <a href="#32-tarefa-02-montar-e-exportar-caderno-personalizado-de-provas-anteriores-com-gabarito-comentado-integrado-tar-02" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)
+        3.2 Tarefa 02: Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado (TAR-02)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)">
+    <nav class="md-nav" aria-label="3.2 Tarefa 02: Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado (TAR-02)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1151,15 +1165,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#41-tarefa-03-filtrar-concursos-por-regiao-geografica-centro-oeste-df-tar-03" class="md-nav__link">
+  <a href="#41-tarefa-03-explorar-mapa-interativo-georreferenciado-de-oportunidades-com-calculo-de-mobilidade-df-e-ride-tar-03" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.1 Tarefa 03: Filtrar concursos por região geográfica (Centro-Oeste / DF) (TAR-03)
+        4.1 Tarefa 03: Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE) (TAR-03)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="4.1 Tarefa 03: Filtrar concursos por região geográfica (Centro-Oeste / DF) (TAR-03)">
+    <nav class="md-nav" aria-label="4.1 Tarefa 03: Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE) (TAR-03)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1190,15 +1204,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#42-tarefa-04-acompanhar-cronograma-visual-e-timeline-interativa-de-fases-do-certame-com-alertas-de-retificacao-tar-04" class="md-nav__link">
+  <a href="#42-tarefa-04-acompanhar-timeline-interativa-de-fases-do-certame-com-simulador-de-prazos-recursais-e-sincronizacao-de-calendario-tar-04" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.2 Tarefa 04: Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação (TAR-04)
+        4.2 Tarefa 04: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário (TAR-04)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="4.2 Tarefa 04: Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação (TAR-04)">
+    <nav class="md-nav" aria-label="4.2 Tarefa 04: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário (TAR-04)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1987,15 +2001,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#31-tarefa-01-buscar-edital-de-concurso-por-palavra-chave-ou-orgao-tar-01" class="md-nav__link">
+  <a href="#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)
+        3.1 Tarefa 01: Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado (TAR-01)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)">
+    <nav class="md-nav" aria-label="3.1 Tarefa 01: Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado (TAR-01)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2026,15 +2040,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#32-tarefa-02-baixar-caderno-de-provas-anteriores-e-gabarito-oficial-em-pdf-tar-02" class="md-nav__link">
+  <a href="#32-tarefa-02-montar-e-exportar-caderno-personalizado-de-provas-anteriores-com-gabarito-comentado-integrado-tar-02" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)
+        3.2 Tarefa 02: Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado (TAR-02)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)">
+    <nav class="md-nav" aria-label="3.2 Tarefa 02: Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado (TAR-02)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2082,15 +2096,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#41-tarefa-03-filtrar-concursos-por-regiao-geografica-centro-oeste-df-tar-03" class="md-nav__link">
+  <a href="#41-tarefa-03-explorar-mapa-interativo-georreferenciado-de-oportunidades-com-calculo-de-mobilidade-df-e-ride-tar-03" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.1 Tarefa 03: Filtrar concursos por região geográfica (Centro-Oeste / DF) (TAR-03)
+        4.1 Tarefa 03: Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE) (TAR-03)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="4.1 Tarefa 03: Filtrar concursos por região geográfica (Centro-Oeste / DF) (TAR-03)">
+    <nav class="md-nav" aria-label="4.1 Tarefa 03: Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE) (TAR-03)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2121,15 +2135,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#42-tarefa-04-acompanhar-cronograma-visual-e-timeline-interativa-de-fases-do-certame-com-alertas-de-retificacao-tar-04" class="md-nav__link">
+  <a href="#42-tarefa-04-acompanhar-timeline-interativa-de-fases-do-certame-com-simulador-de-prazos-recursais-e-sincronizacao-de-calendario-tar-04" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.2 Tarefa 04: Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação (TAR-04)
+        4.2 Tarefa 04: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário (TAR-04)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="4.2 Tarefa 04: Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação (TAR-04)">
+    <nav class="md-nav" aria-label="4.2 Tarefa 04: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário (TAR-04)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2504,22 +2518,22 @@
 <tbody>
 <tr>
 <td style="text-align: center;"><strong>TAR-01</strong></td>
-<td style="text-align: left;">Buscar edital de concurso por palavra-chave ou órgão</td>
+<td style="text-align: left;">Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado</td>
 <td style="text-align: left;">Daniel da Silva Batista</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>TAR-02</strong></td>
-<td style="text-align: left;">Baixar caderno de provas anteriores e gabarito oficial em PDF</td>
+<td style="text-align: left;">Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado</td>
 <td style="text-align: left;">Daniel da Silva Batista</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>TAR-03</strong></td>
-<td style="text-align: left;">Filtrar concursos por região geográfica (Centro-Oeste / DF)</td>
+<td style="text-align: left;">Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE)</td>
 <td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>TAR-04</strong></td>
-<td style="text-align: left;">Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação</td>
+<td style="text-align: left;">Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário</td>
 <td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
 </tr>
 <tr>
@@ -2544,18 +2558,19 @@
 </tr>
 </tbody>
 </table>
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
 </div>
 <hr />
 <h2 id="3-modelagem-detalhada-das-tarefas-daniel-da-silva-batista">3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)</h2>
-<h3 id="31-tarefa-01-buscar-edital-de-concurso-por-palavra-chave-ou-orgao-tar-01">3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)</h3>
-<p>A representação em árvore de tarefas CTT para a Tarefa 01 é apresentada no diagrama da Figura 1 a seguir, e a especificação formal de seus nós, tipos e operadores temporais é apresentada na Tabela 3.</p>
+<h3 id="31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01">3.1 Tarefa 01: Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado (TAR-01)</h3>
+<p>A árvore CTT para a Tarefa 01 formaliza o diálogo interativo e os operadores temporais envolvidos na busca avançada facetada e na comparação simultânea de certames. O modelo substitui a busca textual rasa por fluxos concorrentes (<code>|||</code>) de definição de critérios (escolaridade, remuneração, banca e status), passagem de parâmetros (<code>[]&gt;&gt;</code>) para o motor de busca, seleção de múltiplos certames e confrontação simultânea das regras editalícias em matriz paralela.</p>
+<p>A representação em árvore de tarefas CTT é apresentada na Figura 1, e a especificação formal de seus nós, tipos e operadores temporais é apresentada na Tabela 3.</p>
 <h4 id="diagrama-de-arvore-ctt-figura-1">Diagrama de Árvore CTT (Figura 1)</h4>
 <div align="center">
-<p align="center"><b>Figura 1:</b> Representação em Árvore CTT da Tarefa 01</p>
+<p align="center"><b>Figura 1:</b> Representação em Árvore CTT da Tarefa 01 - Busca avançada e comparação lado a lado</p>
 </div>
 <pre class="mermaid"><code>flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -2564,15 +2579,15 @@
         L_Usu["[Usuário]"]
     end
 
-    Root["[Abstrata] Buscar edital de concurso por palavra-chave"]
+    Root["[Abstrata] Parametrizar busca avançada e comparar editais concorrentes"]
 
-    Sub1["[Interação] Inserir termo de pesquisa"]
+    Sub1["[Abstrata] Definir parâmetros de filtragem multicritério"]
     Op1{"[]&gt;&gt;"}
-    Sub2["[Sistema] Consultar e exibir resultados"]
+    Sub2["[Sistema] Processar consulta e renderizar catálogo facetado"]
     Op2{"&gt;&gt;"}
-    Sub3["[Usuário] Analisar e filtrar resultados"]
+    Sub3["[Abstrata] Selecionar certames e acionar comparador"]
     Op3{"&gt;&gt;"}
-    Sub4["[Interação] Selecionar concurso desejado"]
+    Sub4["[Abstrata] Analisar matriz comparativa e consolidar prioridade"]
 
     Root --&gt; Sub1
     Root --&gt; Op1
@@ -2582,27 +2597,50 @@
     Root --&gt; Op3
     Root --&gt; Sub4
 
-    %% Decomposição de Sub1
-    Sub1_1["[Interação] Clicar na barra de busca"]
-    Sub1_Op{"&gt;&gt;"}
-    Sub1_2["[Interação] Digitar nome do órgão/cargo"]
-    Sub1_Op2{"&gt;&gt;"}
-    Sub1_3["[Interação] Acionar botão de busca / Enter"]
+    %% Decomposição de Sub1 (Parametrização concorrente)
+    Sub1_1["[Interação] Especificar escolaridade e carreira pretendida"]
+    Sub1_Op1{"|||"}
+    Sub1_2["[Interação] Delimitar piso salarial e banca examinadora"]
+    Sub1_Op2{"|||"}
+    Sub1_3["[Interação] Filtrar situação e abrangência regional"]
+    Sub1_Op3{"&gt;&gt;"}
+    Sub1_4["[Interação] Submeter requisição de busca avançada"]
+
     Sub1 --&gt; Sub1_1
-    Sub1 --&gt; Sub1_Op
+    Sub1 --&gt; Sub1_Op1
     Sub1 --&gt; Sub1_2
     Sub1 --&gt; Sub1_Op2
     Sub1 --&gt; Sub1_3
+    Sub1 --&gt; Sub1_Op3
+    Sub1 --&gt; Sub1_4
 
-    %% Decomposição de Sub3
-    Sub3_1["[Usuário] Distinguir notícias de anúncios"]
-    Sub3_Op{"|||"}
-    Sub3_2["[Usuário] Avaliar relevância da listagem"]
+    %% Decomposição de Sub3 (Seleção para comparação)
+    Sub3_1["[Usuário] Avaliar aderência dos certames listados"]
+    Sub3_Op1{"&gt;&gt;"}
+    Sub3_2["[Interação] Marcar certames concorrentes para comparação"]
+    Sub3_Op2{"[]&gt;&gt;"}
+    Sub3_3["[Sistema] Renderizar painel flutuante de certames selecionados"]
+
     Sub3 --&gt; Sub3_1
-    Sub3 --&gt; Sub3_Op
-    Sub3 --&gt; Sub3_2</code></pre>
+    Sub3 --&gt; Sub3_Op1
+    Sub3 --&gt; Sub3_2
+    Sub3 --&gt; Sub3_Op2
+    Sub3 --&gt; Sub3_3
+
+    %% Decomposição de Sub4 (Análise comparativa)
+    Sub4_1["[Usuário] Confrontar coincidência de datas de prova e taxas"]
+    Sub4_Op1{"|||"}
+    Sub4_2["[Usuário] Analisar convergência de conteúdos programáticos"]
+    Sub4_Op2{"&gt;&gt;"}
+    Sub4_3["[Interação] Salvar síntese comparativa ou exportar relatório"]
+
+    Sub4 --&gt; Sub4_1
+    Sub4 --&gt; Sub4_Op1
+    Sub4 --&gt; Sub4_2
+    Sub4 --&gt; Sub4_Op2
+    Sub4 --&gt; Sub4_3</code></pre>
 <div align="center">
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado pelos autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Paternò (1999) e Barbosa &amp; Silva (2010).</p>
 </div>
 <h4 id="tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-01">Tabela de Especificação dos Nós e Operadores da Tarefa 01</h4>
 <div align="center">
@@ -2618,110 +2656,162 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Buscar edital por palavra-chave</strong></td>
+<td style="text-align: left;"><strong>Parametrizar busca e comparar editais</strong></td>
 <td style="text-align: center;">Abstrata</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">Tarefa raiz de alto nível que engloba toda a busca e localização do concurso.</td>
+<td style="text-align: left;">Tarefa raiz de tomada de decisão baseada na combinação de múltiplos filtros e na confrontação paralela de certames.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Inserir termo de pesquisa</strong></td>
-<td style="text-align: center;">Interação</td>
+<td style="text-align: left;"><strong>Definir parâmetros de filtragem multicritério</strong></td>
+<td style="text-align: center;">Abstrata</td>
 <td style="text-align: center;"><code>[]&gt;&gt;</code></td>
-<td style="text-align: left;">O usuário digita a palavra-chave e submete os dados de texto para o sistema.</td>
+<td style="text-align: left;">Configuração simultânea dos parâmetros de consulta, repassando o payload de dados ao sistema.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Clicar na barra de busca</strong></td>
+<td style="text-align: left;"><strong>Especificar escolaridade e carreira</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>\|\|\|</code></td>
+<td style="text-align: left;">Seleção dos campos de nível de formação e áreas de atuação desejadas.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Delimitar piso salarial e banca</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>\|\|\|</code></td>
+<td style="text-align: left;">Ajuste da faixa remuneratória mínima e marcação das instituições organizadoras.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Filtrar situação e abrangência regional</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Posicionamento do cursor e foco no componente de entrada.</td>
+<td style="text-align: left;">Escolha do status (inscrições abertas) e das localidades de preferência.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Digitar nome do órgão/cargo</strong></td>
-<td style="text-align: center;">Interação</td>
-<td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Entrada dos caracteres da busca (ex.: "TJDFT").</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Acionar busca / Enter</strong></td>
+<td style="text-align: left;"><strong>Submeter requisição de busca avançada</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>[]&gt;&gt;</code></td>
-<td style="text-align: left;">Disparo do evento de submissão repassando o termo à consulta.</td>
+<td style="text-align: left;">Disparo da consulta com transferência dos parâmetros de filtro para a camada de serviço.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Consultar e exibir resultados</strong></td>
+<td style="text-align: left;"><strong>Processar consulta e renderizar catálogo</strong></td>
 <td style="text-align: center;">Sistema</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">O servidor do PCI Concursos pesquisa a base e renderiza a listagem de links na tela.</td>
+<td style="text-align: left;">O sistema compila os filtros facetados e exibe a listagem filtrada de oportunidades.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Analisar e filtrar resultados</strong></td>
+<td style="text-align: left;"><strong>Selecionar certames e acionar comparador</strong></td>
+<td style="text-align: center;">Abstrata</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Subtarefa de triagem na qual o concurseiro elege os certames que disputarão sua atenção.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Avaliar aderência dos certames listados</strong></td>
 <td style="text-align: center;">Usuário</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">O usuário realiza julgamento cognitivo para distinguir os links de notícias dos anúncios publicitários.</td>
+<td style="text-align: left;">Julgamento cognitivo sobre a relevância de cada concurso retornado frente à disponibilidade do candidato.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Distinguir notícias de anúncios</strong></td>
+<td style="text-align: left;"><strong>Marcar certames concorrentes</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>[]&gt;&gt;</code></td>
+<td style="text-align: left;">Acionamento das caixas de seleção adicionando até 3 certames à bandeja comparativa.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Renderizar painel flutuante de selecionados</strong></td>
+<td style="text-align: center;">Sistema</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Atualização reativa da interface exibindo os cards fixados para confronto direto.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Analisar matriz comparativa e consolidar</strong></td>
+<td style="text-align: center;">Abstrata</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">Subtarefa de deliberação estratégica apoiada na matriz visual lado a lado.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Confrontar datas de prova e taxas</strong></td>
 <td style="text-align: center;">Usuário</td>
 <td style="text-align: center;"><code>\|\|\|</code></td>
-<td style="text-align: left;">Esforço cognitivo paralelo para ignorar banners do Google Ads.</td>
+<td style="text-align: left;">Análise cognitiva simultânea para checagem de sobreposição de calendários e custos de inscrição.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Avaliar relevância da listagem</strong></td>
+<td style="text-align: left;"><strong>Analisar convergência de conteúdos</strong></td>
 <td style="text-align: center;">Usuário</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Leitura das manchetes para identificar a data e o órgão correto.</td>
+<td style="text-align: left;">Comparação do percentual de compatibilidade das matérias para otimização do plano de estudos.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Selecionar concurso desejado</strong></td>
+<td style="text-align: left;"><strong>Salvar síntese ou exportar relatório</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">Clique no hiperlink do concurso selecionado para abrir a página do edital.</td>
+<td style="text-align: left;">Persistência da análise comparativa nos certames favoritados ou geração de documento PDF estruturado.</td>
 </tr>
 </tbody>
 </table>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 </div>
 <hr />
-<h3 id="32-tarefa-02-baixar-caderno-de-provas-anteriores-e-gabarito-oficial-em-pdf-tar-02">3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)</h3>
-<p>A representação em árvore da Tarefa 02 é ilustrada na Figura 2 a seguir, e sua especificação formal de nós, tipos e operadores temporais é apresentada na Tabela 4.</p>
+<h3 id="32-tarefa-02-montar-e-exportar-caderno-personalizado-de-provas-anteriores-com-gabarito-comentado-integrado-tar-02">3.2 Tarefa 02: Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado (TAR-02)</h3>
+<p>A representação em árvore da Tarefa 02 substitui o download elementar de um PDF isolado por um fluxo completo de composição modular de material didático. A modelagem contempla a seleção de múltiplos blocos de prova por banca examinadora, ano e disciplina (<code>|||</code>), a inclusão de gabaritos oficiais pós-recurso com marcação de anulações, a parametrização de layout de impressão (<code>[]&gt;&gt;</code>) e o download verificado com garantia de integridade documental.</p>
+<p>A árvore de tarefas CTT é apresentada na Figura 2, e sua especificação formal de nós e operadores é descrita na Tabela 4.</p>
 <h4 id="diagrama-de-arvore-ctt-figura-2">Diagrama de Árvore CTT (Figura 2)</h4>
 <div align="center">
-<p align="center"><b>Figura 2:</b> Representação em Árvore CTT da Tarefa 02</p>
+<p align="center"><b>Figura 2:</b> Representação em Árvore CTT da Tarefa 02 - Montagem e exportação de caderno personalizado</p>
 </div>
 <pre class="mermaid"><code>flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
-    Root2["[Abstrata] Baixar prova anterior e gabarito em PDF"]
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
+    subgraph Legenda ["Legenda CTT"]
+        direction LR
+        L_Abs["[Abstrata]"]
+        L_Int["[Interação]"]
+        L_Sis["[Sistema]"]
+        L_Usu["[Usuário]"]
+    end
 
-    N1["[Interação] Acessar menu de provas"]
-    O1{"&gt;&gt;"}
-    N2["[Interação] Localizar concurso e cargo pretendido"]
-    O2{"&gt;&gt;"}
-    N3["[Abstrata] Obter arquivos de estudo"]
+    Root2["[Abstrata] Montar e exportar caderno personalizado de estudos com gabarito"]
 
-    Root2 --&gt; N1
-    Root2 --&gt; O1
-    Root2 --&gt; N2
-    Root2 --&gt; O2
-    Root2 --&gt; N3
+    M1["[Abstrata] Filtrar repositório e compor pacote de cadernos"]
+    MOp1{"[]&gt;&gt;"}
+    M2["[Abstrata] Parametrizar opções gráficas e pedagógicas de geração"]
+    MOp2{"&gt;&gt;"}
+    M3["[Sistema] Processar unificação de documentos e validar integridade"]
+    MOp3{"[]&gt;&gt;"}
+    M4["[Interação] Descarregar caderno consolidado em repositório local"]
 
-    %% Decomposição de N3
-    N3_1["[Interação] Clicar em link da Prova"]
-    O3_1{"[]&gt;&gt;"}
-    N3_2["[Sistema] Entregar arquivo PDF da Prova"]
-    O3_2{"&gt;&gt;"}
-    N3_3["[Interação] Clicar em link do Gabarito"]
-    O3_3{"[]&gt;&gt;"}
-    N3_4["[Sistema] Entregar arquivo PDF do Gabarito"]
+    Root2 --&gt; M1
+    Root2 --&gt; MOp1
+    Root2 --&gt; M2
+    Root2 --&gt; MOp2
+    Root2 --&gt; M3
+    Root2 --&gt; MOp3
+    Root2 --&gt; M4
 
-    N3 --&gt; N3_1
-    N3 --&gt; O3_1
-    N3 --&gt; N3_2
-    N3 --&gt; O3_2
-    N3 --&gt; N3_3
-    N3 --&gt; O3_3
-    N3 --&gt; N3_4</code></pre>
+    %% Decomposição de M1 (Filtro e seleção modular)
+    M1_1["[Interação] Filtrar acervo por banca, ano de aplicação e cargo"]
+    M1_Op1{"|||"}
+    M1_2["[Interação] Segmentar blocos disciplinares pretendidos"]
+    M1_Op2{"&gt;&gt;"}
+    M1_3["[Interação] Adicionar cadernos selecionados à cesta de compilação"]
+
+    M1 --&gt; M1_1
+    M1 --&gt; M1_Op1
+    M1 --&gt; M1_2
+    M1 --&gt; M1_Op2
+    M1 --&gt; M1_3
+
+    %% Decomposição de M2 (Parâmetros de compilação)
+    M2_1["[Interação] Habilitar gabarito definitivo com notas de anulação"]
+    M2_Op1{"|||"}
+    M2_2["[Interação] Selecionar leiaute de impressão econômica ou leitura digital"]
+    M2_Op2{"|||"}
+    M2_3["[Interação] Incluir sumário interativo e folhas de rascunho de gabarito"]
+
+    M2 --&gt; M2_1
+    M2 --&gt; M2_Op1
+    M2 --&gt; M2_2
+    M2 --&gt; M2_Op2
+    M2 --&gt; M2_3</code></pre>
 <div align="center">
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado pelos autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Paternò (1999) e Barbosa &amp; Silva (2010).</p>
 </div>
 <h4 id="tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-02">Tabela de Especificação dos Nós e Operadores da Tarefa 02</h4>
 <div align="center">
@@ -2737,52 +2827,70 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Baixar prova e gabarito em PDF</strong></td>
+<td style="text-align: left;"><strong>Montar e exportar caderno personalizado</strong></td>
 <td style="text-align: center;">Abstrata</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">Tarefa raiz de download dos materiais de estudo em formato digital.</td>
+<td style="text-align: left;">Tarefa raiz de criação e compilação de material unificado de questões anteriores com chave de respostas.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Acessar menu de provas</strong></td>
-<td style="text-align: center;">Interação</td>
-<td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Clique no menu lateral ou de navegação superior para abrir o catálogo.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Localizar concurso e cargo</strong></td>
-<td style="text-align: center;">Interação</td>
-<td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Seleção de filtros de banca, ano e busca textual pelo cargo pretendido.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Obter arquivos de estudo</strong></td>
+<td style="text-align: left;"><strong>Filtrar repositório e compor pacote</strong></td>
 <td style="text-align: center;">Abstrata</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: left;">Subtarefa composta responsável pela obtenção sequencial dos dois documentos.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Clicar em link da Prova</strong></td>
-<td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>[]&gt;&gt;</code></td>
-<td style="text-align: left;">Identificação e clique no hiperlink legítimo do caderno de questões.</td>
+<td style="text-align: left;">Seleção dos cadernos de provas no catálogo com envio dos identificadores para o montador.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Entregar arquivo PDF da Prova</strong></td>
-<td style="text-align: center;">Sistema</td>
+<td style="text-align: left;"><strong>Filtrar acervo por banca, ano e cargo</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>\|\|\|</code></td>
+<td style="text-align: left;">Parametrização dos critérios de busca no repositório de provas anteriores.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Segmentar blocos disciplinares</strong></td>
+<td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">O servidor transmite os bytes do PDF para download ou abertura no navegador.</td>
+<td style="text-align: left;">Seleção de matérias específicas quando o candidato não deseja a íntegra da prova.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Clicar em link do Gabarito</strong></td>
+<td style="text-align: left;"><strong>Adicionar cadernos à cesta de compilação</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>[]&gt;&gt;</code></td>
-<td style="text-align: left;">Retorno à página e clique no hiperlink correspondente à folha de gabarito.</td>
+<td style="text-align: left;">Inclusão dos materiais selecionados na lista de compilação do pacote de estudo.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Entregar arquivo PDF do Gabarito</strong></td>
+<td style="text-align: left;"><strong>Parametrizar opções pedagógicas e gráficas</strong></td>
+<td style="text-align: center;">Abstrata</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Definição das diretrizes de formatação e consolidação dos anexos no documento final.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Habilitar gabarito definitivo com anulações</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>\|\|\|</code></td>
+<td style="text-align: left;">Inclusão das respostas oficiais homologadas com sinalização expressa de questões anuladas.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Selecionar leiaute de documento</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>\|\|\|</code></td>
+<td style="text-align: left;">Alternância entre modo econômico (duas colunas para impressão) ou digital com links interativos.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Incluir sumário e folhas de rascunho</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Inserção de numeração contínua de páginas e folhas de gabarito para simulação de preenchimento.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Processar unificação e validar integridade</strong></td>
 <td style="text-align: center;">Sistema</td>
+<td style="text-align: center;"><code>[]&gt;&gt;</code></td>
+<td style="text-align: left;">O servidor mescla os arquivos PDF, checa a integridade dos links e gera o arquivo consolidado.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Descarregar caderno consolidado</strong></td>
+<td style="text-align: center;">Interação</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">O sistema dispara o download da chave de respostas oficiais.</td>
+<td style="text-align: left;">Recepção e salvamento direto do arquivo PDF indexado sem redirecionamentos publicitários.</td>
 </tr>
 </tbody>
 </table>
@@ -2790,23 +2898,32 @@
 </div>
 <hr />
 <h2 id="4-modelagem-detalhada-das-tarefas-pedro-rocha-ferreira-lima">4. Modelagem Detalhada das Tarefas (Pedro Rocha Ferreira Lima)</h2>
-<h3 id="41-tarefa-03-filtrar-concursos-por-regiao-geografica-centro-oeste-df-tar-03">4.1 Tarefa 03: Filtrar concursos por região geográfica (Centro-Oeste / DF) (TAR-03)</h3>
-<p>A representação em árvore de tarefas CTT para a Tarefa 03 é apresentada na Figura 3, decompondo os fluxos de filtragem regional com operadores temporais de ativação com transferência de informação (<code>[]&gt;&gt;</code>), escolha (<code>[]</code>) e ativação sequencial (<code>&gt;&gt;</code>). A especificação formal dos nós é detalhada na Tabela 5.</p>
+<h3 id="41-tarefa-03-explorar-mapa-interativo-georreferenciado-de-oportunidades-com-calculo-de-mobilidade-df-e-ride-tar-03">4.1 Tarefa 03: Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE) (TAR-03)</h3>
+<p>A Tarefa 03 investiga o processo de busca, filtragem e planejamento geográfico no Distrito Federal e em sua Região Integrada de Desenvolvimento (RIDE), foco central da persona <strong>Lucas Ferreira Rocha (<code>PER-02</code>)</strong>. A modelagem CTT formaliza a exploração cartográfica interativa, superando a listagem estática de estados. O fluxo estrutura a parametrização de ponto de partida e raio de alcance (<code>|||</code>), a renderização reativa dos agrupamentos de vagas por Região Administrativa (<code>[]&gt;&gt;</code>), a exploração das oportunidades territoriais e a simulação assíncrona de rotas de transporte público para estimativa de deslocamento.</p>
+<p>A representação em árvore de tarefas CTT é apresentada na Figura 3, e a especificação formal de seus nós, tipos e operadores temporais é detalhada na Tabela 5.</p>
 <h4 id="diagrama-de-arvore-ctt-figura-3">Diagrama de Árvore CTT (Figura 3)</h4>
 <div align="center">
-<p align="center"><b>Figura 3:</b> Representação em Árvore CTT da Tarefa 03</p>
+<p align="center"><b>Figura 3:</b> Representação em Árvore CTT da Tarefa 03 - Mapa georreferenciado e cálculo de mobilidade</p>
 </div>
 <pre class="mermaid"><code>flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
-    Root3["[Abstrata] Filtrar concursos por região geográfica (Centro-Oeste / DF)"]
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
+    subgraph Legenda ["Legenda CTT"]
+        direction LR
+        L_Abs["[Abstrata]"]
+        L_Int["[Interação]"]
+        L_Sis["[Sistema]"]
+        L_Usu["[Usuário]"]
+    end
 
-    P1["[Interação] Acessar menu regional Centro-Oeste"]
+    Root3["[Abstrata] Explorar mapa georreferenciado e planejar mobilidade de vagas"]
+
+    P1["[Abstrata] Parametrizar delimitação espacial no mapa"]
     POp1{"[]&gt;&gt;"}
-    P2["[Sistema] Carregar listagem unificada de editais"]
+    P2["[Sistema] Renderizar malha cartográfica com agrupamentos de certames"]
     POp2{"&gt;&gt;"}
-    P3["[Abstrata] Localizar oportunidades para o Distrito Federal"]
+    P3["[Abstrata] Explorar polos de lotação e examinar oportunidades"]
     POp3{"&gt;&gt;"}
-    P4["[Interação] Clicar no link do concurso distrital"]
+    P4["[Abstrata] Simular itinerário e estimar tempo de deslocamento"]
 
     Root3 --&gt; P1
     Root3 --&gt; POp1
@@ -2816,29 +2933,46 @@
     Root3 --&gt; POp3
     Root3 --&gt; P4
 
-    %% Decomposição de P3 (Estratégias de Localização - Escolha [])
-    P3_1["[Usuário] Varrer visualmente tabela buscando '/DF'"]
-    P3_Op{"[]"}
-    P3_2["[Abstrata] Localizar via busca interna do navegador (Ctrl+F)"]
+    %% Decomposição de P1 (Parâmetros espaciais concorrentes)
+    P1_1["[Interação] Delimitar bairro ou RA de residência no DF"]
+    P1_Op1{"|||"}
+    P1_2["[Interação] Ajustar raio de deslocamento máximo em km"]
+    P1_Op2{"&gt;&gt;"}
+    P1_3["[Interação] Submeter requisição de atualização da malha"]
+
+    P1 --&gt; P1_1
+    P1 --&gt; P1_Op1
+    P1 --&gt; P1_2
+    P1 --&gt; P1_Op2
+    P1 --&gt; P1_3
+
+    %% Decomposição de P3 (Exploração de polos)
+    P3_1["[Usuário] Inspecionar densidade de vagas por polo territorial"]
+    P3_Op1{"&gt;&gt;"}
+    P3_2["[Interação] Selecionar marcador do polo e requisitar ficha do órgão"]
+    P3_Op2{"[]&gt;&gt;"}
+    P3_3["[Sistema] Exibir painel lateral com dados de vagas e lotação"]
 
     P3 --&gt; P3_1
-    P3 --&gt; P3_Op
+    P3 --&gt; P3_Op1
     P3 --&gt; P3_2
+    P3 --&gt; P3_Op2
+    P3 --&gt; P3_3
 
-    %% Decomposição de P3_2
-    P3_2_1["[Interação] Digitar 'DF' no localizador"]
-    P3_2_Op{"[]&gt;&gt;"}
-    P3_2_2["[Sistema] Destacar ocorrências de DF na tela"]
-    P3_2_Op2{"&gt;&gt;"}
-    P3_2_3["[Usuário] Avaliar resultado destacado"]
+    %% Decomposição de P4 (Simulação de mobilidade)
+    P4_1["[Interação] Requisitar rota estimada em transporte público"]
+    P4_Op1{"[]&gt;&gt;"}
+    P4_2["[Sistema] Integrar malha viária e calcular itinerário com conexões"]
+    P4_Op2{"&gt;&gt;"}
+    P4_3["[Usuário] Avaliar compatibilidade de tempo de trajeto para o certame"]
 
-    P3_2 --&gt; P3_2_1
-    P3_2 --&gt; P3_2_Op
-    P3_2 --&gt; P3_2_2
-    P3_2 --&gt; P3_2_Op2
-    P3_2 --&gt; P3_2_3</code></pre>
+    P4 --&gt; P4_1
+    P4 --&gt; P4_Op1
+    P4 --&gt; P4_2
+    P4 --&gt; P4_Op2
+    P4 --&gt; P4_3</code></pre>
 <div align="center">
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base em Paternò (1999) e Barbosa &amp; Silva (2010).</p>
 </div>
 <h4 id="tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-03">Tabela de Especificação dos Nós e Operadores da Tarefa 03</h4>
 <div align="center">
@@ -2854,79 +2988,103 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Filtrar concursos por região (Centro-Oeste / DF)</strong></td>
+<td style="text-align: left;"><strong>Explorar mapa e planejar mobilidade</strong></td>
 <td style="text-align: center;">Abstrata</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">Tarefa raiz de alto nível que abrange o afunilamento geográfico até a seleção de uma vaga distrital.</td>
+<td style="text-align: left;">Tarefa raiz de análise territorial de vagas e viabilidade de trânsito para o concurseiro.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Acessar menu regional Centro-Oeste</strong></td>
+<td style="text-align: left;"><strong>Parametrizar delimitação espacial</strong></td>
+<td style="text-align: center;">Abstrata</td>
+<td style="text-align: center;"><code>[]&gt;&gt;</code></td>
+<td style="text-align: left;">Configuração do perímetro geográfico desejado, transferindo os dados ao mapa.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Delimitar bairro ou RA de residência</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>\|\|\|</code></td>
+<td style="text-align: left;">Indicação do ponto de partida do usuário no Distrito Federal.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ajustar raio de deslocamento máximo</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Manipulação do controle deslizante de distância tolerável (ex.: até 25 km).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Submeter requisição da malha</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>[]&gt;&gt;</code></td>
-<td style="text-align: left;">O usuário clica na opção "Centro-Oeste" na navegação lateral, enviando a requisição de rota com a região selecionada.</td>
+<td style="text-align: left;">Envio dos limites espaciais para filtragem dos polos de vagas no banco.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Carregar listagem unificada de editais</strong></td>
+<td style="text-align: left;"><strong>Renderizar malha cartográfica</strong></td>
 <td style="text-align: center;">Sistema</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">O servidor do portal consulta a base de dados e renderiza a listagem plana englobando DF, GO, MT e MS.</td>
+<td style="text-align: left;">O sistema compila as coordenadas e desenha os clusters de vagas sobre o mapa.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Localizar oportunidades para o Distrito Federal</strong></td>
+<td style="text-align: left;"><strong>Explorar polos e examinar oportunidades</strong></td>
 <td style="text-align: center;">Abstrata</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Subtarefa complexa de triagem, onde o usuário adota uma de duas estratégias concorrentes de busca.</td>
+<td style="text-align: left;">Navegação nos agrupamentos espaciais e triagem das informações dos certames.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Varrer visualmente tabela buscando '/DF'</strong></td>
+<td style="text-align: left;"><strong>Inspecionar densidade de vagas</strong></td>
 <td style="text-align: center;">Usuário</td>
-<td style="text-align: center;"><code>[]</code></td>
-<td style="text-align: left;">Leitura cognitiva linha por linha dos títulos procurando a sigla distrital (estratégia manual).</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Avaliação cognitiva da concentração de cargos por região administrativa.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Localizar via busca do navegador (Ctrl+F)</strong></td>
-<td style="text-align: center;">Abstrata</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: left;">Estratégia alternativa adotada para contornar a ausência de subfiltros nativos por UF no portal.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Digitar 'DF' no localizador</strong></td>
+<td style="text-align: left;"><strong>Selecionar marcador do polo</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>[]&gt;&gt;</code></td>
-<td style="text-align: left;">Entrada textual da sigla no utilitário de busca do navegador.</td>
+<td style="text-align: left;">Acionamento do agrupamento territorial para visualizar o detalhamento do órgão.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Destacar ocorrências de DF na tela</strong></td>
+<td style="text-align: left;"><strong>Exibir painel lateral com dados</strong></td>
 <td style="text-align: center;">Sistema</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">O navegador renderiza o realce luminoso nas palavras coincidentes dentro do DOM da página.</td>
+<td style="text-align: left;">Abertura de gaveta lateral com vagas abertas, salários e locais prováveis de prova.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Avaliar resultado destacado</strong></td>
+<td style="text-align: left;"><strong>Simular itinerário e estimar tempo</strong></td>
+<td style="text-align: center;">Abstrata</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">Subtarefa de verificação do tempo gasto em trânsito até os locais do certame.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Requisitar rota em transporte público</strong></td>
+<td style="text-align: center;">Interação</td>
+<td style="text-align: center;"><code>[]&gt;&gt;</code></td>
+<td style="text-align: left;">Solicitação de cálculo de trajeto considerando linhas distritais e metrô.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Calcular itinerário com conexões</strong></td>
+<td style="text-align: center;">Sistema</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">O motor de rotas calcula o tempo total em minutos e as baldeações necessárias.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Avaliar compatibilidade de trajeto</strong></td>
 <td style="text-align: center;">Usuário</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">Julgamento cognitivo do usuário sobre o órgão público distrital identificado.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Clicar no link do concurso distrital</strong></td>
-<td style="text-align: center;">Interação</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: left;">Ação física de clique sobre o título do concurso pretendido para abrir a página do edital.</td>
+<td style="text-align: left;">Deliberação do concurseiro sobre a sustentabilidade do deslocamento até a vaga.</td>
 </tr>
 </tbody>
 </table>
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 </div>
 <hr />
-<h3 id="42-tarefa-04-acompanhar-cronograma-visual-e-timeline-interativa-de-fases-do-certame-com-alertas-de-retificacao-tar-04">4.2 Tarefa 04: Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação (TAR-04)</h3>
-<p>No âmbito do aprimoramento de escopo orientado pela <strong>Issue #14</strong>, a Tarefa 04 transcende a consulta passiva a documentos PDF dispersos. A interação foi modelada para contemplar uma <strong>Timeline Interativa de Fases do Certame</strong>, com identificação em tempo real de marcos temporais (Inscrições, Isenção, Provas, Gabaritos e Recursos), contadores regressivos dinâmicos, filtros de retificações e erratas de prazos com destaque visual, bem como a sincronização assíncrona dos eventos críticos com o calendário pessoal do usuário (<code>.ics</code> / Google Calendar / Outlook).</p>
-<p>Essa abordagem atende às necessidades críticas do perfil de usuário e da persona <strong>Lucas Ferreira Rocha (<code>PER-02</code>)</strong>, cuja restrição de tempo entre faculdade e estágio demanda acompanhamento ágil e à prova de perda de prazos. A árvore de tarefas CTT é apresentada na Figura 4, e sua especificação formal de nós, tipos e operadores temporais é detalhada na Tabela 6.</p>
+<h3 id="42-tarefa-04-acompanhar-timeline-interativa-de-fases-do-certame-com-simulador-de-prazos-recursais-e-sincronizacao-de-calendario-tar-04">4.2 Tarefa 04: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário (TAR-04)</h3>
+<p>No âmbito do aprimoramento de escopo orientado pelas avaliações docentes, a Tarefa 04 transcende a consulta passiva a editais estáticos. A árvore CTT modela a interação dinâmica com a <strong>Timeline de Fases do Certame</strong>, englobando o monitoramento de marcos temporais em tempo real, a confrontação de retificações por meio de ferramenta visual de alterações (<em>diff</em> textual), a utilização de um simulador de prazos de recursos (calculando horários bancários e dias úteis) e a exportação assíncrona de eventos para agendas digitais (.ics / Google Calendar).</p>
+<p>A árvore de tarefas CTT é apresentada na Figura 4, e sua especificação formal de nós, tipos e operadores temporais é descrita na Tabela 6.</p>
 <h4 id="diagrama-de-arvore-ctt-figura-4">Diagrama de Árvore CTT (Figura 4)</h4>
 <div align="center">
-<p align="center"><b>Figura 4:</b> Representação em Árvore CTT da Tarefa 04 - Acompanhar cronograma visual e timeline interativa</p>
+<p align="center"><b>Figura 4:</b> Representação em Árvore CTT da Tarefa 04 - Timeline interativa com simulador recursal</p>
 </div>
 <pre class="mermaid"><code>flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -2935,15 +3093,15 @@
         L_Usu["[Usuário]"]
     end
 
-    Root4["[Abstrata] Acompanhar cronograma visual e timeline de fases do certame"]
+    Root4["[Abstrata] Acompanhar timeline de fases e simular prazos recursais"]
 
-    Q1["[Interação] Acessar página de detalhes do certame"]
+    Q1["[Interação] Acessar painel do certame e requisitar timeline de fases"]
     QOp1{"&gt;&gt;"}
-    Q2["[Sistema] Renderizar timeline cronológica e contadores regressivos"]
+    Q2["[Sistema] Renderizar nós cronológicos de etapas e contadores regressivos"]
     QOp2{"[]&gt;&gt;"}
-    Q3["[Abstrata] Explorar fases e gerenciar marcos temporais"]
+    Q3["[Abstrata] Inspecionar fases, retificações e contadores"]
     QOp3{"&gt;&gt;"}
-    Q4["[Abstrata] Sincronizar eventos com calendário externo"]
+    Q4["[Abstrata] Simular prazos recursais e sincronizar marcos na agenda"]
 
     Root4 --&gt; Q1
     Root4 --&gt; QOp1
@@ -2953,14 +3111,14 @@
     Root4 --&gt; QOp3
     Root4 --&gt; Q4
 
-    %% Decomposição de Q3 (Explorar fases e gerenciar marcos)
-    Q3_1["[Usuário] Inspecionar status visual das etapas na timeline"]
+    %% Decomposição de Q3 (Inspeção de etapas e retificações)
+    Q3_1["[Usuário] Inspecionar status visual das etapas na linha do tempo"]
     Q3_Op1{"|||"}
-    Q3_2["[Usuário] Avaliar contador regressivo para a data da prova"]
-    Q3_Op2{"|||"}
-    Q3_3["[Interação] Alternar filtro de retificações e erratas de prazos"]
+    Q3_2["[Usuário] Checar contador regressivo para encerramento de prazos"]
+    Q3_Op2{"&gt;&gt;"}
+    Q3_3["[Interação] Acionar visualizador comparativo de retificações de edital"]
     Q3_Op3{"[]&gt;&gt;"}
-    Q3_4["[Sistema] Destacar alterações de datas e exibir badge de prorrogação"]
+    Q3_4["[Sistema] Apresentar modal com realce textual de inclusões e supressões"]
 
     Q3 --&gt; Q3_1
     Q3 --&gt; Q3_Op1
@@ -2970,14 +3128,14 @@
     Q3 --&gt; Q3_Op3
     Q3 --&gt; Q3_4
 
-    %% Decomposição de Q4 (Sincronização de calendário)
-    Q4_1["[Interação] Clicar no botão 'Sincronizar com Agenda'"]
+    %% Decomposição de Q4 (Simulação e sincronização)
+    Q4_1["[Interação] Parametrizar simulador com data de publicação e tipo de recurso"]
     Q4_Op1{"[]&gt;&gt;"}
-    Q4_2["[Sistema] Gerar payload de calendário (.ics / link webcal)"]
+    Q4_2["[Sistema] Calcular data fatal considerando dias úteis e corte bancário"]
     Q4_Op2{"&gt;&gt;"}
-    Q4_3["[Interação] Confirmar importação no aplicativo de calendário do usuário"]
-    Q4_Op3{"&gt;&gt;"}
-    Q4_4["[Sistema] Registrar sincronização e programar notificações prévias"]
+    Q4_3["[Interação] Requisitar exportação de alertas para calendário (.ics)"]
+    Q4_Op3{"[]&gt;&gt;"}
+    Q4_4["[Sistema] Disparar arquivo de calendário com notificações pré-agendadas"]
 
     Q4 --&gt; Q4_1
     Q4 --&gt; Q4_Op1
@@ -2987,7 +3145,7 @@
     Q4 --&gt; Q4_Op3
     Q4 --&gt; Q4_4</code></pre>
 <div align="center">
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base em Paternò (1999) e Barbosa &amp; Silva (2010).</p>
 </div>
 <h4 id="tabela-de-especificacao-dos-nos-e-operadores-da-tarefa-04">Tabela de Especificação dos Nós e Operadores da Tarefa 04</h4>
 <div align="center">
@@ -3003,86 +3161,86 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Acompanhar cronograma visual e timeline do certame</strong></td>
+<td style="text-align: left;"><strong>Acompanhar timeline e simular prazos</strong></td>
 <td style="text-align: center;">Abstrata</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">Tarefa raiz de gerenciamento temporal e acompanhamento interativo do ciclo de vida do concurso público.</td>
+<td style="text-align: left;">Tarefa raiz de gerenciamento cronológico contínuo e proteção contra perda de prazos editalícios.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Acessar página de detalhes do certame</strong></td>
+<td style="text-align: left;"><strong>Acessar painel do certame</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Clique no título do concurso a partir da listagem geral ou busca por palavras-chave.</td>
+<td style="text-align: left;">Seleção do certame para carregamento da visualização temporal especializada.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Renderizar timeline cronológica e contadores regressivos</strong></td>
+<td style="text-align: left;"><strong>Renderizar nós cronológicos e contadores</strong></td>
 <td style="text-align: center;">Sistema</td>
 <td style="text-align: center;"><code>[]&gt;&gt;</code></td>
-<td style="text-align: left;">O sistema extrai as datas do banco de dados e exibe a linha do tempo gráfica com estágios ativos/passados e contadores regressivos.</td>
+<td style="text-align: left;">Renderização visual da timeline com sinalização de fases ativas/passadas e contadores regressivos.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Explorar fases e gerenciar marcos temporais</strong></td>
+<td style="text-align: left;"><strong>Inspecionar fases, retificações e contadores</strong></td>
 <td style="text-align: center;">Abstrata</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Nó de composição que reúne a inspeção cognitiva do candidato e a manipulação dos filtros de retificação.</td>
+<td style="text-align: left;">Exame visual das etapas e verificação de alterações publicadas pela banca.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Inspecionar status visual das etapas na timeline</strong></td>
+<td style="text-align: left;"><strong>Inspecionar status das etapas</strong></td>
 <td style="text-align: center;">Usuário</td>
 <td style="text-align: center;"><code>\|\|\|</code></td>
-<td style="text-align: left;">Avaliação cognitiva das etapas (Inscrições abertas, homologação, período de recursos) baseada em código de cores e badges de status.</td>
+<td style="text-align: left;">Julgamento cognitivo do estágio de desenvolvimento do certame via código de cores semântico.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Avaliar contador regressivo para a data da prova</strong></td>
+<td style="text-align: left;"><strong>Checar contador regressivo</strong></td>
 <td style="text-align: center;">Usuário</td>
-<td style="text-align: center;"><code>\|\|\|</code></td>
-<td style="text-align: left;">Julgamento cognitivo do tempo restante de estudo (dias/horas) até a aplicação da prova objetiva.</td>
+<td style="text-align: center;"><code>&gt;&gt;</code></td>
+<td style="text-align: left;">Avaliação da proximidade da data fatal de inscrições, provas ou envio de títulos.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Alternar filtro de retificações e erratas de prazos</strong></td>
+<td style="text-align: left;"><strong>Acionar visualizador de retificações</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>[]&gt;&gt;</code></td>
-<td style="text-align: left;">Clique no alternador (toggle) para filtrar exclusivamente etapas que sofreram alteração ou prorrogação após o edital de abertura.</td>
+<td style="text-align: left;">Abertura da ferramenta de comparação para inspecionar alterações editalícias.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Destacar alterações de datas e exibir badge de prorrogação</strong></td>
+<td style="text-align: left;"><strong>Apresentar modal com realce textual</strong></td>
 <td style="text-align: center;">Sistema</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">O sistema atualiza os nós da timeline em tempo real com realce em vermelho/âmbar, indicando as notas de retificação aplicadas.</td>
+<td style="text-align: left;">Exibição de texto comparativo confrontando redação original e retificada (<em>diff</em>).</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sincronizar eventos com calendário externo</strong></td>
+<td style="text-align: left;"><strong>Simular prazos recursais e sincronizar</strong></td>
 <td style="text-align: center;">Abstrata</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">Subtarefa de integração entre a plataforma de concursos e o ecossistema de produtividade pessoal do usuário.</td>
+<td style="text-align: left;">Subtarefa de cálculo de prazos e automatização de lembretes na agenda pessoal do concurseiro.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Clicar no botão 'Sincronizar com Agenda'</strong></td>
+<td style="text-align: left;"><strong>Parametrizar simulador de prazos</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>[]&gt;&gt;</code></td>
-<td style="text-align: left;">Acionamento do botão de ação primária para solicitar a geração do arquivo de calendário ou link de subscrição.</td>
+<td style="text-align: left;">Inserção do marco inicial do prazo e seleção da modalidade recursal pretendida.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Gerar payload de calendário (.ics / link webcal)</strong></td>
+<td style="text-align: left;"><strong>Calcular data fatal com corte bancário</strong></td>
 <td style="text-align: center;">Sistema</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">O servidor compila os eventos das fases com horários-limite e URLs do edital em formato padrão iCalendar (RFC 5545).</td>
+<td style="text-align: left;">Algoritmo que projeta o termo final respeitando expediente bancário e feriados distritais.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Confirmar importação no aplicativo de calendário</strong></td>
+<td style="text-align: left;"><strong>Requisitar exportação para calendário</strong></td>
 <td style="text-align: center;">Interação</td>
-<td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Interação externa do usuário na aplicação de calendário nativa (Google, Apple, Outlook) validando a inscrição dos eventos.</td>
+<td style="text-align: center;"><code>[]&gt;&gt;</code></td>
+<td style="text-align: left;">Solicitação de geração de payload para aplicativo de agenda do smartphone.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Registrar sincronização e programar notificações prévias</strong></td>
+<td style="text-align: left;"><strong>Disparar arquivo com notificações</strong></td>
 <td style="text-align: center;">Sistema</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: left;">Agendamento de notificações preventivas (ex.: 48h antes do encerramento das inscrições e na véspera da prova).</td>
+<td style="text-align: left;">Emissão de arquivo <code>.ics</code> com alarmes preventivos de 24 horas e 2 horas de antecedência.</td>
 </tr>
 </tbody>
 </table>
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 </div>
 <hr />
 <h2 id="5-modelagem-detalhada-das-tarefas-arthur-sismene-carvalho">5. Modelagem Detalhada das Tarefas (Arthur Sismene Carvalho)</h2>
@@ -3327,7 +3485,7 @@
 <p align="center"><b>Figura 6:</b> Representação em Árvore CTT da Tarefa 06 (padrão de tentativa e abandono)</p>
 </div>
 <pre class="mermaid"><code>flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -3484,7 +3642,7 @@
 <p align="center"><b>Figura 7:</b> Representação em Árvore CTT da Tarefa 07 - Acessar videoaulas e dicas didáticas</p>
 </div>
 <pre class="mermaid"><code>flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -3518,7 +3676,7 @@
     %% Decomposição de Sub3
     Sub3_1["[Usuário] Escolher a disciplina básica pretendida"]
     Sub3_Op{"[]&gt;&gt;"}
-    Sub3_2["[Interação] Clicar na matéria (ex.: Direito Constitucional)"]
+    Sub3_2["[Interação] Selecionar a matéria (ex.: Direito Constitucional)"]
     Sub3_Op2{"&gt;&gt;"}
     Sub3_3["[Interação] Filtrar tópico por busca interna&lt;br&gt;(NÃO SUPORTADA)"]
     Sub3_Op3{"[]"}
@@ -3532,7 +3690,7 @@
     Sub3 --&gt; Sub3_4
 
     %% Decomposição de Sub4 (reprodução e ajustes)
-    Sub4_1["[Interação] Acionar play no player embutido"]
+    Sub4_1["[Interação] Iniciar reprodução no player embutido"]
     Sub4_Op{"&gt;&gt;"}
     Sub4_2["[Sistema] Transmitir stream de mídia (YouTube)"]
     Sub4_Op2{"|||"}
@@ -3588,7 +3746,7 @@
 <td style="text-align: left;"><strong>Navegar até o repositório de Aulas</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">O usuário clica no item "Aulas" no menu superior ou lateral de navegação do portal.</td>
+<td style="text-align: left;">O usuário seleciona o item "Aulas" no menu de navegação do portal.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Renderizar catálogo de videoaulas</strong></td>
@@ -3609,10 +3767,10 @@
 <td style="text-align: left;">Julgamento cognitivo sobre qual disciplina estudar (ex.: Direito Constitucional), transferindo a intenção para a ação na interface.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Clicar na matéria</strong></td>
+<td style="text-align: left;"><strong>Selecionar a matéria</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Acionamento físico do link da disciplina na listagem para carregar as respectivas aulas.</td>
+<td style="text-align: left;">Seleção da disciplina na listagem para carregar as respectivas aulas temáticas.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Filtrar tópico por busca interna</strong></td>
@@ -3624,7 +3782,7 @@
 <td style="text-align: left;"><strong>Rolar catálogo e selecionar card da aula</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Ação física de varredura vertical e toque sobre o card da videoaula desejada em alternativa à busca direta.</td>
+<td style="text-align: left;">Ação de varredura vertical e seleção do card da videoaula desejada em alternativa à busca direta.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Ciclo de reprodução e controle do vídeo</strong></td>
@@ -3633,10 +3791,10 @@
 <td style="text-align: left;">Nó iterativo (<code>T*</code>) que modela a execução audiovisual da aula e as eventuais intervenções ergonômicas de reprodução.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Acionar play no player embutido</strong></td>
+<td style="text-align: left;"><strong>Iniciar reprodução no player embutido</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">Clique no botão de reprodução do reprodutor incorporado (YouTube).</td>
+<td style="text-align: left;">Acionamento da reprodução no reprodutor incorporado (YouTube).</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Transmitir stream de mídia</strong></td>
@@ -3703,7 +3861,7 @@
 <p align="center"><b>Figura 8:</b> Representação em Árvore CTT da Tarefa 08 - Central de Alertas Inteligentes com filtros avançados</p>
 </div>
 <pre class="mermaid"><code>flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -3874,7 +4032,7 @@
 <td style="text-align: left;"><strong>Confirmar token de validação via link seguro</strong></td>
 <td style="text-align: center;">Interação</td>
 <td style="text-align: center;"><code>&gt;&gt;</code></td>
-<td style="text-align: left;">O usuário abre a mensagem no seu cliente de correio e clica no link único de ativação (<em>Double Opt-In</em>).</td>
+<td style="text-align: left;">O usuário acessa a mensagem no seu cliente de correio e aciona o link de ativação segura (<em>Double Opt-In</em>).</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Ativar perfil de monitoramento personalizado</strong></td>
@@ -4047,6 +4205,8 @@ PATERNÒ, Fabio. <em>Model-Based Design and Evaluation of Human-Computer Interfa
     
     
       <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
       
     
   </body>

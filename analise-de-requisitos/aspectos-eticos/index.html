@@ -63,6 +63,20 @@
 
     
     
+  
+  <script>
+    // Intercept attachShadow BEFORE bundle runs to keep shadowRoot open
+    (function() {
+      var orig = Element.prototype.attachShadow;
+      Element.prototype.attachShadow = function(init) {
+        if (init && init.mode === 'closed') {
+          init.mode = 'open';
+        }
+        return orig.call(this, init);
+      };
+    })();
+  </script>
+
   </head>
   
   
@@ -1921,6 +1935,8 @@ BRASIL. <em>Lei nº 13.709, de 14 de agosto de 2018</em>. Lei Geral de Proteçã
     
     
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
       
     
   </body>

@@ -63,6 +63,20 @@
 
     
     
+  
+  <script>
+    // Intercept attachShadow BEFORE bundle runs to keep shadowRoot open
+    (function() {
+      var orig = Element.prototype.attachShadow;
+      Element.prototype.attachShadow = function(init) {
+        if (init && init.mode === 'closed') {
+          init.mode = 'open';
+        }
+        return orig.call(this, init);
+      };
+    })();
+  </script>
+
   </head>
   
   
@@ -954,10 +968,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#41-cenario-01-localizacao-agil-de-edital-de-concurso-no-df-cen-01" class="md-nav__link">
+  <a href="#41-cenario-01-parametrizacao-de-busca-avancada-e-comparacao-de-editais-concorrentes-no-df-cen-01" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.1 Cenário 01: Localização Ágil de Edital de Concurso no DF (CEN-01)
+        4.1 Cenário 01: Parametrização de Busca Avançada e Comparação de Editais Concorrentes no DF (CEN-01)
       
     </span>
   </a>
@@ -965,10 +979,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#42-cenario-02-download-seguro-de-provas-anteriores-e-gabaritos-em-pdf-cen-02" class="md-nav__link">
+  <a href="#42-cenario-02-montagem-e-exportacao-de-caderno-personalizado-de-estudos-com-gabarito-integrado-cen-02" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.2 Cenário 02: Download Seguro de Provas Anteriores e Gabaritos em PDF (CEN-02)
+        4.2 Cenário 02: Montagem e Exportação de Caderno Personalizado de Estudos com Gabarito Integrado (CEN-02)
       
     </span>
   </a>
@@ -976,10 +990,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#43-cenario-03-filtragem-de-concursos-abertos-na-regiao-centro-oeste-df-cen-03" class="md-nav__link">
+  <a href="#43-cenario-03-exploracao-cartografica-interativa-e-simulacao-de-mobilidade-de-vagas-no-df-e-ride-cen-03" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.3 Cenário 03: Filtragem de Concursos Abertos na Região Centro-Oeste / DF (CEN-03)
+        4.3 Cenário 03: Exploração Cartográfica Interativa e Simulação de Mobilidade de Vagas no DF e RIDE (CEN-03)
       
     </span>
   </a>
@@ -987,10 +1001,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#44-cenario-04-acompanhamento-de-retificacoes-e-cronograma-de-fases-do-certame-cen-04" class="md-nav__link">
+  <a href="#44-cenario-04-acompanhamento-de-timeline-de-fases-com-simulador-de-prazos-recursais-e-sincronizacao-cen-04" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.4 Cenário 04: Acompanhamento de Retificações e Cronograma de Fases do Certame (CEN-04)
+        4.4 Cenário 04: Acompanhamento de Timeline de Fases com Simulador de Prazos Recursais e Sincronização (CEN-04)
       
     </span>
   </a>
@@ -1732,10 +1746,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#41-cenario-01-localizacao-agil-de-edital-de-concurso-no-df-cen-01" class="md-nav__link">
+  <a href="#41-cenario-01-parametrizacao-de-busca-avancada-e-comparacao-de-editais-concorrentes-no-df-cen-01" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.1 Cenário 01: Localização Ágil de Edital de Concurso no DF (CEN-01)
+        4.1 Cenário 01: Parametrização de Busca Avançada e Comparação de Editais Concorrentes no DF (CEN-01)
       
     </span>
   </a>
@@ -1743,10 +1757,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#42-cenario-02-download-seguro-de-provas-anteriores-e-gabaritos-em-pdf-cen-02" class="md-nav__link">
+  <a href="#42-cenario-02-montagem-e-exportacao-de-caderno-personalizado-de-estudos-com-gabarito-integrado-cen-02" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.2 Cenário 02: Download Seguro de Provas Anteriores e Gabaritos em PDF (CEN-02)
+        4.2 Cenário 02: Montagem e Exportação de Caderno Personalizado de Estudos com Gabarito Integrado (CEN-02)
       
     </span>
   </a>
@@ -1754,10 +1768,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#43-cenario-03-filtragem-de-concursos-abertos-na-regiao-centro-oeste-df-cen-03" class="md-nav__link">
+  <a href="#43-cenario-03-exploracao-cartografica-interativa-e-simulacao-de-mobilidade-de-vagas-no-df-e-ride-cen-03" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.3 Cenário 03: Filtragem de Concursos Abertos na Região Centro-Oeste / DF (CEN-03)
+        4.3 Cenário 03: Exploração Cartográfica Interativa e Simulação de Mobilidade de Vagas no DF e RIDE (CEN-03)
       
     </span>
   </a>
@@ -1765,10 +1779,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#44-cenario-04-acompanhamento-de-retificacoes-e-cronograma-de-fases-do-certame-cen-04" class="md-nav__link">
+  <a href="#44-cenario-04-acompanhamento-de-timeline-de-fases-com-simulador-de-prazos-recursais-e-sincronizacao-cen-04" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.4 Cenário 04: Acompanhamento de Retificações e Cronograma de Fases do Certame (CEN-04)
+        4.4 Cenário 04: Acompanhamento de Timeline de Fases com Simulador de Prazos Recursais e Sincronização (CEN-04)
       
     </span>
   </a>
@@ -1942,30 +1956,30 @@
 <tbody>
 <tr>
 <td style="text-align: center;"><strong>CEN-01</strong></td>
-<td style="text-align: left;">Localização Ágil de Edital de Concurso no DF</td>
+<td style="text-align: left;">Parametrização de Busca Avançada e Comparação de Editais Concorrentes no DF</td>
 <td style="text-align: center;"><strong>Maria Helena dos Santos (PER-01)</strong></td>
-<td style="text-align: left;"><code>TAR-01</code>: Busca de edital por palavra-chave / órgão</td>
+<td style="text-align: left;"><code>TAR-01</code>: Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado</td>
 <td style="text-align: left;">Daniel da Silva Batista</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>CEN-02</strong></td>
-<td style="text-align: left;">Download Seguro de Provas Anteriores e Gabaritos em PDF</td>
+<td style="text-align: left;">Montagem e Exportação de Caderno Personalizado de Estudos com Gabarito Integrado</td>
 <td style="text-align: center;"><strong>Maria Helena dos Santos (PER-01)</strong></td>
-<td style="text-align: left;"><code>TAR-02</code>: Download de caderno de provas e gabarito</td>
+<td style="text-align: left;"><code>TAR-02</code>: Montar e exportar caderno personalizado de provas anteriores com gabarito comentado</td>
 <td style="text-align: left;">Daniel da Silva Batista</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>CEN-03</strong></td>
-<td style="text-align: left;">Filtragem de Concursos Abertos na Região Centro-Oeste / DF</td>
+<td style="text-align: left;">Exploração Cartográfica Interativa e Simulação de Mobilidade de Vagas no DF e RIDE</td>
 <td style="text-align: center;"><strong>Lucas Ferreira Rocha (PER-02)</strong></td>
-<td style="text-align: left;"><code>TAR-03</code>: Filtragem de editais por região geográfica</td>
+<td style="text-align: left;"><code>TAR-03</code>: Explorar mapa interativo georreferenciado com cálculo de mobilidade</td>
 <td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>CEN-04</strong></td>
-<td style="text-align: left;">Acompanhamento de Retificações e Cronograma de Fases do Certame</td>
+<td style="text-align: left;">Acompanhamento de Timeline de Fases com Simulador de Prazos Recursais e Sincronização</td>
 <td style="text-align: center;"><strong>Lucas Ferreira Rocha (PER-02)</strong></td>
-<td style="text-align: left;"><code>TAR-04</code>: Cronograma visual e timeline interativa de fases do certame</td>
+<td style="text-align: left;"><code>TAR-04</code>: Acompanhar timeline interativa com simulador de prazos recursais e calendário</td>
 <td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
 </tr>
 <tr>
@@ -2002,11 +2016,11 @@
 </div>
 <hr />
 <h2 id="4-detalhamento-dos-cenarios">4. Detalhamento dos Cenários</h2>
-<h3 id="41-cenario-01-localizacao-agil-de-edital-de-concurso-no-df-cen-01">4.1 Cenário 01: Localização Ágil de Edital de Concurso no DF (CEN-01)</h3>
+<h3 id="41-cenario-01-parametrizacao-de-busca-avancada-e-comparacao-de-editais-concorrentes-no-df-cen-01">4.1 Cenário 01: Parametrização de Busca Avançada e Comparação de Editais Concorrentes no DF (CEN-01)</h3>
 <ul>
 <li><strong>Responsável:</strong> Daniel da Silva Batista  </li>
 <li><strong>Persona Associada:</strong> Maria Helena dos Santos (PER-01 — Concurseira Ativa / Adulta e Madura)  </li>
-<li><strong>Validação Empírica:</strong> Validado na prática através da <a href="https://youtu.be/YkYvCZDidaY">Entrevista Gravada USR-01</a> (Tarefa 01: Busca por palavra-chave / órgão).</li>
+<li><strong>Validação Empírica:</strong> Vinculado à Tarefa 01 (<code>TAR-01</code>: Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado) e apoiado nos dados do IPEA (2024).</li>
 </ul>
 <p>O detalhamento narrativo do Cenário 01, estruturado segundo os sete elementos formais de Carroll (2000) e Barbosa e Silva (2010), é apresentado na Tabela 2:</p>
 <div align="center">
@@ -2021,42 +2035,42 @@
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Ambiente / Contexto</strong></td>
-<td style="text-align: left;">Quarta-feira, por volta das 19h30, na mesa da sala em Taguatinga-DF. Maria Helena terminou suas atividades do dia e ligou seu notebook pessoal para verificar se o edital de concurso com vagas administrativas no Distrito Federal teve suas inscrições abertas e qual o valor da taxa de inscrição. Ela dispõe de cerca de 20 minutos antes de preparar o jantar.</td>
+<td style="text-align: left;">Quarta-feira, por volta das 19h30, na mesa da sala em Taguatinga-DF. Maria Helena terminou suas atividades do dia e ligou seu notebook pessoal. Ela está em dúvida entre dois grandes certames administrativos no Distrito Federal com inscrições abertas e deseja saber se haverá choque de datas de prova, qual oferece melhor plano de carreira e qual possui maior convergência de matérias de estudo. Ela dispõe de cerca de 30 minutos antes do jantar.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Atores</strong></td>
-<td style="text-align: left;"><strong>Maria Helena dos Santos</strong> (53 anos, concurseira ativa com rotina regular de estudos, usuária atenta e cautelosa com navegação na web).</td>
+<td style="text-align: left;"><strong>Maria Helena dos Santos</strong> (53 anos, concurseira madura, prudente e focada em otimização do tempo escasso de estudo).</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Objetivos</strong></td>
-<td style="text-align: left;">Encontrar a página específica do concurso de interesse no PCI Concursos e checar a situação das inscrições, prazos e requisitos de escolaridade.</td>
+<td style="text-align: left;">Parametrizar critérios combinados de busca (escolaridade superior, piso de R$ 5.000 e abrangência DF), selecionar os certames concorrentes e confrontar uma matriz comparativa lado a lado com prazos, taxas e conteúdos programáticos.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Planejamento</strong></td>
-<td style="text-align: left;">Maria Helena decide acessar o portal PCI Concursos (<code>pciconcursos.com.br</code>), utilizar o campo de busca no cabeçalho digitando o órgão pretendido e clicar no resultado oficial para checar as datas.</td>
+<td style="text-align: left;">Acessar o portal PCI Concursos, acionar a busca avançada por facetas, marcar dois certames da área administrativa e gerar uma grade comparativa para decidir qual edital priorizar.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Ações</strong></td>
-<td style="text-align: left;">1. Abre o navegador Google Chrome no notebook e digita a URL do portal.<br>2. Ao carregar a página repleta de blocos de notícias e propagandas, desvia o olhar dos anúncios e localiza a barra de pesquisa no topo.<br>3. Digita o nome do órgão (ex.: "Correios" ou "Tribunal") e clica no ícone da lupa.<br>4. Percorre os resultados retornados procurando a notícia oficial mais recente.<br>5. Clica no título do concurso para abrir a página detalhada da seleção.</td>
+<td style="text-align: left;">1. Acessa o portal PCI Concursos no navegador do notebook.<br>2. Aciona o módulo de busca avançada facetada no menu superior.<br>3. Define os parâmetros: Escolaridade (Superior), Região (DF), Carreira (Administrativa) e Status (Inscrições Abertas).<br>4. Requisita a consulta e avalia a listagem filtrada de certames.<br>5. Marca dois concursos concorrentes para inclusão no comparador direto.<br>6. Abre a matriz comparativa lado a lado e examina as datas de prova, divisão de vagas e disciplinas de conhecimentos básicos.<br>7. Salva a síntese comparativa para balizar seu plano de estudos semanal.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Eventos</strong></td>
-<td style="text-align: left;">A página demora alguns segundos para carregar completamente devido à grande quantidade de scripts publicitários. Na tela de resultados da busca, anúncios gráficos patrocinados aparecem intercalados no mesmo formato visual dos links de notícias, forçando Maria Helena a aproximar o rosto da tela e reler com cuidado para não clicar em anúncios promocionais enganosos.</td>
+<td style="text-align: left;">No portal atual, inexiste busca facetada: Maria Helena é forçada a realizar buscas textuais repetidas, abrir 10 abas paralelas e ler dezenas de páginas de PDF para comparar manualmente os dois editais, enfrentando sobrecarga cognitiva e poluição visual de propagandas.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Avaliação</strong></td>
-<td style="text-align: left;">Maria Helena atinge o objetivo de localizar o edital e anotar os prazos, mas relata desconforto com a poluição visual e cansaço nos olhos ao tentar diferenciar os links editoriais legítimos das propagandas comerciais.</td>
+<td style="text-align: left;">Maria Helena atinge a decisão sobre qual certame focar, mas ressalta o imenso cansaço mental causado pela ausência de uma ferramenta nativa de comparação entre editais no PCI Concursos.</td>
 </tr>
 </tbody>
 </table>
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base na Entrevista Gravada USR-01 e nos dados do IPEA (2024).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base na Análise Documental DOC-01 e na Persona PER-01.</p>
 </div>
 <hr />
-<h3 id="42-cenario-02-download-seguro-de-provas-anteriores-e-gabaritos-em-pdf-cen-02">4.2 Cenário 02: Download Seguro de Provas Anteriores e Gabaritos em PDF (CEN-02)</h3>
+<h3 id="42-cenario-02-montagem-e-exportacao-de-caderno-personalizado-de-estudos-com-gabarito-integrado-cen-02">4.2 Cenário 02: Montagem e Exportação de Caderno Personalizado de Estudos com Gabarito Integrado (CEN-02)</h3>
 <ul>
 <li><strong>Responsável:</strong> Daniel da Silva Batista  </li>
 <li><strong>Persona Associada:</strong> Maria Helena dos Santos (PER-01 — Concurseira Ativa / Adulta e Madura)  </li>
-<li><strong>Validação Empírica:</strong> Validado na prática através da <a href="https://youtu.be/YkYvCZDidaY">Entrevista Gravada USR-01</a> (Tarefa 02: Download de prova e gabarito em PDF).</li>
+<li><strong>Validação Empírica:</strong> Vinculado à Tarefa 02 (<code>TAR-02</code>: Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado) e apoiado no hábito de treino documentado em DOC-01.</li>
 </ul>
 <p>O detalhamento narrativo do Cenário 02 é apresentado na Tabela 3 a seguir:</p>
 <div align="center">
@@ -2071,42 +2085,42 @@
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Ambiente / Contexto</strong></td>
-<td style="text-align: left;">Sábado pela manhã, no ambiente de estudo em casa. Maria Helena reservou a manhã para treinar resolução de questões reais de concursos anteriores para o cargo de Assistente / Técnico Administrativo. Seu objetivo é salvar os arquivos em PDF no computador para imprimir e resolver no papel com caneta e marca-texto, pois a leitura demorada na tela causa ardência visual.</td>
+<td style="text-align: left;">Sábado pela manhã, no ambiente de estudo em casa. Maria Helena reservou a manhã para treinar resolução intensiva de questões reais de provas anteriores da banca organizadora do certame escolhido. Seu objetivo é imprimir um compilado limpo e encadernado de provas dos últimos 3 anos com gabaritos homologados (anulações indicadas) e folhas de rascunho de respostas.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Atores</strong></td>
-<td style="text-align: left;"><strong>Maria Helena dos Santos</strong> (53 anos, concurseira que prefere praticar simulados em folhas impressas para evitar fadiga na tela).</td>
+<td style="text-align: left;"><strong>Maria Helena dos Santos</strong> (53 anos, concurseira que prefere praticar simulados em papel impresso em layout econômico para evitar ardência e cansaço visual em telas digitais).</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Objetivos</strong></td>
-<td style="text-align: left;">Acessar o repositório de provas anteriores do PCI Concursos, selecionar o cargo administrativo pretendido e baixar o caderno de questões e a folha de respostas oficiais (gabarito definitivo) em formato PDF.</td>
+<td style="text-align: left;">Filtrar o repositório histórico de provas por banca e cargo, selecionar 4 cadernos de questões, parametrizar inclusão de gabarito definitivo unificado ao final de cada bloco e exportar um único arquivo PDF indexado em modo econômico de impressão.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Planejamento</strong></td>
-<td style="text-align: left;">Acessar a seção "Provas" no menu principal do portal, utilizar o filtro de cargo ou banca, localizar a prova desejada e efetuar o download direto dos arquivos para a pasta local do computador.</td>
+<td style="text-align: left;">Acessar o montador de provas do portal, selecionar o acervo da banca pretendida, compor a cesta de cadernos, escolher opções gráficas de impressão econômica e realizar o download seguro do material consolidado.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Ações</strong></td>
-<td style="text-align: left;">1. Clica na aba "Provas" no menu lateral do PCI Concursos.<br>2. Digita "Assistente Administrativo" no campo de filtro de provas.<br>3. Identifica na tabela a linha correspondente ao concurso desejado.<br>4. Clica no link rotulado como "Prova" para abrir o caderno de questões em PDF e salva o arquivo.<br>5. Retorna à listagem e clica no link rotulado como "Gabarito" para baixar a chave de respostas oficiais.</td>
+<td style="text-align: left;">1. Acessa a seção de provas anteriores no PCI Concursos.<br>2. Aplica filtros de banca examinadora, anos de aplicação (2023 a 2025) e cargo administrativo.<br>3. Inspeciona os cadernos retornados e seleciona 4 provas para adicionar à cesta de compilação.<br>4. Configura as preferências do caderno: anexo de gabaritos oficiais definitivos, modo impressão econômica em duas colunas e inclusão de folha de respostas.<br>5. Dispara a compilação no sistema e descarrega o arquivo PDF unificado e indexado sem passar por anúncios invasivos.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Eventos</strong></td>
-<td style="text-align: left;">Na página de download, banners publicitários exibem botões verdes chamativos com a palavra <em>"DOWNLOAD"</em> em caixa alta. Maria Helena quase clica no anúncio comercial antes de perceber que o link de download autêntico é apenas um texto sublinhado simples com tipografia menor situado logo abaixo.</td>
+<td style="text-align: left;">No portal real, os arquivos estão totalmente fragmentados: para obter 4 provas e gabaritos, a usuária precisa realizar 8 downloads separados, enfrentando banners com falsos botões de download e organizando manualmente os arquivos avulsos em pastas locais.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Avaliação</strong></td>
-<td style="text-align: left;">Maria Helena conclui o download dos PDFs com sucesso, mas avalia com ressalvas a experiência, destacando a insegurança gerada pelos botões falsos e o risco de usuários maduros baixarem programas maliciosos por desatenção visual.</td>
+<td style="text-align: left;">Maria Helena expressa alto alívio e produtividade ao conceber um caderno unificado e pronto para impressão, destacando a proteção contra armadilhas publicitárias e a economia de papel proporcionada pelo layout estruturado.</td>
 </tr>
 </tbody>
 </table>
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base na Entrevista Gravada USR-01 e na Persona PER-01.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base na Análise Documental DOC-01 e na Persona PER-01.</p>
 </div>
 <hr />
-<h3 id="43-cenario-03-filtragem-de-concursos-abertos-na-regiao-centro-oeste-df-cen-03">4.3 Cenário 03: Filtragem de Concursos Abertos na Região Centro-Oeste / DF (CEN-03)</h3>
+<h3 id="43-cenario-03-exploracao-cartografica-interativa-e-simulacao-de-mobilidade-de-vagas-no-df-e-ride-cen-03">4.3 Cenário 03: Exploração Cartográfica Interativa e Simulação de Mobilidade de Vagas no DF e RIDE (CEN-03)</h3>
 <ul>
 <li><strong>Responsável:</strong> Pedro Rocha Ferreira Lima  </li>
 <li><strong>Persona Associada:</strong> Lucas Ferreira Rocha (PER-02 — Concurseiro Iniciante / Jovem e Recém-formado)  </li>
-<li><strong>Validação Empírica:</strong> Fundamentado na Análise Documental DOC-02 (concentração de mais de 65% de vagas no DF) e vinculado à Tarefa 03 (Filtragem por região Centro-Oeste / DF).</li>
+<li><strong>Validação Empírica:</strong> Fundamentado na Análise Documental DOC-02 (concentração de mais de 65% de vagas no DF/RIDE) e vinculado à Tarefa 03 (<code>TAR-03</code>: Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade).</li>
 </ul>
 <p>O detalhamento narrativo do Cenário 03 é apresentado na Tabela 4 a seguir:</p>
 <div align="center">
@@ -2121,42 +2135,42 @@
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Ambiente / Contexto</strong></td>
-<td style="text-align: left;">Terça-feira, às 12h40, durante o intervalo de almoço no trabalho em Águas Claras-DF. Lucas utiliza seu smartphone conectado à rede 4G para verificar quais novos concursos foram abertos no Distrito Federal nesta semana. Ele dispõe de apenas 15 minutos antes de retornar ao expediente.</td>
+<td style="text-align: left;">Terça-feira, às 12h40, durante o intervalo de almoço no trabalho em Águas Claras-DF. Lucas utiliza seu smartphone conectado à rede 4G para verificar oportunidades públicas na sua região. Como depende de metrô e ônibus, ele precisa checar a proximidade geográfica dos órgãos e se há compatibilidade de transporte público para sua rotina funcional. Ele dispõe de apenas 15 minutos.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Atores</strong></td>
-<td style="text-align: left;"><strong>Lucas Ferreira Rocha</strong> (24 anos, recém-formado em Administração, usuário dinâmico e focado em vagas públicas do DF com boa remuneração inicial).</td>
+<td style="text-align: left;"><strong>Lucas Ferreira Rocha</strong> (24 anos, recém-formado em Administração, usuário dinâmico e focado em vagas do DF e RIDE com deslocamento viável).</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Objetivos</strong></td>
-<td style="text-align: left;">Acessar rapidamente a listagem de concursos com inscrições abertas no Distrito Federal, sem ter que rolar dezenas de páginas com prefeituras do interior de outros estados.</td>
+<td style="text-align: left;">Acessar um mapa interativo georreferenciado de vagas, delimitar seu ponto de partida em Águas Claras, definir raio de alcance de até 25 km e simular tempo de deslocamento em transporte coletivo até as sedes dos certames abertos.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Planejamento</strong></td>
-<td style="text-align: left;">Abrir o navegador no celular, acessar a seção "Centro-Oeste" do menu de regiões do PCI Concursos e filtrar apenas os editais com lotação em Brasília/DF.</td>
+<td style="text-align: left;">Abrir o mapa territorial do portal no celular, aplicar filtro por Região Administrativa e raio geográfico, inspecionar agrupamentos de vagas e estimar tempo de trajeto até a prova/lotação.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Ações</strong></td>
-<td style="text-align: left;">1. Abre o portal PCI Concursos no smartphone e toca no menu lateral de navegação.<br>2. Clica na opção regional "Centro-Oeste".<br>3. Tenta localizar um filtro ou seletor de Unidade Federativa específico para o DF.<br>4. Como não há filtro por UF, rola manualmente a longa página procurando a sigla "DF" entre as notícias de cidades de Goiás, Mato Grosso e MS.<br>5. Identifica o concurso de um órgão distrital e clica no link para visualizar a remuneração e cargos.</td>
+<td style="text-align: left;">1. Abre a ferramenta de mapa de oportunidades do portal no smartphone.<br>2. Define seu ponto de partida (Águas Claras) e ajusta o raio de alcance para 20 km.<br>3. Observa os clusters de vagas por Região Administrativa (Taguatinga, Guará, Plano Piloto).<br>4. Seleciona o polo de um órgão público distrital para examinar cargos e vencimentos.<br>5. Aciona o simulador de mobilidade urbana para verificar linhas de metrô e tempo de percurso estimado.<br>6. Confirma que o trajeto é de cerca de 35 minutos e salva a oportunidade no seu painel pessoal.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Eventos</strong></td>
-<td style="text-align: left;">A página do Centro-Oeste lista todos os concursos em ordem cronológica de publicação misturando todos os estados. O layout responsivo em tela pequena quebra as linhas de tabela e banners de propaganda intercalados empurram o conteúdo para baixo a cada toque, provocando rolagem acidental.</td>
+<td style="text-align: left;">Na plataforma atual do PCI Concursos, inexiste mapa: os certames do Centro-Oeste são exibidos em lista plana interminável misturando cidades do interior de Mato Grosso e Goiás, sem qualquer indicação de endereço de lotação ou ferramenta de mobilidade urbana.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Avaliação</strong></td>
-<td style="text-align: left;">Lucas consegue encontrar as informações do concurso distrital, mas reclama da perda de tempo provocada pela ausência de um botão direto para filtrar apenas o Distrito Federal e da lentidão de carregamento dos banners na rede móvel.</td>
+<td style="text-align: left;">Lucas constata que uma ferramenta cartográfica com cálculo de itinerário elimina dezenas de minutos de procura improdutiva e previne inscrições em certames com lotações logisticamente inviáveis.</td>
 </tr>
 </tbody>
 </table>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 </div>
 <hr />
-<h3 id="44-cenario-04-acompanhamento-de-retificacoes-e-cronograma-de-fases-do-certame-cen-04">4.4 Cenário 04: Acompanhamento de Retificações e Cronograma de Fases do Certame (CEN-04)</h3>
+<h3 id="44-cenario-04-acompanhamento-de-timeline-de-fases-com-simulador-de-prazos-recursais-e-sincronizacao-cen-04">4.4 Cenário 04: Acompanhamento de Timeline de Fases com Simulador de Prazos Recursais e Sincronização (CEN-04)</h3>
 <ul>
-<li><strong>Responsável:</strong> Pedro Rocha Ferreira Lima (com refinamento de escopo por Leonardo da Silva Lopes Júnior)  </li>
+<li><strong>Responsável:</strong> Pedro Rocha Ferreira Lima  </li>
 <li><strong>Persona Associada:</strong> Lucas Ferreira Rocha (PER-02 — Concurseiro Iniciante / Jovem e Recém-formado)  </li>
-<li><strong>Validação Empírica:</strong> Fundamentado na Análise Documental DOC-02 (80% de editais com retificação nas primeiras semanas) e vinculado à Tarefa 04 (Cronograma visual e timeline interativa de fases do certame).</li>
+<li><strong>Validação Empírica:</strong> Fundamentado na Análise Documental DOC-02 (dinâmica de retificações em 80% dos certames) e vinculado à Tarefa 04 (<code>TAR-04</code>: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário).</li>
 </ul>
 <p>O detalhamento narrativo do Cenário 04 é apresentado na Tabela 5 a seguir:</p>
 <div align="center">
@@ -2171,35 +2185,35 @@
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Ambiente / Contexto</strong></td>
-<td style="text-align: left;">Quinta-feira, às 21h15, em seu quarto em Águas Claras-DF. Lucas está estudando pelo notebook e ouviu em um fórum de concurseiros que a banca organizadora do certame distrital para o qual está inscrito adiou a data da prova objetiva devido a problemas de logística. Ele precisa confirmar com urgência e exatidão a nova data e reconfigurar seu cronograma de estudos e calendário pessoal.</td>
+<td style="text-align: left;">Quinta-feira, às 21h15, em seu quarto em Águas Claras-DF. Lucas está estudando e foi informado por colegas que a banca organizadora do concurso no qual está inscrito publicou uma retificação de cronograma e abriu prazo extraordinário para interposição de recursos contra o gabarito preliminar. Ele precisa checar com precisão a data fatal considerando o horário limite bancário e sincronizar o alerta no Google Agenda.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Atores</strong></td>
-<td style="text-align: left;"><strong>Lucas Ferreira Rocha</strong> (24 anos, candidato atento a prazos e cronogramas, que estuda com metas diárias rigorosas e planeja compromissos na agenda digital).</td>
+<td style="text-align: left;"><strong>Lucas Ferreira Rocha</strong> (24 anos, candidato meticuloso com prazos que organiza toda a sua rotina acadêmica e de concursos no calendário digital do celular).</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Objetivos</strong></td>
-<td style="text-align: left;">Acessar a página oficial do concurso no PCI Concursos, visualizar a linha do tempo (<em>timeline</em>) interativa de fases do certame, verificar alertas visuais de retificação e sincronizar os novos marcos (encerramento de inscrições e data da prova) diretamente com sua agenda eletrônica (Google Agenda / Apple Calendar).</td>
+<td style="text-align: left;">Acessar a timeline interativa do concurso, checar a nota de retificação com visualizador de alterações (<em>diff</em> antes x depois), calcular o prazo final de recurso considerando dias úteis e expedir lembretes automáticos para sua agenda pessoal (.ics).</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Planejamento</strong></td>
-<td style="text-align: left;">Localizar a página do concurso pelo campo de busca ou histórico recente, esperar encontrar uma timeline gráfica interativa de fases com destaque para comunicados de retificação, verificar os contadores de tempo restantes (<em>countdown</em>) e exportar as datas atualizadas.</td>
+<td style="text-align: left;">Localizar a ficha do concurso, abrir a timeline de etapas, examinar o badge de retificação, acionar a calculadora de prazos recursais e disparar a sincronização com o calendário.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Ações</strong></td>
-<td style="text-align: left;">1. Acessa o PCI Concursos no notebook e digita o nome do órgão no campo de pesquisa.<br>2. Clica no resultado correspondente ao certame inscrito.<br>3. Procura no topo da página por um componente visual de linha do tempo ou painel de fases do certame.<br>4. Não encontrando a timeline, varre manualmente o texto corrido da notícia à procura de menções a retificações.<br>5. Localiza um link em texto puro no rodapé rotulado como "Retificação 02" e abre o arquivo PDF.<br>6. Localiza a cláusula que alterou a data da prova objetiva e copia manualmente o dia para seu aplicativo pessoal de calendário.</td>
+<td style="text-align: left;">1. Acessa a timeline de fases do certame no portal.<br>2. Identifica o badge âmbar destacando retificação no cronograma de recursos.<br>3. Abre a ferramenta de comparação textual para checar exatamente quais cláusulas de datas foram modificadas.<br>4. Utiliza o simulador de prazos informando a data da publicação da errata para calcular a data fatal com corte no horário bancário distrital.<br>5. Clica no botão de exportação e autoriza o envio de alertas programados (24h e 2h antes) para o Google Agenda no smartphone.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Eventos</strong></td>
-<td style="text-align: left;">Na página do certame, o título e os destaques principais permanecem inalterados com a data antiga, induzindo ao erro. Não há representação gráfica de fases do certame (Inscrições $\rightarrow$ Isenção $\rightarrow$ Homologação $\rightarrow$ Provas $\rightarrow$ Gabaritos $\rightarrow$ Recursos $\rightarrow$ Resultados), inexiste contador regressivo para o encerramento dos prazos e a retificação nº 02 foi apenas adicionada no final do texto como uma pequena linha de atualização sem destaque cromático. O sistema também não disponibiliza botão de exportação de datas (.ics) para calendários digitais.</td>
+<td style="text-align: left;">No portal real, retificações são divulgadas como textos miúdos no rodapé sem destaque gráfico, inexiste timeline visual ou contadores regressivos, obrigando à leitura de PDFs extensos com risco de perda fatal de prazos de recurso.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Avaliação</strong></td>
-<td style="text-align: left;">Lucas confirma a nova data da prova após abrir e ler o PDF, mas avalia negativamente a usabilidade do portal. Ele destaca que a ausência de uma timeline visual interativa de fases e a falta de alertas destacados de retificação no topo colocam os candidatos sob constante estresse e risco severo de perda de prazos críticos.</td>
+<td style="text-align: left;">Lucas elogia a solução ao garantir precisão cronológica absoluta e integração com o ecossistema móvel pessoal, mitigando a insegurança jurídica recorrente em concursos com editais retificados.</td>
 </tr>
 </tbody>
 </table>
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 </div>
 <hr />
 <h3 id="45-cenario-05-resolucao-de-simulado-online-interativo-com-feedback-de-gabarito-no-smartphone-cen-05">4.5 Cenário 05: Resolução de Simulado Online Interativo com Feedback de Gabarito no Smartphone (CEN-05)</h3>
@@ -2544,6 +2558,8 @@ ROSSON, Mary Beth; CARROLL, John M. <em>Usability Engineering: Scenario-Based De
     
     
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
       
     
   </body>
