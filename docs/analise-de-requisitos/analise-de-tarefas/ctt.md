@@ -59,16 +59,16 @@ A equipe consolidou a matriz com as oito tarefas oficiais avaliadas no portal, m
 
 | ID | Descrição da Tarefa | Integrante Responsável |
 | :---: | :--- | :--- |
-| **TAR-01** | Buscar edital de concurso por palavra-chave ou órgão | Daniel da Silva Batista |
-| **TAR-02** | Baixar caderno de provas anteriores e gabarito oficial em PDF | Daniel da Silva Batista |
-| **TAR-03** | Filtrar concursos por região geográfica (Centro-Oeste / DF) | Pedro Rocha Ferreira Lima |
-| **TAR-04** | Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação | Pedro Rocha Ferreira Lima |
+| **TAR-01** | Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado | Daniel da Silva Batista |
+| **TAR-02** | Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado | Daniel da Silva Batista |
+| **TAR-03** | Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE) | Pedro Rocha Ferreira Lima |
+| **TAR-04** | Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário | Pedro Rocha Ferreira Lima |
 | **TAR-05** | Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho | Arthur Sismene Carvalho |
 | **TAR-06** | Buscar oportunidades de estágio de nível superior no DF *(Tarefa não suportada)* | Arthur Sismene Carvalho |
 | **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
 | **TAR-08** | Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério | Leonardo da Silva Lopes Júnior |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -77,21 +77,23 @@ A equipe consolidou a matriz com as oito tarefas oficiais avaliadas no portal, m
 
 ## 3. Modelagem Detalhada das Tarefas (Daniel da Silva Batista)
 
-### 3.1 Tarefa 01: Buscar edital de concurso por palavra-chave ou órgão (TAR-01)
+### 3.1 Tarefa 01: Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado (TAR-01)
 
-A representação em árvore de tarefas CTT para a Tarefa 01 é apresentada no diagrama da Figura 1 a seguir, e a especificação formal de seus nós, tipos e operadores temporais é apresentada na Tabela 3.
+A árvore CTT para a Tarefa 01 formaliza o diálogo interativo e os operadores temporais envolvidos na busca avançada facetada e na comparação simultânea de certames. O modelo substitui a busca textual rasa por fluxos concorrentes (`|||`) de definição de critérios (escolaridade, remuneração, banca e status), passagem de parâmetros (`[]>>`) para o motor de busca, seleção de múltiplos certames e confrontação simultânea das regras editalícias em matriz paralela.
+
+A representação em árvore de tarefas CTT é apresentada na Figura 1, e a especificação formal de seus nós, tipos e operadores temporais é apresentada na Tabela 3.
 
 #### Diagrama de Árvore CTT (Figura 1)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 1:</b> Representação em Árvore CTT da Tarefa 01</p>
+<p align="center"><b>Figura 1:</b> Representação em Árvore CTT da Tarefa 01 - Busca avançada e comparação lado a lado</p>
 
 </div>
 
 ```mermaid
 flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -100,15 +102,15 @@ flowchart TD
         L_Usu["[Usuário]"]
     end
 
-    Root["[Abstrata] Buscar edital de concurso por palavra-chave"]
+    Root["[Abstrata] Parametrizar busca avançada e comparar editais concorrentes"]
     
-    Sub1["[Interação] Inserir termo de pesquisa"]
+    Sub1["[Abstrata] Definir parâmetros de filtragem multicritério"]
     Op1{"[]>>"}
-    Sub2["[Sistema] Consultar e exibir resultados"]
+    Sub2["[Sistema] Processar consulta e renderizar catálogo facetado"]
     Op2{">>"}
-    Sub3["[Usuário] Analisar e filtrar resultados"]
+    Sub3["[Abstrata] Selecionar certames e acionar comparador"]
     Op3{">>"}
-    Sub4["[Interação] Selecionar concurso desejado"]
+    Sub4["[Abstrata] Analisar matriz comparativa e consolidar prioridade"]
 
     Root --> Sub1
     Root --> Op1
@@ -118,30 +120,53 @@ flowchart TD
     Root --> Op3
     Root --> Sub4
 
-    %% Decomposição de Sub1
-    Sub1_1["[Interação] Clicar na barra de busca"]
-    Sub1_Op{">>"}
-    Sub1_2["[Interação] Digitar nome do órgão/cargo"]
-    Sub1_Op2{">>"}
-    Sub1_3["[Interação] Acionar botão de busca / Enter"]
+    %% Decomposição de Sub1 (Parametrização concorrente)
+    Sub1_1["[Interação] Especificar escolaridade e carreira pretendida"]
+    Sub1_Op1{"|||"}
+    Sub1_2["[Interação] Delimitar piso salarial e banca examinadora"]
+    Sub1_Op2{"|||"}
+    Sub1_3["[Interação] Filtrar situação e abrangência regional"]
+    Sub1_Op3{">>"}
+    Sub1_4["[Interação] Submeter requisição de busca avançada"]
+
     Sub1 --> Sub1_1
-    Sub1 --> Sub1_Op
+    Sub1 --> Sub1_Op1
     Sub1 --> Sub1_2
     Sub1 --> Sub1_Op2
     Sub1 --> Sub1_3
+    Sub1 --> Sub1_Op3
+    Sub1 --> Sub1_4
 
-    %% Decomposição de Sub3
-    Sub3_1["[Usuário] Distinguir notícias de anúncios"]
-    Sub3_Op{"|||"}
-    Sub3_2["[Usuário] Avaliar relevância da listagem"]
+    %% Decomposição de Sub3 (Seleção para comparação)
+    Sub3_1["[Usuário] Avaliar aderência dos certames listados"]
+    Sub3_Op1{">>"}
+    Sub3_2["[Interação] Marcar certames concorrentes para comparação"]
+    Sub3_Op2{"[]>>"}
+    Sub3_3["[Sistema] Renderizar painel flutuante de certames selecionados"]
+
     Sub3 --> Sub3_1
-    Sub3 --> Sub3_Op
+    Sub3 --> Sub3_Op1
     Sub3 --> Sub3_2
+    Sub3 --> Sub3_Op2
+    Sub3 --> Sub3_3
+
+    %% Decomposição de Sub4 (Análise comparativa)
+    Sub4_1["[Usuário] Confrontar coincidência de datas de prova e taxas"]
+    Sub4_Op1{"|||"}
+    Sub4_2["[Usuário] Analisar convergência de conteúdos programáticos"]
+    Sub4_Op2{">>"}
+    Sub4_3["[Interação] Salvar síntese comparativa ou exportar relatório"]
+
+    Sub4 --> Sub4_1
+    Sub4 --> Sub4_Op1
+    Sub4 --> Sub4_2
+    Sub4 --> Sub4_Op2
+    Sub4 --> Sub4_3
 ```
 
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado pelos autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Paternò (1999) e Barbosa & Silva (2010).</p>
 
 </div>
 
@@ -153,16 +178,21 @@ flowchart TD
 
 | Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
 | :--- | :---: | :---: | :--- |
-| **Buscar edital por palavra-chave** | Abstrata | - | Tarefa raiz de alto nível que engloba toda a busca e localização do concurso. |
-| **Inserir termo de pesquisa** | Interação | `[]>>` | O usuário digita a palavra-chave e submete os dados de texto para o sistema. |
-| **Clicar na barra de busca** | Interação | `>>` | Posicionamento do cursor e foco no componente de entrada. |
-| **Digitar nome do órgão/cargo** | Interação | `>>` | Entrada dos caracteres da busca (ex.: "TJDFT"). |
-| **Acionar busca / Enter** | Interação | `[]>>` | Disparo do evento de submissão repassando o termo à consulta. |
-| **Consultar e exibir resultados** | Sistema | `>>` | O servidor do PCI Concursos pesquisa a base e renderiza a listagem de links na tela. |
-| **Analisar e filtrar resultados** | Usuário | `>>` | O usuário realiza julgamento cognitivo para distinguir os links de notícias dos anúncios publicitários. |
-| **Distinguir notícias de anúncios** | Usuário | `\|\|\|` | Esforço cognitivo paralelo para ignorar banners do Google Ads. |
-| **Avaliar relevância da listagem** | Usuário | `>>` | Leitura das manchetes para identificar a data e o órgão correto. |
-| **Selecionar concurso desejado** | Interação | - | Clique no hiperlink do concurso selecionado para abrir a página do edital. |
+| **Parametrizar busca e comparar editais** | Abstrata | - | Tarefa raiz de tomada de decisão baseada na combinação de múltiplos filtros e na confrontação paralela de certames. |
+| **Definir parâmetros de filtragem multicritério** | Abstrata | `[]>>` | Configuração simultânea dos parâmetros de consulta, repassando o payload de dados ao sistema. |
+| **Especificar escolaridade e carreira** | Interação | `\|\|\|` | Seleção dos campos de nível de formação e áreas de atuação desejadas. |
+| **Delimitar piso salarial e banca** | Interação | `\|\|\|` | Ajuste da faixa remuneratória mínima e marcação das instituições organizadoras. |
+| **Filtrar situação e abrangência regional** | Interação | `>>` | Escolha do status (inscrições abertas) e das localidades de preferência. |
+| **Submeter requisição de busca avançada** | Interação | `[]>>` | Disparo da consulta com transferência dos parâmetros de filtro para a camada de serviço. |
+| **Processar consulta e renderizar catálogo** | Sistema | `>>` | O sistema compila os filtros facetados e exibe a listagem filtrada de oportunidades. |
+| **Selecionar certames e acionar comparador** | Abstrata | `>>` | Subtarefa de triagem na qual o concurseiro elege os certames que disputarão sua atenção. |
+| **Avaliar aderência dos certames listados** | Usuário | `>>` | Julgamento cognitivo sobre a relevância de cada concurso retornado frente à disponibilidade do candidato. |
+| **Marcar certames concorrentes** | Interação | `[]>>` | Acionamento das caixas de seleção adicionando até 3 certames à bandeja comparativa. |
+| **Renderizar painel flutuante de selecionados** | Sistema | `>>` | Atualização reativa da interface exibindo os cards fixados para confronto direto. |
+| **Analisar matriz comparativa e consolidar** | Abstrata | - | Subtarefa de deliberação estratégica apoiada na matriz visual lado a lado. |
+| **Confrontar datas de prova e taxas** | Usuário | `\|\|\|` | Análise cognitiva simultânea para checagem de sobreposição de calendários e custos de inscrição. |
+| **Analisar convergência de conteúdos** | Usuário | `>>` | Comparação do percentual de compatibilidade das matérias para otimização do plano de estudos. |
+| **Salvar síntese ou exportar relatório** | Interação | - | Persistência da análise comparativa nos certames favoritados ou geração de documento PDF estruturado. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -170,56 +200,79 @@ flowchart TD
 
 ---
 
-### 3.2 Tarefa 02: Baixar caderno de provas anteriores e gabarito oficial em PDF (TAR-02)
+### 3.2 Tarefa 02: Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado (TAR-02)
 
-A representação em árvore da Tarefa 02 é ilustrada na Figura 2 a seguir, e sua especificação formal de nós, tipos e operadores temporais é apresentada na Tabela 4.
+A representação em árvore da Tarefa 02 substitui o download elementar de um PDF isolado por um fluxo completo de composição modular de material didático. A modelagem contempla a seleção de múltiplos blocos de prova por banca examinadora, ano e disciplina (`|||`), a inclusão de gabaritos oficiais pós-recurso com marcação de anulações, a parametrização de layout de impressão (`[]>>`) e o download verificado com garantia de integridade documental.
+
+A árvore de tarefas CTT é apresentada na Figura 2, e sua especificação formal de nós e operadores é descrita na Tabela 4.
 
 #### Diagrama de Árvore CTT (Figura 2)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 2:</b> Representação em Árvore CTT da Tarefa 02</p>
+<p align="center"><b>Figura 2:</b> Representação em Árvore CTT da Tarefa 02 - Montagem e exportação de caderno personalizado</p>
 
 </div>
 
 ```mermaid
 flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
-    Root2["[Abstrata] Baixar prova anterior e gabarito em PDF"]
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
+    subgraph Legenda ["Legenda CTT"]
+        direction LR
+        L_Abs["[Abstrata]"]
+        L_Int["[Interação]"]
+        L_Sis["[Sistema]"]
+        L_Usu["[Usuário]"]
+    end
 
-    N1["[Interação] Acessar menu de provas"]
-    O1{">>"}
-    N2["[Interação] Localizar concurso e cargo pretendido"]
-    O2{">>"}
-    N3["[Abstrata] Obter arquivos de estudo"]
+    Root2["[Abstrata] Montar e exportar caderno personalizado de estudos com gabarito"]
 
-    Root2 --> N1
-    Root2 --> O1
-    Root2 --> N2
-    Root2 --> O2
-    Root2 --> N3
+    M1["[Abstrata] Filtrar repositório e compor pacote de cadernos"]
+    MOp1{"[]>>"}
+    M2["[Abstrata] Parametrizar opções gráficas e pedagógicas de geração"]
+    MOp2{">>"}
+    M3["[Sistema] Processar unificação de documentos e validar integridade"]
+    MOp3{"[]>>"}
+    M4["[Interação] Descarregar caderno consolidado em repositório local"]
 
-    %% Decomposição de N3
-    N3_1["[Interação] Clicar em link da Prova"]
-    O3_1{"[]>>"}
-    N3_2["[Sistema] Entregar arquivo PDF da Prova"]
-    O3_2{">>"}
-    N3_3["[Interação] Clicar em link do Gabarito"]
-    O3_3{"[]>>"}
-    N3_4["[Sistema] Entregar arquivo PDF do Gabarito"]
+    Root2 --> M1
+    Root2 --> MOp1
+    Root2 --> M2
+    Root2 --> MOp2
+    Root2 --> M3
+    Root2 --> MOp3
+    Root2 --> M4
 
-    N3 --> N3_1
-    N3 --> O3_1
-    N3 --> N3_2
-    N3 --> O3_2
-    N3 --> N3_3
-    N3 --> O3_3
-    N3 --> N3_4
+    %% Decomposição de M1 (Filtro e seleção modular)
+    M1_1["[Interação] Filtrar acervo por banca, ano de aplicação e cargo"]
+    M1_Op1{"|||"}
+    M1_2["[Interação] Segmentar blocos disciplinares pretendidos"]
+    M1_Op2{">>"}
+    M1_3["[Interação] Adicionar cadernos selecionados à cesta de compilação"]
+
+    M1 --> M1_1
+    M1 --> M1_Op1
+    M1 --> M1_2
+    M1 --> M1_Op2
+    M1 --> M1_3
+
+    %% Decomposição de M2 (Parâmetros de compilação)
+    M2_1["[Interação] Habilitar gabarito definitivo com notas de anulação"]
+    M2_Op1{"|||"}
+    M2_2["[Interação] Selecionar leiaute de impressão econômica ou leitura digital"]
+    M2_Op2{"|||"}
+    M2_3["[Interação] Incluir sumário interativo e folhas de rascunho de gabarito"]
+
+    M2 --> M2_1
+    M2 --> M2_Op1
+    M2 --> M2_2
+    M2 --> M2_Op2
+    M2 --> M2_3
 ```
 
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado pelos autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Paternò (1999) e Barbosa & Silva (2010).</p>
 
 </div>
 
@@ -231,14 +284,17 @@ flowchart TD
 
 | Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
 | :--- | :---: | :---: | :--- |
-| **Baixar prova e gabarito em PDF** | Abstrata | - | Tarefa raiz de download dos materiais de estudo em formato digital. |
-| **Acessar menu de provas** | Interação | `>>` | Clique no menu lateral ou de navegação superior para abrir o catálogo. |
-| **Localizar concurso e cargo** | Interação | `>>` | Seleção de filtros de banca, ano e busca textual pelo cargo pretendido. |
-| **Obter arquivos de estudo** | Abstrata | - | Subtarefa composta responsável pela obtenção sequencial dos dois documentos. |
-| **Clicar em link da Prova** | Interação | `[]>>` | Identificação e clique no hiperlink legítimo do caderno de questões. |
-| **Entregar arquivo PDF da Prova** | Sistema | `>>` | O servidor transmite os bytes do PDF para download ou abertura no navegador. |
-| **Clicar em link do Gabarito** | Interação | `[]>>` | Retorno à página e clique no hiperlink correspondente à folha de gabarito. |
-| **Entregar arquivo PDF do Gabarito** | Sistema | - | O sistema dispara o download da chave de respostas oficiais. |
+| **Montar e exportar caderno personalizado** | Abstrata | - | Tarefa raiz de criação e compilação de material unificado de questões anteriores com chave de respostas. |
+| **Filtrar repositório e compor pacote** | Abstrata | `[]>>` | Seleção dos cadernos de provas no catálogo com envio dos identificadores para o montador. |
+| **Filtrar acervo por banca, ano e cargo** | Interação | `\|\|\|` | Parametrização dos critérios de busca no repositório de provas anteriores. |
+| **Segmentar blocos disciplinares** | Interação | `>>` | Seleção de matérias específicas quando o candidato não deseja a íntegra da prova. |
+| **Adicionar cadernos à cesta de compilação** | Interação | `[]>>` | Inclusão dos materiais selecionados na lista de compilação do pacote de estudo. |
+| **Parametrizar opções pedagógicas e gráficas** | Abstrata | `>>` | Definição das diretrizes de formatação e consolidação dos anexos no documento final. |
+| **Habilitar gabarito definitivo com anulações** | Interação | `\|\|\|` | Inclusão das respostas oficiais homologadas com sinalização expressa de questões anuladas. |
+| **Selecionar leiaute de documento** | Interação | `\|\|\|` | Alternância entre modo econômico (duas colunas para impressão) ou digital com links interativos. |
+| **Incluir sumário e folhas de rascunho** | Interação | `>>` | Inserção de numeração contínua de páginas e folhas de gabarito para simulação de preenchimento. |
+| **Processar unificação e validar integridade** | Sistema | `[]>>` | O servidor mescla os arquivos PDF, checa a integridade dos links e gera o arquivo consolidado. |
+| **Descarregar caderno consolidado** | Interação | - | Recepção e salvamento direto do arquivo PDF indexado sem redirecionamentos publicitários. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -248,30 +304,40 @@ flowchart TD
 
 ## 4. Modelagem Detalhada das Tarefas (Pedro Rocha Ferreira Lima)
 
-### 4.1 Tarefa 03: Filtrar concursos por região geográfica (Centro-Oeste / DF) (TAR-03)
+### 4.1 Tarefa 03: Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE) (TAR-03)
 
-A representação em árvore de tarefas CTT para a Tarefa 03 é apresentada na Figura 3, decompondo os fluxos de filtragem regional com operadores temporais de ativação com transferência de informação (`[]>>`), escolha (`[]`) e ativação sequencial (`>>`). A especificação formal dos nós é detalhada na Tabela 5.
+A Tarefa 03 investiga o processo de busca, filtragem e planejamento geográfico no Distrito Federal e em sua Região Integrada de Desenvolvimento (RIDE), foco central da persona **Lucas Ferreira Rocha (`PER-02`)**. A modelagem CTT formaliza a exploração cartográfica interativa, superando a listagem estática de estados. O fluxo estrutura a parametrização de ponto de partida e raio de alcance (`|||`), a renderização reativa dos agrupamentos de vagas por Região Administrativa (`[]>>`), a exploração das oportunidades territoriais e a simulação assíncrona de rotas de transporte público para estimativa de deslocamento.
+
+A representação em árvore de tarefas CTT é apresentada na Figura 3, e a especificação formal de seus nós, tipos e operadores temporais é detalhada na Tabela 5.
 
 #### Diagrama de Árvore CTT (Figura 3)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 3:</b> Representação em Árvore CTT da Tarefa 03</p>
+<p align="center"><b>Figura 3:</b> Representação em Árvore CTT da Tarefa 03 - Mapa georreferenciado e cálculo de mobilidade</p>
 
 </div>
 
 ```mermaid
 flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
-    Root3["[Abstrata] Filtrar concursos por região geográfica (Centro-Oeste / DF)"]
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
+    subgraph Legenda ["Legenda CTT"]
+        direction LR
+        L_Abs["[Abstrata]"]
+        L_Int["[Interação]"]
+        L_Sis["[Sistema]"]
+        L_Usu["[Usuário]"]
+    end
 
-    P1["[Interação] Acessar menu regional Centro-Oeste"]
+    Root3["[Abstrata] Explorar mapa georreferenciado e planejar mobilidade de vagas"]
+
+    P1["[Abstrata] Parametrizar delimitação espacial no mapa"]
     POp1{"[]>>"}
-    P2["[Sistema] Carregar listagem unificada de editais"]
+    P2["[Sistema] Renderizar malha cartográfica com agrupamentos de certames"]
     POp2{">>"}
-    P3["[Abstrata] Localizar oportunidades para o Distrito Federal"]
+    P3["[Abstrata] Explorar polos de lotação e examinar oportunidades"]
     POp3{">>"}
-    P4["[Interação] Clicar no link do concurso distrital"]
+    P4["[Abstrata] Simular itinerário e estimar tempo de deslocamento"]
 
     Root3 --> P1
     Root3 --> POp1
@@ -281,32 +347,49 @@ flowchart TD
     Root3 --> POp3
     Root3 --> P4
 
-    %% Decomposição de P3 (Estratégias de Localização - Escolha [])
-    P3_1["[Usuário] Varrer visualmente tabela buscando '/DF'"]
-    P3_Op{"[]"}
-    P3_2["[Abstrata] Localizar via busca interna do navegador (Ctrl+F)"]
+    %% Decomposição de P1 (Parâmetros espaciais concorrentes)
+    P1_1["[Interação] Delimitar bairro ou RA de residência no DF"]
+    P1_Op1{"|||"}
+    P1_2["[Interação] Ajustar raio de deslocamento máximo em km"]
+    P1_Op2{">>"}
+    P1_3["[Interação] Submeter requisição de atualização da malha"]
+
+    P1 --> P1_1
+    P1 --> P1_Op1
+    P1 --> P1_2
+    P1 --> P1_Op2
+    P1 --> P1_3
+
+    %% Decomposição de P3 (Exploração de polos)
+    P3_1["[Usuário] Inspecionar densidade de vagas por polo territorial"]
+    P3_Op1{">>"}
+    P3_2["[Interação] Selecionar marcador do polo e requisitar ficha do órgão"]
+    P3_Op2{"[]>>"}
+    P3_3["[Sistema] Exibir painel lateral com dados de vagas e lotação"]
 
     P3 --> P3_1
-    P3 --> P3_Op
+    P3 --> P3_Op1
     P3 --> P3_2
+    P3 --> P3_Op2
+    P3 --> P3_3
 
-    %% Decomposição de P3_2
-    P3_2_1["[Interação] Digitar 'DF' no localizador"]
-    P3_2_Op{"[]>>"}
-    P3_2_2["[Sistema] Destacar ocorrências de DF na tela"]
-    P3_2_Op2{">>"}
-    P3_2_3["[Usuário] Avaliar resultado destacado"]
+    %% Decomposição de P4 (Simulação de mobilidade)
+    P4_1["[Interação] Requisitar rota estimada em transporte público"]
+    P4_Op1{"[]>>"}
+    P4_2["[Sistema] Integrar malha viária e calcular itinerário com conexões"]
+    P4_Op2{">>"}
+    P4_3["[Usuário] Avaliar compatibilidade de tempo de trajeto para o certame"]
 
-    P3_2 --> P3_2_1
-    P3_2 --> P3_2_Op
-    P3_2 --> P3_2_2
-    P3_2 --> P3_2_Op2
-    P3_2 --> P3_2_3
+    P4 --> P4_1
+    P4 --> P4_Op1
+    P4 --> P4_2
+    P4 --> P4_Op2
+    P4 --> P4_3
 ```
 
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base em Paternò (1999) e Barbosa & Silva (2010).</p>
 
 </div>
 
@@ -318,40 +401,44 @@ flowchart TD
 
 | Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
 | :--- | :---: | :---: | :--- |
-| **Filtrar concursos por região (Centro-Oeste / DF)** | Abstrata | - | Tarefa raiz de alto nível que abrange o afunilamento geográfico até a seleção de uma vaga distrital. |
-| **Acessar menu regional Centro-Oeste** | Interação | `[]>>` | O usuário clica na opção "Centro-Oeste" na navegação lateral, enviando a requisição de rota com a região selecionada. |
-| **Carregar listagem unificada de editais** | Sistema | `>>` | O servidor do portal consulta a base de dados e renderiza a listagem plana englobando DF, GO, MT e MS. |
-| **Localizar oportunidades para o Distrito Federal** | Abstrata | `>>` | Subtarefa complexa de triagem, onde o usuário adota uma de duas estratégias concorrentes de busca. |
-| **Varrer visualmente tabela buscando '/DF'** | Usuário | `[]` | Leitura cognitiva linha por linha dos títulos procurando a sigla distrital (estratégia manual). |
-| **Localizar via busca do navegador (Ctrl+F)** | Abstrata | - | Estratégia alternativa adotada para contornar a ausência de subfiltros nativos por UF no portal. |
-| **Digitar 'DF' no localizador** | Interação | `[]>>` | Entrada textual da sigla no utilitário de busca do navegador. |
-| **Destacar ocorrências de DF na tela** | Sistema | `>>` | O navegador renderiza o realce luminoso nas palavras coincidentes dentro do DOM da página. |
-| **Avaliar resultado destacado** | Usuário | - | Julgamento cognitivo do usuário sobre o órgão público distrital identificado. |
-| **Clicar no link do concurso distrital** | Interação | - | Ação física de clique sobre o título do concurso pretendido para abrir a página do edital. |
+| **Explorar mapa e planejar mobilidade** | Abstrata | - | Tarefa raiz de análise territorial de vagas e viabilidade de trânsito para o concurseiro. |
+| **Parametrizar delimitação espacial** | Abstrata | `[]>>` | Configuração do perímetro geográfico desejado, transferindo os dados ao mapa. |
+| **Delimitar bairro ou RA de residência** | Interação | `\|\|\|` | Indicação do ponto de partida do usuário no Distrito Federal. |
+| **Ajustar raio de deslocamento máximo** | Interação | `>>` | Manipulação do controle deslizante de distância tolerável (ex.: até 25 km). |
+| **Submeter requisição da malha** | Interação | `[]>>` | Envio dos limites espaciais para filtragem dos polos de vagas no banco. |
+| **Renderizar malha cartográfica** | Sistema | `>>` | O sistema compila as coordenadas e desenha os clusters de vagas sobre o mapa. |
+| **Explorar polos e examinar oportunidades** | Abstrata | `>>` | Navegação nos agrupamentos espaciais e triagem das informações dos certames. |
+| **Inspecionar densidade de vagas** | Usuário | `>>` | Avaliação cognitiva da concentração de cargos por região administrativa. |
+| **Selecionar marcador do polo** | Interação | `[]>>` | Acionamento do agrupamento territorial para visualizar o detalhamento do órgão. |
+| **Exibir painel lateral com dados** | Sistema | `>>` | Abertura de gaveta lateral com vagas abertas, salários e locais prováveis de prova. |
+| **Simular itinerário e estimar tempo** | Abstrata | - | Subtarefa de verificação do tempo gasto em trânsito até os locais do certame. |
+| **Requisitar rota em transporte público** | Interação | `[]>>` | Solicitação de cálculo de trajeto considerando linhas distritais e metrô. |
+| **Calcular itinerário com conexões** | Sistema | `>>` | O motor de rotas calcula o tempo total em minutos e as baldeações necessárias. |
+| **Avaliar compatibilidade de trajeto** | Usuário | - | Deliberação do concurseiro sobre a sustentabilidade do deslocamento até a vaga. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
 ---
 
-### 4.2 Tarefa 04: Acompanhar cronograma visual e timeline interativa de fases do certame com alertas de retificação (TAR-04)
+### 4.2 Tarefa 04: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário (TAR-04)
 
-No âmbito do aprimoramento de escopo orientado pela **Issue #14**, a Tarefa 04 transcende a consulta passiva a documentos PDF dispersos. A interação foi modelada para contemplar uma **Timeline Interativa de Fases do Certame**, com identificação em tempo real de marcos temporais (Inscrições, Isenção, Provas, Gabaritos e Recursos), contadores regressivos dinâmicos, filtros de retificações e erratas de prazos com destaque visual, bem como a sincronização assíncrona dos eventos críticos com o calendário pessoal do usuário (`.ics` / Google Calendar / Outlook).
+No âmbito do aprimoramento de escopo orientado pelas avaliações docentes, a Tarefa 04 transcende a consulta passiva a editais estáticos. A árvore CTT modela a interação dinâmica com a **Timeline de Fases do Certame**, englobando o monitoramento de marcos temporais em tempo real, a confrontação de retificações por meio de ferramenta visual de alterações (*diff* textual), a utilização de um simulador de prazos de recursos (calculando horários bancários e dias úteis) e a exportação assíncrona de eventos para agendas digitais (.ics / Google Calendar).
 
-Essa abordagem atende às necessidades críticas do perfil de usuário e da persona **Lucas Ferreira Rocha (`PER-02`)**, cuja restrição de tempo entre faculdade e estágio demanda acompanhamento ágil e à prova de perda de prazos. A árvore de tarefas CTT é apresentada na Figura 4, e sua especificação formal de nós, tipos e operadores temporais é detalhada na Tabela 6.
+A árvore de tarefas CTT é apresentada na Figura 4, e sua especificação formal de nós, tipos e operadores temporais é descrita na Tabela 6.
 
 #### Diagrama de Árvore CTT (Figura 4)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 4:</b> Representação em Árvore CTT da Tarefa 04 - Acompanhar cronograma visual e timeline interativa</p>
+<p align="center"><b>Figura 4:</b> Representação em Árvore CTT da Tarefa 04 - Timeline interativa com simulador recursal</p>
 
 </div>
 
 ```mermaid
 flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -360,15 +447,15 @@ flowchart TD
         L_Usu["[Usuário]"]
     end
 
-    Root4["[Abstrata] Acompanhar cronograma visual e timeline de fases do certame"]
+    Root4["[Abstrata] Acompanhar timeline de fases e simular prazos recursais"]
 
-    Q1["[Interação] Acessar página de detalhes do certame"]
+    Q1["[Interação] Acessar painel do certame e requisitar timeline de fases"]
     QOp1{">>"}
-    Q2["[Sistema] Renderizar timeline cronológica e contadores regressivos"]
+    Q2["[Sistema] Renderizar nós cronológicos de etapas e contadores regressivos"]
     QOp2{"[]>>"}
-    Q3["[Abstrata] Explorar fases e gerenciar marcos temporais"]
+    Q3["[Abstrata] Inspecionar fases, retificações e contadores"]
     QOp3{">>"}
-    Q4["[Abstrata] Sincronizar eventos com calendário externo"]
+    Q4["[Abstrata] Simular prazos recursais e sincronizar marcos na agenda"]
 
     Root4 --> Q1
     Root4 --> QOp1
@@ -378,14 +465,14 @@ flowchart TD
     Root4 --> QOp3
     Root4 --> Q4
 
-    %% Decomposição de Q3 (Explorar fases e gerenciar marcos)
-    Q3_1["[Usuário] Inspecionar status visual das etapas na timeline"]
+    %% Decomposição de Q3 (Inspeção de etapas e retificações)
+    Q3_1["[Usuário] Inspecionar status visual das etapas na linha do tempo"]
     Q3_Op1{"|||"}
-    Q3_2["[Usuário] Avaliar contador regressivo para a data da prova"]
-    Q3_Op2{"|||"}
-    Q3_3["[Interação] Alternar filtro de retificações e erratas de prazos"]
+    Q3_2["[Usuário] Checar contador regressivo para encerramento de prazos"]
+    Q3_Op2{">>"}
+    Q3_3["[Interação] Acionar visualizador comparativo de retificações de edital"]
     Q3_Op3{"[]>>"}
-    Q3_4["[Sistema] Destacar alterações de datas e exibir badge de prorrogação"]
+    Q3_4["[Sistema] Apresentar modal com realce textual de inclusões e supressões"]
 
     Q3 --> Q3_1
     Q3 --> Q3_Op1
@@ -395,14 +482,14 @@ flowchart TD
     Q3 --> Q3_Op3
     Q3 --> Q3_4
 
-    %% Decomposição de Q4 (Sincronização de calendário)
-    Q4_1["[Interação] Clicar no botão 'Sincronizar com Agenda'"]
+    %% Decomposição de Q4 (Simulação e sincronização)
+    Q4_1["[Interação] Parametrizar simulador com data de publicação e tipo de recurso"]
     Q4_Op1{"[]>>"}
-    Q4_2["[Sistema] Gerar payload de calendário (.ics / link webcal)"]
+    Q4_2["[Sistema] Calcular data fatal considerando dias úteis e corte bancário"]
     Q4_Op2{">>"}
-    Q4_3["[Interação] Confirmar importação no aplicativo de calendário do usuário"]
-    Q4_Op3{">>"}
-    Q4_4["[Sistema] Registrar sincronização e programar notificações prévias"]
+    Q4_3["[Interação] Requisitar exportação de alertas para calendário (.ics)"]
+    Q4_Op3{"[]>>"}
+    Q4_4["[Sistema] Disparar arquivo de calendário com notificações pré-agendadas"]
 
     Q4 --> Q4_1
     Q4 --> Q4_Op1
@@ -415,7 +502,7 @@ flowchart TD
 
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base em Paternò (1999) e Barbosa & Silva (2010).</p>
 
 </div>
 
@@ -427,21 +514,21 @@ flowchart TD
 
 | Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
 | :--- | :---: | :---: | :--- |
-| **Acompanhar cronograma visual e timeline do certame** | Abstrata | - | Tarefa raiz de gerenciamento temporal e acompanhamento interativo do ciclo de vida do concurso público. |
-| **Acessar página de detalhes do certame** | Interação | `>>` | Clique no título do concurso a partir da listagem geral ou busca por palavras-chave. |
-| **Renderizar timeline cronológica e contadores regressivos** | Sistema | `[]>>` | O sistema extrai as datas do banco de dados e exibe a linha do tempo gráfica com estágios ativos/passados e contadores regressivos. |
-| **Explorar fases e gerenciar marcos temporais** | Abstrata | `>>` | Nó de composição que reúne a inspeção cognitiva do candidato e a manipulação dos filtros de retificação. |
-| **Inspecionar status visual das etapas na timeline** | Usuário | `\|\|\|` | Avaliação cognitiva das etapas (Inscrições abertas, homologação, período de recursos) baseada em código de cores e badges de status. |
-| **Avaliar contador regressivo para a data da prova** | Usuário | `\|\|\|` | Julgamento cognitivo do tempo restante de estudo (dias/horas) até a aplicação da prova objetiva. |
-| **Alternar filtro de retificações e erratas de prazos** | Interação | `[]>>` | Clique no alternador (toggle) para filtrar exclusivamente etapas que sofreram alteração ou prorrogação após o edital de abertura. |
-| **Destacar alterações de datas e exibir badge de prorrogação** | Sistema | - | O sistema atualiza os nós da timeline em tempo real com realce em vermelho/âmbar, indicando as notas de retificação aplicadas. |
-| **Sincronizar eventos com calendário externo** | Abstrata | - | Subtarefa de integração entre a plataforma de concursos e o ecossistema de produtividade pessoal do usuário. |
-| **Clicar no botão 'Sincronizar com Agenda'** | Interação | `[]>>` | Acionamento do botão de ação primária para solicitar a geração do arquivo de calendário ou link de subscrição. |
-| **Gerar payload de calendário (.ics / link webcal)** | Sistema | `>>` | O servidor compila os eventos das fases com horários-limite e URLs do edital em formato padrão iCalendar (RFC 5545). |
-| **Confirmar importação no aplicativo de calendário** | Interação | `>>` | Interação externa do usuário na aplicação de calendário nativa (Google, Apple, Outlook) validando a inscrição dos eventos. |
-| **Registrar sincronização e programar notificações prévias** | Sistema | - | Agendamento de notificações preventivas (ex.: 48h antes do encerramento das inscrições e na véspera da prova). |
+| **Acompanhar timeline e simular prazos** | Abstrata | - | Tarefa raiz de gerenciamento cronológico contínuo e proteção contra perda de prazos editalícios. |
+| **Acessar painel do certame** | Interação | `>>` | Seleção do certame para carregamento da visualização temporal especializada. |
+| **Renderizar nós cronológicos e contadores** | Sistema | `[]>>` | Renderização visual da timeline com sinalização de fases ativas/passadas e contadores regressivos. |
+| **Inspecionar fases, retificações e contadores** | Abstrata | `>>` | Exame visual das etapas e verificação de alterações publicadas pela banca. |
+| **Inspecionar status das etapas** | Usuário | `\|\|\|` | Julgamento cognitivo do estágio de desenvolvimento do certame via código de cores semântico. |
+| **Checar contador regressivo** | Usuário | `>>` | Avaliação da proximidade da data fatal de inscrições, provas ou envio de títulos. |
+| **Acionar visualizador de retificações** | Interação | `[]>>` | Abertura da ferramenta de comparação para inspecionar alterações editalícias. |
+| **Apresentar modal com realce textual** | Sistema | - | Exibição de texto comparativo confrontando redação original e retificada (*diff*). |
+| **Simular prazos recursais e sincronizar** | Abstrata | - | Subtarefa de cálculo de prazos e automatização de lembretes na agenda pessoal do concurseiro. |
+| **Parametrizar simulador de prazos** | Interação | `[]>>` | Inserção do marco inicial do prazo e seleção da modalidade recursal pretendida. |
+| **Calcular data fatal com corte bancário** | Sistema | `>>` | Algoritmo que projeta o termo final respeitando expediente bancário e feriados distritais. |
+| **Requisitar exportação para calendário** | Interação | `[]>>` | Solicitação de geração de payload para aplicativo de agenda do smartphone. |
+| **Disparar arquivo com notificações** | Sistema | - | Emissão de arquivo `.ics` com alarmes preventivos de 24 horas e 2 horas de antecedência. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -611,7 +698,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -719,7 +806,7 @@ Na árvore CTT da Tarefa 07 (Figura 7), destacam-se a passagem de informação e
 
 ```mermaid
 flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -753,7 +840,7 @@ flowchart TD
     %% Decomposição de Sub3
     Sub3_1["[Usuário] Escolher a disciplina básica pretendida"]
     Sub3_Op{"[]>>"}
-    Sub3_2["[Interação] Clicar na matéria (ex.: Direito Constitucional)"]
+    Sub3_2["[Interação] Selecionar a matéria (ex.: Direito Constitucional)"]
     Sub3_Op2{">>"}
     Sub3_3["[Interação] Filtrar tópico por busca interna<br>(NÃO SUPORTADA)"]
     Sub3_Op3{"[]"}
@@ -767,7 +854,7 @@ flowchart TD
     Sub3 --> Sub3_4
 
     %% Decomposição de Sub4 (reprodução e ajustes)
-    Sub4_1["[Interação] Acionar play no player embutido"]
+    Sub4_1["[Interação] Iniciar reprodução no player embutido"]
     Sub4_Op{">>"}
     Sub4_2["[Sistema] Transmitir stream de mídia (YouTube)"]
     Sub4_Op2{"|||"}
@@ -814,15 +901,15 @@ flowchart TD
 | Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
 | :--- | :---: | :---: | :--- |
 | **Acessar videoaulas e dicas didáticas** | Abstrata | - | Tarefa raiz que engloba a navegação, a seleção da matéria, o controle da reprodução audiovisual e a busca de complementos didáticos. |
-| **Navegar até o repositório de Aulas** | Interação | `>>` | O usuário clica no item "Aulas" no menu superior ou lateral de navegação do portal. |
+| **Navegar até o repositório de Aulas** | Interação | `>>` | O usuário seleciona o item "Aulas" no menu de navegação do portal. |
 | **Renderizar catálogo de videoaulas** | Sistema | `[]>>` | O servidor consulta o acervo e exibe as categorias de matérias com miniaturas e títulos das aulas, repassando o catálogo à tela do usuário. |
 | **Selecionar disciplina e videoaula temática** | Abstrata | `>>` | Nó de composição que engloba a escolha cognitiva da matéria e o acionamento do vídeo específico. |
 | **Escolher disciplina básica pretendida** | Usuário | `[]>>` | Julgamento cognitivo sobre qual disciplina estudar (ex.: Direito Constitucional), transferindo a intenção para a ação na interface. |
-| **Clicar na matéria** | Interação | `>>` | Acionamento físico do link da disciplina na listagem para carregar as respectivas aulas. |
+| **Selecionar a matéria** | Interação | `>>` | Seleção da disciplina na listagem para carregar as respectivas aulas temáticas. |
 | **Filtrar tópico por busca interna** | Interação | `[]` | **Tarefa pretendida pelo usuário e inexistente no portal.** A ausência de campo de busca interno impede a localização rápida de tópicos específicos de edital (ex.: "Artigo 5º"). |
-| **Rolar catálogo e selecionar card da aula** | Interação | `>>` | Ação física de varredura vertical e toque sobre o card da videoaula desejada em alternativa à busca direta. |
+| **Rolar catálogo e selecionar card da aula** | Interação | `>>` | Ação de varredura vertical e seleção do card da videoaula desejada em alternativa à busca direta. |
 | **Ciclo de reprodução e controle do vídeo** | Abstrata | `>>` | Nó iterativo (`T*`) que modela a execução audiovisual da aula e as eventuais intervenções ergonômicas de reprodução. |
-| **Acionar play no player embutido** | Interação | `>>` | Clique no botão de reprodução do reprodutor incorporado (YouTube). |
+| **Iniciar reprodução no player embutido** | Interação | `>>` | Acionamento da reprodução no reprodutor incorporado (YouTube). |
 | **Transmitir stream de mídia** | Sistema | `\|\|\|` | O servidor de streaming transfere o fluxo de áudio e vídeo de forma contínua para o dispositivo do estudante. |
 | **Assimilar explicação teórica do professor** | Usuário | `[>` | Processamento cognitivo de escuta ativa e compreensão dos preceitos teóricos expostos na videoaula. |
 | **Ajustar velocidade de reprodução ou tela cheia** | Interação | `\|\|\|` | Ação física sobre os controles do player para acelerar o vídeo (1.25x/1.5x) ou rotacionar o aparelho para modo paisagem, desativando temporariamente o foco de escuta pura. |
@@ -858,7 +945,7 @@ A modelagem CTT formaliza:
 
 ```mermaid
 flowchart TD
-    classDef default fill:#1e1e1e,stroke:#000000,stroke-width:1.5px,color:#ffffff;
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
     subgraph Legenda ["Legenda CTT"]
         direction LR
         L_Abs["[Abstrata]"]
@@ -970,7 +1057,7 @@ flowchart TD
 | **Digitar e-mail com validação sintática em tempo real** | Interação | `\|\|\|` | Preenchimento do endereço eletrônico com checagem inline de formato (`usuario@dominio.com`), prevenindo erros tipográficos. |
 | **Aceitar termos de consentimento e privacidade (LGPD)** | Interação | `[]>>` | Marcação obrigatória de checkbox com leitura clara das finalidades de tratamento de dados pessoais. |
 | **Emitir token temporário de validação criptográfica** | Sistema | `>>` | O servidor gera um hash de verificação de curta duração e despacha a mensagem de confirmação para a caixa postal indicada. |
-| **Confirmar token de validação via link seguro** | Interação | `>>` | O usuário abre a mensagem no seu cliente de correio e clica no link único de ativação (*Double Opt-In*). |
+| **Confirmar token de validação via link seguro** | Interação | `>>` | O usuário acessa a mensagem no seu cliente de correio e aciona o link de ativação segura (*Double Opt-In*). |
 | **Ativar perfil de monitoramento personalizado** | Sistema | - | O sistema valida a autenticidade do contato, grava o perfil no banco e exibe tela de boas-vindas com resumo dos filtros ativos. |
 | **Disparar digest segmentado de editais** | Sistema | `[]>>` | Processamento assíncrono em lote que compara novos certames cadastrados com a matriz de preferências e envia o resumo personalizado. |
 | **Gerenciar preferências e direitos de privacidade** | Abstrata | - | Nó de composição para manutenção contínua da assinatura ou encerramento do vínculo de comunicações. |

@@ -108,8 +108,8 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
 
 | Integrante | Código | Fonte Documental Investigada | Foco Temático da Investigação | Data | Principais Dados e Evidências Extraídas |
 | :--- | :---: | :--- | :--- | :---: | :--- |
-| **Daniel da Silva Batista** | `DOC-01` | • [*Atlas do Estado Brasileiro* (IPEA, 2024)](https://www.ipea.gov.br/atlasestado/)<br>• [*PNAD Contínua - Setor Público* (IBGE, 2024)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html) | Perfil sociodemográfico dos concurseiros; demanda por busca de editais e cadernos de provas (TAR-01 e TAR-02) | 22/09/2026 | • 60% de presença feminina no serviço público.<br>• Concentração de candidatos nas faixas de 35 a 55 anos.<br>• Mediana salarial de R$ 3,2 mil em cargos de apoio.<br>• Dependência de cadernos de prova e gabaritos em PDF. |
-| **Pedro Rocha Ferreira Lima** | `DOC-02` | • [*Painel Estatístico de Pessoal* (PEP/MGI, 2024)](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/painel-estatistico-de-pessoal-pep)<br>• [*Diário Oficial do DF* (DODF, 2024)](https://dodf.df.gov.br/) | Concentração regional no Centro-Oeste/DF e dinâmica de retificações de editais (TAR-03 e TAR-04) | 27/09/2026 | • Mais de 65% das vagas do Centro-Oeste concentram-se no DF e RIDE.<br>• ~80% dos editais sofrem retificação nas 3 primeiras semanas.<br>• Necessidade de filtro dedicado por UF e selo visual de retificação. |
+| **Daniel da Silva Batista** | `DOC-01` | • [*Atlas do Estado Brasileiro* (IPEA, 2024)](https://www.ipea.gov.br/atlasestado/)<br>• [*PNAD Contínua - Setor Público* (IBGE, 2024)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html) | Perfil sociodemográfico dos concurseiros; busca avançada multicritério e compilação de cadernos de estudo (TAR-01 e TAR-02) | 22/09/2026 | • 60% de presença feminina no serviço público.<br>• Concentração de candidatos nas faixas de 35 a 55 anos.<br>• Mediana salarial de R$ 3,2 mil em cargos de apoio.<br>• Dependência de cadernos de prova e gabaritos em PDF. |
+| **Pedro Rocha Ferreira Lima** | `DOC-02` | • [*Painel Estatístico de Pessoal* (PEP/MGI, 2024)](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/painel-estatistico-de-pessoal-pep)<br>• [*Diário Oficial do DF* (DODF, 2024)](https://dodf.df.gov.br/) | Concentração regional no Centro-Oeste/DF, mapa de oportunidades e dinâmica de retificações de editais (TAR-03 e TAR-04) | 27/09/2026 | • Mais de 65% das vagas do Centro-Oeste concentram-se no DF e RIDE.<br>• ~80% dos editais sofrem retificação nas 3 primeiras semanas.<br>• Necessidade de mapa interativo por proximidade e selo visual de retificação com simulador de recursos. |
 | **Arthur Sismene Carvalho** | `DOC-03` | • [*Censo da Educação Superior* (INEP/MEC, 2024)](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior)<br>• [*Estatísticas de Estágio* (ABRES, 2025)](https://abres.org.br/estatisticas/)<br>• [*PNAD Contínua Trimestral* (IBGE, 1º tri. 2026)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html) | Perfil do estudante-concurseiro de 18 a 25 anos: estudo mediado por tela, escassez estrutural de estágio e precariedade de entrada no mercado (TAR-05 e TAR-06) | 27/09/2026 | • EAD ultrapassa o presencial: 50,7% das matrículas de graduação.<br>• Apenas 6% dos 20,1 milhões de estudantes aptos conseguem estagiar.<br>• Desocupação de ~14% na faixa de 18 a 24 anos, contra 6,1% nacional.<br>• Informalidade acima de 45% nessa mesma faixa etária. |
 | **Leonardo da Silva Lopes Júnior** | `DOC-04` | • [*TIC Domicílios 2024* (Cetic.br/NIC.br)](https://cetic.br/pt/pesquisa/domicilios/)<br>• [*Censo EAD.BR 2023/2024* (ABED)](https://www.abed.org.br/site/pt/midiateca/censo_ead/)<br>• [*Relatório de Comunicação Digital* (Comscore, 2024)](https://www.comscore.com/) | Hábitos de consumo de videoaulas em dispositivos móveis e canais de alertas/newsletter de concursos (TAR-07 e TAR-08) | 28/09/2026 | • 82% dos internautas assistem a vídeos/tutoriais educativos online.<br>• 62% acessam predominantemente por smartphone.<br>• Microlearning (10 a 20 min) eleva retenção em 35% com material de apoio.<br>• E-mail é canal prioritário de alerta formal para 68% dos concurseiros. |
 
@@ -129,10 +129,10 @@ No projeto do **PCI Concursos**, a análise documental atua como base empírica 
   * [Plataforma IPEA — Atlas do Estado Brasileiro](https://www.ipea.gov.br/atlasestado/)
   * [Portal IBGE — PNAD Contínua (Mercado de Trabalho e Ocupações)](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html)
 * **Tarefas de IHC Vinculadas:** 
-  * `TAR-01`: Busca de edital por palavra-chave e localização de vagas;
-  * `TAR-02`: Download de cadernos de provas e gabaritos preliminares/definitivos em PDF.
-* **Foco da Investigação:** Perfil sociodemográfico (gênero, faixa etária e remuneração) dos candidatos a vagas públicas e seu impacto direto no modelo mental de estudo e manuseio de arquivos em PDF.
-* **Pergunta de Pesquisa:** *Qual é o perfil sociodemográfico real dos postulantes a carreiras públicas no Brasil e de que maneira suas características etárias e ocupacionais condicionam a demanda por editais e provas anteriores em PDF no portal?*
+  * `TAR-01`: Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado;
+  * `TAR-02`: Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado.
+* **Foco da Investigação:** Perfil sociodemográfico (gênero, faixa etária e remuneração) dos candidatos a vagas públicas e seu impacto direto no modelo mental de estudo, busca por requisitos de escolaridade e manuseio de arquivos em PDF.
+* **Pergunta de Pesquisa:** *Qual é o perfil sociodemográfico real dos postulantes a carreiras públicas no Brasil e de que maneira suas características etárias e ocupacionais condicionam a demanda por buscas avançadas estruturadas e provas anteriores unificadas no portal?*
 
 #### 5.1.1 Identificação e Caracterização da Fonte
 Para viabilizar uma investigação empírica auditável, pública e sem barreiras de autenticação, foram examinadas duas bases estatísticas oficiais de referência nacional:
@@ -144,7 +144,7 @@ Conforme preceituam Barbosa e Silva (2010, Cap. 7 e 8), a Análise Documental pe
 1. Mapear o perfil demográfico real dos cidadãos que buscam concursos no Brasil a partir de estatísticas de acesso público;
 2. Desconstruir estereótipos que assumem que concurseiros são exclusivamente jovens universitários;
 3. Fornecer embasamento quantitativo para a definição do **Perfil de Usuário Trabalhado** e modelagem da Persona Primária **PER-01 (Maria Helena dos Santos)**;
-4. Identificar necessidades de usabilidade para as tarefas de busca de editais (**TAR-01**) e download de cadernos de provas e gabaritos em PDF (**TAR-02**).
+4. Identificar necessidades de usabilidade para a busca avançada multicritério (**TAR-01**) e montagem de cadernos de estudo personalizados com gabarito (**TAR-02**).
 
 #### 5.1.3 Metodologia de Exame do Documento
 Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e Silva (2010):
@@ -160,8 +160,8 @@ Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e S
 
 #### 5.1.5 Embasamento para o Perfil de Usuário, Personas e IHC
 * **Sustentação Empírica da Persona PER-01:** Os dados do IPEA e do IBGE sustentam diretamente as características sociodemográficas de **Maria Helena dos Santos (PER-01)** (53 anos, mulher, técnica administrativa em busca de estabilidade funcional no DF).
-* **Fundamentação dos Cenários CEN-01 e CEN-02:** Os achados justificam cenários centrados na busca rápida de editais de apoio no DF (`CEN-01`) e no download imediato de cadernos de provas e gabaritos oficiais em PDF (`CEN-02`).
-* **Diretrizes de Usabilidade:** As evidências apontam a necessidade de links diretos e legíveis para arquivos em PDF (evitando sobrecarga visual e confusão com anúncios publicitários) e de tipografia com contraste adequado, respeitando as capacidades do usuário adulto conforme preconizado por Barbosa e Silva (2010).
+* **Fundamentação dos Cenários CEN-01 e CEN-02:** Os achados justificam cenários centrados na busca comparativa de editais de apoio no DF (`CEN-01`) e na compilação estruturada de cadernos de provas e gabaritos oficiais (`CEN-02`).
+* **Diretrizes de Usabilidade:** As evidências apontam a necessidade de busca facetada limpa e compilador de PDFs protegidos de anúncios fraudulentos, com tipografia de alto contraste para o usuário adulto (Barbosa e Silva, 2010).
 
 ---
 
@@ -177,8 +177,8 @@ Seguindo o roteiro de exame sistemático de documentos prescrito por Barbosa e S
   * [Painel Estatístico de Pessoal - MGI](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/painel-estatistico-de-pessoal-pep)
   * [Diário Oficial do Distrito Federal - DODF](https://dodf.df.gov.br/)
 * **Tarefas de IHC Vinculadas:** 
-  * `TAR-03`: Filtragem por região geográfica (Centro-Oeste / DF);
-  * `TAR-04`: Consulta a retificações, cronogramas e prazos de editais.
+  * `TAR-03`: Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE);
+  * `TAR-04`: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário.
 * **Foco da Investigação:** Concentração geográfica de oportunidades públicas na macrorregião Centro-Oeste e dinâmica de publicação de retificações e alterações de prazos em diários oficiais.
 * **Pergunta de Pesquisa:** *Qual o grau de concentração de vagas públicas no Distrito Federal frente aos demais estados do Centro-Oeste e qual a frequência de retificações de cronograma enfrentadas pelos candidatos nas primeiras semanas após o edital?*
 
@@ -368,7 +368,10 @@ Em consonância com as orientações do docente da disciplina (SALES, 2026) e se
 
 Para que a avaliação e o subsequente reprojeto ofereçam valor ergonômico substancial, o Grupo 07 estabeleceu a **delimitação e o enriquecimento do escopo funcional** em **três camadas de complexidade ergonômica**:
 
-1. **Camada 1 — Acesso e Consulta Básica:** Engloba tarefas operacionais de recuperação da informação, como a busca textual por palavras-chave (`TAR-01`), o download de cadernos de provas e gabaritos em PDF (`TAR-02`) e a filtragem macro por macrorregiões geográficas (`TAR-03`). Embora essenciais, essas tarefas representam a camada transacional de entrada do portal;
+1. **Camada 1 — Decisão Multicritério e Planejamento Comparativo:** Engloba fluxos analíticos e estratégicos de alto valor decisório para o concurseiro:
+   * **`TAR-01` — Parametrização de Busca Avançada Multicritério e Comparação Lado a Lado de Editais:** Supera o modelo elementar de busca textual isolada ao prover filtragem combinada facetada (escolaridade, remuneração, banca examinadora e status) articulada com uma ferramenta de matriz comparativa que confronta sobreposição de datas de prova, vagas e disciplinas comuns (`PER-01`);
+   * **`TAR-02` — Montagem e Exportação de Caderno Personalizado de Provas com Gabarito Integrado:** Transcende o download passivo de PDFs avulsos ao permitir compor pacotes de estudo por banca e ano, com gabaritos oficiais pós-recurso unificados e opções de impressão econômica (`PER-01`);
+   * **`TAR-03` — Exploração de Mapa Georreferenciado com Simulação de Mobilidade no DF e RIDE:** Supera listagens estáticas de estados ao permitir a exploração cartográfica interativa por raio de proximidade a partir da residência e o cálculo estimado de tempo de deslocamento em transporte público coletivo (`PER-02`).
 2. **Camada 2 — Interação e Engajamento Cognitivo Rico:** Constitui o núcleo propositivo deste projeto de IHC, demandando processamento de regras de negócio, persistência de dados, ciclos iterativos e feedback bidirecional contínuo em tempo real entre o usuário e o sistema:
    * **`TAR-04` — Cronograma Visual e Timeline Interativa de Fases do Certame:** Supera a leitura linear e estática de notícias ao estruturar uma linha do tempo gráfica e dinâmica com todas as fases do concurso (Inscrição $\rightarrow$ Isenção de Taxa $\rightarrow$ Homologação $\rightarrow$ Prova Objetiva $\rightarrow$ Gabaritos $\rightarrow$ Recursos $\rightarrow$ Resultados), incorporando contagem regressiva em tempo real (*countdown timer*), destaque semântico obrigatório para retificações de edital (`[⚠️ Retificação Publicada em DD/MM]`) e exportação direta de datas para calendários pessoais (Google Agenda, Apple Calendar, formato `.ics`);
    * **`TAR-05` — Sistema de Simulados Online Interativo com Feedback Automático de Gabarito:** Transforma o mero repositório textual de perguntas em um motor interativo de avaliação cognitiva. Permite parametrização de simulados (disciplina, banca, volume de questões, modo cronometrado com contagem regressiva), resolução ergonômica adaptada para smartphones (alvos de toque $\ge 48\text{px}$), feedback formativo imediato por alternativa, gabarito oficial comentado e geração de relatório estatístico final de desempenho (taxa de acertos, tempo médio por questão e histórico persistente com resiliência a oscilações de conexão — *Zero Data Loss*);

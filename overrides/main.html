@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    // Intercept attachShadow BEFORE bundle runs to keep shadowRoot open
+    (function() {
+      var orig = Element.prototype.attachShadow;
+      Element.prototype.attachShadow = function(init) {
+        if (init && init.mode === 'closed') {
+          init.mode = 'open';
+        }
+        return orig.call(this, init);
+      };
+    })();
+  </script>
+{% endblock %}

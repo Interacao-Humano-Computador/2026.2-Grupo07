@@ -5,6 +5,7 @@ site_url: https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/
 
 theme:
   name: material
+  custom_dir: overrides
   language: pt-BR
   logo: assets/images/pci_logo_white.png
   favicon: assets/images/favicon.ico
@@ -36,7 +37,10 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-# ExtensÃµes obrigatÃ³rias para renderizar tabelas e HTML corretamente
+extra_javascript:
+  - javascripts/extra.js
+
+# Extensões obrigatórias para renderizar tabelas e HTML corretamente
 markdown_extensions:
   - tables
   - admonition
