@@ -1,11 +1,14 @@
-site_name: IHC - Tribunal de Contas do DF
-site_description: Documentação do projeto de IHC (FGA-UnB) - TCDF
-site_author: Equipe IHC
+site_name: IHC - PCI Concursos
+site_description: DocumentaÃ§Ã£o do projeto da disciplina de InteraÃ§Ã£o Humano-Computador (FGA-UnB) - AnÃ¡lise e Reprojeto do PCI Concursos
+site_author: Equipe Grupo 07 - IHC
 site_url: https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/
 
 theme:
   name: material
+  custom_dir: overrides
   language: pt-BR
+  logo: assets/images/pci_logo_white.png
+  favicon: assets/images/favicon.ico
   features:
     - navigation.tabs
     - navigation.sections
@@ -14,35 +17,47 @@ theme:
     - search.highlight
     - content.code.copy
   
-  # Aqui entra a sua configuração de CONTRASTE (Modo Claro/Escuro)
+  # ConfiguraÃ§Ã£o de Cores e Contraste (Modo Claro/Escuro)
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: blue
+      primary: blue
+      accent: red
       toggle:
         icon: material/toggle-switch-off-outline
         name: Mudar para o Modo Escuro (Alto Contraste)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: blue
+      primary: blue
+      accent: red
       toggle:
         icon: material/toggle-switch
         name: Mudar para o Modo Claro
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
 
 # Extensões obrigatórias para renderizar tabelas e HTML corretamente
 markdown_extensions:
   - tables
   - admonition
   - md_in_html
+  - attr_list
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
 
 nav:
   - Início: index.md
+<<<<<<< HEAD
   - Apresentações: apresentacao/apresentacao-1.md
   - Planejamento 1 (Etapa 1):
     - Equipe: planejamento/membros.md
@@ -57,3 +72,38 @@ nav:
   - Verificação: 
     - Grupo 06 (Avaliadores):
       - Verificação: verificacao/grupo06/lista-verificacao1_06.md
+=======
+  - Planejamento (Etapa 1):
+      - Equipe: planejamento/membros.md
+      - Planejamento do Projeto: planejamento/planejamento-do-projeto.md
+      - Heatmap de Disponibilidade: planejamento/heatmap.md
+      - Ferramentas: planejamento/ferramentas.md
+      - Cronograma: planejamento/cronograma.md
+      - Processo de Design: planejamento/processo-de-design.md
+      - Sites Avaliados: planejamento/sites-avaliados.md
+      - Site Selecionado: planejamento/site-escolhido.md
+      - Atas de Reunião: planejamento/ata-reuniao.md
+  - Análise de Requisitos (Etapa 2):
+      - Aspectos Éticos: analise-de-requisitos/aspectos-eticos.md
+      - Perfil do Usuário: analise-de-requisitos/perfil-de-usuario.md
+      - Personas: analise-de-requisitos/personas.md
+      - Cenários: analise-de-requisitos/cenarios.md
+      - Análise de Tarefas:
+          - HTA: analise-de-requisitos/analise-de-tarefas/hta.md
+          - CTT: analise-de-requisitos/analise-de-tarefas/ctt.md
+  - Design, Avaliação e Desenvolvimento (Etapa 3):
+      - Características da Plataforma: design-avaliacao-desenvolvimento/caracteristicas-da-plataforma.md
+      - Princípios Gerais de Projeto: analise-de-requisitos/principios-gerais-de-projeto.md
+      - Guia de Estilo: design-avaliacao-desenvolvimento/guia-de-estilo.md
+      - Metas de Usabilidade: design-avaliacao-desenvolvimento/metas-de-usabilidade.md
+  - Planejamento da Avaliação (Etapa 4):
+      - Planejamento da Avaliação da Análise de Tarefas: design-avaliacao-desenvolvimento/planejamento-avaliacao-analise-de-tarefas.md
+  - Verificação:
+      - Etapa 1 – Grupo 08 (Grupo +1): apresentacao/grupo-08.md
+      - Etapa 2 – Grupo 06 (Grupo -1): apresentacao/grupo-06.md
+      - Etapa 3 – Grupo 07 (Autoavaliação): apresentacao/verificacao-etapa-3-grupo-07.md
+      - Etapa 3 – Grupo 08 (Grupo +1): apresentacao/verificacao-etapa-3-grupo-08.md
+  - Apresentações:
+      - Apresentação 1: apresentacao/apresentacao-1.md
+      - Apresentação 3: apresentacao/apresentacao-3.md
+>>>>>>> 3126e350f8b31957a22cbb9448e69c5b8bc80daa

@@ -1,0 +1,442 @@
+/* ==========================================================================
+   Estilização Visual Personalizada - Projeto IHC: PCI Concursos
+   ========================================================================== */
+
+:root {
+  --md-primary-fg-color:        #02329E;
+  --md-primary-fg-color--light:  #1b52c4;
+  --md-primary-fg-color--dark:   #001f66;
+  --md-accent-fg-color:         #d32f2f;
+}
+
+/* Modo Escuro Sofisticado (Fundo Preto Profundo / Estilo GitHub Dark) */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:               #1543ad;
+  --md-primary-fg-color--light:        #2d5ec7;
+  --md-primary-fg-color--dark:         #0c2b75;
+  --md-accent-fg-color:                #ef5350;
+  --md-default-bg-color:               #0a0c10;
+  --md-default-bg-color--light:        #12161f;
+  --md-default-bg-color--lighter:      #1a1f2c;
+  --md-default-bg-color--lightest:     #252b3d;
+  --md-code-bg-color:                  #12161f;
+}
+
+/* Header com gradiente no estilo da identidade visual */
+.md-header {
+  background: linear-gradient(135deg, #011b58 0%, #02329E 100%) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo limpo e transparente sem fundo branco */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.8rem;
+  width: auto;
+  border-radius: 0;
+  background-color: transparent !important;
+  padding: 0;
+  margin-right: 0.5rem;
+}
+
+/* Oculta o título de texto repetido para deixar APENAS um nome */
+.md-header__title .md-header__ellipsis {
+  display: none;
+}
+
+/* Abas de navegação superiores */
+.md-tabs {
+  background-color: #00174d !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Realce nas tabelas para padrão ABNT */
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin: 0.8em auto 0.4em auto !important;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: #ffffff !important;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 14px;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 9px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(2, 50, 158, 0.04);
+}
+
+/* Legenda da Fonte colada na base da tabela (Padrão ABNT) */
+.md-typeset table:not([class]) + p,
+.md-typeset div[align="center"] > p:last-child {
+  margin-top: 0.1em !important;
+  margin-bottom: 1.2em !important;
+  font-size: 0.82em !important;
+  opacity: 0.85;
+}
+
+/* Título colado no topo da tabela (Padrão ABNT) */
+.md-typeset div[align="center"] > p:first-child {
+  margin-bottom: 0.2em !important;
+  font-size: 0.95em;
+}
+
+/* Badges e tags */
+.pci-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  background-color: #d32f2f;
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Padronização Visual dos Diagramas Mermaid (HTA e CTT)
+   Estilo Livro com Caixas Pretas e Texto Branco Nítido
+   (Fundo das caixas preto/escuro, texto branco visível, sem tons de rosa)
+   ========================================================================== */
+.mermaid,
+div.mermaid,
+pre.mermaid,
+.md-typeset .mermaid,
+.md-typeset div.mermaid,
+.md-typeset pre.mermaid {
+  background-color: transparent !important;
+  margin: 1.5em auto 0.5em auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: visible !important;
+  width: 100% !important;
+}
+
+/* Fundo de TODAS as caixas (nós) do Mermaid em CINZA com borda preta */
+.md-typeset .mermaid svg .node rect,
+.md-typeset .mermaid svg .node polygon,
+.md-typeset .mermaid svg .node circle,
+.md-typeset .mermaid svg .node ellipse,
+.md-typeset .mermaid svg .node path,
+.md-typeset .mermaid svg [class*="node"] rect,
+.md-typeset .mermaid svg [class*="node"] polygon,
+.md-typeset .mermaid svg [class*="node"] circle,
+.md-typeset .mermaid svg [class*="node"] path,
+.md-typeset .mermaid svg g.node rect,
+.md-typeset .mermaid svg g.node polygon,
+.md-typeset .mermaid svg .label-container,
+.md-typeset .mermaid svg rect.basic.label-container,
+.md-typeset .mermaid svg polygon.basic.label-container,
+.md-typeset svg[id^="mermaid-"] .node rect,
+.md-typeset svg[id^="mermaid-"] .node polygon,
+.md-typeset svg[id^="mermaid-"] .label-container,
+.mermaid svg g.node > rect,
+.mermaid svg g.node > polygon,
+.mermaid svg g.node > path {
+  fill: #2c303b !important;
+  stroke: #000000 !important;
+  stroke-width: 2.2px !important;
+  rx: 5px !important;
+  ry: 5px !important;
+}
+
+/* Texto de TODOS os nós do Mermaid em PRETO NÍTIDO */
+.md-typeset .mermaid svg .node text,
+.md-typeset .mermaid svg .node text *,
+.md-typeset .mermaid svg .node tspan,
+.md-typeset .mermaid svg .node .label,
+.md-typeset .mermaid svg .node .label *,
+.md-typeset .mermaid svg .node span,
+.md-typeset .mermaid svg .node p,
+.md-typeset .mermaid svg .node div,
+.md-typeset .mermaid svg [class*="node"] text,
+.md-typeset .mermaid svg [class*="node"] text *,
+.md-typeset .mermaid svg [class*="node"] foreignObject,
+.md-typeset .mermaid svg [class*="node"] foreignObject *,
+.md-typeset .mermaid svg foreignObject div,
+.md-typeset .mermaid svg foreignObject span,
+.md-typeset .mermaid svg foreignObject p,
+.md-typeset .mermaid svg foreignObject i,
+.md-typeset .mermaid svg foreignObject em,
+.md-typeset svg[id^="mermaid-"] .node text,
+.md-typeset svg[id^="mermaid-"] .node foreignObject *,
+.mermaid svg g.node text,
+.mermaid svg g.node foreignObject * {
+  fill: #000000 !important;
+  color: #000000 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  text-align: center !important;
+  overflow-wrap: break-word !important;
+}
+
+/* Destaque para planos em itálico dentro dos nós */
+.md-typeset .mermaid svg .node i,
+.md-typeset .mermaid svg .node em,
+.md-typeset .mermaid svg foreignObject i,
+.md-typeset .mermaid svg foreignObject em {
+  color: #1f2937 !important;
+  fill: #1f2937 !important;
+  font-style: italic !important;
+  font-weight: 600 !important;
+}
+
+/* Subgraphs e Clusters (Legendas e Agrupamentos) */
+.mermaid svg .cluster rect,
+svg[id^="mermaid-"] .cluster rect {
+  fill: #f8fafc !important;
+  stroke: #000000 !important;
+  stroke-width: 2px !important;
+  stroke-dasharray: 4, 4 !important;
+  rx: 6px !important;
+  ry: 6px !important;
+}
+
+.mermaid svg .cluster text,
+.mermaid svg .cluster .label,
+.mermaid svg .cluster span,
+svg[id^="mermaid-"] .cluster text,
+svg[id^="mermaid-"] .cluster .label,
+svg[id^="mermaid-"] .cluster span {
+  fill: #000000 !important;
+  color: #000000 !important;
+  font-weight: 800 !important;
+  font-size: 16px !important;
+}
+
+/* Linhas de conexão e setas pretas */
+.mermaid svg .edgePath .path,
+.mermaid svg .flowchart-link,
+.mermaid svg path.path,
+svg[id^="mermaid-"] .edgePath .path {
+  stroke: #000000 !important;
+  stroke-width: 2.5px !important;
+  stroke-opacity: 1 !important;
+}
+
+.mermaid svg marker path,
+.mermaid svg .arrowMarkerPath,
+svg[id^="mermaid-"] marker path {
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+/* Configurações Globais dos Diagramas Mermaid via Variáveis Nativas do MkDocs Material */
+:root {
+  --md-mermaid-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --md-mermaid-node-bg-color: #2c303b;
+  --md-mermaid-node-fg-color: #000000;
+  --md-mermaid-label-bg-color: transparent;
+  --md-mermaid-label-fg-color: #000000;
+  --md-mermaid-edge-color: #000000;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-mermaid-node-bg-color: #2c303b;
+  --md-mermaid-node-fg-color: #000000;
+  --md-mermaid-label-bg-color: transparent;
+  --md-mermaid-label-fg-color: #000000;
+  --md-mermaid-edge-color: #000000;
+}
+
+/* ==========================================================================
+   Modal de Tela Cheia e Zoom para Diagramas Mermaid
+   ========================================================================== */
+.diagram-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.82);
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  padding: 1.5rem;
+}
+
+.diagram-modal-overlay.active {
+  display: flex !important;
+}
+
+.diagram-modal-container {
+  background-color: #ffffff;
+  color: #111827;
+  width: 95vw;
+  max-width: 1400px;
+  height: 90vh;
+  border-radius: 12px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+[data-md-color-scheme="slate"] .diagram-modal-container {
+  background-color: #131722;
+  color: #f3f4f6;
+  border: 1px solid #374151;
+}
+
+.diagram-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.4rem;
+  background-color: #f3f4f6;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+[data-md-color-scheme="slate"] .diagram-modal-header {
+  background-color: #1a2030;
+  border-bottom: 1px solid #2d3748;
+}
+
+.diagram-modal-title {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.diagram-modal-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.diagram-btn {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #1f2937;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+[data-md-color-scheme="slate"] .diagram-btn {
+  background-color: #242c40;
+  border: 1px solid #4b5563;
+  color: #f9fafb;
+}
+
+.diagram-btn:hover {
+  background-color: #02329E;
+  color: #ffffff;
+  border-color: #02329E;
+}
+
+.diagram-btn.close-btn {
+  background-color: #ef4444;
+  color: #ffffff;
+  border-color: #ef4444;
+}
+
+.diagram-btn.close-btn:hover {
+  background-color: #b91c1c;
+}
+
+.diagram-modal-body {
+  flex: 1;
+  overflow: auto !important;
+  padding: 2.5rem;
+  background-color: #f3f4f6;
+  cursor: grab;
+  position: relative;
+}
+
+[data-md-color-scheme="slate"] .diagram-modal-body {
+  background-color: #0c0f17;
+}
+
+.diagram-modal-viewport {
+  min-width: 100%;
+  display: inline-block;
+}
+
+.diagram-modal-viewport svg {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+[data-md-color-scheme="slate"] .diagram-modal-viewport svg {
+  background-color: #141721;
+}
+
+/* Containers de diagramas Mermaid perfeitamente centralizados sem barras de rolagem */
+.mermaid,
+div.mermaid,
+pre.mermaid,
+.md-typeset .mermaid,
+.md-typeset div.mermaid,
+.md-typeset pre.mermaid {
+  background-color: transparent !important;
+  margin: 1.5em auto 0.5em auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: visible !important;
+  width: 100% !important;
+}
+
+.diagram-btn-wrapper {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0.5rem auto 1.5rem auto !important;
+  text-align: center !important;
+}
+
+.diagram-expand-pill {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.35rem !important;
+  margin: 0 auto !important;
+  background: #02329E !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  padding: 0.25rem 0.85rem !important;
+  border-radius: 14px !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  box-shadow: 0 1px 4px rgba(2, 50, 158, 0.2) !important;
+  transition: all 0.15s ease !important;
+  text-align: center !important;
+}
+
+.diagram-expand-pill:hover {
+  background: #011b58 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 3px 8px rgba(2, 50, 158, 0.35) !important;
+}
+
+[data-md-color-scheme="slate"] .diagram-expand-pill {
+  background: #1b52c4 !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+
+

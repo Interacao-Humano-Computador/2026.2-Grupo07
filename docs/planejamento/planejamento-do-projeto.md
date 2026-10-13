@@ -1,22 +1,22 @@
-# Planejamento do Projeto
-
-## 1. Introdução
-
-Este documento tem como objetivo definir as diretrizes, metodologias e políticas de trabalho que guiarão a equipe durante todo o ciclo de vida do projeto de avaliação e reprojeto do portal do **Tribunal de Contas do Distrito Federal (TCDF)**. O alinhamento prévio dessas práticas garante padronização, rastreabilidade e qualidade nas entregas da disciplina de Interação Humano-Computador.
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Redação do planejamento do projeto, definição das políticas de versionamento do repositório e diretrizes de uso de IA. |
-| Pedro Rocha Ferreira Lima | Revisão técnica das políticas de repositório e diretrizes de IA. |
-| Gemini | Auxílio na revisão gramatical e formatação em Markdown (conforme Política de IA). |
+| Daniel da Silva Batista | [Redação do planejamento do projeto, definição das políticas de versionamento do repositório e diretrizes de uso de IA](#2-politicas-do-repositorio) |
+| Pedro Rocha Ferreira Lima | [Revisão técnica das políticas de repositório e diretrizes de integridade acadêmica](#3-politica-de-uso-de-inteligencia-artificial) |
+| Gemini | Apoio na formatação e validação sintática em Markdown (conforme Política de IA). |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
+# Planejamento do Projeto
+
+## 1. Introdução
+
+Este documento tem como objetivo definir as diretrizes, metodologias e políticas de trabalho que guiarão a equipe durante todo o ciclo de vida do projeto de avaliação e reprojeto do portal **PCI Concursos**. O alinhamento prévio dessas práticas garante padronização, rastreabilidade e qualidade nas entregas da disciplina de Interação Humano-Computador.
 
 ## 2. Políticas do Repositório
 
@@ -26,11 +26,11 @@ Para manter a organização do código-fonte e da documentação, a equipe segue
 
 - O repositório utiliza a branch `main` como a principal para as entregas, contendo apenas versões estáveis do site e da documentação.
 - O idioma oficial para o versionamento e documentação do projeto é o **Português (pt-BR)**.
-- Mensagens de commit devem ser claras, objetivas e indicar a natureza da mudança (ex: `docs: adiciona ata de reunião 1`, `fix: corrige link quebrado no cronograma`).
+- Mensagens de commit devem ser claras, objetivas e indicar a natureza da mudança utilizando o padrão *Conventional Commits* (ex: `docs: adiciona ata de reunião 1`, `fix: corrige link quebrado no cronograma`).
 
 ## 3. Política de Uso de Inteligência Artificial
 
-Em conformidade com as exigências acadêmicas atuais para evitar plágio e garantir o desenvolvimento intelectual dos discentes, o grupo 07 adota as seguintes regras quanto ao uso de IAs Generativas (ChatGPT, Gemini, GitHub Copilot, etc.):
+Em conformidade com as exigências acadêmicas atuais para evitar plágio e garantir o desenvolvimento intelectual dos discentes, o Grupo 07 adota as seguintes regras quanto ao uso de IAs Generativas (ChatGPT, Gemini, GitHub Copilot, etc.):
 
 1. **Uso Restrito a Apoio Técnico:** A Inteligência Artificial é utilizada estritamente como ferramenta de apoio à produtividade. Suas aplicações permitidas incluem:
     - Revisão ortográfica, gramatical e sintática de textos previamente rascunhados pela equipe.
@@ -38,6 +38,15 @@ Em conformidade com as exigências acadêmicas atuais para evitar plágio e gara
     - Resolução de conflitos de Git e configurações de ambiente de desenvolvimento.
 2. **Proibição de Geração de Conteúdo Analítico:** É expressamente **proibido** o uso de IAs para a execução de avaliações heurísticas, criação de personas, análises de tarefas ou elicitação de requisitos que não tenham base empírica e esforço analítico humano.
 3. **Supervisão e Responsabilidade:** Qualquer sugestão técnica gerada por IA deve ser obrigatoriamente lida, revisada, adaptada e aprovada por um membro humano da equipe antes de ser incorporada ao projeto.
+
+---
+
+## Referências Bibliográficas
+
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
+> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.
+
+---
 
 ## 4. Histórico de Versões
 
@@ -47,5 +56,6 @@ Em conformidade com as exigências acadêmicas atuais para evitar plágio e gara
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 06/09/2026 | Criação do documento de Planejamento do Projeto (Políticas de IA e Repositório). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.2` | 09/10/2026 | Atendimento às observações do monitor (OBS 7, 10, 11 e 12): inclusão de referências bibliográficas, agradecimentos e hiperligações na tabela de contribuição. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
