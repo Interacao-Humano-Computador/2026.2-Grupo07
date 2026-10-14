@@ -40,12 +40,15 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 * [Verificação da Etapa 2 — Grupo 06 (Grupo -1)](apresentacao/grupo-06.md)
 * [Verificação da Etapa 3 — Grupo 07 (Autoavaliação)](apresentacao/verificacao-etapa-3-grupo-07.md)
 * [Verificação da Etapa 3 — Grupo 08 (Grupo +1)](apresentacao/verificacao-etapa-3-grupo-08.md)
+* [Verificação da Etapa 4 — Grupo 07 (Autoavaliação)](apresentacao/verificacao-etapa-4-grupo-07.md)
+* [Verificação da Etapa 4 — Grupo 06 (Grupo -1)](apresentacao/verificacao-etapa-4-grupo-06.md)
 
 ---
 
 ### Apresentações
 * [Apresentação da Etapa 1](apresentacao/apresentacao-1.md)
 * [Apresentação da Etapa 3](apresentacao/apresentacao-3.md)
+* [Apresentação da Etapa 4](apresentacao/apresentacao-4.md)
 
 ---
 
