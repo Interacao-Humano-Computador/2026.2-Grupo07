@@ -18,7 +18,7 @@
 
 ## 1. Introdução
 
-Este documento planeja a avaliação dos storyboards produzidos para o reprojeto do **PCI Concursos**. Ele define o que será avaliado, com que objetivo, por qual método, com quais participantes, em que prazo e sob quais cuidados éticos. O documento trata apenas do planejamento: os resultados obtidos serão registrados em página própria, cuja estrutura está definida no [Planejamento do Relato dos Resultados](relato-resultados-storyboard.md).
+Este documento planeja a avaliação dos storyboards produzidos para o reprojeto do **PCI Concursos**. Ele define o que será avaliado, com que objetivo, por qual método, com quais participantes, em que prazo e sob quais cuidados éticos. O documento trata apenas do planejamento: os resultados obtidos serão registrados em página própria, cuja estrutura está definida no [Planejamento do Relato dos Resultados](../design-avaliacao-desenvolvimento/planejamento-relato-resultados-storyboard.md).
 
 O storyboard é um protótipo de baixa-fidelidade, produzido cedo no processo justamente para ser barato de descartar. Avaliá-lo antes de qualquer investimento em protótipo de média ou alta fidelidade é o que torna essa economia real: um passo errado descoberto aqui custa um desenho; descoberto depois, custa uma tela implementada.
 
@@ -153,7 +153,7 @@ Fora do escopo: as tarefas TAR-02, TAR-03, TAR-06 e TAR-07, que não foram trans
 
 Um traço das tarefas selecionadas condiciona a avaliação: todas descrevem recursos do **sistema reprojetado**, e nenhuma delas existe hoje no portal na forma retratada. O storyboard não ilustra, portanto, algo que o participante já tenha vivido — ele apresenta uma proposta. O roteiro da Seção 6.8 foi escrito para essa condição.
 
-Os quatro storyboards são desenhados a partir da versão 1.5 dos modelos de tarefa — [HTA](../analise-de-requisitos/analise-de-tarefas/hta.md) e [CTT](../analise-de-requisitos/analise-de-tarefas/ctt.md) —, que já incorpora as correções apontadas pela avaliação docente. A [Avaliação da Análise de Tarefas](planejamento-avaliacao-analise-de-tarefas.md) corre em paralelo e tem o relato entregue no mesmo prazo que o desta avaliação. Se ela alterar a decomposição de alguma das quatro tarefas, o storyboard correspondente é revisado antes da prototipação em papel, e a mudança é registrada no relato — o que também alimenta o item 16 da lista de verificação, que pergunta se o storyboard passou por mais de uma versão.
+Os quatro storyboards são desenhados a partir da versão 1.5 dos modelos de tarefa — [HTA](../analise-de-requisitos/analise-de-tarefas/hta.md) e [CTT](../analise-de-requisitos/analise-de-tarefas/ctt.md) —, que já incorpora as correções apontadas pela avaliação docente. A [Avaliação da Análise de Tarefas](../design-avaliacao-desenvolvimento/planejamento-avaliacao-analise-de-tarefas.md) corre em paralelo e tem o relato entregue no mesmo prazo que o desta avaliação. Se ela alterar a decomposição de alguma das quatro tarefas, o storyboard correspondente é revisado antes da prototipação em papel, e a mudança é registrada no relato — o que também alimenta o item 16 da lista de verificação, que pergunta se o storyboard passou por mais de uma versão.
 
 ### 6.2 Recrutamento e perfil dos participantes
 
@@ -177,7 +177,7 @@ São **quatro participantes**, um por storyboard, recrutados pelos integrantes d
 
 </div>
 
-Os participantes são identificados por código — **USR-10** a **USR-13** —, dando continuidade à numeração adotada no Perfil de Usuário e na [Avaliação da Análise de Tarefas](planejamento-avaliacao-analise-de-tarefas.md). São pessoas distintas das que participaram daquela avaliação: quem já discutiu a decomposição de uma tarefa reconheceria a mesma sequência nos desenhos, e a validação do storyboard perderia o sentido. A última linha da Tabela 5 atende à recomendação de evitar pessoas próximas ao avaliador, para que a relação entre eles não contamine os dados: um amigo pode deixar de relatar um problema por se sentir criticando o trabalho de quem o entrevista.
+Os participantes são identificados por código — **USR-10** a **USR-13** —, dando continuidade à numeração adotada no Perfil de Usuário e na [Avaliação da Análise de Tarefas](../design-avaliacao-desenvolvimento/planejamento-avaliacao-analise-de-tarefas.md). São pessoas distintas das que participaram daquela avaliação: quem já discutiu a decomposição de uma tarefa reconheceria a mesma sequência nos desenhos, e a validação do storyboard perderia o sentido. A última linha da Tabela 5 atende à recomendação de evitar pessoas próximas ao avaliador, para que a relação entre eles não contamine os dados: um amigo pode deixar de relatar um problema por se sentir criticando o trabalho de quem o entrevista.
 
 ### 6.3 Papéis e preparação
 
@@ -322,7 +322,7 @@ Quatro aspectos são considerados antes de qualquer conclusão, conforme a últi
 
 </div>
 
-A apresentação dos dados segue a estrutura definida no [Planejamento do Relato dos Resultados](relato-resultados-storyboard.md).
+A apresentação dos dados segue a estrutura definida no [Planejamento do Relato dos Resultados](../design-avaliacao-desenvolvimento/planejamento-relato-resultados-storyboard.md).
 
 ---
 
@@ -370,6 +370,7 @@ Dois cuidados: **os dados do piloto são descartados**, por poderem estar contam
 | `1.1` | 13/10/2026 | Atualização do escopo para a versão vigente da matriz de tarefas; vínculo de cada storyboard ao cenário e à persona; revisão do roteiro de entrevista para tarefas do sistema reprojetado. | Arthur Sismene Carvalho | Pedro Rocha Ferreira Lima |
 | `1.2` | 13/10/2026 | Ajuste do cronograma aos prazos de entrega da disciplina, com as datas concentradas na Tabela 6; storyboards passam a partir da versão 1.5 da HTA e da CTT, com a Avaliação da Análise de Tarefas em paralelo. | Arthur Sismene Carvalho | — |
 | `1.3` | 13/10/2026 | Padronização visual conforme as demais páginas do projeto: Tabela de Contribuição, legendas e fontes centralizadas em tabelas e figuras, numeração das seções e formatação da bibliografia. | Arthur Sismene Carvalho | — |
+| `1.4` | 13/10/2026 | Correção dos links para o Planejamento do Relato dos Resultados e para o Planejamento da Avaliação da Análise de Tarefas, conforme a localização das páginas no site. | Arthur Sismene Carvalho | — |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 

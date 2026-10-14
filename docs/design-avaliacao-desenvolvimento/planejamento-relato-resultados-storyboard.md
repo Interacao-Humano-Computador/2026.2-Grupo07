@@ -1,42 +1,40 @@
-# Planejamento do Relato dos Resultados da Avaliação do Storyboard
-
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
 
 | Membro | Contribuição |
-| --- | --- |
-| **Arthur Sismene Carvalho** | Redação do planejamento do relato, definição da estrutura de tópicos, escala de severidade e modelos de tabela |
-| **Daniel da Silva Batista** | Revisão da fundamentação teórica, modelo de sumário por storyboard e critérios de priorização dos problemas |
-| **Leonardo da Silva Lopes Júnior** | Definição do público, formato e prazos de divulgação, publicação desta página no GitHub Pages |
-| **Pedro Rocha Ferreira Lima** | Revisão técnica e planejamento do reprojeto |
-| **Claude (Anthropic)** | Estruturação textual, extração dos recortes bibliográficos e diagramação Markdown |
+| :--- | :--- |
+| Leonardo da Silva Lopes Júnior | Redação do planejamento do relato, definição da estrutura de tópicos, escala de severidade e modelos de tabela, e publicação desta página no GitHub Pages. |
+| Daniel da Silva Batista | Revisão da fundamentação teórica, modelo de sumário por storyboard e critérios de priorização dos problemas. |
+| Arthur Sismene Carvalho | Definição do público, formato e prazos de divulgação. |
+| Pedro Rocha Ferreira Lima | Revisão técnica e planejamento do reprojeto. |
+| Claude (Anthropic) | Auxílio na estruturação textual, extração dos recortes bibliográficos e diagramação em Markdown (conforme Política de Uso de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
----
+# Planejamento do Relato dos Resultados da Avaliação do Storyboard
 
 ## 1. Introdução
 
 Este documento define **como** os resultados da avaliação dos storyboards serão consolidados, classificados e comunicados. Ele é escrito **antes** da avaliação, e não depois: decidir previamente o que será registrado evita que a estrutura do relato seja moldada pelos achados, o que é uma forma silenciosa de enviesar a conclusão.
 
-O documento não contém resultados. Os resultados obtidos serão publicados em página própria, seguindo exatamente a estrutura aqui definida. O planejamento da avaliação que origina esses resultados está em [Planejamento da Avaliação do Storyboard](planejamento-avaliacao-storyboard.md).
+O documento não contém resultados. Os resultados obtidos serão publicados em página própria, seguindo exatamente a estrutura aqui definida. O planejamento da avaliação que origina esses resultados está em [Planejamento da Avaliação do Storyboard](../avaliacao/planejamento-avaliacao-storyboard.md).
 
 ---
 
 ## 2. Metodologia
 
-A estrutura do relato segue a atividade de **consolidação e relato dos resultados** descrita por Barbosa et al. (2021) na Seção 11.7.5. Concluída a interpretação individual de cada sessão, os resultados são consolidados em uma análise **interparticipante**, na qual se buscam recorrências — resultados comuns a vários participantes, que permitem distinguir o que é característica do grupo do que é idiossincrasia de um participante isolado.
+A estrutura do relato segue a atividade de **consolidação e relato dos resultados** descrita por Barbosa et al. (2021) na Seção 11.7.5. Concluída a interpretação individual de cada sessão, os resultados são consolidados em uma análise **interparticipante**, na qual se buscam recorrências — resultados comuns a vários participantes, que permitem distinguir o que é característica do grupo do que é idiossincrasia de um participante isolado. A Figura 1 reproduz o trecho da literatura (Seção 11.7.5, p. 303) que descreve essa atividade e lista o que o relato dos resultados costuma incluir.
 
-<div align="center" markdown="1">
+<div align="center">
 
-<p align="center"><b>Figura 1: Referência Bibliográfica — Consolidação e relato dos resultados</b></p>
+<p align="center"><b>Figura 1: Referência Bibliográfica — Consolidação e Relato dos Resultados</b></p>
 
-![Seção 11.7.5 de Barbosa et al. (2021, p. 303), sobre a consolidação interparticipante, os cuidados com a generalização e a lista do que o relato dos resultados costuma incluir](../assets/images/barbosa-consolidacao-relato-p303.png)
+<img src="../../assets/images/barbosa-consolidacao-relato-p303.png" alt="Seção 11.7.5 de Barbosa et al. (2021, p. 303), sobre a consolidação interparticipante, os cuidados com a generalização e a lista do que o relato dos resultados costuma incluir" style="max-width: 80%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
 
 </div>
 
@@ -58,33 +56,33 @@ Descrição das duas etapas conduzidas: a inspeção cruzada com a lista de veri
 
 ### 3.3 Número e perfil dos participantes
 
-Quantos usuários e quantos avaliadores participaram, e o perfil de cada participante, em tabela, sem identificação nominal.
+Quantos usuários e quantos avaliadores participaram, e o perfil de cada participante, sem identificação nominal, conforme o modelo da Tabela 1.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Modelo de caracterização dos participantes</b></p>
+<p align="center"><b>Tabela 1: Modelo de Caracterização dos Participantes</b></p>
 
 | Código | Faixa etária | Escolaridade | Experiência com concursos | Dispositivo habitual | Persona de referência | Storyboard avaliado |
-| --- | --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :--- | :--- | :--- | :--- | :---: |
 | USR-10 | | | | | PER-01 — Maria Helena | SB-01 (TAR-01) |
 | USR-11 | | | | | PER-02 — Lucas | SB-02 (TAR-04) |
 | USR-12 | | | | | PER-03 — Thiago | SB-03 (TAR-05) |
 | USR-13 | | | | | PER-04 — Renata | SB-04 (TAR-08) |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
 ### 3.4 Síntese da inspeção por lista de verificação
 
-Resultado da primeira etapa, consolidado por bloco da lista.
+Resultado da primeira etapa, consolidado por bloco da lista na Tabela 2.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 2: Modelo de síntese da inspeção</b></p>
+<p align="center"><b>Tabela 2: Modelo de Síntese da Inspeção</b></p>
 
 | Bloco da lista | Itens | Conforme | Não conforme | Não se aplica |
-| --- | --- | --- | --- | --- |
+| :--- | :---: | :---: | :---: | :---: |
 | I — Caracterização do storyboard como protótipo | 1 a 4 | | | |
 | II — Articulação com os cenários | 5 a 8 | | | |
 | III — Conteúdo dos quadros e técnica de esboço | 9 a 12 | | | |
@@ -92,7 +90,7 @@ Resultado da primeira etapa, consolidado por bloco da lista.
 | V — Limitações, concessões e complementos | 17 a 20 | | | |
 | **Total** | **20** | | | |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -100,17 +98,17 @@ Acompanha a tabela um **gráfico de barras horizontais** com a contagem de itens
 
 ### 3.5 Problemas e dificuldades encontrados
 
-Lista de todos os problemas identificados, em inspeção ou em entrevista, um por linha, redigidos de forma objetiva. Cada problema recebe um identificador no formato **PSB-nn**.
+Lista de todos os problemas identificados, em inspeção ou em entrevista, um por linha, redigidos de forma objetiva. Cada problema recebe um identificador no formato **PSB-nn** e é registrado conforme o modelo da Tabela 3.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 3: Modelo de registro de problemas</b></p>
+<p align="center"><b>Tabela 3: Modelo de Registro de Problemas</b></p>
 
 | ID | Storyboard | Descrição do problema | Origem | Severidade | Recorrência |
-| --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :--- | :---: | :---: | :---: |
 | PSB-01 | | | Inspeção / Entrevista | | n de 4 |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -120,17 +118,17 @@ A coluna **Recorrência** traz em quantos dos quatro casos o problema apareceu, 
 
 ### 3.6 Sugestões de melhoria
 
-Para cada problema da seção anterior, um registro com: o contexto em que ocorreu, o que o participante fez ou disse, o que se esperava que ele entendesse, o que de fato entendeu, e a alteração proposta para o storyboard.
+Para cada problema da seção anterior, um registro com: o contexto em que ocorreu, o que o participante fez ou disse, o que se esperava que ele entendesse, o que de fato entendeu, e a alteração proposta para o storyboard, conforme o modelo da Tabela 4.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 4: Modelo de registro de sugestão</b></p>
+<p align="center"><b>Tabela 4: Modelo de Registro de Sugestão</b></p>
 
 | ID do problema | Contexto | Comportamento observado | Resultado esperado | Alteração proposta | Origem da proposta |
-| --- | --- | --- | --- | --- | --- |
+| :---: | :--- | :--- | :--- | :--- | :---: |
 | PSB-01 | | | | | Participante / Equipe |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -144,17 +142,17 @@ Reúne as opiniões, impressões e comentários espontâneos dos participantes q
 
 ### 3.8 Sumário dos resultados por storyboard
 
-Visão de uma linha por artefato, para leitura rápida.
+Visão de uma linha por artefato, para leitura rápida, conforme o modelo da Tabela 5.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 5: Modelo de sumário por storyboard</b></p>
+<p align="center"><b>Tabela 5: Modelo de Sumário por Storyboard</b></p>
 
 | Storyboard | Tarefa | Persona | Tarefa reconhecida sem o título? | Problemas de severidade alta | Total de problemas | Decisão |
-| --- | --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :--- | :---: | :--- |
 | SB-01 | TAR-01 | PER-01 | Sim / Não | | | Aprovado / Aprovado com ajustes / Refazer |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -162,19 +160,19 @@ Visão de uma linha por artefato, para leitura rápida.
 
 ## 4. Classificação e Priorização dos Problemas
 
-Todo problema registrado recebe uma severidade, segundo a escala abaixo. A escala foi definida para artefatos de design, e não para sistemas em funcionamento: o critério é o quanto o defeito compromete o uso do storyboard como base para a próxima etapa.
+Todo problema registrado recebe uma severidade, segundo a escala da Tabela 6. A escala foi definida para artefatos de design, e não para sistemas em funcionamento: o critério é o quanto o defeito compromete o uso do storyboard como base para a próxima etapa.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 6: Escala de severidade</b></p>
+<p align="center"><b>Tabela 6: Escala de Severidade</b></p>
 
 | Nível | Designação | Critério |
-| --- | --- | --- |
+| :---: | :---: | :--- |
 | **3** | Alta | Compromete a validade do artefato: a tarefa retratada está incorreta, falta um passo essencial ou o participante não reconhece a tarefa |
 | **2** | Média | Não invalida o storyboard, mas dificulta sua leitura ou gera interpretação ambígua de um passo |
 | **1** | Baixa | Ajuste de forma: legenda imprecisa, símbolo inconsistente, ordem de leitura pouco clara |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -184,17 +182,19 @@ A ordem de correção é dada por **severidade primeiro e recorrência em seguid
 
 ## 5. Público, Formato e Prazo do Relato
 
+A Tabela 7 define o público, o formato e o prazo de divulgação dos resultados.
+
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 7: Divulgação dos resultados</b></p>
+<p align="center"><b>Tabela 7: Divulgação dos Resultados</b></p>
 
 | Destinatário | Formato | Prazo |
-| --- | --- | --- |
-| Equipe do projeto | Reunião de consolidação, com a tabela de problemas aberta | 31/10/2026 |
-| Professor e turma | Página *Relato dos Resultados da Avaliação do Storyboard* no GitHub Pages do grupo | 01/11/2026 |
+| :--- | :--- | :---: |
+| Equipe do projeto | Reunião de consolidação, com a tabela de problemas aberta | 22/10/2026 |
+| Professor e turma | Página *Relato dos Resultados da Avaliação do Storyboard* no GitHub Pages do grupo | 25/10/2026 |
 | Turma | Apresentação da Etapa 4, com o sumário da Tabela 5 e os problemas de severidade alta | Conforme o cronograma da disciplina |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -204,20 +204,20 @@ As gravações das sessões não são publicadas. O que vai para o site são os 
 
 ## 6. Planejamento do Reprojeto
 
-O relato se encerra com o planejamento do reprojeto, último dos tópicos previstos por Barbosa et al. (2021, p. 303). O reprojeto preserva a base já aprovada e altera apenas o que os resultados indicarem.
+O relato se encerra com o planejamento do reprojeto, último dos tópicos previstos por Barbosa et al. (2021, p. 303). O reprojeto preserva a base já aprovada e altera apenas o que os resultados indicarem. A Tabela 8 apresenta o modelo de cronograma do reprojeto.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 8: Modelo de cronograma de reprojeto</b></p>
+<p align="center"><b>Tabela 8: Modelo de Cronograma de Reprojeto</b></p>
 
 | Storyboard | Alterações a executar | Executor | Data | Horário |
-| --- | --- | --- | --- | --- |
-| SB-01 | | Daniel da Silva Batista | 03/11/2026 | |
-| SB-02 | | Pedro Rocha Ferreira Lima | 03/11/2026 | |
-| SB-03 | | Arthur Sismene Carvalho | 04/11/2026 | |
-| SB-04 | | Leonardo da Silva Lopes Júnior | 04/11/2026 | |
+| :---: | :--- | :--- | :---: | :---: |
+| SB-01 | | Daniel da Silva Batista | 23/10/2026 | |
+| SB-02 | | Pedro Rocha Ferreira Lima | 23/10/2026 | |
+| SB-03 | | Arthur Sismene Carvalho | 24/10/2026 | |
+| SB-04 | | Leonardo da Silva Lopes Júnior | 24/10/2026 | |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -235,25 +235,23 @@ Três ressalvas serão registradas no próprio relato, porque delimitam o que el
 
 ---
 
-## Bibliografia
+## 8. Bibliografia
 
-BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Autopublicação, 2021. ISBN 978-65-00-19677-1.
-
-PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: além da interação homem-computador**. Porto Alegre: Bookman, 2005.
+> [1] BARBOSA, Simone D. J. et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
+> [2] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Design de Interação: além da interação homem-computador*. Porto Alegre: Bookman, 2005.
 
 ---
 
-## Histórico de Versões
+## 9. Histórico de Versões
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Histórico de Versões</b></p>
-
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| --- | --- | --- | --- | --- |
-| `1.0` | 13/10/2026 | Criação do planejamento do relato dos resultados da avaliação do storyboard: estrutura de tópicos, escala de severidade, modelos de tabela, divulgação e planejamento de reprojeto | Arthur Sismene Carvalho | Pedro Rocha Ferreira Lima |
-| `1.1` | 13/10/2026 | Alinhamento com a versão vigente da matriz de tarefas: identificação da tarefa e da persona de cada storyboard nos modelos de tabela | Arthur Sismene Carvalho | Pedro Rocha Ferreira Lima |
+| :---: | :---: | :--- | :---: | :---: |
+| `1.0` | 13/10/2026 | Criação do planejamento do relato dos resultados da avaliação do storyboard: estrutura de tópicos, escala de severidade, modelos de tabela, divulgação e planejamento de reprojeto. | Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
+| `1.1` | 13/10/2026 | Alinhamento com a versão vigente da matriz de tarefas: identificação da tarefa e da persona de cada storyboard nos modelos de tabela. | Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
+| `1.2` | 13/10/2026 | Padronização visual conforme o Planejamento da Avaliação do Storyboard: Tabela de Contribuição antes do título, figura com legenda e fonte centralizadas, numeração das seções e formatação da bibliografia; Leonardo da Silva Lopes Júnior registrado como redator principal e autor das fontes; correção do link para o Planejamento da Avaliação do Storyboard; alinhamento dos prazos de divulgação (Tabela 7) e de reprojeto (Tabela 8) aos prazos de entrega da disciplina. | Leonardo da Silva Lopes Júnior | Arthur Sismene Carvalho |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
