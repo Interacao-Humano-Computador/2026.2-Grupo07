@@ -57,6 +57,22 @@ markdown_extensions:
 
 nav:
   - Início: index.md
+<<<<<<< HEAD
+  - Apresentações: apresentacao/apresentacao-1.md
+  - Planejamento 1 (Etapa 1):
+    - Equipe: planejamento/membros.md
+    - Planejamento do Projeto: planejamento/planejamento-do-projeto.md
+    - Heatmap de Disponibilidade: planejamento/heatmap.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Cronograma: planejamento/cronograma.md
+    - Processo de Design: planejamento/processo-de-design.md
+    - Sites Avaliados: planejamento/sites-avaliados.md
+    - Site Selecionado: planejamento/site-escolhido.md
+    - Atas de Reunião: planejamento/ata-reuniao.md
+  - Verificação: 
+    - Grupo 06 (Avaliadores):
+      - Verificação: verificacao/grupo06/lista-verificacao1_06.md
+=======
   - Planejamento (Etapa 1):
       - Equipe: planejamento/membros.md
       - Planejamento do Projeto: planejamento/planejamento-do-projeto.md
@@ -90,3 +106,4 @@ nav:
   - Apresentações:
       - Apresentação 1: apresentacao/apresentacao-1.md
       - Apresentação 3: apresentacao/apresentacao-3.md
+>>>>>>> 3126e350f8b31957a22cbb9448e69c5b8bc80daa
