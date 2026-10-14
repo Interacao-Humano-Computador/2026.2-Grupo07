@@ -1,18 +1,20 @@
-# Planejamento do Relato dos Resultados da Avaliação da Análise de Tarefas
+<div align="center" markdown="1">
 
-## Tabela de Contribuição
+<p align="center"><b>Tabela de Contribuição</b></p>
 
 | Membro | Contribuição |
-| --- | --- |
-| **Pedro Rocha Ferreira Lima** | Redação do planejamento do relato, definição da estrutura de tópicos, escala de severidade e modelos de tabela |
-| **Daniel da Silva Batista** | Revisão da fundamentação teórica, modelo de sumário por tarefa e critérios de priorização dos problemas |
-| **Leonardo da Silva Lopes Júnior** | Definição do público, formato e prazos de divulgação |
-| **Arthur Sismene Carvalho** | Revisão técnica, planejamento do reprojeto dos modelos, publicação desta página no GitHub Pages |
-| **Claude (Anthropic)** | Estruturação textual, extração dos recortes bibliográficos e diagramação Markdown |
+| :--- | :--- |
+| Pedro Rocha Ferreira Lima | Redação do planejamento do relato, definição da estrutura de tópicos, escala de severidade e modelos de tabela. |
+| Daniel da Silva Batista | Revisão da fundamentação teórica, modelo de sumário por tarefa e critérios de priorização dos problemas. |
+| Leonardo da Silva Lopes Júnior | Definição do público, formato e prazos de divulgação. |
+| Arthur Sismene Carvalho | Revisão técnica, planejamento do reprojeto dos modelos e publicação desta página no GitHub Pages. |
+| Claude (Anthropic) | Auxílio na estruturação textual, extração dos recortes bibliográficos e diagramação em Markdown (conforme Política de Uso de IA). |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
----
+</div>
+
+# Planejamento do Relato dos Resultados da Avaliação da Análise de Tarefas
 
 ## 1. Introdução
 
@@ -24,13 +26,17 @@ O documento não contém resultados. Os resultados serão publicados em página 
 
 ## 2. Metodologia
 
-A estrutura do relato segue a atividade de **consolidação e relato dos resultados** descrita por Barbosa et al. (2021) na Seção 11.7.5. Concluída a interpretação individual de cada sessão, os resultados são consolidados em análise **interparticipante**, na qual se buscam recorrências que permitam distinguir a característica do grupo da idiossincrasia de um participante isolado.
+A estrutura do relato segue a atividade de **consolidação e relato dos resultados** descrita por Barbosa et al. (2021) na Seção 11.7.5. Concluída a interpretação individual de cada sessão, os resultados são consolidados em análise **interparticipante**, na qual se buscam recorrências que permitam distinguir a característica do grupo da idiossincrasia de um participante isolado. A Figura 1 reproduz o trecho da literatura (Seção 11.7.5, p. 303) que descreve essa atividade e lista o que o relato dos resultados costuma incluir.
 
-**Figura 1: Referência Bibliográfica — Consolidação e relato dos resultados**
+<div align="center">
 
-![Seção 11.7.5 de Barbosa et al. (2021, p. 303), sobre a consolidação interparticipante, os cuidados com a generalização e a lista do que o relato dos resultados costuma incluir](../assets/images/barbosa-consolidacao-relato-p303.png)
+<p align="center"><b>Figura 1: Referência Bibliográfica — Consolidação e Relato dos Resultados</b></p>
 
-**Fonte:** BARBOSA et al. (2021, p. 303)
+<img src="../../assets/images/barbosa-consolidacao-relato-p303.png" alt="Seção 11.7.5 de Barbosa et al. (2021, p. 303), sobre a consolidação interparticipante, os cuidados com a generalização e a lista do que o relato dos resultados costuma incluir" style="max-width: 80%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
 
 Os sete tópicos listados ao final dessa seção formam o sumário obrigatório do relato. O grupo acrescenta um oitavo, a síntese da inspeção por lista de verificação, porque a avaliação planejada tem duas etapas e a inspeção produz resultados de natureza distinta dos obtidos em sessão com usuário.
 
@@ -48,77 +54,111 @@ Descrição das duas etapas conduzidas: a inspeção cruzada com as listas de ve
 
 ### 3.3 Número e perfil dos participantes
 
-**Tabela 1: Modelo de caracterização dos participantes**
+O perfil de cada participante é registrado, sem identificação nominal, conforme o modelo da Tabela 1.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 1: Modelo de Caracterização dos Participantes</b></p>
 
 | Código | Faixa etária | Escolaridade | Experiência com concursos | Dispositivo habitual | Persona de referência | Tarefas validadas |
-| --- | --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :--- | :--- | :--- | :--- | :---: |
 | USR-06 | | | | | PER-01 — Maria Helena | TAR-01, TAR-02 |
 | USR-07 | | | | | PER-02 — Lucas | TAR-03, TAR-04 |
 | USR-08 | | | | | PER-03 — Thiago | TAR-05, TAR-06 |
 | USR-09 | | | | | PER-04 — Renata | TAR-07, TAR-08 |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
 
 Registra-se também o número de avaliadores: quatro integrantes na inspeção, dois por modelo.
 
 ### 3.4 Síntese da inspeção por lista de verificação
 
-**Tabela 2: Modelo de síntese da inspeção — HTA**
+O resultado da inspeção é consolidado nas Tabelas 2 e 3, uma para cada notação.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 2: Modelo de Síntese da Inspeção — HTA</b></p>
 
 | Tarefa | Itens conformes | Não conformes | Não se aplica | Itens não conformes (IDs) |
-| --- | --- | --- | --- | --- |
+| :--- | :---: | :---: | :---: | :--- |
 | TAR-01 | | | | |
 | … | | | | |
 | **Total (10 itens × 8 tarefas)** | | | | |
 
-**Tabela 3: Modelo de síntese da inspeção — CTT**
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 3: Modelo de Síntese da Inspeção — CTT</b></p>
 
 | Bloco da lista | Itens | Conforme | Não conforme | Não se aplica |
-| --- | --- | --- | --- | --- |
+| :--- | :---: | :---: | :---: | :---: |
 | I — Estrutura do modelo | 1 a 2 | | | |
 | II — Relações entre tarefas | 3 a 8 | | | |
 | III — Alcance e limitações da notação | 9 a 10 | | | |
 | **Total** | **10** | | | |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
 
 Acompanha as tabelas um **gráfico de barras horizontais** com a contagem de itens conformes por tarefa, em HTA e em CTT lado a lado, que mostra de relance quais tarefas concentram defeitos de notação. Cada item "Não conforme" vira obrigatoriamente um problema na seção 3.5.
 
 ### 3.5 Problemas e dificuldades encontrados
 
-Lista de todos os problemas identificados, um por linha, com identificador no formato **PAT-nn**.
+Lista de todos os problemas identificados, um por linha, com identificador no formato **PAT-nn**, conforme o modelo da Tabela 4.
 
-**Tabela 4: Modelo de registro de problemas**
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 4: Modelo de Registro de Problemas</b></p>
 
 | ID | Tarefa | Notação | Descrição do problema | Tipo | Origem | Severidade | Recorrência |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
 | PAT-01 | | HTA / CTT / Ambas | | | Inspeção / Entrevista | | n de 4 |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
-A coluna **Tipo** classifica o problema em uma das quatro categorias abaixo, que correspondem aos objetivos específicos da avaliação:
+</div>
+
+A coluna **Tipo** classifica o problema em uma das cinco categorias da Tabela 5, que correspondem aos objetivos específicos da avaliação.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 5: Tipos de Problema</b></p>
 
 | Tipo | Significado |
-| --- | --- |
+| :--- | :--- |
 | **Notação** | O modelo viola uma regra de HTA ou de CTT |
 | **Passo ausente** | O usuário executa um passo que não está no modelo |
 | **Passo excedente** | O modelo prevê um passo que o usuário não executa |
 | **Caminho não previsto** | Existe uma rota alternativa para o objetivo que não foi modelada |
 | **Incoerência com cenário ou persona** | A decomposição não cabe nas condições da persona ou contradiz o objetivo declarado no cenário — por exemplo, uma tarefa longa atribuída a quem estuda em blocos curtos pelo celular |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
-A distinção importa para o encaminhamento: problemas de **notação** são corrigidos pela equipe sem consultar ninguém; os outros três exigem decidir se o modelo estava errado ou se o participante descreveu um uso atípico — e é aí que a coluna **Recorrência** pesa.
+</div>
+
+A distinção importa para o encaminhamento: problemas de **notação** são corrigidos pela equipe sem consultar ninguém; os outros quatro exigem decidir se o modelo estava errado ou se o participante descreveu um uso atípico — e é aí que a coluna **Recorrência** pesa.
 
 ### 3.6 Sugestões de melhoria
 
-**Tabela 5: Modelo de registro de sugestão**
+Cada sugestão é registrada conforme o modelo da Tabela 6.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 6: Modelo de Registro de Sugestão</b></p>
 
 | ID do problema | Contexto | O que o participante descreveu | O que o modelo previa | Alteração proposta no modelo | Origem da proposta |
-| --- | --- | --- | --- | --- | --- |
+| :---: | :--- | :--- | :--- | :--- | :---: |
 | PAT-01 | | | | | Participante / Equipe |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
 
 Para problemas que afetem a estrutura temporal — passos que o usuário disse poder fazer em qualquer ordem, mas que o modelo encadeou com o operador de ativação, por exemplo —, a alteração proposta indica explicitamente o operador CTT substituto.
 
@@ -135,27 +175,39 @@ As perguntas PA-01 a PA-07 são retomadas uma a uma e respondidas; quando não h
 
 ### 3.8 Sumário dos resultados por tarefa
 
-**Tabela 6: Modelo de sumário por tarefa**
+A Tabela 7 apresenta o modelo de sumário, com uma linha por tarefa.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Modelo de Sumário por Tarefa</b></p>
 
 | Tarefa | Modelo HTA conforme? | Modelo CTT conforme? | Descrição do usuário confere? | Problemas de severidade alta | Decisão |
-| --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :--- | :--- |
 | TAR-01 | Sim / Não | Sim / Não | Sim / Não / Em parte | | Aprovado / Aprovado com ajustes / Remodelar |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
 
 ---
 
 ## 4. Classificação e Priorização dos Problemas
 
-**Tabela 7: Escala de severidade**
+Todo problema registrado recebe uma severidade, segundo a escala da Tabela 8.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Escala de Severidade</b></p>
 
 | Nível | Designação | Critério |
-| --- | --- | --- |
+| :---: | :---: | :--- |
 | **3** | Alta | Compromete a validade do modelo: a decomposição não corresponde à tarefa real, falta um passo essencial ou o objetivo modelado não é o objetivo do usuário |
 | **2** | Média | O modelo permanece válido, mas contém imprecisão que se propagaria para os artefatos derivados — ordem de passos incorreta, operador temporal inadequado, plano mal descrito |
 | **1** | Baixa | Ajuste de forma: numeração, rótulo de subtarefa, legenda, inconsistência entre o diagrama e a tabela de análise |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
 
 A ordem de correção é dada por **severidade primeiro e recorrência em seguida**. Problemas de severidade 3 são bloqueantes: nenhuma tarefa com um deles em aberto serve de base para o storyboard ou para o protótipo em papel. Problemas de severidade 2 em modelos CTT recebem prioridade sobre os de HTA de mesma severidade, porque um operador temporal errado produz um fluxo de interação errado no artefato seguinte.
 
@@ -163,15 +215,21 @@ A ordem de correção é dada por **severidade primeiro e recorrência em seguid
 
 ## 5. Público, Formato e Prazo do Relato
 
-**Tabela 8: Divulgação dos resultados**
+A Tabela 9 define o público, o formato e o prazo de divulgação dos resultados.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Divulgação dos Resultados</b></p>
 
 | Destinatário | Formato | Prazo |
-| --- | --- | --- |
+| :--- | :--- | :---: |
 | Equipe do projeto | Reunião de consolidação, com a tabela de problemas aberta | 19/10/2026 |
 | Professor e turma | Página *Relato dos Resultados da Avaliação da Análise de Tarefas* no GitHub Pages do grupo | 20/10/2026 |
-| Turma | Apresentação da Etapa 4, com o sumário da Tabela 6 e os problemas de severidade alta | Conforme o cronograma da disciplina |
+| Turma | Apresentação da Etapa 4, com o sumário da Tabela 7 e os problemas de severidade alta | Conforme o cronograma da disciplina |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
 
 As gravações não são publicadas. O que vai para o site são os dados anonimizados e consolidados, conforme o compromisso assumido em [Aspectos Éticos](../analise-de-requisitos/aspectos-eticos.md).
 
@@ -179,10 +237,14 @@ As gravações não são publicadas. O que vai para o site são os dados anonimi
 
 ## 6. Planejamento do Reprojeto
 
-**Tabela 9: Modelo de cronograma de reprojeto dos modelos**
+A Tabela 10 apresenta o modelo de cronograma do reprojeto, com o executor de cada tarefa.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Modelo de Cronograma de Reprojeto dos Modelos</b></p>
 
 | Tarefa | Alterações a executar | Notação afetada | Executor | Data |
-| --- | --- | --- | --- | --- |
+| :---: | :--- | :---: | :--- | :---: |
 | TAR-01 | | | Daniel da Silva Batista | 20/10/2026 |
 | TAR-02 | | | Daniel da Silva Batista | 20/10/2026 |
 | TAR-03 | | | Pedro Rocha Ferreira Lima | 21/10/2026 |
@@ -192,7 +254,9 @@ As gravações não são publicadas. O que vai para o site são os dados anonimi
 | TAR-07 | | | Leonardo da Silva Lopes Júnior | 22/10/2026 |
 | TAR-08 | | | Leonardo da Silva Lopes Júnior | 22/10/2026 |
 
-**Fonte:** Arthur Sismene Carvalho (2026)
+<p align="center"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
 
 O reprojeto preserva a modelagem já validada e altera apenas o que os resultados indicarem. Toda tarefa alterada é submetida de novo às listas de verificação de HTA e de CTT antes de ser considerada concluída, e as páginas de [HTA](../analise-de-requisitos/analise-de-tarefas/hta.md) e [CTT](../analise-de-requisitos/analise-de-tarefas/ctt.md) recebem nova versão no histórico, com referência a esta avaliação.
 
@@ -209,19 +273,23 @@ Há uma dependência que o cronograma precisa respeitar: os storyboards são con
 
 ---
 
-## Bibliografia
+## 8. Bibliografia
 
-BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Autopublicação, 2021. ISBN 978-65-00-19677-1.
-
-PATERNÒ, F. **Model-Based Design and Evaluation of Interactive Applications**. London: Springer-Verlag, 1999.
+> [1] BARBOSA, Simone D. J. et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
+> [2] PATERNÒ, Fabio. *Model-Based Design and Evaluation of Interactive Applications*. London: Springer-Verlag, 1999.
 
 ---
 
-## Histórico de Versões
+## 9. Histórico de Versões
+
+<div align="center" markdown="1">
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| --- | --- | --- | --- | --- |
-| `1.0` | 13/10/2026 | Criação do planejamento do relato dos resultados da avaliação da análise de tarefas: estrutura de tópicos, tipos de problema, escala de severidade, modelos de tabela, divulgação e planejamento de reprojeto | Arthur Sismene Carvalho | Pedro Rocha Ferreira Lima |
-| `1.1` | 13/10/2026 | Alinhamento com a versão vigente da matriz de tarefas: persona de referência por participante, novo tipo de problema para incoerência com cenário ou persona, e registro da demanda real por cada tarefa proposta | Arthur Sismene Carvalho | Pedro Rocha Ferreira Lima |
+| :---: | :---: | :--- | :---: | :---: |
+| `1.0` | 13/10/2026 | Criação do planejamento do relato dos resultados da avaliação da análise de tarefas: estrutura de tópicos, tipos de problema, escala de severidade, modelos de tabela, divulgação e planejamento de reprojeto. | Pedro Rocha Ferreira Lima | Arthur Sismene Carvalho |
+| `1.1` | 13/10/2026 | Alinhamento com a versão vigente da matriz de tarefas: persona de referência por participante, novo tipo de problema para incoerência com cenário ou persona, e registro da demanda real por cada tarefa proposta. | Pedro Rocha Ferreira Lima | Arthur Sismene Carvalho |
+| `1.2` | 13/10/2026 | Padronização visual conforme o Planejamento da Avaliação do Storyboard: Tabela de Contribuição, legendas e fontes centralizadas em tabelas e figuras, legenda na tabela de tipos de problema (Tabela 5) com renumeração das seguintes, numeração das seções e formatação da bibliografia; correção da autoria das fontes para Pedro Rocha Ferreira Lima. | Pedro Rocha Ferreira Lima | Arthur Sismene Carvalho |
 
-**Fonte:** Pedro Rocha Ferreira Lima (2026)
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
