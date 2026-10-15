@@ -57,22 +57,6 @@ markdown_extensions:
 
 nav:
   - Início: index.md
-<<<<<<< HEAD
-  - Apresentações: apresentacao/apresentacao-1.md
-  - Planejamento 1 (Etapa 1):
-    - Equipe: planejamento/membros.md
-    - Planejamento do Projeto: planejamento/planejamento-do-projeto.md
-    - Heatmap de Disponibilidade: planejamento/heatmap.md
-    - Ferramentas: planejamento/ferramentas.md
-    - Cronograma: planejamento/cronograma.md
-    - Processo de Design: planejamento/processo-de-design.md
-    - Sites Avaliados: planejamento/sites-avaliados.md
-    - Site Selecionado: planejamento/site-escolhido.md
-    - Atas de Reunião: planejamento/ata-reuniao.md
-  - Verificação: 
-    - Grupo 06 (Avaliadores):
-      - Verificação: verificacao/grupo06/lista-verificacao1_06.md
-=======
   - Planejamento (Etapa 1):
       - Equipe: planejamento/membros.md
       - Planejamento do Projeto: planejamento/planejamento-do-projeto.md
@@ -98,12 +82,17 @@ nav:
       - Metas de Usabilidade: design-avaliacao-desenvolvimento/metas-de-usabilidade.md
   - Planejamento da Avaliação (Etapa 4):
       - Planejamento da Avaliação da Análise de Tarefas: design-avaliacao-desenvolvimento/planejamento-avaliacao-analise-de-tarefas.md
+      - Planejamento do Relato da Análise de Tarefas: design-avaliacao-desenvolvimento/resultado-analise-de-tarefas.md
+      - Planejamento da Avaliação do Storyboard: avaliacao/planejamento-avaliacao-storyboard.md
+      - Planejamento do Relato dos Resultados do Storyboard: design-avaliacao-desenvolvimento/planejamento-relato-resultados-storyboard.md
   - Verificação:
       - Etapa 1 – Grupo 08 (Grupo +1): apresentacao/grupo-08.md
       - Etapa 2 – Grupo 06 (Grupo -1): apresentacao/grupo-06.md
       - Etapa 3 – Grupo 07 (Autoavaliação): apresentacao/verificacao-etapa-3-grupo-07.md
       - Etapa 3 – Grupo 08 (Grupo +1): apresentacao/verificacao-etapa-3-grupo-08.md
+      - Etapa 4 - Grupo 06 (Grupo -1): apresentacao/grupo-06-2.md
+      - Lista de Verificação Etapa 1 – Grupo 06: verificacao/grupo06/lista-verificacao1_06.md
   - Apresentações:
       - Apresentação 1: apresentacao/apresentacao-1.md
       - Apresentação 3: apresentacao/apresentacao-3.md
->>>>>>> 3126e350f8b31957a22cbb9448e69c5b8bc80daa
+      - Apresentação 4: apresentacao/apresentacao-4.md
