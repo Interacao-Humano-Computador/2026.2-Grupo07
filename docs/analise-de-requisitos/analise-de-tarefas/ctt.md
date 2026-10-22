@@ -66,7 +66,7 @@ A equipe consolidou a matriz com as oito tarefas oficiais avaliadas no portal, m
 | **TAR-05** | Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho | Arthur Sismene Carvalho |
 | **TAR-06** | Buscar oportunidades de estágio de nível superior no DF *(Tarefa não suportada)* | Arthur Sismene Carvalho |
 | **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
-| **TAR-08** | Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério | Leonardo da Silva Lopes Júnior |
+| **TAR-08** | Organizar e acompanhar múltiplos certames no Calendário Pessoal de Concursos com prazos de inscrição, pagamento de boleto e exportação para agenda digital | Leonardo da Silva Lopes Júnior |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
 
@@ -925,21 +925,22 @@ flowchart TD
 
 ---
 
-### 6.2 Tarefa 08: Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério (TAR-08)
+### 6.2 Tarefa 08: Organizar e acompanhar múltiplos certames no Calendário Pessoal de Concursos com prazos de inscrição, pagamento de boleto e exportação para agenda digital (TAR-08)
 
-Em atendimento às diretrizes ergonômicas e pedagógicas da **Issue #14**, a Tarefa 08 formaliza a interação na **Central de Alertas Inteligentes de Editais**, superando o modelo rudimentar de subscrição de newsletters genéricas que sobrecarregavam a caixa postal com certames dispersos e irrelevantes (*infoxicação*). A tarefa atende primordialmente às necessidades da persona **Renata Cristina Freitas (`PER-04`)**, que, em virtude de sua extensa rotina de 44 horas semanais no setor privado, depende de comunicações assíncronas altamente assertivas para não perder janelas de inscrição no Distrito Federal e entorno. A fundamentação apoia-se nos dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) (Comscore, 2024; TIC Domicílios, 2024).
+A Tarefa 08 formaliza a interação no **Calendário Pessoal de Concursos**, superando a consulta fragmentada e estática de editais em PDF e a carência de uma ferramenta unificada de gestão de prazos no portal. A tarefa atende prioritariamente à persona **Renata Cristina Freitas (`PER-04`)**, concurseira trabalhadora que concilia jornada de 44 horas semanais no setor privado com preparação para múltiplos concursos simultâneos (ex.: TJDFT e Correios). Com base nos dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior), a restrição severa de tempo e a dispersão de informações impõem alto risco de perda de prazos de pagamento de boleto bancário da taxa de inscrição ou de sobreposição de datas de provas.
 
 A modelagem CTT formaliza:
-1. A **parametrização multicritério concorrente (`|||`)** de filtros avançados (delimitação por UF/região, carreira/órgão e periodicidade de recebimento);
-2. A **validação segura de consentimento em conformidade com a LGPD**, com verificação sintática instantânea de e-mail e autenticação criptográfica por *Double Opt-In*;
-3. O **disparo automatizado de boletins segmentados** com cards estruturados de oportunidades;
-4. O **painel de autoatendimento e governança de privacidade**, que viabiliza o ajuste dinâmico de filtros, a pausa temporária de envios ou o cancelamento definitivo com um clique (*opt-out* instantâneo).
+1. A **adição e consolidação interativa (`>>`)** de certames no painel pessoal do candidato;
+2. A **alternância concorrente (`[]`)** entre a visualização de Linha do Tempo e Grade Mensal;
+3. O **monitoramento e controle de pendências financeiras (`[]>>`)**, incluindo contagem regressiva de boleto e registro manual de status (`[Boleto Pago]`);
+4. A **inspeção e tratamento de conflitos de datas (`[]`)** entre certames concorrentes;
+5. A **exportação dinâmica com sincronização externa (`>>`)** para Google Agenda e download de arquivo universal `.ics`.
 
 #### Diagrama de Árvore CTT (Figura 8)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 8:</b> Representação em Árvore CTT da Tarefa 08 - Central de Alertas Inteligentes com filtros avançados</p>
+<p align="center"><b>Figura 8:</b> Representação em Árvore CTT da Tarefa 08 - Calendário Pessoal de Concursos</p>
 
 </div>
 
@@ -954,17 +955,17 @@ flowchart TD
         L_Usu["[Usuário]"]
     end
 
-    Root8["[Abstrata] Cadastrar e gerenciar alertas inteligentes com filtros e LGPD"]
+    Root8["[Abstrata] Organizar múltiplos certames no Calendário Pessoal de Concursos"]
 
-    Sub1["[Interação] Acessar Central de Alertas Inteligentes"]
+    Sub1["[Interação] Localizar e adicionar certames ao Calendário Pessoal"]
     Op1{">>"}
-    Sub2["[Abstrata] Parametrizar filtros multicritério de monitoramento"]
+    Sub2["[Abstrata] Explorar e alternar visualizações cronológicas dos eventos"]
     Op2{"[]>>"}
-    Sub3["[Abstrata] Fornecer dados e efetivar autenticação Double Opt-In"]
-    Op3{">>"}
-    Sub4["[Sistema] Disparar digest segmentado de editais"]
+    Sub3["[Abstrata] Monitorar prazos de pagamento e registrar status de inscrição"]
+    Op3{"[]"}
+    Sub4["[Abstrata] Inspecionar e resolver choques de datas entre certames"]
     Op4{"[]>>"}
-    Sub5["[Abstrata] Gerenciar preferências de alertas e direitos de privacidade"]
+    Sub5["[Abstrata] Sincronizar marcos com agenda digital e configurar lembretes"]
 
     Root8 --> Sub1
     Root8 --> Op1
@@ -976,60 +977,53 @@ flowchart TD
     Root8 --> Op4
     Root8 --> Sub5
 
-    %% Decomposição de Sub2 (Filtros multicritério concorrentes)
-    Sub2_1["[Interação] Selecionar localidade e UF pretendida (DF/Entorno)"]
-    Sub2_Op1{"|||"}
-    Sub2_2["[Interação] Filtrar carreira, área de atuação e escolaridade"]
-    Sub2_Op2{"|||"}
-    Sub2_3["[Interação] Definir periodicidade de notificação"]
-    Sub2_Op3{">>"}
-    Sub2_4["[Interação] Submeter configuração de monitoramento"]
+    %% Decomposição de Sub2 (Visualizações cronológicas)
+    Sub2_1["[Interação] Inspecionar Linha do Tempo Unificada com contadores regressivos"]
+    Sub2_Op1{"[]"}
+    Sub2_2["[Interação] Alternar para visualização em Grade Mensal com marcação de órgãos"]
 
     Sub2 --> Sub2_1
     Sub2 --> Sub2_Op1
     Sub2 --> Sub2_2
-    Sub2 --> Sub2_Op2
-    Sub2 --> Sub2_3
-    Sub2 --> Sub2_Op3
-    Sub2 --> Sub2_4
 
-    %% Decomposição de Sub3 (Validação e Double Opt-In)
-    Sub3_1["[Interação] Digitar e-mail com validação sintática em tempo real"]
-    Sub3_Op1{"|||"}
-    Sub3_2["[Interação] Aceitar termos de consentimento e privacidade (LGPD)"]
-    Sub3_Op2{"[]>>"}
-    Sub3_3["[Sistema] Emitir token temporário de validação criptográfica"]
-    Sub3_Op3{">>"}
-    Sub3_4["[Interação] Confirmar token de validação via link seguro (Double Opt-In)"]
-    Sub3_Op4{">>"}
-    Sub3_5["[Sistema] Ativar perfil de monitoramento personalizado"]
+    %% Decomposição de Sub3 (Controle de pagamento e status)
+    Sub3_1["[Usuário] Verificar alerta de vencimento de boleto a menos de 48h"]
+    Sub3_Op1{">>"}
+    Sub3_2["[Interação] Marcar status de taxa como 'Boleto Pago' ou 'Isenção Deferida'"]
+    Sub3_Op2{">>"}
+    Sub3_3["[Sistema] Atualizar tarjeta visual de status e arquivar comprovante"]
 
     Sub3 --> Sub3_1
     Sub3 --> Sub3_Op1
     Sub3 --> Sub3_2
     Sub3 --> Sub3_Op2
     Sub3 --> Sub3_3
-    Sub3 --> Sub3_Op3
-    Sub3 --> Sub3_4
-    Sub3 --> Sub3_Op4
-    Sub3 --> Sub3_5
 
-    %% Decomposição de Sub5 (Gestão e LGPD)
-    Sub5_1["[Usuário] Avaliar relevância dos cards de oportunidades no digest"]
-    Sub5_Op1{"[]"}
-    Sub5_2["[Interação] Acessar painel de autoatendimento para editar filtros"]
-    Sub5_Op2{"[]"}
-    Sub5_3["[Interação] Solicitar descadastramento imediato (opt-out em 1 clique)"]
-    Sub5_Op3{">>"}
-    Sub5_4["[Sistema] Excluir registros cadastrais da base e confirmar remoção"]
+    %% Decomposição de Sub4 (Tratamento de conflito de datas)
+    Sub4_1["[Sistema] Detectar colisão de datas de provas e emitir alerta visual"]
+    Sub4_Op1{"[]>>"}
+    Sub4_2["[Usuário] Avaliar viabilidade de turnos e priorizar certame principal"]
+    Sub4_Op2{">>"}
+    Sub4_3["[Interação] Ajustar notificações do certame secundário"]
+
+    Sub4 --> Sub4_1
+    Sub4 --> Sub4_Op1
+    Sub4 --> Sub4_2
+    Sub4 --> Sub4_Op2
+    Sub4 --> Sub4_3
+
+    %% Decomposição de Sub5 (Sincronização externa)
+    Sub5_1["[Interação] Selecionar marcos e antecedência de lembretes (24h e 2h)"]
+    Sub5_Op1{">>"}
+    Sub5_2["[Interação] Acionar comando 'Sincronizar com Google Agenda' ou 'Baixar .ics'"]
+    Sub5_Op2{">>"}
+    Sub5_3["[Sistema] Gerar integração de calendário e confirmar agendamento de alertas"]
 
     Sub5 --> Sub5_1
     Sub5 --> Sub5_Op1
     Sub5 --> Sub5_2
     Sub5 --> Sub5_Op2
     Sub5 --> Sub5_3
-    Sub5 --> Sub5_Op3
-    Sub5 --> Sub5_4
 ```
 
 <div align="center" markdown="1">
@@ -1046,25 +1040,23 @@ flowchart TD
 
 | Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
 | :--- | :---: | :---: | :--- |
-| **Cadastrar e gerenciar alertas inteligentes** | Abstrata | - | Tarefa raiz de gerenciamento proativo de avisos de editais com filtros de afinidade e conformidade de privacidade. |
-| **Acessar Central de Alertas Inteligentes** | Interação | `>>` | O usuário navega até a seção dedicada de alertas através do menu ou banner de chamada na página inicial. |
-| **Parametrizar filtros multicritério de monitoramento** | Abstrata | `[]>>` | Nó de composição que reúne a parametrização dos critérios de busca, transferindo os dados de configuração para a etapa de cadastro. |
-| **Selecionar localidade e UF pretendida (DF/Entorno)** | Interação | `\|\|\|` | Seleção de múltiplos estados e municípios de interesse (foco no DF e cidades satélites). |
-| **Filtrar carreira, área de atuação e escolaridade** | Interação | `\|\|\|` | Marcação de filtros por cargos (ex.: Tribunais, Gestão Pública) e exigência de escolaridade mínima. |
-| **Definir periodicidade de notificação** | Interação | `>>` | Escolha da cadência de envio dos alertas (imediata por edital, resumo diário às 19h ou boletim semanal aos sábados). |
-| **Submeter configuração de monitoramento** | Interação | `>>` | Disparo da confirmação dos parâmetros para abertura do bloco de validação de dados de contato. |
-| **Fornecer dados e efetivar autenticação Double Opt-In** | Abstrata | `>>` | Subtarefa de verificação de autenticidade do usuário e garantia de consentimento livre e informado sob a LGPD. |
-| **Digitar e-mail com validação sintática em tempo real** | Interação | `\|\|\|` | Preenchimento do endereço eletrônico com checagem inline de formato (`usuario@dominio.com`), prevenindo erros tipográficos. |
-| **Aceitar termos de consentimento e privacidade (LGPD)** | Interação | `[]>>` | Marcação obrigatória de checkbox com leitura clara das finalidades de tratamento de dados pessoais. |
-| **Emitir token temporário de validação criptográfica** | Sistema | `>>` | O servidor gera um hash de verificação de curta duração e despacha a mensagem de confirmação para a caixa postal indicada. |
-| **Confirmar token de validação via link seguro** | Interação | `>>` | O usuário acessa a mensagem no seu cliente de correio e aciona o link de ativação segura (*Double Opt-In*). |
-| **Ativar perfil de monitoramento personalizado** | Sistema | - | O sistema valida a autenticidade do contato, grava o perfil no banco e exibe tela de boas-vindas com resumo dos filtros ativos. |
-| **Disparar digest segmentado de editais** | Sistema | `[]>>` | Processamento assíncrono em lote que compara novos certames cadastrados com a matriz de preferências e envia o resumo personalizado. |
-| **Gerenciar preferências e direitos de privacidade** | Abstrata | - | Nó de composição para manutenção contínua da assinatura ou encerramento do vínculo de comunicações. |
-| **Avaliar relevância dos cards no digest** | Usuário | `[]` | Leitura cognitiva rápida dos resumos recebidos para identificar editais promissores. |
-| **Acessar painel de autoatendimento para editar filtros** | Interação | `[]` | Navegação direta para reconfiguração de UFs, carreiras ou alteração da periodicidade de recebimento. |
-| **Solicitar descadastramento imediato (opt-out em 1 clique)** | Interação | `>>` | Acionamento de botão visível e inequívoco no cabeçalho/rodapé do e-mail para revogação imediata do consentimento. |
-| **Excluir registros cadastrais da base e confirmar remoção** | Sistema | - | O sistema purgeia o endereço e parâmetros da base de envios ativos e emite mensagem de confirmação de exclusão em respeito à LGPD. |
+| **Organizar múltiplos certames no Calendário Pessoal** | Abstrata | - | Tarefa raiz de gerenciamento unificado de marcos cronológicos, controle de boletos e sincronização de eventos de múltiplos concursos. |
+| **Localizar e adicionar certames ao Calendário Pessoal** | Interação | `>>` | O usuário busca seleções no portal e aciona o comando *"Adicionar ao Meu Calendário"* para consolidá-las em seu painel pessoal. |
+| **Explorar e alternar visualizações cronológicas** | Abstrata | `[]>>` | Nó de composição que permite alternância flexível entre a visão linear imediata e a visão panorâmica mensal. |
+| **Inspecionar Linha do Tempo Unificada** | Interação | `[]` | Exibição sequencial com destaque de prazos fatais e contagem regressiva em dias e horas. |
+| **Alternar para visualização em Grade Mensal** | Interação | `[]` | Exibição em calendário mensal com marcação cromática por órgão para planejamento espacial dos fins de semana. |
+| **Monitorar prazos de pagamento e registrar status** | Abstrata | `[]` | Subtarefa de governança financeira para evitar o cancelamento de inscrições por perda da data do boleto bancário. |
+| **Verificar alerta de vencimento de boleto a menos de 48h** | Usuário | `>>` | Percepção cognitiva de tarjeta amarela em destaque comunicando a iminência do vencimento bancário. |
+| **Marcar status como 'Boleto Pago' ou 'Isenção'** | Interação | `>>` | Acionamento de seletor rápido para registrar a liquidação da taxa e anexar comprovante em PDF. |
+| **Atualizar tarjeta visual de status e arquivar** | Sistema | - | O sistema desativa o alerta de urgência e exibe selo verde de *"Inscrição Confirmada"*. |
+| **Inspecionar e resolver choques de datas** | Abstrata | `[]>>` | Subtarefa de contingência ativada quando o sistema detecta sobreposição temporal de provas. |
+| **Detectar colisão de datas e emitir alerta visual** | Sistema | `[]>>` | O motor de validação compara datas e turnos dos certames marcados e emite banner vermelho de advertência. |
+| **Avaliar viabilidade de turnos e priorizar certame** | Usuário | `>>` | Decisão cognitiva sobre prestar ambos os certames em turnos distintos ou concentrar esforços no órgão principal. |
+| **Ajustar notificações do certame secundário** | Interação | - | Silenciamento ou reconfiguração de lembretes para evitar ruído mental na preparação. |
+| **Sincronizar marcos com agenda digital** | Abstrata | - | Nó de composição para integração externa e automação de lembretes no ecossistema pessoal do concurseiro. |
+| **Selecionar marcos e antecedência de lembretes** | Interação | `>>` | Configuração granular de caixas de seleção (*checkboxes*) e horários de alerta push (24h e 2h antes). |
+| **Acionar 'Sincronizar com Google Agenda' ou '.ics'** | Interação | `>>` | Disparo da autorização OAuth ou geração do arquivo de calendário universal. |
+| **Gerar integração de calendário e confirmar** | Sistema | - | O sistema comunica com a API externa, agenda os eventos com lembretes e exibe mensagem de sucesso. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
