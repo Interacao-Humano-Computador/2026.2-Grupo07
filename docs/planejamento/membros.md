@@ -33,7 +33,7 @@ Conheça os integrantes que compõem o Grupo 07 no projeto de Interação Humano
 
 ## Referências Bibliográficas
 
-> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.
+> [1] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.  
 
 ---
 

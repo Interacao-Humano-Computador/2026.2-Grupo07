@@ -48,7 +48,7 @@ A partir da leitura do mapa de calor, a equipe identificou os seguintes pontos:
 
 ## Referências Bibliográficas
 
-> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.
+> [1] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.  
 
 ---
 

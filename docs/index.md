@@ -47,7 +47,7 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 
 ### Resultados (Etapa 5)
 * **Nível 1 de Fidelidade:**
-    * [Storyboards da Equipe](design-avaliacao-desenvolvimento/storyboards.md)
+    * [Avaliações e Storyboards Individuais](design-avaliacao-desenvolvimento/etapa-5/daniel-batista.md)
     * [Planejamento e Execução do Teste-Piloto](design-avaliacao-desenvolvimento/teste-piloto.md)
 
 ---

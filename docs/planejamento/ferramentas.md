@@ -43,10 +43,10 @@ A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa 
 
 ## 2. Referências Bibliográficas
 
-> FIGMA. *Figma: The Collaborative Interface Design Tool*. Disponível em: <https://www.figma.com/>. Acesso em: 04 set. 2026.  
-> GITHUB. *Sobre o GitHub*. Disponível em: <https://docs.github.com/pt>. Acesso em: 04 set. 2026.  
-> MKDOCS. *MkDocs Material Documentation*. Disponível em: <https://squidfunk.github.io/mkdocs-material/>. Acesso em: 04 set. 2026.  
-> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.
+> [1] FIGMA. *Figma: The Collaborative Interface Design Tool*. Disponível em: <https://www.figma.com/>. Acesso em: 04 set. 2026.  
+> [2] GITHUB. *Sobre o GitHub*. Disponível em: <https://docs.github.com/pt>. Acesso em: 04 set. 2026.  
+> [3] MKDOCS. *MkDocs Material Documentation*. Disponível em: <https://squidfunk.github.io/mkdocs-material/>. Acesso em: 04 set. 2026.  
+> [4] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.  
 
 ---
 

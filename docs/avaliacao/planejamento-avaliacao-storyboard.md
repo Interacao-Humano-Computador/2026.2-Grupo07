@@ -194,7 +194,7 @@ Todo o material é preparado e revisado antes do teste-piloto. Todos os particip
 - **Os quatro storyboards**, em arquivo de imagem legível em tela de notebook e de celular;
 - **Roteiro de entrevista** (Tabela 8);
 - **Formulário de acompanhamento**, para registro das falas espontâneas, das divergências apontadas e das alterações propostas;
-- **Lista de Verificação para Storyboard**, com 20 itens, usada na etapa de inspeção.
+- **[Lista de Verificação para Storyboard](../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos)**, com 20 itens, usada na etapa de inspeção.
 
 ### 6.5 Custos e recursos
 
@@ -231,7 +231,7 @@ Cada sessão está dimensionada em **30 minutos**, bem abaixo da hora que costum
 
 ### 6.7 Roteiro da inspeção
 
-A inspeção usa a *[Lista de Verificação para Storyboard](../apresentacao/listas-verificacao-hta-ctt-storyboard.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos)*, elaborada na disciplina a partir do Capítulo 8 de Preece, Rogers e Sharp (2005). São 20 itens, cada um respondido como **Conforme**, **Não conforme** ou **Não se aplica**, organizados nos cinco blocos da Tabela 7.
+A inspeção usa a *[Lista de Verificação para Storyboard](../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos)*, elaborada na disciplina a partir do Capítulo 8 de Preece, Rogers e Sharp (2005). São 20 itens, cada um respondido como **Conforme**, **Não conforme** ou **Não se aplica**, organizados nos cinco blocos da Tabela 7.
 
 <div align="center" markdown="1">
 
@@ -249,7 +249,7 @@ A inspeção usa a *[Lista de Verificação para Storyboard](../apresentacao/lis
 
 </div>
 
-A inspeção é **cruzada**: nenhum integrante inspeciona o storyboard que ele próprio desenhou. Cada storyboard recebe duas respostas independentes, e as divergências entre os dois inspetores são resolvidas em reunião.
+A inspeção é **cruzada par a par (1-para-1)** (Fagan, 1976; Barbosa et al., 2021): nenhum integrante inspeciona o storyboard que ele próprio desenhou, e cada integrante inspeciona de forma independente o storyboard elaborado por um colega da equipe, conforme os critérios definidos em [Listas de Verificação para Inspeção](../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md). Eventuais apontamentos ou oportunidades de melhoria são repassados ao autor para refinamento antes das entrevistas com participantes.
 
 Os itens 14 e 16 da lista — que perguntam se o storyboard foi mostrado a usuários e se passou por mais de uma versão — só podem ser respondidos depois das entrevistas. Eles são aplicados novamente ao final, como verificação de fechamento do ciclo.
 
@@ -313,7 +313,7 @@ Quatro aspectos são considerados antes de qualquer conclusão, conforme a últi
 
 | Aspecto | Como é tratado nesta avaliação |
 | :--- | :--- |
-| **Confiabilidade** | Todos os participantes recebem o mesmo material e o mesmo roteiro; a inspeção é feita por dois avaliadores independentes por storyboard |
+| **Confiabilidade** | Todos os participantes recebem o mesmo material e o mesmo roteiro; a inspeção cruzada par a par é feita por um avaliador independente por storyboard |
 | **Validade interna** | O roteiro deriva diretamente dos itens da lista de verificação, que por sua vez derivam do livro-texto; perguntas que induzam a resposta são eliminadas no teste-piloto |
 | **Validade externa** | Com quatro participantes não há significância estatística; os resultados são tratados como indícios, e assim serão apresentados |
 | **Validade ecológica** | Limitada: a sessão é remota e o participante observa um desenho, não usa o portal. A limitação é registrada no relato |
@@ -355,8 +355,9 @@ Dois cuidados: **os dados do piloto são descartados**, por poderem estar contam
 
 > [1] BARBOSA, Simone D. J. et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
 > [2] BRASIL. Conselho Nacional de Saúde. *Resolução nº 466, de 12 de dezembro de 2012*. Brasília, DF: Diário Oficial da União, 2013.  
-> [3] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: Beyond Human-Computer Interaction*. New York: John Wiley & Sons, 2002. Citado por Barbosa et al. (2021, p. 303).  
-> [4] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Design de Interação: além da interação homem-computador*. Porto Alegre: Bookman, 2005.
+> [3] FAGAN, Michael E. *Design and Code Inspections to Reduce Errors in Program Development*. IBM Systems Journal, v. 15, n. 3, p. 182-211, 1976.  
+> [4] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: Beyond Human-Computer Interaction*. New York: John Wiley & Sons, 2002. Citado por Barbosa et al. (2021, p. 303).  
+> [5] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Design de Interação: além da interação homem-computador*. Porto Alegre: Bookman, 2005.
 
 ---
 

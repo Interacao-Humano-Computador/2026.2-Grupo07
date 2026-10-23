@@ -428,20 +428,20 @@ A Tabela 4 consolida o registro das sessões dos integrantes da equipe ativa. Ca
 
 ## 8. Referências Bibliográficas
 
-> ABED. *Censo EAD.BR: Relatório Analítico da Aprendizagem a Distância no Brasil 2023/2024*. São Paulo: Associação Brasileira de Educação a Distância, 2024. Disponível em: <https://www.abed.org.br/site/pt/midiateca/censo_ead/>. Acesso em: 09 out. 2026.  
-> ABRES. *Estatísticas do Mercado de Estágio no Brasil*. São Paulo: Associação Brasileira de Estágios, 2025. Disponível em: <https://abres.org.br/estatisticas/>. Acesso em: 09 out. 2026.  
-> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
-> BRASIL. *Lei nº 11.788, de 25 de setembro de 2008*. Dispõe sobre o estágio de estudantes. Brasília: Presidência da República, 2008.  
-> CETIC.BR. *Pesquisa sobre o Uso das Tecnologias de Informação e Comunicação nos Domicílios Brasileiros — TIC Domicílios 2024*. São Paulo: Comitê Gestor da Internet no Brasil, 2024. Disponível em: <https://cetic.br/pt/pesquisa/domicilios/>. Acesso em: 09 out. 2026.  
-> COMSCORE. *Panorama da Comunicação e Hábitos Digitais no Brasil*. São Paulo: Comscore Brasil, 2024. Disponível em: <https://www.comscore.com/>. Acesso em: 09 out. 2026.  
-> COURAGE, Catherine; BAXTER, Kathy. *Understanding Your Users: A Practical Guide to User Requirements Methods, Tools, and Techniques*. San Francisco: Morgan Kaufmann, 2005.  
-> HACKOS, JoAnn T.; REDISH, Janice C. *User and Task Analysis for Interface Design*. New York: John Wiley & Sons, 1998.  
-> IBGE. *Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua) — Mercado de Trabalho e Ocupações*. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística, 2024.  
-> IBGE. *PNAD Contínua Trimestral — 1º trimestre de 2026*. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística, 2026. Disponível em: <https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html>. Acesso em: 09 out. 2026.  
-> INEP. *Censo da Educação Superior 2024: notas estatísticas*. Brasília: Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira, 2025. Disponível em: <https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior>. Acesso em: 09 out. 2026.  
-> IPEA. *Atlas do Estado Brasileiro*. Brasília: Instituto de Pesquisa Econômica Aplicada, 2024. Disponível em: <https://www.ipea.gov.br/atlasestado/>. Acesso em: 09 out. 2026.  
-> NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
-> SOMMERVILLE, Ian. *Engenharia de Software*. 9. ed. São Paulo: Pearson, 2011.
+> [1] ABED. *Censo EAD.BR: Relatório Analítico da Aprendizagem a Distância no Brasil 2023/2024*. São Paulo: Associação Brasileira de Educação a Distância, 2024. Disponível em: <https://www.abed.org.br/site/pt/midiateca/censo_ead/>. Acesso em: 09 out. 2026.  
+> [2] ABRES. *Estatísticas do Mercado de Estágio no Brasil*. São Paulo: Associação Brasileira de Estágios, 2025. Disponível em: <https://abres.org.br/estatisticas/>. Acesso em: 09 out. 2026.  
+> [3] BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
+> [4] BRASIL. *Lei nº 11.788, de 25 de setembro de 2008*. Dispõe sobre o estágio de estudantes. Brasília: Presidência da República, 2008.  
+> [5] CETIC.BR. *Pesquisa sobre o Uso das Tecnologias de Informação e Comunicação nos Domicílios Brasileiros — TIC Domicílios 2024*. São Paulo: Comitê Gestor da Internet no Brasil, 2024. Disponível em: <https://cetic.br/pt/pesquisa/domicilios/>. Acesso em: 09 out. 2026.  
+> [6] COMSCORE. *Panorama da Comunicação e Hábitos Digitais no Brasil*. São Paulo: Comscore Brasil, 2024. Disponível em: <https://www.comscore.com/>. Acesso em: 09 out. 2026.  
+> [7] COURAGE, Catherine; BAXTER, Kathy. *Understanding Your Users: A Practical Guide to User Requirements Methods, Tools, and Techniques*. San Francisco: Morgan Kaufmann, 2005.  
+> [8] HACKOS, JoAnn T.; REDISH, Janice C. *User and Task Analysis for Interface Design*. New York: John Wiley & Sons, 1998.  
+> [9] IBGE. *Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua) — Mercado de Trabalho e Ocupações*. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística, 2024.  
+> [10] IBGE. *PNAD Contínua Trimestral — 1º trimestre de 2026*. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística, 2026. Disponível em: <https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html>. Acesso em: 09 out. 2026.  
+> [11] INEP. *Censo da Educação Superior 2024: notas estatísticas*. Brasília: Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira, 2025. Disponível em: <https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior>. Acesso em: 09 out. 2026.  
+> [12] IPEA. *Atlas do Estado Brasileiro*. Brasília: Instituto de Pesquisa Econômica Aplicada, 2024. Disponível em: <https://www.ipea.gov.br/atlasestado/>. Acesso em: 09 out. 2026.  
+> [13] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
+> [14] SOMMERVILLE, Ian. *Engenharia de Software*. 9. ed. São Paulo: Pearson, 2011.  
 
 ## 9. Histórico de Versões
 

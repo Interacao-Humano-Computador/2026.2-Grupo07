@@ -86,11 +86,15 @@ nav:
           - Planejamento do Relato da Análise de Tarefas: design-avaliacao-desenvolvimento/resultado-analise-de-tarefas.md
           - Planejamento da Avaliação do Storyboard: avaliacao/planejamento-avaliacao-storyboard.md
           - Planejamento do Relato dos Resultados do Storyboard: design-avaliacao-desenvolvimento/planejamento-relato-resultados-storyboard.md
+          - Listas de Verificação para Inspeção (HTA, CTT e Storyboard): design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md
       - Resultados - Nível 1 (Etapa 5):
-          - Storyboards da Equipe: design-avaliacao-desenvolvimento/storyboards.md
           - Planejamento e Execução do Teste-Piloto: design-avaliacao-desenvolvimento/teste-piloto.md
+          - Relatos e Avaliações Individuais:
+              - Daniel da Silva Batista: design-avaliacao-desenvolvimento/etapa-5/daniel-batista.md
+              - Pedro Rocha Ferreira Lima: design-avaliacao-desenvolvimento/etapa-5/pedro-rocha.md
+              - Arthur Sismene Carvalho: design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho.md
+              - Leonardo da Silva Lopes Júnior: design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes.md
   - Verificação:
-      - Listas de Inspeção (HTA, CTT e Storyboard): apresentacao/listas-verificacao-hta-ctt-storyboard.md
       - Etapa 1 – Grupo 08 (Grupo +1): apresentacao/grupo-08.md
       - Etapa 2 – Grupo 06 (Grupo -1): apresentacao/grupo-06.md
       - Etapa 3 – Grupo 07 (Autoavaliação): apresentacao/verificacao-etapa-3-grupo-07.md

@@ -97,4 +97,4 @@ A Tabela 4 apresenta os itens de conteúdo da disciplina verificados na Entrega 
 
 ## Referências
 
-[1] SALES, André Barros de. Plano de Ensino FIHC 022026 — Turma 01. Brasília: FCTE/UnB, 2026.
+> [1] SALES, André Barros de. Plano de Ensino FIHC 022026 — Turma 01. Brasília: FCTE/UnB, 2026.  

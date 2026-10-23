@@ -18,7 +18,7 @@ Neste documento, apresenta-se o **Planejamento, Protocolo e Execução do Teste-
 
 O teste-piloto consiste em um ensaio preparatório fundamental para calibrar os instrumentos de coleta, verificar as ferramentas de gravação, validar a estimativa de tempo e aperfeiçoar a postura do avaliador antes do início formal das entrevistas com os participantes reais (Barbosa et al., 2021).
 
-O procedimento e os materiais do piloto foram ancorados no [Storyboard SB-01](storyboards.md) e nos modelos hierárquicos da [Tarefa TAR-01 (HTA)](../analise-de-requisitos/analise-de-tarefas/hta.md), representativos do **[Perfil de Usuário 1: Candidato / Concurseiro](../analise-de-requisitos/perfil-de-usuario.md)** e do [Cenário 01 (CEN-01)](../analise-de-requisitos/cenarios.md), sem restringir a avaliação a um indivíduo isolado.
+O procedimento e os materiais do piloto foram ancorados no [Storyboard SB-01](etapa-5/daniel-batista.md#2-storyboard-individual-sb-01) e nos modelos hierárquicos da [Tarefa TAR-01 (HTA)](../analise-de-requisitos/analise-de-tarefas/hta.md), representativos do **[Perfil de Usuário 1: Candidato / Concurseiro](../analise-de-requisitos/perfil-de-usuario.md)** e do [Cenário 01 (CEN-01)](../analise-de-requisitos/cenarios.md), sem restringir a avaliação a um indivíduo isolado.
 
 > ⚠️ **CONFORMIDADE COM O ITEM 12 DO CHECKLIST DE AVALIAÇÃO**  
 > Os resultados, respostas e registros obtidos durante a execução deste teste-piloto têm finalidade **exclusiva de calibração metodológica e técnica**. Eles **não serão computados, agregados nem contabilizados** nos resultados oficiais das avaliações do Storyboard nem da Análise de Tarefas. A declaração formal encontra-se na [Seção 6](#6-declaracao-de-conformidade-com-as-diretrizes-de-ihc).
@@ -53,7 +53,7 @@ A Tabela 1 sintetiza os parâmetros operacionais da sessão de teste-piloto exec
 | **Duração da Gravação:** | 6 minutos e 18 segundos. |
 | **Avaliador Responsável:** | Daniel da Silva Batista. |
 | **Plataforma Utilizada:** | Microsoft Teams (com gravação em nuvem e compartilhamento de tela Full HD). |
-| **Artefatos Exercitados:** | [Storyboard SB-01](storyboards.md) e [Análise de Tarefas HTA da TAR-01](../analise-de-requisitos/analise-de-tarefas/hta.md). |
+| **Artefatos Exercitados:** | [Storyboard SB-01](etapa-5/daniel-batista.md#2-storyboard-individual-sb-01) e [Análise de Tarefas HTA da TAR-01](../analise-de-requisitos/analise-de-tarefas/hta.md). |
 | **Custos Envolvidos:** | R$ 0,00 (infraestrutura acadêmica gratuita). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
