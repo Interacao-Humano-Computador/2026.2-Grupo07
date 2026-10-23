@@ -467,11 +467,10 @@ Conforme preconizado por Barbosa e Silva (2021, p. 309), cada problema/oportunid
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.2` | 23/10/2026 | Reestruturação completa do Relato dos Resultados (Seção 6) em estrita conformidade com a estrutura canônica de Barbosa e Silva (2021, p. 309): objetivos, escopo, método, diretrizes, avaliadores/participantes e Tabela 13 com as 5 colunas regulamentares (local, descrição, diretriz violada, severidade e sugestão). | Daniel da Silva Batista | Pedro Rocha |
-| `1.1` | 23/10/2026 | Incorporação da gravação da Entrevista 1 (Vídeo 3 - YouTube: xSTf-kYEP10), preenchimento do perfil do Participante 1 (Tabela 10), registro audiovisual (Tabela 11), tabulação qualitativa das respostas (Tabela 12) e inclusão da oportunidade de reprojeto OPO-E01 (Tabela 13). | Daniel da Silva Batista | Pedro Rocha |
-| `1.0` | 23/10/2026 | Estruturação inicial do artefato individual de avaliação e relato da Etapa 5: incorporação do Storyboard SB-01, preparação das matrizes de inspeção, estrutura do teste-piloto e roteiro de entrevista. | Daniel da Silva Batista | — |
-| `1.1` | 23/10/2026 | Realização da autoinspeção analítica dos próprios modelos (HTA e CTT da TAR-01 e Storyboard SB-01) com base nas listas de verificação da Etapa 4, registrando conformidades e oportunidades de reprojeto (Tabelas 4, 5, 6 e 7). | Daniel da Silva Batista | — |
-| `1.2` | 23/10/2026 | Publicação e incorporação da gravação audiovisual da autoinspeção analítica (Vídeo 1 no YouTube) com player interativo e dados da sessão (Tabela 3). | Daniel da Silva Batista | — |
+| `1.0` | 23/10/2026 | Estruturação inicial do artefato individual da Etapa 5 com Storyboard SB-01, matrizes de inspeção e teste-piloto. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 23/10/2026 | Execução e registro da autoinspeção analítica com checklists (Tabelas 3 a 7) e gravação no YouTube (Vídeo 1). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.2` | 23/10/2026 | Execução e registro da Entrevista 1 (Vídeo 3), perfil da participante (Tabela 10) e tabulação de respostas (Tabela 12). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.3` | 23/10/2026 | Reestruturação do Relato dos Resultados (Seção 6 e Tabela 13) segundo a norma canônica de Barbosa e Silva (2021, p. 309). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
