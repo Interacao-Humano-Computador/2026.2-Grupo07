@@ -231,7 +231,7 @@ Cada sessão está dimensionada em **30 minutos**, bem abaixo da hora que costum
 
 ### 6.7 Roteiro da inspeção
 
-A inspeção usa a *Lista de Verificação para Storyboard*, elaborada na disciplina a partir do Capítulo 8 de Preece, Rogers e Sharp (2005). São 20 itens, cada um respondido como **Conforme**, **Não conforme** ou **Não se aplica**, organizados nos cinco blocos da Tabela 7.
+A inspeção usa a *[Lista de Verificação para Storyboard](../apresentacao/listas-verificacao-hta-ctt-storyboard.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos)*, elaborada na disciplina a partir do Capítulo 8 de Preece, Rogers e Sharp (2005). São 20 itens, cada um respondido como **Conforme**, **Não conforme** ou **Não se aplica**, organizados nos cinco blocos da Tabela 7.
 
 <div align="center" markdown="1">
 

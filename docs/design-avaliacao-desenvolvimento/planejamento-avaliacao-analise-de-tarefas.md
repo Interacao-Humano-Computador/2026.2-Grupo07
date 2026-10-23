@@ -217,7 +217,7 @@ Como várias tarefas descrevem recursos que o portal ainda não possui, o entrev
 - **Diagramas HTA** das duas tarefas de cada sessão, em arquivo legível em tela;
 - **Roteiro de entrevista** (Tabela 9);
 - **Formulário de acompanhamento**, para registro do procedimento atual relatado, das divergências e dos caminhos alternativos;
-- **Listas de Verificação para HTA e para CTT**, usadas na etapa de inspeção.
+- **[Listas de Verificação para HTA e para CTT](../apresentacao/listas-verificacao-hta-ctt-storyboard.md)**, usadas na etapa de inspeção.
 
 Todos os participantes recebem o mesmo material e as mesmas orientações.
 
@@ -260,8 +260,8 @@ A inspeção usa as duas listas de verificação elaboradas na disciplina, aplic
 
 | Instrumento | Itens | O que verifica |
 | :--- | :---: | :--- |
-| Lista de Verificação para HTA | 10 | Estrutura hierárquica, formulação do objetivo, decomposição em subtarefas, numeração, planos e critério de parada |
-| Lista de Verificação para CTT | 10, em três blocos | Bloco I — estrutura do modelo e classificação das tarefas nos quatro tipos; Bloco II — emprego dos operadores temporais entre tarefas irmãs; Bloco III — alcance e limitações da notação |
+| [Lista de Verificação para HTA](../apresentacao/listas-verificacao-hta-ctt-storyboard.md#2-lista-de-verificacao-para-hta-10-itens) | 10 | Estrutura hierárquica, formulação do objetivo, decomposição em subtarefas, numeração, planos e critério de parada |
+| [Lista de Verificação para CTT](../apresentacao/listas-verificacao-hta-ctt-storyboard.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | 10, em três blocos | Bloco I — estrutura do modelo e classificação das tarefas nos quatro tipos; Bloco II — emprego dos operadores temporais entre tarefas irmãs; Bloco III — alcance e limitações da notação |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026), a partir das Listas de Verificação para HTA e para CTT.</p>
 
