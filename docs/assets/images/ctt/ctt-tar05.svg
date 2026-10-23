@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2438 371" width="100%" style="max-width: 2438px; height: auto; background: #ffffff; font-family: Arial, Helvetica, sans-serif;">
+  <path d="M 1208.0,38.0 a 6,6 0 0,1 -1,-11.8 a 8,7.5 0 0,1 15,-2.5 a 7,6.5 0 0,1 10,5.3 a 5.5,5.5 0 0,1 -1,11 z" fill="#f8fafc" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="1219.0" y="54.0" text-anchor="middle" font-size="11.8" fill="#000000">Realizar simulado interativo</text>
+  <text x="1219.0" y="68.5" text-anchor="middle" font-size="11.8" fill="#000000">com feedback e diagnóstico</text>
+  <line x1="1219.0" y1="74.5" x2="349.0" y2="132.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1219.0" y1="74.5" x2="790.0" y2="132.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1219.0" y1="74.5" x2="1316.0" y2="132.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1219.0" y1="74.5" x2="2089.0" y2="132.0" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 338.0,154.0 a 6,6 0 0,1 -1,-11.8 a 8,7.5 0 0,1 15,-2.5 a 7,6.5 0 0,1 10,5.3 a 5.5,5.5 0 0,1 -1,11 z" fill="#f8fafc" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="349.0" y="170.0" text-anchor="middle" font-size="11.8" fill="#000000">Parametrizar</text>
+  <text x="349.0" y="184.5" text-anchor="middle" font-size="11.8" fill="#000000">bateria de simulado</text>
+  <line x1="373.0" y1="145.0" x2="766.0" y2="145.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="549.5" y="136.0" width="40.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="569.5" y="148.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">[]&gt;&gt;</text>
+  <line x1="349.0" y1="190.5" x2="94.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="86.0" cy="269.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 78.5,284.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="94.5" y="266.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="102.5" y1="277.5" x2="102.5" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="97.0" y1="283.0" x2="108.0" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="94.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Selecionar</text>
+  <text x="94.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">matéria e assunto</text>
+  <line x1="118.0" y1="275.0" x2="240.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="162.8" y="266.0" width="32.5" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="179.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">|||</text>
+  <line x1="349.0" y1="190.5" x2="264.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="256.0" cy="269.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 248.5,284.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="264.5" y="266.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="272.5" y1="277.5" x2="272.5" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="267.0" y1="283.0" x2="278.0" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="264.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Definir</text>
+  <text x="264.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">quantidade de</text>
+  <text x="264.0" y="329.0" text-anchor="middle" font-size="11.8" fill="#000000">itens</text>
+  <line x1="288.0" y1="275.0" x2="410.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="332.8" y="266.0" width="32.5" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="349.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">|||</text>
+  <line x1="349.0" y1="190.5" x2="434.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="426.0" cy="269.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 418.5,284.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="434.5" y="266.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="442.5" y1="277.5" x2="442.5" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="437.0" y1="283.0" x2="448.0" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="434.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Ativar cronômetro</text>
+  <text x="434.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">regressivo</text>
+  <line x1="458.0" y1="275.0" x2="580.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="505.0" y="266.0" width="28.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="519.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">&gt;&gt;</text>
+  <line x1="349.0" y1="190.5" x2="604.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="596.0" cy="269.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 588.5,284.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="604.5" y="266.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="612.5" y1="277.5" x2="612.5" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="607.0" y1="283.0" x2="618.0" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="604.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Acionar 'Iniciar</text>
+  <text x="604.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">Simulado'</text>
+  <rect x="779.0" y="135.0" width="22" height="14" rx="1.5" fill="#f8fafc" stroke="#000000" stroke-width="1.5"/>
+  <line x1="782.0" y1="146.0" x2="798.0" y2="146.0" stroke="#000000" stroke-width="1"/>
+  <line x1="790.0" y1="149.0" x2="790.0" y2="154.0" stroke="#000000" stroke-width="1.5"/>
+  <line x1="783.0" y1="154.0" x2="797.0" y2="154.0" stroke="#000000" stroke-width="1.5"/>
+  <text x="790.0" y="170.0" text-anchor="middle" font-size="11.8" fill="#000000">Iniciar sessão e 1ª</text>
+  <text x="790.0" y="184.5" text-anchor="middle" font-size="11.8" fill="#000000">questão</text>
+  <line x1="814.0" y1="145.0" x2="1292.0" y2="145.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="1039.0" y="136.0" width="28.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="1053.0" y="148.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">&gt;&gt;</text>
+  <path d="M 1305.0,154.0 a 6,6 0 0,1 -1,-11.8 a 8,7.5 0 0,1 15,-2.5 a 7,6.5 0 0,1 10,5.3 a 5.5,5.5 0 0,1 -1,11 z" fill="#f8fafc" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="1335.0" y="147.0" font-size="16" font-weight="bold" fill="#000000">*</text>
+  <text x="1316.0" y="170.0" text-anchor="middle" font-size="11.8" fill="#000000">Ciclo de resposta e</text>
+  <text x="1316.0" y="184.5" text-anchor="middle" font-size="11.8" fill="#000000">feedback</text>
+  <line x1="1340.0" y1="145.0" x2="2065.0" y2="145.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="1688.5" y="136.0" width="28.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="1702.5" y="148.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">&gt;&gt;</text>
+  <line x1="1316.0" y1="190.5" x2="976.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="976.0" cy="269.0" r="5" fill="#f8fafc" stroke="#000000" stroke-width="1.5"/>
+  <path d="M 966.0,285.0 c 0,-6 4.5,-9.5 10,-9.5 c 5.5,0 10,3.5 10,9.5 z" fill="#f8fafc" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="976.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Ler enunciado e</text>
+  <text x="976.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">opções</text>
+  <line x1="1000.0" y1="275.0" x2="1122.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="1041.0" y="266.0" width="40.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="1061.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">[]&gt;&gt;</text>
+  <line x1="1316.0" y1="190.5" x2="1146.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="1138.0" cy="269.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 1130.5,284.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="1146.5" y="266.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1154.5" y1="277.5" x2="1154.5" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1149.0" y1="283.0" x2="1160.0" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="1146.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Selecionar opção</text>
+  <text x="1146.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">(&gt;=48px)</text>
+  <line x1="1170.0" y1="275.0" x2="1292.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="1217.0" y="266.0" width="28.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="1231.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">&gt;&gt;</text>
+  <line x1="1316.0" y1="190.5" x2="1316.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <rect x="1305.0" y="265.0" width="22" height="14" rx="1.5" fill="#f8fafc" stroke="#000000" stroke-width="1.5"/>
+  <line x1="1308.0" y1="276.0" x2="1324.0" y2="276.0" stroke="#000000" stroke-width="1"/>
+  <line x1="1316.0" y1="279.0" x2="1316.0" y2="284.0" stroke="#000000" stroke-width="1.5"/>
+  <line x1="1309.0" y1="284.0" x2="1323.0" y2="284.0" stroke="#000000" stroke-width="1.5"/>
+  <text x="1316.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Persistir estado</text>
+  <text x="1316.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">local</text>
+  <line x1="1340.0" y1="275.0" x2="1462.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="1387.0" y="266.0" width="28.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="1401.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">&gt;&gt;</text>
+  <line x1="1316.0" y1="190.5" x2="1486.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="1478.0" cy="269.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 1470.5,284.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="1486.5" y="266.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1494.5" y1="277.5" x2="1494.5" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1489.0" y1="283.0" x2="1500.0" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="1486.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Confirmar e ver</text>
+  <text x="1486.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">gabarito</text>
+  <line x1="1510.0" y1="275.0" x2="1632.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="1557.0" y="266.0" width="28.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="1571.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">[&gt;</text>
+  <line x1="1316.0" y1="190.5" x2="1656.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="1648.0" cy="269.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 1640.5,284.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="1656.5" y="266.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1664.5" y1="277.5" x2="1664.5" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1659.0" y1="283.0" x2="1670.0" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="1656.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Marcar para</text>
+  <text x="1656.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">revisão</text>
+  <path d="M 2078.0,154.0 a 6,6 0 0,1 -1,-11.8 a 8,7.5 0 0,1 15,-2.5 a 7,6.5 0 0,1 10,5.3 a 5.5,5.5 0 0,1 -1,11 z" fill="#f8fafc" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="2089.0" y="170.0" text-anchor="middle" font-size="11.8" fill="#000000">Concluir e analisar</text>
+  <text x="2089.0" y="184.5" text-anchor="middle" font-size="11.8" fill="#000000">diagnóstico</text>
+  <line x1="2089.0" y1="190.5" x2="1834.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="1826.0" cy="269.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 1818.5,284.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="1834.5" y="266.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1842.5" y1="277.5" x2="1842.5" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="1837.0" y1="283.0" x2="1848.0" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="1834.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Finalizar bateria</text>
+  <text x="1834.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">de teste</text>
+  <line x1="1858.0" y1="275.0" x2="1980.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="1899.0" y="266.0" width="40.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="1919.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">[]&gt;&gt;</text>
+  <line x1="2089.0" y1="190.5" x2="2004.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <rect x="1993.0" y="265.0" width="22" height="14" rx="1.5" fill="#f8fafc" stroke="#000000" stroke-width="1.5"/>
+  <line x1="1996.0" y1="276.0" x2="2012.0" y2="276.0" stroke="#000000" stroke-width="1"/>
+  <line x1="2004.0" y1="279.0" x2="2004.0" y2="284.0" stroke="#000000" stroke-width="1.5"/>
+  <line x1="1997.0" y1="284.0" x2="2011.0" y2="284.0" stroke="#000000" stroke-width="1.5"/>
+  <text x="2004.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Consolidar</text>
+  <text x="2004.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">acertos e tempo</text>
+  <line x1="2028.0" y1="275.0" x2="2150.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="2075.0" y="266.0" width="28.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="2089.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">&gt;&gt;</text>
+  <line x1="2089.0" y1="190.5" x2="2174.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="2174.0" cy="269.0" r="5" fill="#f8fafc" stroke="#000000" stroke-width="1.5"/>
+  <path d="M 2164.0,285.0 c 0,-6 4.5,-9.5 10,-9.5 c 5.5,0 10,3.5 10,9.5 z" fill="#f8fafc" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="2174.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Analisar gráfico</text>
+  <text x="2174.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">por tópico</text>
+  <line x1="2198.0" y1="275.0" x2="2320.0" y2="275.0" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <rect x="2245.0" y="266.0" width="28.0" height="17" rx="3" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+  <text x="2259.0" y="278.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="bold" fill="#000000">[]</text>
+  <line x1="2089.0" y1="190.5" x2="2344.0" y2="262.0" stroke="#000000" stroke-width="1.3"/>
+  <circle cx="2336.0" cy="269.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 2328.5,284.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="2344.5" y="266.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="2352.5" y1="277.5" x2="2352.5" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="2347.0" y1="283.0" x2="2358.0" y2="283.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="2344.0" y="300.0" text-anchor="middle" font-size="11.8" fill="#000000">Refazer erros ou</text>
+  <text x="2344.0" y="314.5" text-anchor="middle" font-size="11.8" fill="#000000">exportar</text>
+</svg>

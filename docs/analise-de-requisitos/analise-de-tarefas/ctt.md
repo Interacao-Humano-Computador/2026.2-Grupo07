@@ -8,9 +8,27 @@
 | Arthur Sismene Carvalho | Revisão dos operadores temporais de interação e modelagem CTT integral das Tarefas 05 e 06, com emprego dos operadores de iteração (`T*`), suspensão (`|>`), escolha alternativa (`[]`) e desativação (`[>`) para formalizar o ciclo de respostas e o padrão de tentativa e abandono. |
 | Leonardo da Silva Lopes Júnior | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 07 e 08; refinamento da modelagem CTT das tarefas interativas propositivas (TAR-04, TAR-05 e TAR-08) com operadores formais ricos (`>>`, `[]>>`, `|||`, `[>`, `|>` e `*`) para resolução da Issue #14. |
 | Pedro Rocha Ferreira Lima | Modelagem formal completa em CTT (árvores de tarefas e especificação de nós com operadores temporais) das Tarefas 03 e 04 com base no método sem usuário (DOC-02) e na persona Lucas Ferreira Rocha. |
-| Gemini | Geração dos diagramas CTT em notação Mermaid e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
+| Gemini | Geração dos diagramas CTT vetoriais na notação oficial de Barbosa et al. (2021, Seção 8.2.2) e Paternò (1999) e auxílio na estruturação textual do artefato em Markdown (conforme Política de Uso de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Paternò (1999) e Barbosa et al. (2021, Cap. 8, Seção 8.2.2).</p>
+
+</div>
+
+### 1.1 Notação Gráfica Oficial de um Diagrama CTT (Barbosa et al., 2021)
+
+Em estrita conformidade com o livro-texto *Interação Humano-Computador e Experiência do Usuário* (Barbosa et al., 2021, Seção 8.2.2) e com o padrão visual da ferramenta CTTE (Paternò, 1999; Mori, Paternò e Santoro, 2002), os diagramas CTT deste artefato utilizam:
+
+1. **Ícones Oficiais de Categoria de Tarefa** posicionados acima do nome de cada nó (Nuvem para *Tarefa Abstrata*, Silhueta Humana para *Tarefa do Usuário*, Monitor para *Tarefa da Aplicação/Sistema* e Silhueta + Monitor para *Tarefa Interativa*), acompanhados do marcador `*` quando a tarefa é iterativa (`T*`);
+2. **Relações Temporais Horizontais entre Tarefas Irmãs:** As linhas sólidas verticais/diagonais representam exclusivamente a decomposição hierárquica (pai $\rightarrow$ filhos), enquanto os operadores temporais (`>>`, `[]>>`, `|||`, `[]`, `[>`, `|>`) são posicionados **horizontalmente entre os nós irmãos do mesmo nível**, exatamente como preconizado por Barbosa et al. (2021);
+3. **Especificação em Nível Mais Baixo de Abstração Abaixo dos Diagramas:** O diagrama de árvore preserva concisão visual de alto nível, e o detalhamento em nível mais baixo de abstração (parâmetros transmitidos por `[]>>`, critérios de escolha `[]`, gatilhos de desativação `[>` e tabela formal dos nós) é disposto imediatamente abaixo de cada figura.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Figura 0:</b> Elementos gráficos e relações temporais de um diagrama CTT segundo Barbosa et al. (2021)</p>
+
+![Elementos de um diagrama CTT (Barbosa et al., 2021)](../../assets/images/ctt/ctt-elementos-legenda.svg){ width="740" }
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Daniel da Silva Batista (2026), elaborado conforme Barbosa et al. (2021, Seção 8.2.2) e Paternò (1999).</p>
 
 </div>
 
@@ -18,32 +36,37 @@
 
 ## 1. Introdução e Fundamentação Teórica
 
-O método **ConcurTaskTrees** (CTT), concebido pelo pesquisador italiano Fabio Paternò (1999) no âmbito do CNR-ISTI e amplamente referenciado por Barbosa e Silva (2010, Cap. 8.4), é uma notação gráfica e formal desenvolvida especificamente para a Engenharia de Usabilidade e o Design de Interação. Diferentemente de métodos puramente funcionais, o CTT destaca-se por modelar com precisão as relações temporais e a concorrência entre as atividades, além de distinguir claramente a responsabilidade de execução entre o ser humano e a máquina.
+O método **ConcurTaskTrees** (CTT), concebido pelo pesquisador italiano Fabio Paternò (1999) no âmbito do CNR-ISTI e detalhado por Barbosa et al. (2021, Cap. 8, Seção 8.2.2) e Barbosa e Silva (2010, Cap. 8.4), é uma notação gráfica e formal desenvolvida especificamente para a Engenharia de Usabilidade e o Design de Interação. Diferentemente de métodos puramente funcionais, o CTT destaca-se por modelar com precisão as relações temporais e a concorrência entre as atividades, além de distinguir claramente a responsabilidade de execução entre o ser humano e a máquina.
 
-No CTT, as tarefas são decompostas hierarquicamente em uma árvore estrita e categorizadas segundo quatro papéis fundamentais de execução (*Taxonomia Quadripartite*):
+### 1.1 Categorias de Tarefas e Operadores Temporais no CTT (Barbosa et al., 2021)
 
-* **Tarefa de Usuário (*User Task*):** Atividade puramente cognitiva ou sensorial executada internamente pelo indivíduo (ex.: avaliar a relevância de uma listagem ou tomar uma decisão mental), sem interação direta com o dispositivo.
-* **Tarefa do Sistema (*System Task*):** Processamento automatizado realizado pelo software (ex.: consultar banco de dados, filtrar registros ou gerar arquivo PDF), sem intervenção humana no momento da execução.
-* **Tarefa de Interação (*Interaction Task*):** Ação direta de diálogo físico entre usuário e máquina (ex.: clicar em um hiperlink, digitar um termo em um campo de texto ou acionar um botão).
-* **Tarefa Abstrata (*Abstract Task*):** Nó de composição ou objetivo de alto nível que engloba subconjuntos de tarefas de tipos heterogêneos.
-
-A grande potência do CTT reside em sua gramática de **operadores temporais formais**, que expressam a lógica dinâmica de execução entre tarefas irmãs situadas no mesmo nível hierárquico, conforme sintetizado na Tabela 1:
+No CTT, as tarefas são decompostas hierarquicamente em uma árvore e categorizadas segundo quatro tipos (*Tarefa do Usuário*, *Tarefa da Aplicação/Sistema*, *Tarefa Interativa* e *Tarefa Abstrata*), articuladas horizontalmente entre tarefas irmãs por operadores temporais formais, conforme ilustrado na Figura 0 e detalhado na Tabela 1:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Operadores Temporais de Relação entre Tarefas no CTT</b></p>
+<p align="center"><b>Figura 0:</b> Elementos gráficos e relações temporais de um diagrama CTT segundo Barbosa et al. (2021)</p>
+
+![Elementos de um diagrama CTT (Barbosa et al., 2021)](../../assets/images/ctt/ctt-elementos-legenda.svg){ width="720" }
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Daniel da Silva Batista (2026), elaborado conforme Barbosa et al. (2021, Seção 8.2.2) e Paternò (1999).</p>
+
+</div>
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 1: Operadores Temporais de Relação entre Tarefas Irmãs no CTT</b></p>
 
 | Operador | Nome Formal | Significado Semântico |
 | :---: | :--- | :--- |
 | `T1 >> T2` | **Ativação Sequencial (*Enabling*)** | A tarefa `T2` só pode ser iniciada após a conclusão bem-sucedida de `T1`. |
 | `T1 []>> T2` | **Ativação com Passagem de Informação** | `T1` habilita `T2` e transfere os dados produzidos para a entrada de `T2`. |
-| `T1 [] T2` | **Escolha Alternativa (*Choice*)** | O usuário pode optar por executar `T1` OU `T2`; ao iniciar uma, a outra é descartada. |
-| `T1 \|\|\| T2` | **Interleaving (Concorrência)** | `T1` e `T2` podem ser executadas em qualquer ordem ou alternadamente sem interferência. |
+| `T1 [] T2` | **Escolha Alternativa (*Choice*)** | O usuário pode optar por executar `T1` **ou** `T2`; ao iniciar uma, a outra é descartada. |
+| `T1 ||| T2` | **Concorrência (*Interleaving*)** | `T1` e `T2` podem ser executadas em qualquer ordem ou alternadamente sem interferência. |
 | `T1 [> T2` | **Desativação (*Deactivation*)** | A execução de `T2` interrompe definitivamente a execução de `T1`. |
-| `T1 \|> T2` | **Suspensão e Retomada** | `T1` é temporariamente suspensa por `T2` e retoma sua execução após o término de `T2`. |
+| `T1 |> T2` | **Suspensão e Retomada** | `T1` é temporariamente suspensa por `T2` e retoma sua execução após o término de `T2`. |
 | `T*` | **Iteração** | A tarefa `T` é executada repetidas vezes até que uma condição de parada seja satisfeita. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Paternò (1999) e Barbosa et al. (2021).</p>
 
 </div>
 
@@ -91,82 +114,11 @@ A representação em árvore de tarefas CTT é apresentada na Figura 1, e a espe
 
 </div>
 
-```mermaid
-flowchart TD
-    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
-    subgraph Legenda ["Legenda CTT"]
-        direction LR
-        L_Abs["[Abstrata]"]
-        L_Int["[Interação]"]
-        L_Sis["[Sistema]"]
-        L_Usu["[Usuário]"]
-    end
-
-    Root["[Abstrata] Parametrizar busca avançada e comparar editais concorrentes"]
-    
-    Sub1["[Abstrata] Definir parâmetros de filtragem multicritério"]
-    Op1{"[]>>"}
-    Sub2["[Sistema] Processar consulta e renderizar catálogo facetado"]
-    Op2{">>"}
-    Sub3["[Abstrata] Selecionar certames e acionar comparador"]
-    Op3{">>"}
-    Sub4["[Abstrata] Analisar matriz comparativa e consolidar prioridade"]
-
-    Root --> Sub1
-    Root --> Op1
-    Root --> Sub2
-    Root --> Op2
-    Root --> Sub3
-    Root --> Op3
-    Root --> Sub4
-
-    %% Decomposição de Sub1 (Parametrização concorrente)
-    Sub1_1["[Interação] Especificar escolaridade e carreira pretendida"]
-    Sub1_Op1{"|||"}
-    Sub1_2["[Interação] Delimitar piso salarial e banca examinadora"]
-    Sub1_Op2{"|||"}
-    Sub1_3["[Interação] Filtrar situação e abrangência regional"]
-    Sub1_Op3{">>"}
-    Sub1_4["[Interação] Submeter requisição de busca avançada"]
-
-    Sub1 --> Sub1_1
-    Sub1 --> Sub1_Op1
-    Sub1 --> Sub1_2
-    Sub1 --> Sub1_Op2
-    Sub1 --> Sub1_3
-    Sub1 --> Sub1_Op3
-    Sub1 --> Sub1_4
-
-    %% Decomposição de Sub3 (Seleção para comparação)
-    Sub3_1["[Usuário] Avaliar aderência dos certames listados"]
-    Sub3_Op1{">>"}
-    Sub3_2["[Interação] Marcar certames concorrentes para comparação"]
-    Sub3_Op2{"[]>>"}
-    Sub3_3["[Sistema] Renderizar painel flutuante de certames selecionados"]
-
-    Sub3 --> Sub3_1
-    Sub3 --> Sub3_Op1
-    Sub3 --> Sub3_2
-    Sub3 --> Sub3_Op2
-    Sub3 --> Sub3_3
-
-    %% Decomposição de Sub4 (Análise comparativa)
-    Sub4_1["[Usuário] Confrontar coincidência de datas de prova e taxas"]
-    Sub4_Op1{"|||"}
-    Sub4_2["[Usuário] Analisar convergência de conteúdos programáticos"]
-    Sub4_Op2{">>"}
-    Sub4_3["[Interação] Salvar síntese comparativa ou exportar relatório"]
-
-    Sub4 --> Sub4_1
-    Sub4 --> Sub4_Op1
-    Sub4 --> Sub4_2
-    Sub4 --> Sub4_Op2
-    Sub4 --> Sub4_3
-```
-
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Paternò (1999) e Barbosa & Silva (2010).</p>
+![Representação em Árvore CTT da Tarefa 01 - Busca avançada e comparação lado a lado](../../assets/images/ctt/ctt-tar01.svg)
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Barbosa et al. (2021, Seção 8.2.2) e Paternò (1999).</p>
 
 </div>
 
@@ -214,65 +166,11 @@ A árvore de tarefas CTT é apresentada na Figura 2, e sua especificação forma
 
 </div>
 
-```mermaid
-flowchart TD
-    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
-    subgraph Legenda ["Legenda CTT"]
-        direction LR
-        L_Abs["[Abstrata]"]
-        L_Int["[Interação]"]
-        L_Sis["[Sistema]"]
-        L_Usu["[Usuário]"]
-    end
-
-    Root2["[Abstrata] Montar e exportar caderno personalizado de estudos com gabarito"]
-
-    M1["[Abstrata] Filtrar repositório e compor pacote de cadernos"]
-    MOp1{"[]>>"}
-    M2["[Abstrata] Parametrizar opções gráficas e pedagógicas de geração"]
-    MOp2{">>"}
-    M3["[Sistema] Processar unificação de documentos e validar integridade"]
-    MOp3{"[]>>"}
-    M4["[Interação] Descarregar caderno consolidado em repositório local"]
-
-    Root2 --> M1
-    Root2 --> MOp1
-    Root2 --> M2
-    Root2 --> MOp2
-    Root2 --> M3
-    Root2 --> MOp3
-    Root2 --> M4
-
-    %% Decomposição de M1 (Filtro e seleção modular)
-    M1_1["[Interação] Filtrar acervo por banca, ano de aplicação e cargo"]
-    M1_Op1{"|||"}
-    M1_2["[Interação] Segmentar blocos disciplinares pretendidos"]
-    M1_Op2{">>"}
-    M1_3["[Interação] Adicionar cadernos selecionados à cesta de compilação"]
-
-    M1 --> M1_1
-    M1 --> M1_Op1
-    M1 --> M1_2
-    M1 --> M1_Op2
-    M1 --> M1_3
-
-    %% Decomposição de M2 (Parâmetros de compilação)
-    M2_1["[Interação] Habilitar gabarito definitivo com notas de anulação"]
-    M2_Op1{"|||"}
-    M2_2["[Interação] Selecionar leiaute de impressão econômica ou leitura digital"]
-    M2_Op2{"|||"}
-    M2_3["[Interação] Incluir sumário interativo e folhas de rascunho de gabarito"]
-
-    M2 --> M2_1
-    M2 --> M2_Op1
-    M2 --> M2_2
-    M2 --> M2_Op2
-    M2 --> M2_3
-```
-
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Paternò (1999) e Barbosa & Silva (2010).</p>
+![Representação em Árvore CTT da Tarefa 02 - Montagem e exportação de caderno personalizado](../../assets/images/ctt/ctt-tar02.svg)
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Barbosa et al. (2021, Seção 8.2.2) e Paternò (1999).</p>
 
 </div>
 
@@ -318,78 +216,11 @@ A representação em árvore de tarefas CTT é apresentada na Figura 3, e a espe
 
 </div>
 
-```mermaid
-flowchart TD
-    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
-    subgraph Legenda ["Legenda CTT"]
-        direction LR
-        L_Abs["[Abstrata]"]
-        L_Int["[Interação]"]
-        L_Sis["[Sistema]"]
-        L_Usu["[Usuário]"]
-    end
-
-    Root3["[Abstrata] Explorar mapa georreferenciado e planejar mobilidade de vagas"]
-
-    P1["[Abstrata] Parametrizar delimitação espacial no mapa"]
-    POp1{"[]>>"}
-    P2["[Sistema] Renderizar malha cartográfica com agrupamentos de certames"]
-    POp2{">>"}
-    P3["[Abstrata] Explorar polos de lotação e examinar oportunidades"]
-    POp3{">>"}
-    P4["[Abstrata] Simular itinerário e estimar tempo de deslocamento"]
-
-    Root3 --> P1
-    Root3 --> POp1
-    Root3 --> P2
-    Root3 --> POp2
-    Root3 --> P3
-    Root3 --> POp3
-    Root3 --> P4
-
-    %% Decomposição de P1 (Parâmetros espaciais concorrentes)
-    P1_1["[Interação] Delimitar bairro ou RA de residência no DF"]
-    P1_Op1{"|||"}
-    P1_2["[Interação] Ajustar raio de deslocamento máximo em km"]
-    P1_Op2{">>"}
-    P1_3["[Interação] Submeter requisição de atualização da malha"]
-
-    P1 --> P1_1
-    P1 --> P1_Op1
-    P1 --> P1_2
-    P1 --> P1_Op2
-    P1 --> P1_3
-
-    %% Decomposição de P3 (Exploração de polos)
-    P3_1["[Usuário] Inspecionar densidade de vagas por polo territorial"]
-    P3_Op1{">>"}
-    P3_2["[Interação] Selecionar marcador do polo e requisitar ficha do órgão"]
-    P3_Op2{"[]>>"}
-    P3_3["[Sistema] Exibir painel lateral com dados de vagas e lotação"]
-
-    P3 --> P3_1
-    P3 --> P3_Op1
-    P3 --> P3_2
-    P3 --> P3_Op2
-    P3 --> P3_3
-
-    %% Decomposição de P4 (Simulação de mobilidade)
-    P4_1["[Interação] Requisitar rota estimada em transporte público"]
-    P4_Op1{"[]>>"}
-    P4_2["[Sistema] Integrar malha viária e calcular itinerário com conexões"]
-    P4_Op2{">>"}
-    P4_3["[Usuário] Avaliar compatibilidade de tempo de trajeto para o certame"]
-
-    P4 --> P4_1
-    P4 --> P4_Op1
-    P4 --> P4_2
-    P4 --> P4_Op2
-    P4 --> P4_3
-```
-
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base em Paternò (1999) e Barbosa & Silva (2010).</p>
+![Representação em Árvore CTT da Tarefa 03 - Mapa georreferenciado e cálculo de mobilidade](../../assets/images/ctt/ctt-tar03.svg)
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base em Barbosa et al. (2021, Seção 8.2.2) e Paternò (1999).</p>
 
 </div>
 
@@ -436,73 +267,11 @@ A árvore de tarefas CTT é apresentada na Figura 4, e sua especificação forma
 
 </div>
 
-```mermaid
-flowchart TD
-    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
-    subgraph Legenda ["Legenda CTT"]
-        direction LR
-        L_Abs["[Abstrata]"]
-        L_Int["[Interação]"]
-        L_Sis["[Sistema]"]
-        L_Usu["[Usuário]"]
-    end
-
-    Root4["[Abstrata] Acompanhar timeline de fases e simular prazos recursais"]
-
-    Q1["[Interação] Acessar painel do certame e requisitar timeline de fases"]
-    QOp1{">>"}
-    Q2["[Sistema] Renderizar nós cronológicos de etapas e contadores regressivos"]
-    QOp2{"[]>>"}
-    Q3["[Abstrata] Inspecionar fases, retificações e contadores"]
-    QOp3{">>"}
-    Q4["[Abstrata] Simular prazos recursais e sincronizar marcos na agenda"]
-
-    Root4 --> Q1
-    Root4 --> QOp1
-    Root4 --> Q2
-    Root4 --> QOp2
-    Root4 --> Q3
-    Root4 --> QOp3
-    Root4 --> Q4
-
-    %% Decomposição de Q3 (Inspeção de etapas e retificações)
-    Q3_1["[Usuário] Inspecionar status visual das etapas na linha do tempo"]
-    Q3_Op1{"|||"}
-    Q3_2["[Usuário] Checar contador regressivo para encerramento de prazos"]
-    Q3_Op2{">>"}
-    Q3_3["[Interação] Acionar visualizador comparativo de retificações de edital"]
-    Q3_Op3{"[]>>"}
-    Q3_4["[Sistema] Apresentar modal com realce textual de inclusões e supressões"]
-
-    Q3 --> Q3_1
-    Q3 --> Q3_Op1
-    Q3 --> Q3_2
-    Q3 --> Q3_Op2
-    Q3 --> Q3_3
-    Q3 --> Q3_Op3
-    Q3 --> Q3_4
-
-    %% Decomposição de Q4 (Simulação e sincronização)
-    Q4_1["[Interação] Parametrizar simulador com data de publicação e tipo de recurso"]
-    Q4_Op1{"[]>>"}
-    Q4_2["[Sistema] Calcular data fatal considerando dias úteis e corte bancário"]
-    Q4_Op2{">>"}
-    Q4_3["[Interação] Requisitar exportação de alertas para calendário (.ics)"]
-    Q4_Op3{"[]>>"}
-    Q4_4["[Sistema] Disparar arquivo de calendário com notificações pré-agendadas"]
-
-    Q4 --> Q4_1
-    Q4 --> Q4_Op1
-    Q4 --> Q4_2
-    Q4 --> Q4_Op2
-    Q4 --> Q4_3
-    Q4 --> Q4_Op3
-    Q4 --> Q4_4
-```
-
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base em Paternò (1999) e Barbosa & Silva (2010).</p>
+![Representação em Árvore CTT da Tarefa 04 - Timeline interativa com simulador recursal](../../assets/images/ctt/ctt-tar04.svg)
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base em Barbosa et al. (2021, Seção 8.2.2) e Paternò (1999).</p>
 
 </div>
 
@@ -553,97 +322,11 @@ A modelagem CTT formaliza:
 
 </div>
 
-```mermaid
-flowchart TD
-    subgraph Legenda ["Legenda CTT"]
-        direction LR
-        L_Abs["[Abstrata]"]
-        L_Int["[Interação]"]
-        L_Sis["[Sistema]"]
-        L_Usu["[Usuário]"]
-    end
-
-    Root5["[Abstrata] Realizar simulado interativo com feedback e diagnóstico"]
-
-    Sub1["[Abstrata] Parametrizar bateria de simulado"]
-    Op1{"[]>>"}
-    Sub2["[Sistema] Inicializar sessão e renderizar primeira questão com cronômetro"]
-    Op2{">>"}
-    Sub3["[Abstrata] Ciclo iterativo de resposta com feedback imediato (T*)"]
-    Op3{">>"}
-    Sub4["[Abstrata] Concluir bateria e analisar diagnóstico analítico"]
-
-    Root5 --> Sub1
-    Root5 --> Op1
-    Root5 --> Sub2
-    Root5 --> Op2
-    Root5 --> Sub3
-    Root5 --> Op3
-    Root5 --> Sub4
-
-    %% Decomposição de Sub1 (Parametrização)
-    Sub1_1["[Interação] Selecionar disciplina e assunto pretendido"]
-    Sub1_Op1{"|||"}
-    Sub1_2["[Interação] Configurar quantidade de itens (ex.: bloco de 10)"]
-    Sub1_Op2{"|||"}
-    Sub1_3["[Interação] Ativar temporizador com contagem regressiva"]
-    Sub1_Op3{">>"}
-    Sub1_4["[Interação] Disparar botão 'Iniciar Simulado'"]
-
-    Sub1 --> Sub1_1
-    Sub1 --> Sub1_Op1
-    Sub1 --> Sub1_2
-    Sub1 --> Sub1_Op2
-    Sub1 --> Sub1_3
-    Sub1 --> Sub1_Op3
-    Sub1 --> Sub1_4
-
-    %% Decomposição de Sub3 (Ciclo iterativo T*)
-    Sub3_1["[Usuário] Ler enunciado e alternativas com tipografia acessível"]
-    Sub3_Op1{"[]>>"}
-    Sub3_2["[Interação] Selecionar alternativa (área de toque >= 48px)"]
-    Sub3_Op2{">>"}
-    Sub3_3["[Sistema] Persistir resposta em tempo real (Zero Data Loss)"]
-    Sub3_Op3{">>"}
-    Sub3_4["[Interação] Confirmar resposta e solicitar validação"]
-    Sub3_Op4{"[]>>"}
-    Sub3_5["[Sistema] Exibir gabarito instantâneo e resolução comentada"]
-    Sub3_Op5{"[>"}
-    Sub3_6["[Interação] Marcar questão para revisão posterior"]
-
-    Sub3 --> Sub3_1
-    Sub3 --> Sub3_Op1
-    Sub3 --> Sub3_2
-    Sub3 --> Sub3_Op2
-    Sub3 --> Sub3_3
-    Sub3 --> Sub3_Op3
-    Sub3 --> Sub3_4
-    Sub3 --> Sub3_Op4
-    Sub3 --> Sub3_5
-    Sub3 --> Sub3_Op5
-    Sub3 --> Sub3_6
-
-    %% Decomposição de Sub4 (Diagnóstico analítico)
-    Sub4_1["[Interação] Finalizar bateria de questões"]
-    Sub4_Op1{"[]>>"}
-    Sub4_2["[Sistema] Consolidar taxa de acertos, tempo médio e matriz de erros"]
-    Sub4_Op2{">>"}
-    Sub4_3["[Usuário] Analisar gráfico de desempenho e diagnóstico por matéria"]
-    Sub4_Op3{"[]"}
-    Sub4_4["[Interação] Reiniciar treino focado em erros ou exportar resultado"]
-
-    Sub4 --> Sub4_1
-    Sub4 --> Sub4_Op1
-    Sub4 --> Sub4_2
-    Sub4 --> Sub4_Op2
-    Sub4 --> Sub4_3
-    Sub4 --> Sub4_Op3
-    Sub4 --> Sub4_4
-```
-
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026).</p>
+![Representação em Árvore CTT da Tarefa 05 - Simulado interativo com feedback e diagnóstico](../../assets/images/ctt/ctt-tar05.svg)
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior (2026), com base em Barbosa et al. (2021, Seção 8.2.2) e Paternò (1999).</p>
 
 </div>
 
@@ -696,68 +379,11 @@ flowchart TD
 
 </div>
 
-```mermaid
-flowchart TD
-    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
-    subgraph Legenda ["Legenda CTT"]
-        direction LR
-        L_Abs["[Abstrata]"]
-        L_Int["[Interação]"]
-        L_Sis["[Sistema]"]
-        L_Usu["[Usuário]"]
-    end
-
-    Root["[Abstrata] Buscar vagas de estágio no DF<br><i>(tarefa não suportada)</i>"]
-
-    Sub1["[Usuário] Inferir a seção provável da oferta"]
-    Op1{">>"}
-    Sub2["[Abstrata] Ciclo de tentativas exploratórias (T*)"]
-    Op2{"[>"}
-    Sub3["[Usuário] Reconhecer a ausência da funcionalidade"]
-    Op3{">>"}
-    Sub4["[Interação] Abandonar o portal"]
-
-    Root --> Sub1
-    Root --> Op1
-    Root --> Sub2
-    Root --> Op2
-    Root --> Sub3
-    Root --> Op3
-    Root --> Sub4
-
-    %% Decomposição de Sub2 - hipóteses alternativas
-    Sub2_A["[Interação] Abrir a seção 'Vagas'"]
-    Sub2_OpA{"[]"}
-    Sub2_B["[Interação] Buscar o termo 'estágio'"]
-    Sub2_OpB{"[]"}
-    Sub2_C["[Interação] Navegar por Centro-Oeste / Cargos"]
-    Sub2_OpC{">>"}
-    Sub2_D["[Sistema] Retornar acervo de cargos efetivos<br>sem vagas de estágio"]
-    Sub2_OpD{">>"}
-    Sub2_E["[Usuário] Triar resultados e descartar<br>'estágio probatório'"]
-
-    Sub2 --> Sub2_A
-    Sub2 --> Sub2_OpA
-    Sub2 --> Sub2_B
-    Sub2 --> Sub2_OpB
-    Sub2 --> Sub2_C
-    Sub2 --> Sub2_OpC
-    Sub2 --> Sub2_D
-    Sub2 --> Sub2_OpD
-    Sub2 --> Sub2_E
-
-    %% Decomposição de Sub4
-    Sub4_1["[Usuário] Atribuir a si o fracasso da busca"]
-    Sub4_Op{">>"}
-    Sub4_2["[Interação] Migrar para portal externo de estágios"]
-    Sub4 --> Sub4_1
-    Sub4 --> Sub4_Op
-    Sub4 --> Sub4_2
-```
-
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base nas estatísticas da ABRES e na Persona PER-03.</p>
+![Representação em Árvore CTT da Tarefa 06 (padrão de tentativa e abandono)](../../assets/images/ctt/ctt-tar06.svg)
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base em Barbosa et al. (2021, Seção 8.2.2), Paternò (1999) e Persona PER-03.</p>
 
 </div>
 
@@ -804,91 +430,11 @@ Na árvore CTT da Tarefa 07 (Figura 7), destacam-se a passagem de informação e
 
 </div>
 
-```mermaid
-flowchart TD
-    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
-    subgraph Legenda ["Legenda CTT"]
-        direction LR
-        L_Abs["[Abstrata]"]
-        L_Int["[Interação]"]
-        L_Sis["[Sistema]"]
-        L_Usu["[Usuário]"]
-    end
-
-    Root["[Abstrata] Acessar videoaulas e dicas didáticas"]
-
-    Sub1["[Interação] Navegar até o repositório de Aulas"]
-    Op1{">>"}
-    Sub2["[Sistema] Renderizar catálogo de videoaulas"]
-    Op2{"[]>>"}
-    Sub3["[Abstrata] Selecionar a disciplina e videoaula temática"]
-    Op3{">>"}
-    Sub4["[Abstrata] Ciclo de reprodução e controle do vídeo (T*)"]
-    Op4{">>"}
-    Sub5["[Abstrata] Aprofundamento pós-aula e progressão na trilha"]
-
-    Root --> Sub1
-    Root --> Op1
-    Root --> Sub2
-    Root --> Op2
-    Root --> Sub3
-    Root --> Op3
-    Root --> Sub4
-    Root --> Op4
-    Root --> Sub5
-
-    %% Decomposição de Sub3
-    Sub3_1["[Usuário] Escolher a disciplina básica pretendida"]
-    Sub3_Op{"[]>>"}
-    Sub3_2["[Interação] Selecionar a matéria (ex.: Direito Constitucional)"]
-    Sub3_Op2{">>"}
-    Sub3_3["[Interação] Filtrar tópico por busca interna<br>(NÃO SUPORTADA)"]
-    Sub3_Op3{"[]"}
-    Sub3_4["[Interação] Rolar catálogo e selecionar o card da aula"]
-    Sub3 --> Sub3_1
-    Sub3 --> Sub3_Op
-    Sub3 --> Sub3_2
-    Sub3 --> Sub3_Op2
-    Sub3 --> Sub3_3
-    Sub3 --> Sub3_Op3
-    Sub3 --> Sub3_4
-
-    %% Decomposição de Sub4 (reprodução e ajustes)
-    Sub4_1["[Interação] Iniciar reprodução no player embutido"]
-    Sub4_Op{">>"}
-    Sub4_2["[Sistema] Transmitir stream de mídia (YouTube)"]
-    Sub4_Op2{"|||"}
-    Sub4_3["[Usuário] Assimilar explicação teórica do professor"]
-    Sub4_Op3{"[>"}
-    Sub4_4["[Interação] Ajustar velocidade de reprodução ou tela cheia"]
-    Sub4_Op4{"|||"}
-    Sub4_5["[Interação] Ativar legendas do player em ambiente ruidoso"]
-    Sub4 --> Sub4_1
-    Sub4 --> Sub4_Op
-    Sub4 --> Sub4_2
-    Sub4 --> Sub4_Op2
-    Sub4 --> Sub4_3
-    Sub4 --> Sub4_Op3
-    Sub4 --> Sub4_4
-    Sub4 --> Sub4_Op4
-    Sub4 --> Sub4_5
-
-    %% Decomposição de Sub5 (operações complementares)
-    Sub5_1["[Interação] Baixar resumo esquemático em PDF<br>(NÃO SUPORTADA)"]
-    Sub5_Op{">>"}
-    Sub5_2["[Interação] Avançar para próxima aula da trilha<br>(NÃO SUPORTADA)"]
-    Sub5_Op2{">>"}
-    Sub5_3["[Sistema] Registrar progresso no histórico do aluno<br>(NÃO SUPORTADA)"]
-    Sub5 --> Sub5_1
-    Sub5 --> Sub5_Op
-    Sub5 --> Sub5_2
-    Sub5 --> Sub5_Op2
-    Sub5 --> Sub5_3
-```
-
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
+![Representação em Árvore CTT da Tarefa 07 - Acessar videoaulas e dicas didáticas](../../assets/images/ctt/ctt-tar07.svg)
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base em Barbosa et al. (2021, Seção 8.2.2), DOC-04 e Persona PER-04.</p>
 
 </div>
 
@@ -943,98 +489,11 @@ A modelagem CTT formaliza:
 
 </div>
 
-```mermaid
-flowchart TD
-    classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
-    subgraph Legenda ["Legenda CTT"]
-        direction LR
-        L_Abs["[Abstrata]"]
-        L_Int["[Interação]"]
-        L_Sis["[Sistema]"]
-        L_Usu["[Usuário]"]
-    end
-
-    Root8["[Abstrata] Cadastrar e gerenciar alertas inteligentes com filtros e LGPD"]
-
-    Sub1["[Interação] Acessar Central de Alertas Inteligentes"]
-    Op1{">>"}
-    Sub2["[Abstrata] Parametrizar filtros multicritério de monitoramento"]
-    Op2{"[]>>"}
-    Sub3["[Abstrata] Fornecer dados e efetivar autenticação Double Opt-In"]
-    Op3{">>"}
-    Sub4["[Sistema] Disparar digest segmentado de editais"]
-    Op4{"[]>>"}
-    Sub5["[Abstrata] Gerenciar preferências de alertas e direitos de privacidade"]
-
-    Root8 --> Sub1
-    Root8 --> Op1
-    Root8 --> Sub2
-    Root8 --> Op2
-    Root8 --> Sub3
-    Root8 --> Op3
-    Root8 --> Sub4
-    Root8 --> Op4
-    Root8 --> Sub5
-
-    %% Decomposição de Sub2 (Filtros multicritério concorrentes)
-    Sub2_1["[Interação] Selecionar localidade e UF pretendida (DF/Entorno)"]
-    Sub2_Op1{"|||"}
-    Sub2_2["[Interação] Filtrar carreira, área de atuação e escolaridade"]
-    Sub2_Op2{"|||"}
-    Sub2_3["[Interação] Definir periodicidade de notificação"]
-    Sub2_Op3{">>"}
-    Sub2_4["[Interação] Submeter configuração de monitoramento"]
-
-    Sub2 --> Sub2_1
-    Sub2 --> Sub2_Op1
-    Sub2 --> Sub2_2
-    Sub2 --> Sub2_Op2
-    Sub2 --> Sub2_3
-    Sub2 --> Sub2_Op3
-    Sub2 --> Sub2_4
-
-    %% Decomposição de Sub3 (Validação e Double Opt-In)
-    Sub3_1["[Interação] Digitar e-mail com validação sintática em tempo real"]
-    Sub3_Op1{"|||"}
-    Sub3_2["[Interação] Aceitar termos de consentimento e privacidade (LGPD)"]
-    Sub3_Op2{"[]>>"}
-    Sub3_3["[Sistema] Emitir token temporário de validação criptográfica"]
-    Sub3_Op3{">>"}
-    Sub3_4["[Interação] Confirmar token de validação via link seguro (Double Opt-In)"]
-    Sub3_Op4{">>"}
-    Sub3_5["[Sistema] Ativar perfil de monitoramento personalizado"]
-
-    Sub3 --> Sub3_1
-    Sub3 --> Sub3_Op1
-    Sub3 --> Sub3_2
-    Sub3 --> Sub3_Op2
-    Sub3 --> Sub3_3
-    Sub3 --> Sub3_Op3
-    Sub3 --> Sub3_4
-    Sub3 --> Sub3_Op4
-    Sub3 --> Sub3_5
-
-    %% Decomposição de Sub5 (Gestão e LGPD)
-    Sub5_1["[Usuário] Avaliar relevância dos cards de oportunidades no digest"]
-    Sub5_Op1{"[]"}
-    Sub5_2["[Interação] Acessar painel de autoatendimento para editar filtros"]
-    Sub5_Op2{"[]"}
-    Sub5_3["[Interação] Solicitar descadastramento imediato (opt-out em 1 clique)"]
-    Sub5_Op3{">>"}
-    Sub5_4["[Sistema] Excluir registros cadastrais da base e confirmar remoção"]
-
-    Sub5 --> Sub5_1
-    Sub5 --> Sub5_Op1
-    Sub5 --> Sub5_2
-    Sub5 --> Sub5_Op2
-    Sub5 --> Sub5_3
-    Sub5 --> Sub5_Op3
-    Sub5 --> Sub5_4
-```
-
 <div align="center" markdown="1">
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Gerado por Inteligência Artificial (Gemini) e revisado por Leonardo da Silva Lopes Júnior (2026).</p>
+![Representação em Árvore CTT da Tarefa 08 - Central de Alertas Inteligentes com filtros avançados](../../assets/images/ctt/ctt-tar08.svg)
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base em Barbosa et al. (2021, Seção 8.2.2), DOC-04 e Persona PER-04.</p>
 
 </div>
 
@@ -1074,6 +533,7 @@ flowchart TD
 
 ## 7. Referências Bibliográficas
 
+> BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021.  
 > BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
 > MORI, Giulio; PATERNÒ, Fabio; SANTORO, Carmen. *CTTE: Support for Developing and Analyzing Task Models for Interactive System Design*. IEEE Transactions on Software Engineering, v. 28, n. 8, p. 797-813, 2002.  
 > NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
@@ -1091,5 +551,6 @@ flowchart TD
 | `1.3` | 28/09/2026 | Modelagem CTT completa das Tarefas 07 e 08 (Figuras 7 e 8, Tabelas 9 e 10), formalizando ciclo audiovisual em viewport móvel e disparo assíncrono de alertas de vagas, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.4` | 06/10/2026 | Enriquecimento do escopo ergonômico das tarefas no CTT (Issue #14): remodelagem formal da TAR-04 (timeline interativa e sincronização com calendário), TAR-05 (simulados parametrizados, feedback imediato e diagnóstico analítico) e TAR-08 (central de alertas inteligentes com filtros multicritério e Double Opt-In sob a LGPD), alinhando operadores temporais (>>, []>>, \|\|\|, [>, \|>, *) às diretrizes do Grupo 06. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.5` | 09/10/2026 | Atendimento às OBS da avaliação docente: consolidação da matriz em exatamente 8 tarefas dos 4 integrantes ativos, padronização visual dos diagramas CTT no estilo do livro (Barbosa e Silva, 2010) eliminando tons rosados, correção do cabeçalho da Tabela de Contribuição e adequação de Referências Bibliográficas (ABNT). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho |
+| `1.6` | 22/10/2026 | Adequação estrita dos diagramas CTT à notação oficial do livro *Interação Humano-Computador e Experiência do Usuário* (Barbosa et al., 2021, Seção 8.2.2) e Paternò (1999): inclusão de ícones oficiais de categorias de tarefas (Usuário, Aplicação/Sistema, Interativa e Abstrata), operadores temporais (`>>`, `[]>>`, `|||`, `[]`, `[>`, `|>`) dispostos horizontalmente entre nós irmãos e especificação em nível mais baixo de abstração posicionada imediatamente abaixo de cada diagrama. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>

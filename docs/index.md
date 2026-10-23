@@ -31,7 +31,24 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 
 ### Design, Avaliação e Desenvolvimento (Etapa 3)
 * [Princípios Gerais de Projeto](analise-de-requisitos/principios-gerais-de-projeto.md)
-* [Guia de Estilo (incluindo Características da Plataforma e Metas de Usabilidade)](design-avaliacao-desenvolvimento/guia-de-estilo.md)
+* [Guia de Estilo](design-avaliacao-desenvolvimento/guia-de-estilo.md)
+* [Características da Plataforma](design-avaliacao-desenvolvimento/caracteristicas-da-plataforma.md)
+* [Metas de Usabilidade](design-avaliacao-desenvolvimento/metas-de-usabilidade.md)
+
+---
+
+### Planejamento da Avaliação (Etapa 4)
+* [Planejamento da Avaliação da Análise de Tarefas](design-avaliacao-desenvolvimento/planejamento-avaliacao-analise-de-tarefas.md)
+* [Planejamento do Relato da Análise de Tarefas](design-avaliacao-desenvolvimento/resultado-analise-de-tarefas.md)
+* [Planejamento da Avaliação do Storyboard](avaliacao/planejamento-avaliacao-storyboard.md)
+* [Planejamento do Relato dos Resultados do Storyboard](design-avaliacao-desenvolvimento/planejamento-relato-resultados-storyboard.md)
+
+---
+
+### Resultados (Etapa 5)
+* **Nível 1 de Fidelidade:**
+    * [Storyboards da Equipe](design-avaliacao-desenvolvimento/storyboards.md)
+    * [Planejamento e Execução do Teste-Piloto](design-avaliacao-desenvolvimento/teste-piloto.md)
 
 ---
 

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1205 481" width="100%" style="max-width: 1205px; height: auto; background: #ffffff; font-family: Arial, Helvetica, sans-serif;">
+  <rect x="556.5" y="20.0" width="230.0" height="80.0" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="671.5" y="41.5" text-anchor="middle" font-size="12.5" fill="#111827">0. Acessar videoaulas e</text>
+  <text x="671.5" y="57.0" text-anchor="middle" font-size="12.5" fill="#111827">dicas didáticas de</text>
+  <text x="671.5" y="72.5" text-anchor="middle" font-size="12.5" fill="#111827">disciplinas</text>
+  <text x="671.5" y="89.5" text-anchor="middle" font-size="12.5" fill="#111827">1&gt;2&gt;3</text>
+  <line x1="671.5" y1="100.0" x2="671.5" y2="124.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="256.5" y1="124.0" x2="1086.4" y2="124.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="256.5" y1="124.0" x2="256.5" y2="147.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="252.3,145.5 260.7,145.5 256.5,153.5" fill="#4b5563"/>
+  <rect x="165.3" y="154.0" width="182.4" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="256.5" y="175.5" text-anchor="middle" font-size="12.5" fill="#111827">1. Selecionar</text>
+  <text x="256.5" y="191.0" text-anchor="middle" font-size="12.5" fill="#111827">disciplina e videoaula</text>
+  <text x="256.5" y="208.0" text-anchor="middle" font-size="12.5" fill="#111827">1&gt;2</text>
+  <line x1="256.5" y1="218.5" x2="256.5" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="115.2" y1="242.5" x2="397.8" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="115.2" y1="242.5" x2="115.2" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="111.0,264.0 119.4,264.0 115.2,272.0" fill="#4b5563"/>
+  <rect x="24.0" y="272.5" width="182.4" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="24.0" y1="342.0" x2="206.4" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="115.2" y="294.0" text-anchor="middle" font-size="12" fill="#111827">1.1. Acessar 'Aulas' e</text>
+  <text x="115.2" y="309.5" text-anchor="middle" font-size="12" fill="#111827">escolher disciplina</text>
+  <text x="115.2" y="325.0" text-anchor="middle" font-size="12" fill="#111827">básica</text>
+  <line x1="397.8" y1="242.5" x2="397.8" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="393.6,264.0 402.0,264.0 397.8,272.0" fill="#4b5563"/>
+  <rect x="306.6" y="272.5" width="182.4" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="397.8" y="294.0" text-anchor="middle" font-size="12.5" fill="#111827">1.2. Localizar aula do</text>
+  <text x="397.8" y="309.5" text-anchor="middle" font-size="12.5" fill="#111827">tópico</text>
+  <text x="397.8" y="326.5" text-anchor="middle" font-size="12.5" fill="#111827">1/2</text>
+  <line x1="397.8" y1="337.0" x2="397.8" y2="361.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="304.8" y1="361.0" x2="490.8" y2="361.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="304.8" y1="361.0" x2="304.8" y2="384.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="300.6,382.5 309.0,382.5 304.8,390.5" fill="#4b5563"/>
+  <rect x="224.4" y="391.0" width="160.8" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="224.4" y1="460.5" x2="385.2" y2="460.5" stroke="#374151" stroke-width="1.6"/>
+  <text x="304.8" y="412.5" text-anchor="middle" font-size="12" fill="#111827">1.2.1. Tentar busca</text>
+  <text x="304.8" y="428.0" text-anchor="middle" font-size="12" fill="#111827">interna por tópico</text>
+  <text x="304.8" y="443.5" text-anchor="middle" font-size="12" fill="#111827">(inexistente)</text>
+  <line x1="490.8" y1="361.0" x2="490.8" y2="384.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="486.6,382.5 495.0,382.5 490.8,390.5" fill="#4b5563"/>
+  <rect x="403.2" y="391.0" width="175.2" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="403.2" y1="460.5" x2="578.4" y2="460.5" stroke="#374151" stroke-width="1.6"/>
+  <text x="490.8" y="412.5" text-anchor="middle" font-size="12" fill="#111827">1.2.2. Rolar listagem</text>
+  <text x="490.8" y="428.0" text-anchor="middle" font-size="12" fill="#111827">cronológica e abrir</text>
+  <text x="490.8" y="443.5" text-anchor="middle" font-size="12" fill="#111827">vídeo</text>
+  <line x1="779.6" y1="124.0" x2="779.6" y2="147.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="775.4,145.5 783.8,145.5 779.6,153.5" fill="#4b5563"/>
+  <rect x="692.0" y="154.0" width="175.2" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="779.6" y="175.5" text-anchor="middle" font-size="12.5" fill="#111827">2. Assistir e ajustar</text>
+  <text x="779.6" y="191.0" text-anchor="middle" font-size="12.5" fill="#111827">reprodução</text>
+  <text x="779.6" y="208.0" text-anchor="middle" font-size="12.5" fill="#111827">1+2</text>
+  <line x1="779.6" y1="218.5" x2="779.6" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="684.8" y1="242.5" x2="874.4" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="684.8" y1="242.5" x2="684.8" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="680.6,264.0 689.0,264.0 684.8,272.0" fill="#4b5563"/>
+  <rect x="604.4" y="272.5" width="160.8" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="604.4" y1="342.0" x2="765.2" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="684.8" y="294.0" text-anchor="middle" font-size="12" fill="#111827">2.1. Iniciar vídeo,</text>
+  <text x="684.8" y="309.5" text-anchor="middle" font-size="12" fill="#111827">ajustar velocidade</text>
+  <text x="684.8" y="325.0" text-anchor="middle" font-size="12" fill="#111827">(1.5x) e tela</text>
+  <line x1="874.4" y1="242.5" x2="874.4" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="870.2,264.0 878.6,264.0 874.4,272.0" fill="#4b5563"/>
+  <rect x="783.2" y="272.5" width="182.4" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="783.2" y1="342.0" x2="965.6" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="874.4" y="301.8" text-anchor="middle" font-size="12" fill="#111827">2.2. Conectar fones ou</text>
+  <text x="874.4" y="317.2" text-anchor="middle" font-size="12" fill="#111827">ativar legendas (CC)</text>
+  <line x1="1086.4" y1="124.0" x2="1086.4" y2="147.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="1082.2,145.5 1090.6,145.5 1086.4,153.5" fill="#4b5563"/>
+  <rect x="991.6" y="154.0" width="189.6" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="991.6" y1="223.5" x2="1181.2" y2="223.5" stroke="#374151" stroke-width="1.6"/>
+  <text x="1086.4" y="175.5" text-anchor="middle" font-size="12" fill="#111827">3. Buscar resumo em PDF</text>
+  <text x="1086.4" y="191.0" text-anchor="middle" font-size="12" fill="#111827">e próxima aula (não</text>
+  <text x="1086.4" y="206.5" text-anchor="middle" font-size="12" fill="#111827">suportados)</text>
+</svg>
