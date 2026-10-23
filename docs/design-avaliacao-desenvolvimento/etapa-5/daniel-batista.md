@@ -4,8 +4,8 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Elaboração do Storyboard SB-01, condução e registro da inspeção par a par dos modelos de tarefa de Pedro Rocha Ferreira Lima (TAR-04), condução do teste-piloto e entrevista de avaliação com usuário real (TAR-01 e SB-01), consolidação individual e propostas de reprojeto. |
-| **Gemini** | Apoio na estruturação em Markdown e padronização visual das tabelas (conforme Política de IA). |
+| Daniel da Silva Batista | Elaboração do Storyboard SB-01, autoinspeção analítica dos modelos HTA/CTT e do storyboard, condução do teste-piloto e das entrevistas de avaliação com usuários reais (TAR-01 e SB-01), consolidação individual e propostas de reprojeto. |
+| Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

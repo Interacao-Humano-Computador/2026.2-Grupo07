@@ -12,6 +12,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
@@ -87,9 +88,11 @@ nav:
           - Planejamento da Avaliação do Storyboard: avaliacao/planejamento-avaliacao-storyboard.md
           - Planejamento do Relato dos Resultados do Storyboard: design-avaliacao-desenvolvimento/planejamento-relato-resultados-storyboard.md
           - Listas de Verificação para Inspeção (HTA, CTT e Storyboard): design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md
-      - Resultados - Nível 1 (Etapa 5):
+      - Etapa 5:
+          - Planejamento da Avaliação do Protótipo de Papel: design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-prototipo-papel.md
+          - Planejamento do Relato dos Resultados do Protótipo de Papel: design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-prototipo-papel.md
           - Planejamento e Execução do Teste-Piloto: design-avaliacao-desenvolvimento/teste-piloto.md
-          - Relatos e Avaliações Individuais:
+          - Relato dos Resultados do Storyboard e da Análise de Tarefas:
               - Daniel da Silva Batista: design-avaliacao-desenvolvimento/etapa-5/daniel-batista.md
               - Pedro Rocha Ferreira Lima: design-avaliacao-desenvolvimento/etapa-5/pedro-rocha.md
               - Arthur Sismene Carvalho: design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho.md

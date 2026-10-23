@@ -4,13 +4,15 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| [Daniel da Silva Batista](https://github.com/DanielBatist) | Elaboração do planejamento e protocolo do teste-piloto de Nível 1, execução e gravação da sessão solo no Teams, incorporação do vídeo no YouTube, preenchimento da ficha de calibração e declaração de descarte de dados. |
+| Daniel da Silva Batista | Elaboração do planejamento e protocolo do teste-piloto de Nível 1, execução e gravação da sessão no Teams, incorporação do vídeo no YouTube e calibração das fichas. |
+| Pedro Rocha Ferreira Lima | Apoio na revisão dos cenários e validação dos equipamentos de gravação. |
+| Arthur Sismene Carvalho | Revisão dos objetivos e verificação da qualidade de áudio e vídeo. |
+| Leonardo da Silva Lopes Júnior | Validação do tempo de condução e apoio na ficha de avaliação. |
+| Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
-<p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
-
----
 
 # Planejamento e Execução do Teste-Piloto (Nível 1)
 
