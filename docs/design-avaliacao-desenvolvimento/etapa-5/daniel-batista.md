@@ -394,23 +394,57 @@ A Tabela 12 sintetiza as respostas obtidas dos três participantes nas nove perg
 
 ---
 
-## 6. Síntese Geral dos Resultados e Proposta de Reprojeto
+## 6. Relato dos Resultados da Avaliação (Barbosa e Silva, 2021)
 
-A Tabela 13 consolida as oportunidades de reprojeto identificadas na **Autoinspeção Analítica** (Tabela 7) em convergência com as evidências empíricas colhidas na **Entrevista 1** (Tabela 12), direcionando formalmente as diretrizes de design para a prototipação de Nível 2 (Protótipo de Papel) na Etapa 6:
+Conforme as diretrizes metodológicas de Barbosa et al. (2021, p. 279 e p. 309), esta seção consolida o **Relato dos Resultados** da avaliação de Nível 1 (Storyboard `SB-01` e Análise de Tarefas `TAR-01`), integrando os apontamentos da inspeção analítica e os dados coletados nas entrevistas empíricas com usuários.
+
+### 6.1 Objetivos da Avaliação
+* Avaliar a conformidade técnica, a consistência lógica e a decomposição dos modelos de tarefas HTA e CTT da `TAR-01` (Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado).
+* Avaliar a clareza narrativa, a compreensão dos elementos visuais e a representatividade de uso do Storyboard `SB-01`.
+* Identificar precocemente problemas de usabilidade, lacunas de interação e oportunidades de reprojeto antes da confecção do protótipo de baixa fidelidade (Protótipo de Papel - Etapa 6).
+
+### 6.2 Escopo da Avaliação
+* **Artefatos Avaliados:**
+  1. [Storyboard Individual SB-01](#2-storyboard-individual-sb-01) (6 quadrinhos narrativos).
+  2. [HTA da TAR-01](../../analise-de-requisitos/analise-de-tarefas/hta.md#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01) (diagrama e tabela hierárquica de objetivos 0 a 4).
+  3. [CTT da TAR-01](../../analise-de-requisitos/analise-de-tarefas/ctt.md#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01) (grafo concorrente de tarefas do usuário, aplicação e interativas).
+* **Funcionalidade do Sistema:** Mecanismo de busca avançada multicritério e comparação lado a lado de editais concorrentes no portal PCI Concursos.
+
+### 6.3 Breve Descrição do Método Utilizado
+Foram combinados dois métodos complementares de avaliação de IHC:
+1. **Método de Inspeção Analítica (Autoinspeção / Verificação):** Conduzida pelo avaliador individual utilizando listas de verificação estruturadas baseadas nos critérios de Nielsen (1993), Paternò (1999) e Barbosa et al. (2021).
+2. **Método de Investigação Empírica (Entrevista Semiestruturada):** Sessões gravadas em áudio e vídeo com participantes representativos do perfil de usuário, orientadas por roteiro contendo 9 perguntas abertas, exploração de exceções e solicitação de verbalização ativa (*think-aloud* e *probing*), precedidas por teste-piloto.
+
+### 6.4 Conjunto de Diretrizes e Listas de Verificação Utilizadas
+* **Checklist da Tarefa HTA (Tabela 4):** 10 critérios técnicos baseados em Análise Hierárquica de Tarefas (decomposição, planos de execução, feedback e representação).
+* **Checklist da Tarefa CTT (Tabela 5):** 10 critérios baseados em ConcurTaskTrees (tipologia de tarefas, operadores temporais `>>`, `[]`, `[>`, consistência hierárquica).
+* **Checklist do Storyboard (Tabela 6):** 20 critérios estruturados de validação visual e narrativa de Storyboards.
+* **Roteiro Semiestruturado de Entrevista (Tabela 12):** 9 eixos de investigação empírica com usuários.
+
+### 6.5 Número e Perfil dos Avaliadores e Participantes
+* **Avaliador/Entrevistador (1 avaliador):** Daniel da Silva Batista (Estudante de Engenharia de Software da UnB / Grupo 07 IHC).
+* **Participantes Convocados (3 participantes previstos):**
+  * **Participante 1 (Entrevista 1 executada):** Mulher, 21 anos, estudante universitária, concurseira ativa, usuária habitual de computadores desktop/notebook, enquadrada formalmente no **Perfil 1 – Candidato/Concurseiro**. Termo de Consentimento Livre e Esclarecido (TCLE) aceito verbalmente em gravação audiovisual.
+  * **Participante 2 (Entrevista 2):** Em processo de agendamento/execução (Perfil 1).
+  * **Participante 3 (Entrevista 3):** Em processo de agendamento/execução (Perfil 1).
+
+### 6.6 Lista de Problemas e Oportunidades Encontrados
+
+Conforme preconizado por Barbosa e Silva (2021, p. 309), cada problema/oportunidade identificado é detalhado a seguir com seu **local de ocorrência**, **descrição do problema**, **diretriz violada**, **grau de severidade** e **sugestões de solução/ação de reprojeto**:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 13: Proposta Individual de Reprojeto para a TAR-01 e SB-01</b></p>
+<p align="center"><b>Tabela 13: Consolidação dos Problemas e Oportunidades de Reprojeto (conforme Barbosa e Silva, 2021, p. 309)</b></p>
 
-| Item | Problema / Oportunidade Identificada | Origem | Gravidade / Prioridade | Ação de Reprojeto para o Protótipo de Papel |
-| :---: | :--- | :---: | :---: | :--- |
-| `OPO-D01` | **Tratamento de Estado Vazio (Zero Results):** a busca avançada precisa prever comportamento amigável caso a combinação de múltiplos filtros não retorne nenhum certame. | Autoinspeção (HTA 1.4) | Média | Projetar tela de estado vazio informativo com sugestão de afrouxamento de critérios (ex.: *"Nenhum concurso encontrado. Deseja ampliar a faixa salarial?"*). |
-| `OPO-D02` | **Reordenação e Fixação de Colunas na Matriz:** na comparação de editais, o candidato pode desejar alternar a ordem das colunas para confrontar certames específicos. | Autoinspeção (HTA 3) | Baixa | Adicionar botões de reordenação de colunas na grade comparativa de editais no protótipo de baixa fidelidade. |
-| `OPO-D03` | **Operador de Desativação no CTT:** modelar o encerramento do comparador ou remoção de um certame fixado na bandeja flutuante. | Autoinspeção (CTT) | Média | Incorporar operador de desativação (`[>`) no fluxo de cancelamento/fechamento da matriz comparativa. |
-| `OPO-D04` | **Explicitação do Gatilho Inicial no Storyboard:** ilustrar no Quadrinho 1 a motivação inicial da busca (ex.: publicação iminente de edital). | Autoinspeção (SB-01) | Baixa | Refinar a legenda contextual do Quadrinho 1 na versão final do Storyboard. |
-| `OPO-E01` | **Explicitação dos Critérios de Filtro na Interface e Narrativa:** no Quadrinho 2 do Storyboard e na tela de busca avançada, deixar nítido quais filtros foram selecionados (área de formação, escolaridade, cargo). | Entrevista 1 (Participante 1) | Média | Inserir chips de filtros ativos (*tags* removíveis) no cabeçalho dos resultados e detalhar na narrativa visual do Storyboard. |
+| ID | Local onde Ocorre | Descrição do Problema / Oportunidade | Diretriz(es) Violada(s) | Severidade do Problema | Sugestões de Solução (Ação de Reprojeto) |
+| :---: | :--- | :--- | :--- | :---: | :--- |
+| `OPO-D01` | **HTA TAR-01:** Sub-objetivo 1.4 (*Submeter consulta*) | **Tratamento de Estado Vazio (Zero Results):** o modelo não detalha a resposta da interface caso a combinação de múltiplos filtros não localize nenhum edital aberto. | Feedback e Prevenção de Erros (Nielsen, 1993; Barbosa et al., 2021) | **Média** | Projetar no protótipo de papel uma tela informativa de resultado vazio sugerindo flexibilização de filtros (ex.: *"Nenhum edital encontrado. Deseja ampliar a faixa salarial ou área de atuação?"*). |
+| `OPO-D02` | **HTA TAR-01:** Sub-objetivo 3 (*Confrontar matriz comparativa lado a lado*) | **Reordenação e Fixação de Colunas:** na matriz comparativa com até 3 editais, o candidato não possui forma explícita de alternar a posição das colunas para confrontar certames específicos. | Flexibilidade e Eficiência de Uso (Nielsen, 1993) | **Baixa** | Adicionar controles de ordenação e botões de fixação/troca de posição de colunas na grade comparativa de editais. |
+| `OPO-D03` | **CTT TAR-01:** Ramo da bandeja flutuante e fechamento da matriz | **Ausência de Operador de Desativação (`[>`):** o grafo CTT não modelava explicitamente a tarefa de desmarcar um certame ou encerrar abruptamente a comparação. | Completude de Modelagem Temporal em CTT (Paternò, 1999) | **Média** | Inserir tarefa interativa de cancelamento/fechamento vinculada pelo operador de desativação (`[>`) no fluxo do CTT. |
+| `OPO-D04` | **Storyboard SB-01:** Quadrinho 1 (*Contextualização inicial*) | **Explicitação do Gatilho da Tarefa:** a narrativa inicia na busca sem explicitar visualmente a motivação primária da personagem Maria (ex.: publicação iminente de edital). | Contextualização Narrativa de Storyboard (Barbosa et al., 2021) | **Baixa** | Refinar a legenda do Quadrinho 1 explicitando a motivação da usuária ao acessar o portal. |
+| `OPO-E01` | **Storyboard SB-01 (Quad. 2) e Interface de Busca:** Definição de filtros | **Explicitação Visual dos Critérios de Filtro:** a participante relatou falta de clareza sobre quais filtros específicos a usuária aplicou (área de formação, escolaridade, cargo). | Visibilidade do Estado do Sistema (Nielsen, 1993; Barbosa et al., 2021) | **Média** | Inserir *chips* visíveis de filtros ativos (tags removíveis) no topo da listagem e explicitar os campos na legenda do Quadrinho 2 do Storyboard. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Barbosa e Silva (2021, p. 309).</p>
 
 </div>
 
@@ -433,6 +467,7 @@ A Tabela 13 consolida as oportunidades de reprojeto identificadas na **Autoinspe
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
+| `1.2` | 23/10/2026 | Reestruturação completa do Relato dos Resultados (Seção 6) em estrita conformidade com a estrutura canônica de Barbosa e Silva (2021, p. 309): objetivos, escopo, método, diretrizes, avaliadores/participantes e Tabela 13 com as 5 colunas regulamentares (local, descrição, diretriz violada, severidade e sugestão). | Daniel da Silva Batista | Pedro Rocha |
 | `1.1` | 23/10/2026 | Incorporação da gravação da Entrevista 1 (Vídeo 3 - YouTube: xSTf-kYEP10), preenchimento do perfil do Participante 1 (Tabela 10), registro audiovisual (Tabela 11), tabulação qualitativa das respostas (Tabela 12) e inclusão da oportunidade de reprojeto OPO-E01 (Tabela 13). | Daniel da Silva Batista | Pedro Rocha |
 | `1.0` | 23/10/2026 | Estruturação inicial do artefato individual de avaliação e relato da Etapa 5: incorporação do Storyboard SB-01, preparação das matrizes de inspeção, estrutura do teste-piloto e roteiro de entrevista. | Daniel da Silva Batista | — |
 | `1.1` | 23/10/2026 | Realização da autoinspeção analítica dos próprios modelos (HTA e CTT da TAR-01 e Storyboard SB-01) com base nas listas de verificação da Etapa 4, registrando conformidades e oportunidades de reprojeto (Tabelas 4, 5, 6 e 7). | Daniel da Silva Batista | — |
