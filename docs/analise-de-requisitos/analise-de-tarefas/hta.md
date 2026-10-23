@@ -64,7 +64,7 @@ Para assegurar essa profundidade — alinhando-se ao rigor demonstrado na delimi
 * **Nível 2 — Tarefas Interativas Ricas e Engajamento Cognitivo (TAR-04, TAR-05 e TAR-08):** Constituem funcionalidades bidirecionais de alta relevância ergonômica:
   - **`TAR-04` (Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário):** Provê linha do tempo dinâmica de fases com contadores regressivos, visualizador de retificações (*diff* textual antes x depois), calculadora de prazos para recursos e integração com calendários digitais (.ics / Google Agenda);
   - **`TAR-05` (Sistema de Simulados Online Interativo):** Provê um motor avaliativo com parametrização de filtros (disciplina, banca, volume de questões, temporizador regressivo), áreas de toque móveis adaptadas ($\ge 48\text{px}$), feedback formativo imediato por alternativa, gabarito oficial comentado e consolidação estatística com tolerância a oscilações de sinal (*Zero Data Loss*);
-  - **`TAR-08` (Central de Alertas Inteligentes e Parametrizados por E-mail):** Substitui a captura cega e passiva de newsletters por um configurador proativo com filtros avançados multicritério (UF com prioridade DF, escolaridade, carreiras e remuneração), validação sintática em tempo real no cliente, dupla confirmação de consentimento (*Double Opt-In*) e gerenciamento autônomo de descadastro com 1 clique (LGPD).
+  - **`TAR-08` (Calendário Pessoal de Concursos com Gestão de Inscrições e Lembretes de Prazos):** Supera a gestão fragmentada e passiva de editais ao prover um painel interativo de acompanhamento de múltiplos certames (inscrições, vencimento de boletos bancários com contadores regressivos, datas de provas e recursos), detecção visual de conflitos de datas entre editais concorrentes, checklist de status de pagamento e exportação dinâmica de eventos com lembretes para Google Agenda e calendários digitais (.ics).
 * **Nível 3 — Tarefas Propositivas e Superação de Lacunas de IHC (TAR-06 e TAR-07):** Tratam de tarefas que expandem o escopo do portal para atender demandas reprimidas (como a inclusão de estágios de nível superior no DF e reprojeto de videoaulas com *Modo Foco*).
 
 A Tabela 2 a seguir consolida a matriz oficial de tarefas da equipe:
@@ -82,7 +82,7 @@ A Tabela 2 a seguir consolida a matriz oficial de tarefas da equipe:
 | **TAR-05** | Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho | Arthur Sismene Carvalho |
 | **TAR-06** | Buscar oportunidades de estágio de nível superior no DF *(Tarefa não suportada)* | Arthur Sismene Carvalho |
 | **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
-| **TAR-08** | Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério | Leonardo da Silva Lopes Júnior |
+| **TAR-08** | Organizar e acompanhar múltiplos certames no Calendário Pessoal de Concursos com prazos de inscrição, pagamento de boleto e exportação para agenda digital | Leonardo da Silva Lopes Júnior |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Pedro Rocha Ferreira Lima (2026).</p>
 
@@ -766,47 +766,44 @@ flowchart TD
 
 ---
 
-### 6.2 Tarefa 08: Cadastrar e parametrizar alertas inteligentes de editais por e-mail com filtros avançados multicritério (TAR-08)
+### 6.2 Tarefa 08: Organizar e acompanhar múltiplos certames no Calendário Pessoal de Concursos com prazos de inscrição, pagamento de boleto e exportação para agenda digital (TAR-08)
 
-A Tarefa 08 compreende o processo de assinatura, parametrização avançada e recebimento de boletins informativos e notificações de novos certames e editais publicados. A tarefa responde diretamente à rotina da persona **Renata Cristina Freitas (`PER-04`)**, que, em virtude da jornada de trabalho integral de 44 horas semanais, necessita de mecanismos assíncronos e automatizados para não perder prazos de abertura de inscrições no Distrito Federal e entorno imediato. Os dados da Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior) corroboram que o e-mail segue sendo um dos canais corporativos e individuais de maior adesão no Brasil, tornando o serviço de newsletter uma ferramenta crítica para retenção e satisfação dos concurseiros ativos quando devidamente segmentado.
+A Tarefa 08 compreende a organização temporal, o monitoramento de múltiplos certames de interesse e o controle rigoroso de prazos críticos (período de inscrições, vencimento do boleto bancário da taxa, divulgação de locais e datas de aplicação de provas). A tarefa responde diretamente à rotina da persona **Renata Cristina Freitas (`PER-04`)**, trabalhadora CLT em jornada de 44 horas semanais que concilia trabalho corporativo, afazeres domésticos e preparação para concursos administrativos e judiciários no Distrito Federal e entorno. Diante da severa restrição de tempo livre identificada na Análise Documental [`DOC-04`](../perfil-de-usuario.md#54-analise-documental-04-responsavel-leonardo-da-silva-lopes-junior), a dispersão de editais em PDFs isolados impõe sobrecarga cognitiva e elevado estresse, gerando o risco permanente de esquecimento da data limite de pagamento de boletos ou da descoberta tardia de sobreposição de provas no mesmo domingo.
 
-A decomposição hierárquica da Tarefa 08 é ilustrada na Figura 8, e a análise detalhada de seus gargalos e recomendações de design é apresentada na Tabela 9.
+A decomposição hierárquica da Tarefa 08 é ilustrada na Figura 8, e a análise detalhada de suas operações, problemas observados e recomendações de design é apresentada na Tabela 9.
 
 #### Diagrama de Decomposição HTA (Figura 8)
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 8:</b> Diagrama HTA da Tarefa 08 - Cadastrar e parametrizar alertas inteligentes de editais por e-mail</p>
+<p align="center"><b>Figura 8:</b> Diagrama HTA da Tarefa 08 - Organizar e acompanhar múltiplos certames no Calendário Pessoal de Concursos</p>
 
 </div>
 
 ```mermaid
 flowchart TD
     classDef default fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
-    T0["0. Cadastrar e parametrizar alertas inteligentes de editais por e-mail<br><i>Plano 0: 1 depois 2 depois 3; após confirmação, 4; para gestão contínua, 5</i>"]
+    T0["0. Organizar e acompanhar múltiplos certames no Calendário Pessoal de Concursos<br><i>Plano 0: 1 depois 2; monitorar 3 e 4 continuamente; se desejado, 5</i>"]
 
-    T1["1. Localizar a Central de Alertas Inteligentes no portal<br><i>Plano 1: 1.1 depois 1.2</i>"]
-    T11["1.1 Percorrer a página inicial ou barra de serviços do portal"]
-    T12["1.2 Identificar módulo de alertas com ícone destacado e contraste suave"]
+    T1["1. Acessar o Calendário Pessoal e consolidar certames de interesse<br><i>Plano 1: 1.1 depois 1.2</i>"]
+    T11["1.1 Localizar concursos abertos ou previstos pretendidos no portal"]
+    T12["1.2 Acionar o comando 'Adicionar ao Meu Calendário' para cada certame"]
 
-    T2["2. Configurar preferências e filtros avançados multicritério<br><i>Plano 2: 2.1, 2.2 e 2.3 concorrentes; depois 2.4</i>"]
-    T21["2.1 Selecionar região geográfica com foco prioritário no DF"]
-    T22["2.2 Segmentar por área de carreira e nível de escolaridade"]
-    T23["2.3 Definir periodicidade de notificações (instantânea, diária, semanal)"]
-    T24["2.4 Inserir endereço de e-mail com validação sintática em tempo real"]
+    T2["2. Explorar e alternar visualizações cronológicas dos eventos<br><i>Plano 2: alternar entre 2.1 e 2.2 conforme necessidade analítica</i>"]
+    T21["2.1 Inspecionar a Linha do Tempo Unificada com ordenação cronológica de marcos"]
+    T22["2.2 Alternar para a Grade Mensal com marcação colorida por órgão"]
 
-    T3["3. Submeter formulário, consentir com LGPD e validar dupla confirmação<br><i>Plano 3: 3.1 depois 3.2 depois 3.3</i>"]
-    T31["3.1 Marcar caixa de consentimento explícito de privacidade (LGPD)"]
-    T32["3.2 Confirmar envio do formulário de monitoramento"]
-    T33["3.3 Confirmar token de validação via link seguro (Double Opt-In)"]
+    T3["3. Monitorar pendências de pagamento e registrar status de inscrição<br><i>Plano 3: 3.1 depois 3.2</i>"]
+    T31["3.1 Identificar contagem regressiva e aviso de vencimento de boleto bancário"]
+    T32["3.2 Atualizar status manual para 'Boleto Pago' ou 'Isenção Solicitada'"]
 
-    T4["4. Receber notificações customizadas sem sobrecarga de spam<br><i>Plano 4: 4.1 e 4.2</i>"]
-    T41["4.1 Receber boletim com card visual limpo estruturado por UF"]
-    T42["4.2 Acessar edital oficial correspondente a partir do card"]
+    T4["4. Inspecionar e tratar conflitos de datas entre certames concorrentes<br><i>Plano 4: se alerta de sobreposição for emitido, executar 4.1 e 4.2</i>"]
+    T41["4.1 Analisar alerta visual de choque de horário/turno de aplicação de provas"]
+    T42["4.2 Priorizar certame principal e desativar alertas do certame concorrente"]
 
-    T5["5. Gerenciar preferências ou suspender alertas<br><i>Plano 5: 5.1 ou 5.2</i>"]
-    T51["5.1 Ajustar frequência ou pausar envios temporariamente"]
-    T52["5.2 Efetuar revogação instantânea de consentimento (One-Click Unsubscribe)"]
+    T5["5. Sincronizar marcos com agenda digital pessoal e configurar lembretes<br><i>Plano 5: 5.1 depois 5.2</i>"]
+    T51["5.1 Selecionar marcos desejados e definir antecedência de notificações push"]
+    T52["5.2 Concluir integração direta com Google Agenda ou exportar arquivo .ics"]
 
     T0 --> T1
     T0 --> T2
@@ -819,12 +816,9 @@ flowchart TD
 
     T2 --> T21
     T2 --> T22
-    T2 --> T23
-    T2 --> T24
 
     T3 --> T31
     T3 --> T32
-    T3 --> T33
 
     T4 --> T41
     T4 --> T42
@@ -847,23 +841,22 @@ flowchart TD
 
 | Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
 | :--- | :--- | :--- | :--- |
-| **0. Cadastrar e parametrizar alertas inteligentes de editais por e-mail** | **Plano 0:** Executar 1, 2 e 3 em sequência. Confirmar recebimento em 4. Gerenciar preferências ou descadastrar em 5. | **Sobrecarga informativa (infoxicação):** o sistema oferece apenas uma captura universal e indiscriminada, disparando boletins diários densos com centenas de concursos de todo o Brasil, gerando frustração em concurseiros focados em seleções locais ou cargos específicos. | Converter o formulário em uma "Central de Alertas Personalizados de Vagas", permitindo seleção por UF, nível de escolaridade e carreira pretendida (`RF-DOC-06`). |
-| **1. Localizar formulário de cadastro de alertas** | **Plano 1:** Executar 1.1 e 1.2. | O bloco de cadastro de newsletter não possui posição fixa nem destaque visual de peso, situando-se próximo ao rodapé em meio a propagandas contextuais. | Posicionar o componente de assinatura com contraste visual suave no topo ou na barra lateral de serviços, sob o título claro *"Alertas de Concursos por E-mail"*. |
-| **1.1 Percorrer página em busca do módulo** | Ação visual | Confusão perceptual: usuários confundem o campo de newsletter com a caixa de pesquisa do site devido à similaridade de estilo visual. | Adicionar ícone universal de envelope e rotular explicitamente o campo como *"Digite seu e-mail para receber vagas"*. |
-| **1.2 Identificar a caixa de captura** | Operação cognitiva | **Conformidade com a LGPD e privacidade:** ausência de indicação explícita sobre a finalidade de uso do endereço eletrônico e inexistência de termo de consentimento prévio. | Incluir caixa de consentimento informada (opt-in explícito) com link direto para a Política de Privacidade e Proteção de Dados (`RNF-DOC-05`). |
-| **2. Configurar preferências de notificação** | **Plano 2:** Executar 2.1. As operações 2.2 e 2.3 são objetivos centrais do usuário, mas **não são suportadas pelo sistema**. | O formulário aceita unicamente o endereço de e-mail, sem possibilitar nenhum tipo de parametrização geográfica, de remuneração ou de formação acadêmica. | Adicionar seletores dinâmicos de preferências: Unidade Federativa (UF), Nível de Escolaridade (Médio/Técnico/Superior) e Carreira (Jurídica, Fiscal, Administrativa, etc.) (`RF-DOC-06`). |
-| **2.1 Inserir e-mail válido** | Ação física | O campo não executa validação sintática imediata em tempo real (*client-side*), permitindo submeter e-mails incompletos ou com erros tipográficos óbvios (ex.: falta de `@` ou domínio incorreto). | Implementar validação imediata no navegador via HTML5 (`type="email"`) e regex com mensagem de ajuda explicativa. |
-| **2.2 Segmentar alertas por região/UF** | **Operação não suportada** | Usuários residentes no Distrito Federal recebem compulsivamente vagas de conselhos municipais de regiões distantes sem qualquer relevância para seu perfil. | Tornar a seleção de estado/UF um parâmetro configurável obrigatório ou opcional na inscrição (`RF-DOC-06`). |
-| **2.3 Segmentar alertas por escolaridade ou carreira** | **Operação não suportada** | Concurseiros com nível superior em Direito/Administração recebem alertas de cargos operacionais elementares, elevando o ruído cognitivo. | Permitir a seleção múltipla de áreas profissionais desejadas para entrega de conteúdo sob medida (`RF-DOC-06`). |
-| **3. Submeter formulário e verificar confirmação** | **Plano 3:** Executar 3.1 e 3.2. | Feedback visual precário e frágil: a confirmação é exibida como uma simples linha de texto cinza, sem confirmação segura em duas etapas (*double opt-in*). | Adicionar modal comemorativo de cadastro e implementar fluxo seguro de confirmação por e-mail (*double opt-in* com link de validação). |
-| **3.1 Confirmar cadastro de alertas** | Operação de interface | O botão não exibe estado de carregamento (*loading spinner*), levando o usuário a múltiplos cliques na incerteza de envio. | Adicionar animação de carregamento e desabilitar o botão temporariamente após o primeiro acionamento. |
-| **3.2 Avaliar mensagem de feedback** | Operação cognitiva | O usuário não é orientado sobre a periodicidade das mensagens (diária, semanal) nem sobre quando receberá a primeira edição. | Comunicar com precisão: *"Cadastro confirmado! Você receberá nosso boletim diário às 07h da manhã com as vagas selecionadas"*. |
-| **4. Acessar caixa de entrada e validar boletim** | **Plano 4:** Executar 4.1 e 4.2. | O e-mail recebido consiste em uma listagem longa e corrida em texto quase puro, sem hierarquia visual, sem sumário de destaques e sem formatação responsiva para leitura rápida em celulares. | Desenhar template HTML moderno de e-mail com cartões estruturados (Órgão, Vagas, Salário, Prazo Final) e destaques de editais do DF no topo. |
-| **4.1 Abrir provedor de correio eletrônico** | Ação física | Risco de desvio das mensagens para a pasta de Spam ou Lixo Eletrônico devido à ausência de orientações de inclusão do remetente na lista de confiáveis. | Orientar o usuário na mensagem de confirmação: *"Adicione nosso remetente aos seus contatos para garantir a entrega"*. |
-| **4.2 Triar editais pertinentes no boletim** | Operação cognitiva | **Custo cognitivo severo de triagem:** o usuário é obrigado a ler linha a linha de uma mensagem extensa para verificar se há alguma vaga em sua cidade. | Organizar o conteúdo do boletim com seções bem demarcadas por estado e links diretos para a página de inscrição oficial. |
-| **5. Gerenciar preferências ou descadastrar** | **Plano 5:** Executar 5.1. A operação 5.2 não é suportada pelo sistema. | **Políticas de saída restritivas:** o e-mail não permite pausar envios nem ajustar a frequência (ex.: migrar de diário para semanal), oferecendo apenas o cancelamento total e definitivo. | Implementar central do assinante com opções de pausar envio por 30 dias, alternar para resumo semanal ou trocar as áreas de interesse (`RF-DOC-07`). |
-| **5.1 Requisitar revogação de consentimento** | Operação funcional | O controle de cancelamento é apresentado em fonte minúscula (8px) no rodapé do e-mail, contrariando diretrizes de descadastramento rápido e transparente. | Disponibilizar comando claro e visível de descadastramento com revogação instantânea (*one-click unsubscribe*, padrão RFC 8058). |
-| **5.2 Ajustar frequência de envio** | **Operação não suportada** | Inexistência de seletor de periodicidade; concurseiros com caixas postais lotadas não conseguem receber resumos consolidados aos finais de semana. | Oferecer opção de escolha: Diário, Semanal (às sextas-feiras) ou Apenas Grandes Editais (`RF-DOC-07`). |
+| **0. Organizar e acompanhar múltiplos certames no Calendário Pessoal de Concursos** | **Plano 0:** Executar 1 depois 2; monitorar 3 e 4 continuamente; se desejado, executar 5 para sincronização externa. | **Fragmentação de prazos e sobrecarga cognitiva:** o usuário é obrigado a consultar múltiplos PDFs extensos e dispersos de editais e retificações para anotar datas críticas em agendas de papel ou blocos de notas avulsos, elevando o risco de perda de prazos de inscrição e pagamento. | Prover o módulo centralizado "Meu Calendário Pessoal de Concursos", unificando marcos cronológicos em linha do tempo interativa e grade mensal com alertas proativos (`RF-DOC-06`). |
+| **1. Acessar o Calendário Pessoal e consolidar certames de interesse** | **Plano 1:** Executar 1.1 depois 1.2 para cada seleção pretendida. | O portal atual não permite criar uma lista de certames acompanhados ou favoritos vinculados ao perfil do concurseiro. | Disponibilizar botão de ação direta *"Adicionar ao Meu Calendário"* nas páginas de detalhes de cada concurso e na busca geral (`RF-DOC-06`). |
+| **1.1 Localizar concursos pretendidos no portal** | Ação visual | Dificuldade de reencontrar certames salvos: o usuário precisa repetir buscas manuais a cada visita ao portal. | Criar atalho fixo no cabeçalho com indicador numérico de concursos em acompanhamento (ex.: *"Meu Calendário [2]"*). |
+| **1.2 Acionar 'Adicionar ao Meu Calendário'** | Operação de interface | Ausência de confirmação tátil/visual imediata após salvar um certame. | Adicionar animação de confirmação e alternar o rótulo do botão para *"No Calendário"* com ícone de verificação verde. |
+| **2. Explorar e alternar visualizações cronológicas dos eventos** | **Plano 2:** Alternar livremente entre 2.1 e 2.2 dependendo da perspectiva temporal desejada. | Ausência de representação gráfica de datas no portal atual: apresentação puramente textual em listas corridas que não comunicam a proximidade dos prazos. | Implementar alternador de visualização (*toggle*) entre "Linha do Tempo" (foco na sequência imediata) e "Grade Mensal" (visão panorâmica de calendário) (`RNF-DOC-04`). |
+| **2.1 Inspecionar a Linha do Tempo Unificada** | Operação cognitiva | Dificuldade de priorização: usuários não conseguem discernir com rapidez qual é o prazo fatal mais iminente. | Destacar na linha do tempo o marco seguinte com contagem regressiva em dias e horas (ex.: *"Inscrições encerram em 3 dias"*). |
+| **2.2 Alternar para a Grade Mensal** | Operação de interface | Falta de visão macro: o usuário não consegue enxergar a distribuição de provas ao longo dos finais de semana do mês. | Exibir calendário mensal interativo com marcadores coloridos identificando o órgão de cada evento. |
+| **3. Monitorar pendências de pagamento e registrar status de inscrição** | **Plano 3:** Executar 3.1 e 3.2 para garantir a efetivação da inscrição. | **Perda do prazo de pagamento bancário:** boletos de concursos possuem validade curtíssima (frequentemente 24h a 48h após o fim da inscrição); o esquecimento do pagamento anula a inscrição de candidatos que passaram semanas estudando. | Exibir tarjeta amarela de alerta visual preventivo quando o boleto estiver a menos de 48 horas do vencimento (`RF-DOC-07`). |
+| **3.1 Identificar contagem regressiva de boleto** | Operação cognitiva | Falta de aviso explícito sobre horário de corte de compensação bancária (muitos boletos não podem ser pagos após as 21h ou 22h do dia de vencimento). | Incluir mensagem explicativa: *"Pague até às 21h do dia do vencimento para evitar rejeição bancária"*. |
+| **3.2 Atualizar status manual de pagamento** | Operação de interface | Falta de controle pessoal: o candidato não tem onde registrar se já pagou a taxa ou se aguarda deferimento de isenção. | Disponibilizar seletor de status com 1 clique: `[Pendente]`, `[Boleto Pago]`, `[Isenção Deferida]` e botão para anexar comprovante em PDF. |
+| **4. Inspecionar e tratar conflitos de datas entre certames** | **Plano 4:** Executar 4.1 e 4.2 caso o sistema acuse colisão de datas. | **Choque de datas imperceptível:** concurseiros descobrem que duas provas ocorrem no mesmo domingo apenas nas vésperas da aplicação, gerando desperdício financeiro de inscrições e deslocamento. | Desenvolver algoritmo de detecção de choque temporal que emite aviso em destaque vermelho caso dois certames marcados ocorram na mesma data e turno (`RF-DOC-08`). |
+| **4.1 Analisar alerta de choque de horário/turno** | Operação cognitiva | Incerteza se a sobreposição impede ambos os certames ou se ocorrem em turnos distintos (manhã vs. tarde). | Discriminar no alerta se o choque é total (mesmo turno) ou viável (turnos opostos com estimativa de intervalo de deslocamento). |
+| **4.2 Priorizar certame principal** | Operação de interface | Dificuldade de gerenciar múltiplos certames sem excluir permanentemente o concorrente. | Permitir marcar um concurso como *"Prioritário"* e silenciar temporariamente as notificações do secundário. |
+| **5. Sincronizar marcos com agenda digital pessoal** | **Plano 5:** Executar 5.1 depois 5.2 para exportação externa. | O portal atual é estático e opera de forma isolada, forçando o usuário a digitar manualmente cada data em seu aplicativo de agenda. | Disponibilizar exportação dinâmica com integração direta ao Google Agenda e geração de arquivo universal `.ics` (Apple Calendar, Outlook) (`RF-DOC-09`). |
+| **5.1 Selecionar marcos e antecedência de lembretes** | Operação de interface | Notificações genéricas ou invasivas que não respeitam a rotina do usuário. | Permitir marcar caixas de seleção (*checkboxes*) para quais eventos exportar e configurar lembretes push no celular (24h e 2h antes). |
+| **5.2 Concluir integração com Google Agenda / .ics** | Ação funcional | Processos de exportação complexos com múltiplos cliques que geram fricção técnica. | Oferecer comando em 1 clique *"Sincronizar com Google Agenda"* via OAuth seguro e botão *"Baixar .ics"* para importação offline imediata. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base na Análise Documental DOC-04 e na Persona PER-04.</p>
 
@@ -891,5 +884,7 @@ flowchart TD
 | `1.3` | 28/09/2026 | Modelagem HTA completa das Tarefas 07 e 08 (Figuras 7 e 8, Tabelas 8 e 9), detalhando consumo de videoaulas sob restrição móvel e formulário de alertas de vagas, fundamentadas em DOC-04 e na persona Renata Cristina Freitas (PER-04). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.4` | 06/10/2026 | Inclusão da Seção 2.1 de enquadramento ergonômico e níveis de complexidade das tarefas, enriquecimento de TAR-04 (timeline de fases), TAR-05 (simulado online interativo) e TAR-08 (central de alertas inteligentes com LGPD) (Issue #14). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.5` | 09/10/2026 | Atendimento às OBS da avaliação docente: inclusão da Tabela 1 com legenda e notação formal da HTA (objetivos, planos e operações), consolidação da matriz em 8 tarefas completas dos 4 membros ativos, correção do cabeçalho da Tabela de Contribuição, padronização visual dos diagramas no estilo de Barbosa & Silva (2010) eliminando tons rosados e adequação das Referências Bibliográficas (ABNT). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho |
+| `1.6` | 22/10/2026 | Remodelagem formal da Tarefa 08 (TAR-08) em HTA: substituição do formulário de alertas assíncronos pela funcionalidade interativa de Calendário Pessoal de Concursos (Tabela 2, Seção 6.2, diagrama Mermaid e Tabela 9), atendendo ao feedback docente sobre interatividade do sistema. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 </div>
+

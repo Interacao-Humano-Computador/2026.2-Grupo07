@@ -325,13 +325,13 @@ Para sanar a colisão terminológica de *"estágio"* identificada em TAR-06 e CE
 
 ---
 
-#### 5.6 Formulário Parametrizado de Alertas por E-mail (Resolução de TAR-08)
-O formulário de newsletter deixa de ser um campo de texto isolado e torna-se uma **Central de Alertas Personalizados**:
-* Campo de e-mail com validação em tempo real;
-* Seletores de UFs prioritárias (`DF`, `GO`, etc.);
-* Seletores de escolaridade (*Médio*, *Técnico*, *Superior*);
-* Seletores de carreira (*Administrativa*, *Tribunais*, *Fiscal*, etc.);
-* Termo de consentimento explícito em conformidade com a LGPD e cancelamento garantido com 1 clique.
+#### 5.6 Painel e Componentes do Calendário Pessoal de Concursos (Resolução de TAR-08)
+O portal introduz o módulo **"Meu Calendário Pessoal de Concursos"**, consolidando múltiplos certames em uma interface visual de alta densidade informativa e controle ergonômico:
+* **Alternador de Visualização (Toggle):** Controle segmentado de topo permitindo alternar entre *"Linha do Tempo"* (ordenação sequencial imediata) e *"Grade Mensal"* (visão espacial de calendário por semanas);
+* **Badges de Prazos Fatais e Alertas Preventivos:** Tarjetas semânticas dinâmicas com contagem regressiva em dias/horas para o vencimento de boleto bancário (`#9A6700` em aviso e `#CF222E` para prazos < 24h);
+* **Detector Visual de Choque de Datas:** Banner de advertência em vermelho emitido automaticamente caso duas provas marcadas ocorram na mesma data e turno;
+* **Controle de Status de Pagamento com 1 Clique:** Seletores interativos para alternar o estado da taxa (`[Pendente]`, `[Boleto Pago]`, `[Isenção Deferida]`);
+* **Botão de Ação Direta de Sincronização:** Comando primário destacado *"Sincronizar com Google Agenda"* (via OAuth) e botão secundário *"Baixar .ics"* para exportação offline de eventos com lembretes automáticos pré-configurados.
 
 ---
 
@@ -389,7 +389,7 @@ O Guia de Estilo estabelece correspondência direta entre as decisões projetuai
 | Layout desconfigurado no mobile e perda de progresso de questões em simulados | **DOC-03 / CEN-05 / TAR-05** | **Grid Mobile Modular e Zero CLS (Seções 3.1 e 4.4):** Áreas de toque de 48px, contêineres de altura fixa e persistência de dados localmente. | Garante a Thiago (`PER-03`) resolver questões no ônibus em movimento sem marcações involuntárias. |
 | Colisão terminológica de "estágio" e ausência de vagas estudantis | **DOC-03 / CEN-06 / TAR-06** | **Desambiguação Semântica na Busca (Seção 5.5) e Vocabulário Controlado:** Distinção entre estágio acadêmico e estágio probatório. | Elimina 12 minutos de busca frustrada e abandono do portal por universitários. |
 | Videoaulas sem trilha pedagógica e layout móvel sobrepondo anúncios no player | **DOC-04 / CEN-07 / TAR-07** | **Modo Foco e Player Responsivo (Seções 3.1 e 6.2):** Ocultação de banners laterais no modo horizontal móvel e trilha sequencial com PDF. | Permite a Renata (`PER-04`) estudar em intervalos de trabalho de 30 minutos com qualidade. |
-| Newsletter massiva e generalista sem segmentação por UF nem cancelamento fácil | **DOC-04 / CEN-08 / TAR-08** | **Central de Alertas Parametrizados (Seção 5.6):** Seleção de UF e carreira, periodicidade flexível e descadastramento em 1 clique (LGPD). | Elimina a sobrecarga de spams na caixa postal de concurseiros com dupla jornada de trabalho. |
+| Fragmentação de prazos e perda da data de pagamento de boletos de inscrição | **DOC-04 / CEN-08 / TAR-08** | **Meu Calendário Pessoal de Concursos (Seção 5.6):** Linha do tempo unificada, grade mensal, alerta de choque de provas, status de boleto e exportação Google Agenda (.ics). | Elimina a ansiedade de prazos de candidatos com jornada integral e evita a anulação de inscrições por esquecimento bancário. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
