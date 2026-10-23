@@ -313,7 +313,9 @@ O detalhamento narrativo do Cenário 08, estruturado segundo os sete elementos f
 | `1.5` | 04/10/2026 | Inclusão da fundamentação formal da relação entre Personas e Cenários (Carroll; Barbosa & Silva), explicitação dos papéis na matriz e padronização tipográfica das legendas com base empírica (Issue #11). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.6` | 06/10/2026 | Enriquecimento dos cenários com funcionalidades interativas ricas: CEN-04 (timeline de fases e alertas de retificação), CEN-05 (simulado interativo com feedback e gabarito) e CEN-08 (central de alertas inteligentes e LGPD) (Issue #14). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.7` | 09/10/2026 | Atendimento à OBS 5 da avaliação docente: consolidação da matriz em 8 cenários completos e fechados (exatamente 2 por integrante ativo da equipe), remoção dos cenários 09 e 10 incompletos e adequação de Referências Bibliográficas. | Daniel da Silva Batista | Leonardo da Silva Lopes Júnior |
+| `1.8` | 22/10/2026 | Remodelagem do Cenário 08 (CEN-08): substituição da central de alertas por e-mail pelo Calendário Pessoal de Concursos (gestão de múltiplos certames, linha do tempo, detecção de choque de datas, alertas de boleto e sincronização com Google Agenda), em atendimento ao feedback docente. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
