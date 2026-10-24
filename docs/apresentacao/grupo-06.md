@@ -212,9 +212,9 @@ Esta seção reúne os itens adicionais de verificação definidos pelo Grupo 07
 
 ## 8. Referências
 
-> ANTHROPIC. *Claude* (versão Opus 5). [Modelo de linguagem de grande escala]. Utilizado como apoio à organização e à redação deste artefato. Disponível em: <https://claude.ai>. Acesso em: 2 out. 2026.  
-> BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. [S. l.]: Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
-> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: FCTE/UnB, 2026.
+> [1] ANTHROPIC. *Claude* (versão Opus 5). [Modelo de linguagem de grande escala]. Utilizado como apoio à organização e à redação deste artefato. Disponível em: <https://claude.ai>. Acesso em: 2 out. 2026.  
+> [2] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. [S. l.]: Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
+> [3] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: FCTE/UnB, 2026.  
 
 ## 9. Histórico de Versões
 

@@ -157,24 +157,24 @@ Entram na avaliação as **oito tarefas** da versão vigente da matriz de tarefa
 
 </div>
 
-A inspeção cobre os dezesseis modelos. As entrevistas cobrem as oito tarefas distribuídas entre **quatro sessões**, duas tarefas por sessão — uma sessão por integrante do grupo, com cada integrante validando as tarefas que ele próprio modelou. Cada tarefa é validada uma única vez; a consequência disso para a análise está registrada na Seção 8. A Tabela 5 apresenta essa distribuição.
+A inspeção por pares e as entrevistas com usuários concentram-se nas **quatro tarefas prioritárias** vinculadas aos storyboards da equipe (uma tarefa por integrante): TAR-01, TAR-04, TAR-05 e TAR-08. As entrevistas cobrem essas quatro tarefas distribuídas entre **quatro sessões individuais**, uma tarefa por sessão — uma sessão por integrante do grupo, com cada integrante validando diretamente a tarefa prioritária vinculada ao seu storyboard. Cada tarefa é validada uma única vez; a consequência disso para a análise está registrada na Seção 8. A Tabela 5 apresenta essa distribuição.
 
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 5: Distribuição das Tarefas entre as Sessões</b></p>
 
-| Sessão | Participante | Tarefas validadas | Persona de referência | Entrevistador |
+| Sessão | Participante | Tarefa validada | Perfil de Usuário | Entrevistador |
 | :---: | :---: | :--- | :--- | :--- |
-| **S1** | USR-06 | TAR-01 e TAR-02 | PER-01 — Maria Helena dos Santos | Daniel da Silva Batista |
-| **S2** | USR-07 | TAR-03 e TAR-04 | PER-02 — Lucas Ferreira Rocha | Pedro Rocha Ferreira Lima |
-| **S3** | USR-08 | TAR-05 e TAR-06 | PER-03 — Thiago Moraes Albuquerque | Arthur Sismene Carvalho |
-| **S4** | USR-09 | TAR-07 e TAR-08 | PER-04 — Renata Cristina Freitas | Leonardo da Silva Lopes Júnior |
+| **S1** | USR-06 | TAR-01 — Parametrizar busca avançada multicritério e comparar editais | Perfil 1 — Candidato/Concurseiro | Daniel da Silva Batista |
+| **S2** | USR-07 | TAR-04 — Acompanhar timeline interativa de fases do certame | Perfil 1 — Candidato/Concurseiro | Pedro Rocha Ferreira Lima |
+| **S3** | USR-08 | TAR-05 — Simulado online interativo com feedback automático | Perfil 1 — Candidato/Concurseiro | Arthur Sismene Carvalho |
+| **S4** | USR-09 | TAR-08 — Alertas inteligentes de editais por e-mail | Perfil 1 — Candidato/Concurseiro | Leonardo da Silva Lopes Júnior |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
-O agrupamento não é arbitrário: as duas tarefas de cada sessão pertencem à mesma persona, de modo que o participante recrutado para aquela sessão só precisa se reconhecer em um perfil, e não em dois.
+O recorte não é arbitrário: todas as tarefas prioritárias pertencem ao Perfil 1 (Candidato/Concurseiro), de modo que os participantes recrutados representam diretamente o público-alvo principal do portal. As tarefas secundárias da modelagem conceitual (TAR-02, TAR-03, TAR-06 e TAR-07) permanecem no escopo dos modelos da Etapa 2, preservando-se nesta etapa o foco e a profundidade na avaliação formativa das funcionalidades que seguirão para prototipação.
 
 Fora do escopo: a avaliação da interface atual do portal e a verificação de viabilidade técnica das funcionalidades propostas. O objeto aqui é o modelo de tarefas — se a decomposição descreve corretamente o que o usuário precisa fazer —, não se o recurso pode ou não ser implementado.
 
@@ -214,10 +214,10 @@ Como várias tarefas descrevem recursos que o portal ainda não possui, o entrev
 
 - **Termo de Consentimento Livre e Esclarecido (TCLE)**, conforme o modelo definido em [Aspectos Éticos](../analise-de-requisitos/aspectos-eticos.md);
 - **Roteiro de abertura**, com objetivos, procedimento, cuidados éticos e as frases de enquadramento de cada tarefa;
-- **Diagramas HTA** das duas tarefas de cada sessão, em arquivo legível em tela;
+- **Diagramas HTA** da tarefa prioritária da sessão, em arquivo legível em tela;
 - **Roteiro de entrevista** (Tabela 9);
 - **Formulário de acompanhamento**, para registro do procedimento atual relatado, das divergências e dos caminhos alternativos;
-- **Listas de Verificação para HTA e para CTT**, usadas na etapa de inspeção.
+- **[Listas de Verificação para HTA e para CTT](listas-verificacao-etapa-4.md)**, usadas na etapa de inspeção.
 
 Todos os participantes recebem o mesmo material e as mesmas orientações.
 
@@ -238,17 +238,17 @@ A Tabela 7 apresenta o cronograma planejado da avaliação.
 | Inspeção cruzada dos modelos HTA e CTT | Todos os integrantes | 14/10/2026 | 20:00 às 21:30 |
 | Correção dos modelos após a inspeção | Autores de cada tarefa | 15/10/2026 | — |
 | Teste-piloto | Arthur Sismene Carvalho e Leonardo da Silva Lopes Júnior | 15/10/2026 | 20:00 às 20:45 |
-| Sessão S1 — USR-06 | Daniel da Silva Batista | 16/10/2026 | 19:00 às 19:40 |
-| Sessão S2 — USR-07 | Pedro Rocha Ferreira Lima | 16/10/2026 | 20:00 às 20:40 |
-| Sessão S3 — USR-08 | Arthur Sismene Carvalho | 17/10/2026 | 18:00 às 18:40 |
-| Sessão S4 — USR-09 | Leonardo da Silva Lopes Júnior | 17/10/2026 | 19:00 às 19:40 |
+| Sessão S1 — USR-06 | Daniel da Silva Batista | 16/10/2026 | 19:00 às 19:30 |
+| Sessão S2 — USR-07 | Pedro Rocha Ferreira Lima | 16/10/2026 | 20:00 às 20:30 |
+| Sessão S3 — USR-08 | Arthur Sismene Carvalho | 17/10/2026 | 18:00 às 18:30 |
+| Sessão S4 — USR-09 | Leonardo da Silva Lopes Júnior | 17/10/2026 | 19:00 às 19:30 |
 | Consolidação e redação do relato | Todos os integrantes | 19/10/2026 | 14:00 às 17:00 |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
-Cada sessão é dimensionada em **40 minutos**, para duas tarefas. A estimativa respeita o limite de cerca de 20 minutos por tarefa e mantém a sessão bem abaixo da hora que costuma ser o limite confortável para o participante.
+Cada sessão é dimensionada em **25 a 30 minutos** para a tarefa prioritária. A estimativa respeita o limite ergonômico de conforto do participante (Barbosa et al., 2021) e evita fadiga cognitiva.
 
 ### 6.7 Roteiro da inspeção
 
@@ -260,14 +260,14 @@ A inspeção usa as duas listas de verificação elaboradas na disciplina, aplic
 
 | Instrumento | Itens | O que verifica |
 | :--- | :---: | :--- |
-| Lista de Verificação para HTA | 10 | Estrutura hierárquica, formulação do objetivo, decomposição em subtarefas, numeração, planos e critério de parada |
-| Lista de Verificação para CTT | 10, em três blocos | Bloco I — estrutura do modelo e classificação das tarefas nos quatro tipos; Bloco II — emprego dos operadores temporais entre tarefas irmãs; Bloco III — alcance e limitações da notação |
+| [Lista de Verificação para HTA](listas-verificacao-etapa-4.md#2-lista-de-verificacao-para-hta-10-itens) | 10 | Estrutura hierárquica, formulação do objetivo, decomposição em subtarefas, numeração, planos e critério de parada |
+| [Lista de Verificação para CTT](listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | 10, em três blocos | Bloco I — estrutura do modelo e classificação das tarefas nos quatro tipos; Bloco II — emprego dos operadores temporais entre tarefas irmãs; Bloco III — alcance e limitações da notação |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026), a partir das Listas de Verificação para HTA e para CTT.</p>
 
 </div>
 
-Cada item é respondido como **Conforme**, **Não conforme** ou **Não se aplica**. A inspeção é **cruzada**: nenhum integrante inspeciona o modelo que ele próprio construiu, e cada modelo recebe duas respostas independentes. As divergências são resolvidas em reunião, e o item 10 da lista de CTT — que trata do registro de mecanismos de prevenção e tratamento de erro, ausentes da notação — é respondido consultando os demais artefatos do projeto, não apenas o diagrama.
+Cada item é respondido como **Conforme**, **Não conforme** ou **Não se aplica**. A inspeção é **cruzada par a par (1-para-1)** (Fagan, 1976; Barbosa et al., 2021): nenhum integrante inspeciona o modelo que ele próprio construiu, e cada integrante inspeciona de forma independente os modelos de um colega da equipe, conforme os critérios definidos em [Listas de Verificação para Inspeção](listas-verificacao-etapa-4.md). Eventuais dúvidas ou divergências pontuais são alinhadas entre os pares e repassadas ao respectivo autor para refinamento dos diagramas. O item 10 da lista de CTT — que trata do registro de mecanismos de prevenção e tratamento de erro, ausentes da notação — é respondido consultando os demais artefatos do projeto, não apenas o diagrama.
 
 À inspeção por lista soma-se uma verificação de coerência externa, que responde à PA-07: para cada tarefa, confere-se se o objetivo modelado é o mesmo declarado no cenário correspondente e se as condições da persona — dispositivo, tempo disponível, familiaridade com tecnologia — são compatíveis com a decomposição proposta. Uma tarefa de doze passos atribuída a uma persona que estuda em blocos de dez minutos no celular é uma incoerência que a lista de verificação, sozinha, não detecta.
 
@@ -334,7 +334,7 @@ Quatro aspectos são considerados antes de qualquer conclusão, conforme a últi
 
 | Aspecto | Como é tratado nesta avaliação |
 | :--- | :--- |
-| **Confiabilidade** | Mesmo roteiro e mesmo material para todos; dois inspetores independentes por modelo. Nas entrevistas não há replicação: cada tarefa é avaliada por um participante apenas |
+| **Confiabilidade** | Mesmo roteiro e mesmo material para todos; inspeção cruzada par a par com um inspetor independente por modelo. Nas entrevistas não há replicação: cada tarefa é avaliada por um participante apenas |
 | **Validade interna** | O relato do procedimento atual precede a exibição do diagrama, o que evita a concordância induzida; o roteiro é revisado no teste-piloto para eliminar perguntas que sugiram a resposta |
 | **Validade externa** | Quatro participantes não produzem significância estatística; os resultados são tratados e apresentados como indícios |
 | **Validade ecológica** | Limitada em dois graus: o participante não executa a tarefa, e boa parte das tarefas ainda não existe no portal — ele julga uma intenção de design, não uma experiência vivida. A limitação é registrada no relato, e a verificação em uso fica para a avaliação do protótipo |
@@ -366,7 +366,7 @@ O teste-piloto avalia **o próprio planejamento**: verifica se a avaliação, ta
 
 </div>
 
-O piloto é conduzido como uma sessão normal, do TCLE à última pergunta. Verifica se as perguntas 1 e 2 produzem um relato utilizável sem indução, se a frase de enquadramento deixa claro que a tarefa é uma proposta, se os diagramas são legíveis no compartilhamento de tela, se a pergunta 6 é compreensível para quem não conhece a notação CTT, e se os 40 minutos comportam duas tarefas. O entrevistador faz ainda uma análise breve dos dados, para confirmar que eles respondem às perguntas da avaliação.
+O piloto é conduzido como uma sessão normal, do TCLE à última pergunta. Verifica se as perguntas 1 e 2 produzem um relato utilizável sem indução, se a frase de enquadramento deixa claro que a tarefa é uma proposta, se os diagramas são legíveis no compartilhamento de tela, se a pergunta 6 é compreensível para quem não conhece a notação CTT, e se a duração de 25 a 30 minutos é suficiente para cobrir a tarefa. O entrevistador faz ainda uma análise breve dos dados, para confirmar que eles respondem às perguntas da avaliação.
 
 A escolha das TAR-03 e TAR-04 para o piloto é deliberada: são as duas tarefas mais distantes do que o portal oferece hoje — mapa georreferenciado e simulador de prazos recursais —, e portanto as que submetem o enquadramento ao teste mais duro. Se o roteiro funciona com elas, funciona com as demais.
 
@@ -378,8 +378,9 @@ A escolha das TAR-03 e TAR-04 para o piloto é deliberada: são as duas tarefas 
 
 > [1] BARBOSA, Simone D. J. et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
 > [2] BRASIL. Conselho Nacional de Saúde. *Resolução nº 466, de 12 de dezembro de 2012*. Brasília, DF: Diário Oficial da União, 2013.  
-> [3] PATERNÒ, Fabio. *Model-Based Design and Evaluation of Interactive Applications*. London: Springer-Verlag, 1999.  
-> [4] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: Beyond Human-Computer Interaction*. New York: John Wiley & Sons, 2002. Citado por Barbosa et al. (2021, p. 303).
+> [3] FAGAN, Michael E. *Design and Code Inspections to Reduce Errors in Program Development*. IBM Systems Journal, v. 15, n. 3, p. 182-211, 1976.  
+> [4] PATERNÒ, Fabio. *Model-Based Design and Evaluation of Interactive Applications*. London: Springer-Verlag, 1999.  
+> [5] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: Beyond Human-Computer Interaction*. New York: John Wiley & Sons, 2002. Citado por Barbosa et al. (2021, p. 303).
 
 ---
 

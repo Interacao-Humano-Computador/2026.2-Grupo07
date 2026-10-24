@@ -177,6 +177,8 @@ Na Tabela 6, tem-se o registro da execução real das atividades da terceira ent
 
 ## 4. Etapa 4 - Planejamento da Avaliação
 
+### 4.1 Cronograma Planejado
+
 Na Tabela 7, tem-se o cronograma planejado para as atividades da quarta entrega, com responsáveis e revisores preliminares distribuídos equilibradamente entre os membros da equipe.
 
 <div align="center" markdown="1">
@@ -196,22 +198,67 @@ Na Tabela 7, tem-se o cronograma planejado para as atividades da quarta entrega,
 
 </div>
 
-## 5. Etapa 5 - Relato dos Resultados e Protótipo de Papel
+### 4.2 Cronograma Executado
 
-Na Tabela 8, tem-se o cronograma planejado para as atividades da quinta entrega.
+Na Tabela 8, tem-se o registro da execução real das atividades da quarta entrega, com os respectivos responsáveis e revisores.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 8 - Cronograma Planejado (Etapa 5)</b></p>
+<p align="center"><b>Tabela 8 - Cronograma Executado (Etapa 4)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Relatar Resultados do Storyboard | Início: 14/10<br>Fim: 23/10 | Leonardo da Silva Lopes Júnior | Início: 24/10<br>Fim: 24/10 | Daniel da Silva Batista |
-| Relatar Resultados da Análise de Tarefas | Início: 14/10<br>Fim: 23/10 | Arthur Sismene Carvalho | Início: 24/10<br>Fim: 24/10 | Pedro Rocha Ferreira Lima |
-| Planejar Avaliação do Protótipo de Papel | Início: 14/10<br>Fim: 23/10 | Daniel da Silva Batista | Início: 24/10<br>Fim: 24/10 | Leonardo da Silva Lopes Júnior |
-| Reunião de Alinhamento e Ata | Início: 24/10<br>Fim: 24/10 | Pedro Rocha Ferreira Lima | Início: 24/10<br>Fim: 24/10 | Arthur Sismene Carvalho |
-| Gravar apresentação da Etapa 5 | Início: 24/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 25/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
-| Correção pós-apresentação | Início: 25/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 25/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Elaboração do Planejamento da Avaliação da Análise de Tarefas | Início: 07/10<br>Fim: 11/10 | Pedro Rocha Ferreira Lima | Início: 11/10<br>Fim: 12/10 | Daniel da Silva Batista |
+| Elaboração do Planejamento da Avaliação do Storyboard | Início: 07/10<br>Fim: 11/10 | Daniel da Silva Batista | Início: 11/10<br>Fim: 12/10 | Arthur Sismene Carvalho |
+| Elaboração do Planejamento do Relato da Análise de Tarefas | Início: 07/10<br>Fim: 11/10 | Pedro Rocha Ferreira Lima | Início: 11/10<br>Fim: 12/10 | Arthur Sismene Carvalho |
+| Elaboração do Planejamento do Relato do Storyboard | Início: 07/10<br>Fim: 11/10 | Arthur Sismene Carvalho | Início: 11/10<br>Fim: 12/10 | Leonardo da Silva Lopes Júnior |
+| Gravação da Apresentação da Etapa 4 | Início: 13/10<br>Fim: 13/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 13/10<br>Fim: 13/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Verificação da Etapa 4 (Grupo 07 e Grupo 06) | Início: 14/10<br>Fim: 14/10 | Daniel da Silva Batista | - | - |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+## 5. Etapa 5 - Relato dos Resultados (Nível 1) e Protótipo de Papel
+
+### 5.1 Cronograma Planejado
+
+Na Tabela 9, tem-se o cronograma planejado para as atividades da quinta entrega.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9 - Cronograma Planejado (Etapa 5)</b></p>
+
+| Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
+| :--- | :---: | :--- | :---: | :--- |
+| Confecção e Digitalização dos Storyboards da Equipe | Início: 14/10<br>Fim: 21/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 21/10<br>Fim: 22/10 | Arthur Sismene Carvalho, Daniel da Silva Batista |
+| Planejamento, Protocolo e Execução do Teste-Piloto de Nível 1 | Início: 14/10<br>Fim: 21/10 | Daniel da Silva Batista | Início: 21/10<br>Fim: 22/10 | Arthur Sismene Carvalho |
+| Condução das Entrevistas de Avaliação (Storyboard e Análise de Tarefas) | Início: 21/10<br>Fim: 24/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 24/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Relato dos Resultados da Avaliação do Storyboard | Início: 22/10<br>Fim: 25/10 | Leonardo da Silva Lopes Júnior, Daniel da Silva Batista | Início: 25/10<br>Fim: 25/10 | Arthur Sismene Carvalho |
+| Relato dos Resultados da Avaliação da Análise de Tarefas | Início: 22/10<br>Fim: 25/10 | Arthur Sismene Carvalho, Pedro Rocha Ferreira Lima | Início: 25/10<br>Fim: 25/10 | Daniel da Silva Batista |
+| Planejar Avaliação do Protótipo de Papel | Início: 18/10<br>Fim: 24/10 | Daniel da Silva Batista | Início: 24/10<br>Fim: 25/10 | Leonardo da Silva Lopes Júnior |
+| Gravar apresentação da Etapa 5 | Início: 25/10<br>Fim: 26/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 26/10<br>Fim: 26/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Correção pós-apresentação | Início: 26/10<br>Fim: 27/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 26/10<br>Fim: 27/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+### 5.2 Cronograma Executado
+
+Na Tabela 10, tem-se o registro das atividades em andamento e já executadas referentes à quinta entrega.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10 - Cronograma Executado (Etapa 5)</b></p>
+
+| Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
+| :--- | :---: | :--- | :---: | :--- |
+| Estruturação da página de Storyboards da Equipe e Confecção do SB-01 | Início: 20/10<br>Fim: 21/10 | Daniel da Silva Batista | Início: 21/10<br>Fim: 21/10 | Arthur Sismene Carvalho |
+| Planejamento, Protocolo e Execução do Teste-Piloto de Nível 1 | Início: 21/10<br>Fim: 21/10 | Daniel da Silva Batista | Início: 21/10<br>Fim: 21/10 | Arthur Sismene Carvalho |
+| Condução das Entrevistas de Avaliação com Usuários | *Em andamento* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A definir* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Relato dos Resultados do Storyboard e da Análise de Tarefas | *Em andamento* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A definir* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Gravação da Apresentação da Etapa 5 | *A realizar* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A realizar* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -219,11 +266,11 @@ Na Tabela 8, tem-se o cronograma planejado para as atividades da quinta entrega.
 
 ## 6. Etapa 6 - Relato do Protótipo de Papel e Alta Fidelidade
 
-Na Tabela 9, tem-se o cronograma planejado para as atividades da sexta entrega.
+Na Tabela 11, tem-se o cronograma planejado para as atividades da sexta entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 9 - Cronograma Planejado (Etapa 6)</b></p>
+<p align="center"><b>Tabela 11 - Cronograma Planejado (Etapa 6)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -239,11 +286,11 @@ Na Tabela 9, tem-se o cronograma planejado para as atividades da sexta entrega.
 
 ## 7. Etapa 7 - Relato do Protótipo de Alta Fidelidade
 
-Na Tabela 10, tem-se o cronograma planejado para as atividades da sétima entrega.
+Na Tabela 12, tem-se o cronograma planejado para as atividades da sétima entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 10 - Cronograma Planejado (Etapa 7)</b></p>
+<p align="center"><b>Tabela 12 - Cronograma Planejado (Etapa 7)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -259,11 +306,11 @@ Na Tabela 10, tem-se o cronograma planejado para as atividades da sétima entreg
 
 ## 8. Etapa 8 - Verificação dos Artefatos
 
-Na Tabela 11, tem-se o cronograma planejado para as atividades da oitava entrega.
+Na Tabela 13, tem-se o cronograma planejado para as atividades da oitava entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 11 - Cronograma Planejado (Etapa 8)</b></p>
+<p align="center"><b>Tabela 13 - Cronograma Planejado (Etapa 8)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -279,11 +326,11 @@ Na Tabela 11, tem-se o cronograma planejado para as atividades da oitava entrega
 
 ## 9. Projeto Final
 
-Na Tabela 12, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
+Na Tabela 14, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 12 - Cronograma Planejado (Projeto Final)</b></p>
+<p align="center"><b>Tabela 14 - Cronograma Planejado (Projeto Final)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -300,8 +347,8 @@ Na Tabela 12, tem-se o cronograma planejado para as atividades da entrega final 
 
 ## Referências Bibliográficas
 
-> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
-> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.
+> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
+> [2] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.  
 
 ---
 
@@ -320,6 +367,7 @@ Na Tabela 12, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.6` | 27/09/2026 | Registro no Cronograma Executado da Etapa 2 das entregas individuais concluídas (DOC-03, PER-03, CEN-05/06, HTA e CTT das Tarefas 05 e 06 e avaliação do Grupo 08). | Arthur Sismene Carvalho | Daniel da Silva Batista |
 | `1.7` | 06/10/2026 | Atualização do Cronograma Planejado e inserção do Cronograma Executado da Etapa 3, com registro dos artefatos de Princípios Gerais de Projeto e Guia de Estilo. | Daniel da Silva Batista, Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
 | `1.8` | 09/10/2026 | Resolução das pendências apontadas pelo monitor (OBS 3 e OBS 4): atribuição balanceada de responsáveis para as Etapas 4 a 8, detalhamento das técnicas de análise de tarefas e inclusão de referências bibliográficas e agradecimentos. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.9` | 21/10/2026 | Inserção do Cronograma Executado da Etapa 4 e detalhamento das atividades executadas e planejadas da Etapa 5 (Storyboards e Teste-Piloto de Nível 1). | Daniel da Silva Batista | Arthur Sismene Carvalho |
 
 </div>
 

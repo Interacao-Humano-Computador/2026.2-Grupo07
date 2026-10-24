@@ -91,10 +91,10 @@ Caso tenha dúvidas sobre a pesquisa ou deseje revogar o seu consentimento a qua
 
 ## 5. Referências Bibliográficas
 
-> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
-> BRASIL. *Resolução nº 466, de 12 de dezembro de 2012*. Conselho Nacional de Saúde. Brasília, DF, 2012.  
-> BRASIL. *Resolução nº 510, de 7 de abril de 2016*. Conselho Nacional de Saúde. Brasília, DF, 2016.  
-> BRASIL. *Lei nº 13.709, de 14 de agosto de 2018*. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União, Brasília, DF, 2018.
+> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
+> [2] BRASIL. *Resolução nº 466, de 12 de dezembro de 2012*. Conselho Nacional de Saúde. Brasília, DF, 2012.  
+> [3] BRASIL. *Resolução nº 510, de 7 de abril de 2016*. Conselho Nacional de Saúde. Brasília, DF, 2016.  
+> [4] BRASIL. *Lei nº 13.709, de 14 de agosto de 2018*. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União, Brasília, DF, 2018.  
 
 ## 6. Histórico de Versões
 

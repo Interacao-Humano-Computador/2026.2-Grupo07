@@ -331,9 +331,9 @@ A Tabela 1 consolida a matriz diagnóstica dos 8 princípios gerais analisados, 
 
 ## 5. Bibliografia
 
-> BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
-> NORMAN, Donald A. *The Design of Everyday Things*. New York: Basic Books, 1988.  
-> TOGNAZZINI, Bruce. *First Principles of Interaction Design*. AskTog, 2003. Disponível em: <https://asktog.com/atc/principles-of-interaction-design/>.
+> [1] BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.  
+> [2] NORMAN, Donald A. *The Design of Everyday Things*. New York: Basic Books, 1988.  
+> [3] TOGNAZZINI, Bruce. *First Principles of Interaction Design*. AskTog, 2003. Disponível em: <https://asktog.com/atc/principles-of-interaction-design/>.  
 
 ## 6. Histórico de Versões
 

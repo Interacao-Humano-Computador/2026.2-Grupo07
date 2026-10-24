@@ -262,13 +262,13 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 
 ## 8. Referências Bibliográficas
 
-> BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
-> BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. [S. l.]: Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
-> MARCUS, Aaron. *Graphic Design for Electronic Displays*. New York: ACM Press, 1992.  
-> MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.  
-> NORMAN, Donald A. *The Design of Everyday Things*. New York: Basic Books, 1988 (edição revista em 2013).  
-> SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: FCTE/UnB, 2026.  
-> W3C. *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium, 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>. Acesso em: 09 out. 2026.
+> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
+> [2] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. [S. l.]: Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
+> [3] MARCUS, Aaron. *Graphic Design for Electronic Displays*. New York: ACM Press, 1992.  
+> [4] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.  
+> [5] NORMAN, Donald A. *The Design of Everyday Things*. New York: Basic Books, 1988 (edição revista em 2013).  
+> [6] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: FCTE/UnB, 2026.  
+> [7] W3C. *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium, 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>. Acesso em: 09 out. 2026.  
 
 ---
 
