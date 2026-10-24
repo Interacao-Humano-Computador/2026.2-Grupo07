@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 250" width="100%" style="max-width: 780px; height: auto; background: #ffffff; font-family: Arial, Helvetica, sans-serif;">
+  <rect x="2" y="2" width="776" height="246" fill="#ffffff" stroke="#000000" stroke-width="1.4"/>
+  <text x="185" y="28" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#000000">Categorias de Tarefas no CTT</text>
+  <line x1="370" y1="12" x2="370" y2="238" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="575" y="28" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#000000">Relações Temporais entre Tarefas Irmãs</text>
+  <circle cx="65.0" cy="53.0" r="5" fill="#f8fafc" stroke="#000000" stroke-width="1.5"/>
+  <path d="M 55.0,69.0 c 0,-6 4.5,-9.5 10,-9.5 c 5.5,0 10,3.5 10,9.5 z" fill="#f8fafc" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="108" y="63" font-size="13" fill="#000000">Tarefa do usuário (cognitiva)</text>
+  <rect x="54.0" y="97.0" width="22" height="14" rx="1.5" fill="#f8fafc" stroke="#000000" stroke-width="1.5"/>
+  <line x1="57.0" y1="108.0" x2="73.0" y2="108.0" stroke="#000000" stroke-width="1"/>
+  <line x1="65.0" y1="111.0" x2="65.0" y2="116.0" stroke="#000000" stroke-width="1.5"/>
+  <line x1="58.0" y1="116.0" x2="72.0" y2="116.0" stroke="#000000" stroke-width="1.5"/>
+  <text x="108" y="111" font-size="13" fill="#000000">Tarefa da aplicação (sistema)</text>
+  <circle cx="57.0" cy="149.0" r="4.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <path d="M 49.5,164.0 c 0,-5 3.2,-8 7.5,-8 c 4.3,0 7.5,3 7.5,8 z" fill="#f8fafc" stroke="#000000" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="65.5" y="146.0" width="16" height="11.5" rx="1.2" fill="#f8fafc" stroke="#000000" stroke-width="1.4"/>
+  <line x1="73.5" y1="157.5" x2="73.5" y2="163.0" stroke="#000000" stroke-width="1.4"/>
+  <line x1="68.0" y1="163.0" x2="79.0" y2="163.0" stroke="#000000" stroke-width="1.4"/>
+  <text x="108" y="159" font-size="13" fill="#000000">Tarefa interativa (interação)</text>
+  <path d="M 54.0,212.0 a 6,6 0 0,1 -1,-11.8 a 8,7.5 0 0,1 15,-2.5 a 7,6.5 0 0,1 10,5.3 a 5.5,5.5 0 0,1 -1,11 z" fill="#f8fafc" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="108" y="207" font-size="13" fill="#000000">Tarefa abstrata (decomposição)</text>
+  <text x="435" y="56" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" font-weight="bold" fill="#000000">T1  &gt;&gt;  T2</text>
+  <text x="495" y="56" font-size="12.5" fill="#000000">Ativação sequencial (Enabling)</text>
+  <text x="435" y="82" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" font-weight="bold" fill="#000000">T1 []&gt;&gt; T2</text>
+  <text x="495" y="82" font-size="12.5" fill="#000000">Ativação com passagem de informação</text>
+  <text x="435" y="108" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" font-weight="bold" fill="#000000">T1  []  T2</text>
+  <text x="495" y="108" font-size="12.5" fill="#000000">Escolha alternativa (Choice)</text>
+  <text x="435" y="134" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" font-weight="bold" fill="#000000">T1 |||  T2</text>
+  <text x="495" y="134" font-size="12.5" fill="#000000">Concorrência (Interleaving)</text>
+  <text x="435" y="160" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" font-weight="bold" fill="#000000">T1  [&gt;  T2</text>
+  <text x="495" y="160" font-size="12.5" fill="#000000">Desativação (interrupção por T2)</text>
+  <text x="435" y="186" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" font-weight="bold" fill="#000000">T1  |&gt;  T2</text>
+  <text x="495" y="186" font-size="12.5" fill="#000000">Suspensão e retomada</text>
+  <text x="435" y="212" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" font-weight="bold" fill="#000000">T*</text>
+  <text x="495" y="212" font-size="12.5" fill="#000000">Tarefa iterativa (repetição)</text>
+</svg>

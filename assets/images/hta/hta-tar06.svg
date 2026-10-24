@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1185 481" width="100%" style="max-width: 1185px; height: auto; background: #ffffff; font-family: Arial, Helvetica, sans-serif;">
+  <rect x="472.1" y="20.0" width="230.0" height="80.0" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="587.1" y="41.5" text-anchor="middle" font-size="12.5" fill="#111827">0. Buscar oportunidades de</text>
+  <text x="587.1" y="57.0" text-anchor="middle" font-size="12.5" fill="#111827">estágio de nível superior</text>
+  <text x="587.1" y="72.5" text-anchor="middle" font-size="12.5" fill="#111827">no DF</text>
+  <text x="587.1" y="89.5" text-anchor="middle" font-size="12.5" fill="#111827">1&gt;2&gt;3</text>
+  <line x1="587.1" y1="100.0" x2="587.1" y2="124.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="108.0" y1="124.0" x2="1066.2" y2="124.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="108.0" y1="124.0" x2="108.0" y2="147.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="103.8,145.5 112.2,145.5 108.0,153.5" fill="#4b5563"/>
+  <rect x="24.0" y="154.0" width="168.0" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="24.0" y1="223.5" x2="192.0" y2="223.5" stroke="#374151" stroke-width="1.6"/>
+  <text x="108.0" y="175.5" text-anchor="middle" font-size="12" fill="#111827">1. Inspecionar menu</text>
+  <text x="108.0" y="191.0" text-anchor="middle" font-size="12" fill="#111827">principal procurando</text>
+  <text x="108.0" y="206.5" text-anchor="middle" font-size="12" fill="#111827">'Estágios'</text>
+  <line x1="570.9" y1="124.0" x2="570.9" y2="147.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="566.6,145.5 575.1,145.5 570.9,153.5" fill="#4b5563"/>
+  <rect x="490.5" y="154.0" width="160.8" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="570.9" y="175.5" text-anchor="middle" font-size="12.5" fill="#111827">2. Tentar localizar</text>
+  <text x="570.9" y="191.0" text-anchor="middle" font-size="12.5" fill="#111827">vagas de estágio</text>
+  <text x="570.9" y="208.0" text-anchor="middle" font-size="12.5" fill="#111827">1/2/3</text>
+  <line x1="570.9" y1="218.5" x2="570.9" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="287.5" y1="242.5" x2="854.2" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="287.5" y1="242.5" x2="287.5" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="283.3,264.0 291.7,264.0 287.5,272.0" fill="#4b5563"/>
+  <rect x="210.0" y="272.5" width="155.0" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="210.0" y1="342.0" x2="365.0" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="287.5" y="294.0" text-anchor="middle" font-size="12" fill="#111827">2.1. Abrir seção</text>
+  <text x="287.5" y="309.5" text-anchor="middle" font-size="12" fill="#111827">'Vagas' e procurar</text>
+  <text x="287.5" y="325.0" text-anchor="middle" font-size="12" fill="#111827">filtro 'Cursando'</text>
+  <line x1="563.6" y1="242.5" x2="563.6" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="559.4,264.0 567.8,264.0 563.6,272.0" fill="#4b5563"/>
+  <rect x="472.4" y="272.5" width="182.4" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="563.6" y="294.0" text-anchor="middle" font-size="12.5" fill="#111827">2.2. Buscar pelo termo</text>
+  <text x="563.6" y="309.5" text-anchor="middle" font-size="12.5" fill="#111827">'estágio'</text>
+  <text x="563.6" y="326.5" text-anchor="middle" font-size="12.5" fill="#111827">1&gt;2</text>
+  <line x1="563.6" y1="337.0" x2="563.6" y2="361.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="470.6" y1="361.0" x2="656.6" y2="361.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="470.6" y1="361.0" x2="470.6" y2="384.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="466.4,382.5 474.8,382.5 470.6,390.5" fill="#4b5563"/>
+  <rect x="383.0" y="391.0" width="175.2" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="383.0" y1="460.5" x2="558.2" y2="460.5" stroke="#374151" stroke-width="1.6"/>
+  <text x="470.6" y="412.5" text-anchor="middle" font-size="12" fill="#111827">2.2.1. Digitar</text>
+  <text x="470.6" y="428.0" text-anchor="middle" font-size="12" fill="#111827">'estágio' no campo de</text>
+  <text x="470.6" y="443.5" text-anchor="middle" font-size="12" fill="#111827">busca</text>
+  <line x1="656.6" y1="361.0" x2="656.6" y2="384.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="652.4,382.5 660.8,382.5 656.6,390.5" fill="#4b5563"/>
+  <rect x="576.2" y="391.0" width="160.8" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="576.2" y1="460.5" x2="737.0" y2="460.5" stroke="#374151" stroke-width="1.6"/>
+  <text x="656.6" y="412.5" text-anchor="middle" font-size="12" fill="#111827">2.2.2. Descartar</text>
+  <text x="656.6" y="428.0" text-anchor="middle" font-size="12" fill="#111827">editais de 'estágio</text>
+  <text x="656.6" y="443.5" text-anchor="middle" font-size="12" fill="#111827">probatório'</text>
+  <line x1="854.2" y1="242.5" x2="854.2" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="850.0,264.0 858.4,264.0 854.2,272.0" fill="#4b5563"/>
+  <rect x="763.0" y="272.5" width="182.4" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="763.0" y1="342.0" x2="945.4" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="854.2" y="294.0" text-anchor="middle" font-size="12" fill="#111827">2.3. Filtrar por DF ou</text>
+  <text x="854.2" y="309.5" text-anchor="middle" font-size="12" fill="#111827">varrer lista de 300+</text>
+  <text x="854.2" y="325.0" text-anchor="middle" font-size="12" fill="#111827">cargos</text>
+  <line x1="1066.2" y1="124.0" x2="1066.2" y2="147.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="1062.0,145.5 1070.4,145.5 1066.2,153.5" fill="#4b5563"/>
+  <rect x="971.4" y="154.0" width="189.6" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="971.4" y1="223.5" x2="1161.0" y2="223.5" stroke="#374151" stroke-width="1.6"/>
+  <text x="1066.2" y="175.5" text-anchor="middle" font-size="12" fill="#111827">3. Reconhecer ausência</text>
+  <text x="1066.2" y="191.0" text-anchor="middle" font-size="12" fill="#111827">de estágios e migrar de</text>
+  <text x="1066.2" y="206.5" text-anchor="middle" font-size="12" fill="#111827">portal</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1594 481" width="100%" style="max-width: 1594px; height: auto; background: #ffffff; font-family: Arial, Helvetica, sans-serif;">
+  <rect x="605.4" y="20.0" width="230.0" height="80.0" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="720.4" y="41.5" text-anchor="middle" font-size="12.5" fill="#111827">0. Realizar simulado</text>
+  <text x="720.4" y="57.0" text-anchor="middle" font-size="12.5" fill="#111827">online interativo com</text>
+  <text x="720.4" y="72.5" text-anchor="middle" font-size="12.5" fill="#111827">diagnóstico</text>
+  <text x="720.4" y="89.5" text-anchor="middle" font-size="12.5" fill="#111827">1&gt;2&gt;3</text>
+  <line x1="720.4" y1="100.0" x2="720.4" y2="124.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="203.2" y1="124.0" x2="1237.7" y2="124.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="203.2" y1="124.0" x2="203.2" y2="147.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="199.0,145.5 207.4,145.5 203.2,153.5" fill="#4b5563"/>
+  <rect x="115.6" y="154.0" width="175.2" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="203.2" y="175.5" text-anchor="middle" font-size="12.5" fill="#111827">1. Configurar bateria</text>
+  <text x="203.2" y="191.0" text-anchor="middle" font-size="12.5" fill="#111827">de simulado</text>
+  <text x="203.2" y="208.0" text-anchor="middle" font-size="12.5" fill="#111827">1+2</text>
+  <line x1="203.2" y1="218.5" x2="203.2" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="111.6" y1="242.5" x2="294.7" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="111.6" y1="242.5" x2="111.6" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="107.4,264.0 115.8,264.0 111.6,272.0" fill="#4b5563"/>
+  <rect x="24.0" y="272.5" width="175.2" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="24.0" y1="342.0" x2="199.2" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="111.6" y="294.0" text-anchor="middle" font-size="12" fill="#111827">1.1. Informar</text>
+  <text x="111.6" y="309.5" text-anchor="middle" font-size="12" fill="#111827">disciplina, assunto e</text>
+  <text x="111.6" y="325.0" text-anchor="middle" font-size="12" fill="#111827">banca</text>
+  <line x1="294.7" y1="242.5" x2="294.7" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="290.5,264.0 298.9,264.0 294.7,272.0" fill="#4b5563"/>
+  <rect x="217.2" y="272.5" width="155.0" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="217.2" y1="342.0" x2="372.2" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="294.7" y="294.0" text-anchor="middle" font-size="12" fill="#111827">1.2. Definir nº de</text>
+  <text x="294.7" y="309.5" text-anchor="middle" font-size="12" fill="#111827">questões (10/20) e</text>
+  <text x="294.7" y="325.0" text-anchor="middle" font-size="12" fill="#111827">cronômetro</text>
+  <line x1="680.8" y1="124.0" x2="680.8" y2="147.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="676.6,145.5 685.0,145.5 680.8,153.5" fill="#4b5563"/>
+  <rect x="596.8" y="154.0" width="168.0" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="680.8" y="175.5" text-anchor="middle" font-size="12.5" fill="#111827">2. Resolver questões</text>
+  <text x="680.8" y="191.0" text-anchor="middle" font-size="12.5" fill="#111827">da bateria</text>
+  <text x="680.8" y="208.0" text-anchor="middle" font-size="12.5" fill="#111827">1&gt;2&gt;3</text>
+  <line x1="680.8" y1="218.5" x2="680.8" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="482.2" y1="242.5" x2="879.4" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="482.2" y1="242.5" x2="482.2" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="478.0,264.0 486.4,264.0 482.2,272.0" fill="#4b5563"/>
+  <rect x="398.2" y="272.5" width="168.0" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="398.2" y1="342.0" x2="566.2" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="482.2" y="294.0" text-anchor="middle" font-size="12" fill="#111827">2.1. Ler enunciado e</text>
+  <text x="482.2" y="309.5" text-anchor="middle" font-size="12" fill="#111827">marcar alternativa</text>
+  <text x="482.2" y="325.0" text-anchor="middle" font-size="12" fill="#111827">(A-E)</text>
+  <line x1="675.4" y1="242.5" x2="675.4" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="671.2,264.0 679.6,264.0 675.4,272.0" fill="#4b5563"/>
+  <rect x="584.2" y="272.5" width="182.4" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="584.2" y1="342.0" x2="766.6" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="675.4" y="301.8" text-anchor="middle" font-size="12" fill="#111827">2.2. Conferir gabarito</text>
+  <text x="675.4" y="317.2" text-anchor="middle" font-size="12" fill="#111827">imediato e comentário</text>
+  <line x1="879.4" y1="242.5" x2="879.4" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="875.2,264.0 883.6,264.0 879.4,272.0" fill="#4b5563"/>
+  <rect x="784.6" y="272.5" width="189.6" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="784.6" y1="342.0" x2="974.2" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="879.4" y="301.8" text-anchor="middle" font-size="12" fill="#111827">2.3. Salvar progresso</text>
+  <text x="879.4" y="317.2" text-anchor="middle" font-size="12" fill="#111827">local e avançar questão</text>
+  <line x1="1237.7" y1="124.0" x2="1237.7" y2="147.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="1233.5,145.5 1241.9,145.5 1237.7,153.5" fill="#4b5563"/>
+  <rect x="1153.7" y="154.0" width="168.0" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="1237.7" y="175.5" text-anchor="middle" font-size="12.5" fill="#111827">3. Finalizar e</text>
+  <text x="1237.7" y="191.0" text-anchor="middle" font-size="12.5" fill="#111827">analisar diagnóstico</text>
+  <text x="1237.7" y="208.0" text-anchor="middle" font-size="12.5" fill="#111827">1&gt;2</text>
+  <line x1="1237.7" y1="218.5" x2="1237.7" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="1095.0" y1="242.5" x2="1380.4" y2="242.5" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="1095.0" y1="242.5" x2="1095.0" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="1090.8,264.0 1099.2,264.0 1095.0,272.0" fill="#4b5563"/>
+  <rect x="1000.2" y="272.5" width="189.6" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="1000.2" y1="342.0" x2="1189.8" y2="342.0" stroke="#374151" stroke-width="1.6"/>
+  <text x="1095.0" y="301.8" text-anchor="middle" font-size="12" fill="#111827">3.1. Visualizar taxa de</text>
+  <text x="1095.0" y="317.2" text-anchor="middle" font-size="12" fill="#111827">acertos e tempo médio</text>
+  <line x1="1380.4" y1="242.5" x2="1380.4" y2="265.5" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="1376.2,264.0 1384.6,264.0 1380.4,272.0" fill="#4b5563"/>
+  <rect x="1302.9" y="272.5" width="155.0" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <text x="1380.4" y="294.0" text-anchor="middle" font-size="12.5" fill="#111827">3.2. Escolher ação</text>
+  <text x="1380.4" y="309.5" text-anchor="middle" font-size="12.5" fill="#111827">pós-simulado</text>
+  <text x="1380.4" y="326.5" text-anchor="middle" font-size="12.5" fill="#111827">1/2</text>
+  <line x1="1380.4" y1="337.0" x2="1380.4" y2="361.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="1285.3" y1="361.0" x2="1475.6" y2="361.0" stroke="#4b5563" stroke-width="1.5"/>
+  <line x1="1285.3" y1="361.0" x2="1285.3" y2="384.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="1281.1,382.5 1289.5,382.5 1285.3,390.5" fill="#4b5563"/>
+  <rect x="1207.8" y="391.0" width="155.0" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="1207.8" y1="460.5" x2="1362.8" y2="460.5" stroke="#374151" stroke-width="1.6"/>
+  <text x="1285.3" y="412.5" text-anchor="middle" font-size="12" fill="#111827">3.2.1. Gerar novo</text>
+  <text x="1285.3" y="428.0" text-anchor="middle" font-size="12" fill="#111827">treino focado nas</text>
+  <text x="1285.3" y="443.5" text-anchor="middle" font-size="12" fill="#111827">erradas</text>
+  <line x1="1475.6" y1="361.0" x2="1475.6" y2="384.0" stroke="#4b5563" stroke-width="1.5"/>
+  <polygon points="1471.4,382.5 1479.8,382.5 1475.6,390.5" fill="#4b5563"/>
+  <rect x="1380.8" y="391.0" width="189.6" height="64.5" fill="#ffffff" stroke="#374151" stroke-width="1.5"/>
+  <line x1="1380.8" y1="460.5" x2="1570.4" y2="460.5" stroke="#374151" stroke-width="1.6"/>
+  <text x="1475.6" y="412.5" text-anchor="middle" font-size="12" fill="#111827">3.2.2. Exportar</text>
+  <text x="1475.6" y="428.0" text-anchor="middle" font-size="12" fill="#111827">relatório de desempenho</text>
+  <text x="1475.6" y="443.5" text-anchor="middle" font-size="12" fill="#111827">em PDF</text>
+</svg>

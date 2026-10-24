@@ -1,5 +1,5 @@
 /**
- * Mermaid open-shadow & pan/zoom modal for MkDocs Material
+ * Mermaid & SVG/PNG Diagram pan/zoom modal for MkDocs Material
  */
 (function () {
   // 1. Intercept attachShadow to keep shadowRoot open and accessible
@@ -9,7 +9,6 @@
       init.mode = 'open';
     }
     const shadow = origAttachShadow.call(this, init);
-    // Observe additions to style and enhance the rendered SVG
     enhanceShadowRoot(this, shadow);
     return shadow;
   };
@@ -26,8 +25,6 @@
   }
 
   function setupSvgInteractions(hostEl, shadow, svg) {
-    // Inject high-contrast styling into the shadow root
-    // Inject ultra high-contrast academic styling into the shadow root
     const style = document.createElement('style');
     style.textContent = `
       .node rect, .node polygon, .node circle, .node ellipse, .node path {
@@ -84,7 +81,6 @@
         font-weight: 800 !important;
         font-size: 16px !important;
       }
-      /* Linhas de conexão e setas pretas */
       .edgePath .path, .flowchart-link, path.path, g.edgePath path {
         stroke: #000000 !important;
         stroke-width: 2.5px !important;
@@ -103,16 +99,14 @@
     `;
     shadow.appendChild(style);
 
-    // Container centralizado sem barra de rolagem lateral
     hostEl.style.overflow = 'hidden';
     hostEl.style.width = '100%';
     hostEl.style.display = 'flex';
     hostEl.style.justifyContent = 'center';
     hostEl.style.alignItems = 'center';
     hostEl.style.position = 'relative';
-    hostEl.style.cursor = 'pointer';
+    hostEl.style.cursor = 'zoom-in';
 
-    // Injetar wrapper centralizado com botão azul compacto logo abaixo do diagrama
     if (!hostEl.nextElementSibling || !hostEl.nextElementSibling.classList.contains('diagram-btn-wrapper')) {
       const wrapper = document.createElement('div');
       wrapper.className = 'diagram-btn-wrapper';
@@ -129,14 +123,43 @@
       hostEl.parentNode.insertBefore(wrapper, hostEl.nextSibling);
     }
 
-    // Clique direto no diagrama também abre o modal
     hostEl.addEventListener('click', (e) => {
       e.stopPropagation();
       openModal(svg.cloneNode(true));
     });
   }
 
-  // Scan for any already attached shadow roots on page load or navigation
+  // Attach interactive zoom/pan modal & button to SVG/PNG diagram images (HTA, CTT, etc.)
+  function setupDiagramImgInteractions(imgEl) {
+    if (imgEl.dataset.zoomBound === 'true') return;
+    imgEl.dataset.zoomBound = 'true';
+    imgEl.style.cursor = 'zoom-in';
+    imgEl.title = 'Clique no diagrama para dar Zoom / Tela Cheia';
+
+    const parentBlock = imgEl.closest('p') || imgEl;
+    if (!parentBlock.nextElementSibling || !parentBlock.nextElementSibling.classList.contains('diagram-btn-wrapper')) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'diagram-btn-wrapper';
+      const btn = document.createElement('button');
+      btn.className = 'diagram-expand-pill';
+      btn.innerHTML = '🔍 Zoom / Tela Cheia';
+      btn.type = 'button';
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        openImageModal(imgEl.src, imgEl.alt || 'Diagrama');
+      });
+      wrapper.appendChild(btn);
+      parentBlock.parentNode.insertBefore(wrapper, parentBlock.nextSibling);
+    }
+
+    imgEl.addEventListener('click', (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+      openImageModal(imgEl.src, imgEl.alt || 'Diagrama');
+    });
+  }
+
   function scanExistingDiagrams() {
     document.querySelectorAll('.mermaid').forEach((el) => {
       if (el.shadowRoot) {
@@ -146,6 +169,14 @@
         }
       }
     });
+
+    document
+      .querySelectorAll(
+        'img[src*="assets/images/hta/hta-tar"], img[src*="assets/images/ctt/ctt-tar"]'
+      )
+      .forEach((imgEl) => {
+        setupDiagramImgInteractions(imgEl);
+      });
   }
 
   if (document.readyState === 'loading') {
@@ -153,7 +184,6 @@
   } else {
     scanExistingDiagrams();
   }
-  // Re-scan periodically for 3 seconds to catch async mermaid rendering
   let scanCount = 0;
   const scanInterval = setInterval(() => {
     scanExistingDiagrams();
@@ -172,7 +202,7 @@
     modal.innerHTML = `
       <div class="diagram-modal-container">
         <div class="diagram-modal-header">
-          <span class="diagram-modal-title">🔍 Visualizador de Diagrama (Tela Cheia)</span>
+          <span class="diagram-modal-title">🔍 Visualizador de Diagrama (Arraste para mover • Roda do mouse para Zoom)</span>
           <div class="diagram-modal-controls">
             <button class="diagram-btn zoom-out" title="Diminuir Zoom">➖</button>
             <button class="diagram-btn zoom-reset" title="Restaurar Tamanho">100%</button>
@@ -189,7 +219,6 @@
     document.body.appendChild(modal);
     modalContent = modal.querySelector('.diagram-modal-viewport');
 
-    // Habilitar arrastar (drag to pan) com o mouse no corpo do modal
     let isDragging = false;
     let startX = 0;
     let startY = 0;
@@ -229,6 +258,18 @@
       modalBody.scrollTop = scrollTop - walkY;
     });
 
+    // Suporte a zoom com a roda do mouse dentro do modal
+    modalBody.addEventListener(
+      'wheel',
+      (e) => {
+        e.preventDefault();
+        const delta = e.deltaY < 0 ? 0.15 : -0.15;
+        zoomLevel = Math.min(Math.max(zoomLevel + delta, 0.4), 4.0);
+        applyZoom();
+      },
+      { passive: false }
+    );
+
     modal.querySelector('.close-btn').addEventListener('click', closeModal);
     modal.addEventListener('click', (e) => {
       if (e.target === modal) {
@@ -260,21 +301,44 @@
 
   function applyZoom() {
     if (!modalContent) return;
-    const svg = modalContent.querySelector('svg');
-    if (svg) {
-      svg.style.transform = `scale(${zoomLevel})`;
-      svg.style.transformOrigin = 'top left';
+    const target = modalContent.querySelector('svg, img');
+    if (target) {
+      target.style.transform = `scale(${zoomLevel})`;
+      target.style.transformOrigin = 'top left';
       const resetBtn = modal.querySelector('.zoom-reset');
       if (resetBtn) resetBtn.textContent = `${Math.round(zoomLevel * 100)}%`;
     }
+  }
+
+  function openImageModal(src, altText) {
+    initModal();
+    zoomLevel = 1.25;
+    modalContent.innerHTML = '';
+
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = altText;
+    img.draggable = false;
+    img.style.maxWidth = 'none';
+    img.style.width = '100%';
+    img.style.minWidth = '1150px';
+    img.style.height = 'auto';
+    img.style.background = '#ffffff';
+    img.style.padding = '12px';
+    img.style.borderRadius = '6px';
+    img.style.transition = 'transform 0.12s ease-out';
+    modalContent.appendChild(img);
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    applyZoom();
   }
 
   function openModal(svgClone) {
     initModal();
     zoomLevel = 1.35;
     modalContent.innerHTML = '';
-    
-    // Inject high-contrast inline styles directly to ensure modal visibility
+
     const modalStyle = document.createElement('style');
     modalStyle.textContent = `
       .node rect, .node polygon, .node circle, .node ellipse, .node path {
@@ -313,7 +377,6 @@
         font-weight: 800 !important;
         font-size: 16px !important;
       }
-      /* Linhas de conexão e setas ultra visíveis e nítidas */
       .edgePath .path, .flowchart-link, path.path, g.edgePath path {
         stroke: #000000 !important;
         stroke-width: 2.5px !important;
