@@ -165,7 +165,7 @@ A Tabela 1 consolida a matriz de rastreabilidade do elenco, detalhando a **justi
 
 ### 4.4 Persona 4 — Renata Cristina Freitas (*Responsável: Leonardo da Silva Lopes Júnior*)
 
-> *"Como eu trabalho o dia todo, meu estudo precisa ser objetivo. Eu uso as pausas para assistir a videoaulas pontuais e dependo de alertas no meu e-mail para não perder prazos de inscrição."*
+> *"Como eu trabalho o dia todo, meu estudo precisa ser objetivo. Eu uso as pausas para assistir a videoaulas pontuais e dependo de um calendário integrado com alertas para não perder prazos de inscrição nem a data do boleto."*
 
 * **Classificação no Design:** **Persona Primária** (Representante do Perfil 2: Concurseiro Ativo / Adulto e Maduro).
 * **Perfil Demográfico:** 31 anos, feminino, Ensino Superior Completo (Administração de Empresas), residente em Águas Claras, Distrito Federal (DF).
@@ -177,18 +177,18 @@ A Tabela 1 consolida a matriz de rastreabilidade do elenco, detalhando a **justi
 #### 4.4.1 Objetivos e Motivações no PCI Concursos
 * **Conquistar Aprovação em Cargo Público de Nível Superior:** Almeja ingressar na carreira pública em cargos administrativos (como Analista Administrativo de Ministérios, Agências Reguladoras ou Tribunais do DF), visando plano de carreira estruturado e estabilidade funcional.
 * **Estudo Ágil e Focado por Meio de Videoaulas:** Utiliza a aba de aulas do PCI Concursos para sanar dúvidas teóricas pontuais de disciplinas básicas (Direito Administrativo, Constitucional e Língua Portuguesa) durante intervalos de 15 a 30 minutos em sua rotina de trabalho (*microlearning*).
-* **Automação no Acompanhamento de Editais:** Depende de alertas recebidos por e-mail para ser notificada sobre a publicação de editais, retificações e aberturas de inscrições no DF sem precisar gastar horas navegando manualmente por dezenas de páginas.
+* **Gestão e Acompanhamento de Prazos de Múltiplos Editais:** Precisa de uma ferramenta integrada de calendário pessoal no portal para consolidar os concursos em que se inscreve (ex.: TJDFT e Correios), rastrear contadores regressivos para pagamento de boletos bancários da taxa e exportar os marcos para sua agenda móvel sem sobreposição de provas.
 
 #### 4.4.2 Relação com a Tecnologia e Hábitos de Estudo
 * **Usuária Digitalmente Fluente:** Lida rotineiramente com navegadores web, e-mails corporativos, editores de texto e planilhas eletrônicas. Espera interfaces diretas, sem fluxos desnecessários de navegação.
 * **Estudo Fragmentado no Celular:** Devido à jornada integral de trabalho, aproveita intervalos curtos (20 a 30 minutos no almoço ou transporte público) para estudar pelo smartphone.
-* **Relação com Alertas:** Considera o e-mail seu canal prioritário para comunicações formais. Detesta receber malas diretas desorganizadas ou *spam* sobre concursos de regiões distantes sem relação com seu interesse.
+* **Relação com Calendários e Prazos:** Utiliza ativamente o Google Agenda no smartphone para compromissos profissionais e pessoais. Requer integração rápida para receber alertas 24h e 2h antes de vencimentos bancários e provas.
 
 #### 4.4.3 Principais Dores e Frustrações com o PCI Concursos
 * **Desorganização Pedagógica na Seção de Videoaulas (`TAR-07`):** As aulas no portal são vídeos embutidos do YouTube agrupados sem taxonomia refinada por disciplina ou tópico do edital. Não há duração dos blocos, cronômetro ou links diretos para download de resumos e slides dos professores em PDF.
 * **Poluição Visual e Ruído Publicitário Intrusivo:** A página de reprodução das videoaulas é cercada por anúncios expansíveis que distraem a atenção e, no celular, deslocam o player de vídeo, gerando toques involuntários em banners comerciais.
-* **Formulário de Alertas Obsoleto e Sem Filtros (`TAR-08`):** O cadastro para recebimento de notícias não permite selecionar preferências de carreira (ex.: Área Administrativa) ou UF (apenas DF/Centro-Oeste), sobrecarregando a caixa de entrada com certames irrelevantes.
-* **Ausência de Confirmação Dupla no Cadastro:** O formulário de e-mail possui apenas um campo para digitação, sem verificação de confirmação e sem mensagem de ativação (*double opt-in*), gerando insegurança quanto ao correto registro do contato.
+* **Inexistência de Calendário Pessoal Integrado de Prazos (`TAR-08`):** O portal atual não permite salvar seleções de interesse em uma linha do tempo unificada, forçando anotações manuais dispersas e gerando alto risco de perda do prazo de pagamento do boleto bancário da taxa de inscrição.
+* **Risco de Choque Invisível de Datas de Provas:** A dispersão das datas em PDFs isolados não alerta a candidata quando dois concursos pretendidos marcam suas provas no mesmo dia e turno.
 
 ---
 
