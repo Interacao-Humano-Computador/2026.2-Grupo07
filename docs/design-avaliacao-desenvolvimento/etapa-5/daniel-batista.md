@@ -320,20 +320,20 @@ Após a execução da gravação solo no Teams, o avaliador preencheu a Ficha de
 
 ## 5. Avaliação com Usuários (Entrevistas Empíricas – TAR-01 e SB-01)
 
-Sessões de validação empírica da tarefa prioritária **TAR-01** e do Storyboard **SB-01** conduzidas individualmente por Daniel da Silva Batista com participantes representativos do **Perfil 1 – Candidato/Concurseiro**.
+Sessões de validação empírica da tarefa prioritária **TAR-01** e do Storyboard **SB-01** conduzidas individualmente por Daniel da Silva Batista com participantes reais representativos do **Perfil 1 – Candidato/Concurseiro**.
 
 ### 5.1 Protocolo Ético e Caracterização dos Participantes
 
-Em estrita consonância com o [Perfil de Usuário](../../analise-de-requisitos/perfil-de-usuario.md) e a Resolução CNS nº 466/2012, o Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado e formalizado verbalmente no início das gravações em áudio e vídeo, garantindo voluntariedade, confidencialidade e uso restrito para fins acadêmicos.
+Em estrita consonância com o [Perfil de Usuário](../../analise-de-requisitos/perfil-de-usuario.md) e a Resolução CNS nº 466/2012, o Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado e formalizado verbalmente no início de cada gravação em áudio e vídeo, garantindo voluntariedade, confidencialidade e uso restrito para fins de pesquisa acadêmica na UnB.
 
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 10: Perfil dos Participantes Recrutados</b></p>
 
-| Participante | Perfil Concurseiro | Idade / Ocupação | Experiência com Concursos | Dispositivo Habitual | Status do TCLE |
+| Participante | Perfil Concurseiro | Faixa Etária / Ocupação | Experiência com Concursos | Dispositivo Habitual | Status do TCLE |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| **Participante 1** | Perfil 1 – Candidato | 21 anos / Universitária | Concurseira ativa (presta e pesquisa certames com frequência) | Computador Pessoal | Aceito formalmente em vídeo |
-| **Participante 2** | Perfil 1 – Candidato | *(A preencher pós-sessão)* | *(A preencher pós-sessão)* | *(Desktop / Smartphone)* | Programado |
+| **Participante 1** | Perfil 1 – Candidato | 21 anos / Universitária | Concurseira ativa (pesquisa e presta certames regularmente) | Computador Pessoal | Aceito formalmente em vídeo |
+| **Participante 2** | Perfil 1 – Candidato | Jovem adulto / Estudante | Concurseiro iniciante (iniciando a rotina de busca de certames) | Computador Pessoal | Aceito formalmente em vídeo |
 | **Participante 3** | Perfil 1 – Candidato | *(A preencher pós-sessão)* | *(A preencher pós-sessão)* | *(Desktop / Smartphone)* | Programado |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -342,7 +342,7 @@ Em estrita consonância com o [Perfil de Usuário](../../analise-de-requisitos/p
 
 ### 5.2 Registro Audiovisual das Entrevistas
 
-A Tabela 11 documenta as sessões empíricas executadas. A gravação integral da **Entrevista 1** está incorporada logo abaixo:
+A Tabela 11 documenta a logística e os registros das sessões empíricas executadas. Os reprodutores audiovisuais das entrevistas estão incorporados a seguir:
 
 <div align="center" markdown="1">
 
@@ -351,7 +351,7 @@ A Tabela 11 documenta as sessões empíricas executadas. A gravação integral d
 | Sessão | Entrevistador | Participante | Data e Horário | Duração | Link da Gravação |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | **Entrevista 1** | Daniel da Silva Batista | Participante 1 | 23/10/2026 às 13:53 | 07 min 09 s | [Vídeo da Entrevista 1 (YouTube - 07m 09s)](https://youtu.be/xSTf-kYEP10) |
-| **Entrevista 2** | Daniel da Silva Batista | Participante 2 | *(A realizar)* | *(A realizar)* | [Vídeo da Entrevista 2](javascript:void(0)) *(Aguardando gravação)* |
+| **Entrevista 2** | Daniel da Silva Batista | Participante 2 | 24/10/2026 (publ. 25/10) | 06 min 06 s | [Vídeo da Entrevista 2 (YouTube - 06m 06s)](https://youtu.be/kjcdpNjypO8) |
 | **Entrevista 3** | Daniel da Silva Batista | Participante 3 | *(A realizar)* | *(A realizar)* | [Vídeo da Entrevista 3](javascript:void(0)) *(Aguardando gravação)* |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -364,17 +364,31 @@ A Tabela 11 documenta as sessões empíricas executadas. A gravação integral d
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/xSTf-kYEP10" title="Gravação da Entrevista 1 com Usuário (TAR-01 e SB-01) - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 3:</b> Sessão de Entrevista 1 conduzida por Daniel Batista avaliando o Storyboard SB-01 e os diagramas de tarefas HTA/CTT com a Participante 1 (Duração: 07m 09s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 3:</b> Sessão de Entrevista 1 conduzida por Daniel Batista avaliando o Storyboard SB-01 e os diagramas HTA/CTT com a Participante 1 (Duração: 07m 09s).</p>
+
+</div>
+
+#### Vídeo 4: Gravação da Entrevista 2 com Usuário (Participante 2)
+
+<div align="center" markdown="1">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/kjcdpNjypO8" title="Gravação da Entrevista 2 com Usuário (TAR-01 e SB-01) - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 4:</b> Sessão de Entrevista 2 conduzida por Daniel Batista avaliando o Storyboard SB-01 e os diagramas HTA/CTT com o Participante 2 (Duração: 06m 06s).</p>
 
 </div>
 
 ### 5.3 Síntese dos Feedbacks Empíricos Coletados
 
-Em conformidade com a análise qualitativa recomendada por Barbosa e Silva (2021, p. 278), os apontamentos dos participantes colhidos durante a verbalização (*think-aloud*) e respostas ao roteiro estruturado revelaram os seguintes comportamentos essenciais:
+Em conformidade com a metodologia de análise qualitativa recomendada por Barbosa e Silva (2021, p. 278), os dados triangulados das sessões de entrevista revelaram os seguintes comportamentos e percepções essenciais:
 
-* **Validação Conceitual e Lógica do Storyboard (`SB-01`):** A Participante 1 identificou imediatamente a atividade de comparação entre editais e considerou a sequência de 6 quadros perfeitamente alinhada à sua rotina de concurseira. Destacou a relevância de uma ferramenta centralizada no portal, relatando que atualmente precisa baixar editais dispersos em PDF e recorrer a IAs externas (como ChatGPT) para realizar a comparação manual.
-* **Validação dos Modelos de Engenharia de Tarefas (`HTA` e `CTT`):** A decomposição hierárquica e a divisão de papéis usuário-sistema foram avaliadas como intuitivas. A participante indicou preferência por uso em computador pessoal (desktop) e estimou um tempo aceitável de 10 a 15 minutos para a execução completa da tarefa de parametrização e comparação.
-* **Oportunidade Específica de Refinamento:** Foi apontada a necessidade de evidenciar de maneira mais clara os parâmetros de filtros selecionados no Quadrinho 2 do Storyboard e na interface da busca avançada, originando a oportunidade `OPO-E01` consolidada no relato formal a seguir.
+* **Validação Conceitual e Aderência do Storyboard (`SB-01`):** Tanto a Participante 1 quanto o Participante 2 identificaram imediatamente a atividade central de confrontar editais lado a lado e consideraram a sequência de 6 quadros perfeitamente lógica. Ambos relataram que a falta de uma ferramenta comparativa centralizada no PCI Concursos gera grande atrito na rotina, forçando o download fragmentado de múltiplos PDFs e o uso de soluções externas improvisadas (como ChatGPT).
+* **Validação dos Modelos Técnicos de Tarefas (`HTA` e `CTT`):** A decomposição hierárquica e a divisão de papéis usuário-sistema foram avaliadas diretamente nos diagramas impressos em papel e consideradas claras e bem estruturadas por ambos os participantes.
+* **Tratamento de Exceções e Prevenção de Erros (Insight Crítico da Entrevista 2):** Ao ser explorado sobre situações de erro ou ausência de dados na busca avançada, o Participante 2 enfatizou que a interface deve fornecer mensagens de erro expressas, amigáveis e explicativas, evitando telas em branco e orientando o candidato sobre o que ajustar nos parâmetros. Esse apontamento empírico valida diretamente a oportunidade de reprojeto `OPO-D01` consolidada no relato formal.
+* **Oportunidade Específica de Refinamento Visual (`OPO-E01`):** A Participante 1 sugeriu explicitar de forma visível quais critérios de filtros foram ativados no Quadrinho 2 do Storyboard e na listagem de resultados.
+* **Métricas Ergonômicas Consolidadas:**
+  * **Dispositivo Preferencial:** **100% de convergência** entre os participantes indicando preferência categórica pelo **computador pessoal (desktop/notebook)** para tarefas complexas de filtragem e confronto analítico de editais;
+  * **Expectativa de Eficiência Temporal:** A Participante 1 estimou uma janela aceitável de **10 a 15 minutos**, enquanto o Participante 2 indicou **5 minutos** como tempo ideal ágil, fixando um *benchmark* empírico de eficiência entre **5 e 15 minutos** para o cumprimento integral da tarefa.
 
 ---
 
@@ -406,7 +420,7 @@ Foram combinadas duas abordagens consagradas na literatura:
 * **Avaliador/Entrevistador (1 avaliador):** Daniel da Silva Batista (Estudante de Engenharia de Software da UnB / Grupo 07 IHC).
 * **Participantes Convocados (Perfil 1 – Candidato/Concurseiro):**
   * **Participante 1 (Entrevista 1 executada):** Mulher, 21 anos, estudante universitária, concurseira ativa, usuária habitual de desktop/notebook. Termo de Consentimento (TCLE) aceito formalmente em vídeo.
-  * **Participante 2 (Entrevista 2):** Em agendamento com usuário do Perfil 1.
+  * **Participante 2 (Entrevista 2 executada):** Homem, jovem adulto, estudante e concurseiro iniciante, usuário habitual de computador pessoal. Termo de Consentimento (TCLE) aceito formalmente em vídeo.
   * **Participante 3 (Entrevista 3):** Em agendamento com usuário do Perfil 1.
 
 ### 6.6 Lista de Problemas Encontrados e Oportunidades de Reprojeto
@@ -481,6 +495,7 @@ Conforme detalhado no livro de **Barbosa e Silva (2021, p. 309)**, cada problema
 | `1.1` | 23/10/2026 | Execução e registro da autoinspeção analítica com checklists (Tabelas 3 a 7) e gravação no YouTube (Vídeo 1). | Daniel da Silva Batista |
 | `1.2` | 23/10/2026 | Execução e registro da Entrevista 1 (Vídeo 3), perfil da participante (Tabela 10) e síntese qualitativa empírica. | Daniel da Silva Batista |
 | `1.3` | 23/10/2026 | Reestruturação do Relato dos Resultados (Seção 6) segundo a norma canônica de Barbosa e Silva (2021, p. 309). | Daniel da Silva Batista |
+| `1.4` | 25/10/2026 | Incorporação da gravação da Entrevista 2 (Vídeo 4 - YouTube: kjcdpNjypO8), perfil do Participante 2 (Tabela 10), registro audiovisual (Tabela 11) e consolidação da síntese de feedbacks e métricas ergonômicas. | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
