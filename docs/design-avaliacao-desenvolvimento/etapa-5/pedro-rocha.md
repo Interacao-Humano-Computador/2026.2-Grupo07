@@ -29,21 +29,9 @@ Este artefato reúne todo o ciclo de **avaliação formativa de Nível 1 (Análi
 | **Tarefa Prioritária de Autoria** | [TAR-04 — Criar cronograma personalizado de estudo com distribuição de blocos de revisão e sincronização de lembretes](../../analise-de-requisitos/analise-de-tarefas/hta.md#42-tarefa-04-criar-cronograma-personalizado-de-estudo-com-distribuicao-de-blocos-de-revisao-e-sincronizacao-de-lembretes-tar-04) |
 | **Storyboard de Autoria** | [SB-02 — Criação de Cronograma Personalizado de Estudo](#2-storyboard-individual-sb-02) |
 | **Escopo da Inspeção** | Autoinspeção analítica dos próprios artefatos (HTA e CTT da `TAR-04` e Storyboard `SB-02`) |
-| **Participantes das Entrevistas** | 3 participantes reais do Perfil 1 (Candidato/Concurseiro) |
+| **Participantes das Entrevistas** | 2 participantes reais do Perfil 1 (Candidato/Concurseiro) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
-
-</div>
-
-### 1.1 Gravação da Apresentação Individual da Etapa 5
-
-Apresentação oral em vídeo gravada por Pedro Rocha Ferreira Lima sintetizando a condução da autoinspeção analítica, do teste-piloto e das entrevistas empíricas da TAR-04 e do Storyboard SB-02:
-
-<div align="center" markdown="1">
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/sFa95G5zAcU" title="Apresentação Individual da Etapa 5 - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
-
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo da Apresentação:</b> Síntese dos resultados individuais da Etapa 5 conduzida por Pedro Rocha Ferreira Lima (Disponível no <a href="https://youtu.be/sFa95G5zAcU" target="_blank">YouTube</a>).</p>
 
 </div>
 
@@ -330,7 +318,7 @@ Conforme as diretrizes de Barbosa et al. (2021, p. 276 e 300), o teste-piloto fo
 
 ## 5. Avaliação com Usuários (Entrevistas Empíricas – TAR-04 e SB-02)
 
-Sessões de validação empírica da tarefa prioritária **TAR-04** e do Storyboard **SB-02** conduzidas individualmente por Pedro Rocha Ferreira Lima com participantes reais representativos do **Perfil 1 – Candidato/Concurseiro**.
+Sessões de validação empírica da tarefa prioritária **TAR-04** e do Storyboard **SB-02** conduzidas individualmente por Pedro Rocha Ferreira Lima com dois participantes reais representativos do **Perfil 1 – Candidato/Concurseiro**.
 
 ### 5.1 Protocolo Ético e Caracterização dos Participantes
 
@@ -344,7 +332,6 @@ Em estrita consonância com o [Perfil de Usuário](../../analise-de-requisitos/p
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | **Participante 1** | Perfil 1 – Candidato | 23 anos, estudante de Engenharia | Média (concurseiro ativo) | Computador Pessoal e Smartphone | Aceito formalmente em vídeo |
 | **Participante 2** | Perfil 1 – Candidato | 23 anos, estudante de Direito | Média (concurseiro ativo) | Computador Pessoal e Smartphone | Aceito formalmente em vídeo |
-| **Participante 3** | Perfil 1 – Candidato | 24 anos, estudante Universitário | Média (concurseiro iniciante) | Computador Pessoal e Smartphone | Aceito formalmente em vídeo |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
@@ -362,7 +349,6 @@ A Tabela 11 documenta a logística e os registros das sessões empíricas execut
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | **Entrevista 1** | Pedro Rocha Ferreira Lima | Participante 1 | 23/10/2026 às 15:12 | 03 min 43 s | [Vídeo da Entrevista 1 (YouTube - 03m 43s)](https://youtu.be/rhxeuPWVXsM) |
 | **Entrevista 2** | Pedro Rocha Ferreira Lima | Participante 2 | 23/10/2026 às 18:45 | 05 min 57 s | [Vídeo da Entrevista 2 (YouTube - 05m 57s)](https://youtu.be/HyBhqmLGRGc) |
-| **Entrevista 3** | Pedro Rocha Ferreira Lima | Participante 3 | 25/10/2026 às 15:30 | 04 min 30 s | [Vídeo da Entrevista 3 (YouTube - 04m 30s)](https://youtu.be/HyBhqmLGRGc) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
@@ -390,7 +376,7 @@ A Tabela 11 documenta a logística e os registros das sessões empíricas execut
 
 ### 5.3 Síntese dos Feedbacks Empíricos Coletados
 
-Em conformidade com a metodologia de análise qualitativa recomendada por Barbosa e Silva (2021, p. 278), os dados triangulados das sessões de entrevista revelaram os seguintes comportamentos e percepções essenciais:
+Em conformidade com a metodologia de análise qualitativa recomendada por Barbosa e Silva (2021, p. 278), os dados qualitativos das duas sessões de entrevista com usuários reais representativos do **Perfil 1 – Candidato/Concurseiro** revelaram os seguintes comportamentos e percepções essenciais:
 
 * **Validação Conceitual e Aderência do Storyboard (`SB-02`):** Os participantes compreenderam com extrema clareza a narrativa ilustrada, validando a representação da rotina de concurseiro — desde a recepção de alertas no smartphone até a organização estruturada da grade semanal de disciplinas no computador. Relataram que o portal atual do PCI Concursos é totalmente desprovido de ferramentas de planejamento de rotina de estudo, forçando o uso disperso de planilhas de Excel e agendas manuais.
 * **Validação dos Modelos Técnicos de Tarefas (`HTA` e `CTT`):** A sequência de parametrização da TAR-04 (seleção de disciplinas → definição de carga horária diária → geração de blocos automáticos → sincronização externa) foi considerada lógica e altamente intuitiva. Os usuários elogiaram o mecanismo de sugestão automática de blocos balanceados para evitar sobrecarga em um único dia.
@@ -431,7 +417,6 @@ Foram combinadas duas abordagens consagradas na literatura:
 * **Participantes Convocados (Perfil 1 – Candidato/Concurseiro):**
   * **Participante 1 (Entrevista 1 executada):** Homem, 23 anos, estudante de Engenharia, concurseiro ativo, usuário habitual de computador e smartphone. Termo de Consentimento (TCLE) aceito formalmente em vídeo.
   * **Participante 2 (Entrevista 2 executada):** Homem, 23 anos, estudante de Direito, concurseiro ativo, usuário habitual de computador e smartphone. Termo de Consentimento (TCLE) aceito formalmente em vídeo.
-  * **Participante 3 (Entrevista 3 executada):** Homem, 24 anos, estudante Universitário, concurseiro iniciante, usuário habitual de computador e smartphone. Termo de Consentimento (TCLE) aceito formalmente em vídeo.
 
 ### 6.6 Lista de Problemas Encontrados e Oportunidades de Reprojeto
 
@@ -484,7 +469,21 @@ Conforme detalhado no livro de **Barbosa e Silva (2021, p. 309)**, cada problema
 
 ---
 
-## 7. Referências Bibliográficas
+## 7. Gravação da Apresentação Individual da Etapa 5
+
+Apresentação oral em vídeo gravada por Pedro Rocha Ferreira Lima sintetizando a condução da autoinspeção analítica, do teste-piloto e das 2 entrevistas empíricas da TAR-04 e do Storyboard SB-02:
+
+<div align="center" markdown="1">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/sFa95G5zAcU" title="Apresentação Individual da Etapa 5 - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo da Apresentação:</b> Síntese dos resultados individuais da Etapa 5 conduzida por Pedro Rocha Ferreira Lima (Disponível no <a href="https://youtu.be/sFa95G5zAcU" target="_blank">YouTube</a>).</p>
+
+</div>
+
+---
+
+## 8. Referências Bibliográficas
 
 > [1] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
 > [2] FAGAN, Michael E. *Design and Code Inspections to Reduce Errors in Program Development*. IBM Systems Journal, v. 15, n. 3, p. 182-211, 1976.  
@@ -495,7 +494,7 @@ Conforme detalhado no livro de **Barbosa e Silva (2021, p. 309)**, cada problema
 
 ---
 
-## 8. Histórico de Versões
+## 9. Histórico de Versões
 
 <div align="center" markdown="1">
 
@@ -503,7 +502,7 @@ Conforme detalhado no livro de **Barbosa e Silva (2021, p. 309)**, cada problema
 | :---: | :---: | :--- | :---: |
 | `0.1` | 23/10/2026 | Estrutura preliminar do relato individual reservada para preenchimento. | Pedro Rocha Ferreira Lima |
 | `0.2` | 25/10/2026 | Reestruturação inicial do artefato conforme o padrão da Etapa 5, atualização do escopo para a TAR-04, roteiro sequencial do Storyboard SB-02 e autoinspeção analítica de HTA e CTT. | Pedro Rocha Ferreira Lima |
-| `1.0` | 25/10/2026 | Padronização e consolidação completa da entrega: inclusão do vídeo de apresentação oral individual (YouTube: sFa95G5zAcU), correção da exibição direta do Storyboard SB-02 (sem dependência de zoom), correção e incorporação de players responsivos para todos os vídeos de autoinspeção, teste-piloto e entrevistas empíricas, preenchimento dos perfis de participantes (Perfil 1 - Candidato), síntese qualitativa triangulada e adição das oportunidades empíricas de reprojeto (OPO-E01 e OPO-E02). | Pedro Rocha Ferreira Lima |
+| `1.0` | 25/10/2026 | Padronização e consolidação completa da entrega: inclusão do vídeo de apresentação oral individual (YouTube: sFa95G5zAcU), correção da exibição direta do Storyboard SB-02 (sem dependência de zoom), correção e incorporação de players responsivos para todos os vídeos de autoinspeção, teste-piloto e entrevistas empíricas, registro das 2 entrevistas empíricas com usuários reais (Participantes 1 e 2 do Perfil 1 - Candidato), síntese qualitativa dos feedbacks e adição das oportunidades empíricas de reprojeto (OPO-E01 e OPO-E02). | Pedro Rocha Ferreira Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
