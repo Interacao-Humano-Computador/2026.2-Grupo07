@@ -143,7 +143,7 @@ Raramente se avalia o sistema inteiro: delimita-se quais partes, caminhos de int
 | **SB-01** | TAR-01 — Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado | CEN-01 | PER-01 — Maria Helena dos Santos | Daniel da Silva Batista |
 | **SB-02** | TAR-04 — Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário | CEN-04 | PER-02 — Lucas Ferreira Rocha | Pedro Rocha Ferreira Lima |
 | **SB-03** | TAR-05 — Simulado online interativo com feedback automático de gabarito | CEN-05 | PER-03 — Thiago Moraes Albuquerque | Arthur Sismene Carvalho |
-| **SB-04** | TAR-08 — Alertas inteligentes de editais por e-mail com filtros avançados | CEN-08 | PER-04 — Renata Cristina Freitas | Leonardo da Silva Lopes Júnior |
+| **SB-04** | TAR-08 — Gerenciar Calendário Pessoal de Concursos | CEN-08 | PER-04 — Renata Cristina Freitas | Leonardo da Silva Lopes Júnior |
 
 <p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026), a partir da matriz de tarefas e da página de Cenários.</p>
 
