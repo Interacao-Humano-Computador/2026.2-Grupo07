@@ -65,7 +65,7 @@ Para assegurar essa profundidade — alinhando-se ao rigor demonstrado na delimi
   - **`TAR-02` (Montar e exportar caderno personalizado de estudos de provas anteriores com gabarito comentado integrado):** Supera o download passivo de arquivos isolados ao viabilizar a composição modular de provas por banca, ano e disciplina, unificando caderno de questões e gabaritos oficiais definitivos em arquivo de estudo com layout configurável;
   - **`TAR-03` (Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade no DF e RIDE):** Supera a listagem estática de estados ao permitir exploração cartográfica interativa, aplicação de raio de deslocamento a partir da residência do candidato e cálculo estimado de tempo de trânsito até os polos de aplicação e lotação.
 * **Nível 2 — Tarefas Interativas Ricas e Engajamento Cognitivo (TAR-04, TAR-05 e TAR-08):** Constituem funcionalidades bidirecionais de alta relevância ergonômica:
-  - **`TAR-04` (Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário):** Provê linha do tempo dinâmica de fases com contadores regressivos, visualizador de retificações (*diff* textual antes x depois), calculadora de prazos para recursos e integração com calendários digitais (.ics / Google Agenda);
+  - **`TAR-04` (Criar cronograma personalizado de estudo com distribuição de blocos de revisão e sincronização de lembretes):** Provê motor de geração automática de cronograma a partir das disciplinas e da carga horária disponível informadas pelo concurseiro, detecção de conflitos de horário com ajuste manual por arrastar e soltar, e exportação de lembretes para calendários digitais (.ics / Google Agenda);
   - **`TAR-05` (Sistema de Simulados Online Interativo):** Provê um motor avaliativo com parametrização de filtros (disciplina, banca, volume de questões, temporizador regressivo), áreas de toque móveis adaptadas ($\ge 48\text{px}$), feedback formativo imediato por alternativa, gabarito oficial comentado e consolidação estatística com tolerância a oscilações de sinal (*Zero Data Loss*);
   - **`TAR-08` (Calendário Pessoal de Concursos com Gestão de Inscrições e Lembretes de Prazos):** Supera a gestão fragmentada e passiva de editais ao prover um painel interativo de acompanhamento de múltiplos certames (inscrições, vencimento de boletos bancários com contadores regressivos, datas de provas e recursos), detecção visual de conflitos de datas entre editais concorrentes, checklist de status de pagamento e exportação dinâmica de eventos com lembretes para Google Agenda e calendários digitais (.ics).
 * **Nível 3 — Tarefas Propositivas e Superação de Lacunas de IHC (TAR-06 e TAR-07):** Tratam de tarefas que expandem o escopo do portal para atender demandas reprimidas (como a inclusão de estágios de nível superior no DF e reprojeto de videoaulas com *Modo Foco*).
@@ -81,7 +81,7 @@ A Tabela 2 a seguir consolida a matriz oficial de tarefas da equipe:
 | **TAR-01** | Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado | Daniel da Silva Batista |
 | **TAR-02** | Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado | Daniel da Silva Batista |
 | **TAR-03** | Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE) | Pedro Rocha Ferreira Lima |
-| **TAR-04** | Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário | Pedro Rocha Ferreira Lima |
+| **TAR-04** | Criar cronograma personalizado de estudo com distribuição de blocos de revisão e sincronização de lembretes | Pedro Rocha Ferreira Lima |
 | **TAR-05** | Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho | Arthur Sismene Carvalho |
 | **TAR-06** | Buscar oportunidades de estágio de nível superior no DF *(Tarefa não suportada)* | Arthur Sismene Carvalho |
 | **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
@@ -254,9 +254,9 @@ A decomposição hierárquica é ilustrada na Figura 3, e a especificação deta
 
 ---
 
-### 4.2 Tarefa 04: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário (TAR-04)
+### 4.2 Tarefa 04: Criar cronograma personalizado de estudo com distribuição de blocos de revisão e sincronização de lembretes (TAR-04)
 
-A Tarefa 04 compreende o monitoramento do ciclo de vida de um concurso público, atividade essencial identificada na Análise Documental (`DOC-02`), segundo a qual até 80% dos editais sofrem retificações em suas semanas inaugurais. Centrada na persona **Lucas Ferreira Rocha (`PER-02`)**, a tarefa foi estruturada com alto dinamismo interativo: o candidato explora a linha do tempo cronológica de fases, inspeciona erratas com ferramenta visual de comparação de texto (*diff* antes x depois), utiliza um simulador de prazos de recursos (calculando dias úteis e horário de fechamento bancário) e exporta marcos diretamente para sua agenda digital (.ics / Google Agenda).
+A Tarefa 04 compreende o planejamento proativo da rotina de estudos do concurseiro, atividade essencial identificada na Análise Documental (`DOC-02`), segundo a qual a dispersão de disciplinas entre múltiplos editais concorrentes exige organização disciplinada do tempo de revisão. Centrada na persona **Lucas Ferreira Rocha (`PER-02`)**, a tarefa foi estruturada com alto dinamismo interativo: o candidato seleciona as disciplinas de interesse e define sua meta diária de estudo, o sistema distribui automaticamente os blocos de revisão conforme a carga horária disponível informada, sinaliza conflitos de horário com possibilidade de ajuste manual por arrastar e soltar, e exporta o cronograma final diretamente para sua agenda digital (.ics / Google Agenda).
 
 A decomposição hierárquica é ilustrada na Figura 4, e sua especificação analítica é descrita na Tabela 5.
 
@@ -264,13 +264,13 @@ A decomposição hierárquica é ilustrada na Figura 4, e sua especificação an
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 4:</b> Diagrama HTA da Tarefa 04 - Acompanhar timeline interativa com simulador de prazos recursais</p>
+<p align="center"><b>Figura 4:</b> Diagrama HTA da Tarefa 04 - Criar cronograma personalizado de estudo</p>
 
 </div>
 
 <div align="center" markdown="1">
 
-![Diagrama HTA da Tarefa 04 - Acompanhar timeline interativa com simulador de prazos recursais](../../assets/images/hta/hta-tar04.svg)
+![Diagrama HTA da Tarefa 04 - Criar cronograma personalizado de estudo](../../assets/images/hta/hta-tar04.svg)
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), em conformidade com a notação de Barbosa et al. (2021, Figura 8.1), DOC-02 e Persona PER-02.</p>
 
@@ -284,19 +284,16 @@ A decomposição hierárquica é ilustrada na Figura 4, e sua especificação an
 
 | Objetivos / Operações | Relações / Planos | Problemas Identificados | Recomendações de Usabilidade |
 | :--- | :--- | :--- | :--- |
-| **0. Acompanhar timeline e simular prazos recursais** | **Plano `0.` (`1>2>4/1>2>3>4`):** Executar 1, 2 e 4 (`>`); se houver errata publicada (`/`), incluir 3 antes de 4. | **Risco Crítico de Perda de Prazos:** Editais com retificações não exibem alertas claros e não contam com linha do tempo de fases, induzindo à leitura exaustiva de PDFs. | Projetar componente de Timeline Interativa com comparador de retificações, calculadora de recursos e integração com agendas (`RF-DOC-04`). |
-| **1. Acessar timeline cronológica** | **Plano `1.` (`1>2`):** Executar 1.1 e depois 1.2 (`>`). | Links de acesso competem com blocos de publicidade invasiva no cabeçalho. | Padronizar acesso ao painel do certame com card estruturado em destaque no topo. |
-| **1.1 Selecionar certame na listagem/mapa** | Operação funcional | Falta de indicação visual sobre o estado atual do certame (ex.: fase de inscrição vs. fase de prova). | Exibir badges de status padronizados: `[Inscrições]`, `[Recursos]`, `[Homologado]`. |
-| **1.2 Carregar painel interativo de etapas** | Operação de sistema | Páginas lentas e saltos de leiaute (*Cumulative Layout Shift*) ao carregar scripts publicitários. | Garantir estabilidade visual imediata da timeline durante o carregamento inicial. |
-| **2. Navegar nas etapas e contadores** | **Plano `2.` (`1>2`):** Executar 2.1 e depois 2.2 (`>`). | Inexistência de representação gráfica do ciclo de vida do concurso (Inscrição $\rightarrow$ Isenção $\rightarrow$ Prova $\rightarrow$ Gabarito $\rightarrow$ Resultados). | Implementar timeline gráfica horizontal com nós interativos e indicação cromática da fase vigente. |
-| **2.1 Inspecionar nós de etapas** | Operação cognitiva | O candidato precisa calcular mentalmente se determinada etapa já precluiu ou se ainda está aberta. | Adotar semântica cromática consistente: verde (concluído), azul (em andamento) e cinza neutro (futuro). |
-| **2.2 Checar contador dinâmico regressivo** | Operação cognitiva | Incerteza sobre a hora limite exata para envio de títulos ou pagamento de boleto bancário. | Exibir contagem regressiva em tempo real: *"Encerra-se em 1 dia, 4 horas e 20 minutos"*. |
-| **3. Inspecionar notas de retificação com comparativo** | **Plano `3.` (`1>2`):** Executar 3.1 e depois 3.2 (`>`) se houver retificação. | Erratas são divulgadas como textos pequenos no rodapé; o usuário precisa confrontar múltiplos PDFs manualmente. | Destacar selo de retificação no cabeçalho e oferecer modal de visualização comparativa (*diff* textual). |
-| **3.1 Identificar selo de retificação** | Operação cognitiva | O candidato assume incorretamente que as datas antigas continuam válidas. | Posicionar badge âmbar destacado: `[⚠️ Retificação Publicada em DD/MM]`. |
-| **3.2 Acionar visualizador comparativo de texto** | Operação funcional | Cansaço visual e risco de não perceber alterações sutis em requisitos de posse ou conteúdos de prova. | Exibir janela modal com realce de exclusão (tachado em vermelho) e inclusão (verde) das cláusulas retificadas. |
-| **4. Simular prazos recursais e sincronizar** | **Plano `4.` (`1>2`):** Executar 4.1 e depois 4.2 (`>`). | **Funcionalidade Ausente no Portal:** Não há como calcular o prazo final de recursos nem exportar eventos para calendários digitais. | Construir calculadora de prazos processuais/bancários e exportador de eventos padrão RFC 5545 (`.ics`). |
-| **4.1 Calcular prazo final e horário bancário** | Operação funcional | Candidatos perdem o prazo de recurso por desconsiderarem feriados locais ou horário de compensação bancária. | Desenvolver simulador que calcule a data fatal exata considerando horário bancário e dias úteis distritais. |
-| **4.2 Exportar alertas para calendário (.ics)** | Operação funcional | Necessidade de transcrever manualmente todas as datas para a agenda do smartphone. | Disponibilizar botão de exportação com geração automática de alertas programados para 24h e 2h antes do prazo final. |
+| **0. Criar cronograma personalizado de estudo** | **Plano `0.` (`1>2>3`):** Executar 1, 2 e 3 em sequência. | O portal atual não oferece ferramenta de planejamento de estudos, obrigando o concurseiro a montar cronogramas manualmente em planilhas avulsas, sem considerar a carga horária real disponível. | Projetar componente de Cronograma Inteligente de Estudos com distribuição automática de blocos de revisão e sincronização com agenda digital (`RF-DOC-04`). |
+| **1. Selecionar disciplinas e definir meta diária de estudo** | Operação funcional | Inexistência de qualquer mecanismo de priorização de disciplinas conforme o edital de interesse do candidato. | Disponibilizar formulário de seleção de disciplinas (extraídas do conteúdo programático do certame) com campo de meta diária de horas de estudo. |
+| **2. Organizar blocos de revisão** | **Plano `2.` (`1+2`):** Executar 2.1 e 2.2 em qualquer ordem (`+`). | Falta de visualização estruturada de como o tempo disponível deve ser distribuído entre as disciplinas selecionadas. | Implementar algoritmo de geração automática de blocos de revisão balanceados por disciplina e nível de prioridade. |
+| **2.1 Checar carga horária disponível e meta diária** | Operação cognitiva | O candidato não tem clareza de quantas horas semanais efetivamente possui livres para estudar. | Exibir painel de disponibilidade semanal com soma automática das horas livres informadas. |
+| **2.2 Verificar conflitos de horário** | **Plano `2.2.` (`1/2`):** Manter a distribuição sugerida pelo sistema **ou** ajustá-la manualmente (`/`), conforme preferência do candidato. | Cronogramas gerados automaticamente podem colidir com compromissos pessoais já existentes do concurseiro. | Sinalizar em destaque visual os blocos com conflito de horário e permitir reorganização imediata. |
+| **2.2.1 Manter distribuição sugerida pelo sistema** | Operação de interface | Falta de confiança do usuário na distribuição automática sem entender os critérios aplicados. | Exibir tooltip explicativo com a lógica de priorização usada na distribuição automática (ex.: peso da disciplina no edital). |
+| **2.2.2 Ajustar manualmente os blocos de estudo** | Operação funcional | Ferramentas de calendário tradicionais exigem muitos cliques para reorganizar um único bloco de estudo. | Disponibilizar edição por arrastar e soltar (*drag-and-drop*) dos blocos de revisão na grade semanal. |
+| **3. Configurar lembretes e sincronizar cronograma** | **Plano `3.` (`1>2`):** Executar 3.1 e depois 3.2 (`>`). | **Funcionalidade Ausente no Portal:** Não há como transformar o cronograma gerado em lembretes automáticos nem exportá-lo para aplicativos de agenda. | Construir configurador de lembretes por bloco de estudo e exportador de eventos padrão RFC 5545 (`.ics`). |
+| **3.1 Definir horário de início e duração dos blocos** | Operação funcional | Candidatos abandonam o cronograma por falta de lembretes no horário certo de iniciar cada sessão de estudo. | Permitir configuração de horário de início e duração de cada bloco, com antecedência de notificação (15min, 30min). |
+| **3.2 Exportar cronograma (.ics) com alertas de 24h e 2h** | Operação funcional | Necessidade de transcrever manualmente todos os blocos de estudo para a agenda do smartphone. | Disponibilizar botão de exportação com geração automática de alertas programados para 24h e 2h antes de cada bloco. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base na Análise Documental DOC-02 e na Persona PER-02.</p>
 
@@ -592,5 +589,6 @@ flowchart TD
 | `1.4` | 06/10/2026 | Inclusão da Seção 2.1 de enquadramento ergonômico e níveis de complexidade das tarefas, enriquecimento de TAR-04 (timeline de fases), TAR-05 (simulado online interativo) e TAR-08 (central de alertas inteligentes com LGPD) (Issue #14). | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.5` | 09/10/2026 | Atendimento às OBS da avaliação docente: inclusão da Tabela 1 com legenda e notação formal da HTA (objetivos, planos e operações), consolidação da matriz em 8 tarefas completas dos 4 membros ativos, correção do cabeçalho da Tabela de Contribuição, padronização visual dos diagramas no estilo de Barbosa & Silva (2010) eliminando tons rosados e adequação das Referências Bibliográficas (ABNT). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho |
 | `1.6` | 22/10/2026 | Remodelagem formal da Tarefa 08 (TAR-08) em HTA: substituição do formulário de alertas assíncronos pela funcionalidade interativa de Calendário Pessoal de Concursos (Tabela 2, Seção 6.2, diagrama Mermaid e Tabela 9), atendendo ao feedback docente sobre interatividade do sistema. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.7` | 25/10/2026 | Remodelagem formal da Tarefa 04 (TAR-04) em HTA: substituição da timeline de acompanhamento de certame pela funcionalidade de Criação de Cronograma Personalizado de Estudo (Tabela 2, Seção 4.2, Figura 4 e Tabela 5), com distribuição automática de blocos de revisão, detecção de conflitos de horário e sincronização de lembretes. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>

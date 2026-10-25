@@ -85,7 +85,7 @@ A equipe consolidou a matriz com as oito tarefas oficiais avaliadas no portal, m
 | **TAR-01** | Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado | Daniel da Silva Batista |
 | **TAR-02** | Montar e exportar caderno personalizado de provas anteriores com gabarito comentado integrado | Daniel da Silva Batista |
 | **TAR-03** | Explorar mapa interativo georreferenciado de oportunidades com cálculo de mobilidade (DF e RIDE) | Pedro Rocha Ferreira Lima |
-| **TAR-04** | Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário | Pedro Rocha Ferreira Lima |
+| **TAR-04** | Criar cronograma personalizado de estudo com distribuição de blocos de revisão e sincronização de lembretes | Pedro Rocha Ferreira Lima |
 | **TAR-05** | Realizar simulado de questões online interativo com feedback automático de gabarito e diagnóstico de desempenho | Arthur Sismene Carvalho |
 | **TAR-06** | Buscar oportunidades de estágio de nível superior no DF *(Tarefa não suportada)* | Arthur Sismene Carvalho |
 | **TAR-07** | Acessar videoaulas e dicas teóricas de disciplinas | Leonardo da Silva Lopes Júnior |
@@ -253,9 +253,9 @@ A representação em árvore de tarefas CTT é apresentada na Figura 3, e a espe
 
 ---
 
-### 4.2 Tarefa 04: Acompanhar timeline interativa de fases do certame com simulador de prazos recursais e sincronização de calendário (TAR-04)
+### 4.2 Tarefa 04: Criar cronograma personalizado de estudo com distribuição de blocos de revisão e sincronização de lembretes (TAR-04)
 
-No âmbito do aprimoramento de escopo orientado pelas avaliações docentes, a Tarefa 04 transcende a consulta passiva a editais estáticos. A árvore CTT modela a interação dinâmica com a **Timeline de Fases do Certame**, englobando o monitoramento de marcos temporais em tempo real, a confrontação de retificações por meio de ferramenta visual de alterações (*diff* textual), a utilização de um simulador de prazos de recursos (calculando horários bancários e dias úteis) e a exportação assíncrona de eventos para agendas digitais (.ics / Google Calendar).
+No âmbito do aprimoramento de escopo orientado pelas avaliações docentes, a Tarefa 04 transcende a ausência de qualquer ferramenta de planejamento de estudos no portal. A árvore CTT modela a interação dinâmica com o **Cronograma Personalizado de Estudo**, englobando a seleção de disciplinas e metas diárias, a geração automática de blocos de revisão conforme a carga horária disponível, a detecção e o ajuste manual de conflitos de horário (*drag-and-drop*) e a exportação assíncrona de lembretes para agendas digitais (.ics / Google Calendar).
 
 A árvore de tarefas CTT é apresentada na Figura 4, e sua especificação formal de nós, tipos e operadores temporais é descrita na Tabela 6.
 
@@ -263,13 +263,13 @@ A árvore de tarefas CTT é apresentada na Figura 4, e sua especificação forma
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Figura 4:</b> Representação em Árvore CTT da Tarefa 04 - Timeline interativa com simulador recursal</p>
+<p align="center"><b>Figura 4:</b> Representação em Árvore CTT da Tarefa 04 - Criação de cronograma personalizado de estudo</p>
 
 </div>
 
 <div align="center" markdown="1">
 
-![Representação em Árvore CTT da Tarefa 04 - Timeline interativa com simulador recursal](../../assets/images/ctt/ctt-tar04.svg)
+![Representação em Árvore CTT da Tarefa 04 - Criação de cronograma personalizado de estudo](../../assets/images/ctt/ctt-tar04.svg)
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.4em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base em Barbosa et al. (2021, Seção 8.2.2) e Paternò (1999).</p>
 
@@ -283,19 +283,19 @@ A árvore de tarefas CTT é apresentada na Figura 4, e sua especificação forma
 
 | Nó / Tarefa | Tipo CTT | Operador Subsequente | Descrição da Operação |
 | :--- | :---: | :---: | :--- |
-| **Acompanhar timeline e simular prazos** | Abstrata | - | Tarefa raiz de gerenciamento cronológico contínuo e proteção contra perda de prazos editalícios. |
-| **Acessar painel do certame** | Interação | `>>` | Seleção do certame para carregamento da visualização temporal especializada. |
-| **Renderizar nós cronológicos e contadores** | Sistema | `[]>>` | Renderização visual da timeline com sinalização de fases ativas/passadas e contadores regressivos. |
-| **Inspecionar fases, retificações e contadores** | Abstrata | `>>` | Exame visual das etapas e verificação de alterações publicadas pela banca. |
-| **Inspecionar status das etapas** | Usuário | `\|\|\|` | Julgamento cognitivo do estágio de desenvolvimento do certame via código de cores semântico. |
-| **Checar contador regressivo** | Usuário | `>>` | Avaliação da proximidade da data fatal de inscrições, provas ou envio de títulos. |
-| **Acionar visualizador de retificações** | Interação | `[]>>` | Abertura da ferramenta de comparação para inspecionar alterações editalícias. |
-| **Apresentar modal com realce textual** | Sistema | - | Exibição de texto comparativo confrontando redação original e retificada (*diff*). |
-| **Simular prazos recursais e sincronizar** | Abstrata | - | Subtarefa de cálculo de prazos e automatização de lembretes na agenda pessoal do concurseiro. |
-| **Parametrizar simulador de prazos** | Interação | `[]>>` | Inserção do marco inicial do prazo e seleção da modalidade recursal pretendida. |
-| **Calcular data fatal com corte bancário** | Sistema | `>>` | Algoritmo que projeta o termo final respeitando expediente bancário e feriados distritais. |
-| **Requisitar exportação para calendário** | Interação | `[]>>` | Solicitação de geração de payload para aplicativo de agenda do smartphone. |
-| **Disparar arquivo com notificações** | Sistema | - | Emissão de arquivo `.ics` com alarmes preventivos de 24 horas e 2 horas de antecedência. |
+| **Criar cronograma personalizado de estudo** | Abstrata | - | Tarefa raiz de planejamento contínuo da rotina de revisão e proteção contra desorganização dos estudos. |
+| **Selecionar disciplinas e metas de estudo** | Interação | `>>` | Escolha das disciplinas do edital de interesse e definição da meta diária de horas de estudo. |
+| **Gerar blocos de revisão sugeridos** | Sistema | `[]>>` | Algoritmo que distribui automaticamente os blocos de revisão conforme disciplinas e carga horária informadas. |
+| **Distribuir e verificar conflitos** | Abstrata | `>>` | Exame visual da distribuição proposta e identificação de sobreposições com compromissos pessoais. |
+| **Avaliar carga horária disponível** | Usuário | `\|\|\|` | Julgamento cognitivo sobre a viabilidade do volume de horas semanais destinado a cada disciplina. |
+| **Checar meta diária de estudo** | Usuário | `>>` | Avaliação da aderência dos blocos sugeridos à meta diária definida previamente. |
+| **Acionar ajuste manual de blocos** | Interação | `[]>>` | Acionamento da edição por arrastar e soltar (*drag-and-drop*) de um bloco em conflito de horário. |
+| **Exibir editor de blocos de estudo** | Sistema | - | Apresentação da grade semanal editável com realce visual dos blocos reposicionados. |
+| **Configurar lembretes e sincronizar** | Abstrata | - | Subtarefa de automatização de notificações e integração do cronograma com a agenda pessoal do concurseiro. |
+| **Definir horário de início** | Interação | `[]>>` | Configuração do horário de início e duração de cada bloco de revisão. |
+| **Calcular blocos de revisão** | Sistema | `>>` | Algoritmo que consolida os horários definidos e prepara o payload de lembretes programados. |
+| **Solicitar exportação (.ics)** | Interação | `[]>>` | Acionamento do comando de geração do arquivo de calendário universal para o aplicativo de agenda. |
+| **Emitir arquivo de cronograma** | Sistema | - | Emissão de arquivo `.ics` com alarmes preventivos de 24 horas e 2 horas de antecedência de cada bloco. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
@@ -633,5 +633,6 @@ flowchart TD
 | `1.4` | 06/10/2026 | Enriquecimento do escopo ergonômico das tarefas no CTT (Issue #14): remodelagem formal da TAR-04 (timeline interativa e sincronização com calendário), TAR-05 (simulados parametrizados, feedback imediato e diagnóstico analítico) e TAR-08 (central de alertas inteligentes com filtros multicritério e Double Opt-In sob a LGPD), alinhando operadores temporais (>>, []>>, \|\|\|, [>, \|>, *) às diretrizes do Grupo 06. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.5` | 09/10/2026 | Atendimento às OBS da avaliação docente: consolidação da matriz em exatamente 8 tarefas dos 4 integrantes ativos, padronização visual dos diagramas CTT no estilo do livro (Barbosa e Silva, 2010) eliminando tons rosados, correção do cabeçalho da Tabela de Contribuição e adequação de Referências Bibliográficas (ABNT). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho |
 | `1.6` | 22/10/2026 | Remodelagem formal da Tarefa 08 (TAR-08) no CTT: modelagem da árvore de tarefas do Calendário Pessoal de Concursos com operadores temporais formais (>>, []>>, [], |||) e tabela de especificação de nós (Tabela 10), atendendo ao feedback docente. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
+| `1.7` | 25/10/2026 | Remodelagem formal da Tarefa 04 (TAR-04) no CTT: substituição da árvore de timeline de acompanhamento de certame pela árvore de Criação de Cronograma Personalizado de Estudo (Figura 4 e Tabela 6), com operadores temporais formais (`>>`, `[]>>`, `\|\|\|`) para distribuição de blocos de revisão e sincronização de lembretes. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
