@@ -151,7 +151,7 @@ Entram na avaliação as **oito tarefas** da versão vigente da matriz de tarefa
 | **TAR-05** | Simulado online interativo com feedback automático de gabarito | CEN-05 | PER-03 — Thiago Moraes Albuquerque | Arthur Sismene Carvalho |
 | **TAR-06** | Busca de oportunidades de estágio | CEN-06 | PER-03 — Thiago Moraes Albuquerque | Arthur Sismene Carvalho |
 | **TAR-07** | Consulta a videoaulas e dicas didáticas | CEN-07 | PER-04 — Renata Cristina Freitas | Leonardo da Silva Lopes Júnior |
-| **TAR-08** | Alertas inteligentes de editais por e-mail com filtros avançados | CEN-08 | PER-04 — Renata Cristina Freitas | Leonardo da Silva Lopes Júnior |
+| **TAR-08** | Gerenciar Calendário Pessoal de Concursos | CEN-08 | PER-04 — Renata Cristina Freitas | Leonardo da Silva Lopes Júnior |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026), a partir da matriz de tarefas e da página de Cenários.</p>
 
@@ -168,7 +168,7 @@ A inspeção por pares e as entrevistas com usuários concentram-se nas **quatro
 | **S1** | USR-06 | TAR-01 — Parametrizar busca avançada multicritério e comparar editais | Perfil 1 — Candidato/Concurseiro | Daniel da Silva Batista |
 | **S2** | USR-07 | TAR-04 — Acompanhar timeline interativa de fases do certame | Perfil 1 — Candidato/Concurseiro | Pedro Rocha Ferreira Lima |
 | **S3** | USR-08 | TAR-05 — Simulado online interativo com feedback automático | Perfil 1 — Candidato/Concurseiro | Arthur Sismene Carvalho |
-| **S4** | USR-09 | TAR-08 — Alertas inteligentes de editais por e-mail | Perfil 1 — Candidato/Concurseiro | Leonardo da Silva Lopes Júnior |
+| **S4** | USR-09 | TAR-08 — Gerenciar Calendário Pessoal de Concursos | Perfil 1 — Candidato/Concurseiro | Leonardo da Silva Lopes Júnior |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
