@@ -4,9 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | [Criação e estruturação da página de apresentação da equipe e perfis dos membros](#membros-do-grupo) |
-| Leonardo da Silva Lopes Júnior | [Revisão da documentação da equipe e conformidade com as diretrizes da disciplina](#membros-do-grupo) |
-| Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | [Fornecimento de dados individuais, fotos e perfis do GitHub](#membros-do-grupo) |
+| Daniel da Silva Batista | Criação e estruturação da página de apresentação da equipe e perfis dos membros. |
+| Leonardo da Silva Lopes Júnior | Revisão da documentação da equipe e conformidade com as diretrizes da disciplina. |
+| Arthur Sismene Carvalho | Fornecimento de dados individuais, fotos e perfis do GitHub e alinhamento com a equipe. |
+| Pedro Rocha Ferreira Lima | Fornecimento de dados individuais, fotos e perfis do GitHub e alinhamento com a equipe. |
 | Gemini | Apoio na estilização e formatação da grade de membros em Markdown (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -46,5 +47,6 @@ Conheça os integrantes que compõem o Grupo 07 no projeto de Interação Humano
 | `1.0` | 04/09/2026 | Criação da página de apresentação dos membros da equipe. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.2` | 09/10/2026 | Remoção das matrículas conforme apontamento do monitor (OBS 1), atualização do quadro de membros ativos e inclusão de agradecimentos e referências bibliográficas. | Daniel da Silva Batista | Leonardo da Silva Lopes Júnior |
+| `1.3` | 02/11/2026 | Padronização da Tabela de Contribuição e remoção de hiperligações internas. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
