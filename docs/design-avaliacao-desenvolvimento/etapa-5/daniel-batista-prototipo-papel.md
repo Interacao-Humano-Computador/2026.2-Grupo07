@@ -248,8 +248,8 @@ O recrutamento respeitou integralmente o [Perfil 1 — Candidato/Concurseiro](..
 | Participante | Perfil Concurseiro | Idade / Ocupação | Rotina com Concursos | Dispositivo Habitual | Status do TCLE |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | **Participante 1** | Perfil 1 – Candidato | 52 anos / Pedagoga e Psicopedagoga | Concurseira ativa (em busca de recolocação e prestando concursos regularmente) | Computador Pessoal | Aceito formalmente em vídeo |
-| **Participante 2** | Perfil 1 – Candidato | Universitária / Estudante | Concurseira ativa (pesquisa certames regularmente) | Computador Pessoal | *Em condução* |
-| **Participante 3** | Perfil 1 – Candidato | Jovem adulto / Estudante | Concurseiro iniciante (iniciando a rotina de busca de certames) | Computador Pessoal | *Em condução* |
+| **Participante 2** | Perfil 1 – Candidato | 21 anos / Universitária e Estudante | Concurseira ativa (pesquisa certames regularmente) | Computador Pessoal | Aceito formalmente em vídeo |
+| **Participante 3** | Perfil 1 – Candidato | Jovem adulto / Estudante | Concurseiro iniciante (iniciando a rotina de busca de certames) | Computador Pessoal | Aceito formalmente em vídeo |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -266,8 +266,8 @@ A Tabela 5 documenta a logística e os registros das sessões empíricas executa
 | Sessão | Entrevistador | Participante | Data e Horário | Duração | Link da Gravação |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | **Entrevista 1** | Daniel da Silva Batista | Participante 1 (52 anos, Pedagoga) | 02/11/2026 às 10:45 | 05 min 05 s | [Vídeo da Entrevista 1 (YouTube - 05m 05s)](https://youtu.be/C8vyfMWISsY) |
-| **Entrevista 2** | Daniel da Silva Batista | Participante 2 | 02/11/2026 | *A realizar* | *Em gravação* |
-| **Entrevista 3** | Daniel da Silva Batista | Participante 3 | 02/11/2026 | *A realizar* | *Em gravação* |
+| **Entrevista 2** | Daniel da Silva Batista | Participante 2 (21 anos, Universitária) | 02/11/2026 às 14:03 | 02 min 16 s | [Vídeo da Entrevista 2 (YouTube - 02m 16s)](https://youtu.be/AErfSvTkVGA) |
+| **Entrevista 3** | Daniel da Silva Batista | Participante 3 (Jovem adulto, Estudante) | 02/11/2026 às 14:12 | 02 min 06 s | [Vídeo da Entrevista 3 (YouTube - 02m 06s)](https://youtu.be/QzVX9Hed4OU) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -282,7 +282,29 @@ A Tabela 5 documenta a logística e os registros das sessões empíricas executa
 
 </div>
 
-### 5.3 Desempenho nas Tarefas e Feedbacks da Entrevista 1
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/AErfSvTkVGA" title="Entrevista 02 - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center"><b>Vídeo 3:</b> Gravação da Entrevista 2 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/AErfSvTkVGA" target="_blank">https://youtu.be/AErfSvTkVGA</a></p>
+
+</div>
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/QzVX9Hed4OU" title="Entrevista 03 - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center"><b>Vídeo 4:</b> Gravação da Entrevista 3 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/QzVX9Hed4OU" target="_blank">https://youtu.be/QzVX9Hed4OU</a></p>
+
+</div>
+
+### 5.3 Desempenho nas Tarefas e Feedbacks Coletados
+
+Nas sessões individuais, o protocolo de *Think-Aloud* (pensar em voz alta) foi empregado conjuntamente à simulação mecânica do Computador Humano:
+
+#### 5.3.1 Sessão 1 — Participante 1 (52 anos, Pedagoga)
 
 Durante a primeira sessão com a **Participante 1**, a técnica do *Think-Aloud* (pensar em voz alta) foi aplicada conjuntamente à simulação mecânica do Computador Humano:
 
@@ -304,6 +326,46 @@ Durante a primeira sessão com a **Participante 1**, a técnica do *Think-Aloud*
 - **Organização Visual:** Considerou o protótipo muito intuitivo, destacando que a apresentação lado a lado dos concursos na terceira tela oferece clareza imediata para a decisão.
 - **Dúvidas ou Hesitações:** Afirmou que não teve nenhuma dúvida no fluxo e achou a interface fácil de operar.
 - **Insight para Reprojeto:** Destacou espontaneamente que a informação de turno de prova é crucial para concurseiros, pois prestar dois concursos no mesmo dia só é factível se o deslocamento entre os locais de prova for viável. Esse feedback valida a oportunidade `OPO-PP02` (alerta de choque/compatibilidade de turnos).
+
+#### 5.3.2 Sessão 2 — Participante 2 (21 anos, Universitária)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Desempenho e Eficácia da Participante 2 no Protótipo de Papel</b></p>
+
+| Tarefa Avaliada | Instrução Fornecida | Ação Executada pela Usuária (*Think-Aloud*) | Resultado | Tempo de Execução |
+| :--- | :--- | :--- | :---: | :---: |
+| **Tarefa 1: Busca Avançada** | *"Encontre concursos abertos utilizando os filtros de busca avançada."* | Verbalizou a parametrização dos filtros (escolaridade de nível médio e área administrativa) e tocou em `[Filtrar Concursos]`. | **Sucesso Autônomo** | ~25 s |
+| **Tarefa 2: Seleção para Confronto** | *"Selecione dois certames da lista para comparar."* | Apontou para as caixas de seleção dos dois concursos retornados e visualizou a resposta mecânica imediata da tira `[2 concursos selecionados]`. | **Sucesso Autônomo** | ~35 s |
+| **Tarefa 3: Matriz Comparativa e Exportação** | *"Confronte os dados na matriz lado a lado e gere o PDF."* | Analisou a tabela comparativa (salários, datas de prova, vagas e matérias comuns), acionou o botão `[Exportar PDF]` e conferiu a confirmação do modal dinâmico. | **Sucesso Autônomo** | ~30 s |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+- **Clareza e Usabilidade:** Avaliou o protótipo como *"bem didático, bem acessível e fácil de entender"*.
+- **Dificuldades ou Inconsistências:** Declarou que em nenhum momento sentiu confusão quanto à ordem dos passos ou significado dos botões.
+- **Sugestões de Reprojeto:** Afirmou que não alteraria nem retiraria elementos das peças desenhadas, considerando a solução completa e direta para a necessidade do concurseiro.
+
+#### 5.3.3 Sessão 3 — Participante 3 (Jovem adulto, Estudante)
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Desempenho e Eficácia do Participante 3 no Protótipo de Papel</b></p>
+
+| Tarefa Avaliada | Instrução Fornecida | Ação Executada pelo Usuário (*Think-Aloud*) | Resultado | Tempo de Execução |
+| :--- | :--- | :--- | :---: | :---: |
+| **Tarefa 1: Busca Avançada** | *"Encontre concursos abertos utilizando os filtros de busca avançada."* | Verbalizou os critérios de pesquisa (Região DF e área da saúde) e tocou em `[Filtrar Concursos]`. | **Sucesso Autônomo** | ~20 s |
+| **Tarefa 2: Seleção para Confronto** | *"Selecione dois certames da lista para comparar."* | Apontou para as caixas de seleção dos dois primeiros editais e visualizou a resposta dinâmica da tira `[2 editais selecionados - Comparar Agora]`. | **Sucesso Autônomo** | ~30 s |
+| **Tarefa 3: Matriz Comparativa e Exportação** | *"Confronte os dados na matriz lado a lado e gere o PDF."* | Analisou as colunas comparativas dos editais selecionados, tocou no botão de rodapé `[Exportar PDF]` e confirmou o fechamento da notação dinâmica de sucesso. | **Sucesso Autônomo** | ~25 s |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+- **Clareza e Usabilidade:** Afirmou que não sentiu nenhuma confusão e que o fluxo de pensamento não foi interrompido em nenhuma das telas.
+- **Dificuldades ou Hesitações:** Declarou que os passos são fáceis de assimilar e que as peças móveis comunicam bem as respostas da interface.
+- **Sugestões de Reprojeto:** Informou que achou a estrutura bem resolvida e que não faria acréscimos ou alterações no modelo de baixa fidelidade.
 
 ---
 
@@ -345,6 +407,8 @@ Conforme preconizado por **Barbosa e Silva (2021, p. 309)** e a escala de severi
 | :---: | :---: | :--- | :---: |
 | `1.0` | 02/11/2026 | Elaboração inicial do artefato individual de Nível 2 (Protótipo de Papel) com as 3 telas manuais, autoinspeção analítica, teste-piloto e propostas de reprojeto. | Daniel da Silva Batista |
 | `1.1` | 02/11/2026 | Inclusão do registro audiovisual, player incorporado e dados da Entrevista 1 de validação empírica com usuária real. | Daniel da Silva Batista |
+| `1.2` | 02/11/2026 | Inclusão do registro audiovisual, player incorporado e dados da Entrevista 2 com participante universitária. | Daniel da Silva Batista |
+| `1.3` | 02/11/2026 | Inclusão do registro audiovisual, player incorporado da Entrevista 3 e consolidação integral dos testes empíricos com os 3 participantes reais. | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
