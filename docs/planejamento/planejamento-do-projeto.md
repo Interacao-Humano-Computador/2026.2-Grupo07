@@ -6,6 +6,8 @@
 | :--- | :--- |
 | Daniel da Silva Batista | [Redação do planejamento do projeto, definição das políticas de versionamento do repositório e diretrizes de uso de IA](#2-politicas-do-repositorio) |
 | Pedro Rocha Ferreira Lima | [Revisão técnica das políticas de repositório e diretrizes de integridade acadêmica](#3-politica-de-uso-de-inteligencia-artificial) |
+| Arthur Sismene Carvalho | [Revisão das diretrizes de comunicação e alinhamento metodológico com o cronograma](#2-politicas-do-repositorio) |
+| Leonardo da Silva Lopes Júnior | [Revisão da política de branches, versionamento e estruturação de documentação](#21-politica-de-branches-e-commits) |
 | Gemini | Apoio na formatação e validação sintática em Markdown (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -57,5 +59,6 @@ Em conformidade com as exigências acadêmicas atuais para evitar plágio e gara
 | `1.0` | 06/09/2026 | Criação do documento de Planejamento do Projeto (Políticas de IA e Repositório). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.2` | 09/10/2026 | Atendimento às observações do monitor (OBS 7, 10, 11 e 12): inclusão de referências bibliográficas, agradecimentos e hiperligações na tabela de contribuição. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.3` | 02/11/2026 | Atualização e padronização da Tabela de Contribuição contemplando todos os quatro integrantes da equipe. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
