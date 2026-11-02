@@ -158,11 +158,11 @@ A Tabela 2 apresenta o planejamento logístico das sessões de teste de usabilid
 
 | Sessão | Participante | Perfil do Usuário | Moderador | Computador Humano | Observador | Data Prevista | Local / Formato |
 | :---: | :---: | :---: | :--- | :--- | :--- | :---: | :--- |
-| **Piloto** | Participante Piloto | Perfil 1 – Concurseiro | Daniel Batista | Pedro Rocha | Arthur Carvalho | 27/10/2026 | Presencial / Laboratório FGA |
-| **S01** | Participante 1 | Perfil 1 – Concurseiro | Daniel Batista | Pedro Rocha | Arthur Carvalho | 28/10/2026 | Presencial / FGA |
-| **S02** | Participante 2 | Perfil 1 – Concurseiro | Pedro Rocha | Daniel Batista | Leonardo Lopes | 28/10/2026 | Presencial / FGA |
-| **S03** | Participante 3 | Perfil 1 – Concurseiro | Arthur Carvalho | Leonardo Lopes | Daniel Batista | 29/10/2026 | Presencial / FGA |
-| **S04** | Participante 4 | Perfil 1 – Concurseiro | Leonardo Lopes | Arthur Carvalho | Pedro Rocha | 29/10/2026 | Presencial / FGA |
+| **Piloto** | Participante Piloto | Perfil 1 – Concurseiro | Daniel Batista | Pedro Rocha | Arthur Carvalho | 01/11/2026 | Presencial / Laboratório FGA |
+| **S01** | Participante 1 | Perfil 1 – Concurseiro | Daniel Batista | Pedro Rocha | Arthur Carvalho | 01/11/2026 a 02/11/2026 | Presencial / FGA |
+| **S02** | Participante 2 | Perfil 1 – Concurseiro | Pedro Rocha | Daniel Batista | Leonardo Lopes | 01/11/2026 a 02/11/2026 | Presencial / FGA |
+| **S03** | Participante 3 | Perfil 1 – Concurseiro | Arthur Carvalho | Leonardo Lopes | Daniel Batista | 01/11/2026 a 02/11/2026 | Presencial / FGA |
+| **S04** | Participante 4 | Perfil 1 – Concurseiro | Leonardo Lopes | Arthur Carvalho | Pedro Rocha | 01/11/2026 a 02/11/2026 | Presencial / FGA |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
 
@@ -227,6 +227,7 @@ Antes da aplicação do teste com os participantes oficiais, a equipe executará
 | Versão | Data | Descrição | Autor(es) |
 | :---: | :---: | :--- | :---: |
 | `1.0` | 23/10/2026 | Elaboração inicial do Planejamento da Avaliação do Protótipo de Papel da Etapa 5 estruturado no framework DECIDE conforme Barbosa e Silva (2021). | Daniel da Silva Batista |
+| `1.1` | 02/11/2026 | Atualização do cronograma logístico para refletir as datas reais do teste-piloto e das sessões na Etapa 6. | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

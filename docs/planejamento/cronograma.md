@@ -246,7 +246,7 @@ Na Tabela 9, tem-se o cronograma planejado para as atividades da quinta entrega.
 
 ### 5.2 Cronograma Executado
 
-Na Tabela 10, tem-se o registro das atividades em andamento e já executadas referentes à quinta entrega.
+Na Tabela 10, tem-se o registro consolidado das atividades executadas referentes à quinta entrega.
 
 <div align="center" markdown="1">
 
@@ -254,17 +254,20 @@ Na Tabela 10, tem-se o registro das atividades em andamento e já executadas ref
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Estruturação da página de Storyboards da Equipe e Confecção do SB-01 | Início: 20/10<br>Fim: 21/10 | Daniel da Silva Batista | Início: 21/10<br>Fim: 21/10 | Arthur Sismene Carvalho |
+| Confecção e Digitalização dos Storyboards da Equipe (SB-01 a SB-04) | Início: 20/10<br>Fim: 21/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 21/10<br>Fim: 22/10 | Arthur Sismene Carvalho, Daniel da Silva Batista |
 | Planejamento, Protocolo e Execução do Teste-Piloto de Nível 1 | Início: 21/10<br>Fim: 21/10 | Daniel da Silva Batista | Início: 21/10<br>Fim: 21/10 | Arthur Sismene Carvalho |
-| Condução das Entrevistas de Avaliação com Usuários | *Em andamento* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A definir* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
-| Relato dos Resultados do Storyboard e da Análise de Tarefas | *Em andamento* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A definir* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
-| Gravação da Apresentação da Etapa 5 | *A realizar* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A realizar* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Condução das Entrevistas de Avaliação com Usuários (Tarefas e Storyboards) | Início: 21/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 24/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Relato dos Resultados do Storyboard e da Análise de Tarefas (Individual) | Início: 22/10<br>Fim: 25/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 25/10<br>Fim: 26/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Planejamento da Avaliação e do Relato do Protótipo de Papel | Início: 21/10<br>Fim: 24/10 | Daniel da Silva Batista | Início: 24/10<br>Fim: 25/10 | Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima |
+| Gravação da Apresentação da Etapa 5 | Início: 26/10<br>Fim: 26/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 26/10<br>Fim: 26/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
 ## 6. Etapa 6 - Relato do Protótipo de Papel e Alta Fidelidade
+
+### 6.1 Cronograma Planejado
 
 Na Tabela 11, tem-se o cronograma planejado para as atividades da sexta entrega.
 
@@ -284,13 +287,35 @@ Na Tabela 11, tem-se o cronograma planejado para as atividades da sexta entrega.
 
 </div>
 
-## 7. Etapa 7 - Relato do Protótipo de Alta Fidelidade
+### 6.2 Cronograma Executado
 
-Na Tabela 12, tem-se o cronograma planejado para as atividades da sétima entrega.
+Na Tabela 12, tem-se o registro das atividades já executadas e em andamento referentes à sexta entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 12 - Cronograma Planejado (Etapa 7)</b></p>
+<p align="center"><b>Tabela 12 - Cronograma Executado (Etapa 6)</b></p>
+
+| Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
+| :--- | :---: | :--- | :---: | :--- |
+| Concepção, desenho manual e digitalização do Protótipo de Papel (TAR-01 e TAR-02) | Início: 28/10<br>Fim: 01/11 | Daniel da Silva Batista | Início: 01/11<br>Fim: 02/11 | Pedro Rocha Ferreira Lima |
+| Condução e gravação do Teste-Piloto do Protótipo de Papel | Início: 01/11<br>Fim: 01/11 | Daniel da Silva Batista | Início: 01/11<br>Fim: 02/11 | Arthur Sismene Carvalho |
+| Elaboração do Relato dos Resultados do Protótipo de Papel (Individual) com modais e reprojeto | Início: 01/11<br>Fim: 02/11 | Daniel da Silva Batista | Início: 02/11<br>Fim: 02/11 | Pedro Rocha Ferreira Lima |
+| Planejamento da Avaliação do Protótipo de Alta Fidelidade (Nível 3) | Início: 26/10<br>Fim: 02/11 | Leonardo da Silva Lopes Júnior, Daniel da Silva Batista | Início: 02/11<br>Fim: 02/11 | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho |
+| Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade (Nível 3) | Início: 26/10<br>Fim: 02/11 | Daniel da Silva Batista, Leonardo da Silva Lopes Júnior | Início: 02/11<br>Fim: 02/11 | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho |
+| Reorganização e padronização da hierarquia dos Níveis 1, 2 e 3 na navegação | Início: 02/11<br>Fim: 02/11 | Daniel da Silva Batista | Início: 02/11<br>Fim: 02/11 | Arthur Sismene Carvalho |
+| Gravação da Apresentação da Etapa 6 | *Em andamento* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A realizar* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+## 7. Etapa 7 - Relato do Protótipo de Alta Fidelidade
+
+Na Tabela 13, tem-se o cronograma planejado para as atividades da sétima entrega.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13 - Cronograma Planejado (Etapa 7)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -306,11 +331,11 @@ Na Tabela 12, tem-se o cronograma planejado para as atividades da sétima entreg
 
 ## 8. Etapa 8 - Verificação dos Artefatos
 
-Na Tabela 13, tem-se o cronograma planejado para as atividades da oitava entrega.
+Na Tabela 14, tem-se o cronograma planejado para as atividades da oitava entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 13 - Cronograma Planejado (Etapa 8)</b></p>
+<p align="center"><b>Tabela 14 - Cronograma Planejado (Etapa 8)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -326,11 +351,11 @@ Na Tabela 13, tem-se o cronograma planejado para as atividades da oitava entrega
 
 ## 9. Projeto Final
 
-Na Tabela 14, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
+Na Tabela 15, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 14 - Cronograma Planejado (Projeto Final)</b></p>
+<p align="center"><b>Tabela 15 - Cronograma Planejado (Projeto Final)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -368,6 +393,7 @@ Na Tabela 14, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.7` | 06/10/2026 | Atualização do Cronograma Planejado e inserção do Cronograma Executado da Etapa 3, com registro dos artefatos de Princípios Gerais de Projeto e Guia de Estilo. | Daniel da Silva Batista, Leonardo da Silva Lopes Júnior | Pedro Rocha Ferreira Lima |
 | `1.8` | 09/10/2026 | Resolução das pendências apontadas pelo monitor (OBS 3 e OBS 4): atribuição balanceada de responsáveis para as Etapas 4 a 8, detalhamento das técnicas de análise de tarefas e inclusão de referências bibliográficas e agradecimentos. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.9` | 21/10/2026 | Inserção do Cronograma Executado da Etapa 4 e detalhamento das atividades executadas e planejadas da Etapa 5 (Storyboards e Teste-Piloto de Nível 1). | Daniel da Silva Batista | Arthur Sismene Carvalho |
+| `2.0` | 02/11/2026 | Atualização do Cronograma Executado da Etapa 5 (entrevistas, relatos individuais e apresentação gravada) e inserção do Cronograma Executado da Etapa 6 (Protótipo de Papel e Planejamento de Alta Fidelidade). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
 
