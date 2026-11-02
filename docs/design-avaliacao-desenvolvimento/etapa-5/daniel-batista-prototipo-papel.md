@@ -239,7 +239,7 @@ A gravação do teste-piloto com o protótipo de papel está disponível na ínt
 ## 5. Avaliação com Usuários (Sessões Empíricas)
 
 ### 5.1 Protocolo Ético e Caracterização dos Participantes
-O recrutamento respeitou integralmente o [Perfil 1 — Candidato/Concurseiro](../../analise-de-requisitos/perfil-de-usuario.md). O Termo de Consentimento Livre e Esclarecido (TCLE) foi formalizado verbalmente no início de cada gravação, assegurando que o foco de teste é o protótipo em papel e jamais a capacidade individual do participante.
+O recrutamento respeitou integralmente o [Perfil 1 — Candidato/Concurseiro](../../analise-de-requisitos/perfil-de-usuario.md). O Termo de Consentimento Livre e Esclarecido (TCLE) foi formalizado verbalmente no início de cada gravação, assegurando que o foco do teste é o protótipo em papel e jamais a capacidade individual do participante.
 
 <div align="center" markdown="1">
 
@@ -247,28 +247,63 @@ O recrutamento respeitou integralmente o [Perfil 1 — Candidato/Concurseiro](..
 
 | Participante | Perfil Concurseiro | Idade / Ocupação | Rotina com Concursos | Dispositivo Habitual | Status do TCLE |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| **Participante 1** | Perfil 1 – Candidato | 21 anos / Universitária | Concurseira ativa (pesquisa editais semanalmente) | Computador Pessoal | Aceito formalmente em vídeo |
-| **Participante 2** | Perfil 1 – Candidato | Jovem adulto / Estudante | Concurseiro iniciante | Computador Pessoal | Aceito formalmente em vídeo |
+| **Participante 1** | Perfil 1 – Candidato | 52 anos / Pedagoga e Psicopedagoga | Concurseira ativa (em busca de recolocação e prestando concursos regularmente) | Computador Pessoal | Aceito formalmente em vídeo |
+| **Participante 2** | Perfil 1 – Candidato | Universitária / Estudante | Concurseira ativa (pesquisa certames regularmente) | Computador Pessoal | *Em condução* |
+| **Participante 3** | Perfil 1 – Candidato | Jovem adulto / Estudante | Concurseiro iniciante (iniciando a rotina de busca de certames) | Computador Pessoal | *Em condução* |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
-### 5.2 Desempenho nas Tarefas e Feedbacks Coletados
+### 5.2 Registro Audiovisual das Entrevistas
+
+A Tabela 5 documenta a logística e os registros das sessões empíricas executadas. O player da primeira entrevista está incorporado a seguir:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 5: Desempenho e Eficácia dos Usuários no Protótipo de Papel</b></p>
+<p align="center"><b>Tabela 5: Registro Audiovisual das Entrevistas do Protótipo de Papel</b></p>
 
-| Tarefa Avaliada | Instrução Fornecida | Ação Executada pelo Usuário | Resultado | Tempo Médio |
-| :--- | :--- | :--- | :---: | :---: |
-| **Tarefa 1: Busca Avançada** | *"Encontre concursos abertos de nível superior em Brasília."* | O participante tocou nos filtros de DF, Nível Superior e acionou 'Filtrar Concursos'. | **Sucesso Autônomo** | 48 s |
-| **Tarefa 2: Comparação Lado a Lado** | *"Selecione dois editais para confrontar salários e datas de prova."* | Marcou os checkboxes do TRF e MGI e pressionou a barra de comparação. | **Sucesso Autônomo** | 1 min 02 s |
-| **Tarefa 3: Exportação em PDF** | *"Salve o comparativo gerado para seus estudos."* | Localizou o botão 'Exportar PDF' no rodapé e tocou em confirmar. | **Sucesso Autônomo** | 25 s |
+| Sessão | Entrevistador | Participante | Data e Horário | Duração | Link da Gravação |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| **Entrevista 1** | Daniel da Silva Batista | Participante 1 (52 anos, Pedagoga) | 02/11/2026 às 10:45 | 05 min 05 s | [Vídeo da Entrevista 1 (YouTube - 05m 05s)](https://youtu.be/C8vyfMWISsY) |
+| **Entrevista 2** | Daniel da Silva Batista | Participante 2 | 02/11/2026 | *A realizar* | *Em gravação* |
+| **Entrevista 3** | Daniel da Silva Batista | Participante 3 | 02/11/2026 | *A realizar* | *Em gravação* |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/C8vyfMWISsY" title="Entrevista 01 - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center"><b>Vídeo 2:</b> Gravação da Entrevista 1 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/C8vyfMWISsY" target="_blank">https://youtu.be/C8vyfMWISsY</a></p>
+
+</div>
+
+### 5.3 Desempenho nas Tarefas e Feedbacks da Entrevista 1
+
+Durante a primeira sessão com a **Participante 1**, a técnica do *Think-Aloud* (pensar em voz alta) foi aplicada conjuntamente à simulação mecânica do Computador Humano:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 6: Desempenho e Eficácia da Participante 1 no Protótipo de Papel</b></p>
+
+| Tarefa Avaliada | Instrução Fornecida | Ação Executada pela Usuária (*Think-Aloud*) | Resultado | Tempo de Execução |
+| :--- | :--- | :--- | :---: | :---: |
+| **Tarefa 1: Busca Avançada** | *"Encontre concursos abertos de nível superior na área administrativa em Brasília."* | Verbalizou a digitação do cargo e tocou nos filtros de DF, Nível Superior, Área Administrativa e Inscrições Abertas, acionando o botão `[Filtrar Concursos]`. | **Sucesso Autônomo** | ~55 s |
+| **Tarefa 2: Seleção para Confronto** | *"Selecione dois editais para confrontar salários e datas de prova."* | Identificou os cards do TRF e MGI, analisou vagas e salários, notou provas em turnos opostos (manhã e tarde), marcou as duas caixas de seleção e tocou em `[Comparar]`. | **Sucesso Autônomo** | ~1 min 15 s |
+| **Tarefa 3: Matriz Comparativa e Exportação** | *"Analise a comparação lado a lado e salve o comparativo em PDF."* | Ponderou a viabilidade dos turnos de prova em relação aos locais físicos no DF, tocou no botão de rodapé `[Exportar PDF]` e visualizou o modal dinâmico de sucesso. | **Sucesso Autônomo** | ~50 s |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+#### Síntese das Respostas Pós-Teste (Participante 1):
+- **Organização Visual:** Considerou o protótipo muito intuitivo, destacando que a apresentação lado a lado dos concursos na terceira tela oferece clareza imediata para a decisão.
+- **Dúvidas ou Hesitações:** Afirmou que não teve nenhuma dúvida no fluxo e achou a interface fácil de operar.
+- **Insight para Reprojeto:** Destacou espontaneamente que a informação de turno de prova é crucial para concurseiros, pois prestar dois concursos no mesmo dia só é factível se o deslocamento entre os locais de prova for viável. Esse feedback valida a oportunidade `OPO-PP02` (alerta de choque/compatibilidade de turnos).
 
 ---
 
@@ -309,6 +344,7 @@ Conforme preconizado por **Barbosa e Silva (2021, p. 309)** e a escala de severi
 | Versão | Data | Descrição | Autor(es) |
 | :---: | :---: | :--- | :---: |
 | `1.0` | 02/11/2026 | Elaboração inicial do artefato individual de Nível 2 (Protótipo de Papel) com as 3 telas manuais, autoinspeção analítica, teste-piloto e propostas de reprojeto. | Daniel da Silva Batista |
+| `1.1` | 02/11/2026 | Inclusão do registro audiovisual, player incorporado e dados da Entrevista 1 de validação empírica com usuária real. | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
