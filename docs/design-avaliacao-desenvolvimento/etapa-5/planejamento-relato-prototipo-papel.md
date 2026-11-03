@@ -86,7 +86,7 @@ Tabela padronizada que confronta o comportamento real do usuário com o resultad
 
 | ID | Contexto da Interação | Comportamento Observado | Resultado Esperado | Alteração Proposta / Encaminhamento | Origem da Proposta |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| `OPO-PP01` | *Tela ou componente onde ocorreu* | *O que o participante fez ou disse* | *O que a interface esperava que ele fizesse/entendesse* | *Ação de reprojeto proposta para o Figma* | *Usuário / Avaliador* |
+| `OPO-PP01` | *Tela ou componente onde ocorreu* | *O que o participante fez ou disse* | *O que a interface esperava que ele fizesse/entendesse* | *Ação de reprojeto proposta para a alta fidelidade* | *Usuário / Avaliador* |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026), padronizado com Barbosa et al. (2021).</p>
 

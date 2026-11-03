@@ -202,7 +202,7 @@ O planejamento estabelece os seguintes critérios de sucesso e comportamentos es
 4. **Compreensão das Respostas Mecânicas do Papel:**
    * Espera-se que os participantes assimilem com naturalidade a técnica do "Computador Humano" (*Wizard of Oz*), compreendendo que as tiras sobrepostas e folhas trocadas simulam os estados reais do sistema sem que isso interrompa a fluidez do raciocínio (*think-aloud*).
 5. **Geração de Oportunidades para o Reprojeto em Alta Fidelidade (Nível 3):**
-   * Espera-se identificar oportunidades concretas de refinamento de interface (ex.: elementos de posicionamento fixo/sticky, chips visuais de filtros aplicados, alertas proativos de choque de horário e feedback de estado vazio) para fundamentar a prototipação interativa no Figma.
+   * Espera-se identificar oportunidades concretas de refinamento de interface (ex.: elementos de posicionamento fixo/sticky, chips visuais de filtros aplicados, alertas proativos de choque de horário e feedback de estado vazio) para fundamentar a prototipação digital de alta fidelidade.
 
 ### 8.2 Consolidação, Interpretação e Apresentação dos Dados
 
