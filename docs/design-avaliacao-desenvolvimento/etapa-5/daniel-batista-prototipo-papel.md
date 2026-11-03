@@ -209,7 +209,7 @@ Conforme Barbosa et al. (2021, p. 276 e 300), o teste-piloto foi realizado previ
 | Parâmetro | Detalhamento |
 | :--- | :--- |
 | **Data e Horário:** | 01/11/2026 às 12:33 |
-| **Duração da Gravação:** | 04 minutos e 12 segundos |
+| **Duração da Gravação:** | 03 minutos e 41 segundos |
 | **Avaliador Responsável:** | Daniel da Silva Batista |
 | **Ambiente de Gravação:** | Presencial / Laboratório FGA com câmera focalizando a mesa de testes |
 | **Artefatos Exercitados:** | Protótipo de Papel da `TAR-01` e `TAR-02` (3 telas em papel e post-its móveis) |
@@ -225,10 +225,10 @@ A gravação do teste-piloto com o protótipo de papel está disponível na ínt
 
 <div align="center">
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/wsHeCGeZRyA" title="Gravação do Teste-Piloto - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/dmLr099zT0Y" title="Gravação do Teste-Piloto - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
 <p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/wsHeCGeZRyA" target="_blank">https://youtu.be/wsHeCGeZRyA</a></p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/dmLr099zT0Y" target="_blank">https://youtu.be/dmLr099zT0Y</a></p>
 
 </div>
 
@@ -409,6 +409,7 @@ Conforme preconizado por **Barbosa e Silva (2021, p. 309)** e a escala de severi
 | `1.1` | 02/11/2026 | Inclusão do registro audiovisual, player incorporado e dados da Entrevista 1 de validação empírica com usuária real. | Daniel da Silva Batista |
 | `1.2` | 02/11/2026 | Inclusão do registro audiovisual, player incorporado e dados da Entrevista 2 com participante universitária. | Daniel da Silva Batista |
 | `1.3` | 02/11/2026 | Inclusão do registro audiovisual, player incorporado da Entrevista 3 e consolidação integral dos testes empíricos com os 3 participantes reais. | Daniel da Silva Batista |
+| `1.4` | 03/11/2026 | Correção do link, player incorporado e duração do vídeo do Teste-Piloto do Protótipo de Papel (youtu.be/dmLr099zT0Y - 03m 41s). | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
