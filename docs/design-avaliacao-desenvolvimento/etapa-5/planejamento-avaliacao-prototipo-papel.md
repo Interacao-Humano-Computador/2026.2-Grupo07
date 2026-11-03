@@ -183,16 +183,58 @@ A avaliação respeita integralmente as diretrizes éticas para pesquisas com se
 
 ## 8. E – Avaliar, Interpretar e Apresentar os Dados
 
-Os dados coletados durante o ensaio do protótipo de papel serão analisados sob duas perspectivas (Barbosa e Silva, 2021, p. 278-279):
+Conforme preconizado por **Barbosa et al. (2021, Seção 11.7.5, p. 279-280 e Seção 11.8, p. 303-304)**, a última atividade do framework DECIDE compreende a definição prévia de como os dados serão avaliados, interpretados e confrontados com os **resultados esperados**, estabelecendo o padrão de referência (*benchmark*) para a validação empírica.
+
+### 8.1 Resultados Esperados da Avaliação
+
+O planejamento estabelece os seguintes critérios de sucesso e comportamentos esperados para os testes de usabilidade com o protótipo de papel:
+
+1. **Aderência ao Modelo Mental do Concurseiro:**
+   * Espera-se que os participantes identifiquem de imediato o propósito da Busca Avançada e combinem filtros simultâneos (Região/UF, Carreira e Escolaridade) sem dúvidas conceituais;
+   * Espera-se que a metáfora de seleção múltipla de editais para confronto lado a lado seja assimilada prontamente como alternativa superior à consulta fragmentada em múltiplos PDFs.
+2. **Metas Ergonômicas de Eficácia e Autonomia:**
+   * **Taxa de Conclusão Autônoma:** Meta de **100% de êxito** (ou no mínimo 80%), com os participantes completando os três cenários de tarefas sem requerer intervenções orientativas do moderador;
+   * **Prevenção de Falhas Críticas:** Ausência total de erros severos ou catastróficos que impeçam a continuidade da tarefa ou causem o abandono do fluxo.
+3. **Expectativa de Eficiência Temporal:**
+   * **Tarefa 1 (Busca Avançada e Filtros):** Tempo esperado de execução entre **20 s e 60 s**;
+   * **Tarefa 2 (Seleção para Confronto):** Tempo esperado de execução entre **30 s e 75 s**;
+   * **Tarefa 3 (Matriz Comparativa e Exportação PDF):** Tempo esperado de execução entre **25 s e 60 s**.
+4. **Compreensão das Respostas Mecânicas do Papel:**
+   * Espera-se que os participantes assimilem com naturalidade a técnica do "Computador Humano" (*Wizard of Oz*), compreendendo que as tiras sobrepostas e folhas trocadas simulam os estados reais do sistema sem que isso interrompa a fluidez do raciocínio (*think-aloud*).
+5. **Geração de Oportunidades para o Reprojeto em Alta Fidelidade (Nível 3):**
+   * Espera-se identificar oportunidades concretas de refinamento de interface (ex.: elementos de posicionamento fixo/sticky, chips visuais de filtros aplicados, alertas proativos de choque de horário e feedback de estado vazio) para fundamentar a prototipação interativa no Figma.
+
+### 8.2 Consolidação, Interpretação e Apresentação dos Dados
+
+Os dados coletados serão consolidados primeiro em **análise intraparticipante** (identificando as particularidades de cada sessão) e, posteriormente, em **análise interparticipante** para distinguir padrões comportamentais recorrentes de idiossincrasias individuais (Barbosa et al., 2021, p. 303).
+
+A interpretação confrontará diretamente o **Comportamento Observado** com o **Resultado Esperado**, segregando as evidências em duas dimensões:
 
 1. **Dados Qualitativos:**
-   * Transcrição dos comentários expressados em voz alta (*think-aloud*);
-   * Registro das expressões de dúvida, frustração ou satisfação;
-   * Mapeamento detalhado dos problemas encontrados, categorizados por localidade da interface, severidade e heurística violada (Barbosa e Silva, 2021, p. 309).
+   * Transcrição de verbalizações do protocolo *think-aloud*;
+   * Registro de expressões de dúvida, hesitação, facilidade ou satisfação;
+   * Mapeamento minucioso dos desvios e problemas encontrados, classificados por local de ocorrência, heurística violada e severidade (Nielsen, 1993; Barbosa et al., 2021).
 2. **Dados Quantitativos:**
-   * Taxa de conclusão de tarefas (*concluiu com êxito*, *concluiu com ajuda* ou *não concluiu*);
-   * Número de erros operacionais cometidos em cada tarefa;
-   * Tempo decorrido para a conclusão de cada cenário.
+   * Taxas de conclusão de tarefas (*concluiu sozinho*, *concluiu com ajuda* ou *não concluiu*);
+   * Contagem de cliques/toques e número de desvios operacionais cometidos;
+   * Tempo decorrido de execução por tarefa.
+
+A Tabela 4 sintetiza como os quatro aspectos metodológicos de validade e confiabilidade preconizados no framework DECIDE são tratados nesta avaliação:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 4: Aspectos Metodológicos Considerados na Interpretação dos Dados</b></p>
+
+| Aspecto | Tratamento nesta Avaliação do Protótipo de Papel |
+| :--- | :--- |
+| **Confiabilidade** | Todos os participantes interagem com o mesmo conjunto físico de peças de papel, sob o mesmo roteiro estruturado e instruções neutras do moderador. |
+| **Validade interna** | O roteiro e os cenários derivam diretamente da HTA/CTT (TAR-01 e TAR-02); o moderador não fornece pistas nem conduz o dedo do usuário. |
+| **Validade externa** | Amostra qualificada de 3 participantes representativos do Perfil 1 (Candidato/Concurseiro), garantindo relevância ecológica ao domínio de certames públicos. |
+| **Validade ecológica** | Alta fidelidade de processo: embora em suporte físico (papel), a dinâmica simula fielmente a tomada de decisão real de comparação e escolha de concursos. |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026), adaptado de Barbosa et al. (2021).</p>
+
+</div>
 
 ---
 
@@ -228,6 +270,7 @@ Antes da aplicação do teste com os participantes oficiais, a equipe executará
 | :---: | :---: | :--- | :---: |
 | `1.0` | 23/10/2026 | Elaboração inicial do Planejamento da Avaliação do Protótipo de Papel da Etapa 5 estruturado no framework DECIDE conforme Barbosa e Silva (2021). | Daniel da Silva Batista |
 | `1.1` | 02/11/2026 | Atualização do cronograma logístico para refletir as datas reais do teste-piloto e das sessões na Etapa 6. | Daniel da Silva Batista |
+| `1.2` | 03/11/2026 | Inclusão formal da Subseção 8.1 (Resultados Esperados da Avaliação) e 8.2 (Metodologia de Interpretação e Aspectos de Validade), padronizando com o Storyboard segundo Barbosa et al. (2021). | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

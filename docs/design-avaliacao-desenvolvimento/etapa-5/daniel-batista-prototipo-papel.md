@@ -369,7 +369,64 @@ Durante a primeira sessão com a **Participante 1**, a técnica do *Think-Aloud*
 
 ---
 
-## 6. Lista de Problemas Encontrados e Oportunidades de Reprojeto para o Nível 3 (Alta Fidelidade)
+## 6. Relato dos Resultados da Avaliação do Protótipo de Papel (Barbosa e Silva, 2021, p. 309)
+
+Conforme a estrutura normativa preconizada por **Barbosa et al. (2021, Subseção 11.7.5, p. 279 e Subseção 12.1, p. 309)**, esta seção consolida o **Relato dos Resultados** da avaliação empírica do Protótipo de Papel (TAR-01 e TAR-02), integrando a autoinspeção analítica preliminar, o teste-piloto e as três sessões de teste de usabilidade conduzidas com usuários reais representativos do Perfil 1 (Candidato/Concurseiro).
+
+### 6.1 Objetivos da Avaliação
+* Avaliar empiricamente a navegabilidade, as affordances e o fluxo de telas das tarefas prioritárias (`TAR-01` e `TAR-02`) em baixa fidelidade, antes de avançar para a modelagem interativa digital ou implementação de software.
+* Constatar se os filtros da Busca Avançada e a disposição das colunas da Matriz Comparativa refletem o modelo mental e o vocabulário real dos concurseiros.
+* Identificar precocemente dúvidas de interface, desvios de rota e oportunidades de melhoria ergonômica para subsidiar o design de alta fidelidade (Nível 3) no Figma.
+
+### 6.2 Escopo da Avaliação
+* **Artefatos Analisados:** Protótipo de Papel manual de autoria de Daniel da Silva Batista, composto por 3 telas em papel sulfite A4 com peças móveis e sobreposições dinâmicas (barras flutuantes e modais de confirmação).
+* **Tarefas Contempladas:** [TAR-01 — Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado](../../analise-de-requisitos/analise-de-tarefas/hta.md#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01) e [TAR-02 — Montar e exportar caderno/relatório](../../analise-de-requisitos/analise-de-tarefas/hta.md#32-tarefa-02-montar-e-exportar-caderno-personalizado-de-provas-anteriores-com-gabarito-comentado-integrado-tar-02).
+* **Nível de Fidelidade:** Baixa fidelidade em papel (*Paper Prototyping*).
+
+### 6.3 Breve Descrição do Método Utilizado
+* **Teste de Usabilidade com Prototipação em Papel (*Paper Prototyping*, Snyder, 2003):** Condução de ensaios com participantes reais operando as peças físicas desenhadas.
+* **Técnica do Computador Humano (*Wizard of Oz*):** Simulação mecânica em tempo real na qual o avaliador (Daniel Batista) movimentou fisicamente as folhas, menus e tiras sobrepostas em resposta estrita ao toque dos dedos dos usuários, sem antecipar caminhos nem fornecer dicas de navegação.
+* **Protocolo de Pensar em Voz Alta (*Think-Aloud Protocol*, Ericsson e Simon, 1993):** Coleta das verbalizações contínuas dos usuários durante a interação, captando dúvidas imediatas e reflexões ergonômicas.
+* **Calibração Prévia por Teste-Piloto:** Realização e registro de sessão-piloto com usuário simulado (duração de 03m 41s) para calibração do sincronismo mecânico e das falas do moderador.
+
+### 6.4 Conjunto de Diretrizes e Critérios Avaliados
+* **10 Heurísticas de Usabilidade de Nielsen (1993):** Especialmente Visibilidade do Estado do Sistema, Correspondência com o Mundo Real, Prevenção de Erros e Reconhecimento em vez de Memorização.
+* **Metas de Usabilidade (Barbosa et al., 2021):** Eficácia de conclusão da tarefa, eficiência temporal e satisfação subjetiva dos concurseiros.
+* **Checklist Ergonômico de Baixa Fidelidade (Snyder, 2003):** 10 critérios normativos aplicados na autoinspeção analítica (Tabela 2).
+
+### 6.5 Número e Perfil dos Avaliadores e Participantes
+* **Avaliador/Moderador e Computador Humano (1 integrante):** Daniel da Silva Batista (Estudante de Engenharia de Software da UnB / Grupo 07 IHC).
+* **Participantes Convocados (3 participantes representativos do Perfil 1 – Candidato/Concurseiro):**
+  * **Participante 1 (Sessão 1):** Mulher, 52 anos, graduada em Pedagogia com especialização em Psicopedagogia, concurseira ativa em busca de recolocação profissional, usuária habitual de computador pessoal. Termo de Consentimento (TCLE) aceito formalmente em vídeo.
+  * **Participante 2 (Sessão 2):** Mulher, 21 anos, estudante universitária, concurseira ativa, usuária habitual de desktop/notebook. Termo de Consentimento (TCLE) aceito formalmente em vídeo.
+  * **Participante 3 (Sessão 3):** Homem, jovem adulto, estudante e concurseiro iniciante, usuário habitual de computador pessoal. Termo de Consentimento (TCLE) aceito formalmente em vídeo.
+
+### 6.6 Tarefas Executadas e Síntese das Métricas de Desempenho
+* **Tarefa 1 (Parametrização da Busca Avançada):** Taxa de sucesso de **100% autônomo**; tempo médio de **33 s** (P1: 55s, P2: 25s, P3: 20s).
+* **Tarefa 2 (Seleção e Comparação de Concursos):** Taxa de sucesso de **100% autônomo**; tempo médio de **47 s** (P1: 1m15s, P2: 35s, P3: 30s).
+* **Tarefa 3 (Matriz Lado a Lado e Exportação PDF):** Taxa de sucesso de **100% autônomo**; tempo médio de **35 s** (P1: 50s, P2: 30s, P3: 25s).
+* **Eficácia Global:** **100% de conclusão de tarefas** sem dependência de intervenções, bloqueios ou desvios críticos.
+
+### 6.7 Confronto entre Comportamento Observado e Resultados Esperados
+
+Em estrita conformidade com **Barbosa et al. (2021, Seção 11.7.5, p. 279-280 e Seção 12.1, p. 309)** e padronizado com o modelo estabelecido no Planejamento do Relato do Storyboard (Tabela 4), a Tabela 9 confronta os **resultados esperados** definidos no planejamento com o **comportamento observado** nas três sessões empíricas:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Confronto entre Comportamento Observado e Resultados Esperados no Protótipo de Papel</b></p>
+
+| ID | Contexto da Interação | Comportamento Observado nos Testes | Resultado Esperado pelo Projeto | Alteração Proposta / Encaminhamento para o Figma | Origem da Proposta |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| `OPO-PP01` | **Tela 2:** Listagem de Editais Filtrados e Acionamento da Comparação | Participantes marcaram os checkboxes com facilidade; notaram a tira dinâmica `[2 selecionados]`, mas apontaram que em listagens extensas o botão de rodapé pode exigir rolagem excessiva. | Identificação imediata da affordance de seleção e percepção rápida do botão de ação primária sem rolagem forçada. | Projetar no Figma uma **barra flutuante inferior (*sticky bar*)** fixa na base da janela, surgindo com contagem dinâmica `(2/3)` assim que o primeiro edital for selecionado. | Participante 1 e Avaliador |
+| `OPO-PP02` | **Tela 3:** Matriz Comparativa Lado a Lado de Editais | Todos os usuários elogiaram a visualização paralela; a Participante 1 atentou que turnos de prova compatíveis (manhã vs tarde) demandam tempo de deslocamento físico em Brasília, sugerindo alertas expressos de choque de horários. | Leitura imediata dos critérios comparativos (vagas, salários, matérias comuns e datas), facilitando a tomada de decisão em menos de 1 minuto. | Adicionar no Figma **tags cromáticas de status**: verde (*"Turnos Compatíveis"*) ou vermelha com ícone de alerta (*"Conflito: Provas no mesmo turno"*), auxiliando a deliberação rápida do candidato. | Participante 1 e Planejamento |
+| `VAL-PP01` | **Tela 1:** Parametrização da Busca Avançada Multicritério | Os 3 participantes compreenderam a combinação simultânea dos filtros (UF, carreira e nível de escolaridade) e tocaram no botão primário sem qualquer hesitação. Tempo médio: 33 s. | Aderência imediata ao modelo mental, parametrização autônoma em até 60 s e ausência de dúvidas sobre os seletores. | Manter a arquitetura da informação validada; incluir componentes visuais de *chips/tags* removíveis para filtros ativos no topo da listagem (`OPO-E01`). | Validado (P1, P2 e P3) |
+| `VAL-PP02` | **Tela 3:** Exportação do Relatório Comparativo em PDF | Todos os usuários localizaram prontamente o botão `[Exportar PDF]` no rodapé da matriz e assimilaram imediatamente o modal sobreposto de confirmação de sucesso. | Conclusão autônoma da exportação em até 45 s, com feedback inequívoco de sucesso pelo Computador Humano. | Manter a hierarquia cromática de destaque do botão no Figma e desenhar modal com atalhos de download direto e fechamento acessível. | Validado (P1, P2 e P3) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), padronizado com Barbosa et al. (2021).</p>
+
+</div>
+
+### 6.8 Lista de Problemas Encontrados e Oportunidades de Reprojeto para o Nível 3 (Alta Fidelidade)
 
 Conforme preconizado por **Barbosa e Silva (2021, p. 309)** e a escala de severidade de **Nielsen (1993)**, os problemas identificados orientam as seguintes ações de reprojeto no Figma:
 
@@ -386,6 +443,25 @@ Conforme preconizado por **Barbosa e Silva (2021, p. 309)** e a escala de severi
 * **Diretriz violada:** Prevenção de Erros (Nielsen, 1993).
 * **Severidade:** **2 – Simples (Médio)**.
 * **Ação de Reprojeto (Alta Fidelidade):** Desenhar no Figma uma *tag* de status: verde (*"Turnos Compatíveis"*) ou vermelha com ícone de alerta (*"Conflito de Horário: Provas no mesmo turno"*).
+
+### 6.9 Cronograma de Reprojeto para o Protótipo de Alta Fidelidade (Figma)
+
+Para assegurar o fechamento do ciclo de design formativo entre a Etapa 5 e a Etapa 6, a Tabela 10 estabelece o cronograma de implementação das oportunidades no protótipo de alta fidelidade:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Cronograma de Implementação das Ações de Reprojeto no Figma (Nível 3)</b></p>
+
+| ID | Ação de Reprojeto no Figma | Origem da Oportunidade | Responsável | Data Prevista | Status |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| `REP-01` | Modelagem do componente de barra flutuante inferior (*sticky bar*) com contagem dinâmica `(2/3)` e botão `[Comparar Agora]` | `OPO-PP01` (Entrevistas 1 e 2) | Daniel da Silva Batista | 03/11/2026 | Em andamento |
+| `REP-02` | Implementação das tags de status de compatibilidade de turnos de prova na matriz comparativa (verde/vermelho) | `OPO-PP02` (Entrevista 1 / Sugestão P1) | Daniel da Silva Batista | 03/11/2026 | Em andamento |
+| `REP-03` | Inclusão de chips visuais removíveis para filtros aplicados no cabeçalho dos resultados | `OPO-E01` (Avaliação do Storyboard) | Daniel da Silva Batista | 04/11/2026 | Planejado |
+| `REP-04` | Criação de tela informativa de estado vazio com sugestões de afrouxamento de critérios | `OPO-D01` (Autoinspeção da HTA) | Daniel da Silva Batista | 04/11/2026 | Planejado |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
 
 ---
 
@@ -410,6 +486,7 @@ Conforme preconizado por **Barbosa e Silva (2021, p. 309)** e a escala de severi
 | `1.2` | 02/11/2026 | Inclusão do registro audiovisual, player incorporado e dados da Entrevista 2 com participante universitária. | Daniel da Silva Batista |
 | `1.3` | 02/11/2026 | Inclusão do registro audiovisual, player incorporado da Entrevista 3 e consolidação integral dos testes empíricos com os 3 participantes reais. | Daniel da Silva Batista |
 | `1.4` | 03/11/2026 | Correção do link, player incorporado e duração do vídeo do Teste-Piloto do Protótipo de Papel (youtu.be/dmLr099zT0Y - 03m 41s). | Daniel da Silva Batista |
+| `1.5` | 03/11/2026 | Reestruturação integral da Seção 6 segundo a norma canônica de Barbosa e Silva (2021, p. 309), incorporando a Tabela 9 (Confronto entre Comportamento Observado e Resultados Esperados) padronizada com o Storyboard, métricas consolidadas e cronograma de reprojeto para o Figma (Tabela 10). | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

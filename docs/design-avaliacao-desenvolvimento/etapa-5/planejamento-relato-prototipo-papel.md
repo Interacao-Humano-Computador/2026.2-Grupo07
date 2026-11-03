@@ -67,13 +67,36 @@ Deverão ser detalhados os cenários e as tarefas operacionais que foram solicit
 * Os critérios de êxito esperados (*concluiu sozinho*, *concluiu com ajuda*, *desistiu/errou*);
 * Dados métricos observados: tempo médio decorrido e número de erros/hesitações por tarefa.
 
+### 2.8 Confronto entre Comportamento Observado e Resultados Esperados
+O relato deverá confrontar formalmente o **comportamento observado** de cada participante com o **resultado esperado** traçado no planejamento da avaliação, evidenciando desvios conceituais, divergências de rota, hesitações ou validações imediatas de design, consolidando as alterações propostas conforme modelo padronizado no Storyboard.
+
 ---
 
-## 3. Modelo Padronizado para a Lista de Problemas de Usabilidade
+## 3. Modelo Padronizado para Registro de Sugestões e Problemas de Usabilidade
 
-A consolidação dos problemas identificados deve seguir expressamente a estrutura analítica de **Barbosa e Silva (2021, p. 309)**, no qual cada problema encontrado é documentado de forma individualizada com seus cinco atributos fundamentais:
+Para assegurar a padronização e o alinhamento com a avaliação do Storyboard e a literatura de IHC (**Barbosa e Silva, 2021, p. 309**), o relato consolidará as oportunidades identificadas sob duas abordagens complementares:
 
-> **Exemplo de Estrutura de Documentação do Problema:**
+### 3.1 Modelo de Síntese de Desvios e Sugestões de Melhoria
+
+Tabela padronizada que confronta o comportamento real do usuário com o resultado esperado pelo projeto de interface:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 1: Modelo de Registro de Sugestões e Confronto com Resultados Esperados</b></p>
+
+| ID | Contexto da Interação | Comportamento Observado | Resultado Esperado | Alteração Proposta / Encaminhamento | Origem da Proposta |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| `OPO-PP01` | *Tela ou componente onde ocorreu* | *O que o participante fez ou disse* | *O que a interface esperava que ele fizesse/entendesse* | *Ação de reprojeto proposta para o Figma* | *Usuário / Avaliador* |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026), padronizado com Barbosa et al. (2021).</p>
+
+</div>
+
+### 3.2 Ficha Analítica Detalhada do Problema de Usabilidade
+
+Cada problema ou oportunidade receberá uma ficha analítica com os cinco atributos canônicos de **Barbosa e Silva (2021, p. 309)**:
+
+> **Estrutura Canônica de Documentação do Problema:**
 >
 > * **Identificador do Problema:** `[ID-PROBLEMA]`: `[Título Sucinto do Problema de Usabilidade]`
 > * **Local onde ocorre:** Indicação precisa do componente de papel, folha, menu ou campo onde a dificuldade foi observada pelo avaliador.
@@ -90,7 +113,7 @@ Para padronizar a priorização dos ajustes na Etapa 6, a severidade dos problem
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 1: Escala de Severidade de Problemas de Usabilidade (Nielsen, 1993)</b></p>
+<p align="center"><b>Tabela 2: Escala de Severidade de Problemas de Usabilidade (Nielsen, 1993)</b></p>
 
 | Severidade | Definição Operacional | Impacto no Reprojeto |
 | :---: | :--- | :--- |
@@ -108,11 +131,11 @@ Para padronizar a priorização dos ajustes na Etapa 6, a severidade dos problem
 
 ## 5. Cronograma de Reprojeto para o Protótipo de Alta Fidelidade
 
-O relato dos resultados deverá culminar em uma agenda clara de implementação das correções de design. A Tabela 2 apresenta o modelo de planejamento de reprojeto a ser preenchido:
+O relato dos resultados deverá culminar em uma agenda clara de implementação das correções de design. A Tabela 3 apresenta o modelo de planejamento de reprojeto a ser preenchido:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 2: Modelo de Cronograma de Reprojeto para a Etapa 6</b></p>
+<p align="center"><b>Tabela 3: Modelo de Cronograma de Reprojeto para a Etapa 6</b></p>
 
 | ID | Ação de Reprojeto | Origem (Problema Identificado) | Responsável | Data Prevista de Ajuste |
 | :---: | :--- | :--- | :---: | :---: |
@@ -144,6 +167,7 @@ O relato dos resultados deverá culminar em uma agenda clara de implementação 
 | Versão | Data | Descrição | Autor(es) |
 | :---: | :---: | :--- | :---: |
 | `1.0` | 23/10/2026 | Elaboração inicial do Planejamento do Relato dos Resultados do Protótipo de Papel da Etapa 5 segundo Barbosa e Silva (2021, p. 309). | Daniel da Silva Batista |
+| `1.1` | 03/11/2026 | Inclusão do tópico 2.8 e da Tabela 1 (Modelo de Registro de Sugestões e Confronto com Resultados Esperados), padronizando a estrutura com o Storyboard conforme Barbosa et al. (2021). | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
