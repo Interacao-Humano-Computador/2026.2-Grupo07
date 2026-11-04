@@ -1,0 +1,4659 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="DocumentaÃ§Ã£o do projeto da disciplina de InteraÃ§Ã£o Humano-Computador (FGA-UnB) - AnÃ¡lise e Reprojeto do PCI Concursos">
+      
+      
+        <meta name="author" content="Equipe Grupo 07 - IHC">
+      
+      
+        <link rel="canonical" href="https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/design-avaliacao-desenvolvimento/etapa-5/daniel-batista-prototipo-papel/">
+      
+      
+        <link rel="prev" href="../planejamento-relato-prototipo-papel/">
+      
+      
+        <link rel="next" href="../arthur-carvalho-prototipo-papel/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Daniel da Silva Batista - IHC - PCI Concursos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+  <script>
+    // Intercept attachShadow BEFORE bundle runs to keep shadowRoot open
+    (function() {
+      var orig = Element.prototype.attachShadow;
+      Element.prototype.attachShadow = function(init) {
+        if (init && init.mode === 'closed') {
+          init.mode = 'open';
+        }
+        return orig.call(this, init);
+      };
+    })();
+  </script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#avaliacao-e-relato-individual-prototipo-de-papel-daniel-da-silva-batista" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-header__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC - PCI Concursos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Daniel da Silva Batista
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Escuro (Alto Contraste)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Escuro (Alto Contraste)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/membros/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../analise-de-requisitos/aspectos-eticos/" class="md-tabs__link">
+          
+  
+  
+  Análise de Requisitos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../caracteristicas-da-plataforma/" class="md-tabs__link">
+          
+  
+  
+  Design e Avaliação
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../planejamento-avaliacao-analise-de-tarefas/" class="md-tabs__link">
+          
+  
+  
+  Desenvolvimento
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../apresentacao/grupo-08/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../apresentacao/apresentacao-1/" class="md-tabs__link">
+          
+  
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-nav__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    IHC - PCI Concursos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/membros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/planejamento-do-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heatmap de Disponibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites Avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/site-escolhido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site Selecionado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ata-reuniao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas de Reunião
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos Éticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/perfil-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil do Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/analise-de-tarefas/hta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/analise-de-tarefas/ctt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CTT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design e Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design e Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Princípios e Metas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Princípios e Metas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caracteristicas-da-plataforma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Características da Plataforma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/principios-gerais-de-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Princípios Gerais de Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de Estilo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metas-de-usabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metas de Usabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Desenvolvimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Desenvolvimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nível 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Nível 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_1" id="__nav_5_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento-avaliacao-analise-de-tarefas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação da Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado-analise-de-tarefas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato da Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_2" id="__nav_5_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storyboard
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Storyboard
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../avaliacao/planejamento-avaliacao-storyboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação do Storyboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento-relato-resultados-storyboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato dos Resultados do Storyboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teste-piloto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento e Execução do Teste-Piloto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas-verificacao-etapa-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Listas de Verificação para Inspeção
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_5" id="__nav_5_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados do Storyboard e da Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Relato dos Resultados do Storyboard e da Análise de Tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../daniel-batista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daniel da Silva Batista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pedro-rocha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pedro Rocha Ferreira Lima
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arthur-carvalho/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arthur Sismene Carvalho
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leonardo-lopes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Leonardo da Silva Lopes Júnior
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nível 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Nível 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1" id="__nav_5_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protótipo de Papel
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Protótipo de Papel
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento-avaliacao-prototipo-papel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação do Protótipo de Papel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento-relato-prototipo-papel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato dos Resultados do Protótipo de Papel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_1_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1_3" id="__nav_5_2_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados do Protótipo de Papel (Individual)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_2_1_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Relato dos Resultados do Protótipo de Papel (Individual)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daniel da Silva Batista
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daniel da Silva Batista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-identificacao-do-integrante-e-escopo-de-atuacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Identificação do Integrante e Escopo de Atuação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-apresentacao-das-pecas-do-prototipo-de-papel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Apresentação das Peças do Protótipo de Papel
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Apresentação das Peças do Protótipo de Papel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-tela-1-formulario-de-busca-avancada-com-filtros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Tela 1: Formulário de Busca Avançada com Filtros
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-tela-2-listagem-de-resultados-filtrados-e-selecao-para-confronto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Tela 2: Listagem de Resultados Filtrados e Seleção para Confronto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-tela-3-matriz-comparativa-lado-a-lado-e-confirmacao-de-exportacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Tela 3: Matriz Comparativa Lado a Lado e Confirmação de Exportação
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-autoinspecao-analitica-do-prototipo-de-papel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Autoinspeção Analítica do Protótipo de Papel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-teste-piloto-da-avaliacao-do-prototipo-de-papel-executado-e-gravado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Teste-Piloto da Avaliação do Protótipo de Papel (Executado e Gravado)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Teste-Piloto da Avaliação do Protótipo de Papel (Executado e Gravado)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-dados-logisticos-do-teste-piloto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Dados Logísticos do Teste-Piloto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-registro-audiovisual-do-teste-piloto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Registro Audiovisual do Teste-Piloto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-avaliacao-com-usuarios-sessoes-empiricas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Avaliação com Usuários (Sessões Empíricas)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Avaliação com Usuários (Sessões Empíricas)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-protocolo-etico-e-caracterizacao-dos-participantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Protocolo Ético e Caracterização dos Participantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-registro-audiovisual-das-entrevistas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Registro Audiovisual das Entrevistas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-desempenho-nas-tarefas-e-feedbacks-coletados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Desempenho nas Tarefas e Feedbacks Coletados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.3 Desempenho nas Tarefas e Feedbacks Coletados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#531-sessao-1-participante-1-52-anos-pedagoga" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.1 Sessão 1 — Participante 1 (52 anos, Pedagoga)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sintese-das-respostas-pos-teste-participante-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Síntese das Respostas Pós-Teste (Participante 1):
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#532-sessao-2-participante-2-21-anos-universitaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.2 Sessão 2 — Participante 2 (21 anos, Universitária)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#533-sessao-3-participante-3-jovem-adulto-estudante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.3 Sessão 3 — Participante 3 (Jovem adulto, Estudante)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-relato-dos-resultados-da-avaliacao-do-prototipo-de-papel-barbosa-e-silva-2021-p-309" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Relato dos Resultados da Avaliação do Protótipo de Papel (Barbosa e Silva, 2021, p. 309)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Relato dos Resultados da Avaliação do Protótipo de Papel (Barbosa e Silva, 2021, p. 309)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-objetivos-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Objetivos da Avaliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-escopo-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Escopo da Avaliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-breve-descricao-do-metodo-utilizado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Breve Descrição do Método Utilizado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-conjunto-de-diretrizes-e-criterios-avaliados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 Conjunto de Diretrizes e Critérios Avaliados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65-numero-e-perfil-dos-avaliadores-e-participantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5 Número e Perfil dos Avaliadores e Participantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66-lista-de-problemas-encontrados-e-oportunidades-de-reprojeto-para-o-prototipo-de-alta-fidelidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6 Lista de Problemas Encontrados e Oportunidades de Reprojeto para o Protótipo de Alta Fidelidade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.6 Lista de Problemas Encontrados e Oportunidades de Reprojeto para o Protótipo de Alta Fidelidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opo-pp01-posicionamento-fixo-da-barra-de-comparacao-sticky-bottom-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • OPO-PP01: Posicionamento Fixo da Barra de Comparação (Sticky Bottom Bar)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opo-pp02-destaque-de-alerta-para-choque-de-horarios-de-prova" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • OPO-PP02: Destaque de Alerta para Choque de Horários de Prova
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arthur-carvalho-prototipo-papel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arthur Sismene Carvalho
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leonardo-lopes-prototipo-papel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Leonardo da Silva Lopes Júnior
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pedro-rocha-prototipo-papel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pedro Rocha Ferreira Lima
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nível 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Nível 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_1" id="__nav_5_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protótipo de Alta Fidelidade
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Protótipo de Alta Fidelidade
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento-avaliacao-alta-fidelidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação do Protótipo de Alta Fidelidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento-relato-alta-fidelidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/grupo-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 1 – Grupo 08 (Grupo +1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/grupo-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2 – Grupo 06 (Grupo -1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-3-grupo-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3 – Grupo 07 (Autoavaliação)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-3-grupo-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3 – Grupo 08 (Grupo +1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-4-grupo-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4 – Grupo 07 (Autoavaliação)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-4-grupo-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4 – Grupo 06 (Grupo -1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentações
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apresentações
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação 5
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apresentação 5
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-5/arthur-carvalho/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arthur Sismene Carvalho
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-5/daniel-batista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daniel da Silva Batista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-5/pedro-rocha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pedro Rocha Ferreira Lima
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação 6
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apresentação 6
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-6/daniel-batista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daniel da Silva Batista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-identificacao-do-integrante-e-escopo-de-atuacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Identificação do Integrante e Escopo de Atuação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-apresentacao-das-pecas-do-prototipo-de-papel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Apresentação das Peças do Protótipo de Papel
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Apresentação das Peças do Protótipo de Papel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-tela-1-formulario-de-busca-avancada-com-filtros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Tela 1: Formulário de Busca Avançada com Filtros
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-tela-2-listagem-de-resultados-filtrados-e-selecao-para-confronto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Tela 2: Listagem de Resultados Filtrados e Seleção para Confronto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-tela-3-matriz-comparativa-lado-a-lado-e-confirmacao-de-exportacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Tela 3: Matriz Comparativa Lado a Lado e Confirmação de Exportação
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-autoinspecao-analitica-do-prototipo-de-papel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Autoinspeção Analítica do Protótipo de Papel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-teste-piloto-da-avaliacao-do-prototipo-de-papel-executado-e-gravado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Teste-Piloto da Avaliação do Protótipo de Papel (Executado e Gravado)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Teste-Piloto da Avaliação do Protótipo de Papel (Executado e Gravado)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-dados-logisticos-do-teste-piloto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Dados Logísticos do Teste-Piloto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-registro-audiovisual-do-teste-piloto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Registro Audiovisual do Teste-Piloto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-avaliacao-com-usuarios-sessoes-empiricas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Avaliação com Usuários (Sessões Empíricas)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Avaliação com Usuários (Sessões Empíricas)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-protocolo-etico-e-caracterizacao-dos-participantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Protocolo Ético e Caracterização dos Participantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-registro-audiovisual-das-entrevistas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Registro Audiovisual das Entrevistas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-desempenho-nas-tarefas-e-feedbacks-coletados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Desempenho nas Tarefas e Feedbacks Coletados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.3 Desempenho nas Tarefas e Feedbacks Coletados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#531-sessao-1-participante-1-52-anos-pedagoga" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.1 Sessão 1 — Participante 1 (52 anos, Pedagoga)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sintese-das-respostas-pos-teste-participante-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Síntese das Respostas Pós-Teste (Participante 1):
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#532-sessao-2-participante-2-21-anos-universitaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.2 Sessão 2 — Participante 2 (21 anos, Universitária)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#533-sessao-3-participante-3-jovem-adulto-estudante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.3 Sessão 3 — Participante 3 (Jovem adulto, Estudante)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-relato-dos-resultados-da-avaliacao-do-prototipo-de-papel-barbosa-e-silva-2021-p-309" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Relato dos Resultados da Avaliação do Protótipo de Papel (Barbosa e Silva, 2021, p. 309)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Relato dos Resultados da Avaliação do Protótipo de Papel (Barbosa e Silva, 2021, p. 309)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-objetivos-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Objetivos da Avaliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-escopo-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Escopo da Avaliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-breve-descricao-do-metodo-utilizado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Breve Descrição do Método Utilizado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-conjunto-de-diretrizes-e-criterios-avaliados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 Conjunto de Diretrizes e Critérios Avaliados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65-numero-e-perfil-dos-avaliadores-e-participantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5 Número e Perfil dos Avaliadores e Participantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66-lista-de-problemas-encontrados-e-oportunidades-de-reprojeto-para-o-prototipo-de-alta-fidelidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6 Lista de Problemas Encontrados e Oportunidades de Reprojeto para o Protótipo de Alta Fidelidade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.6 Lista de Problemas Encontrados e Oportunidades de Reprojeto para o Protótipo de Alta Fidelidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opo-pp01-posicionamento-fixo-da-barra-de-comparacao-sticky-bottom-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • OPO-PP01: Posicionamento Fixo da Barra de Comparação (Sticky Bottom Bar)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opo-pp02-destaque-de-alerta-para-choque-de-horarios-de-prova" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • OPO-PP02: Destaque de Alerta para Choque de Horários de Prova
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div align="center">
+<p align="center"><b>Tabela de Contribuição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Membro</th>
+<th style="text-align: left;">Contribuição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">Concepção e desenho manual do Protótipo de Papel da TAR-01 e TAR-02, elaboração das peças dinâmicas e post-its, autoinspeção analítica com lista de verificação, condução e gravação do teste-piloto, consolidação do relato individual e propostas de reprojeto para o protótipo digital de alta fidelidade (Nível 3).</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gemini</td>
+<td style="text-align: left;">Auxílio na estruturação textual, organização das tabelas, implementação dos modais de zoom e formatação em Markdown (conforme Política de Uso de IA).</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<h1 id="avaliacao-e-relato-individual-prototipo-de-papel-daniel-da-silva-batista">Avaliação e Relato Individual — Protótipo de Papel (Daniel da Silva Batista)</h1>
+<h2 id="1-identificacao-do-integrante-e-escopo-de-atuacao">1. Identificação do Integrante e Escopo de Atuação</h2>
+<p>Este artefato reúne todo o ciclo de <strong>avaliação formativa de Nível 2 (Protótipo de Papel)</strong> conduzido individualmente por <strong>Daniel da Silva Batista</strong> no âmbito do projeto <strong>PCI Concursos</strong>, em conformidade com o framework DECIDE (<em>Barbosa et al.</em>, 2021), a técnica do Computador Humano (<em>Snyder</em>, 2003) e as diretrizes do plano de ensino da disciplina de Interação Humano-Computador (<em>Sales</em>, 2026).</p>
+<div align="center">
+<p align="center"><b>Tabela 1: Resumo do Escopo Individual de Daniel da Silva Batista (Nível 2)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Atributo</th>
+<th style="text-align: left;">Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Integrante Responsável</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Perfil de Usuário Focado</strong></td>
+<td style="text-align: left;"><a href="../../../analise-de-requisitos/perfil-de-usuario/">Perfil 1 — Candidato / Concurseiro</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Cenário de Uso</strong></td>
+<td style="text-align: left;"><a href="../../../analise-de-requisitos/cenarios/">CEN-01 — Parametrização de Busca Avançada e Comparação de Editais Concorrentes no DF</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tarefa Prioritária de Autoria</strong></td>
+<td style="text-align: left;"><a href="../../../analise-de-requisitos/analise-de-tarefas/hta/#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01">TAR-01 — Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tarefa Complementar de Autoria</strong></td>
+<td style="text-align: left;"><a href="../../../analise-de-requisitos/analise-de-tarefas/hta/#32-tarefa-02-montar-e-exportar-caderno-personalizado-de-provas-anteriores-com-gabarito-comentado-integrado-tar-02">TAR-02 — Montar e exportar caderno personalizado de provas anteriores</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tipo de Artefato</strong></td>
+<td style="text-align: left;">Protótipo de baixa fidelidade desenhado em papel com peças móveis e sobreposições mecânicas (<em>Paper Prototyping</em>)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Técnica de Avaliação</strong></td>
+<td style="text-align: left;">Simulação mecânica com o "Computador Humano" (<em>Wizard of Oz</em>) e Protocolo de Pensar em Voz Alta (<em>Think-Aloud</em>)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Escopo da Inspeção</strong></td>
+<td style="text-align: left;">Autoinspeção analítica com lista de verificação ergonômica de Nielsen (1993) e Snyder (2003)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Participantes das Sessões</strong></td>
+<td style="text-align: left;">Participantes representativos do Perfil 1 (Candidato/Concurseiro)</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h2 id="2-apresentacao-das-pecas-do-prototipo-de-papel">2. Apresentação das Peças do Protótipo de Papel</h2>
+<p>O protótipo de baixa fidelidade foi confeccionado manualmente em papel sulfite A4 e tiras de cartolina/post-its destacáveis, materializando os conceitos funcionais concebidos na Análise de Tarefas (<code>TAR-01</code> e <code>TAR-02</code>) e no Storyboard (<code>SB-01</code>). </p>
+<p>As peças foram projetadas para permitir ao participante interagir apontando com o dedo nos campos, enquanto o avaliador atua como simulador mecânico (<em>Computador Humano</em>), trocando as folhas e sobrepondo estados visuais em resposta estrita a cada ação (Snyder, 2003).</p>
+<h3 id="21-tela-1-formulario-de-busca-avancada-com-filtros">2.1 Tela 1: Formulário de Busca Avançada com Filtros</h3>
+<p>A primeira folha apresenta o cabeçalho do portal PCI Concursos com o campo de busca genérica e a área expandida de <strong>Filtros da Busca Avançada</strong>, contendo seletores de Região/UF (<code>Distrito Federal (DF)</code>), Área/Carreira (<code>Administrativa</code>), Escolaridade (<code>Nível Superior</code>), Situação do Concurso (<code>[X] Inscrições Abertas</code>) e o botão de ação primária <code>[ FILTRAR CONCURSOS ]</code>.</p>
+<div align="center">
+
+<div style="position: relative; display: inline-block; max-width: 95%;">
+  <a href="javascript:void(0)" onclick="openModalPP01()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
+    <img id="pp01-thumb" src="../../../assets/images/prototipo-papel/prototipo-papel-tela-01.jpg" alt="Protótipo de Papel - Tela 1: Formulário de Busca Avançada com Filtros" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block; transition: transform 0.2s ease-in-out;">
+  </a>
+</div>
+
+<div style="margin: 10px 0 16px 0; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+  <button onclick="openModalPP01()" class="md-button md-button--primary" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;">
+    <span>🔍</span> <b>Zoom / Tela Cheia</b>
+  </button>
+</div>
+
+<p align="center"><b>Figura 1:</b> Protótipo de Papel — Tela 1: Formulário de Busca Avançada e Seleção de Filtros Multicritério</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista à mão livre em papel sulfite (2026).</p>
+
+</div>
+
+<!-- Modal Tela 1 -->
+<div id="pp01-modal" style="display: none; position: fixed; z-index: 999999; left: 0; top: 0; width: 100vw; height: 100vh; background-color: rgba(15, 23, 42, 0.95); backdrop-filter: blur(5px); align-items: center; justify-content: center; flex-direction: column;" onclick="closeModalPP01()">
+  <div style="position: absolute; top: 16px; right: 24px; display: flex; gap: 12px; z-index: 1000000;" onclick="event.stopPropagation()">
+    <a href="../../../assets/images/prototipo-papel/prototipo-papel-tela-01.jpg" download="Prototipo_Papel_Tela01_DanielBatista.jpg" class="md-button md-button--primary" style="font-size: 0.85em; padding: 6px 16px; border-radius: 6px; text-decoration: none; color: white;">📥 Baixar</a>
+    <button onclick="closeModalPP01()" class="md-button" style="font-size: 0.85em; padding: 6px 16px; border-radius: 6px; background: #e11d48; color: white; border: none; cursor: pointer;">✕ Fechar (ESC)</button>
+  </div>
+  <div style="max-width: 95vw; max-height: 88vh; display: flex; align-items: center; justify-content: center; overflow: auto; padding: 10px;" onclick="event.stopPropagation()">
+    <img src="../../../assets/images/prototipo-papel/prototipo-papel-tela-01.jpg" alt="Tela 1 em Tela Cheia" style="max-width: 100%; max-height: 86vh; object-fit: contain; border-radius: 8px; box-shadow: 0 12px 40px rgba(0,0,0,0.6);">
+  </div>
+  <p style="color: #94a3b8; font-size: 0.85em; margin-top: 8px;">Pressione <b>ESC</b> ou clique fora da imagem para fechar.</p>
+</div>
+
+<hr />
+<h3 id="22-tela-2-listagem-de-resultados-filtrados-e-selecao-para-confronto">2.2 Tela 2: Listagem de Resultados Filtrados e Seleção para Confronto</h3>
+<p>A segunda folha simula o retorno da busca: <code>Resultados: DF • Nível Superior • Administrativa (2 editais)</code>. Cada certame é exibido em um card estruturado com caixas de seleção <code>[ ] Selecionar para comparar</code>:
+* <strong>Edital 1:</strong> <code>TRF 1ª Região - Analista Judiciário (Área Administrativa)</code> — Salário: R$ 13.900,00 | Vagas: 20 imediatas | Prova: 28/06/2026 (Manhã) | Status: Inscrições Abertas.
+* <strong>Edital 2:</strong> <code>MGI - Especialista em Políticas Públicas e Gestão</code> — Salário: R$ 14.200,00 | Vagas: 35 imediatas | Prova: 28/06/2026 (Tarde) | Status: Inscrições Abertas.</p>
+<p>Ao marcar as duas opções com o dedo, o "computador humano" sobrepõe dinamicamente a tira de papel: <code>[ 2 editais selecionados ] [ COMPARAR AGORA —&gt; ]</code>.</p>
+<div align="center">
+
+<div style="position: relative; display: inline-block; max-width: 95%;">
+  <a href="javascript:void(0)" onclick="openModalPP02()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
+    <img id="pp02-thumb" src="../../../assets/images/prototipo-papel/prototipo-papel-tela-02.jpg" alt="Protótipo de Papel - Tela 2: Listagem de Editais Filtrados e Seleção para Comparar" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block; transition: transform 0.2s ease-in-out;">
+  </a>
+</div>
+
+<div style="margin: 10px 0 16px 0; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+  <button onclick="openModalPP02()" class="md-button md-button--primary" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;">
+    <span>🔍</span> <b>Zoom / Tela Cheia</b>
+  </button>
+</div>
+
+<p align="center"><b>Figura 2:</b> Protótipo de Papel — Tela 2: Listagem de Resultados Filtrados com Barra Flutuante Sobreposta</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista à mão livre em papel sulfite (2026).</p>
+
+</div>
+
+<!-- Modal Tela 2 -->
+<div id="pp02-modal" style="display: none; position: fixed; z-index: 999999; left: 0; top: 0; width: 100vw; height: 100vh; background-color: rgba(15, 23, 42, 0.95); backdrop-filter: blur(5px); align-items: center; justify-content: center; flex-direction: column;" onclick="closeModalPP02()">
+  <div style="position: absolute; top: 16px; right: 24px; display: flex; gap: 12px; z-index: 1000000;" onclick="event.stopPropagation()">
+    <a href="../../../assets/images/prototipo-papel/prototipo-papel-tela-02.jpg" download="Prototipo_Papel_Tela02_DanielBatista.jpg" class="md-button md-button--primary" style="font-size: 0.85em; padding: 6px 16px; border-radius: 6px; text-decoration: none; color: white;">📥 Baixar</a>
+    <button onclick="closeModalPP02()" class="md-button" style="font-size: 0.85em; padding: 6px 16px; border-radius: 6px; background: #e11d48; color: white; border: none; cursor: pointer;">✕ Fechar (ESC)</button>
+  </div>
+  <div style="max-width: 95vw; max-height: 88vh; display: flex; align-items: center; justify-content: center; overflow: auto; padding: 10px;" onclick="event.stopPropagation()">
+    <img src="../../../assets/images/prototipo-papel/prototipo-papel-tela-02.jpg" alt="Tela 2 em Tela Cheia" style="max-width: 100%; max-height: 86vh; object-fit: contain; border-radius: 8px; box-shadow: 0 12px 40px rgba(0,0,0,0.6);">
+  </div>
+  <p style="color: #94a3b8; font-size: 0.85em; margin-top: 8px;">Pressione <b>ESC</b> ou clique fora da imagem para fechar.</p>
+</div>
+
+<hr />
+<h3 id="23-tela-3-matriz-comparativa-lado-a-lado-e-confirmacao-de-exportacao">2.3 Tela 3: Matriz Comparativa Lado a Lado e Confirmação de Exportação</h3>
+<p>A terceira folha exibe a tela de <strong>Comparador de Editais Lado a Lado</strong>, confrontando em colunas paralelas os atributos essenciais: Critério, TRF 1ª Região e MGI (Gestão), com linhas de Cargo, Remuneração, Data da Prova, Vagas e Matérias Comuns (com percentual de compatibilidade de 75%). </p>
+<p>No rodapé, encontram-se os botões <code>[ SALVAR ]</code> e <code>[ EXPORTAR PDF ]</code>. Ao tocar em exportar, o simulador sobrepõe a caixa de confirmação: <code>✓ COMPARATIVO GERADO COM SUCESSO [ OK / FECHAR ]</code>.</p>
+<div align="center">
+
+<div style="position: relative; display: inline-block; max-width: 95%;">
+  <a href="javascript:void(0)" onclick="openModalPP03()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
+    <img id="pp03-thumb" src="../../../assets/images/prototipo-papel/prototipo-papel-tela-03.jpg" alt="Protótipo de Papel - Tela 3: Matriz Comparativa Lado a Lado e Exportação em PDF" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block; transition: transform 0.2s ease-in-out;">
+  </a>
+</div>
+
+<div style="margin: 10px 0 16px 0; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+  <button onclick="openModalPP03()" class="md-button md-button--primary" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;">
+    <span>🔍</span> <b>Zoom / Tela Cheia</b>
+  </button>
+</div>
+
+<p align="center"><b>Figura 3:</b> Protótipo de Papel — Tela 3: Matriz Comparativa Lado a Lado com Modal de Confirmação Sobreposto</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista à mão livre em papel sulfite (2026).</p>
+
+</div>
+
+<!-- Modal Tela 3 -->
+<div id="pp03-modal" style="display: none; position: fixed; z-index: 999999; left: 0; top: 0; width: 100vw; height: 100vh; background-color: rgba(15, 23, 42, 0.95); backdrop-filter: blur(5px); align-items: center; justify-content: center; flex-direction: column;" onclick="closeModalPP03()">
+  <div style="position: absolute; top: 16px; right: 24px; display: flex; gap: 12px; z-index: 1000000;" onclick="event.stopPropagation()">
+    <a href="../../../assets/images/prototipo-papel/prototipo-papel-tela-03.jpg" download="Prototipo_Papel_Tela03_DanielBatista.jpg" class="md-button md-button--primary" style="font-size: 0.85em; padding: 6px 16px; border-radius: 6px; text-decoration: none; color: white;">📥 Baixar</a>
+    <button onclick="closeModalPP03()" class="md-button" style="font-size: 0.85em; padding: 6px 16px; border-radius: 6px; background: #e11d48; color: white; border: none; cursor: pointer;">✕ Fechar (ESC)</button>
+  </div>
+  <div style="max-width: 95vw; max-height: 88vh; display: flex; align-items: center; justify-content: center; overflow: auto; padding: 10px;" onclick="event.stopPropagation()">
+    <img src="../../../assets/images/prototipo-papel/prototipo-papel-tela-03.jpg" alt="Tela 3 em Tela Cheia" style="max-width: 100%; max-height: 86vh; object-fit: contain; border-radius: 8px; box-shadow: 0 12px 40px rgba(0,0,0,0.6);">
+  </div>
+  <p style="color: #94a3b8; font-size: 0.85em; margin-top: 8px;">Pressione <b>ESC</b> ou clique fora da imagem para fechar.</p>
+</div>
+
+<script>
+function openModalPP01() { var m = document.getElementById('pp01-modal'); if(m){ m.style.display='flex'; document.body.style.overflow='hidden'; } }
+function closeModalPP01() { var m = document.getElementById('pp01-modal'); if(m){ m.style.display='none'; document.body.style.overflow=''; } }
+function openModalPP02() { var m = document.getElementById('pp02-modal'); if(m){ m.style.display='flex'; document.body.style.overflow='hidden'; } }
+function closeModalPP02() { var m = document.getElementById('pp02-modal'); if(m){ m.style.display='none'; document.body.style.overflow=''; } }
+function openModalPP03() { var m = document.getElementById('pp03-modal'); if(m){ m.style.display='flex'; document.body.style.overflow='hidden'; } }
+function closeModalPP03() { var m = document.getElementById('pp03-modal'); if(m){ m.style.display='none'; document.body.style.overflow=''; } }
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') { closeModalPP01(); closeModalPP02(); closeModalPP03(); }
+});
+</script>
+
+<hr />
+<h2 id="3-autoinspecao-analitica-do-prototipo-de-papel">3. Autoinspeção Analítica do Protótipo de Papel</h2>
+<p>Antes da aplicação com os participantes, o autor realizou uma autoinspeção analítica com base nas heurísticas de Nielsen (1993) e nos critérios de prototipação em papel de Snyder (2003):</p>
+<div align="center">
+<p align="center"><b>Tabela 2: Lista de Verificação da Autoinspeção do Protótipo de Papel (Autor: Daniel Batista)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Item</th>
+<th style="text-align: left;">Critério Avaliado</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Justificativa / Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: left;">O protótipo caracteriza-se como baixa fidelidade autêntica em papel, sem componentes finais codificados?</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Desenhado inteiramente à mão em folhas A4 e post-its destacáveis (Snyder, 2003).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: left;">Os elementos interativos (campos, botões, caixas de seleção) comunicam com clareza suas affordances?</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Rótulos claros com checkboxes (<code>[ ]</code>) e botões destacados em retângulos reforçados.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: left;">A sequência de telas cobre o fluxo completo planejado nas tarefas TAR-01 e TAR-02?</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Cobertura integral: busca avançada ➔ listagem de resultados ➔ matriz comparativa ➔ exportação em PDF.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>4</strong></td>
+<td style="text-align: left;">As peças móveis permitem ao simulador mecânico representar respostas e feedbacks rápidos?</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">O botão de comparação e o modal de confirmação de PDF foram recortados como peças independentes de troca rápida.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: left;">Os termos e categorias refletem a linguagem habitual dos concurseiros (correspondência com o mundo real)?</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Emprega termos canônicos: "Inscrições Abertas", "Nível Superior", "Vagas Imediatas" e "Matérias Comuns".</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h2 id="4-teste-piloto-da-avaliacao-do-prototipo-de-papel-executado-e-gravado">4. Teste-Piloto da Avaliação do Protótipo de Papel (Executado e Gravado)</h2>
+<p>Conforme Barbosa et al. (2021, p. 276 e 300), o teste-piloto foi realizado previamente pelo avaliador Daniel da Silva Batista com o propósito de verificar o tempo de condução da sessão, calibrar o sincronismo na troca mecânica das folhas de papel e testar a legibilidade dos textos gravados pela câmera.</p>
+<h3 id="41-dados-logisticos-do-teste-piloto">4.1 Dados Logísticos do Teste-Piloto</h3>
+<div align="center">
+<p align="center"><b>Tabela 3: Dados Logísticos do Teste-Piloto do Protótipo de Papel</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Parâmetro</th>
+<th style="text-align: left;">Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Data e Horário:</strong></td>
+<td style="text-align: left;">01/11/2026 às 12:33</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Duração da Gravação:</strong></td>
+<td style="text-align: left;">03 minutos e 41 segundos</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Avaliador Responsável:</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ambiente de Gravação:</strong></td>
+<td style="text-align: left;">Presencial / Laboratório FGA com câmera focalizando a mesa de testes</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Artefatos Exercitados:</strong></td>
+<td style="text-align: left;">Protótipo de Papel da <code>TAR-01</code> e <code>TAR-02</code> (3 telas em papel e post-its móveis)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Custos Envolvidos:</strong></td>
+<td style="text-align: left;">R$ 0,00 (material de escritório próprio)</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<h3 id="42-registro-audiovisual-do-teste-piloto">4.2 Registro Audiovisual do Teste-Piloto</h3>
+<p>A gravação do teste-piloto com o protótipo de papel está disponível na íntegra a seguir, hospedada no YouTube com privacidade configurada como <strong>Não Listado</strong>:</p>
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/dmLr099zT0Y" title="Gravação do Teste-Piloto - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/dmLr099zT0Y" target="_blank">https://youtu.be/dmLr099zT0Y</a></p>
+
+</div>
+
+<blockquote>
+<p><strong>Declaração de Descarte de Dados do Piloto:</strong> Em estrita conformidade com a literatura de IHC (Barbosa et al., 2021, p. 300), declara-se que os dados obtidos durante a sessão de teste-piloto foram utilizados exclusivamente para a calibração do roteiro de tarefas, verificação da iluminação da mesa e treino de agilidade na troca de folhas, sendo formalmente descartados do cômputo final dos resultados com participantes reais.</p>
+</blockquote>
+<hr />
+<h2 id="5-avaliacao-com-usuarios-sessoes-empiricas">5. Avaliação com Usuários (Sessões Empíricas)</h2>
+<h3 id="51-protocolo-etico-e-caracterizacao-dos-participantes">5.1 Protocolo Ético e Caracterização dos Participantes</h3>
+<p>O recrutamento respeitou integralmente o <a href="../../../analise-de-requisitos/perfil-de-usuario/">Perfil 1 — Candidato/Concurseiro</a>. O Termo de Consentimento Livre e Esclarecido (TCLE) foi formalizado verbalmente no início de cada gravação, assegurando que o foco do teste é o protótipo em papel e jamais a capacidade individual do participante.</p>
+<div align="center">
+<p align="center"><b>Tabela 4: Perfil dos Participantes da Avaliação Empírica</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Participante</th>
+<th style="text-align: left;">Perfil Concurseiro</th>
+<th style="text-align: left;">Idade / Ocupação</th>
+<th style="text-align: left;">Rotina com Concursos</th>
+<th style="text-align: left;">Dispositivo Habitual</th>
+<th style="text-align: center;">Status do TCLE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Participante 1</strong></td>
+<td style="text-align: left;">Perfil 1 – Candidato</td>
+<td style="text-align: left;">52 anos / Pedagoga e Psicopedagoga</td>
+<td style="text-align: left;">Concurseira ativa (em busca de recolocação e prestando concursos regularmente)</td>
+<td style="text-align: left;">Computador Pessoal</td>
+<td style="text-align: center;">Aceito formalmente em vídeo</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Participante 2</strong></td>
+<td style="text-align: left;">Perfil 1 – Candidato</td>
+<td style="text-align: left;">21 anos / Universitária e Estudante</td>
+<td style="text-align: left;">Concurseira ativa (pesquisa certames regularmente)</td>
+<td style="text-align: left;">Computador Pessoal</td>
+<td style="text-align: center;">Aceito formalmente em vídeo</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Participante 3</strong></td>
+<td style="text-align: left;">Perfil 1 – Candidato</td>
+<td style="text-align: left;">Jovem adulto / Estudante</td>
+<td style="text-align: left;">Concurseiro iniciante (iniciando a rotina de busca de certames)</td>
+<td style="text-align: left;">Computador Pessoal</td>
+<td style="text-align: center;">Aceito formalmente em vídeo</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<h3 id="52-registro-audiovisual-das-entrevistas">5.2 Registro Audiovisual das Entrevistas</h3>
+<p>A Tabela 5 documenta a logística e os registros das sessões empíricas executadas. O player da primeira entrevista está incorporado a seguir:</p>
+<div align="center">
+<p align="center"><b>Tabela 5: Registro Audiovisual das Entrevistas do Protótipo de Papel</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Sessão</th>
+<th style="text-align: left;">Entrevistador</th>
+<th style="text-align: center;">Participante</th>
+<th style="text-align: center;">Data e Horário</th>
+<th style="text-align: center;">Duração</th>
+<th style="text-align: left;">Link da Gravação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Entrevista 1</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: center;">Participante 1 (52 anos, Pedagoga)</td>
+<td style="text-align: center;">02/11/2026 às 10:45</td>
+<td style="text-align: center;">05 min 05 s</td>
+<td style="text-align: left;"><a href="https://youtu.be/C8vyfMWISsY">Vídeo da Entrevista 1 (YouTube - 05m 05s)</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Entrevista 2</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: center;">Participante 2 (21 anos, Universitária)</td>
+<td style="text-align: center;">02/11/2026 às 14:03</td>
+<td style="text-align: center;">02 min 16 s</td>
+<td style="text-align: left;"><a href="https://youtu.be/AErfSvTkVGA">Vídeo da Entrevista 2 (YouTube - 02m 16s)</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Entrevista 3</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: center;">Participante 3 (Jovem adulto, Estudante)</td>
+<td style="text-align: center;">02/11/2026 às 14:12</td>
+<td style="text-align: center;">02 min 06 s</td>
+<td style="text-align: left;"><a href="https://youtu.be/QzVX9Hed4OU">Vídeo da Entrevista 3 (YouTube - 02m 06s)</a></td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/C8vyfMWISsY" title="Entrevista 01 - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center"><b>Vídeo 2:</b> Gravação da Entrevista 1 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/C8vyfMWISsY" target="_blank">https://youtu.be/C8vyfMWISsY</a></p>
+
+</div>
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/AErfSvTkVGA" title="Entrevista 02 - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center"><b>Vídeo 3:</b> Gravação da Entrevista 2 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/AErfSvTkVGA" target="_blank">https://youtu.be/AErfSvTkVGA</a></p>
+
+</div>
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/QzVX9Hed4OU" title="Entrevista 03 - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center"><b>Vídeo 4:</b> Gravação da Entrevista 3 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/QzVX9Hed4OU" target="_blank">https://youtu.be/QzVX9Hed4OU</a></p>
+
+</div>
+
+<h3 id="53-desempenho-nas-tarefas-e-feedbacks-coletados">5.3 Desempenho nas Tarefas e Feedbacks Coletados</h3>
+<p>Nas sessões individuais, o protocolo de <em>Think-Aloud</em> (pensar em voz alta) foi empregado conjuntamente à simulação mecânica do Computador Humano:</p>
+<h4 id="531-sessao-1-participante-1-52-anos-pedagoga">5.3.1 Sessão 1 — Participante 1 (52 anos, Pedagoga)</h4>
+<p>Durante a primeira sessão com a <strong>Participante 1</strong>, a técnica do <em>Think-Aloud</em> (pensar em voz alta) foi aplicada conjuntamente à simulação mecânica do Computador Humano:</p>
+<div align="center">
+<p align="center"><b>Tabela 6: Desempenho e Eficácia da Participante 1 no Protótipo de Papel</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tarefa Avaliada</th>
+<th style="text-align: left;">Instrução Fornecida</th>
+<th style="text-align: left;">Ação Executada pela Usuária (<em>Think-Aloud</em>)</th>
+<th style="text-align: center;">Resultado</th>
+<th style="text-align: center;">Tempo de Execução</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Tarefa 1: Busca Avançada</strong></td>
+<td style="text-align: left;"><em>"Encontre concursos abertos de nível superior na área administrativa em Brasília."</em></td>
+<td style="text-align: left;">Verbalizou a digitação do cargo e tocou nos filtros de DF, Nível Superior, Área Administrativa e Inscrições Abertas, acionando o botão <code>[Filtrar Concursos]</code>.</td>
+<td style="text-align: center;"><strong>Sucesso Autônomo</strong></td>
+<td style="text-align: center;">~55 s</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tarefa 2: Seleção para Confronto</strong></td>
+<td style="text-align: left;"><em>"Selecione dois editais para confrontar salários e datas de prova."</em></td>
+<td style="text-align: left;">Identificou os cards do TRF e MGI, analisou vagas e salários, notou provas em turnos opostos (manhã e tarde), marcou as duas caixas de seleção e tocou em <code>[Comparar]</code>.</td>
+<td style="text-align: center;"><strong>Sucesso Autônomo</strong></td>
+<td style="text-align: center;">~1 min 15 s</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tarefa 3: Matriz Comparativa e Exportação</strong></td>
+<td style="text-align: left;"><em>"Analise a comparação lado a lado e salve o comparativo em PDF."</em></td>
+<td style="text-align: left;">Ponderou a viabilidade dos turnos de prova em relação aos locais físicos no DF, tocou no botão de rodapé <code>[Exportar PDF]</code> e visualizou o modal dinâmico de sucesso.</td>
+<td style="text-align: center;"><strong>Sucesso Autônomo</strong></td>
+<td style="text-align: center;">~50 s</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<h4 id="sintese-das-respostas-pos-teste-participante-1">Síntese das Respostas Pós-Teste (Participante 1):</h4>
+<ul>
+<li><strong>Organização Visual:</strong> Considerou o protótipo muito intuitivo, destacando que a apresentação lado a lado dos concursos na terceira tela oferece clareza imediata para a decisão.</li>
+<li><strong>Dúvidas ou Hesitações:</strong> Afirmou que não teve nenhuma dúvida no fluxo e achou a interface fácil de operar.</li>
+<li><strong>Insight para Reprojeto:</strong> Destacou espontaneamente que a informação de turno de prova é crucial para concurseiros, pois prestar dois concursos no mesmo dia só é factível se o deslocamento entre os locais de prova for viável. Esse feedback valida a oportunidade <code>OPO-PP02</code> (alerta de choque/compatibilidade de turnos).</li>
+</ul>
+<h4 id="532-sessao-2-participante-2-21-anos-universitaria">5.3.2 Sessão 2 — Participante 2 (21 anos, Universitária)</h4>
+<div align="center">
+<p align="center"><b>Tabela 7: Desempenho e Eficácia da Participante 2 no Protótipo de Papel</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tarefa Avaliada</th>
+<th style="text-align: left;">Instrução Fornecida</th>
+<th style="text-align: left;">Ação Executada pela Usuária (<em>Think-Aloud</em>)</th>
+<th style="text-align: center;">Resultado</th>
+<th style="text-align: center;">Tempo de Execução</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Tarefa 1: Busca Avançada</strong></td>
+<td style="text-align: left;"><em>"Encontre concursos abertos utilizando os filtros de busca avançada."</em></td>
+<td style="text-align: left;">Verbalizou a parametrização dos filtros (escolaridade de nível médio e área administrativa) e tocou em <code>[Filtrar Concursos]</code>.</td>
+<td style="text-align: center;"><strong>Sucesso Autônomo</strong></td>
+<td style="text-align: center;">~25 s</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tarefa 2: Seleção para Confronto</strong></td>
+<td style="text-align: left;"><em>"Selecione dois certames da lista para comparar."</em></td>
+<td style="text-align: left;">Apontou para as caixas de seleção dos dois concursos retornados e visualizou a resposta mecânica imediata da tira <code>[2 concursos selecionados]</code>.</td>
+<td style="text-align: center;"><strong>Sucesso Autônomo</strong></td>
+<td style="text-align: center;">~35 s</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tarefa 3: Matriz Comparativa e Exportação</strong></td>
+<td style="text-align: left;"><em>"Confronte os dados na matriz lado a lado e gere o PDF."</em></td>
+<td style="text-align: left;">Analisou a tabela comparativa (salários, datas de prova, vagas e matérias comuns), acionou o botão <code>[Exportar PDF]</code> e conferiu a confirmação do modal dinâmico.</td>
+<td style="text-align: center;"><strong>Sucesso Autônomo</strong></td>
+<td style="text-align: center;">~30 s</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<ul>
+<li><strong>Clareza e Usabilidade:</strong> Avaliou o protótipo como <em>"bem didático, bem acessível e fácil de entender"</em>.</li>
+<li><strong>Dificuldades ou Inconsistências:</strong> Declarou que em nenhum momento sentiu confusão quanto à ordem dos passos ou significado dos botões.</li>
+<li><strong>Sugestões de Reprojeto:</strong> Afirmou que não alteraria nem retiraria elementos das peças desenhadas, considerando a solução completa e direta para a necessidade do concurseiro.</li>
+</ul>
+<h4 id="533-sessao-3-participante-3-jovem-adulto-estudante">5.3.3 Sessão 3 — Participante 3 (Jovem adulto, Estudante)</h4>
+<div align="center">
+<p align="center"><b>Tabela 8: Desempenho e Eficácia do Participante 3 no Protótipo de Papel</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tarefa Avaliada</th>
+<th style="text-align: left;">Instrução Fornecida</th>
+<th style="text-align: left;">Ação Executada pelo Usuário (<em>Think-Aloud</em>)</th>
+<th style="text-align: center;">Resultado</th>
+<th style="text-align: center;">Tempo de Execução</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Tarefa 1: Busca Avançada</strong></td>
+<td style="text-align: left;"><em>"Encontre concursos abertos utilizando os filtros de busca avançada."</em></td>
+<td style="text-align: left;">Verbalizou os critérios de pesquisa (Região DF e área da saúde) e tocou em <code>[Filtrar Concursos]</code>.</td>
+<td style="text-align: center;"><strong>Sucesso Autônomo</strong></td>
+<td style="text-align: center;">~20 s</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tarefa 2: Seleção para Confronto</strong></td>
+<td style="text-align: left;"><em>"Selecione dois certames da lista para comparar."</em></td>
+<td style="text-align: left;">Apontou para as caixas de seleção dos dois primeiros editais e visualizou a resposta dinâmica da tira <code>[2 editais selecionados - Comparar Agora]</code>.</td>
+<td style="text-align: center;"><strong>Sucesso Autônomo</strong></td>
+<td style="text-align: center;">~30 s</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tarefa 3: Matriz Comparativa e Exportação</strong></td>
+<td style="text-align: left;"><em>"Confronte os dados na matriz lado a lado e gere o PDF."</em></td>
+<td style="text-align: left;">Analisou as colunas comparativas dos editais selecionados, tocou no botão de rodapé <code>[Exportar PDF]</code> e confirmou o fechamento da notação dinâmica de sucesso.</td>
+<td style="text-align: center;"><strong>Sucesso Autônomo</strong></td>
+<td style="text-align: center;">~25 s</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<ul>
+<li><strong>Clareza e Usabilidade:</strong> Afirmou que não sentiu nenhuma confusão e que o fluxo de pensamento não foi interrompido em nenhuma das telas.</li>
+<li><strong>Dificuldades ou Hesitações:</strong> Declarou que os passos são fáceis de assimilar e que as peças móveis comunicam bem as respostas da interface.</li>
+<li><strong>Sugestões de Reprojeto:</strong> Informou que achou a estrutura bem resolvida e que não faria acréscimos ou alterações no modelo de baixa fidelidade.</li>
+</ul>
+<hr />
+<h2 id="6-relato-dos-resultados-da-avaliacao-do-prototipo-de-papel-barbosa-e-silva-2021-p-309">6. Relato dos Resultados da Avaliação do Protótipo de Papel (Barbosa e Silva, 2021, p. 309)</h2>
+<p>Conforme a estrutura normativa preconizada por <strong>Barbosa et al. (2021, Subseção 11.7.5, p. 279 e Subseção 12.1, p. 309)</strong>, esta seção consolida o <strong>Relato dos Resultados</strong> da avaliação empírica do Protótipo de Papel (TAR-01 e TAR-02), integrando a autoinspeção analítica preliminar, o teste-piloto e as três sessões de teste de usabilidade conduzidas com usuários reais representativos do Perfil 1 (Candidato/Concurseiro).</p>
+<h3 id="61-objetivos-da-avaliacao">6.1 Objetivos da Avaliação</h3>
+<ul>
+<li>Avaliar empiricamente a navegabilidade, as affordances e o fluxo de telas das tarefas prioritárias (<code>TAR-01</code> e <code>TAR-02</code>) em baixa fidelidade, antes de avançar para a modelagem interativa digital ou implementação de software.</li>
+<li>Constatar se os filtros da Busca Avançada e a disposição das colunas da Matriz Comparativa refletem o modelo mental e o vocabulário real dos concurseiros.</li>
+<li>Identificar precocemente dúvidas de interface, desvios de rota e oportunidades de melhoria ergonômica para subsidiar o design no protótipo digital de alta fidelidade (Nível 3).</li>
+</ul>
+<h3 id="62-escopo-da-avaliacao">6.2 Escopo da Avaliação</h3>
+<ul>
+<li><strong>Artefatos Analisados:</strong> Protótipo de Papel manual de autoria de Daniel da Silva Batista, composto por 3 telas em papel sulfite A4 com peças móveis e sobreposições dinâmicas (barras flutuantes e modais de confirmação).</li>
+<li><strong>Tarefas Contempladas:</strong> <a href="../../../analise-de-requisitos/analise-de-tarefas/hta/#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01">TAR-01 — Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado</a> e <a href="../../../analise-de-requisitos/analise-de-tarefas/hta/#32-tarefa-02-montar-e-exportar-caderno-personalizado-de-provas-anteriores-com-gabarito-comentado-integrado-tar-02">TAR-02 — Montar e exportar caderno/relatório</a>.</li>
+<li><strong>Nível de Fidelidade:</strong> Baixa fidelidade em papel (<em>Paper Prototyping</em>).</li>
+</ul>
+<h3 id="63-breve-descricao-do-metodo-utilizado">6.3 Breve Descrição do Método Utilizado</h3>
+<ul>
+<li><strong>Teste de Usabilidade com Prototipação em Papel (<em>Paper Prototyping</em>, Snyder, 2003):</strong> Condução de ensaios com participantes reais operando as peças físicas desenhadas.</li>
+<li><strong>Técnica do Computador Humano (<em>Wizard of Oz</em>):</strong> Simulação mecânica em tempo real na qual o avaliador (Daniel Batista) movimentou fisicamente as folhas, menus e tiras sobrepostas em resposta estrita ao toque dos dedos dos usuários, sem antecipar caminhos nem fornecer dicas de navegação.</li>
+<li><strong>Protocolo de Pensar em Voz Alta (<em>Think-Aloud Protocol</em>, Ericsson e Simon, 1993):</strong> Coleta das verbalizações contínuas dos usuários durante a interação, captando dúvidas imediatas e reflexões ergonômicas.</li>
+<li><strong>Calibração Prévia por Teste-Piloto:</strong> Realização e registro de sessão-piloto com usuário simulado (duração de 03m 41s) para calibração do sincronismo mecânico e das falas do moderador.</li>
+</ul>
+<h3 id="64-conjunto-de-diretrizes-e-criterios-avaliados">6.4 Conjunto de Diretrizes e Critérios Avaliados</h3>
+<ul>
+<li><strong>10 Heurísticas de Usabilidade de Nielsen (1993):</strong> Especialmente Visibilidade do Estado do Sistema, Correspondência com o Mundo Real, Prevenção de Erros e Reconhecimento em vez de Memorização.</li>
+<li><strong>Metas de Usabilidade (Barbosa et al., 2021):</strong> Eficácia de conclusão da tarefa (100% de sucesso autônomo), eficiência temporal média (~33s na busca, ~47s na comparação e ~35s na exportação) e satisfação subjetiva dos concurseiros.</li>
+<li><strong>Checklist Ergonômico de Baixa Fidelidade (Snyder, 2003):</strong> 10 critérios normativos aplicados na autoinspeção analítica (Tabela 2).</li>
+</ul>
+<h3 id="65-numero-e-perfil-dos-avaliadores-e-participantes">6.5 Número e Perfil dos Avaliadores e Participantes</h3>
+<ul>
+<li><strong>Avaliador/Moderador e Computador Humano (1 integrante):</strong> Daniel da Silva Batista (Estudante de Engenharia de Software da UnB / Grupo 07 IHC).</li>
+<li><strong>Participantes Convocados (3 participantes representativos do Perfil 1 – Candidato/Concurseiro):</strong></li>
+<li><strong>Participante 1 (Sessão 1):</strong> Mulher, 52 anos, graduada em Pedagogia com especialização em Psicopedagogia, concurseira ativa em busca de recolocação profissional, usuária habitual de computador pessoal. Termo de Consentimento (TCLE) aceito formalmente em vídeo.</li>
+<li><strong>Participante 2 (Sessão 2):</strong> Mulher, 21 anos, estudante universitária, concurseira ativa, usuária habitual de desktop/notebook. Termo de Consentimento (TCLE) aceito formalmente em vídeo.</li>
+<li><strong>Participante 3 (Sessão 3):</strong> Homem, jovem adulto, estudante e concurseiro iniciante, usuário habitual de computador pessoal. Termo de Consentimento (TCLE) aceito formalmente em vídeo.</li>
+</ul>
+<h3 id="66-lista-de-problemas-encontrados-e-oportunidades-de-reprojeto-para-o-prototipo-de-alta-fidelidade">6.6 Lista de Problemas Encontrados e Oportunidades de Reprojeto para o Protótipo de Alta Fidelidade</h3>
+<p>Em conformidade com <strong>Barbosa e Silva (2021, p. 309)</strong> e a padronização do Storyboard, a Tabela 9 consolida o confronto entre os <strong>resultados esperados</strong> e o <strong>comportamento observado</strong> nas três sessões de teste, orientando as ações de reprojeto para o protótipo digital de alta fidelidade (Nível 3):</p>
+<div align="center">
+<p align="center"><b>Tabela 9: Síntese de Confronto entre Comportamento Observado e Resultados Esperados</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Contexto da Interação</th>
+<th style="text-align: left;">Comportamento Observado nos Testes</th>
+<th style="text-align: left;">Resultado Esperado pelo Projeto</th>
+<th style="text-align: left;">Alteração Proposta / Encaminhamento para Alta Fidelidade</th>
+<th style="text-align: center;">Origem da Proposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>OPO-PP01</code></td>
+<td style="text-align: left;"><strong>Tela 2:</strong> Listagem de Editais Filtrados e Acionamento da Comparação</td>
+<td style="text-align: left;">Participantes marcaram os checkboxes com facilidade; notaram a tira dinâmica <code>[2 selecionados]</code>, mas apontaram que em listagens extensas o botão de rodapé pode exigir rolagem excessiva.</td>
+<td style="text-align: left;">Identificação imediata da affordance de seleção e percepção rápida do botão de ação primária sem rolagem forçada.</td>
+<td style="text-align: left;">Projetar no protótipo de alta fidelidade uma <strong>barra flutuante inferior (<em>sticky bar</em>)</strong> fixa na base da janela, surgindo com contagem dinâmica <code>(2/3)</code> assim que o primeiro edital for selecionado.</td>
+<td style="text-align: center;">Participante 1 e Avaliador</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>OPO-PP02</code></td>
+<td style="text-align: left;"><strong>Tela 3:</strong> Matriz Comparativa Lado a Lado de Editais</td>
+<td style="text-align: left;">Todos os usuários elogiaram a visualização paralela; a Participante 1 atentou que turnos de prova compatíveis (manhã vs tarde) demandam tempo de deslocamento físico em Brasília, sugerindo alertas expressos de choque de horários.</td>
+<td style="text-align: left;">Leitura imediata dos critérios comparativos (vagas, salários, matérias comuns e datas), facilitando a tomada de decisão em menos de 1 minuto.</td>
+<td style="text-align: left;">Adicionar no protótipo de alta fidelidade <strong>tags cromáticas de status</strong>: verde (<em>"Turnos Compatíveis"</em>) ou vermelha com ícone de alerta (<em>"Conflito: Provas no mesmo turno"</em>), auxiliando a deliberação rápida do candidato.</td>
+<td style="text-align: center;">Participante 1 e Planejamento</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>VAL-PP01</code></td>
+<td style="text-align: left;"><strong>Tela 1:</strong> Parametrização da Busca Avançada Multicritério</td>
+<td style="text-align: left;">Os 3 participantes compreenderam a combinação simultânea dos filtros (UF, carreira e nível de escolaridade) e tocaram no botão primário sem qualquer hesitação. Tempo médio: 33 s.</td>
+<td style="text-align: left;">Aderência imediata ao modelo mental, parametrização autônoma em até 60 s e ausência de dúvidas sobre os seletores.</td>
+<td style="text-align: left;">Manter a arquitetura da informação validada; incluir componentes visuais de <em>chips/tags</em> removíveis para filtros ativos no topo da listagem (<code>OPO-E01</code>).</td>
+<td style="text-align: center;">Validado (P1, P2 e P3)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>VAL-PP02</code></td>
+<td style="text-align: left;"><strong>Tela 3:</strong> Exportação do Relatório Comparativo em PDF</td>
+<td style="text-align: left;">Todos os usuários localizaram prontamente o botão <code>[Exportar PDF]</code> no rodapé da matriz e assimilaram imediatamente o modal sobreposto de confirmação de sucesso.</td>
+<td style="text-align: left;">Conclusão autônoma da exportação em até 45 s, com feedback inequívoco de sucesso pelo Computador Humano.</td>
+<td style="text-align: left;">Manter a hierarquia cromática de destaque do botão no protótipo digital e desenhar modal com atalhos de download direto e fechamento acessível.</td>
+<td style="text-align: center;">Validado (P1, P2 e P3)</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), padronizado com Barbosa et al. (2021).</p>
+</div>
+<p>Seguindo a estrutura analítica clássica de <strong>Barbosa e Silva (2021, p. 309)</strong> e a escala de severidade de <strong>Nielsen (1993)</strong>, cada oportunidade de reprojeto é detalhada a seguir nos seus cinco atributos fundamentais:</p>
+<h4 id="opo-pp01-posicionamento-fixo-da-barra-de-comparacao-sticky-bottom-bar">• OPO-PP01: Posicionamento Fixo da Barra de Comparação (<em>Sticky Bottom Bar</em>)</h4>
+<ul>
+<li><strong>Local onde ocorre:</strong> Tela 2 — Listagem de Resultados Filtrados.</li>
+<li><strong>Descrição do problema:</strong> Na folha em papel, o botão de comparação surge abaixo dos editais. Caso a lista seja longa, o usuário pode ter que rolar até o fim para encontrar o botão.</li>
+<li><strong>Diretriz violada:</strong> Visibilidade do Estado do Sistema e Affordance (Nielsen, 1993).</li>
+<li><strong>Severidade:</strong> <strong>2 – Simples (Médio)</strong>.</li>
+<li><strong>Ação de Reprojeto (Alta Fidelidade):</strong> No protótipo digital de alta fidelidade, criar uma <strong>barra flutuante inferior (<em>sticky bar</em>)</strong> que desliza suavemente na tela no momento em que o primeiro edital for selecionado, exibindo a contagem <code>(2/3)</code> e o botão de ação rápida.</li>
+</ul>
+<h4 id="opo-pp02-destaque-de-alerta-para-choque-de-horarios-de-prova">• OPO-PP02: Destaque de Alerta para Choque de Horários de Prova</h4>
+<ul>
+<li><strong>Local onde ocorre:</strong> Tela 3 — Matriz Comparativa Lado a Lado.</li>
+<li><strong>Descrição do problema:</strong> As datas de prova do TRF (Manhã) e MGI (Tarde) são compatíveis porque ocorrem em turnos distintos, mas os participantes sugeriram que a interface avise expressamente caso haja choque de turnos.</li>
+<li><strong>Diretriz violada:</strong> Prevenção de Erros (Nielsen, 1993).</li>
+<li><strong>Severidade:</strong> <strong>2 – Simples (Médio)</strong>.</li>
+<li><strong>Ação de Reprojeto (Alta Fidelidade):</strong> Desenhar no protótipo digital de alta fidelidade uma <em>tag</em> de status: verde (<em>"Turnos Compatíveis"</em>) ou vermelha com ícone de alerta (<em>"Conflito de Horário: Provas no mesmo turno"</em>).</li>
+</ul>
+<p>Para assegurar o fechamento do ciclo de design formativo entre a Etapa 5 e a Etapa 6, a Tabela 10 estabelece o cronograma de implementação das oportunidades no protótipo digital de alta fidelidade:</p>
+<div align="center">
+<p align="center"><b>Tabela 10: Cronograma de Implementação das Ações de Reprojeto na Alta Fidelidade (Nível 3)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Ação de Reprojeto na Alta Fidelidade</th>
+<th style="text-align: left;">Origem da Oportunidade</th>
+<th style="text-align: center;">Responsável</th>
+<th style="text-align: center;">Data Prevista</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>REP-01</code></td>
+<td style="text-align: left;">Modelagem do componente de barra flutuante inferior (<em>sticky bar</em>) com contagem dinâmica <code>(2/3)</code> e botão <code>[Comparar Agora]</code></td>
+<td style="text-align: left;"><code>OPO-PP01</code> (Entrevistas 1 e 2)</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+<td style="text-align: center;">03/11/2026</td>
+<td style="text-align: center;">Em andamento</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>REP-02</code></td>
+<td style="text-align: left;">Implementação das tags de status de compatibilidade de turnos de prova na matriz comparativa (verde/vermelho)</td>
+<td style="text-align: left;"><code>OPO-PP02</code> (Entrevista 1 / Sugestão P1)</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+<td style="text-align: center;">03/11/2026</td>
+<td style="text-align: center;">Em andamento</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>REP-03</code></td>
+<td style="text-align: left;">Inclusão de chips visuais removíveis para filtros aplicados no cabeçalho dos resultados</td>
+<td style="text-align: left;"><code>OPO-E01</code> (Avaliação do Storyboard)</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+<td style="text-align: center;">04/11/2026</td>
+<td style="text-align: center;">Planejado</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>REP-04</code></td>
+<td style="text-align: left;">Criação de tela informativa de estado vazio com sugestões de afrouxamento de critérios</td>
+<td style="text-align: left;"><code>OPO-D01</code> (Autoinspeção da HTA)</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+<td style="text-align: center;">04/11/2026</td>
+<td style="text-align: center;">Planejado</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<hr />
+<h2 id="7-referencias-bibliograficas">7. Referências Bibliográficas</h2>
+<blockquote>
+<p>[1] BARBOSA, Simone Diniz Junqueira et al. <em>Interação Humano-Computador e Experiência do Usuário</em>. Rio de Janeiro: Autopublicação, 2021. ISBN: 978-65-00-19677-1.<br />
+[2] ERICSSON, K. Anders; SIMON, Herbert A. <em>Protocol Analysis: Verbal Reports as Data</em>. Cambridge: MIT Press, 1993.<br />
+[3] MAYHEW, Deborah J. <em>The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design</em>. San Francisco: Morgan Kaufmann, 1999.<br />
+[4] NIELSEN, Jakob. <em>Usability Engineering</em>. San Francisco: Morgan Kaufmann, 1993.<br />
+[5] SNYDER, Carolyn. <em>Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces</em>. San Francisco: Morgan Kaufmann, 2003.  </p>
+</blockquote>
+<hr />
+<h2 id="8-historico-de-versoes">8. Histórico de Versões</h2>
+<div align="center">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">02/11/2026</td>
+<td style="text-align: left;">Elaboração inicial do artefato individual de Nível 2 (Protótipo de Papel) com as 3 telas manuais, autoinspeção analítica, teste-piloto e propostas de reprojeto.</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td style="text-align: center;">02/11/2026</td>
+<td style="text-align: left;">Inclusão do registro audiovisual, player incorporado e dados da Entrevista 1 de validação empírica com usuária real.</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.2</code></td>
+<td style="text-align: center;">02/11/2026</td>
+<td style="text-align: left;">Inclusão do registro audiovisual, player incorporado e dados da Entrevista 2 com participante universitária.</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.3</code></td>
+<td style="text-align: center;">02/11/2026</td>
+<td style="text-align: left;">Inclusão do registro audiovisual, player incorporado da Entrevista 3 e consolidação integral dos testes empíricos com os 3 participantes reais.</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.4</code></td>
+<td style="text-align: center;">03/11/2026</td>
+<td style="text-align: left;">Correção do link, player incorporado e duração do vídeo do Teste-Piloto do Protótipo de Papel (youtu.be/dmLr099zT0Y - 03m 41s).</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.5</code></td>
+<td style="text-align: center;">03/11/2026</td>
+<td style="text-align: left;">Reestruturação integral da Seção 6 de 6.1 a 6.6 segundo Barbosa e Silva (2021, p. 309), incorporando a Tabela 9 (Confronto entre Comportamento Observado e Resultados Esperados) padronizada com o Storyboard e cronograma de reprojeto para alta fidelidade (Tabela 10).</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
