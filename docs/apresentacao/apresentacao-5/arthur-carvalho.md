@@ -6,6 +6,7 @@
 | :--- | :--- |
 | Arthur Sismene Carvalho | Gravação e condução da apresentação individual da Etapa 5. |
 | Daniel da Silva Batista | Criação da página individual da apresentação e incorporação do vídeo no MkDocs. |
+| Gemini | Auxílio na estruturação textual e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
