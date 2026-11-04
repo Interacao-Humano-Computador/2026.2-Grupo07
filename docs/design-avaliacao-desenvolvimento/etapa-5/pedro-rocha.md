@@ -469,21 +469,7 @@ Conforme detalhado no livro de **Barbosa e Silva (2021, p. 309)**, cada problema
 
 ---
 
-## 7. Gravação da Apresentação Individual da Etapa 5
-
-Apresentação oral em vídeo gravada por Pedro Rocha Ferreira Lima sintetizando a condução da autoinspeção analítica, do teste-piloto e das 2 entrevistas empíricas da TAR-04 e do Storyboard SB-02:
-
-<div align="center" markdown="1">
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/sFa95G5zAcU" title="Apresentação Individual da Etapa 5 - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
-
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo da Apresentação:</b> Síntese dos resultados individuais da Etapa 5 conduzida por Pedro Rocha Ferreira Lima (Disponível no <a href="https://youtu.be/sFa95G5zAcU" target="_blank">YouTube</a>).</p>
-
-</div>
-
----
-
-## 8. Referências Bibliográficas
+## 7. Referências Bibliográficas
 
 > [1] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
 > [2] FAGAN, Michael E. *Design and Code Inspections to Reduce Errors in Program Development*. IBM Systems Journal, v. 15, n. 3, p. 182-211, 1976.  
@@ -494,7 +480,7 @@ Apresentação oral em vídeo gravada por Pedro Rocha Ferreira Lima sintetizando
 
 ---
 
-## 9. Histórico de Versões
+## 8. Histórico de Versões
 
 <div align="center" markdown="1">
 

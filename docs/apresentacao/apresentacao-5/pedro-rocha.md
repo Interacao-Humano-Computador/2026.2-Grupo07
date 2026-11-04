@@ -6,7 +6,6 @@
 | :--- | :--- |
 | Pedro Rocha Ferreira Lima | Gravação e condução da apresentação individual da Etapa 5. |
 | Daniel da Silva Batista | Criação da página individual da apresentação e incorporação do vídeo no MkDocs. |
-| Arthur Sismene Carvalho | Revisão da página e validação do player incorporado. |
 
 <p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -57,9 +56,9 @@ A Tabela 1 sintetiza os artefatos abordados durante a gravação da apresentaç�
 
 <div align="center" markdown="1">
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 03/11/2026 | Criação da página individual da Apresentação 5 e incorporação do vídeo no MkDocs. | Daniel da Silva Batista | Arthur Sismene Carvalho |
+| Versão | Data | Descrição | Autor(es) |
+| :---: | :---: | :--- | :---: |
+| `1.0` | 03/11/2026 | Criação da página individual da Apresentação 5 e incorporação do vídeo no MkDocs. | Daniel da Silva Batista |
 
 <p align="center" style="margin-top: -0.6em; font-size: 0.85em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

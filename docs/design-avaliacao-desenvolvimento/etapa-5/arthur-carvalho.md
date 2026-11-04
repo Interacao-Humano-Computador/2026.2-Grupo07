@@ -486,38 +486,7 @@ Conforme detalhado no livro de **Barbosa e Silva (2021, p. 309)**, cada problema
 
 ---
 
-## 7. Apresentação da Etapa 5
-
-Esta seção reúne o vídeo da **apresentação individual da Etapa 5** (Storyboard, Análise de Tarefas e Avaliação de Nível 1 da `TAR-05` / `SB-03`), conduzida por Arthur Sismene Carvalho. Caso o player incorporado não reproduza diretamente na página, acesse pelo link direto: [Apresentação da Etapa 5 no YouTube](https://youtu.be/KZMoZYpHLv0).
-
-<div align="center" markdown="1">
-
-<p align="center"><b>Tabela 12: Dados da Gravação da Apresentação da Etapa 5</b></p>
-
-| Atributo | Detalhamento |
-| :--- | :--- |
-| **Apresentador** | Arthur Sismene Carvalho |
-| **Etapa / Escopo** | Etapa 5 — Storyboard SB-03, Análise de Tarefas (TAR-05) e Avaliação de Nível 1 |
-| **Data da Gravação** | 25/10/2026 |
-| **Duração do Vídeo** | 7 minutos e 13 segundos |
-| **Link Direto do Vídeo** | [Apresentação da Etapa 5 no YouTube](https://youtu.be/KZMoZYpHLv0) |
-
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
-
-</div>
-
-<div align="center">
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/KZMoZYpHLv0" title="Apresentação da Etapa 5 - Arthur Sismene (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
-
-<p align="center"><b>Vídeo 4:</b> Apresentação Individual da Etapa 5 — Arthur Sismene Carvalho (Duração: 7m 13s)</p>
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto:</b> <a href="https://youtu.be/KZMoZYpHLv0" target="_blank">https://youtu.be/KZMoZYpHLv0</a></p>
-
-</div>
-
----
-
-## 8. Referências Bibliográficas
+## 7. Referências Bibliográficas
 
 > [1] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
 > [2] FAGAN, Michael E. *Design and Code Inspections to Reduce Errors in Program Development*. IBM Systems Journal, v. 15, n. 3, p. 182-211, 1976.  
@@ -528,7 +497,7 @@ Esta seção reúne o vídeo da **apresentação individual da Etapa 5** (Storyb
 
 ---
 
-## 9. Histórico de Versões
+## 8. Histórico de Versões
 
 <div align="center" markdown="1">
 
