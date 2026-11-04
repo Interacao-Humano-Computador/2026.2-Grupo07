@@ -237,13 +237,6 @@ O protótipo oferece duas ações de reversão, simuladas pelo Computador Humano
 * **Limpar pesquisa — `[ LIMPAR ]`:** localizado ao lado de `[ APLICAR ]` no painel lateral, retorna os três seletores ao estado inicial (`▽ Selecione o edital...`, `▽ Selecione o dia`, `▽ Selecione horário...`), **sem alterar** as etiquetas já aplicadas na grade.
 * **Limpar cronograma — `[ LIMPAR CRONOGRAMA ]`:** localizado acima da grade, remove **todas** as etiquetas de concurso aplicadas, devolvendo a grade horária ao estado vazio da Figura 1.
 
-<script>
-function openModalPP(id) { var m = document.getElementById(id); if (m) { m.style.display = 'flex'; document.body.style.overflow = 'hidden'; } }
-function closeModalPP(id) { var m = document.getElementById(id); if (m) { m.style.display = 'none'; document.body.style.overflow = ''; } }
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') { document.querySelectorAll('.pp-modal').forEach(function(m) { closeModalPP(m.id); }); }
-});
-</script>
 
 ---
 
