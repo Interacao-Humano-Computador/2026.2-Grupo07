@@ -301,14 +301,6 @@ Conforme Barbosa et al. (2021, p. 276 e 300), o teste-piloto é realizado previa
 
 A gravação do teste-piloto com o protótipo de papel está disponível na íntegra a seguir, hospedada no YouTube com privacidade configurada como **Não Listado**:
 
-<div align="center">
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/ID_DO_VIDEO_PILOTO" title="Gravação do Teste-Piloto - Protótipo de Papel - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
-
-<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Papel (TAR-04)</p>
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/ID_DO_VIDEO_PILOTO" target="_blank">https://youtu.be/ID_DO_VIDEO_PILOTO</a></p>
-
-</div>
 
 > **Declaração de Descarte de Dados do Piloto:** Em conformidade com a literatura de IHC (Barbosa et al., 2021, p. 300), declara-se que os dados obtidos durante a sessão de teste-piloto foram utilizados exclusivamente para a calibração do roteiro de tarefas, verificação da iluminação da mesa e treino de agilidade na troca das peças, sendo formalmente descartados do cômputo final dos resultados com participantes reais.
 
