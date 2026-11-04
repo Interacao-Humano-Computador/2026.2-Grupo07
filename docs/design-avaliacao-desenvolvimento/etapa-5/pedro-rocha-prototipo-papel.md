@@ -27,8 +27,8 @@ Dentre as tarefas analisadas pelo integrante (`TAR-03` e `TAR-04`), a **TAR-04**
 | :--- | :--- |
 | **Integrante Responsável** | Pedro Rocha |
 | **Perfil de Usuário Focado** | [Perfil 1 — Candidato / Concurseiro](../../analise-de-requisitos/perfil-de-usuario.md) |
-| **Cenário de Uso** | [CEN-XX — *(inserir cenário vinculado à TAR-04)*](../../analise-de-requisitos/cenarios.md) |
-| **Tarefas Analisadas pelo Integrante** | [TAR-03 — *(inserir título)*](../../analise-de-requisitos/analise-de-tarefas/hta.md) e [TAR-04 — *(inserir título)*](../../analise-de-requisitos/analise-de-tarefas/hta.md) |
+| **Cenário de Uso** | [CEN-06 — (../../analise-de-requisitos/cenarios.md) |
+| **Tarefas Analisadas pelo Integrante** | [TAR-03  e [TAR-04  |
 | **Tarefa Escolhida para o Protótipo** | [TAR-04 — Montar cronograma semanal de estudo vinculando editais a dias e horários](../../analise-de-requisitos/analise-de-tarefas/hta.md) |
 | **Storyboard de Origem** | [SB-02](../storyboard/) |
 | **Tipo de Artefato** | Protótipo de baixa fidelidade desenhado em papel com peças móveis e sobreposições mecânicas (*Paper Prototyping*) |
