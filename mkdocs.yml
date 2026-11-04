@@ -121,9 +121,10 @@ nav:
       - Apresentação 1: apresentacao/apresentacao-1.md
       - Apresentação 3: apresentacao/apresentacao-3.md
       - Apresentação 4: apresentacao/apresentacao-4.md
-      - Apresentação 5 (Storyboard e Tarefas):
-          - Apresentação 5 (Consolidada): apresentacao/apresentacao-5.md
-          - Arthur Sismene Carvalho: design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho.md
-          - Daniel da Silva Batista: design-avaliacao-desenvolvimento/etapa-5/daniel-batista.md
-          - Leonardo da Silva Lopes Júnior: design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes.md
-          - Pedro Rocha Ferreira Lima: design-avaliacao-desenvolvimento/etapa-5/pedro-rocha.md
+      - Apresentação 5:
+          - Arthur Sismene Carvalho: apresentacao/apresentacao-5/arthur-carvalho.md
+          - Daniel da Silva Batista: apresentacao/apresentacao-5/daniel-batista.md
+          - Leonardo da Silva Lopes Júnior: apresentacao/apresentacao-5/leonardo-lopes.md
+          - Pedro Rocha Ferreira Lima: apresentacao/apresentacao-5/pedro-rocha.md
+      - Apresentação 6:
+          - Daniel da Silva Batista: apresentacao/apresentacao-6/daniel-batista.md
