@@ -66,6 +66,7 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 * [Apresentação da Etapa 1](apresentacao/apresentacao-1.md)
 * [Apresentação da Etapa 3](apresentacao/apresentacao-3.md)
 * [Apresentação da Etapa 4](apresentacao/apresentacao-4.md)
+* [Apresentação da Etapa 7 — Daniel da Silva Batista](apresentacao/apresentacao-7/daniel-batista.md)
 
 ---
 
