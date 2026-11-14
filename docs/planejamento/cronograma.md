@@ -303,13 +303,15 @@ Na Tabela 12, tem-se o registro das atividades já executadas e em andamento ref
 | Planejamento da Avaliação do Protótipo de Alta Fidelidade (Nível 3) | Início: 26/10<br>Fim: 02/11 | Leonardo da Silva Lopes Júnior, Daniel da Silva Batista | Início: 02/11<br>Fim: 02/11 | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho |
 | Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade (Nível 3) | Início: 26/10<br>Fim: 02/11 | Daniel da Silva Batista, Leonardo da Silva Lopes Júnior | Início: 02/11<br>Fim: 02/11 | Pedro Rocha Ferreira Lima, Arthur Sismene Carvalho |
 | Reorganização e padronização da hierarquia dos Níveis 1, 2 e 3 na navegação | Início: 02/11<br>Fim: 02/11 | Daniel da Silva Batista | Início: 02/11<br>Fim: 02/11 | Arthur Sismene Carvalho |
-| Gravação da Apresentação da Etapa 6 | *Em andamento* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A realizar* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Gravação da Apresentação da Etapa 6 | Início: 03/11<br>Fim: 03/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 03/11<br>Fim: 03/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
 ## 7. Etapa 7 - Relato do Protótipo de Alta Fidelidade
+
+### 7.1 Cronograma Planejado
 
 Na Tabela 13, tem-se o cronograma planejado para as atividades da sétima entrega.
 
@@ -324,6 +326,27 @@ Na Tabela 13, tem-se o cronograma planejado para as atividades da sétima entreg
 | Reunião de Alinhamento e Ata | Início: 14/11<br>Fim: 14/11 | Leonardo da Silva Lopes Júnior | Início: 14/11<br>Fim: 14/11 | Arthur Sismene Carvalho |
 | Gravar apresentação da Etapa 7 | Início: 14/11<br>Fim: 15/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 15/11<br>Fim: 15/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 | Correção pós-apresentação | Início: 15/11<br>Fim: 15/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 15/11<br>Fim: 15/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+### 7.2 Cronograma Executado
+
+Na Tabela 14, tem-se o registro real de execução das atividades da sétima entrega (Nível 3 — Protótipo de Alta Fidelidade).
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14 - Cronograma Executado (Etapa 7)</b></p>
+
+| Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
+| :--- | :---: | :--- | :---: | :--- |
+| Confecção e modelagem do Protótipo de Alta Fidelidade no Lovable (`TAR-01` e `TAR-02`) | Início: 10/11<br>Fim: 10/11 | Daniel da Silva Batista | Início: 10/11<br>Fim: 11/11 | Pedro Rocha Ferreira Lima |
+| Adequação dos planejamentos pós-feedback da Etapa 6 (DECIDE, modalidade presencial e links HTA/CTT) | Início: 12/11<br>Fim: 13/11 | Daniel da Silva Batista | Início: 13/11<br>Fim: 13/11 | Arthur Sismene Carvalho |
+| Condução e gravação do Teste-Piloto do Protótipo de Alta Fidelidade | Início: 10/11<br>Fim: 10/11 | Daniel da Silva Batista | Início: 14/11<br>Fim: 14/11 | Leonardo da Silva Lopes Júnior |
+| Condução presencial e gravação das 3 Sessões Empíricas com usuários reais (Think-Aloud e entrevista pós-teste) | Início: 12/11<br>Fim: 12/11 | Daniel da Silva Batista | Início: 13/11<br>Fim: 13/11 | Leonardo da Silva Lopes Júnior |
+| Análise dos vídeos, captura das telas e elaboração do Relato Individual dos Resultados do Protótipo de Alta Fidelidade (Nível 3) | Início: 13/11<br>Fim: 13/11 | Daniel da Silva Batista | Início: 14/11<br>Fim: 14/11 | Pedro Rocha Ferreira Lima |
+| Gravação da Apresentação da Etapa 7 | *Em andamento* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A realizar* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -394,6 +417,7 @@ Na Tabela 15, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.8` | 09/10/2026 | Resolução das pendências apontadas pelo monitor (OBS 3 e OBS 4): atribuição balanceada de responsáveis para as Etapas 4 a 8, detalhamento das técnicas de análise de tarefas e inclusão de referências bibliográficas e agradecimentos. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.9` | 21/10/2026 | Inserção do Cronograma Executado da Etapa 4 e detalhamento das atividades executadas e planejadas da Etapa 5 (Storyboards e Teste-Piloto de Nível 1). | Daniel da Silva Batista | Arthur Sismene Carvalho |
 | `2.0` | 02/11/2026 | Atualização do Cronograma Executado da Etapa 5 (entrevistas, relatos individuais e apresentação gravada) e inserção do Cronograma Executado da Etapa 6 (Protótipo de Papel e Planejamento de Alta Fidelidade). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `2.1` | 13/11/2026 | Conclusão do registro da Etapa 6 e inclusão do Cronograma Executado da Etapa 7 (Protótipo de Alta Fidelidade no Lovable, 3 sessões presenciais e relato de Nível 3). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
 
