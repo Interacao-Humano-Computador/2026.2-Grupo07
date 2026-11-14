@@ -30,7 +30,8 @@ A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa 
 | <img src="https://img.icons8.com/color/512/markdown.png" width="40px"> | **MkDocs (Material)** | Gerador de sites estáticos utilizado para construir e hospedar a página de documentação (GitPages) da equipe. |
 | <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="40px"> | **WhatsApp** | Principal canal de comunicação assíncrona da equipe, utilizado para avisos rápidos e marcação de reuniões. |
 | <img src="https://img.icons8.com/color/512/microsoft-teams.png" width="40px"> | **Microsoft Teams** | Plataforma utilizada para a realização de reuniões síncronas e gravação das apresentações de entrega de cada etapa. |
-| <img src="https://lovable.dev/favicon.ico" width="40px"> | **Lovable** | Plataforma de desenvolvimento assistido por IA utilizada para construir o protótipo interativo de alta fidelidade (React + Tailwind CSS) do PCI Concursos. |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" width="40px"> | **Figma** | Ferramenta de design colaborativo adotada para a futura prototipação de alta fidelidade e wireframes. |
+| <img src="https://cdn.iconscout.com/icon/free/png-256/free-miro-3628941-3030166.png" width="40px"> | **Miro** | Ferramenta de quadro branco digital utilizada para dinâmicas de brainstorming, elicitação e construção de mapas de afinidade/heatmap. |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" width="40px"> | **Google Workspace** | Edição rápida e colaborativa de tabelas (como o cronograma) e rascunho de textos (atas e avaliações) via Docs/Planilhas antes da conversão para Markdown. |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="40px"> | **Visual Studio Code** | Editor de código (IDE) utilizado pelos membros para a marcação e edição técnica dos artefatos em formato Markdown (`.md`). |
 
@@ -42,8 +43,8 @@ A Tabela 1 lista todas as ferramentas utilizadas, especificando a justificativa 
 
 ## 2. Referências Bibliográficas
 
-> [1] GITHUB. *Sobre o GitHub*. Disponível em: <https://docs.github.com/pt>. Acesso em: 04 set. 2026.  
-> [2] LOVABLE. *Lovable: Build apps and websites by chatting with AI*. Disponível em: <https://lovable.dev/>. Acesso em: 10 nov. 2026.  
+> [1] FIGMA. *Figma: The Collaborative Interface Design Tool*. Disponível em: <https://www.figma.com/>. Acesso em: 04 set. 2026.  
+> [2] GITHUB. *Sobre o GitHub*. Disponível em: <https://docs.github.com/pt>. Acesso em: 04 set. 2026.  
 > [3] MKDOCS. *MkDocs Material Documentation*. Disponível em: <https://squidfunk.github.io/mkdocs-material/>. Acesso em: 04 set. 2026.  
 > [4] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.  
 

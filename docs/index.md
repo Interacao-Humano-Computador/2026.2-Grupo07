@@ -45,19 +45,10 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 
 ---
 
-### Resultados (Etapas 5, 6 e 7)
-* **Nível 1 de Fidelidade (Storyboards):**
+### Resultados (Etapa 5)
+* **Nível 1 de Fidelidade:**
     * [Avaliações e Storyboards Individuais](design-avaliacao-desenvolvimento/etapa-5/daniel-batista.md)
     * [Planejamento e Execução do Teste-Piloto](design-avaliacao-desenvolvimento/teste-piloto.md)
-* **Nível 2 de Fidelidade (Protótipo de Papel):**
-    * [Planejamento da Avaliação do Protótipo de Papel](design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-prototipo-papel.md)
-    * [Planejamento do Relato dos Resultados do Protótipo de Papel](design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-prototipo-papel.md)
-    * [Relato dos Resultados do Protótipo de Papel — Daniel da Silva Batista](design-avaliacao-desenvolvimento/etapa-5/daniel-batista-prototipo-papel.md)
-* **Nível 3 de Fidelidade (Protótipo de Alta Fidelidade):**
-    * [Planejamento da Avaliação do Protótipo de Alta Fidelidade](design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-alta-fidelidade.md)
-    * [Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade](design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-alta-fidelidade.md)
-    * [Relato dos Resultados do Protótipo de Alta Fidelidade — Daniel da Silva Batista](design-avaliacao-desenvolvimento/etapa-5/daniel-batista-alta-fidelidade.md)
-    * [Protótipo interativo no Lovable](https://sketch-to-test-studio.lovable.app)
 
 ---
 

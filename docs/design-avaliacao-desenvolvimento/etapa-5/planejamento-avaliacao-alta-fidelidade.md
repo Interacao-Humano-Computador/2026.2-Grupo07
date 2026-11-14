@@ -39,12 +39,13 @@ Para assegurar o rigor metodológico na condução e garantir a completude do pl
 
 ## 3. D – Determinar os Objetivos da Avaliação
 
-Em estrita conformidade com **Barbosa e Silva (2021, p. 262-264)**, os objetivos de uma avaliação de IHC são definidos a partir das finalidades fundamentais da disciplina, orientando o refinamento formativo do protótipo digital antes da implementação definitiva:
+Conforme Barbosa e Silva (2021, p. 263-264), a avaliação em nível de protótipo de alta fidelidade tem caráter **formativo**, orientando o refinamento detalhado do design de interação. Os objetivos específicos desta avaliação são:
 
-1. **Avaliar a apropriação da tecnologia pelos usuários:** verificar como os candidatos compreendem e se apropriam dos novos recursos de filtragem avançada multicritério e comparação lado a lado de editais no ambiente digital;
-2. **Avaliar ideias e alternativas de design:** constatar se a transição do protótipo em papel (Nível 2) para o protótipo digital interativo de alta fidelidade (Nível 3), incluindo as correções de reprojeto (como a barra flutuante de seleção), supera os problemas identificados anteriormente;
-3. **Avaliar a conformidade com um padrão:** verificar a aderência da interface às **10 Heurísticas de Usabilidade de Nielsen (1993)** e ao [Guia de Estilo](../guia-de-estilo.md) do projeto (cores, tipografia, contrastes e affordances);
-4. **Identificar problemas na interação e na interface:** mapear hesitações, erros operacionais, desvios de rota ou dúvidas de interpretação durante a execução real das tarefas, subsidiando os ajustes finais da interface.
+1. **Avaliar a navegabilidade e a fluidez do fluxo digital:** verificar se os caminhos percorridos pelo usuário no protótipo interativo são intuitivos, rápidos e livres de gargalos;
+2. **Validar a conformidade com o Guia de Estilo:** constatar se os componentes visuais, padrões cromáticos, contrastes, botões e campos de busca comunicam claramente sua função interativa e facilitam a leitura;
+3. **Avaliar a conformidade com o modelo mental do candidato:** verificar se os filtros de busca multicritério, a apresentação dos editais e a matriz comparativa atendem às necessidades reais dos concurseiros;
+4. **Identificar problemas de usabilidade residuais:** mapear hesitações, cliques equivocados, desvios de rota ou dúvidas de interpretação para subsidiar os ajustes finais da interface;
+5. **Avaliar a satisfação subjetiva do usuário:** coletar percepções ergonômicas e impressões gerais do participante através de entrevista pós-teste.
 
 ---
 
@@ -96,17 +97,17 @@ Cada sessão de teste de usabilidade em alta fidelidade será conduzida com uma 
 2. **Observador / Anotador:** registra em planilha os tempos de execução, os erros e hesitações, as falas mais significativas e opera o software de gravação de tela e áudio.
 
 ### 6.3 Recursos, Ferramentas e Materiais
-* **Protótipo Interativo:** protótipo digital de alta fidelidade desenvolvido no Lovable contendo as telas e componentes interativos das tarefas prioritárias;
-* **Equipamento:** computador (desktop ou notebook) com mouse, teclado e tela de alta resolução para uso **presencial** pelo participante;
-* **Software de Registro:** ferramenta de gravação local de tela e áudio (como OBS Studio ou câmera presencial) para registro integral da sessão;
+* **Protótipo Interativo:** protótipo digital de alta fidelidade contendo as telas e componentes interativos das tarefas prioritárias;
+* **Equipamento:** computador (desktop ou notebook) com mouse, teclado e tela de alta resolução para uso pelo participante;
+* **Software de Registro:** ferramenta de comunicação remota ou gravação local de tela e áudio (como Google Meet ou OBS Studio) para registro integral da sessão;
 * **Custos:** R$ 0,00 (uso de equipamentos próprios dos integrantes e ferramentas de acesso gratuito).
 
 ### 6.4 Tarefas a Serem Executadas no Teste
-Os participantes serão convidados a executar tarefas baseadas nos cenários e modelos de análise de tarefas elaborados nas etapas anteriores (<abbr title="Análise Hierárquica de Tarefas">HTA</abbr> e <abbr title="ConcurTaskTrees">CTT</abbr>):
+Os participantes serão convidados a executar tarefas baseadas nos cenários modelados nas etapas anteriores:
 
-* **Tarefa 1 — Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado ([<abbr title="Tarefa 01">TAR-01</abbr> — HTA](../../analise-de-requisitos/analise-de-tarefas/hta.md#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01) | [<abbr title="Tarefa 01">TAR-01</abbr> — CTT](../../analise-de-requisitos/analise-de-tarefas/ctt.md#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01)):** Parametrizar a busca avançada por estado, área de atuação e escolaridade, filtrar a listagem de editais e selecionar certames de interesse para comparação;
-* **Tarefa 2 — Montar e exportar caderno/relatório comparativo ([<abbr title="Tarefa 02">TAR-02</abbr> — HTA](../../analise-de-requisitos/analise-de-tarefas/hta.md#32-tarefa-02-montar-e-exportar-caderno-personalizado-de-provas-anteriores-com-gabarito-comentado-integrado-tar-02) | [<abbr title="Tarefa 02">TAR-02</abbr> — CTT](../../analise-de-requisitos/analise-de-tarefas/ctt.md#32-tarefa-02-montar-e-exportar-caderno-personalizado-de-provas-anteriores-com-gabarito-comentado-integrado-tar-02)):** Acessar a matriz comparativa lado a lado e realizar a exportação/download do relatório consolidado em <abbr title="Portable Document Format">PDF</abbr>;
-* **Tarefa 3 — Explorar mapa interativo e cronograma de certames ([<abbr title="Tarefa 03">TAR-03</abbr> — HTA](../../analise-de-requisitos/analise-de-tarefas/hta.md#41-tarefa-03-explorar-mapa-interativo-georreferenciado-de-oportunidades-com-calculo-de-mobilidade-df-e-ride-tar-03) | [<abbr title="Tarefa 04">TAR-04</abbr> — HTA](../../analise-de-requisitos/analise-de-tarefas/hta.md#42-tarefa-04-criar-cronograma-personalizado-de-estudo-com-distribuicao-de-blocos-de-revisao-e-sincronizacao-de-lembretes-tar-04)):** Consultar informações detalhadas de vagas, remunerações e ativar alertas de acompanhamento do certame.
+* **Tarefa 1 (`TAR-01`):** Parametrizar a busca avançada por estado, área de atuação e escolaridade, filtrar a listagem de editais e selecionar certames de interesse para comparação;
+* **Tarefa 2 (`TAR-02`):** Acessar a matriz comparativa lado a lado e realizar a exportação/download do relatório consolidado em PDF;
+* **Tarefa 3 (`TAR-03` / `TAR-04`):** Consultar informações detalhadas de vagas e remunerações e ativar alertas de acompanhamento do certame.
 
 ### 6.5 Roteiro Estruturado de Condução da Avaliação do Protótipo de Alta Fidelidade
 
@@ -157,10 +158,10 @@ A Tabela 3 apresenta o planejamento logístico das sessões de teste de usabilid
 
 | Sessão | Participante | Perfil do Usuário | Moderador | Observador | Data Prevista | Local / Formato |
 | :---: | :---: | :---: | :--- | :--- | :---: | :--- |
-| **Piloto** | Participante Piloto | Perfil 1 – Concurseiro | Daniel Batista | Pedro Rocha | 11/11/2026 | Presencial |
-| **S01** | Participante 1 | Perfil 1 – Concurseiro | Daniel Batista | Arthur Carvalho | 12/11/2026 | Presencial |
-| **S02** | Participante 2 | Perfil 1 – Concurseiro | Pedro Rocha | Leonardo Lopes | 12/11/2026 | Presencial |
-| **S03** | Participante 3 | Perfil 1 – Concurseiro | Arthur Carvalho | Daniel Batista | 12/11/2026 | Presencial |
+| **Piloto** | Participante Piloto | Perfil 1 – Concurseiro | Daniel Batista | Pedro Rocha | 04/11/2026 | Remoto / Google Meet |
+| **S01** | Participante 1 | Perfil 1 – Concurseiro | Daniel Batista | Arthur Carvalho | 06/11/2026 | Remoto / Google Meet |
+| **S02** | Participante 2 | Perfil 1 – Concurseiro | Pedro Rocha | Leonardo Lopes | 07/11/2026 | Remoto / Google Meet |
+| **S03** | Participante 3 | Perfil 1 – Concurseiro | Arthur Carvalho | Daniel Batista | 08/11/2026 | Remoto / Google Meet |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
 
@@ -172,7 +173,7 @@ A Tabela 3 apresenta o planejamento logístico das sessões de teste de usabilid
 
 A avaliação respeita integralmente as diretrizes éticas para pesquisas com seres humanos preconizadas pela Resolução CNS nº 466/2012 e pelo Capítulo 7 de Barbosa e Silva (2021, p. 140-153):
 
-* **Termo de Consentimento Livre e Esclarecido (<abbr title="Termo de Consentimento Livre e Esclarecido">TCLE</abbr>):** todo participante é informado previamente sobre os objetivos da pesquisa acadêmica, a gravação de áudio e tela e a confidencialidade dos dados, manifestando sua concordância formal antes do início da sessão;
+* **Termo de Consentimento Livre e Esclarecido (TCLE):** todo participante é informado previamente sobre os objetivos da pesquisa acadêmica, a gravação de áudio e tela e a confidencialidade dos dados, manifestando sua concordância formal antes do início da sessão;
 * **Foco no Sistema e Não no Indivíduo:** é explicitado ao usuário que o objeto de avaliação é o protótipo digital e o design proposto, e jamais a sua capacidade ou inteligência pessoal;
 * **Direito de Interrupção:** o participante tem total liberdade para pausar ou encerrar a participação a qualquer momento, sem qualquer constrangimento ou penalidade;
 * **Preservação do Anonimato:** nenhum dado pessoal identificador (como CPF, telefone ou sobrenome completo) será publicado nos relatórios finais, sendo utilizado identificador codificado (ex.: Participante 1, 2, 3).
@@ -225,7 +226,6 @@ Antes da aplicação do teste com os participantes oficiais, a equipe executará
 | Versão | Data | Descrição | Autor(es) |
 | :---: | :---: | :--- | :---: |
 | `1.0` | 02/11/2026 | Elaboração inicial do Planejamento da Avaliação do Protótipo de Alta Fidelidade (Nível 3) estruturado no framework DECIDE conforme Barbosa e Silva (2021), padronizado com o artefato de Nível 2. | Daniel da Silva Batista |
-| `1.1` | 13/11/2026 | Adequações pós-feedback da Etapa 6: alinhamento dos objetivos do DECIDE a Barbosa e Silva (2021), correção da modalidade de avaliação para **Presencial** e inclusão de títulos por extenso com `<abbr>` e links para HTA/CTT. | Daniel da Silva Batista |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
