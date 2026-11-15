@@ -1,4 +1,4 @@
-﻿<div align="center" markdown="1">
+<div align="center" markdown="1">
 
 <p align="center"><b>Tabela de Contribuição</b></p>
 
@@ -342,10 +342,14 @@ Na Tabela 14, tem-se o registro real de execução das atividades da sétima ent
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
 | Confecção e modelagem do Protótipo de Alta Fidelidade no Lovable (`TAR-01` e `TAR-02`) | Início: 10/11<br>Fim: 10/11 | Daniel da Silva Batista | Início: 10/11<br>Fim: 11/11 | Pedro Rocha Ferreira Lima |
+| Confecção e modelagem do Protótipo de Alta Fidelidade no Lovable (`TAR-08` — Calendário Pessoal) | Início: 13/11<br>Fim: 14/11 | Leonardo da Silva Lopes Júnior | Início: 14/11<br>Fim: 15/11 | Daniel da Silva Batista |
 | Adequação dos planejamentos pós-feedback da Etapa 6 (DECIDE, modalidade presencial e links HTA/CTT) | Início: 12/11<br>Fim: 13/11 | Daniel da Silva Batista | Início: 13/11<br>Fim: 13/11 | Arthur Sismene Carvalho |
 | Condução e gravação do Teste-Piloto do Protótipo de Alta Fidelidade | Início: 10/11<br>Fim: 10/11 | Daniel da Silva Batista | Início: 14/11<br>Fim: 14/11 | Leonardo da Silva Lopes Júnior |
+| Condução e gravação do Teste-Piloto do Protótipo de Alta Fidelidade (`TAR-08`) | Início: 14/11<br>Fim: 14/11 | Leonardo da Silva Lopes Júnior | Início: 15/11<br>Fim: 15/11 | Daniel da Silva Batista |
 | Condução presencial e gravação das 3 Sessões Empíricas com usuários reais (Think-Aloud e entrevista pós-teste) | Início: 12/11<br>Fim: 12/11 | Daniel da Silva Batista | Início: 13/11<br>Fim: 13/11 | Leonardo da Silva Lopes Júnior |
+| Condução presencial e gravação das 2 Sessões Empíricas com usuários reais (câmera dupla e gravação síncrona de tela — TAR-08) | Início: 14/11<br>Fim: 15/11 | Leonardo da Silva Lopes Júnior | Início: 15/11<br>Fim: 15/11 | Arthur Sismene Carvalho |
 | Análise dos vídeos, captura das telas e elaboração do Relato Individual dos Resultados do Protótipo de Alta Fidelidade (Nível 3) | Início: 13/11<br>Fim: 13/11 | Daniel da Silva Batista | Início: 14/11<br>Fim: 14/11 | Pedro Rocha Ferreira Lima |
+| Análise dos vídeos, captura das 5 telas e elaboração do Relato Individual dos Resultados de Alta Fidelidade (`TAR-08`) | Início: 15/11<br>Fim: 15/11 | Leonardo da Silva Lopes Júnior | Início: 15/11<br>Fim: 15/11 | Daniel da Silva Batista |
 | Gravação da Apresentação da Etapa 7 | *Em andamento* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A realizar* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

@@ -57,7 +57,8 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
     * [Planejamento da Avaliação do Protótipo de Alta Fidelidade](design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-alta-fidelidade.md)
     * [Planejamento do Relato dos Resultados do Protótipo de Alta Fidelidade](design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-alta-fidelidade.md)
     * [Relato dos Resultados do Protótipo de Alta Fidelidade — Daniel da Silva Batista](design-avaliacao-desenvolvimento/etapa-5/daniel-batista-alta-fidelidade.md)
-    * [Protótipo interativo no Lovable](https://sketch-to-test-studio.lovable.app)
+    * [Relato dos Resultados do Protótipo de Alta Fidelidade — Leonardo da Silva Lopes Júnior](design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes-alta-fidelidade.md)
+    * [Protótipo interativo no Lovable (Daniel Batista)](https://sketch-to-test-studio.lovable.app)
 
 ---
 
@@ -76,6 +77,7 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 * [Apresentação da Etapa 3](apresentacao/apresentacao-3.md)
 * [Apresentação da Etapa 4](apresentacao/apresentacao-4.md)
 * [Apresentação da Etapa 7 — Daniel da Silva Batista](apresentacao/apresentacao-7/daniel-batista.md)
+* [Apresentação da Etapa 7 — Leonardo da Silva Lopes Júnior](apresentacao/apresentacao-7/leonardo-lopes.md)
 
 ---
 
