@@ -30,7 +30,7 @@ Dentre as tarefas analisadas pelo integrante (`TAR-03` e `TAR-04`), a **TAR-04**
 | **Cenário de Uso** | [CEN-06 — (../../analise-de-requisitos/cenarios.md) |
 | **Tarefas Analisadas pelo Integrante** | [TAR-03  e [TAR-04  |
 | **Tarefa Escolhida para o Protótipo** | [TAR-04 — Montar cronograma semanal de estudo vinculando editais a dias e horários](../../analise-de-requisitos/analise-de-tarefas/hta.md) |
-| **Storyboard de Origem** | [SB-02](../storyboard/) |
+| **Storyboard de Origem** | [SB-02](pedro-rocha.md#2-storyboard-individual-sb-02) |
 | **Tipo de Artefato** | Protótipo de baixa fidelidade desenhado em papel com peças móveis e sobreposições mecânicas (*Paper Prototyping*) |
 | **Técnica de Avaliação** | Simulação mecânica com o "Computador Humano" (*Wizard of Oz*) e Protocolo de Pensar em Voz Alta (*Think-Aloud*) |
 | **Escopo da Inspeção** | Autoinspeção analítica com lista de verificação ergonômica de Nielsen (1993) e Snyder (2003) |
