@@ -17,6 +17,8 @@
 
 Este artefato reúne todo o ciclo de **avaliação formativa de Nível 2 (Protótipo de Papel)** conduzido individualmente por **Daniel da Silva Batista** no âmbito do projeto **PCI Concursos**, em conformidade com o framework DECIDE (*Barbosa et al.*, 2021), a técnica do Computador Humano (*Snyder*, 2003) e as diretrizes do plano de ensino da disciplina de Interação Humano-Computador (*Sales*, 2026).
 
+A Tabela 1 apresenta o resumo do escopo individual de Daniel da Silva Batista (Nível 2):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Daniel da Silva Batista (Nível 2)</b></p>
@@ -49,7 +51,11 @@ As peças foram projetadas para permitir ao participante interagir apontando com
 
 A primeira folha apresenta o cabeçalho do portal PCI Concursos com o campo de busca genérica e a área expandida de **Filtros da Busca Avançada**, contendo seletores de Região/UF (`Distrito Federal (DF)`), Área/Carreira (`Administrativa`), Escolaridade (`Nível Superior`), Situação do Concurso (`[X] Inscrições Abertas`) e o botão de ação primária `[ FILTRAR CONCURSOS ]`.
 
+A Figura 1 apresenta o protótipo de papel — Tela 1: formulário de busca avançada e seleção de filtros multicritério:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Protótipo de Papel — Tela 1: Formulário de Busca Avançada e Seleção de Filtros Multicritério</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP01()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -63,7 +69,6 @@ A primeira folha apresenta o cabeçalho do portal PCI Concursos com o campo de b
   </button>
 </div>
 
-<p align="center"><b>Figura 1:</b> Protótipo de Papel — Tela 1: Formulário de Busca Avançada e Seleção de Filtros Multicritério</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -90,7 +95,11 @@ A segunda folha simula o retorno da busca: `Resultados: DF • Nível Superior �
 
 Ao marcar as duas opções com o dedo, o "computador humano" sobrepõe dinamicamente a tira de papel: `[ 2 editais selecionados ] [ COMPARAR AGORA —> ]`.
 
+A Figura 2 apresenta o protótipo de papel — Tela 2: listagem de resultados filtrados com barra flutuante sobreposta:
+
 <div align="center">
+
+<p align="center"><b>Figura 2:</b> Protótipo de Papel — Tela 2: Listagem de Resultados Filtrados com Barra Flutuante Sobreposta</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP02()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -104,7 +113,6 @@ Ao marcar as duas opções com o dedo, o "computador humano" sobrepõe dinamicam
   </button>
 </div>
 
-<p align="center"><b>Figura 2:</b> Protótipo de Papel — Tela 2: Listagem de Resultados Filtrados com Barra Flutuante Sobreposta</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -129,7 +137,11 @@ A terceira folha exibe a tela de **Comparador de Editais Lado a Lado**, confront
 
 No rodapé, encontram-se os botões `[ SALVAR ]` e `[ EXPORTAR PDF ]`. Ao tocar em exportar, o simulador sobrepõe a caixa de confirmação: `✓ COMPARATIVO GERADO COM SUCESSO [ OK / FECHAR ]`.
 
+A Figura 3 apresenta o protótipo de papel — Tela 3: matriz comparativa lado a lado com modal de confirmação sobreposto:
+
 <div align="center">
+
+<p align="center"><b>Figura 3:</b> Protótipo de Papel — Tela 3: Matriz Comparativa Lado a Lado com Modal de Confirmação Sobreposto</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP03()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -143,7 +155,6 @@ No rodapé, encontram-se os botões `[ SALVAR ]` e `[ EXPORTAR PDF ]`. Ao tocar 
   </button>
 </div>
 
-<p align="center"><b>Figura 3:</b> Protótipo de Papel — Tela 3: Matriz Comparativa Lado a Lado com Modal de Confirmação Sobreposto</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -190,7 +201,7 @@ Antes da aplicação com os participantes, o autor realizou uma autoinspeção a
 | **4** | As peças móveis permitem ao simulador mecânico representar respostas e feedbacks rápidos? | **Sim** | O botão de comparação e o modal de confirmação de PDF foram recortados como peças independentes de troca rápida. |
 | **5** | Os termos e categorias refletem a linguagem habitual dos concurseiros (correspondência com o mundo real)? | **Sim** | Emprega termos canônicos: "Inscrições Abertas", "Nível Superior", "Vagas Imediatas" e "Matérias Comuns". |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base nas heurísticas de Nielsen (1993).</p>
 
 </div>
 
@@ -201,6 +212,8 @@ Antes da aplicação com os participantes, o autor realizou uma autoinspeção a
 Conforme Barbosa et al. (2021, p. 276 e 300), o teste-piloto foi realizado previamente pelo avaliador Daniel da Silva Batista com o propósito de verificar o tempo de condução da sessão, calibrar o sincronismo na troca mecânica das folhas de papel e testar a legibilidade dos textos gravados pela câmera.
 
 ### 4.1 Dados Logísticos do Teste-Piloto
+
+A Tabela 3 apresenta os dados logísticos do teste-piloto do protótipo de papel:
 
 <div align="center" markdown="1">
 
@@ -223,11 +236,15 @@ Conforme Barbosa et al. (2021, p. 276 e 300), o teste-piloto foi realizado previ
 
 A gravação do teste-piloto com o protótipo de papel está disponível na íntegra a seguir, hospedada no YouTube com privacidade configurada como **Não Listado**:
 
+O Vídeo 1 apresenta a gravação do teste-piloto — avaliação do protótipo de papel (TAR-01 e TAR-02):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/dmLr099zT0Y" title="Gravação do Teste-Piloto - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/dmLr099zT0Y" target="_blank">https://youtu.be/dmLr099zT0Y</a></p>
 
 </div>
@@ -240,6 +257,8 @@ A gravação do teste-piloto com o protótipo de papel está disponível na ínt
 
 ### 5.1 Protocolo Ético e Caracterização dos Participantes
 O recrutamento respeitou integralmente o [Perfil 1 — Candidato/Concurseiro](../../analise-de-requisitos/perfil-de-usuario.md). O Termo de Consentimento Livre e Esclarecido (TCLE) foi formalizado verbalmente no início de cada gravação, assegurando que o foco do teste é o protótipo em papel e jamais a capacidade individual do participante.
+
+A Tabela 4 apresenta o perfil dos participantes da avaliação empírica:
 
 <div align="center" markdown="1">
 
@@ -273,29 +292,41 @@ A Tabela 5 documenta a logística e os registros das sessões empíricas executa
 
 </div>
 
+O Vídeo 2 apresenta a gravação da Entrevista 1 — avaliação do protótipo de papel (TAR-01 e TAR-02):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 2:</b> Gravação da Entrevista 1 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/C8vyfMWISsY" title="Entrevista 01 - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 2:</b> Gravação da Entrevista 1 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/C8vyfMWISsY" target="_blank">https://youtu.be/C8vyfMWISsY</a></p>
 
 </div>
 
+O Vídeo 3 apresenta a gravação da Entrevista 2 — avaliação do protótipo de papel (TAR-01 e TAR-02):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 3:</b> Gravação da Entrevista 2 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/AErfSvTkVGA" title="Entrevista 02 - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 3:</b> Gravação da Entrevista 2 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/AErfSvTkVGA" target="_blank">https://youtu.be/AErfSvTkVGA</a></p>
 
 </div>
 
+O Vídeo 4 apresenta a gravação da Entrevista 3 — avaliação do protótipo de papel (TAR-01 e TAR-02):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 4:</b> Gravação da Entrevista 3 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/QzVX9Hed4OU" title="Entrevista 03 - Protótipo de Papel - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 4:</b> Gravação da Entrevista 3 — Avaliação do Protótipo de Papel (TAR-01 e TAR-02)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/QzVX9Hed4OU" target="_blank">https://youtu.be/QzVX9Hed4OU</a></p>
 
 </div>
@@ -307,6 +338,8 @@ Nas sessões individuais, o protocolo de *Think-Aloud* (pensar em voz alta) foi 
 #### 5.3.1 Sessão 1 — Participante 1 (52 anos, Pedagoga)
 
 Durante a primeira sessão com a **Participante 1**, a técnica do *Think-Aloud* (pensar em voz alta) foi aplicada conjuntamente à simulação mecânica do Computador Humano:
+
+A Tabela 6 apresenta o desempenho e eficácia da Participante 1 no protótipo de papel:
 
 <div align="center" markdown="1">
 
@@ -329,6 +362,8 @@ Durante a primeira sessão com a **Participante 1**, a técnica do *Think-Aloud*
 
 #### 5.3.2 Sessão 2 — Participante 2 (21 anos, Universitária)
 
+A Tabela 7 apresenta o desempenho e eficácia da Participante 2 no protótipo de papel:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 7: Desempenho e Eficácia da Participante 2 no Protótipo de Papel</b></p>
@@ -348,6 +383,8 @@ Durante a primeira sessão com a **Participante 1**, a técnica do *Think-Aloud*
 - **Sugestões de Reprojeto:** Afirmou que não alteraria nem retiraria elementos das peças desenhadas, considerando a solução completa e direta para a necessidade do concurseiro.
 
 #### 5.3.3 Sessão 3 — Participante 3 (Jovem adulto, Estudante)
+
+A Tabela 8 apresenta o desempenho e eficácia do Participante 3 no protótipo de papel:
 
 <div align="center" markdown="1">
 

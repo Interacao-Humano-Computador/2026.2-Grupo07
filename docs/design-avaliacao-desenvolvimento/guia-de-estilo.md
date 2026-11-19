@@ -197,6 +197,8 @@ Adotam-se famílias tipográficas sem serifa modernas, de excelente legibilidade
 #### 3.5 Cores
 A paleta preserva a identidade visual consagrada do PCI Concursos (azul clássico), corrigindo os graves problemas de contraste anteriores. Todas as cores foram auditadas conforme o critério 1.4.3 da WCAG 2.1:
 
+A Tabela 3 apresenta a paleta cromática padronizada e auditoria de contraste:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 3: Paleta Cromática Padronizada e Auditoria de Contraste</b></p>
@@ -284,7 +286,11 @@ Os botões seguem hierarquia visual estrita de quatro níveis (Tabela 4):
 #### 5.4 O Padrão Antitrapaça de Download Oficial (Diretriz Crítica de Segurança)
 Para extirpar a vulnerabilidade diagnosticada em USR-01, TAR-02 e CEN-02, na qual participantes quase caíram em anúncios publicitários disfarçados de botões verdes *"DOWNLOAD"*, institui-se o **Padrão Antitrapaça de Download**:
 
+A Figura 3 apresenta o esquema do padrão antitrapaça de download seguro:
+
 <div align="center" markdown="1">
+
+<p align="center"><b>Figura 3:</b> Esquema do Padrão Antitrapaça de Download Seguro</p>
 
 ```
 +-----------------------------------------------------------------------------------+
@@ -306,8 +312,6 @@ Para extirpar a vulnerabilidade diagnosticada em USR-01, TAR-02 e CEN-02, na qua
 |    posicionado a menos de 48px de distância vertical ou horizontal desta caixa.   |
 +-----------------------------------------------------------------------------------+
 ```
-
-<p align="center"><b>Figura 3:</b> Esquema do Padrão Antitrapaça de Download Seguro</p>
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
@@ -376,6 +380,8 @@ A Tabela 5 estabelece a padronização entre termos ambíguos do sistema antigo 
 ## 3. Correspondência com o Site Avaliado
 
 O Guia de Estilo estabelece correspondência direta entre as decisões projetuais e os gargalos empíricos diagnosticados no portal **PCI Concursos**:
+
+A Tabela 6 apresenta a correspondência entre o guia de estilo e os diagnósticos do PCI Concursos:
 
 <div align="center" markdown="1">
 

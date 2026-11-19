@@ -108,7 +108,7 @@ A avaliação é conduzida em **duas etapas encadeadas**, porque as perguntas da
 | **1ª — Inspeção** | Inspeção por lista de verificação, usando a *Lista de Verificação para Storyboard* (20 itens) elaborada na disciplina a partir de Preece, Rogers e Sharp (2005) | PA-01 | Os quatro integrantes do grupo, em inspeção cruzada | Rápida, de baixo custo e dispensa usuários. Corrige defeitos de forma antes de ocupar o tempo dos participantes |
 | **2ª — Investigação** | Entrevista semiestruturada com observação, guiada por roteiro, com o storyboard apresentado ao participante | PA-02 a PA-05 | Quatro usuários externos (USR-10 a USR-13) | Permite perguntas de aprofundamento e capta caminhos que a equipe não previu |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026), adaptado de Barbosa et al. (2021, p. 297).</p>
 
 </div>
 
@@ -173,7 +173,7 @@ São **quatro participantes**, um por storyboard, recrutados pelos integrantes d
 | Dispositivo de acesso habitual | Ao menos dois dos quatro participantes devem ser usuários predominantemente de smartphone, refletindo os 62% registrados no perfil de usuário |
 | Vínculo com o avaliador | Evitar parentes, amigos próximos e colegas de turma do avaliador |
 
-<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base em Nielsen (2000 apud Barbosa et al., 2021, p. 298).</p>
 
 </div>
 

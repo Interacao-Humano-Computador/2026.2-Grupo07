@@ -76,6 +76,8 @@ No CTT, as tarefas são decompostas hierarquicamente em uma árvore e categoriza
 
 A equipe consolidou a matriz com as oito tarefas oficiais avaliadas no portal, mapeando a distribuição individual entre os quatro integrantes ativos:
 
+A Tabela 2 apresenta a matriz oficial de tarefas mapeadas para CTT:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 2: Matriz Oficial de Tarefas Mapeadas para CTT</b></p>
@@ -571,6 +573,8 @@ flowchart TD
     Sub5 --> Sub5_Op2
     Sub5 --> Sub5_3
 ```
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 <div align="center" markdown="1">
 

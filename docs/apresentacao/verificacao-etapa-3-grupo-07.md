@@ -101,7 +101,7 @@ A Tabela 2 apresenta a autoavaliação dos 10 itens gerais de desenvolvimento do
 | 9 | O GitHub Pages do projeto possui vídeo de apresentação publicado na categoria "não listado" no YouTube? | **Sim** | As apresentações de etapas são devidamente incorporadas e documentadas com metadados e links diretos no YouTube. |
 | 10 | O GitHub Pages do projeto possui tabela de contribuição no início do artefato, com o nome de todos os integrantes? | **Sim** | Todos os artefatos da Etapa 3 iniciam com a Tabela de Contribuição no topo da página, indicando o papel e a atividade realizada por cada membro da equipe. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Sales (2026).</p>
 
 </div>
 
@@ -125,7 +125,7 @@ A Tabela 3 detalha a avaliação dos 8 itens de conteúdo da disciplina (itens 1
 | 16 | O Guia de Estilo do projeto possui a seguinte estrutura canônica: 1. Introdução; 2. Resultados de análise; 3. Elementos de interface; 4. Elementos de interação; 5. Elementos de ação; 6. Vocabulário e padrões? Adicionar referência bibliográfica da fonte e foto do texto da referência. | **Sim** | O artefato segue rigorosamente as 6 seções normativas de Marcus (1992) e Mayhew (1999), com fundamentação e imagem da página 283 de Barbosa e Silva (2010) apresentadas na Figura 2. | Leonardo da Silva Lopes Júnior |
 | 17 | O Guia de Estilo corresponde ao site avaliado? | **Sim** | Totalmente adaptado para a realidade do PCI Concursos, contemplando a tabela de concursos por UF, chips reativos, simulados móveis, player de videoaulas e zona de segurança antitrapaça contra banners de falso download. | Arthur Sismene Carvalho |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Sales (2026).</p>
 
 </div>
 
@@ -136,6 +136,8 @@ A Tabela 3 detalha a avaliação dos 8 itens de conteúdo da disciplina (itens 1
 Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com base no livro de referência da disciplina (*Interação Humano-Computador e Experiência do Usuário*, BARBOSA et al., 2021). Os itens auditam aspectos avançados de qualidade de software, acessibilidade, blindagem ética contra dark patterns, padrões de design e rastreabilidade projetual no contexto do portal PCI Concursos. Para cada item elaborado, é apresentada a captura fotográfica do trecho exato da literatura de referência que o fundamenta.
 
 ### 7.1 Item 18 — Acessibilidade em Sistemas Interativos
+
+A Tabela 4 apresenta o Item 18 — acessibilidade em sistemas interativos:
 
 <div align="center" markdown="1">
 
@@ -154,6 +156,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 
 </div>
 
+A Figura 1 reproduz a referência bibliográfica — acessibilidade em sistemas interativos:
+
 <div align="center">
 
 <p align="center"><b>Figura 1: Referência Bibliográfica — Acessibilidade em Sistemas Interativos</b></p>
@@ -167,6 +171,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 ---
 
 ### 7.2 Item 19 — Prevenção contra Padrões Obscuros (*Dark Patterns*)
+
+A Tabela 5 apresenta o Item 19 — prevenção contra padrões obscuros (*dark patterns*):
 
 <div align="center" markdown="1">
 
@@ -216,6 +222,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 
 </div>
 
+A Figura 3 reproduz a referência bibliográfica — padrões de design de IHC:
+
 <div align="center">
 
 <p align="center"><b>Figura 3: Referência Bibliográfica — Padrões de Design de IHC</b></p>
@@ -229,6 +237,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 ---
 
 ### 7.4 Item 21 — Rastreamento das Decisões de Design (*Design Rationale*) no Guia de Estilo
+
+A Tabela 7 apresenta o Item 21 — rastreamento de decisões de design (*design rationale*):
 
 <div align="center" markdown="1">
 
@@ -246,6 +256,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
+
+A Figura 4 reproduz a referência bibliográfica — rastreamento e design rationale no guia de estilo:
 
 <div align="center">
 

@@ -20,7 +20,11 @@ Esta página reúne a gravação em vídeo da **Apresentação Individual da Eta
 
 O vídeo a seguir sintetiza a autoinspeção analítica com listas de verificação, a calibração por teste-piloto e as 2 entrevistas empíricas com usuários reais para a Tarefa `TAR-04` e o Storyboard `SB-02`. Caso não seja possível reproduzir o player incorporado, acesse pelo link direto: [Apresentação Individual no YouTube (07m 30s)](https://youtu.be/sFa95G5zAcU).
 
+O Vídeo 1 registra a apresentação individual da Etapa 5 — Pedro Rocha Ferreira Lima (duração: 07m 30s):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Apresentação Individual da Etapa 5 — Pedro Rocha Ferreira Lima (Duração: 07m 30s).</p>
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/sFa95G5zAcU"
@@ -30,7 +34,7 @@ O vídeo a seguir sintetiza a autoinspeção analítica com listas de verificaç
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Vídeo 1:</b> Apresentação Individual da Etapa 5 — Pedro Rocha Ferreira Lima (Duração: 07m 30s). <b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 

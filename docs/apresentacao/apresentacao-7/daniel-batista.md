@@ -19,7 +19,11 @@ Esta página reúne a gravação em vídeo da **Apresentação Individual da Eta
 
 O vídeo a seguir documenta o protótipo de alta fidelidade desenvolvido no Lovable, o teste-piloto, as três sessões de teste de usabilidade com usuários reais e os resultados obtidos. Caso não seja possível reproduzir o player incorporado, acesse pelo link direto: [Apresentação da Etapa 07 no YouTube](https://youtu.be/1xs0BcR0YjA).
 
+O Vídeo 1 registra a apresentação individual da Etapa 7 — Daniel da Silva Batista:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Apresentação Individual da Etapa 7 — Daniel da Silva Batista.</p>
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/1xs0BcR0YjA"
@@ -29,7 +33,7 @@ O vídeo a seguir documenta o protótipo de alta fidelidade desenvolvido no Lova
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Vídeo 1:</b> Apresentação Individual da Etapa 7 — Daniel da Silva Batista. <b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

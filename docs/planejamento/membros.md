@@ -18,6 +18,8 @@
 
 Conheça os integrantes que compõem o Grupo 07 no projeto de Interação Humano-Computador (IHC):
 
+A Tabela 1 apresenta os integrantes da equipe Grupo 07:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Integrantes da Equipe Grupo 07</b></p>

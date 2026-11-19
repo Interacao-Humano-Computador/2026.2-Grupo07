@@ -19,7 +19,11 @@ Esta página reúne a gravação em vídeo da **Apresentação Individual da Eta
 
 O vídeo a seguir documenta o protótipo digital de alta fidelidade desenvolvido no Lovable, a demonstração da Linha do Tempo sincronizada com o Google Agenda, a Grade Mensal de certames, os alertas preventivos de boleto de 48h e choque de turnos de prova, o teste-piloto e as duas sessões presenciais de avaliação com usuários reais. Caso não seja possível reproduzir o player incorporado, acesse pelo link direto: [Apresentação da Etapa 07 no YouTube](https://youtu.be/GNRLqYgxEHQ).
 
+O Vídeo 1 registra a apresentação individual da Etapa 7 — Leonardo da Silva Lopes Júnior:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Apresentação Individual da Etapa 7 — Leonardo da Silva Lopes Júnior.</p>
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/GNRLqYgxEHQ"
@@ -29,7 +33,7 @@ O vídeo a seguir documenta o protótipo digital de alta fidelidade desenvolvido
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Vídeo 1:</b> Apresentação Individual da Etapa 7 — Leonardo da Silva Lopes Júnior. <b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 

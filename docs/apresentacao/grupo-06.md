@@ -92,7 +92,7 @@ A Tabela 2 apresenta a avaliação dos 11 itens de desenvolvimento do projeto ex
 | 10 | O GitHub Pages do projeto possui tabela de contribuição no início do artefato, com o nome de todos os integrantes? | **Sim** | Os cinco artefatos do grupo abrem com a Tabela 1 – Contribuição, identificando integrantes e respectivas atividades. |
 | 11 | O GitHub Pages do projeto possui a seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa no artefato? | **Não** | Não foi localizada seção de agradecimentos nem qualquer menção ao uso de IA generativa nos artefatos da Entrega 2 ou na página de apresentações. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), adaptado de Sales (2026).</p>
 
 </div>
 
@@ -119,7 +119,7 @@ A Tabela 3 apresenta os 12 itens de conteúdo da disciplina verificados na Entre
 | 11 | O projeto apresenta uma atividade para cada integrante modelada em ao menos duas técnicas (HTA com diagrama, legenda e tabela; GOMS/KLM/CMN-GOMS/CPM-GOMS/CTT)? Incluindo referência bibliográfica e foto do texto da referência. | **Sim** | A Tabela 2 do artefato de análise de tarefas registra uma atividade para cada um dos cinco integrantes, cada qual modelada em HTA e CTT. Os diagramas estão nas páginas das entregas individuais, que ficaram fora do escopo desta inspeção. | Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima |
 | 12 | O grupo utilizou alguma técnica para especificar as tarefas? | **Sim** | Foram utilizadas a Análise Hierárquica de Tarefas (HTA) e as Árvores de Tarefas Concorrentes (CTT). | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), adaptado de Sales (2026).</p>
 
 </div>
 
@@ -156,6 +156,8 @@ Esta seção reúne os itens adicionais de verificação definidos pelo Grupo 07
 
 ### 7.2 Item 14 — Conteúdo informado pelo TCLE
 
+A Tabela 5 apresenta o Item 14 — conteúdo informado pelo TCLE:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 5: Item 14</b></p>
@@ -178,6 +180,8 @@ Esta seção reúne os itens adicionais de verificação definidos pelo Grupo 07
 > A participação na pesquisa deve ocorrer apenas com o **consentimento livre e esclarecido** dos participantes. Todo participante de qualquer estudo tem o direito de saber o objetivo do estudo, a duração estimada, os procedimentos de coleta de dados, o uso que será feito da informação coletada, os seus direitos enquanto participante do estudo e quaisquer riscos, desconfortos ou efeitos adversos relacionados à sua participação no estudo. Essas informações devem ser comunicadas ao participante durante o processo de [...] (BARBOSA et al., 2021, p. 151)
 
 ### 7.3 Item 15 — Sete elementos característicos dos cenários
+
+A Tabela 6 apresenta o Item 15 — sete elementos característicos dos cenários:
 
 <div align="center" markdown="1">
 

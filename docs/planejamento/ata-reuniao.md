@@ -17,6 +17,8 @@
 
 ## 1. Identificação
 
+A Tabela 1 apresenta os horários previsto e realizado da 1ª reunião:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Horários Previsto e Realizado da 1ª Reunião</b></p>
@@ -37,6 +39,8 @@
 
 ### Convocados e Presentes
 
+A Tabela 2 apresenta os convocados e presentes na reunião:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 2: Convocados e Presentes na Reunião</b></p>
@@ -55,6 +59,8 @@
 
 ## 2. Pauta
 
+A Tabela 3 apresenta a pauta da 1ª reunião de planejamento:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 3: Pauta da 1ª Reunião de Planejamento</b></p>
@@ -71,6 +77,8 @@
 
 ## 3. Pendências Anteriores
 
+A Tabela 4 apresenta as pendências de reuniões anteriores:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 4: Pendências de Reuniões Anteriores</b></p>
@@ -84,6 +92,8 @@
 </div>
 
 ## 4. Assuntos Tratados
+
+A Tabela 5 apresenta os assuntos tratados e deliberações:
 
 <div align="center" markdown="1">
 
@@ -110,6 +120,8 @@
 Reunião síncrona agendada conforme a melhor janela identificada no Heatmap de Disponibilidade (quarta-feira, 20:00).
 
 ## 6. Compromissos
+
+A Tabela 6 apresenta os compromissos e prazos definidos:
 
 <div align="center" markdown="1">
 

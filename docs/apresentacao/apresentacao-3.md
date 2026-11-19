@@ -20,7 +20,11 @@ Esta página reúne o vídeo da **Apresentação 3** do projeto do **Grupo 07**,
 
 O vídeo a seguir documenta a apresentação dos artefatos desenvolvidos pela equipe para a Etapa 3 do projeto. Caso não seja possível reproduzir o player incorporado diretamente pela página, acesse pelo link direto: [Apresentação da Etapa 3 no YouTube](https://youtu.be/h2q-Xv41NfE).
 
+O Vídeo 1 registra a apresentação da Etapa 3 — Grupo 07:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Apresentação da Etapa 3 — Grupo 07.</p>
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/h2q-Xv41NfE"
@@ -30,7 +34,7 @@ O vídeo a seguir documenta a apresentação dos artefatos desenvolvidos pela eq
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Vídeo 1:</b> Apresentação da Etapa 3 — Grupo 07. <b>Fonte:</b> Grupo 07 (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 

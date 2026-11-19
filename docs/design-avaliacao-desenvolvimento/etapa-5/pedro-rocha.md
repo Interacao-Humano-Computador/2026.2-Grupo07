@@ -17,6 +17,8 @@
 
 Este artefato reúne todo o ciclo de **avaliação formativa de Nível 1 (Análise de Tarefas e Storyboard)** conduzido individualmente por **Pedro Rocha Ferreira Lima** na Etapa 5 do projeto **PCI Concursos**, em conformidade com o framework DECIDE (*Barbosa et al.*, 2021) e o Plano de Ensino da disciplina (*Sales*, 2026).
 
+A Tabela 1 apresenta o resumo do escopo individual de Pedro Rocha Ferreira Lima:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Pedro Rocha Ferreira Lima</b></p>
@@ -43,7 +45,11 @@ O Storyboard `SB-02` ilustra a jornada do usuário (Perfil 1 — Candidato/Concu
 
 ### 2.1 Ilustração do Storyboard SB-02
 
+A Figura 1 apresenta o storyboard SB-02 — criação de cronograma personalizado de estudo:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Storyboard SB-02 — Criação de Cronograma Personalizado de Estudo</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openFullscreenModalSB02()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -57,7 +63,6 @@ O Storyboard `SB-02` ilustra a jornada do usuário (Perfil 1 — Candidato/Concu
   </button>
 </div>
 
-<p align="center"><b>Figura 1:</b> Storyboard SB-02 — Criação de Cronograma Personalizado de Estudo</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Pedro Rocha Ferreira Lima à mão livre (2026), fundamentado no Cenário 04 e Tarefa 04.</p>
 
 </div>
@@ -123,6 +128,8 @@ Conforme o planejamento das listas de verificação da Etapa 4 e a deliberação
 
 ### 3.1 Identificação da Sessão de Inspeção e Registro Audiovisual
 
+A Tabela 3 apresenta os dados da sessão de inspeção analítica individual:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 3: Dados da Sessão de Inspeção Analítica Individual</b></p>
@@ -144,11 +151,15 @@ Conforme o planejamento das listas de verificação da Etapa 4 e a deliberação
 
 #### Vídeo 1: Gravação da Autoinspeção Analítica Individual
 
+O Vídeo 1 apresenta a sessão de autoinspeção conduzida por Pedro Rocha avaliando a TAR-04 (HTA/CTT) e o storyboard SB-02 (duração: 07m 59s):
+
 <div align="center" markdown="1">
+
+<p align="center"><b>Vídeo 1:</b> Sessão de autoinspeção conduzida por Pedro Rocha avaliando a TAR-04 (HTA/CTT) e o Storyboard SB-02 (Duração: 07m 59s).</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/lf84h24vzXA" title="Gravação da Autoinspeção Analítica de Nível 1 - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 1:</b> Sessão de autoinspeção conduzida por Pedro Rocha avaliando a TAR-04 (HTA/CTT) e o Storyboard SB-02 (Duração: 07m 59s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -239,6 +250,8 @@ O modelo inspecionado é o [Storyboard SB-02](#2-storyboard-individual-sb-02), e
 
 ### 3.5 Síntese de Oportunidades de Reprojeto para a TAR-04 e SB-02
 
+A Tabela 7 apresenta a síntese de oportunidades de reprojeto identificadas na autoinspeção:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 7: Síntese de Oportunidades de Reprojeto Identificadas na Autoinspeção</b></p>
@@ -262,6 +275,8 @@ Conforme as diretrizes de Barbosa et al. (2021, p. 276 e 300), o teste-piloto fo
 
 ### 4.1 Dados Técnicos da Sessão do Teste-Piloto
 
+A Tabela 8 apresenta os dados técnicos da execução do teste-piloto:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 8: Dados Técnicos da Execução do Teste-Piloto</b></p>
@@ -283,15 +298,21 @@ Conforme as diretrizes de Barbosa et al. (2021, p. 276 e 300), o teste-piloto fo
 
 #### Vídeo 2: Gravação do Teste-Piloto Individual
 
+O Vídeo 2 apresenta a gravação do teste-piloto individual conduzido por Pedro Rocha (duração: 04m 40s):
+
 <div align="center" markdown="1">
+
+<p align="center"><b>Vídeo 2:</b> Gravação do Teste-Piloto individual conduzido por Pedro Rocha (Duração: 04m 40s).</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/WNQq50xTYgs" title="Gravação do Teste-Piloto Individual - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 2:</b> Gravação do Teste-Piloto individual conduzido por Pedro Rocha (Duração: 04m 40s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
 ### 4.3 Ficha de Avaliação e Calibração Técnica Pós-Piloto
+
+A Tabela 9 apresenta a ficha de avaliação e calibração técnica pós-piloto:
 
 <div align="center" markdown="1">
 
@@ -323,6 +344,8 @@ Sessões de validação empírica da tarefa prioritária **TAR-04** e do Storybo
 ### 5.1 Protocolo Ético e Caracterização dos Participantes
 
 Em estrita consonância com o [Perfil de Usuário](../../analise-de-requisitos/perfil-de-usuario.md) e a Resolução CNS nº 466/2012, o Termo de Consentimento Livre e Esclarecido (TCLE) foi apresentado e formalizado verbalmente no início das gravações em áudio e vídeo, garantindo voluntariedade, confidencialidade e uso restrito para fins acadêmicos.
+
+A Tabela 10 apresenta o perfil dos participantes recrutados:
 
 <div align="center" markdown="1">
 
@@ -356,21 +379,29 @@ A Tabela 11 documenta a logística e os registros das sessões empíricas execut
 
 #### Vídeo 3: Gravação da Entrevista 1 com Usuário (Participante 1)
 
+O Vídeo 3 apresenta a sessão de Entrevista 1 conduzida por Pedro Rocha avaliando o storyboard SB-02 e os diagramas HTA/CTT com o Participante 1 (duração: 03m 43s):
+
 <div align="center" markdown="1">
+
+<p align="center"><b>Vídeo 3:</b> Sessão de Entrevista 1 conduzida por Pedro Rocha avaliando o Storyboard SB-02 e os diagramas HTA/CTT com o Participante 1 (Duração: 03m 43s).</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/rhxeuPWVXsM" title="Gravação da Entrevista 1 com Usuário (TAR-04 e SB-02) - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 3:</b> Sessão de Entrevista 1 conduzida por Pedro Rocha avaliando o Storyboard SB-02 e os diagramas HTA/CTT com o Participante 1 (Duração: 03m 43s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
 #### Vídeo 4: Gravação da Entrevista 2 com Usuário (Participante 2)
 
+O Vídeo 4 apresenta a sessão de Entrevista 2 conduzida por Pedro Rocha avaliando o storyboard SB-02 e os diagramas HTA/CTT com o Participante 2 (duração: 05m 57s):
+
 <div align="center" markdown="1">
+
+<p align="center"><b>Vídeo 4:</b> Sessão de Entrevista 2 conduzida por Pedro Rocha avaliando o Storyboard SB-02 e os diagramas HTA/CTT com o Participante 2 (Duração: 05m 57s).</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/HyBhqmLGRGc" title="Gravação da Entrevista 2 com Usuário (TAR-04 e SB-02) - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 4:</b> Sessão de Entrevista 2 conduzida por Pedro Rocha avaliando o Storyboard SB-02 e os diagramas HTA/CTT com o Participante 2 (Duração: 05m 57s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 

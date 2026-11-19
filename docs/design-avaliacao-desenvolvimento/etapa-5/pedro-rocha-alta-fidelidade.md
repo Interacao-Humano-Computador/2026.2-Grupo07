@@ -17,6 +17,8 @@
 
 Este artefato documenta a **avaliação formativa de Nível 3 (Protótipo de Alta Fidelidade)** conduzida individualmente por **Pedro Rocha Ferreira Lima** no projeto **PCI Concursos**. O trabalho segue o framework **DECIDE** (*Barbosa et al.*, 2021), as **10 Heurísticas de Usabilidade de Nielsen (1993)** e o plano de ensino da disciplina de Interação Humano-Computador (*Sales*, 2026). O protótipo digital dá continuidade ao [Protótipo de Papel (Nível 2)](./pedro-rocha-prototipo-papel.md) e ao Storyboard `SB-02`, e as sessões com usuários seguiram a lógica de testes pequenos e rápidos defendida por *Krug* (2010), com três participantes.
 
+A Tabela 1 apresenta o resumo do escopo individual de Pedro Rocha Ferreira Lima (Nível 3):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Pedro Rocha Ferreira Lima (Nível 3)</b></p>
@@ -54,7 +56,11 @@ A tarefa da versão digital segue o mesmo fluxo do papel: o candidato escolhe o 
 
 A primeira tela mostra o portal com o título **Cronograma de Estudo**, o painel lateral com os seletores **Edital**, **Dia** e **Horário** (todos com o texto-guia `Selecione...`), o botão `Aplicar` ainda desabilitado e o botão `Limpar`. Acima da grade, à direita, fica o botão `Limpar cronograma`. A grade exibe as colunas `SEG` a `DOM` e as linhas horárias, ainda totalmente vazias.
 
+A Figura 1 apresenta o protótipo de alta fidelidade — Tela 1: cronograma de estudo em estado inicial:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Protótipo de Alta Fidelidade — Tela 1: Cronograma de Estudo em Estado Inicial</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF01()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -68,7 +74,6 @@ A primeira tela mostra o portal com o título **Cronograma de Estudo**, o painel
   </button>
 </div>
 
-<p align="center"><b>Figura 1:</b> Protótipo de Alta Fidelidade — Tela 1: Cronograma de Estudo em Estado Inicial</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Pedro Rocha Ferreira Lima no Lovable (2026).</p>
 
 </div>
@@ -91,7 +96,11 @@ A primeira tela mostra o portal com o título **Cronograma de Estudo**, o painel
 
 Ao abrir o seletor **Edital**, o protótipo exibe a lista suspensa com as sete opções disponíveis, precedidas pelo texto-guia `Selecione o edital...`. Na captura, o cursor está sobre `Petrobras`, que aparece realçado. Os seletores de dia e horário seguem a mesma lógica de lista suspensa, com opções como `Segunda-feira` e `11:00`.
 
+A Figura 2 apresenta o protótipo de alta fidelidade — Tela 2: lista suspensa de editais:
+
 <div align="center">
+
+<p align="center"><b>Figura 2:</b> Protótipo de Alta Fidelidade — Tela 2: Lista Suspensa de Editais</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF02()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -105,7 +114,6 @@ Ao abrir o seletor **Edital**, o protótipo exibe a lista suspensa com as sete o
   </button>
 </div>
 
-<p align="center"><b>Figura 2:</b> Protótipo de Alta Fidelidade — Tela 2: Lista Suspensa de Editais</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Pedro Rocha Ferreira Lima no Lovable (2026).</p>
 
 </div>
@@ -128,7 +136,11 @@ Ao abrir o seletor **Edital**, o protótipo exibe a lista suspensa com as sete o
 
 Com os três campos preenchidos (na captura, `Polícia Civil`, `Segunda-feira` e `11:00`), o botão `Aplicar` passa a ter fundo azul sólido. Cada clique em `Aplicar` insere uma etiqueta azul com o nome do concurso na célula correspondente da grade: aqui aparecem `Polícia Civil` na segunda às 11:00 e `Tribunal de Contas da União` na terça e na quinta às 06:00 e na sexta às 10:00. Nomes longos quebram em mais de uma linha e aumentam a altura da linha horária. As duas ações de reversão continuam à vista: `Limpar`, no painel lateral, e `Limpar cronograma`, acima da grade.
 
+A Figura 3 apresenta o protótipo de alta fidelidade — Tela 3: cronograma de estudo com blocos aplicados:
+
 <div align="center">
+
+<p align="center"><b>Figura 3:</b> Protótipo de Alta Fidelidade — Tela 3: Cronograma de Estudo com Blocos Aplicados</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF03()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -142,7 +154,6 @@ Com os três campos preenchidos (na captura, `Polícia Civil`, `Segunda-feira` e
   </button>
 </div>
 
-<p align="center"><b>Figura 3:</b> Protótipo de Alta Fidelidade — Tela 3: Cronograma de Estudo com Blocos Aplicados</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Pedro Rocha Ferreira Lima no Lovable (2026).</p>
 
 </div>
@@ -177,6 +188,8 @@ document.addEventListener('keydown', function(e) {
 
 Antes das sessões com usuários, o autor percorreu o protótipo com uma lista de verificação baseada nas **10 Heurísticas de Usabilidade de Nielsen (1993)**, nos problemas registrados no [Protótipo de Papel](./pedro-rocha-prototipo-papel.md) e nos padrões do [Guia de Estilo](../guia-de-estilo.md):
 
+A Tabela 2 apresenta a lista de verificação da autoinspeção analítica do protótipo de alta fidelidade:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 2: Lista de Verificação da Autoinspeção Analítica do Protótipo de Alta Fidelidade</b></p>
@@ -192,7 +205,7 @@ Antes das sessões com usuários, o autor percorreu o protótipo com uma lista d
 | **7** | **Estética e Design Minimalista:** o layout comporta o conteúdo aplicado sem ruído? | **Parcial** | O layout é limpo e escaneável, mas nomes longos como `Tribunal de Contas da União` ocupam até três linhas na célula e aumentam a altura da linha horária. |
 | **8** | **Eficiência de Uso:** montar vários blocos de estudo exige poucos passos? | **Parcial** | Cada clique em `Aplicar` insere um único bloco (um dia e um horário), então preencher uma semana inteira exige repetir as três seleções para cada bloco. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base nas heurísticas de Nielsen (1993).</p>
 
 </div>
 
@@ -203,6 +216,8 @@ Antes das sessões com usuários, o autor percorreu o protótipo com uma lista d
 Conforme **Barbosa e Silva (2021, p. 276 e 300)**, o teste-piloto antecede as sessões definitivas para calibrar o roteiro, medir o tempo de interação com o protótipo digital e conferir se a captação de áudio e de tela funciona.
 
 ### 4.1 Dados Logísticos do Teste-Piloto
+
+A Tabela 3 apresenta os dados logísticos do teste-piloto do protótipo de alta fidelidade:
 
 <div align="center" markdown="1">
 
@@ -223,11 +238,15 @@ Conforme **Barbosa e Silva (2021, p. 276 e 300)**, o teste-piloto antecede as se
 
 ### 4.2 Registro Audiovisual do Teste-Piloto
 
+O Vídeo 1 apresenta a gravação do teste-piloto — avaliação do protótipo de alta fidelidade:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/EhIQk0318TA" target="_blank">https://youtu.be/EhIQk0318TA</a>)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/EhIQk0318TA" title="Gravação do Teste-Piloto - Protótipo de Alta Fidelidade - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/EhIQk0318TA" target="_blank">https://youtu.be/EhIQk0318TA</a>)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -273,27 +292,39 @@ A Tabela 5 documenta as três sessões empíricas conduzidas **presencialmente**
 
 </div>
 
-<div align="center">
+O Vídeo 2 apresenta a gravação da Sessão 1 presencial — avaliação do protótipo de alta fidelidade:
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/eCkZXgLAmhQ" title="Sessão 01 - Protótipo de Alta Fidelidade - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+<div align="center">
 
 <p align="center"><b>Vídeo 2:</b> Gravação da Sessão 1 Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/eCkZXgLAmhQ" target="_blank">https://youtu.be/eCkZXgLAmhQ</a>)</p>
 
+<iframe width="720" height="405" src="https://www.youtube.com/embed/eCkZXgLAmhQ" title="Sessão 01 - Protótipo de Alta Fidelidade - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
 </div>
 
-<div align="center">
+O Vídeo 3 apresenta a gravação da Sessão 2 presencial — avaliação do protótipo de alta fidelidade:
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/Vz16IQpVEpA" title="Sessão 02 - Protótipo de Alta Fidelidade - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+<div align="center">
 
 <p align="center"><b>Vídeo 3:</b> Gravação da Sessão 2 Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/Vz16IQpVEpA" target="_blank">https://youtu.be/Vz16IQpVEpA</a>)</p>
 
+<iframe width="720" height="405" src="https://www.youtube.com/embed/Vz16IQpVEpA" title="Sessão 02 - Protótipo de Alta Fidelidade - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
 </div>
+
+O Vídeo 4 apresenta a gravação da Sessão 3 presencial — avaliação do protótipo de alta fidelidade:
 
 <div align="center">
 
+<p align="center"><b>Vídeo 4:</b> Gravação da Sessão 3 Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/LwW0BXSQ2ZE" target="_blank">https://youtu.be/LwW0BXSQ2ZE</a>)</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/LwW0BXSQ2ZE" title="Sessão 03 - Protótipo de Alta Fidelidade - Pedro Rocha (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 4:</b> Gravação da Sessão 3 Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/LwW0BXSQ2ZE" target="_blank">https://youtu.be/LwW0BXSQ2ZE</a>)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -320,6 +351,8 @@ Nas sessões individuais, cada participante recebeu uma breve descrição do pro
 * **Síntese Pós-Teste (Participante 1):** Achou o sistema de fácil uso e "bem intuitivo". Destacou que são três opções simples de identificar (qual concurso, qual dia e qual horário) e que o resultado "já aparece ali na hora" no cronograma.
 
 #### 5.3.2 Sessão 2 — Participante 2
+
+A Tabela 7 apresenta o desempenho e eficácia do Participante 2 no protótipo de alta fidelidade:
 
 <div align="center" markdown="1">
 

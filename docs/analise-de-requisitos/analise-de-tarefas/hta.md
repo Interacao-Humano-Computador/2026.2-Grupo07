@@ -528,6 +528,8 @@ flowchart TD
     T5 --> T52
 ```
 
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
 <div align="center" markdown="1">
 
 ![Diagrama HTA da Tarefa 08 - Cadastrar e parametrizar alertas inteligentes de editais por e-mail](../../assets/images/hta/hta-tar08.svg)

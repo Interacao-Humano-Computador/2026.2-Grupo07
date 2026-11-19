@@ -19,7 +19,11 @@ Esta página reúne a gravação em vídeo da **Apresentação Individual da Eta
 
 O vídeo a seguir documenta a apresentação dos resultados obtidos nos testes de usabilidade com protótipo de baixa fidelidade (*Wizard of Oz* / Computador Humano), as oportunidades de reprojeto identificadas e os planejamentos para a avaliação e relato do protótipo digital de alta fidelidade. Caso não seja possível reproduzir o player incorporado, acesse pelo link direto: [Apresentação da Etapa 06 no YouTube](https://youtu.be/-BFBxEuaQnM).
 
+O Vídeo 1 registra a apresentação individual da Etapa 6 — Daniel da Silva Batista:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Apresentação Individual da Etapa 6 — Daniel da Silva Batista.</p>
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/-BFBxEuaQnM"
@@ -29,7 +33,7 @@ O vídeo a seguir documenta a apresentação dos resultados obtidos nos testes d
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Vídeo 1:</b> Apresentação Individual da Etapa 6 — Daniel da Silva Batista. <b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

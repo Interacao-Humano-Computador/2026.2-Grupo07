@@ -17,6 +17,8 @@
 
 Este artefato reúne todo o ciclo de **avaliação formativa de Nível 1 (Análise de Tarefas e Storyboard)** conduzido individualmente por **Arthur Sismene Carvalho** na Etapa 5 do projeto **PCI Concursos**, em conformidade com o framework DECIDE (*Barbosa et al.*, 2021) e o Plano de Ensino da disciplina (*Sales*, 2026).
 
+A Tabela 1 apresenta o resumo do escopo individual de Arthur Sismene Carvalho:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Arthur Sismene Carvalho</b></p>
@@ -46,7 +48,11 @@ A narrativa retrata uma **sessão de estudo aprofundada de fim de semana**: dife
 
 ### 2.1 Ilustração do Storyboard SB-03
 
+A Figura 1 apresenta o storyboard SB-03 — simulado online interativo com feedback automático e diagnóstico de desempenho:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Storyboard SB-03 — Simulado Online Interativo com Feedback Automático e Diagnóstico de Desempenho</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openFullscreenModal()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -60,7 +66,6 @@ A narrativa retrata uma **sessão de estudo aprofundada de fim de semana**: dife
   </button>
 </div>
 
-<p align="center"><b>Figura 1:</b> Storyboard SB-03 — Simulado Online Interativo com Feedback Automático e Diagnóstico de Desempenho</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Arthur Sismene Carvalho à mão livre (2026), fundamentado no Cenário 05 e Tarefa 05.</p>
 
 </div>
@@ -126,6 +131,8 @@ Conforme o planejamento das listas de verificação da Etapa 4 e a deliberação
 
 ### 3.1 Identificação da Sessão de Inspeção e Registro em Vídeo
 
+A Tabela 3 apresenta os dados da sessão de inspeção analítica individual:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 3: Dados da Sessão de Inspeção Analítica Individual</b></p>
@@ -149,9 +156,11 @@ A gravação completa da autoinspeção analítica individual está disponível 
 
 <div align="center">
 
+<p align="center"><b>Vídeo 1:</b> Gravação da Autoinspeção Analítica Individual — TAR-05 (HTA e CTT) e Storyboard SB-03</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/h4vBYrZegRs" title="Gravação da Autoinspeção Analítica de Nível 1 - Arthur Sismene (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação da Autoinspeção Analítica Individual — TAR-05 (HTA e CTT) e Storyboard SB-03</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto:</b> <a href="https://youtu.be/h4vBYrZegRs" target="_blank">https://youtu.be/h4vBYrZegRs</a></p>
 
 </div>
@@ -266,6 +275,8 @@ Conforme as diretrizes de Barbosa et al. (2021, p. 276 e 300), o teste-piloto é
 
 ### 4.1 Dados da Sessão do Teste-Piloto
 
+A Tabela 8 apresenta os dados técnicos da execução do teste-piloto:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 8: Dados Técnicos da Execução do Teste-Piloto</b></p>
@@ -289,9 +300,11 @@ A gravação completa do teste-piloto individual está disponível na íntegra n
 
 <div align="center">
 
+<p align="center"><b>Vídeo 2:</b> Gravação do Teste-Piloto Individual — Avaliação de Nível 1 (Storyboard SB-03 e TAR-05)</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/yRWpVlsT0Lo" title="Gravação do Teste-Piloto de Nível 1 - Arthur Sismene (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 2:</b> Gravação do Teste-Piloto Individual — Avaliação de Nível 1 (Storyboard SB-03 e TAR-05)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto:</b> <a href="https://youtu.be/yRWpVlsT0Lo" target="_blank">https://youtu.be/yRWpVlsT0Lo</a></p>
 
 </div>
@@ -299,6 +312,8 @@ A gravação completa do teste-piloto individual está disponível na íntegra n
 ### 4.3 Ficha de Avaliação e Calibração Técnica Pós-Piloto
 
 Após a execução da gravação, o avaliador preencheu a Ficha de Calibração confrontando os critérios de qualidade estabelecidos com o resultado observado, tendo **aprovado todos os itens verificados**:
+
+A Tabela 9 apresenta a ficha de avaliação e calibração técnica pós-piloto:
 
 <div align="center" markdown="1">
 
@@ -362,9 +377,11 @@ A Tabela 11 documenta a logística e os registros da sessão empírica executada
 
 <div align="center" markdown="1">
 
+<p align="center"><b>Vídeo 3:</b> Sessão de Entrevista 1 conduzida por Arthur Sismene avaliando o Storyboard SB-03 e os diagramas HTA/CTT com a Participante 1 (Duração: 11m 50s).</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/WhWYubJcwwQ" title="Gravação da Entrevista 1 com Usuário (TAR-05 e SB-03) - Arthur Sismene (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 3:</b> Sessão de Entrevista 1 conduzida por Arthur Sismene avaliando o Storyboard SB-03 e os diagramas HTA/CTT com a Participante 1 (Duração: 11m 50s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
 

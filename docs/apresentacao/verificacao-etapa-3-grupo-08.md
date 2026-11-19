@@ -100,7 +100,7 @@ A Tabela 2 apresenta a inspeção dos 10 itens gerais de desenvolvimento do proj
 | 8 | O GitHub Pages do projeto possui a gravação da reunião do grupo? | **Sim** | A Ata 5 do Grupo 08 possui a gravação da reunião da Etapa 3 devidamente incorporada via vídeo. |`n| 9 | O GitHub Pages do projeto possui vídeo de apresentação publicado na categoria "não listado" no YouTube? | **Sim** | O vídeo da Apresentação da Entrega 3 está devidamente incorporado em `entrega3.md` e publicado como não listado no YouTube ([Assistir no YouTube](https://youtu.be/MIRdtPGGHmM)), gravado em 06/10/2026 pelos integrantes ativos. |
 | 10 | O GitHub Pages do projeto possui tabela de contribuição no início do artefato, com o nome de todos os integrantes? | **Sim** | Os artefatos da Etapa 3 possuem tabela de contribuição posicionada no início do documento, identificando os papéis dos integrantes e revisores. |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Sales (2026).</p>
 
 </div>
 
@@ -125,7 +125,7 @@ A Tabela 3 detalha a avaliação dos 8 itens de conteúdo da disciplina (itens 1
 | 16 | O Guia de Estilo do projeto possui a seguinte estrutura: 1. Introdução; 2. Resultados de análise; 3. Elementos de interface; 4. Elementos de interação; 5. Elementos de ação; 6. Vocabulário e padrões? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando a estrutura do Guia de Estilo. | **Não** | O Guia de Estilo do Grupo 08 restringe-se a: Paleta de Cores, Escala Tipográfica e Catálogo de Componentes. Não contempla a estrutura canônica de 6 seções (faltam Resultados de Análise, Elementos de Interação, Elementos de Ação e Vocabulário) e **não traz a foto da literatura** comprovando a estrutura canônica (Barbosa e Silva, p. 283). | Leonardo da Silva Lopes Júnior |
 | 17 | O Guia de Estilo corresponde ao site avaliado? | **Sim** | O guia é totalmente customizado e contextualizado para a identidade visual do Diolinux Plus e ecossistema Discourse (modo escuro nativo, tokens hexadecimais extraídos da UI e componentes reais de tópicos e alertas). | Arthur Sismene Carvalho |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Sales (2026).</p>
 
 </div>
 
@@ -136,6 +136,8 @@ A Tabela 3 detalha a avaliação dos 8 itens de conteúdo da disciplina (itens 1
 Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com base no livro de referência da disciplina (*Interação Humano-Computador e Experiência do Usuário*, BARBOSA et al., 2021). Os itens auditam aspectos avançados de qualidade em IHC, acessibilidade digital, blindagem contra dark patterns, estruturação de padrões de design e rastreabilidade projetual no contexto do repositório do Grupo 08 ([Fórum Diolinux Plus](https://interacao-humano-computador.github.io/2026.2-Grupo08/)). Para cada item elaborado, é apresentada a captura fotográfica do trecho exato da literatura de referência que o fundamenta.
 
 ### 7.1 Item 18 — Acessibilidade em Sistemas Interativos
+
+A Tabela 4 apresenta o Item 18 — acessibilidade em sistemas interativos:
 
 <div align="center" markdown="1">
 
@@ -168,6 +170,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 
 ### 7.2 Item 19 — Prevenção contra Padrões Obscuros (*Dark Patterns*)
 
+A Tabela 5 apresenta o Item 19 — prevenção contra padrões obscuros (*dark patterns*):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 5: Item 19</b></p>
@@ -185,6 +189,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 
 </div>
 
+A Figura 2 reproduz a referência bibliográfica — prevenção contra dark patterns:
+
 <div align="center">
 
 <p align="center"><b>Figura 2: Referência Bibliográfica — Prevenção contra Dark Patterns</b></p>
@@ -198,6 +204,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 ---
 
 ### 7.3 Item 20 — Padrões de Design de IHC (*Design Patterns*)
+
+A Tabela 6 apresenta o Item 20 — padrões de design de IHC (*design patterns*):
 
 <div align="center" markdown="1">
 
@@ -216,6 +224,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 
 </div>
 
+A Figura 3 reproduz a referência bibliográfica — padrões de design de IHC:
+
 <div align="center">
 
 <p align="center"><b>Figura 3: Referência Bibliográfica — Padrões de Design de IHC</b></p>
@@ -229,6 +239,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 ---
 
 ### 7.4 Item 21 — Rastreamento das Decisões de Design (*Design Rationale*) no Guia de Estilo
+
+A Tabela 7 apresenta o Item 21 — rastreamento das decisões de design (*design rationale*) no guia de estilo:
 
 <div align="center" markdown="1">
 
@@ -246,6 +258,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 <p align="center"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
+
+A Figura 4 reproduz a referência bibliográfica — rastreamento e design rationale no guia de estilo:
 
 <div align="center">
 
