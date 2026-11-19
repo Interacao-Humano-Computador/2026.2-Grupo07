@@ -8,7 +8,7 @@ A Tabela 1 registra quem atuou neste artefato.
 
 | Integrante | Contribuição | Artefato / atividade |
 | --- | --- | --- |
-| [Bruno Ferreira Dornelas](https://github.com/brunnf) | Criação da estrutura da lista de verificação | [Lista de verificação](lista-verificacao.md) |
+| [Bruno Ferreira Dornelas](https://github.com/brunnf) | Criação da estrutura da lista de verificação | [Lista de verificação](https://interacao-humano-computador.github.io/2026.2-Grupo06/verificacao/grupo-07/etapa-1/lista-verificacao/) |
 
 <p class="caption">Tabela 1 — Contribuição neste artefato.</p>
 <p class="source">Fonte: elaboração do Grupo 06 (2026).</p>
