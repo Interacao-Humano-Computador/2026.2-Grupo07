@@ -10,7 +10,7 @@
 | Pedro Rocha Ferreira Lima | Revisão técnica geral, definição do perfil dos participantes (Krug, 2010) e refinamento dos critérios de avaliação. |
 | Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -66,7 +66,7 @@ A Tabela 1 elenca as perguntas norteadoras elaboradas a partir dos objetivos da 
 | **P06** | A hierarquia tipográfica, contraste de cores e espaçamentos facilitam a leitura contínua? | Legibilidade e Acessibilidade Visual | Barbosa et al. (2021) |
 | **P07** | O participante considera o sistema agradável, intuitivo e útil para a sua rotina de estudos? | Satisfação Subjetiva | Barbosa et al. (2021, p. 278); Nielsen (1993) |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026), adaptado de Barbosa e Silva (2021).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Barbosa e Silva (2021).</p>
 
 </div>
 
@@ -124,6 +124,8 @@ Breve questionário para validação do perfil do participante frente ao Perfil 
 #### Bloco 3: Roteiro de Execução das Tarefas com o Protótipo Digital (~8 a 10 min)
 O moderador disponibiliza o protótipo digital e lê os cenários de tarefas de forma padronizada, sem fornecer pistas de navegação:
 
+A Tabela 2 apresenta o roteiro de tarefas executadas no protótipo de alta fidelidade:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 2: Roteiro de Tarefas Executadas no Protótipo de Alta Fidelidade</b></p>
@@ -134,7 +136,7 @@ O moderador disponibiliza o protótipo digital e lê os cenários de tarefas de 
 | **Tarefa 2: Comparação Lado a Lado** | *"Com os dois editais selecionados, você deseja confrontar os prazos de inscrição, salários e vagas para decidir qual é mais vantajoso. Acesse a comparação e baixe o relatório em PDF."* | O participante clica no botão de comparação, analisa a matriz comparativa e aciona a opção de exportar o comparativo em PDF. | A tela de matriz comparativa é exibida e o fluxo de exportação em PDF é concluído com sucesso. |
 | **Tarefa 3: Detalhes e Alertas** | *"Você deseja acompanhar as atualizações desse certame. Mostre como você faria para consultar as vagas e ativar notificações sobre novas retificações."* | O participante acessa a página detalhada do concurso e aciona o botão de alerta/notificações. | A tela detalhada é acessada e o modal/feedback de alerta ativado é confirmado. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -162,7 +164,7 @@ A Tabela 3 apresenta o planejamento logístico das sessões de teste de usabilid
 | **S02** | Participante 2 | Perfil 1 – Concurseiro | Pedro Rocha | Leonardo Lopes | 12/11/2026 | Presencial |
 | **S03** | Participante 3 | Perfil 1 – Concurseiro | Arthur Carvalho | Daniel Batista | 12/11/2026 | Presencial |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

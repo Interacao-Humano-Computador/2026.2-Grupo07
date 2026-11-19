@@ -19,6 +19,8 @@ Esta página registra a verificação dos artefatos do **Grupo 05** referentes a
 
 Foram verificados **três artefatos**, indicados pelo próprio grupo avaliado:
 
+A Tabela 1 apresenta os artefatos verificados:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Artefatos Verificados</b></p>
@@ -53,7 +55,11 @@ Toda resposta é acompanhada de observação que indica em qual dos três artefa
 
 ## 3. Vídeo de Verificação
 
+O Vídeo 1 apresenta a sessão de verificação dos artefatos do Grupo 05:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Sessão de verificação dos artefatos do Grupo 05</p>
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/JByEXvPe0is"
@@ -64,7 +70,7 @@ Toda resposta é acompanhada de observação que indica em qual dos três artefa
   allowfullscreen>
 </iframe>
 
-<p align="center"><b>Vídeo 1:</b> Sessão de verificação dos artefatos do Grupo 05</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/JByEXvPe0is" target="_blank">https://youtu.be/JByEXvPe0is</a></p>
 
 </div>
@@ -76,6 +82,8 @@ Toda resposta é acompanhada de observação que indica em qual dos três artefa
 ---
 
 ## 4. Síntese dos Resultados
+
+A Tabela 2 apresenta a síntese das respostas por bloco:
 
 <div align="center" markdown="1">
 
@@ -98,6 +106,8 @@ Os dois itens do Bloco B marcados como não conformes são de natureza diferente
 ---
 
 ## 5. Bloco A — Padronização da Entrega
+
+A Tabela 3 apresenta os itens de padronização da entrega:
 
 <div align="center" markdown="1">
 
@@ -129,6 +139,8 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 ### 6.1 Item 12 — Grau de Fidelidade e Ferramenta
 
+A Tabela 4 apresenta o registro da verificação do Item 12:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 4: Registro da Verificação do Item 12</b></p>
@@ -146,16 +158,21 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 </div>
 
+A Figura 1 reproduz a referência bibliográfica — grau de fidelidade das representações da interface:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Referência Bibliográfica — Grau de Fidelidade das Representações da Interface</p>
 
 <img src="../../assets/images/lv-alta-fidelidade-item-12.png" alt="Trecho de Barbosa et al. (2021, p. 249) distinguindo representações de baixa e de alta fidelidade e citando as ferramentas Adobe XD e Figma" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 1:</b> Referência Bibliográfica — Grau de Fidelidade das Representações da Interface</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 249).</p>
 
 </div>
 
 ### 6.2 Item 13 — Grau de Funcionalidade
+
+A Tabela 5 apresenta o registro da verificação do Item 13:
 
 <div align="center" markdown="1">
 
@@ -174,16 +191,21 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 </div>
 
+A Figura 2 reproduz a referência bibliográfica — grau de funcionalidade: de wireframes a protótipos funcionais:
+
 <div align="center">
+
+<p align="center"><b>Figura 2:</b> Referência Bibliográfica — Grau de Funcionalidade: de Wireframes a Protótipos Funcionais</p>
 
 <img src="../../assets/images/lv-alta-fidelidade-item-13.png" alt="Trecho de Barbosa et al. (2021, p. 249) classificando os protótipos pelo grau de funcionalidade, de wireframes e maquetes até protótipos funcionais" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 2:</b> Referência Bibliográfica — Grau de Funcionalidade: de Wireframes a Protótipos Funcionais</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 249).</p>
 
 </div>
 
 ### 6.3 Item 14 — Interface Concreta e Escolha dos Widgets
+
+A Tabela 6 apresenta o registro da verificação do Item 14:
 
 <div align="center" markdown="1">
 
@@ -202,16 +224,21 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 </div>
 
+A Figura 3 reproduz a referência bibliográfica — da interface abstrata à interface concreta:
+
 <div align="center">
+
+<p align="center"><b>Figura 3:</b> Referência Bibliográfica — Da Interface Abstrata à Interface Concreta</p>
 
 <img src="../../assets/images/lv-alta-fidelidade-item-14.png" alt="Trecho de Barbosa et al. (2021, p. 247) sobre os níveis de abstração do design da interface e a escolha dos elementos de interface interativos" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 3:</b> Referência Bibliográfica — Da Interface Abstrata à Interface Concreta</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 247).</p>
 
 </div>
 
 ### 6.4 Item 15 — Destaques do Layout Derivados dos Objetivos e Cenários
+
+A Tabela 7 apresenta o registro da verificação do Item 15:
 
 <div align="center" markdown="1">
 
@@ -230,16 +257,21 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 </div>
 
+A Figura 4 reproduz a referência bibliográfica — insumos do processo para o design da interface:
+
 <div align="center">
+
+<p align="center"><b>Figura 4:</b> Referência Bibliográfica — Insumos do Processo para o Design da Interface</p>
 
 <img src="../../assets/images/lv-alta-fidelidade-item-15.png" alt="Trecho de Barbosa et al. (2021, p. 249) sobre como os objetivos e cenários de uso frequente orientam o destaque dos elementos de interface" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 4:</b> Referência Bibliográfica — Insumos do Processo para o Design da Interface</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 249).</p>
 
 </div>
 
 ### 6.5 Item 16 — Vocabulário Consistente e Familiar ao Usuário
+
+A Tabela 8 apresenta o registro da verificação do Item 16:
 
 <div align="center" markdown="1">
 
@@ -258,16 +290,21 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 </div>
 
+A Figura 5 reproduz a referência bibliográfica — definição do vocabulário da interface:
+
 <div align="center">
+
+<p align="center"><b>Figura 5:</b> Referência Bibliográfica — Definição do Vocabulário da Interface</p>
 
 <img src="../../assets/images/lv-alta-fidelidade-item-16.png" alt="Trecho de Barbosa et al. (2021, p. 249) sobre a definição do vocabulário da interface e a importância de mantê-lo consistente e familiar ao usuário" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 5:</b> Referência Bibliográfica — Definição do Vocabulário da Interface</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 249).</p>
 
 </div>
 
 ### 6.6 Item 17 — Ponte entre as Estratégias de Uso
+
+A Tabela 9 apresenta o registro da verificação do Item 17:
 
 <div align="center" markdown="1">
 
@@ -288,14 +325,17 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 <div align="center">
 
+<p align="center"><b>Figura 6:</b> Referência Bibliográfica — Experiência do Usuário e Curva de Aprendizado</p>
+
 <img src="../../assets/images/lv-alta-fidelidade-item-17.png" alt="Trecho de Barbosa et al. (2021, p. 249-251) sobre o desafio de projetar para usuários iniciantes, intermediários e especialistas, com base em Cooper (1999)" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 6:</b> Referência Bibliográfica — Experiência do Usuário e Curva de Aprendizado</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 249-251).</p>
 
 </div>
 
 ### 6.7 Item 18 — Acessos Ubíquos na Navegação
+
+A Tabela 10 apresenta o registro da verificação do Item 18:
 
 <div align="center" markdown="1">
 
@@ -316,14 +356,17 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 <div align="center">
 
+<p align="center"><b>Figura 7:</b> Referência Bibliográfica — Acessos Ubíquos Mapeados na Interface</p>
+
 <img src="../../assets/images/lv-alta-fidelidade-item-18.png" alt="Trecho de Barbosa et al. (2021, p. 251) sobre os acessos ubíquos e o seu mapeamento em barras de navegação ou itens de menu" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 7:</b> Referência Bibliográfica — Acessos Ubíquos Mapeados na Interface</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 251).</p>
 
 </div>
 
 ### 6.8 Item 19 — Unidades de Apresentação
+
+A Tabela 11 apresenta o registro da verificação do Item 19:
 
 <div align="center" markdown="1">
 
@@ -342,16 +385,21 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 </div>
 
+A Figura 8 reproduz a referência bibliográfica — unidades de apresentação da interface:
+
 <div align="center">
+
+<p align="center"><b>Figura 8:</b> Referência Bibliográfica — Unidades de Apresentação da Interface</p>
 
 <img src="../../assets/images/lv-alta-fidelidade-item-19.png" alt="Trecho de Barbosa et al. (2021, p. 251) definindo unidade de apresentação e a sua relação com as cenas da modelagem da interação" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 8:</b> Referência Bibliográfica — Unidades de Apresentação da Interface</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 251).</p>
 
 </div>
 
 ### 6.9 Item 20 — Contêineres e Prevenções Passivas
+
+A Tabela 12 apresenta o registro da verificação do Item 20:
 
 <div align="center" markdown="1">
 
@@ -370,11 +418,14 @@ Os nove itens deste bloco derivam das Seções 9.5.2 e 9.5.3 do Capítulo 9 — 
 
 </div>
 
+A Figura 9 reproduz a referência bibliográfica — grupos de diálogos e prevenção passiva:
+
 <div align="center">
+
+<p align="center"><b>Figura 9:</b> Referência Bibliográfica — Grupos de Diálogos e Prevenção Passiva</p>
 
 <img src="../../assets/images/lv-alta-fidelidade-item-20.png" alt="Trecho de Barbosa et al. (2021, p. 251) sobre contêineres, widgets e a concretização da prevenção passiva como instrução ou dica próxima ao elemento" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 9:</b> Referência Bibliográfica — Grupos de Diálogos e Prevenção Passiva</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 251).</p>
 
 </div>
@@ -406,6 +457,8 @@ No Bloco B, a constatação central é que **o protótipo de alta fidelidade ain
 ---
 
 ## 9. Histórico de Versões
+
+A Tabela 13 apresenta o histórico de versões da página:
 
 <div align="center" markdown="1">
 

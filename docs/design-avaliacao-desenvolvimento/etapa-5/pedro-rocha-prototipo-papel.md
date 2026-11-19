@@ -19,6 +19,8 @@ Este artefato reúne o ciclo de **avaliação formativa de Nível 2 (Protótipo 
 
 Dentre as tarefas analisadas pelo integrante (`TAR-03` e `TAR-04`), a **TAR-04** foi escolhida como objeto deste protótipo, dando continuidade ao **Storyboard SB-02**.
 
+A Tabela 1 apresenta o resumo do escopo individual de Pedro Rocha (Nível 2):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Pedro Rocha (Nível 2)</b></p>
@@ -56,6 +58,8 @@ Estado inicial da interface, com os três seletores fechados e a grade horária 
 
 <div align="center">
 
+<p align="center"><b>Figura 1:</b> Protótipo de Papel — Tela Base do Cronograma de Estudo (estado inicial)</p>
+
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP('pp01-modal')" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
     <img src="../../../assets/images/prototipo-papel/pedro-rocha/prototipo-papel-tela-01.jpg" alt="Protótipo de Papel - Tela Base do Cronograma de Estudo" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
@@ -68,7 +72,6 @@ Estado inicial da interface, com os três seletores fechados e a grade horária 
   </button>
 </div>
 
-<p align="center"><b>Figura 1:</b> Protótipo de Papel — Tela Base do Cronograma de Estudo (estado inicial)</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Pedro Rocha à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -90,7 +93,11 @@ Estado inicial da interface, com os três seletores fechados e a grade horária 
 
 Ao tocar em `▽ Selecione o edital...`, o Computador Humano sobrepõe o post-it com a lista suspensa de editais disponíveis: `Polícia Civil`, `Banco Central`, `TCU`, `Prefeitura`, `STJ` e `SEMOB`.
 
+A Figura 2 apresenta o protótipo de papel — Etapa 1: lista suspensa de editais sobreposta:
+
 <div align="center">
+
+<p align="center"><b>Figura 2:</b> Protótipo de Papel — Etapa 1: Lista Suspensa de Editais Sobreposta</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP('pp02-modal')" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -104,7 +111,6 @@ Ao tocar em `▽ Selecione o edital...`, o Computador Humano sobrepõe o post-it
   </button>
 </div>
 
-<p align="center"><b>Figura 2:</b> Protótipo de Papel — Etapa 1: Lista Suspensa de Editais Sobreposta</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Pedro Rocha à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -126,7 +132,11 @@ Ao tocar em `▽ Selecione o edital...`, o Computador Humano sobrepõe o post-it
 
 Ao tocar em `▽ Selecione o dia`, é sobreposta a lista de dias da semana: `Segunda`, `Terça`, `Quarta`, `Quinta`, `Sexta` e `Sábado`.
 
+A Figura 3 apresenta o protótipo de papel — Etapa 2: lista suspensa de dias da semana sobreposta:
+
 <div align="center">
+
+<p align="center"><b>Figura 3:</b> Protótipo de Papel — Etapa 2: Lista Suspensa de Dias da Semana Sobreposta</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP('pp03-modal')" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -140,7 +150,6 @@ Ao tocar em `▽ Selecione o dia`, é sobreposta a lista de dias da semana: `Seg
   </button>
 </div>
 
-<p align="center"><b>Figura 3:</b> Protótipo de Papel — Etapa 2: Lista Suspensa de Dias da Semana Sobreposta</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Pedro Rocha à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -162,7 +171,11 @@ Ao tocar em `▽ Selecione o dia`, é sobreposta a lista de dias da semana: `Seg
 
 Ao tocar em `▽ Selecione horário...`, é sobreposta a lista de faixas horárias de 1 hora: `18:00 às 19:00`, `19:00 às 20:00`, `20:00 às 21:00`, `21:00 às 22:00`, `22:00 às 23:00` e `23:00 às 00:00`.
 
+A Figura 4 apresenta o protótipo de papel — Etapa 3: lista suspensa de faixas horárias sobreposta:
+
 <div align="center">
+
+<p align="center"><b>Figura 4:</b> Protótipo de Papel — Etapa 3: Lista Suspensa de Faixas Horárias Sobreposta</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP('pp04-modal')" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -176,7 +189,6 @@ Ao tocar em `▽ Selecione horário...`, é sobreposta a lista de faixas horári
   </button>
 </div>
 
-<p align="center"><b>Figura 4:</b> Protótipo de Papel — Etapa 3: Lista Suspensa de Faixas Horárias Sobreposta</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Pedro Rocha à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -200,6 +212,8 @@ Com edital, dia e horário escolhidos, o participante toca em `[ APLICAR ]`. O C
 
 <div align="center">
 
+<p align="center"><b>Figura 5:</b> Protótipo de Papel — Aplicação da Seleção: Concurso "TCU" Inserido na Grade Horária (Sexta, 20:00)</p>
+
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP('pp05-modal')" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
     <img src="../../../assets/images/prototipo-papel//prototipopedro1.jpg" alt="Protótipo de Papel - Concurso TCU aplicado na grade horária" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
@@ -212,7 +226,6 @@ Com edital, dia e horário escolhidos, o participante toca em `[ APLICAR ]`. O C
   </button>
 </div>
 
-<p align="center"><b>Figura 5:</b> Protótipo de Papel — Aplicação da Seleção: Concurso "TCU" Inserido na Grade Horária (Sexta, 20:00)</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Pedro Rocha à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -261,7 +274,7 @@ Antes da aplicação com os participantes, o autor realizou uma autoinspeção a
 | **9** | O sistema previne erros e permite desfazer ações (controle e liberdade do usuário)? | **Parcial** | `[LIMPAR]` e `[LIMPAR CRONOGRAMA]` têm rótulos semelhantes; o segundo apaga toda a grade sem pedir confirmação. Não há como remover ou editar uma única etiqueta aplicada. |
 | **10** | O layout comporta o conteúdo aplicado e escala para múltiplos agendamentos? | **Parcial** | Nomes curtos (TCU, STJ) cabem na célula, mas nomes longos (Polícia Civil, Banco Central) tendem a não caber. Cada aplicação aceita apenas um dia e uma faixa horária, exigindo repetir as três seleções para cada bloco de estudo. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026), com base nas heurísticas de Nielsen (1993).</p>
 
 </div>
 
@@ -272,6 +285,8 @@ Antes da aplicação com os participantes, o autor realizou uma autoinspeção a
 Conforme Barbosa et al. (2021, p. 276 e 300), o teste-piloto é realizado previamente pelo avaliador com o propósito de verificar o tempo de condução da sessão, calibrar o sincronismo na troca mecânica das peças de papel e testar a legibilidade dos textos gravados pela câmera.
 
 ### 4.1 Dados Logísticos do Teste-Piloto
+
+A Tabela 3 apresenta os dados logísticos do teste-piloto do protótipo de papel:
 
 <div align="center" markdown="1">
 
@@ -321,6 +336,8 @@ O recrutamento deve respeitar o [Perfil 1 — Candidato/Concurseiro](../../anali
 
 ### 5.2 Registro Audiovisual das Entrevistas
 
+A Tabela 5 apresenta o registro audiovisual das entrevistas do protótipo de papel:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 5: Registro Audiovisual das Entrevistas do Protótipo de Papel</b></p>
@@ -330,6 +347,10 @@ O recrutamento deve respeitar o [Perfil 1 — Candidato/Concurseiro](../../anali
 | **Entrevista 1** | Pedro Rocha | Participante 1 | | | [Vídeo da Entrevista 1](https://youtu.be/vkxE8JK84CM) |
 | **Entrevista 2** | Pedro Rocha | Participante 2 | | | [Vídeo da Entrevista 2](https://youtu.be/qrxfHdDRekc) |
 | **Entrevista 3** | Pedro Rocha | Participante 3 | | | [Vídeo da Entrevista 3](https://youtu.be/ZLIZi7D4Nek) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
 
 
 ## 6. Relato dos Resultados da Avaliação do Protótipo de Papel (Barbosa e Silva, 2021, p. 309)
@@ -419,6 +440,8 @@ Seguindo a estrutura de **Barbosa e Silva (2021, p. 309)** e a escala de severid
 * **Diretriz violada:** Estética e Design Minimalista (Nielsen, 1993).
 * **Severidade:** **1 – Cosmético (Baixo)**.
 * **Ação de Reprojeto (Alta Fidelidade):** Usar siglas com *tooltip* do nome completo e cor distinta por concurso.
+
+A Tabela 11 apresenta o cronograma de implementação das ações de reprojeto na alta fidelidade (Nível 3):
 
 <div align="center" markdown="1">
 

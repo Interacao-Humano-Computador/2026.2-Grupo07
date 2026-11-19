@@ -17,6 +17,8 @@
 
 Este artefato reúne todo o ciclo de **avaliação formativa de Nível 1 (Análise de Tarefas e Storyboard)** conduzido individualmente por **Daniel da Silva Batista** na Etapa 5 do projeto **PCI Concursos**, em conformidade com o framework DECIDE (*Barbosa et al.*, 2021) e o Plano de Ensino da disciplina (*Sales*, 2026).
 
+A Tabela 1 apresenta o resumo do escopo individual de Daniel da Silva Batista:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Daniel da Silva Batista</b></p>
@@ -45,6 +47,8 @@ O Storyboard `SB-01` ilustra a jornada do usuário (Perfil 1 — Candidato/Concu
 
 <div align="center">
 
+<p align="center"><b>Figura 1:</b> Storyboard SB-01 — Parametrização de Busca Avançada e Comparação de Editais Concorrentes</p>
+
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openFullscreenModal()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
     <img id="sb01-thumb" src="../../../assets/images/storyboards/storyboard-sb01.png" alt="Storyboard SB-01 - Busca Avançada e Comparação de Editais Concorrentes" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block; transition: transform 0.2s ease-in-out;">
@@ -57,7 +61,6 @@ O Storyboard `SB-01` ilustra a jornada do usuário (Perfil 1 — Candidato/Concu
   </button>
 </div>
 
-<p align="center"><b>Figura 1:</b> Storyboard SB-01 — Parametrização de Busca Avançada e Comparação de Editais Concorrentes</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista à mão livre (2026), fundamentado no Cenário 01 e Tarefa 01.</p>
 
 </div>
@@ -144,9 +147,11 @@ Conforme o planejamento das listas de verificação da Etapa 4 e a deliberação
 
 <div align="center">
 
+<p align="center"><b>Vídeo 1:</b> Gravação da Autoinspeção Analítica Individual — TAR-01 (HTA e CTT) e Storyboard SB-01</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/5yN-0mfKUqw" title="Gravação da Autoinspeção Analítica de Nível 1 - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação da Autoinspeção Analítica Individual — TAR-01 (HTA e CTT) e Storyboard SB-01</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto:</b> <a href="https://youtu.be/5yN-0mfKUqw" target="_blank">https://youtu.be/5yN-0mfKUqw</a></p>
 
 </div>
@@ -261,6 +266,8 @@ Conforme as diretrizes de Barbosa et al. (2021, p. 276 e 300), o teste-piloto fo
 
 ### 4.1 Dados da Sessão do Teste-Piloto
 
+A Tabela 8 apresenta os dados técnicos da execução do teste-piloto:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 8: Dados Técnicos da Execução do Teste-Piloto</b></p>
@@ -282,11 +289,15 @@ Conforme as diretrizes de Barbosa et al. (2021, p. 276 e 300), o teste-piloto fo
 
 A gravação completa do teste-piloto individual está disponível na íntegra no player a seguir, hospedado no YouTube com privacidade configurada como **Não Listado**:
 
+O Vídeo 2 apresenta a gravação do teste-piloto individual — avaliação de Nível 1 (storyboard SB-01 e TAR-01):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 2:</b> Gravação do Teste-Piloto Individual — Avaliação de Nível 1 (Storyboard SB-01 e TAR-01)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/wsHeCGeZRyA" title="Gravação do Teste-Piloto de Nível 1 - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 2:</b> Gravação do Teste-Piloto Individual — Avaliação de Nível 1 (Storyboard SB-01 e TAR-01)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto:</b> <a href="https://youtu.be/wsHeCGeZRyA" target="_blank">https://youtu.be/wsHeCGeZRyA</a></p>
 
 </div>
@@ -294,6 +305,8 @@ A gravação completa do teste-piloto individual está disponível na íntegra n
 ### 4.3 Ficha de Avaliação e Calibração Técnica Pós-Piloto
 
 Após a execução da gravação solo no Teams, o avaliador preencheu a Ficha de Calibração confrontando os critérios de qualidade estabelecidos com o resultado observado:
+
+A Tabela 9 apresenta a ficha de avaliação e calibração técnica pós-piloto:
 
 <div align="center" markdown="1">
 
@@ -362,9 +375,11 @@ A Tabela 11 documenta a logística e os registros das sessões empíricas execut
 
 <div align="center" markdown="1">
 
+<p align="center"><b>Vídeo 3:</b> Sessão de Entrevista 1 conduzida por Daniel Batista avaliando o Storyboard SB-01 e os diagramas HTA/CTT com a Participante 1 (Duração: 07m 09s).</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/xSTf-kYEP10" title="Gravação da Entrevista 1 com Usuário (TAR-01 e SB-01) - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 3:</b> Sessão de Entrevista 1 conduzida por Daniel Batista avaliando o Storyboard SB-01 e os diagramas HTA/CTT com a Participante 1 (Duração: 07m 09s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -372,9 +387,11 @@ A Tabela 11 documenta a logística e os registros das sessões empíricas execut
 
 <div align="center" markdown="1">
 
+<p align="center"><b>Vídeo 4:</b> Sessão de Entrevista 2 conduzida por Daniel Batista avaliando o Storyboard SB-01 e os diagramas HTA/CTT com o Participante 2 (Duração: 06m 06s).</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/kjcdpNjypO8" title="Gravação da Entrevista 2 com Usuário (TAR-01 e SB-01) - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 4:</b> Sessão de Entrevista 2 conduzida por Daniel Batista avaliando o Storyboard SB-01 e os diagramas HTA/CTT com o Participante 2 (Duração: 06m 06s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -382,9 +399,11 @@ A Tabela 11 documenta a logística e os registros das sessões empíricas execut
 
 <div align="center" markdown="1">
 
+<p align="center"><b>Vídeo 5:</b> Sessão de Entrevista 3 conduzida por Daniel Batista avaliando o Storyboard SB-01 e os diagramas HTA/CTT com a Participante 3 (Duração: 07m 23s).</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/bPc6wCtJQ4E" title="Gravação da Entrevista 3 com Usuário (TAR-01 e SB-01) - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 5:</b> Sessão de Entrevista 3 conduzida por Daniel Batista avaliando o Storyboard SB-01 e os diagramas HTA/CTT com a Participante 3 (Duração: 07m 23s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

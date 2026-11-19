@@ -66,7 +66,7 @@ A Tabela 1 elenca as perguntas norteadoras elaboradas a partir dos objetivos da 
 | **P06** | O participante expressa dúvidas ou hesitações em relação aos rótulos, filtros ou botões? | Consistência e Padrões de Interface | Barbosa et al. (2021) |
 | **P07** | O tempo de execução da tarefa é considerado aceitável pelo participante para a rotina diária? | Eficiência e Satisfação Subjetiva | Barbosa et al. (2021, p. 264) |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026), adaptado de Barbosa e Silva (2021).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Barbosa e Silva (2021).</p>
 
 </div>
 
@@ -135,7 +135,7 @@ O moderador entrega o protótipo inicial em papel e lê os cenários de tarefas 
 | **Tarefa 2: Comparação Lado a Lado** | *"Na listagem de editais encontrados, você deseja confrontar dois concursos para decidir qual tem melhor remuneração e datas de prova compatíveis. Mostre como você faria essa comparação."* | O participante toca nas caixas de seleção de dois editais específicos e pressiona o botão 'Comparar Editais Selecionados'. | O simulador exibe a folha da 'Matriz Comparativa', posicionando as duas colunas de certames lado a lado com datas, salários e vagas. |
 | **Tarefa 3: Exportação do Relatório** | *"Você gostou da tabela comparativa e deseja salvar essas informações para montar seu cronograma de estudos. Como você salvaria esse comparativo?"* | O participante localiza o botão de exportação e aponta para a opção 'Exportar Comparativo em PDF'. | O simulador sobrepõe uma mensagem de confirmação de download do arquivo PDF concluído com sucesso. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -152,6 +152,8 @@ Perguntas abertas aplicadas imediatamente após a conclusão das tarefas para co
 
 A Tabela 2 apresenta o planejamento logístico das sessões de teste de usabilidade em papel:
 
+A Tabela 3 apresenta o cronograma previsto da avaliação do protótipo de papel:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 3: Cronograma Previsto da Avaliação do Protótipo de Papel</b></p>
@@ -164,7 +166,7 @@ A Tabela 2 apresenta o planejamento logístico das sessões de teste de usabilid
 | **S03** | Participante 3 | Perfil 1 – Concurseiro | Arthur Carvalho | Leonardo Lopes | Daniel Batista | 01/11/2026 a 02/11/2026 | Presencial / FGA |
 | **S04** | Participante 4 | Perfil 1 – Concurseiro | Leonardo Lopes | Arthur Carvalho | Pedro Rocha | 01/11/2026 a 02/11/2026 | Presencial / FGA |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -232,7 +234,7 @@ A Tabela 4 sintetiza como os quatro aspectos metodológicos de validade e confia
 | **Validade externa** | Amostra qualificada de 3 participantes representativos do Perfil 1 (Candidato/Concurseiro), garantindo relevância ecológica ao domínio de certames públicos. |
 | **Validade ecológica** | Alta fidelidade de processo: embora em suporte físico (papel), a dinâmica simula fielmente a tomada de decisão real de comparação e escolha de concursos. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026), adaptado de Barbosa et al. (2021).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Barbosa et al. (2021).</p>
 
 </div>
 

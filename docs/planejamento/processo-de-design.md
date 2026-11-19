@@ -47,9 +47,11 @@ A estrutura completa das três fases do ciclo e seus caminhos de retroalimentaç
 
 <div align="center" markdown="1">
 
+<p align="center"><b>Figura 1:</b> Engenharia de Usabilidade de Mayhew.</p>
+
 ![Ciclo de Mayhew](../assets/images/mayhew.png)
 
-<p align="center"><b>Figura 1:</b> Engenharia de Usabilidade de Mayhew. <b>Fonte:</b> BARBOSA e SILVA (2010, p. 110).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> BARBOSA e SILVA (2010, p. 110).</p>
 
 </div>
 

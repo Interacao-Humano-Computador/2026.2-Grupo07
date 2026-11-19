@@ -112,7 +112,7 @@ A análise de tarefas é um **modelo**, não uma interface: não há tela para o
 | **1ª — Inspeção** | Inspeção por lista de verificação, usando as *Listas de Verificação para HTA* e *para CTT* (10 itens cada) elaboradas na disciplina a partir de Barbosa et al. (2021) | PA-01 e PA-02 | Os quatro integrantes do grupo, em inspeção cruzada | É o método adequado para verificar conformidade com uma notação, e dispensa usuários |
 | **2ª — Investigação** | Entrevista semiestruturada com roteiro, em que o participante relata como alcança o objetivo hoje e depois avalia a decomposição proposta no diagrama | PA-03 a PA-07 | Quatro usuários externos (USR-06 a USR-09) | Revela caminhos percorridos pelos usuários de forma criativa e oportunista, que o avaliador não previu |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Barbosa et al. (2021, p. 297).</p>
 
 </div>
 
@@ -196,7 +196,7 @@ São **quatro participantes**, um recrutado por integrante do grupo, todos do **
 | Dispositivo de acesso habitual | Ao menos dois dos quatro participantes devem ser usuários predominantemente de smartphone |
 | Vínculo com o avaliador | Evitar parentes, amigos próximos e colegas de turma do avaliador |
 
-<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em Nielsen (2000 apud Barbosa et al., 2021, p. 298).</p>
 
 </div>
 

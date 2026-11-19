@@ -102,6 +102,8 @@ A **Análise Documental** constitui uma técnica clássica de investigação em 
 
 No projeto do **PCI Concursos**, a análise documental atua como base empírica preliminar para a formulação das hipóteses de perfil e mapeamento do ecossistema de concursos no Brasil. Assim como nas entrevistas, **cada integrante da equipe é individualmente responsável pela investigação aprofundada de uma fonte documental oficial**, extraindo subsídios para embasar o projeto:
 
+A Tabela 2 apresenta a matriz de registro da análise documental individual:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 2: Matriz de Registro da Análise Documental Individual</b></p>
@@ -402,6 +404,8 @@ A Tabela 4 a seguir sintetiza a evolução do escopo da equipe, evidenciando com
 ## 7. Registro e Comprovação das Entrevistas Gravadas
 
 A Tabela 4 consolida o registro das sessões dos integrantes da equipe ativa. Cada entrevistador é responsável por conduzir a investigação empírica (ou aplicar o método secundário fundamentado na literatura de IHC) com os usuários reais:
+
+A Tabela 5 apresenta o registro de gravações de entrevistas com usuários reais:
 
 <div align="center" markdown="1">
 

@@ -10,7 +10,7 @@
 | Pedro Rocha Ferreira Lima | Revisão técnica geral, definição da escala de severidade de problemas de usabilidade (Nielsen, 1993) e consolidação metodológica. |
 | Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -90,6 +90,8 @@ A consolidação dos problemas identificados deve seguir expressamente a estrutu
 
 Para padronizar a priorização dos ajustes finais, a severidade dos problemas relatados seguirá a escala clássica de Jakob Nielsen (1993), adotada por Barbosa e Silva (2021, p. 305):
 
+A Tabela 1 apresenta a escala de severidade de problemas de usabilidade (Nielsen, 1993):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Escala de Severidade de Problemas de Usabilidade (Nielsen, 1993)</b></p>
@@ -102,7 +104,7 @@ Para padronizar a priorização dos ajustes finais, a severidade dos problemas r
 | **3 – Grave (Grande)** | Dificulta substancialmente o fluxo da tarefa, induz a erros repetidos e gera frustração evidente. | Alta prioridade; correção obrigatória antes da implementação. |
 | **4 – Catastrófico** | Impede totalmente a conclusão da tarefa pelo usuário (bloqueio do fluxo ou abandono). | Correção crítica e mandatória imediata. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026), adaptado de Nielsen (1993) e Barbosa e Silva (2021).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Nielsen (1993) e Barbosa e Silva (2021).</p>
 
 </div>
 
@@ -123,7 +125,7 @@ O relato dos resultados deverá culminar em uma agenda clara de implementação 
 | `REP-03` | *(Ex.: Adicionar paginação na lista de resultados)* | Problema OPO-03 | Arthur Carvalho | 11/11/2026 |
 | `REP-04` | *(Ex.: Reorganizar colunas da matriz comparativa)* | Problema OPO-04 | Leonardo Lopes | 12/11/2026 |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

@@ -80,11 +80,15 @@ O ensaio foi conduzido seguindo rigorosamente a estrutura sequencial em cinco bl
 
 A gravação completa do teste-piloto individual está disponível na íntegra no player a seguir, hospedado no YouTube com privacidade configurada como **Não Listado**:
 
+O Vídeo 1 apresenta a gravação do teste-piloto individual — avaliação de Nível 1 (storyboard SB-01 e TAR-01):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto Individual — Avaliação de Nível 1 (Storyboard SB-01 e TAR-01)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/wsHeCGeZRyA" title="Gravação do Teste-Piloto de Nível 1 - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto Individual — Avaliação de Nível 1 (Storyboard SB-01 e TAR-01)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto:</b> <a href="https://youtu.be/wsHeCGeZRyA" target="_blank">https://youtu.be/wsHeCGeZRyA</a></p>
 
 </div>

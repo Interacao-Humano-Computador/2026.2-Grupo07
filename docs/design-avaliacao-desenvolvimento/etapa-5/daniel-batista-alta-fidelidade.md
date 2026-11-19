@@ -17,6 +17,8 @@
 
 Este artefato reúne todo o ciclo de **avaliação formativa de Nível 3 (Protótipo de Alta Fidelidade)** conduzido individualmente por **Daniel da Silva Batista** no âmbito do projeto **PCI Concursos**, em conformidade com o framework **DECIDE** (*Barbosa et al.*, 2021), as **10 Heurísticas de Usabilidade de Nielsen (1993)** e as diretrizes do plano de ensino da disciplina de Interação Humano-Computador (*Sales*, 2026).
 
+A Tabela 1 apresenta o resumo do escopo individual de Daniel da Silva Batista (Nível 3):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Daniel da Silva Batista (Nível 3)</b></p>
@@ -44,6 +46,8 @@ Este artefato reúne todo o ciclo de **avaliação formativa de Nível 3 (Protó
 
 O protótipo de alta fidelidade materializa em ambiente web interativo as telas validadas no [Protótipo de Papel (Nível 2)](./daniel-batista-prototipo-papel.md), aplicando rigorosamente a identidade visual do [Guia de Estilo](../guia-de-estilo.md) (paleta azul institucional `#003B8E`, pílulas de destaque em amarelo, tipografia limpa e espaçamento adequado) e incorporando as ações de reprojeto levantadas na etapa anterior.
 
+A Tabela 2 apresenta a rastreabilidade da evolução do Nível 2 (papel) para o Nível 3 (alta fidelidade):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 2: Rastreabilidade da Evolução do Nível 2 (Papel) para o Nível 3 (Alta Fidelidade)</b></p>
@@ -63,7 +67,11 @@ O protótipo de alta fidelidade materializa em ambiente web interativo as telas 
 
 A tela inicial apresenta a barra de navegação limpa do portal, o selo identificador `BUSCA: Concursos`, o campo de pesquisa textual e o painel expansível **Filtros da busca avançada** com seletores para **Região / UF** (`Distrito Federal (DF)`), **Escolaridade** (`Nível Superior`), **Área / Carreira** (`Administrativa`) e **Situação do concurso** (`Inscrições abertas`, `Previstos`), culminando no botão primário `Filtrar concursos`.
 
+A Figura 1 apresenta o protótipo de alta fidelidade — Tela 1: busca avançada com filtros multicritério:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Protótipo de Alta Fidelidade — Tela 1: Busca Avançada com Filtros Multicritério</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF01()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -77,7 +85,6 @@ A tela inicial apresenta a barra de navegação limpa do portal, o selo identifi
   </button>
 </div>
 
-<p align="center"><b>Figura 1:</b> Protótipo de Alta Fidelidade — Tela 1: Busca Avançada com Filtros Multicritério</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista no Lovable (2026).</p>
 
 </div>
@@ -102,7 +109,11 @@ A segunda tela exibe os resultados filtrados (`Resultados: DF • Nível Superio
 
 Ao selecionar os editais, surge na base da janela a **barra flutuante fixa (*sticky bottom bar*)** implementando o reprojeto `OPO-PP01`, exibindo `2 editais selecionados`, botão `Limpar` e botão primário `Comparar agora →`.
 
+A Figura 2 apresenta o protótipo de alta fidelidade — Tela 2: listagem de resultados com barra flutuante de seleção (OPO-PP01):
+
 <div align="center">
+
+<p align="center"><b>Figura 2:</b> Protótipo de Alta Fidelidade — Tela 2: Listagem de Resultados com Barra Flutuante de Seleção (<code>OPO-PP01</code>)</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF02()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -116,7 +127,6 @@ Ao selecionar os editais, surge na base da janela a **barra flutuante fixa (*sti
   </button>
 </div>
 
-<p align="center"><b>Figura 2:</b> Protótipo de Alta Fidelidade — Tela 2: Listagem de Resultados com Barra Flutuante de Seleção (<code>OPO-PP01</code>)</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista no Lovable (2026).</p>
 
 </div>
@@ -139,7 +149,11 @@ Ao selecionar os editais, surge na base da janela a **barra flutuante fixa (*sti
 
 A terceira tela exibe o **Comparador de Editais Lado a Lado**, confrontando os certames selecionados em colunas paralelas quanto a **Cargo**, **Remuneração**, **Data da Prova**, **Vagas** e **Matérias Comuns (75% compatível)**, além do atalho `← Voltar aos resultados` e dos botões de ação `Salvar` e `Exportar PDF`.
 
+A Figura 3 apresenta o protótipo de alta fidelidade — Tela 3: matriz comparativa lado a lado:
+
 <div align="center">
+
+<p align="center"><b>Figura 3:</b> Protótipo de Alta Fidelidade — Tela 3: Matriz Comparativa Lado a Lado</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF03()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -153,7 +167,6 @@ A terceira tela exibe o **Comparador de Editais Lado a Lado**, confrontando os c
   </button>
 </div>
 
-<p align="center"><b>Figura 3:</b> Protótipo de Alta Fidelidade — Tela 3: Matriz Comparativa Lado a Lado</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista no Lovable (2026).</p>
 
 </div>
@@ -172,7 +185,11 @@ A terceira tela exibe o **Comparador de Editais Lado a Lado**, confrontando os c
 
 Ao acionar `Exportar PDF`, o protótipo sobrepõe um diálogo modal acessível (`role="alertdialog"`) confirmando: `✓ Comparativo gerado com sucesso.` e botão de fechamento `OK, fechar`.
 
+A Figura 4 apresenta o protótipo de alta fidelidade — modal de confirmação da exportação em PDF:
+
 <div align="center">
+
+<p align="center"><b>Figura 4:</b> Protótipo de Alta Fidelidade — Modal de Confirmação da Exportação em PDF</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF04()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -186,7 +203,6 @@ Ao acionar `Exportar PDF`, o protótipo sobrepõe um diálogo modal acessível (
   </button>
 </div>
 
-<p align="center"><b>Figura 4:</b> Protótipo de Alta Fidelidade — Modal de Confirmação da Exportação em PDF</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Daniel da Silva Batista no Lovable (2026).</p>
 
 </div>
@@ -236,7 +252,7 @@ Antes da aplicação dos testes presenciais com usuários reais, o autor conduzi
 | **5** | **Prevenção de Erros e Feedback:** a interface previne confusões de turno de prova e confirma ações críticas? | **Parcial** | A exportação possui modal acessível (`alertdialog`) de sucesso; entretanto, a indicação de compatibilidade de turnos ainda é apenas textual. |
 | **6** | **Estética e Design Minimalista:** a interface elimina ruídos visuais presentes no portal original? | **Sim** | Remove banners dispersivos e tabelas densas, priorizando respiro visual (*whitespace*) e leitura escaneável. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base nas heurísticas de Nielsen (1993).</p>
 
 </div>
 
@@ -247,6 +263,8 @@ Antes da aplicação dos testes presenciais com usuários reais, o autor conduzi
 Em conformidade com **Barbosa e Silva (2021, p. 276 e 300)**, o teste-piloto foi executado presencialmente antes das sessões definitivas para calibrar o roteiro de tarefas, verificar o tempo médio de interação em meio digital e validar a captação de áudio e tela.
 
 ### 4.1 Dados Logísticos do Teste-Piloto
+
+A Tabela 4 apresenta os dados logísticos do teste-piloto do protótipo de alta fidelidade:
 
 <div align="center" markdown="1">
 
@@ -268,11 +286,15 @@ Em conformidade com **Barbosa e Silva (2021, p. 276 e 300)**, o teste-piloto foi
 
 ### 4.2 Registro Audiovisual do Teste-Piloto
 
+O Vídeo 1 apresenta a gravação do teste-piloto — avaliação do protótipo de alta fidelidade:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/QT031apbo1E" target="_blank">https://youtu.be/QT031apbo1E</a>)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/QT031apbo1E" title="Gravação do Teste-Piloto - Protótipo de Alta Fidelidade - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/QT031apbo1E" target="_blank">https://youtu.be/QT031apbo1E</a>)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -318,27 +340,39 @@ A Tabela 6 documenta as três sessões empíricas conduzidas **presencialmente**
 
 </div>
 
-<div align="center">
+O Vídeo 2 apresenta a gravação da Sessão 1 presencial — avaliação do protótipo de alta fidelidade:
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/n2EIKmw1AmI" title="Sessão 01 - Protótipo de Alta Fidelidade - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+<div align="center">
 
 <p align="center"><b>Vídeo 2:</b> Gravação da Sessão 1 Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/n2EIKmw1AmI" target="_blank">https://youtu.be/n2EIKmw1AmI</a>)</p>
 
+<iframe width="720" height="405" src="https://www.youtube.com/embed/n2EIKmw1AmI" title="Sessão 01 - Protótipo de Alta Fidelidade - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
 </div>
 
-<div align="center">
+O Vídeo 3 apresenta a gravação da Sessão 2 presencial — avaliação do protótipo de alta fidelidade:
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/AFV6sD1eogA" title="Sessão 02 - Protótipo de Alta Fidelidade - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+<div align="center">
 
 <p align="center"><b>Vídeo 3:</b> Gravação da Sessão 2 Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/AFV6sD1eogA" target="_blank">https://youtu.be/AFV6sD1eogA</a>)</p>
 
+<iframe width="720" height="405" src="https://www.youtube.com/embed/AFV6sD1eogA" title="Sessão 02 - Protótipo de Alta Fidelidade - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
 </div>
+
+O Vídeo 4 apresenta a gravação da Sessão 3 presencial — avaliação do protótipo de alta fidelidade:
 
 <div align="center">
 
+<p align="center"><b>Vídeo 4:</b> Gravação da Sessão 3 Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/pJD2UU934sA" target="_blank">https://youtu.be/pJD2UU934sA</a>)</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/pJD2UU934sA" title="Sessão 03 - Protótipo de Alta Fidelidade - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 4:</b> Gravação da Sessão 3 Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/pJD2UU934sA" target="_blank">https://youtu.be/pJD2UU934sA</a>)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 
@@ -365,6 +399,8 @@ Durante as sessões presenciais individuais, os participantes executaram o fluxo
 * **Síntese Pós-Teste (Participante 1):** Avaliou positivamente a navegabilidade e a solidez do fluxo comparativo (*"acredito que a navegabilidade tá boa... tá bem sólido"*), destacando a utilidade de comparar editais da sua área. Como melhorias, sugeriu: (1) adicionar um **filtro por faixa salarial** na busca inicial e (2) incluir **recursos de acessibilidade** na interface.
 
 #### 5.3.2 Sessão 2 — Participante 2
+
+A Tabela 8 apresenta o desempenho e eficácia do Participante 2 no protótipo de alta fidelidade:
 
 <div align="center" markdown="1">
 

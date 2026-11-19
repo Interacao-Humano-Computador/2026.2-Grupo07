@@ -19,7 +19,11 @@ Esta página reúne a gravação em vídeo da **Apresentação Individual da Eta
 
 O vídeo a seguir sintetiza a elaboração dos artefatos coletivos de planejamento, a autoinspeção analítica com checklists, o teste-piloto e as 3 entrevistas empíricas com usuários reais para a Tarefa `TAR-01` e o Storyboard `SB-01`. Caso não seja possível reproduzir o player incorporado, acesse pelo link direto: [Apresentação Individual no YouTube (07m 16s)](https://youtu.be/oTnnrrFW454).
 
+O Vídeo 1 registra a apresentação individual da Etapa 5 — Daniel da Silva Batista (duração: 07m 16s):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Apresentação Individual da Etapa 5 — Daniel da Silva Batista (Duração: 07m 16s).</p>
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/oTnnrrFW454"
@@ -29,7 +33,7 @@ O vídeo a seguir sintetiza a elaboração dos artefatos coletivos de planejamen
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Vídeo 1:</b> Apresentação Individual da Etapa 5 — Daniel da Silva Batista (Duração: 07m 16s). <b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

@@ -17,6 +17,8 @@
 
 Este artefato reúne todo o ciclo de **avaliação formativa de Nível 3 (Protótipo de Alta Fidelidade)** conduzido individualmente por **Leonardo da Silva Lopes Júnior** no âmbito do projeto **PCI Concursos**, em conformidade com o framework **DECIDE** (*Barbosa et al.*, 2021), as **10 Heurísticas de Usabilidade de Nielsen (1993)** e as diretrizes do plano de ensino da disciplina de Interação Humano-Computador (*Sales*, 2026).
 
+A Tabela 1 apresenta o resumo do escopo individual de Leonardo da Silva Lopes Júnior (Nível 3):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Leonardo da Silva Lopes Júnior (Nível 3)</b></p>
@@ -42,6 +44,8 @@ Este artefato reúne todo o ciclo de **avaliação formativa de Nível 3 (Protó
 
 O protótipo de alta fidelidade materializa em ambiente web interativo e responsivo os conceitos validados no [Protótipo de Papel (Nível 2)](./leonardo-lopes-prototipo-papel.md), aplicando rigorosamente a identidade visual do [Guia de Estilo](../guia-de-estilo.md) (paleta azul institucional `#003B8E`, tipografia sem serifa legível, botões de ação com contraste acessível e badges semânticos de urgência) e incorporando as oportunidades de reprojeto identificadas na etapa anterior.
 
+A Tabela 2 apresenta a rastreabilidade da evolução do Nível 2 (papel) para o Nível 3 (alta fidelidade):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 2: Rastreabilidade da Evolução do Nível 2 (Papel) para o Nível 3 (Alta Fidelidade)</b></p>
@@ -64,7 +68,11 @@ A tela inicial apresenta a barra de navegação superior com o logotipo do PCI C
 * **TJDF (Distrito Federal):** 64 vagas, remuneração de até R$ 16.035,69, cargos de Analista e Técnico Judiciário, badge verde `Faltam 19 dias`, botão `Edital` e indicador `✓ Inscrito`.
 * **Correios (Nacional):** 3.511 vagas, remuneração de até R$ 6.872,48, badge alaranjado de urgência `Encerra hoje`, botão `Edital` e botão primário `Inscrição`.
 
+A Figura 1 apresenta o protótipo de alta fidelidade — Tela 1: área pessoal com concursos salvos:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Protótipo de Alta Fidelidade — Tela 1: Área Pessoal com Concursos Salvos</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF01_Leo()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -79,7 +87,6 @@ A tela inicial apresenta a barra de navegação superior com o logotipo do PCI C
   <a href="../../../assets/images/prototipo-alta-fidelidade/prototipo-af-leonardo-tela-01.png" download="Prototipo_AF_Tela01_LeonardoLopes.png" class="md-button" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; text-decoration: none; background: #475569; color: white;">📥 Baixar</a>
 </div>
 
-<p align="center"><b>Figura 1:</b> Protótipo de Alta Fidelidade — Tela 1: Área Pessoal com Concursos Salvos</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Leonardo da Silva Lopes Júnior no Lovable (2026).</p>
 
 </div>
@@ -106,7 +113,11 @@ Ao acionar o botão `Edital` no card do TJDF, o sistema sobrepõe um diálogo mo
 * **Informações Institucionais:** Nível Médio/Superior, banca organizadora Cebraspe e abrangência DF.
 * **Ações:** Atalho direto para o site oficial da banca e botão primário `Ver minha inscrição`.
 
+A Figura 2 apresenta o protótipo de alta fidelidade — Tela 2: modal de informações e cronograma do edital:
+
 <div align="center">
+
+<p align="center"><b>Figura 2:</b> Protótipo de Alta Fidelidade — Tela 2: Modal de Informações e Cronograma do Edital</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF02_Leo()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -121,7 +132,6 @@ Ao acionar o botão `Edital` no card do TJDF, o sistema sobrepõe um diálogo mo
   <a href="../../../assets/images/prototipo-alta-fidelidade/prototipo-af-leonardo-tela-02.png" download="Prototipo_AF_Tela02_LeonardoLopes.png" class="md-button" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; text-decoration: none; background: #475569; color: white;">📥 Baixar</a>
 </div>
 
-<p align="center"><b>Figura 2:</b> Protótipo de Alta Fidelidade — Tela 2: Modal de Informações e Cronograma do Edital</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Leonardo da Silva Lopes Júnior no Lovable (2026).</p>
 
 </div>
@@ -149,7 +159,11 @@ Na área de conteúdo, o painel se divide em:
 2. **Linha do Tempo (*Timeline*):** Exibe a cadeia cronológica vertical das etapas concluídas (`FEITO`) com selo verde `✓ No Google Agenda`.
 3. **Grade Mensal (*Monthly Grid*):** Matriz semanal de Novembro de 2026 com cabeçalhos `SEG`, `TER`, `QUA`, `QUI`, `SEX`, `SÁB`, `DOM`, sinalizando os eventos de cada certame nas respectivas datas.
 
+A Figura 3 apresenta o protótipo de alta fidelidade — Tela 3: calendário pessoal com linha do tempo e sincronização com Google Agenda:
+
 <div align="center">
+
+<p align="center"><b>Figura 3:</b> Protótipo de Alta Fidelidade — Tela 3: Calendário Pessoal com Linha do Tempo e Sincronização com Google Agenda</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF03_Leo()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -164,7 +178,6 @@ Na área de conteúdo, o painel se divide em:
   <a href="../../../assets/images/prototipo-alta-fidelidade/prototipo-af-leonardo-tela-03.png" download="Prototipo_AF_Tela03_LeonardoLopes.png" class="md-button" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; text-decoration: none; background: #475569; color: white;">📥 Baixar</a>
 </div>
 
-<p align="center"><b>Figura 3:</b> Protótipo de Alta Fidelidade — Tela 3: Calendário Pessoal com Linha do Tempo e Sincronização com Google Agenda</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Leonardo da Silva Lopes Júnior no Lovable (2026).</p>
 
 </div>
@@ -191,7 +204,11 @@ A visualização detalhada evidencia os marcos críticos seguintes:
 * **Legenda Cromática Padronizada:** Posicionada abaixo da grade mensal (*Azul: Início das inscrições | Laranja: Boleto | Vermelho: Prazo limite | Verde: Prova*).
 * **Card de Detalhamento da Data:** Ao clicar em um dia específico (ex.: Domingo, 15/11/2026), o sistema abre um card lateral com o status do prazo limite dos Correios e confirmação de sincronismo.
 
+A Figura 4 apresenta o protótipo de alta fidelidade — Tela 4: visão contínua da linha do tempo, grade mensal e legenda cromática:
+
 <div align="center">
+
+<p align="center"><b>Figura 4:</b> Protótipo de Alta Fidelidade — Tela 4: Visão Contínua da Linha do Tempo, Grade Mensal e Legenda Cromática</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF04_Leo()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -206,7 +223,6 @@ A visualização detalhada evidencia os marcos críticos seguintes:
   <a href="../../../assets/images/prototipo-alta-fidelidade/prototipo-af-leonardo-tela-04.png" download="Prototipo_AF_Tela04_LeonardoLopes.png" class="md-button" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; text-decoration: none; background: #475569; color: white;">📥 Baixar</a>
 </div>
 
-<p align="center"><b>Figura 4:</b> Protótipo de Alta Fidelidade — Tela 4: Visão Contínua da Linha do Tempo, Grade Mensal e Legenda Cromática</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Leonardo da Silva Lopes Júnior no Lovable (2026).</p>
 
 </div>
@@ -231,7 +247,11 @@ No rodapé da interface do Calendário, materializam-se os componentes de respos
 1. **Alerta de 48 Horas para Pagamento de Boleto (`OPO-PP01`):** Formatado como nota adesiva visualmente destacada em amarelo inclinado, alertando: *"ALERTA! Menos de 48h para pagar o boleto! Câmara - vence 16/11/2026 — faltam 31h"*, acompanhado do botão primário `Pagar boleto` para quitação instantânea sem fricção.
 2. **Detecção e Sinalização de Conflito de Turno (`OPO-PP02`):** Painel de advertência alaranjado alertando: *"⚠ Prova no mesmo turno — TJDF e Correios têm prova em 13/12/2026, no turno da manhã. Você vai precisar escolher uma."*, provendo chips rápidos dos certames e atalho para o calendário.
 
+A Figura 5 apresenta o protótipo de alta fidelidade — Tela 5: componentes de alerta de 48h de boleto e prevenção de conflito de turnos:
+
 <div align="center">
+
+<p align="center"><b>Figura 5:</b> Protótipo de Alta Fidelidade — Tela 5: Componentes de Alerta de 48h de Boleto e Prevenção de Conflito de Turnos</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF05_Leo()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -246,7 +266,6 @@ No rodapé da interface do Calendário, materializam-se os componentes de respos
   <a href="../../../assets/images/prototipo-alta-fidelidade/prototipo-af-leonardo-tela-05.png" download="Prototipo_AF_Tela05_LeonardoLopes.png" class="md-button" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; text-decoration: none; background: #475569; color: white;">📥 Baixar</a>
 </div>
 
-<p align="center"><b>Figura 5:</b> Protótipo de Alta Fidelidade — Tela 5: Componentes de Alerta de 48h de Boleto e Prevenção de Conflito de Turnos</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Leonardo da Silva Lopes Júnior no Lovable (2026).</p>
 
 </div>
@@ -285,6 +304,8 @@ document.addEventListener('keydown', function(e) {
 
 Previamente à condução dos testes presenciais com os usuários reais, o autor Leonardo da Silva Lopes Júnior realizou a autoinspeção analítica com base nas **10 Heurísticas de Usabilidade de Nielsen (1993)** e nas diretrizes do [Guia de Estilo](../guia-de-estilo.md):
 
+A Tabela 3 apresenta a lista de verificação da autoinspeção analítica do protótipo de alta fidelidade (autor: Leonardo Lopes):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 3: Lista de Verificação da Autoinspeção Analítica do Protótipo de Alta Fidelidade (Autor: Leonardo Lopes)</b></p>
@@ -298,7 +319,7 @@ Previamente à condução dos testes presenciais com os usuários reais, o autor
 | **5** | **Controle e Liberdade do Usuário:** é fácil fechar modais, desconectar a agenda ou alternar certames? | **Sim** | Botão `✕` visível no modal de edital, tecla `ESC` mapeada e links diretos para alternar filtros por concurso ou desconectar a sincronização. |
 | **6** | **Reconhecimento em vez de Lembrança:** as informações críticas estão visíveis sem exigir esforço de memória? | **Sim** | Valores de taxa (R$ 130,00), remunerações e horários de prova são sumarizados diretamente nos cards e modais. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026), com base nas heurísticas de Nielsen (1993).</p>
 
 </div>
 
@@ -309,6 +330,8 @@ Previamente à condução dos testes presenciais com os usuários reais, o autor
 Em estrita consonância com **Barbosa e Silva (2021, p. 276 e 300)**, o teste-piloto presencial foi executado pelo avaliador antes das sessões definitivas com o objetivo de calibrar o roteiro de tarefas, cronometrar o tempo de interação com os componentes interativos do Lovable e assegurar a nitidez na captação simultânea de áudio, vídeo e tela.
 
 ### 4.1 Dados Logísticos do Teste-Piloto
+
+A Tabela 4 apresenta os dados logísticos do teste-piloto do protótipo de alta fidelidade:
 
 <div align="center" markdown="1">
 
@@ -329,11 +352,15 @@ Em estrita consonância com **Barbosa e Silva (2021, p. 276 e 300)**, o teste-pi
 
 ### 4.2 Registro Audiovisual do Teste-Piloto
 
+O Vídeo 1 apresenta a gravação do teste-piloto presencial — avaliação do protótipo de alta fidelidade:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/GNRLqYgxEHQ" target="_blank">https://youtu.be/GNRLqYgxEHQ</a>)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/GNRLqYgxEHQ" title="Gravação do Teste-Piloto - Protótipo de Alta Fidelidade - Leonardo Lopes (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto Presencial — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/GNRLqYgxEHQ" target="_blank">https://youtu.be/GNRLqYgxEHQ</a>)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
 
@@ -366,6 +393,8 @@ Para garantir máxima fidedignidade analítica, cada sessão foi registrada sob 
 1. **Gravação Presencial do Ensaio:** Enquadramento amplo focalizando as expressões corporais do participante, a mediação e o ambiente de teste;
 2. **Gravação da Tela do Protótipo:** Captura digital em alta definição de todos os cliques, scrolls e movimentações do cursor do mouse.
 
+A Tabela 6 apresenta o registro audiovisual das sessões de teste do protótipo de alta fidelidade:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 6: Registro Audiovisual das Sessões de Teste do Protótipo de Alta Fidelidade</b></p>
@@ -382,29 +411,49 @@ Para garantir máxima fidedignidade analítica, cada sessão foi registrada sob 
 #### Registros da Sessão 1:
 
 === "Gravação Presencial (Sessão 1)"
+O Vídeo 2 apresenta a Sessão 1 presencial — câmera aberta:
+
     <div align="center">
+
+    <p align="center"><b>Vídeo 2:</b> Sessão 1 Presencial — Câmera Aberta (<a href="https://youtu.be/RUyV443f-ag" target="_blank">https://youtu.be/RUyV443f-ag</a>)</p>
+
     <iframe width="720" height="405" src="https://www.youtube.com/embed/RUyV443f-ag" title="Sessão 1 Presencial - Protótipo de Alta Fidelidade - Leonardo Lopes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
-    <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 2:</b> Sessão 1 Presencial — Câmera Aberta (<a href="https://youtu.be/RUyV443f-ag" target="_blank">https://youtu.be/RUyV443f-ag</a>)</p>
+    <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
     </div>
 
 === "Captura de Tela do Protótipo (Sessão 1)"
+O Vídeo 3 apresenta a Sessão 1 — gravação de tela do protótipo:
+
     <div align="center">
+
+    <p align="center"><b>Vídeo 3:</b> Sessão 1 — Gravação de Tela do Protótipo (<a href="https://youtu.be/HM-tYKEuUUM" target="_blank">https://youtu.be/HM-tYKEuUUM</a>)</p>
+
     <iframe width="720" height="405" src="https://www.youtube.com/embed/HM-tYKEuUUM" title="Sessão 1 Tela - Protótipo de Alta Fidelidade - Leonardo Lopes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
-    <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 3:</b> Sessão 1 — Gravação de Tela do Protótipo (<a href="https://youtu.be/HM-tYKEuUUM" target="_blank">https://youtu.be/HM-tYKEuUUM</a>)</p>
+    <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
     </div>
 
 #### Registros da Sessão 2:
 
 === "Gravação Presencial (Sessão 2)"
+O Vídeo 4 apresenta a Sessão 2 presencial — câmera aberta:
+
     <div align="center">
+
+    <p align="center"><b>Vídeo 4:</b> Sessão 2 Presencial — Câmera Aberta (<a href="https://youtu.be/aBsoiaUf1V4" target="_blank">https://youtu.be/aBsoiaUf1V4</a>)</p>
+
     <iframe width="720" height="405" src="https://www.youtube.com/embed/aBsoiaUf1V4" title="Sessão 2 Presencial - Protótipo de Alta Fidelidade - Leonardo Lopes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
-    <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 4:</b> Sessão 2 Presencial — Câmera Aberta (<a href="https://youtu.be/aBsoiaUf1V4" target="_blank">https://youtu.be/aBsoiaUf1V4</a>)</p>
+    <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
     </div>
 
 === "Captura de Tela do Protótipo (Sessão 2)"
+O Vídeo 5 apresenta a Sessão 2 — gravação de tela do protótipo:
+
     <div align="center">
+
+    <p align="center"><b>Vídeo 5:</b> Sessão 2 — Gravação de Tela do Protótipo (<a href="https://youtu.be/mMSRaf3ob7k" target="_blank">https://youtu.be/mMSRaf3ob7k</a>)</p>
+
     <iframe width="720" height="405" src="https://www.youtube.com/embed/mMSRaf3ob7k" title="Sessão 2 Tela - Protótipo de Alta Fidelidade - Leonardo Lopes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
-    <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Vídeo 5:</b> Sessão 2 — Gravação de Tela do Protótipo (<a href="https://youtu.be/mMSRaf3ob7k" target="_blank">https://youtu.be/mMSRaf3ob7k</a>)</p>
+    <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
     </div>
 
 ---

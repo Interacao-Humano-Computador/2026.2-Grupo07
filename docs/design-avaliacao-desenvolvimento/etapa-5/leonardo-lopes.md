@@ -17,6 +17,8 @@
 
 Este artefato reúne todo o ciclo de **avaliação formativa de Nível 1 (Análise de Tarefas e Storyboard)** conduzido individualmente por **Leonardo da Silva Lopes Júnior** na Etapa 5 do projeto **PCI Concursos**, em conformidade com o framework DECIDE (*Barbosa et al.*, 2021) e o Plano de Ensino da disciplina (*Sales*, 2026).
 
+A Tabela 1 apresenta o resumo do escopo individual de Leonardo da Silva Lopes Júnior:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Leonardo da Silva Lopes Júnior</b></p>
@@ -43,7 +45,11 @@ O Storyboard `SB-04` ilustra a jornada da usuária concurseira utilizando a func
 
 ### 2.1 Ilustração do Storyboard SB-04
 
+A Figura 1 apresenta o storyboard SB-04 — gerenciar calendário pessoal de concursos:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Storyboard SB-04 — Gerenciar Calendário Pessoal de Concursos</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openFullscreenModalSB04()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -57,7 +63,6 @@ O Storyboard `SB-04` ilustra a jornada da usuária concurseira utilizando a func
   </button>
 </div>
 
-<p align="center"><b>Figura 1:</b> Storyboard SB-04 — Gerenciar Calendário Pessoal de Concursos</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Leonardo da Silva Lopes Júnior à mão livre (2026), fundamentado no Cenário 08 e Tarefa 08.</p>
 
 </div>
@@ -124,6 +129,8 @@ Conforme o planejamento das listas de verificação da Etapa 4 e a deliberação
 
 ### 3.1 Identificação das Sessões de Inspeção e Registros em Vídeo
 
+A Tabela 3 apresenta os dados das sessões de inspeção analítica individual:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 3: Dados das Sessões de Inspeção Analítica Individual</b></p>
@@ -146,9 +153,11 @@ Conforme o planejamento das listas de verificação da Etapa 4 e a deliberação
 
 <div align="center">
 
+<p align="center"><b>Vídeo 1:</b> Gravação da Inspeção Analítica dos Diagramas HTA e CTT — TAR-08: Gerenciar Calendário Pessoal de Concursos (Duração: 06m 13s).</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/oyrCPGt06tA" title="Gravação da Inspeção Analítica de Diagramas HTA e CTT - Leonardo Lopes (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação da Inspeção Analítica dos Diagramas HTA e CTT — TAR-08: Gerenciar Calendário Pessoal de Concursos (Duração: 06m 13s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto:</b> <a href="https://youtu.be/oyrCPGt06tA" target="_blank">https://youtu.be/oyrCPGt06tA</a></p>
 
 </div>
@@ -157,9 +166,11 @@ Conforme o planejamento das listas de verificação da Etapa 4 e a deliberação
 
 <div align="center">
 
+<p align="center"><b>Vídeo 2:</b> Gravação da Inspeção Analítica do Storyboard Individual SB-04 — Gerenciar Calendário Pessoal de Concursos (Duração: 03m 23s).</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/Eu2RNdkmNoU" title="Gravação da Inspeção Analítica do Storyboard SB-04 - Leonardo Lopes (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 2:</b> Gravação da Inspeção Analítica do Storyboard Individual SB-04 — Gerenciar Calendário Pessoal de Concursos (Duração: 03m 23s).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto:</b> <a href="https://youtu.be/Eu2RNdkmNoU" target="_blank">https://youtu.be/Eu2RNdkmNoU</a></p>
 
 </div>
@@ -259,6 +270,8 @@ O modelo inspecionado é o [Storyboard SB-04](#2-storyboard-individual-sb-04), e
 
 ### 3.5 Síntese de Oportunidades de Reprojeto para a TAR-08 e SB-04
 
+A Tabela 7 apresenta a síntese de oportunidades de reprojeto identificadas na autoinspeção:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 7: Síntese de Oportunidades de Reprojeto Identificadas na Autoinspeção</b></p>
@@ -281,6 +294,8 @@ O modelo inspecionado é o [Storyboard SB-04](#2-storyboard-individual-sb-04), e
 Conforme as diretrizes de Barbosa et al. (2021, p. 276 e 300), o teste-piloto foi planejado e executado previamente pelo avaliador **Leonardo da Silva Lopes Júnior** com o objetivo de testar os equipamentos, calibrar o roteiro de entrevista, avaliar a legibilidade do Storyboard `SB-04` e dos diagramas da `TAR-08`, e verificar a duração da sessão antes do início formal das entrevistas oficiais.
 
 ### 4.1 Dados da Sessão do Teste-Piloto
+
+A Tabela 8 apresenta os dados técnicos da execução do teste-piloto:
 
 <div align="center" markdown="1">
 
@@ -305,9 +320,11 @@ A gravação completa do teste-piloto individual está disponível na íntegra n
 
 <div align="center">
 
+<p align="center"><b>Vídeo 3:</b> Gravação do Teste-Piloto Individual — Avaliação de Nível 1 (Storyboard SB-04 e TAR-08)</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/fXqm_7aMFGA" title="Gravação do Teste-Piloto de Nível 1 - Leonardo Lopes (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 3:</b> Gravação do Teste-Piloto Individual — Avaliação de Nível 1 (Storyboard SB-04 e TAR-08)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto:</b> <a href="https://youtu.be/fXqm_7aMFGA" target="_blank">https://youtu.be/fXqm_7aMFGA</a></p>
 
 </div>

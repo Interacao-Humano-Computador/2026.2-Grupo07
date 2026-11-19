@@ -19,6 +19,8 @@
 
 Esta página registra a avaliação individual do protótipo de papel de Nível 2 sob responsabilidade de Arthur Sismene Carvalho. O planejamento que a origina está em [Planejamento da Avaliação do Protótipo de Papel](planejamento-avaliacao-prototipo-papel.md), e a estrutura do relato segue o que foi definido em [Planejamento do Relato dos Resultados do Protótipo de Papel](planejamento-relato-prototipo-papel.md).
 
+A Tabela 1 apresenta o resumo do escopo individual de Arthur Sismene Carvalho (Nível 2):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Arthur Sismene Carvalho (Nível 2)</b></p>
@@ -49,22 +51,28 @@ O protótipo é composto por **três telas** desenhadas à mão a caneta, dispos
 
 As três telas cobrem o fluxo completo da TAR-05, da configuração do simulado até a leitura do gabarito comentado.
 
+A Figura 1 apresenta a folha completa do protótipo de papel, com as três telas e as peças móveis posicionadas:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Folha Completa do Protótipo de Papel, com as Três Telas e as Peças Móveis Posicionadas</p>
 
 <img src="../../../assets/images/prototipo-papel/prototipo-papel-arthur-folha-completa.jpg" alt="Folha de papel sulfite com as três telas do protótipo desenhadas à mão lado a lado, no formato de celular, e as quatro peças móveis recortadas posicionadas sobre elas" style="max-width: 95%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 1:</b> Folha Completa do Protótipo de Papel, com as Três Telas e as Peças Móveis Posicionadas</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Arthur Sismene Carvalho à mão livre em papel sulfite (2026).</p>
 
 </div>
 
 ### 2.1 Tela 1: Configuração e Início do Simulado
 
+A Figura 2 apresenta o protótipo de papel, Tela 1 — configuração de matéria, número de questões e tempo:
+
 <div align="center">
+
+<p align="center"><b>Figura 2:</b> Protótipo de Papel, Tela 1 — Configuração de Matéria, Número de Questões e Tempo</p>
 
 <img src="../../../assets/images/prototipo-papel/prototipo-papel-arthur-tela-01.jpg" alt="Tela 1 do protótipo de papel, com o cabeçalho Novo simulado, o seletor de matéria em Português, os chips de 10, 20 e 30 questões, o seletor de tempo em 30 minutos e o botão Iniciar" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 2:</b> Protótipo de Papel, Tela 1 — Configuração de Matéria, Número de Questões e Tempo</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Arthur Sismene Carvalho à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -73,11 +81,14 @@ A tela concentra os três parâmetros do simulado — matéria, número de quest
 
 ### 2.2 Tela 2: Resolução da Questão com Cronômetro
 
+A Figura 3 apresenta o protótipo de papel, Tela 2 — questão, alternativas e navegação entre questões:
+
 <div align="center">
+
+<p align="center"><b>Figura 3:</b> Protótipo de Papel, Tela 2 — Questão, Alternativas e Navegação entre Questões</p>
 
 <img src="../../../assets/images/prototipo-papel/prototipo-papel-arthur-tela-02.jpg" alt="Tela 2 do protótipo de papel, com o contador Questão 3 de 10, o espaço reservado do cronômetro, a barra de progresso, o enunciado, as quatro alternativas com círculo de seleção e os botões Ante e Próx" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 3:</b> Protótipo de Papel, Tela 2 — Questão, Alternativas e Navegação entre Questões</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Arthur Sismene Carvalho à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -86,11 +97,14 @@ A tela concentra os três parâmetros do simulado — matéria, número de quest
 
 ### 2.3 Tela 3: Resultado e Gabarito Comentado
 
+A Figura 4 apresenta o protótipo de papel, Tela 3 — desempenho consolidado e gabarito comentado por questão:
+
 <div align="center">
+
+<p align="center"><b>Figura 4:</b> Protótipo de Papel, Tela 3 — Desempenho Consolidado e Gabarito Comentado por Questão</p>
 
 <img src="../../../assets/images/prototipo-papel/prototipo-papel-arthur-tela-03.jpg" alt="Tela 3 do protótipo de papel, com o total de 7 de 10 acertos e o tempo de 18 minutos, a lista de questões com indicação de acerto ou erro, o espaço reservado do comentário e o botão Refazer erradas" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center"><b>Figura 4:</b> Protótipo de Papel, Tela 3 — Desempenho Consolidado e Gabarito Comentado por Questão</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Arthur Sismene Carvalho à mão livre em papel sulfite (2026).</p>
 
 </div>
@@ -134,7 +148,7 @@ Antes de levar o artefato a qualquer participante, o próprio autor o inspeciono
 | **04** | **Peças móveis** — o artefato permite representar respostas e feedbacks em tempo real | **Sim** | Quatro peças recortadas, descritas na Tabela 2, com espaços reservados tracejados nas telas que as recebem |
 | **05** | **Linguagem do usuário** — os termos refletem o vocabulário do concurseiro | **Sim** | Empregados "simulado", "matéria", "gabarito comentado", "refazer erradas". Evitados termos de sistema como "submeter respostas" ou "sessão de avaliação" |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base nas heurísticas de Nielsen (1993).</p>
 
 </div>
 
@@ -151,6 +165,8 @@ A medida adotada é operacional e fica a cargo do Computador Humano: **manter co
 Conforme Barbosa et al. (2021, p. 276 e 300), o teste-piloto foi conduzido previamente pelo avaliador Arthur Sismene Carvalho com o propósito de calibrar o tempo de condução da sessão, verificar o sincronismo na troca mecânica das peças móveis e conferir a legibilidade das telas desenhadas em vídeo.
 
 ### 4.1 Dados Logísticos do Teste-Piloto
+
+A Tabela 4 apresenta os dados logísticos do teste-piloto do protótipo de papel:
 
 <div align="center" markdown="1">
 
@@ -174,11 +190,15 @@ Conforme Barbosa et al. (2021, p. 276 e 300), o teste-piloto foi conduzido previ
 
 A gravação do teste-piloto com o protótipo de papel está disponível na íntegra a seguir, hospedada no YouTube:
 
+O Vídeo 1 apresenta a gravação do teste-piloto — avaliação do protótipo de papel (TAR-05):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Papel (TAR-05)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/RgzF8ngqAzc" title="Gravação do Teste-Piloto - Protótipo de Papel - Arthur Sismene Carvalho (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Papel (TAR-05)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/RgzF8ngqAzc" target="_blank">https://youtu.be/RgzF8ngqAzc</a></p>
 
 </div>
@@ -213,6 +233,8 @@ A sessão seguiu o definido em [Aspectos Éticos](../../analise-de-requisitos/as
 
 ### 5.2 Registro Audiovisual da Entrevista
 
+A Tabela 6 apresenta o registro audiovisual da sessão do protótipo de papel:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 6: Registro Audiovisual da Sessão do Protótipo de Papel</b></p>
@@ -229,9 +251,11 @@ A gravação da sessão S03 com o participante está disponível na íntegra a s
 
 <div align="center">
 
+<p align="center"><b>Vídeo 2:</b> Gravação da Sessão S03 — Avaliação do Protótipo de Papel (TAR-05)</p>
+
 <iframe width="720" height="405" src="https://www.youtube.com/embed/4fV01RN8s9o" title="Sessão S03 - Protótipo de Papel - Arthur Sismene Carvalho (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 2:</b> Gravação da Sessão S03 — Avaliação do Protótipo de Papel (TAR-05)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Link direto no YouTube:</b> <a href="https://youtu.be/4fV01RN8s9o" target="_blank">https://youtu.be/4fV01RN8s9o</a></p>
 
 </div>

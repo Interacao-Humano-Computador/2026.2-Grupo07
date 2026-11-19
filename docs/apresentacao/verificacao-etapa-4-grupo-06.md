@@ -94,7 +94,7 @@ A Tabela 2 apresenta o instrumento de avaliação dos 10 itens gerais de desenvo
 | 9 | O GitHub Pages do projeto possui vídeo de apresentação publicado na categoria "não listado" no YouTube? | | | |
 | 10 | O GitHub Pages do projeto possui tabela de contribuição no início do artefato, com o nome de todos os integrantes? | | | |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Sales (2026).</p>
 
 </div>
 
@@ -124,7 +124,7 @@ A Tabela 3 detalha a avaliação dos 13 itens de conteúdo da disciplina (itens 
 | 22 | O resultado do teste piloto não será apresentado no resultado da avaliação? | | | |
 | 23 | Os itens que o avaliador deve realizar/anotar durante a avaliação (listar os problemas encontrados, priorizar a correção dos problemas não resolvidos)? | | | |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Sales (2026).</p>
 
 </div>
 
@@ -135,6 +135,8 @@ A Tabela 3 detalha a avaliação dos 13 itens de conteúdo da disciplina (itens 
 Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com base na literatura clássica de IHC (*Interação Humano-Computador e Experiência do Usuário*, BARBOSA et al., 2021; PREECE et al., 2002; MAYHEW, 1999). Cada integrante concebeu e fundamentou 1 item acompanhado de recorte fotográfico da obra, sem se sobrepor aos itens do professor.
 
 ### 7.1 Item 24 — Rigor e Execução do Teste-Piloto
+
+A Tabela 4 apresenta o Item 24 — rigor e execução do teste-piloto:
 
 <div align="center" markdown="1">
 
@@ -153,6 +155,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 
 </div>
 
+A Figura 1 reproduz a referência bibliográfica — o teste-piloto em avaliação de IHC:
+
 <div align="center">
 
 <p align="center"><b>Figura 1: Referência Bibliográfica — O Teste-Piloto em Avaliação de IHC</b></p>
@@ -166,6 +170,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 ---
 
 ### 7.2 Item 25 — Mitigação do Viés de Concordância (*Acquiescence Bias*) na Entrevista
+
+A Tabela 5 apresenta o Item 25 — mitigação do viés de concordância na entrevista:
 
 <div align="center" markdown="1">
 
@@ -184,6 +190,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 
 </div>
 
+A Figura 2 reproduz a referência bibliográfica — o framework DECIDE e condução metodológica:
+
 <div align="center">
 
 <p align="center"><b>Figura 2: Referência Bibliográfica — O Framework DECIDE e Condução Metodológica</b></p>
@@ -197,6 +205,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 ---
 
 ### 7.3 Item 26 — Escala Padronizada de Gravidade e Priorização de Problemas
+
+A Tabela 6 apresenta o Item 26 — escala padronizada de gravidade de problemas:
 
 <div align="center" markdown="1">
 
@@ -215,6 +225,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 
 </div>
 
+A Figura 3 reproduz a referência bibliográfica — consolidação e relato dos resultados:
+
 <div align="center">
 
 <p align="center"><b>Figura 3: Referência Bibliográfica — Consolidação e Relato dos Resultados</b></p>
@@ -228,6 +240,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 ---
 
 ### 7.4 Item 27 — Rastreabilidade entre Amostra de Participantes e Elenco de Personas
+
+A Tabela 7 apresenta o Item 27 — rastreabilidade entre amostra e elenco de personas:
 
 <div align="center" markdown="1">
 
@@ -245,6 +259,8 @@ Esta seção reúne critérios adicionais elaborados pela equipe do Grupo 07 com
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
 
 </div>
+
+A Figura 4 reproduz a referência bibliográfica — coleta de dados sociodemográficos e perfil de usuário:
 
 <div align="center">
 

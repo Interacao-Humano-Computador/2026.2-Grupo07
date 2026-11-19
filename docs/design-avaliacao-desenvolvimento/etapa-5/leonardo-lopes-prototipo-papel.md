@@ -17,6 +17,8 @@
 
 Este artefato reúne o ciclo de **avaliação formativa de Nível 2 (Protótipo de Papel)** conduzido individualmente por **Leonardo da Silva Lopes Júnior** no âmbito do projeto **PCI Concursos**, em conformidade com o framework DECIDE (*Barbosa et al.*, 2021), a técnica de simulação mecânica do Computador Humano (*Snyder*, 2003) e as diretrizes do plano de ensino da disciplina de Interação Humano-Computador (*Sales*, 2026).
 
+A Tabela 1 apresenta o resumo do escopo individual de Leonardo da Silva Lopes Júnior (Nível 2):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Leonardo da Silva Lopes Júnior (Nível 2)</b></p>
@@ -47,7 +49,11 @@ As peças foram construídas para permitir que o participante interaja apontando
 
 A primeira folha apresenta a visão inicial da área de trabalho do concurseiro no portal PCI Concursos. No topo, identifica-se o cabeçalho oficial do sistema e o título **"Área Pessoal / Concursos Salvos"**. Na área central, são exibidos os cards estruturados dos certames já favoritados pela usuária (**TJDF** e **Correios**), contendo ícones de estrela para favoritar e seletores de status de acompanhamento. Na parte inferior, destaca-se o botão de ação primária `[ + Adicionar novos concursos ]`, permitindo enriquecer o calendário com novos certames abertos.
 
+A Figura 1 apresenta o protótipo de papel — Tela 1: área pessoal / concursos salvos:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Protótipo de Papel — Tela 1: Área Pessoal / Concursos Salvos</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP01_Leo()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -62,7 +68,6 @@ A primeira folha apresenta a visão inicial da área de trabalho do concurseiro 
   <a href="../../../assets/images/prototipo-papel/prototipo-papel-leonardo-tela-01.jpg" download="Prototipo_Papel_Tela01_LeonardoLopes.jpg" class="md-button" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; text-decoration: none; background: #475569; color: white;">📥 Baixar Tela 1</a>
 </div>
 
-<p align="center"><b>Figura 1:</b> Protótipo de Papel — Tela 1: Área Pessoal / Concursos Salvos</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Leonardo da Silva Lopes Júnior à mão livre (2026).</p>
 
 </div>
@@ -90,7 +95,11 @@ A segunda folha materializa o painel central da tarefa `TAR-08` (**"Calendário 
    - **Cartão de Conflito de Turno:** `⚠ Prova no mesmo turno`, posicionado mecanicamente sobre a data do calendário caso dois certames tenham aplicação no mesmo domingo e período.
    - **Post-it / Card de Alerta Crítico:** `Alerta: 48H para pagar boleto!!!`, sobreposto pelo simulador mecânico para notificar a usuária quando faltam dois dias para a expiração da taxa de inscrição.
 
+A Figura 2 apresenta o protótipo de papel — Tela 2: calendário pessoal de concursos com linha do tempo, grade mensal e cartões de alerta:
+
 <div align="center">
+
+<p align="center"><b>Figura 2:</b> Protótipo de Papel — Tela 2: Calendário Pessoal de Concursos com Linha do Tempo, Grade Mensal e Cartões de Alerta</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalPP02_Leo()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -105,7 +114,6 @@ A segunda folha materializa o painel central da tarefa `TAR-08` (**"Calendário 
   <a href="../../../assets/images/prototipo-papel/prototipo-papel-leonardo-tela-02.jpg" download="Prototipo_Papel_Tela02_LeonardoLopes.jpg" class="md-button" style="font-size: 0.82em; padding: 5px 16px; border-radius: 20px; text-decoration: none; background: #475569; color: white;">📥 Baixar Tela 2</a>
 </div>
 
-<p align="center"><b>Figura 2:</b> Protótipo de Papel — Tela 2: Calendário Pessoal de Concursos com Linha do Tempo, Grade Mensal e Cartões de Alerta</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Elaborado por Leonardo da Silva Lopes Júnior à mão livre (2026).</p>
 
 </div>

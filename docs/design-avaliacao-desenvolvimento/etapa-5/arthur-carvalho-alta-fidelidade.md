@@ -17,6 +17,8 @@
 
 Esta página registra a avaliação individual do protótipo de alta fidelidade de **Nível 3** sob responsabilidade de Arthur Sismene Carvalho. Ela dá continuidade direta ao que foi levantado em [Avaliação e Relato Individual — Protótipo de Papel](arthur-carvalho-prototipo-papel.md): o protótipo aqui apresentado é a materialização interativa daquele protótipo de papel, já com os dois problemas identificados na sessão empírica corrigidos.
 
+A Tabela 1 apresenta o resumo do escopo individual de Arthur Sismene Carvalho (Nível 3):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 1: Resumo do Escopo Individual de Arthur Sismene Carvalho (Nível 3)</b></p>
@@ -71,7 +73,11 @@ Duas funcionalidades foram acrescentadas sem origem em achado do papel, por deco
 
 A tela reúne os três parâmetros do simulado e um único botão de ação, fixo na faixa inferior ao alcance do polegar. O número de questões é escolhido por *chip*, e não por campo numérico, para evitar o teclado em tela pequena. A faixa de resumo — "Resumo: 10 questões de Português · 30 min" — é atualizada a cada mudança e é anunciada a leitores de tela, atendendo à visibilidade do estado do sistema.
 
+A Figura 1 apresenta o protótipo de alta fidelidade, Tela 1 — configuração de matéria, número de questões e tempo:
+
 <div align="center">
+
+<p align="center"><b>Figura 1:</b> Protótipo de Alta Fidelidade, Tela 1 — Configuração de Matéria, Número de Questões e Tempo</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF01()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -85,7 +91,6 @@ A tela reúne os três parâmetros do simulado e um único botão de ação, fix
   </button>
 </div>
 
-<p align="center"><b>Figura 1:</b> Protótipo de Alta Fidelidade, Tela 1 — Configuração de Matéria, Número de Questões e Tempo</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Captura de tela do protótipo elaborado por Arthur Sismene Carvalho no Lovable (2026).</p>
 
 </div>
@@ -106,7 +111,11 @@ A tela reúne os três parâmetros do simulado e um único botão de ação, fix
 
 O cabeçalho é fixo e concentra três indicadores de estado: a posição na prova ("Questão 1 de 10"), o cronômetro regressivo e a barra de progresso com o número de questões já respondidas. As alternativas são blocos inteiros clicáveis, com altura mínima de 64 px — bem acima do mínimo de 44 px exigido pela plataforma —, o que dispensa a mira fina no indicador circular.
 
+A Figura 2 apresenta o protótipo de alta fidelidade, Tela 2 — questão em aberto, cronômetro e alternativas:
+
 <div align="center">
+
+<p align="center"><b>Figura 2:</b> Protótipo de Alta Fidelidade, Tela 2 — Questão em Aberto, Cronômetro e Alternativas</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF02()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -120,7 +129,6 @@ O cabeçalho é fixo e concentra três indicadores de estado: a posição na pro
   </button>
 </div>
 
-<p align="center"><b>Figura 2:</b> Protótipo de Alta Fidelidade, Tela 2 — Questão em Aberto, Cronômetro e Alternativas</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Captura de tela do protótipo elaborado por Arthur Sismene Carvalho no Lovable (2026).</p>
 
 </div>
@@ -139,7 +147,11 @@ O cabeçalho é fixo e concentra três indicadores de estado: a posição na pro
 
 A caixa de diálogo de encerramento só aparece quando há questões em branco e explicita a consequência da ação antes que ela ocorra. A ação de menor risco — "Continuar respondendo" — fica em primeiro lugar na ordem de leitura.
 
+A Figura 3 apresenta o protótipo de alta fidelidade, Tela 2 — confirmação de encerramento com questões em branco:
+
 <div align="center">
+
+<p align="center"><b>Figura 3:</b> Protótipo de Alta Fidelidade, Tela 2 — Confirmação de Encerramento com Questões em Branco</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF03()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -153,7 +165,6 @@ A caixa de diálogo de encerramento só aparece quando há questões em branco e
   </button>
 </div>
 
-<p align="center"><b>Figura 3:</b> Protótipo de Alta Fidelidade, Tela 2 — Confirmação de Encerramento com Questões em Branco</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Captura de tela do protótipo elaborado por Arthur Sismene Carvalho no Lovable (2026).</p>
 
 </div>
@@ -174,7 +185,11 @@ A caixa de diálogo de encerramento só aparece quando há questões em branco e
 
 A tela abre com a faixa de desempenho — acertos, percentual de aproveitamento, tempo gasto e barra de proporção — e segue com o gabarito comentado em lista expansível. Cada questão exibe o veredito **por escrito** ao lado do ícone: "Acertou", "Errou" ou "Em branco". É a resposta direta ao `OPO-SM02`, em que a sinalização apenas visual do protótipo de papel foi lida como ressalva.
 
+A Figura 4 apresenta o protótipo de alta fidelidade, Tela 3 — faixa de desempenho e lista do gabarito comentado:
+
 <div align="center">
+
+<p align="center"><b>Figura 4:</b> Protótipo de Alta Fidelidade, Tela 3 — Faixa de Desempenho e Lista do Gabarito Comentado</p>
 
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF04()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
@@ -188,7 +203,6 @@ A tela abre com a faixa de desempenho — acertos, percentual de aproveitamento,
   </button>
 </div>
 
-<p align="center"><b>Figura 4:</b> Protótipo de Alta Fidelidade, Tela 3 — Faixa de Desempenho e Lista do Gabarito Comentado</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Captura de tela do protótipo elaborado por Arthur Sismene Carvalho no Lovable (2026).</p>
 
 </div>
@@ -209,6 +223,8 @@ Ao acionar "Ver comentário", a questão se expande e apresenta três blocos dis
 
 <div align="center">
 
+<p align="center"><b>Figura 5:</b> Protótipo de Alta Fidelidade, Tela 3 — Questão Expandida com Alternativa Correta, Resposta Marcada e Comentário</p>
+
 <div style="position: relative; display: inline-block; max-width: 95%;">
   <a href="javascript:void(0)" onclick="openModalAF05()" style="display: block; cursor: zoom-in;" title="Clique na imagem para expandir em Tela Cheia">
     <img id="af05-thumb" src="../../../assets/images/prototipo-alta-fidelidade/af-arthur-gabarito-expandido.png" alt="Questões do gabarito expandidas: bloco verde Alternativa correta com a letra e o texto, Comentário explicativo da questão e, na questão deixada em branco, o bloco vermelho Você deixou esta questão em branco; ao final, os botões Refazer questões erradas e Novo simulado" style="max-width: 100%; height: auto; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
@@ -221,7 +237,6 @@ Ao acionar "Ver comentário", a questão se expande e apresenta três blocos dis
   </button>
 </div>
 
-<p align="center"><b>Figura 5:</b> Protótipo de Alta Fidelidade, Tela 3 — Questão Expandida com Alternativa Correta, Resposta Marcada e Comentário</p>
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Captura de tela do protótipo elaborado por Arthur Sismene Carvalho no Lovable (2026).</p>
 
 </div>
@@ -275,7 +290,7 @@ Antes de levar o protótipo a qualquer participante, foi feita uma inspeção an
 | **7** | **Critérios de plataforma do grupo** | Funciona a partir de 320 px sem rolagem horizontal; alvos de toque a partir de 44 px, com as alternativas em 64 px; corpo de texto em 16 px | **Sim** |
 | **8** | **Contraste mínimo de 4,5:1 para texto** (ISO/IEC 9241-11) | O âmbar do cronômetro em estado de alerta fica em **3,9:1** sobre seu próprio fundo. A relação só é aceitável por se tratar de texto grande em negrito, e não atinge o patamar adotado no restante da interface | **Parcial** |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026), com base nas heurísticas de Nielsen (1993).</p>
 
 </div>
 
@@ -288,6 +303,8 @@ O item 8 é o único em desacordo e foi registrado antes das sessões, para que 
 Em conformidade com Barbosa *et al.* (2021, p. 276 e 300), o teste-piloto foi executado presencialmente antes das sessões definitivas para calibrar o roteiro de tarefas, verificar o tempo médio de interação em meio digital e validar a captação de áudio e tela.
 
 ### 4.1 Dados Logísticos do Teste-Piloto
+
+A Tabela 4 apresenta os dados logísticos do teste-piloto:
 
 <div align="center" markdown="1">
 
@@ -310,19 +327,25 @@ Em conformidade com Barbosa *et al.* (2021, p. 276 e 300), o teste-piloto foi ex
 
 A gravação do teste-piloto está disponível na íntegra a seguir, hospedada no YouTube:
 
+O Vídeo 1 apresenta a gravação do teste-piloto — avaliação do protótipo de alta fidelidade:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/6dCESeNs3EE" target="_blank">https://youtu.be/6dCESeNs3EE</a>)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/6dCESeNs3EE" title="Gravação do Teste-Piloto - Protótipo de Alta Fidelidade - Arthur Sismene Carvalho (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/6dCESeNs3EE" target="_blank">https://youtu.be/6dCESeNs3EE</a>)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
 
 <div align="center">
 
+<p align="center"><b>Vídeo 1 (complementar):</b> Gravação de tela do dispositivo durante o teste-piloto — iPhone 15 Pro Max, 52 s (<a href="https://youtube.com/shorts/Yzw_y7gRBPA" target="_blank">https://youtube.com/shorts/Yzw_y7gRBPA</a>)</p>
+
 <iframe width="340" height="605" src="https://www.youtube.com/embed/Yzw_y7gRBPA" title="Gravação de tela (iPhone 15 Pro Max) - Teste-Piloto - Protótipo de Alta Fidelidade - Arthur Sismene Carvalho (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 1 (complementar):</b> Gravação de tela do dispositivo durante o teste-piloto — iPhone 15 Pro Max, 52 s (<a href="https://youtube.com/shorts/Yzw_y7gRBPA" target="_blank">https://youtube.com/shorts/Yzw_y7gRBPA</a>)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
 
@@ -354,6 +377,8 @@ Todos os participantes receberam, antes do início, o esclarecimento sobre o obj
 
 ### 5.2 Registro Audiovisual das Sessões Presenciais
 
+A Tabela 6 apresenta o registro das sessões presenciais:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 6: Registro das Sessões Presenciais</b></p>
@@ -366,11 +391,15 @@ Todos os participantes receberam, antes do início, o esclarecimento sobre o obj
 
 </div>
 
+O Vídeo 2 apresenta a gravação da Sessão 1 — avaliação do protótipo de alta fidelidade:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 2:</b> Gravação da Sessão 1 — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/KS8WGJiboIA" target="_blank">https://youtu.be/KS8WGJiboIA</a>)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/KS8WGJiboIA" title="Sessão 1 - Protótipo de Alta Fidelidade - Arthur Sismene Carvalho (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
-<p align="center"><b>Vídeo 2:</b> Gravação da Sessão 1 — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/KS8WGJiboIA" target="_blank">https://youtu.be/KS8WGJiboIA</a>)</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
 ### 5.3 Desempenho nas Tarefas e Feedbacks Coletados
@@ -445,6 +474,8 @@ Com um único participante, os achados acima são indícios qualitativos. Indepe
 
 ### 6.7 Síntese dos Achados e Encaminhamentos de Reprojeto
 
+A Tabela 10 apresenta a síntese dos achados da avaliação do protótipo de alta fidelidade:
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 10: Síntese dos Achados da Avaliação do Protótipo de Alta Fidelidade</b></p>
@@ -458,6 +489,8 @@ Com um único participante, os achados acima são indícios qualitativos. Indepe
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
+
+A Tabela 11 apresenta o cronograma de reprojeto:
 
 <div align="center" markdown="1">
 

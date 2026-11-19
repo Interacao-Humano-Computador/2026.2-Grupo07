@@ -88,7 +88,7 @@ Tabela padronizada que confronta o comportamento real do usuário com o resultad
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | `OPO-PP01` | *Tela ou componente onde ocorreu* | *O que o participante fez ou disse* | *O que a interface esperava que ele fizesse/entendesse* | *Ação de reprojeto proposta para a alta fidelidade* | *Usuário / Avaliador* |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026), padronizado com Barbosa et al. (2021).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), padronizado com Barbosa et al. (2021).</p>
 
 </div>
 
@@ -111,6 +111,8 @@ Cada problema ou oportunidade receberá uma ficha analítica com os cinco atribu
 
 Para padronizar a priorização dos ajustes na Etapa 6, a severidade dos problemas relatados seguirá a escala clássica de Jakob Nielsen (1993), adotada por Barbosa e Silva (2021, p. 305):
 
+A Tabela 2 apresenta a escala de severidade de problemas de usabilidade (Nielsen, 1993):
+
 <div align="center" markdown="1">
 
 <p align="center"><b>Tabela 2: Escala de Severidade de Problemas de Usabilidade (Nielsen, 1993)</b></p>
@@ -123,7 +125,7 @@ Para padronizar a priorização dos ajustes na Etapa 6, a severidade dos problem
 | **3 – Grave (Grande)** | Dificulta substancialmente o fluxo da tarefa, induz a erros repetidos e gera frustração evidente. | Alta prioridade; correção obrigatória antes da implementação. |
 | **4 – Catastrófico** | Impede totalmente a conclusão da tarefa pelo usuário (bloqueio do fluxo ou abandono). | Correção crítica e mandatória imediata. |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026), adaptado de Nielsen (1993) e Barbosa e Silva (2021).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de Nielsen (1993) e Barbosa e Silva (2021).</p>
 
 </div>
 
@@ -144,7 +146,7 @@ O relato dos resultados deverá culminar em uma agenda clara de implementação 
 | `REP-03` | *(Ex.: Adicionar controles de ordenação de colunas)* | Problema OPO-D02 | Arthur Carvalho | 31/10/2026 |
 | `REP-04` | *(Ex.: Inserir botão de fechamento da matriz comparativa)* | Problema OPO-D03 | Leonardo Lopes | 01/11/2026 |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Autores (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
 </div>
 

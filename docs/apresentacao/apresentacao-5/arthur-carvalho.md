@@ -20,7 +20,11 @@ Esta página reúne a gravação em vídeo da **Apresentação Individual da Eta
 
 O vídeo a seguir sintetiza a autoinspeção analítica com listas de verificação, a calibração por teste-piloto e as entrevistas empíricas com usuários reais para a Tarefa `TAR-05` e o Storyboard `SB-03`. Caso não seja possível reproduzir o player incorporado, acesse pelo link direto: [Apresentação Individual no YouTube (07m 13s)](https://youtu.be/KZMoZYpHLv0).
 
+O Vídeo 1 registra a apresentação individual da Etapa 5 — Arthur Sismene Carvalho (duração: 07m 13s):
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Apresentação Individual da Etapa 5 — Arthur Sismene Carvalho (Duração: 07m 13s).</p>
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/KZMoZYpHLv0"
@@ -30,7 +34,7 @@ O vídeo a seguir sintetiza a autoinspeção analítica com listas de verificaç
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Vídeo 1:</b> Apresentação Individual da Etapa 5 — Arthur Sismene Carvalho (Duração: 07m 13s). <b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
 </div>
 

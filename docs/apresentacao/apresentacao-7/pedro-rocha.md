@@ -19,7 +19,11 @@ Esta página reúne a gravação em vídeo da **Apresentação Individual da Eta
 
 O vídeo a seguir documenta o protótipo de alta fidelidade do Cronograma de Estudo desenvolvido no Lovable, o teste-piloto, as três sessões de teste de usabilidade com usuários reais e os resultados obtidos. Caso não seja possível reproduzir o player incorporado, acesse pelo link direto: [Apresentação da Etapa 07 no YouTube](https://youtu.be/mYor0_uaqmo).
 
+O Vídeo 1 registra a apresentação individual da Etapa 7 — Pedro Rocha Ferreira Lima:
+
 <div align="center">
+
+<p align="center"><b>Vídeo 1:</b> Apresentação Individual da Etapa 7 — Pedro Rocha Ferreira Lima.</p>
 
 <iframe width="720" height="405"
   src="https://www.youtube.com/embed/mYor0_uaqmo"
@@ -29,7 +33,7 @@ O vídeo a seguir documenta o protótipo de alta fidelidade do Cronograma de Est
   allowfullscreen>
 </iframe>
 
-<p align="center" style="margin-top: 0.4em; font-size: 0.85em;"><b>Vídeo 1:</b> Apresentação Individual da Etapa 7 — Pedro Rocha Ferreira Lima. <b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
