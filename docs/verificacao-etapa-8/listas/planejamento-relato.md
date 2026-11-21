@@ -1,0 +1,243 @@
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| **Daniel da Silva Batista** | Elaboração dos itens RL-01 a RL-05, recortes do livro. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens RL-06 a RL-10 *(pendente)*. |
+| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens RL-11 a RL-15 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens RL-16 a RL-20 *(pendente)*. |
+| **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+# Lista de Verificação de Planejamento do Relato dos Resultados
+
+## 1. Introdução
+
+O **planejamento do relato dos resultados** define, antes da avaliação, como os resultados serão consolidados e apresentados: quais informações o relato vai conter, como os problemas serão listados e priorizados e como o reprojeto será planejado (BARBOSA et al., 2021).
+
+Esta é a **primeira versão (v1)** desta lista, elaborada para a [Verificação da Etapa 8](../index.md), conduzida pelo método de inspeção de Fagan (FAGAN, 1976). Ela será aplicada, no passo de inspeção, aos seguintes artefatos do projeto:
+
+* [Planejamento do Relato da Análise de Tarefas](../../design-avaliacao-desenvolvimento/resultado-analise-de-tarefas.md)
+* [Planejamento do Relato dos Resultados do Storyboard](../../design-avaliacao-desenvolvimento/planejamento-relato-resultados-storyboard.md)
+* [Planejamento do Relato do Protótipo de Papel](../../design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-prototipo-papel.md)
+* [Planejamento do Relato do Protótipo de Alta Fidelidade](../../design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-alta-fidelidade.md)
+
+A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+
+## 2. Critérios de Julgamento
+
+Cada item admite uma única resposta:
+
+* **Sim** — o artefato atende integralmente ao que a pergunta descreve;
+* **Não** — o artefato não atende ao que a pergunta descreve ou não apresenta a informação;
+* **Incompleto** — o artefato atende apenas em parte (por exemplo, em alguns quadros, tarefas ou participantes, mas não em todos).
+
+## 3. Itens de Verificação
+
+A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Planejamento do Relato dos Resultados:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 1: Itens da Lista de Verificação de Planejamento do Relato dos Resultados</b></p>
+
+| ID | Pergunta de verificação | Autor | Fonte |
+| :---: | :--- | :--- | :--- |
+| **RL-01** | O planejamento prevê que o relato informe os objetivos e o escopo da avaliação (o que foi avaliado e com que finalidade)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
+| **RL-02** | O planejamento prevê que o relato informe o método usado e o número e o perfil dos participantes e dos avaliadores? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
+| **RL-03** | O planejamento prevê um resumo dos dados coletados em tabelas ou gráficos (por exemplo, tempo e sucesso de cada participante em cada tarefa)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
+| **RL-04** | O planejamento prevê uma lista dos problemas encontrados e um plano de reprojeto (as mudanças que serão feitas no artefato por causa desses problemas)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
+| **RL-05** | O planejamento prevê consolidar os resultados de todos os participantes, destacando os problemas que se repetiram entre eles (e não apenas casos isolados de um participante)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
+| **RL-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **RL-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **RL-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **RL-09** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **RL-10** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **RL-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
+| **RL-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
+| **RL-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
+| **RL-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
+| **RL-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
+| **RL-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+
+</div>
+
+## 4. Detalhamento dos Itens
+
+### 4.1 RL-01 — Objetivos e escopo no relato
+
+A Tabela 2 apresenta o item RL-01:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 2: Item RL-01 — Objetivos e escopo no relato</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê que o relato informe os objetivos e o escopo da avaliação (o que foi avaliado e com que finalidade)? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 1 reproduz o trecho do livro que fundamenta o item RL-01:
+
+<div align="center">
+
+<p align="center"><b>Figura 1: Referência Bibliográfica — Item RL-01 (Objetivos e escopo no relato)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/rl-01.png" alt="Trecho do livro que fundamenta o item RL-01" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.2 RL-02 — Método e participantes no relato
+
+A Tabela 3 apresenta o item RL-02:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 3: Item RL-02 — Método e participantes no relato</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê que o relato informe o método usado e o número e o perfil dos participantes e dos avaliadores? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 2 reproduz o trecho do livro que fundamenta o item RL-02:
+
+<div align="center">
+
+<p align="center"><b>Figura 2: Referência Bibliográfica — Item RL-02 (Método e participantes no relato)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/rl-02.png" alt="Trecho do livro que fundamenta o item RL-02" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.3 RL-03 — Resumo dos dados coletados
+
+A Tabela 4 apresenta o item RL-03:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 4: Item RL-03 — Resumo dos dados coletados</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê um resumo dos dados coletados em tabelas ou gráficos (por exemplo, tempo e sucesso de cada participante em cada tarefa)? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 3 reproduz o trecho do livro que fundamenta o item RL-03:
+
+<div align="center">
+
+<p align="center"><b>Figura 3: Referência Bibliográfica — Item RL-03 (Resumo dos dados coletados)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/rl-03.png" alt="Trecho do livro que fundamenta o item RL-03" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.4 RL-04 — Lista de problemas e reprojeto
+
+A Tabela 5 apresenta o item RL-04:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 5: Item RL-04 — Lista de problemas e reprojeto</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê uma lista dos problemas encontrados e um plano de reprojeto (as mudanças que serão feitas no artefato por causa desses problemas)? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 4 reproduz o trecho do livro que fundamenta o item RL-04:
+
+<div align="center">
+
+<p align="center"><b>Figura 4: Referência Bibliográfica — Item RL-04 (Lista de problemas e reprojeto)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/rl-04.png" alt="Trecho do livro que fundamenta o item RL-04" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.5 RL-05 — Consolidação e recorrências
+
+A Tabela 6 apresenta o item RL-05:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 6: Item RL-05 — Consolidação e recorrências</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê consolidar os resultados de todos os participantes, destacando os problemas que se repetiram entre eles (e não apenas casos isolados de um participante)? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 5 reproduz o trecho do livro que fundamenta o item RL-05:
+
+<div align="center">
+
+<p align="center"><b>Figura 5: Referência Bibliográfica — Item RL-05 (Consolidação e recorrências)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/rl-05.png" alt="Trecho do livro que fundamenta o item RL-05" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+> *Os itens RL-06 a RL-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+
+## 5. Referências Bibliográficas
+
+> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
+> [2] FAGAN, Michael E. Design and code inspections to reduce errors in program development. *IBM Systems Journal*, v. 15, n. 3, p. 182-211, 1976.  
+> [3] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: FCTE/UnB, 2026.
+
+## 6. Histórico de Versões
+
+<div align="center" markdown="1">
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :---: | :---: |
+| `1.0` | 21/11/2026 | Criação da lista (v1): itens RL-01 a RL-05, com fonte por página e recorte do livro; itens RL-06 a RL-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+
+</div>

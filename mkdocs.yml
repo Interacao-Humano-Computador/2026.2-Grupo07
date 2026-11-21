@@ -123,6 +123,21 @@ nav:
       - Etapa 4 – Grupo 07 (Autoavaliação): apresentacao/verificacao-etapa-4-grupo-07.md
       - Etapa 4 – Grupo 06 (Grupo -1): apresentacao/verificacao-etapa-4-grupo-06.md
       - Etapa 6 – Grupo 05: apresentacao/verificacao-etapa-6-grupo-05.md
+      - Etapa 8 – Inspeção de Fagan:
+          - Método e Planejamento: verificacao-etapa-8/index.md
+          - Listas de Verificação:
+              - HTA (v2): verificacao-etapa-8/listas/hta-v2.md
+              - CTT (v2): verificacao-etapa-8/listas/ctt-v2.md
+              - Storyboard (v2): verificacao-etapa-8/listas/storyboard-v2.md
+              - Protótipo de Papel (v2): verificacao-etapa-8/listas/prototipo-papel-v2.md
+              - Protótipo de Alta Fidelidade (v2): verificacao-etapa-8/listas/prototipo-alta-fidelidade-v2.md
+              - Planejamento da Avaliação: verificacao-etapa-8/listas/planejamento-avaliacao.md
+              - Planejamento do Relato: verificacao-etapa-8/listas/planejamento-relato.md
+              - Teste-Piloto: verificacao-etapa-8/listas/teste-piloto.md
+              - Teste de Usabilidade: verificacao-etapa-8/listas/teste-usabilidade.md
+              - Perfil de Usuário: verificacao-etapa-8/listas/perfil-usuario.md
+              - Personas: verificacao-etapa-8/listas/personas.md
+              - Cenários: verificacao-etapa-8/listas/cenarios.md
   - Apresentações:
       - Apresentação 1: apresentacao/apresentacao-1.md
       - Apresentação 3: apresentacao/apresentacao-3.md
