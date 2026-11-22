@@ -236,5 +236,4 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item PE-05:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens PE-01 a PE-05, com fonte por página e recorte do livro; itens PE-06 a PE-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
-
 </div>

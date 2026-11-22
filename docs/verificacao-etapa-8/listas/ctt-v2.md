@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens CTT-01 a CTT-05, revisão dos itens da v1 e recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens CTT-06 a CTT-10 *(pendente)*. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens CTT-06 a CTT-10, reescritos a partir dos itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página. |
 | **Leonardo da Silva Lopes Júnior** | Elaboração dos itens CTT-11 a CTT-15 *(pendente)*. |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens CTT-16 a CTT-20 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
@@ -49,11 +49,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de C
 | **CTT-03** | As tarefas vizinhas (lado a lado, no mesmo nível da árvore) estão ligadas por um operador que indica a relação de tempo entre elas (por exemplo, ">>": a segunda só começa quando a primeira termina)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 200) |
 | **CTT-04** | Quando uma tarefa entrega dados para a seguinte (por exemplo, os filtros escolhidos são usados na busca), o diagrama usa "[]>>" (ativação com passagem de informação) em vez de apenas ">>"? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 200) |
 | **CTT-05** | O cancelamento definitivo de uma tarefa usa "[>" (desativação: a tarefa interrompida não volta) e a pausa com retorno usa "|>" (suspensão/retomada: a tarefa continua de onde parou)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 200) |
-| **CTT-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **CTT-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **CTT-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **CTT-09** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **CTT-10** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **CTT-06** | Quando o usuário pode seguir por caminhos alternativos (uma opção ou outra), as tarefas estão ligadas pelo operador de escolha "[ ]" (ao iniciar uma, a outra deixa de estar disponível naquele ciclo)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 200) |
+| **CTT-07** | Tarefas que podem ser feitas ao mesmo tempo ou em qualquer ordem, sem depender de dados uma da outra, estão ligadas pelo operador de concorrência "\|\|\|"? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 200) |
+| **CTT-08** | Quando tarefas paralelas precisam trocar informação entre si durante a execução, essa troca está indicada pelo operador de concorrência com comunicação "\|[ ]\|"? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 200) |
+| **CTT-09** | Tarefas que podem ser feitas em qualquer ordem, mas não ao mesmo tempo (uma vez iniciada, termina antes de a outra começar), usam o operador de independência "\|=\|"? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 200) |
+| **CTT-10** | Como a notação do CTT não detalha bem a prevenção e o tratamento de erros, esses casos de exceção estão registrados em um material complementar (tabela analítica, HTA ou cenários)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 201) |
 | **CTT-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **CTT-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **CTT-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -226,15 +226,170 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item CTT-05:
 
 </div>
 
-> *Os itens CTT-06 a CTT-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.6 CTT-06 — Operador de escolha entre caminhos alternativos
 
-## 5. Correspondência com a v1
-
-A Tabela 7 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+A Tabela 7 apresenta o item CTT-06:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 7: Correspondência entre os Itens da v1 e da v2</b></p>
+<p align="center"><b>Tabela 7: Item CTT-06 — Operador de escolha entre caminhos alternativos</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Quando o usuário pode seguir por caminhos alternativos (uma opção ou outra), as tarefas estão ligadas pelo operador de escolha "[ ]" (ao iniciar uma, a outra deixa de estar disponível naquele ciclo)? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 200) |
+| **Origem na v1** | CTT-04 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 6 reproduz o trecho do livro que fundamenta o item CTT-06:
+
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item CTT-06 (Operador de escolha entre caminhos alternativos)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ctt-06.png" alt="Trecho do livro que fundamenta o item CTT-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 200).</p>
+
+</div>
+
+### 4.7 CTT-07 — Operador de concorrência sem comunicação
+
+A Tabela 8 apresenta o item CTT-07:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Item CTT-07 — Operador de concorrência sem comunicação</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Tarefas que podem ser feitas ao mesmo tempo ou em qualquer ordem, sem depender de dados uma da outra, estão ligadas pelo operador de concorrência "\|\|\|"? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 200) |
+| **Origem na v1** | CTT-05 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 7 reproduz o trecho do livro que fundamenta o item CTT-07:
+
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item CTT-07 (Operador de concorrência sem comunicação)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ctt-07.png" alt="Trecho do livro que fundamenta o item CTT-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 200).</p>
+
+</div>
+
+### 4.8 CTT-08 — Operador de concorrência com comunicação
+
+A Tabela 9 apresenta o item CTT-08:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Item CTT-08 — Operador de concorrência com comunicação</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Quando tarefas paralelas precisam trocar informação entre si durante a execução, essa troca está indicada pelo operador de concorrência com comunicação "\|[ ]\|"? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 200) |
+| **Origem na v1** | CTT-06 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 8 reproduz o trecho do livro que fundamenta o item CTT-08:
+
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item CTT-08 (Operador de concorrência com comunicação)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ctt-08.png" alt="Trecho do livro que fundamenta o item CTT-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 200).</p>
+
+</div>
+
+### 4.9 CTT-09 — Operador de independência de ordem
+
+A Tabela 10 apresenta o item CTT-09:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Item CTT-09 — Operador de independência de ordem</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Tarefas que podem ser feitas em qualquer ordem, mas não ao mesmo tempo (uma vez iniciada, termina antes de a outra começar), usam o operador de independência "\|=\|"? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 200) |
+| **Origem na v1** | CTT-07 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 9 reproduz o trecho do livro que fundamenta o item CTT-09:
+
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item CTT-09 (Operador de independência de ordem)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ctt-09.png" alt="Trecho do livro que fundamenta o item CTT-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 200).</p>
+
+</div>
+
+### 4.10 CTT-10 — Exceções e erros em material complementar
+
+A Tabela 11 apresenta o item CTT-10:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Item CTT-10 — Exceções e erros em material complementar</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Como a notação do CTT não detalha bem a prevenção e o tratamento de erros, esses casos de exceção estão registrados em um material complementar (tabela analítica, HTA ou cenários)? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 201) |
+| **Origem na v1** | CTT-10 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 10 reproduz o trecho do livro que fundamenta o item CTT-10:
+
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item CTT-10 (Exceções e erros em material complementar)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ctt-10.png" alt="Trecho do livro que fundamenta o item CTT-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 201).</p>
+
+</div>
+
+> *Os itens CTT-11 a CTT-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+
+## 5. Correspondência com a v1
+
+A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 12: Correspondência entre os Itens da v1 e da v2</b></p>
 
 | Item v2 | Origem na v1 | O que mudou |
 | :---: | :---: | :--- |
@@ -243,6 +398,11 @@ A Tabela 7 apresenta, para cada item da v2 já elaborado, o item de origem na v1
 | **CTT-03** | [CTT-09](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Mantida só a exigência do operador entre tarefas vizinhas; a parte de opcionalidade e iteração saiu por não estar no livro. |
 | **CTT-04** | [CTT-03](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Foco em um único operador, com exemplo do projeto. |
 | **CTT-05** | [CTT-08](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Significado de cada operador entre parênteses. |
+| **CTT-06** | [CTT-04](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Explica o operador de escolha e o seu efeito. |
+| **CTT-07** | [CTT-05](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Explica o operador de concorrência em linguagem simples. |
+| **CTT-08** | [CTT-06](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Explica a concorrência com comunicação e quando usá-la. |
+| **CTT-09** | [CTT-07](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Explica o operador de independência (ordem livre, sem sobreposição). |
+| **CTT-10** | [CTT-10](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Mantém a exigência de documentar erros/exceções em material complementar. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -263,5 +423,6 @@ Na v1, os tipos de tarefa eram atribuídos à "Figura 8.3" e as relações à "F
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da v2 da lista: itens CTT-01 a CTT-05 reescritos a partir da v1, com fonte por página e recorte do livro; itens CTT-06 a CTT-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+| `1.1` | 22/11/2026 | Elaboração dos itens CTT-06 a CTT-10, reescritos a partir dos itens v1 CTT-04, 05, 06, 07 e 10; recortes do livro adicionados. | Arthur Sismene Carvalho | — |
 
 </div>

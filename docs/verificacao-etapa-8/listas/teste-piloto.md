@@ -237,5 +237,4 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item TP-05:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens TP-01 a TP-05, com fonte por página e recorte do livro; itens TP-06 a TP-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
-
 </div>

@@ -239,5 +239,4 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item RL-05:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens RL-01 a RL-05, com fonte por página e recorte do livro; itens RL-06 a RL-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
-
 </div>

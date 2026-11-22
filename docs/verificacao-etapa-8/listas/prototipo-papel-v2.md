@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PP-01 a PP-05, revisão dos itens da v1 e recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens PP-06 a PP-10 *(pendente)*. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens PP-06 a PP-10 (reaproveitando itens da autoinspeção do protótipo de papel e dois itens complementares do livro), com fonte por página. |
 | **Leonardo da Silva Lopes Júnior** | Elaboração dos itens PP-11 a PP-15 *(pendente)*. |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens PP-16 a PP-20 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
@@ -52,11 +52,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PP-03** | Nas sessões, um avaliador fez o papel de "computador" (trocando as peças de papel conforme as ações do participante, sem dar explicações) e outro avaliador observou e anotou os problemas? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 340) |
 | **PP-04** | O relato lista os problemas encontrados em cada sessão e as correções simples feitas no protótipo antes da sessão seguinte? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 342) |
 | **PP-05** | Os problemas que não foram corrigidos estão priorizados pela gravidade (o quanto atrapalharam a tarefa) e pela frequência (quantos participantes tiveram o problema), com uma sugestão de correção para cada um? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 342) |
-| **PP-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PP-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PP-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PP-09** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PP-10** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **PP-06** | Os elementos interativos do protótipo (campos, botões e caixas de seleção) deixam claro, pela aparência, o que a pessoa pode fazer com cada um (a forma do elemento sugere a ação)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 341) |
+| **PP-07** | A sequência de telas em papel cobre o fluxo completo das tarefas principais do projeto, do início ao fim (por exemplo, da busca à exportação), sem telas faltando? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 340) |
+| **PP-08** | O protótipo foi construído de forma que a interface se comunique sozinha — tudo o que o usuário precisa saber para completar as tarefas está representado nas telas, sem que o avaliador precise dar explicações durante a sessão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 341) |
+| **PP-09** | Os participantes das sessões têm o perfil do público-alvo do sistema e não fizeram parte da criação do protótipo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 340) |
+| **PP-10** | As tarefas foram apresentadas ao participante como situações de uso (cenários) para ele realizar por conta própria, sem que o avaliador ensinasse o caminho? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 341) |
 | **PP-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PP-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PP-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -229,15 +229,170 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item PP-05:
 
 </div>
 
-> *Os itens PP-06 a PP-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.6 PP-06 — Affordances dos elementos interativos
 
-## 5. Correspondência com a v1
-
-A Tabela 7 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+A Tabela 7 apresenta o item PP-06:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 7: Correspondência entre os Itens da v1 e da v2</b></p>
+<p align="center"><b>Tabela 7: Item PP-06 — Affordances dos elementos interativos</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Os elementos interativos do protótipo (campos, botões e caixas de seleção) deixam claro, pela aparência, o que a pessoa pode fazer com cada um (a forma do elemento sugere a ação)? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 341) |
+| **Origem na v1** | Item 2 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 6 reproduz o trecho do livro que fundamenta o item PP-06:
+
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item PP-06 (Affordances dos elementos interativos)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pp-06.png" alt="Trecho do livro que fundamenta o item PP-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 341).</p>
+
+</div>
+
+### 4.7 PP-07 — Cobertura do fluxo completo de tarefas
+
+A Tabela 8 apresenta o item PP-07:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Item PP-07 — Cobertura do fluxo completo de tarefas</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | A sequência de telas em papel cobre o fluxo completo das tarefas principais do projeto, do início ao fim (por exemplo, da busca à exportação), sem telas faltando? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 340) |
+| **Origem na v1** | Item 3 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 7 reproduz o trecho do livro que fundamenta o item PP-07:
+
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item PP-07 (Cobertura do fluxo completo de tarefas)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pp-07.png" alt="Trecho do livro que fundamenta o item PP-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 340).</p>
+
+</div>
+
+### 4.8 PP-08 — Interface autoexplicativa na sessão
+
+A Tabela 9 apresenta o item PP-08:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Item PP-08 — Interface autoexplicativa na sessão</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O protótipo foi construído de forma que a interface se comunique sozinha — tudo o que o usuário precisa saber para completar as tarefas está representado nas telas, sem que o avaliador precise dar explicações durante a sessão? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 341) |
+| **Origem na v1** | Item 5 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 8 reproduz o trecho do livro que fundamenta o item PP-08:
+
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item PP-08 (Interface autoexplicativa na sessão)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pp-08.png" alt="Trecho do livro que fundamenta o item PP-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 341).</p>
+
+</div>
+
+### 4.9 PP-09 — Perfil dos participantes das sessões
+
+A Tabela 10 apresenta o item PP-09:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Item PP-09 — Perfil dos participantes das sessões</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Os participantes das sessões têm o perfil do público-alvo do sistema e não fizeram parte da criação do protótipo? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 340) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 9 reproduz o trecho do livro que fundamenta o item PP-09:
+
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item PP-09 (Perfil dos participantes das sessões)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pp-09.png" alt="Trecho do livro que fundamenta o item PP-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 340).</p>
+
+</div>
+
+### 4.10 PP-10 — Tarefas apresentadas como cenários
+
+A Tabela 11 apresenta o item PP-10:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Item PP-10 — Tarefas apresentadas como cenários</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | As tarefas foram apresentadas ao participante como situações de uso (cenários) para ele realizar por conta própria, sem que o avaliador ensinasse o caminho? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 341) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 10 reproduz o trecho do livro que fundamenta o item PP-10:
+
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item PP-10 (Tarefas apresentadas como cenários)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pp-10.png" alt="Trecho do livro que fundamenta o item PP-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 341).</p>
+
+</div>
+
+> *Os itens PP-11 a PP-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+
+## 5. Correspondência com a v1
+
+A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 12: Correspondência entre os Itens da v1 e da v2</b></p>
 
 | Item v2 | Origem na v1 | O que mudou |
 | :---: | :---: | :--- |
@@ -246,6 +401,11 @@ A Tabela 7 apresenta, para cada item da v2 já elaborado, o item de origem na v1
 | **PP-03** | Item novo | Item novo: a v1 não verificava a condução da simulação. |
 | **PP-04** | Item novo | Item novo: a v1 não verificava o registro dos problemas. |
 | **PP-05** | Item novo | Item novo: a v1 não verificava a priorização. |
+| **PP-06** | [Item 2](../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-prototipo-papel.md#3-autoinspecao-analitica-do-prototipo-de-papel) | A autoinspeção ("affordances") vira pergunta objetiva, explicando o termo. |
+| **PP-07** | [Item 3](../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-prototipo-papel.md#3-autoinspecao-analitica-do-prototipo-de-papel) | Generaliza a cobertura do fluxo para as tarefas principais, com exemplo. |
+| **PP-08** | [Item 5](../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-prototipo-papel.md#3-autoinspecao-analitica-do-prototipo-de-papel) | Reescrito para o conceito que p.341 efetivamente registra: a interface deve ser autoexplicativa (o avaliador não dá explicações durante a sessão). |
+| **PP-09** | Item novo | Item novo: a v1 não verificava o perfil dos participantes. |
+| **PP-10** | Item novo | Item novo: a v1 não verificava como as tarefas eram apresentadas. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -266,5 +426,6 @@ As listas v1 eram as autoinspeções feitas em cada relato individual, baseadas 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da v2 da lista: itens PP-01 a PP-05 reescritos a partir da v1, com fonte por página e recorte do livro; itens PP-06 a PP-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+| `1.1` | 22/11/2026 | Elaboração dos itens PP-06 a PP-10 (autoinspeção itens 2, 3 e 5 + dois itens complementares); recortes do livro adicionados. | Arthur Sismene Carvalho | — |
 
 </div>

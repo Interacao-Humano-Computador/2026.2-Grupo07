@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens SB-01 a SB-05, revisão dos itens da v1 e recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens SB-06 a SB-10 *(pendente)*. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens SB-06 a SB-10, reescritos a partir de itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página. |
 | **Leonardo da Silva Lopes Júnior** | Elaboração dos itens SB-11 a SB-15 *(pendente)*. |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens SB-16 a SB-20 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
@@ -52,11 +52,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de S
 | **SB-03** | Os desenhos mostram detalhes que o cenário escrito não traz, como onde a pessoa está, qual aparelho usa e como reage? | Daniel da Silva Batista | PREECE, ROGERS e SHARP (2005, p. 263) |
 | **SB-04** | Os desenhos são simples e rápidos de fazer (bonecos, setas e telas rabiscadas), sem telas prontas do sistema nem acabamento artístico? | Daniel da Silva Batista | PREECE, ROGERS e SHARP (2005, p. 263) |
 | **SB-05** | O storyboard foi mostrado a usuários (pessoas com o perfil do público do sistema) para que eles simulassem a interação e apontassem problemas? | Daniel da Silva Batista | PREECE, ROGERS e SHARP (2005, p. 263) |
-| **SB-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **SB-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **SB-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **SB-09** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **SB-10** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **SB-06** | O storyboard preserva o arco completo da história: início (a situação ou necessidade da pessoa), meio (a interação passo a passo com a solução) e fim (o desfecho, com a necessidade atendida)? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **SB-07** | Cada quadro tem uma legenda descritiva clara (um texto curto) que permite entender o passo retratado mesmo sem ver os outros quadros? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **SB-08** | Cada quadro retrata um passo específico da tarefa, sem pular etapas essenciais nem acrescentar passos que não fazem parte da sequência? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **SB-09** | Os quadros trazem elementos suficientes para que alguém consiga percorrer mentalmente a sequência e simular a interação com o produto (walkthrough)? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **SB-10** | Os quadros mostram esboços de tela ligados à ação da pessoa (o que ela faz e o que vê), e não um fluxograma abstrato nem telas isoladas, sem ninguém usando? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
 | **SB-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **SB-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **SB-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -229,15 +229,170 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item SB-05:
 
 </div>
 
-> *Os itens SB-06 a SB-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.6 SB-06 — Arco completo da história
 
-## 5. Correspondência com a v1
-
-A Tabela 7 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+A Tabela 7 apresenta o item SB-06:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 7: Correspondência entre os Itens da v1 e da v2</b></p>
+<p align="center"><b>Tabela 7: Item SB-06 — Arco completo da história</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O storyboard preserva o arco completo da história: início (a situação ou necessidade da pessoa), meio (a interação passo a passo com a solução) e fim (o desfecho, com a necessidade atendida)? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **Origem na v1** | SB-08 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 6 reproduz o trecho do livro que fundamenta o item SB-06:
+
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item SB-06 (Arco completo da história)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/sb-06.png" alt="Trecho do livro que fundamenta o item SB-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> PREECE, ROGERS e SHARP (2005, p. 263).</p>
+
+</div>
+
+### 4.7 SB-07 — Legenda descritiva em cada quadro
+
+A Tabela 8 apresenta o item SB-07:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Item SB-07 — Legenda descritiva em cada quadro</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada quadro tem uma legenda descritiva clara (um texto curto) que permite entender o passo retratado mesmo sem ver os outros quadros? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **Origem na v1** | SB-12 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 7 reproduz o trecho do livro que fundamenta o item SB-07:
+
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item SB-07 (Legenda descritiva em cada quadro)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/sb-07.png" alt="Trecho do livro que fundamenta o item SB-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> PREECE, ROGERS e SHARP (2005, p. 263).</p>
+
+</div>
+
+### 4.8 SB-08 — Um passo por quadro
+
+A Tabela 9 apresenta o item SB-08:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Item SB-08 — Um passo por quadro</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada quadro retrata um passo específico da tarefa, sem pular etapas essenciais nem acrescentar passos que não fazem parte da sequência? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **Origem na v1** | SB-09 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 8 reproduz o trecho do livro que fundamenta o item SB-08:
+
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item SB-08 (Um passo por quadro)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/sb-08.png" alt="Trecho do livro que fundamenta o item SB-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> PREECE, ROGERS e SHARP (2005, p. 263).</p>
+
+</div>
+
+### 4.9 SB-09 — Walkthrough com os quadros
+
+A Tabela 10 apresenta o item SB-09:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Item SB-09 — Walkthrough com os quadros</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Os quadros trazem elementos suficientes para que alguém consiga percorrer mentalmente a sequência e simular a interação com o produto (walkthrough)? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **Origem na v1** | SB-15 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 9 reproduz o trecho do livro que fundamenta o item SB-09:
+
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item SB-09 (Walkthrough com os quadros)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/sb-09.png" alt="Trecho do livro que fundamenta o item SB-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> PREECE, ROGERS e SHARP (2005, p. 263).</p>
+
+</div>
+
+### 4.10 SB-10 — Esboço de ação, não fluxograma
+
+A Tabela 11 apresenta o item SB-10:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Item SB-10 — Esboço de ação, não fluxograma</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Os quadros mostram esboços de tela ligados à ação da pessoa (o que ela faz e o que vê), e não um fluxograma abstrato nem telas isoladas, sem ninguém usando? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **Origem na v1** | SB-04 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 10 reproduz o trecho do livro que fundamenta o item SB-10:
+
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item SB-10 (Esboço de ação, não fluxograma)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/sb-10.png" alt="Trecho do livro que fundamenta o item SB-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> PREECE, ROGERS e SHARP (2005, p. 263).</p>
+
+</div>
+
+> *Os itens SB-11 a SB-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+
+## 5. Correspondência com a v1
+
+A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 12: Correspondência entre os Itens da v1 e da v2</b></p>
 
 | Item v2 | Origem na v1 | O que mudou |
 | :---: | :---: | :--- |
@@ -246,6 +401,11 @@ A Tabela 7 apresenta, para cada item da v2 já elaborado, o item de origem na v1
 | **SB-03** | [SB-06](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Exemplos em linguagem simples. |
 | **SB-04** | [SB-01 e SB-10](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Une dois itens da v1 que verificavam a mesma coisa (baixa fidelidade e traço simples). |
 | **SB-05** | [SB-14](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Retira o "ou está planejado", que deixava o item sem resposta objetiva. |
+| **SB-06** | [SB-08](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Explica "início / meio / fim" com o que cada parte contém. |
+| **SB-07** | [SB-12](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Mantém a exigência de legenda, dita de forma objetiva. |
+| **SB-08** | [SB-09](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Retira a referência técnica a "HTA/CTT" e foca em um passo por quadro. |
+| **SB-09** | [SB-15](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Explica "percorrer / simular" (walkthrough) em linguagem simples. |
+| **SB-10** | [SB-04](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Explica o contraste com "fluxograma abstrato" e "telas isoladas". |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -266,5 +426,6 @@ Na v1, o exemplo de storyboard era citado como "Figura 8.3" e a seção como "8.
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da v2 da lista: itens SB-01 a SB-05 reescritos a partir da v1, com fonte por página e recorte do livro; itens SB-06 a SB-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+| `1.1` | 22/11/2026 | Elaboração dos itens SB-06 a SB-10, reescritos a partir dos itens v1 SB-08, 12, 09, 15 e 04; recortes do livro adicionados. | Arthur Sismene Carvalho | — |
 
 </div>
