@@ -5,12 +5,12 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PE-01 a PE-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens PE-06 a PE-10 *(pendente)*. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens PE-06 a PE-10, recortes do livro. |
 | **Leonardo da Silva Lopes Júnior** | Elaboração dos itens PE-11 a PE-15 *(pendente)*. |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens PE-16 a PE-20 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
 
 </div>
 
@@ -49,11 +49,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PE-03** | Cada persona descreve os seus objetivos (o resultado que ela quer alcançar) separados das tarefas (os passos que executa para isso)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 182) |
 | **PE-04** | O elenco (o conjunto de personas do projeto) tem entre 3 e 12 personas, e pelo menos uma delas é primária (a persona para quem o design é feito em primeiro lugar)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 181) |
 | **PE-05** | As personas foram construídas a partir dos dados do perfil de usuário (pesquisa com usuários reais), e apenas o nome e os detalhes pessoais foram inventados? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 180) |
-| **PE-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PE-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PE-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PE-09** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PE-10** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **PE-06** | Cada persona descreve suas habilidades relacionadas ao domínio do sistema: o quanto sabe sobre o tema, que ferramentas e tecnologias usa e há quanto tempo executa as tarefas relacionadas? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 182) |
+| **PE-07** | Cada persona descreve seus relacionamentos relevantes: com quem trabalha, de quem depende e a quem reporta ao realizar as tarefas que o sistema suporta? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 179) |
+| **PE-08** | Cada persona lista suas necessidades do ponto de vista do usuário: o que ela precisaria que o sistema fornecesse para alcançar seus objetivos com eficiência e satisfação? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 179) |
+| **PE-09** | Cada persona inclui uma citação direta representativa — uma frase que sintetiza sua atitude em relação ao sistema ou ao domínio — para ajudar a equipe a lembrar do ponto de vista dessa persona? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 182) |
+| **PE-10** | As personas são usadas nas decisões de design: a equipe as consulta ao comparar alternativas de solução, ao priorizar funcionalidades e ao avaliar se as propostas atendem às necessidades do usuário alvo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 183) |
 | **PE-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PE-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PE-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -221,7 +221,157 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item PE-05:
 
 </div>
 
-> *Os itens PE-06 a PE-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.6 PE-06 — Habilidades e experiência
+
+A Tabela 7 apresenta o item PE-06:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Item PE-06 — Habilidades e experiência</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada persona descreve suas habilidades relacionadas ao domínio do sistema: o quanto sabe sobre o tema, que ferramentas e tecnologias usa e há quanto tempo executa as tarefas relacionadas? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 182) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 6 reproduz o trecho do livro que fundamenta o item PE-06:
+
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item PE-06 (Habilidades e experiência)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pe-06.png" alt="Trecho do livro que fundamenta o item PE-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 182).</p>
+
+</div>
+
+### 4.7 PE-07 — Relacionamentos
+
+A Tabela 8 apresenta o item PE-07:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Item PE-07 — Relacionamentos</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada persona descreve seus relacionamentos relevantes: com quem trabalha, de quem depende e a quem reporta ao realizar as tarefas que o sistema suporta? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 179) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 7 reproduz o trecho do livro que fundamenta o item PE-07:
+
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item PE-07 (Relacionamentos)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pe-07.png" alt="Trecho do livro que fundamenta o item PE-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 179).</p>
+
+</div>
+
+### 4.8 PE-08 — Necessidades da persona
+
+A Tabela 9 apresenta o item PE-08:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Item PE-08 — Necessidades da persona</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada persona lista suas necessidades do ponto de vista do usuário: o que ela precisaria que o sistema fornecesse para alcançar seus objetivos com eficiência e satisfação? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 179) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 8 reproduz o trecho do livro que fundamenta o item PE-08:
+
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item PE-08 (Necessidades da persona)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pe-08.png" alt="Trecho do livro que fundamenta o item PE-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 179).</p>
+
+</div>
+
+### 4.9 PE-09 — Citação representativa
+
+A Tabela 10 apresenta o item PE-09:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Item PE-09 — Citação representativa</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada persona inclui uma citação direta representativa — uma frase que sintetiza sua atitude em relação ao sistema ou ao domínio — para ajudar a equipe a lembrar do ponto de vista dessa persona? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 182) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 9 reproduz o trecho do livro que fundamenta o item PE-09:
+
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item PE-09 (Citação representativa)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pe-09.png" alt="Trecho do livro que fundamenta o item PE-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 182).</p>
+
+</div>
+
+### 4.10 PE-10 — Uso nas decisões de design
+
+A Tabela 11 apresenta o item PE-10:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Item PE-10 — Uso nas decisões de design</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | As personas são usadas nas decisões de design: a equipe as consulta ao comparar alternativas de solução, ao priorizar funcionalidades e ao avaliar se as propostas atendem às necessidades do usuário alvo? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 183) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 10 reproduz o trecho do livro que fundamenta o item PE-10:
+
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item PE-10 (Uso nas decisões de design)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pe-10.png" alt="Trecho do livro que fundamenta o item PE-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 183).</p>
+
+</div>
+
+> *Os itens PE-11 a PE-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 
@@ -236,4 +386,5 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item PE-05:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens PE-01 a PE-05, com fonte por página e recorte do livro; itens PE-06 a PE-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+| `1.1` | 22/11/2026 | Adição dos itens PE-06 a PE-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
 </div>

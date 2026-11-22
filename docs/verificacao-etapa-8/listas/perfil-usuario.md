@@ -5,12 +5,12 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PU-01 a PU-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens PU-06 a PU-10 *(pendente)*. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens PU-06 a PU-10, recortes do livro. |
 | **Leonardo da Silva Lopes Júnior** | Elaboração dos itens PU-11 a PU-15 *(pendente)*. |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens PU-16 a PU-20 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
 
 </div>
 
@@ -49,11 +49,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PU-03** | Os usuários foram agrupados em perfis por características semelhantes, e o artefato informa a proporção (porcentagem) de usuários em cada perfil? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 178) |
 | **PU-04** | O perfil informa a relação dos usuários com a tecnologia (com que frequência a usam, quanta experiência têm e se gostam ou evitam usá-la)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 178) |
 | **PU-05** | O perfil é usado para definir quem será recrutado nas avaliações (os participantes das entrevistas e dos testes têm as características do perfil)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 177) |
-| **PU-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PU-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PU-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PU-09** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PU-10** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **PU-06** | O perfil registra a atitude dos usuários em relação à tecnologia — se a veem de forma positiva, negativa ou neutra — e quais tecnologias (além do sistema) eles utilizam com maior frequência? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 179) |
+| **PU-07** | O perfil indica o grau de experiência dos usuários com o sistema ou com sistemas similares — se são iniciantes, intermediários ou experientes — e há quanto tempo o utilizam? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 178) |
+| **PU-08** | O perfil registra com que frequência os usuários realizam cada uma das tarefas principais que o sistema suporta? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 178) |
+| **PU-09** | O perfil indica o nível de alfabetização em informática dos usuários: com que proficiência eles utilizam computadores em geral, além do sistema em questão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 179) |
+| **PU-10** | O perfil descreve os objetivos principais dos usuários ao usar o sistema — o que eles querem alcançar — distinguindo-os das tarefas que executam para chegar a esses objetivos? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 178) |
 | **PU-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PU-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PU-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -221,7 +221,157 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item PU-05:
 
 </div>
 
-> *Os itens PU-06 a PU-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.6 PU-06 — Atitude em relação à tecnologia
+
+A Tabela 7 apresenta o item PU-06:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Item PU-06 — Atitude em relação à tecnologia</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O perfil registra a atitude dos usuários em relação à tecnologia — se a veem de forma positiva, negativa ou neutra — e quais tecnologias (além do sistema) eles utilizam com maior frequência? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 179) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 6 reproduz o trecho do livro que fundamenta o item PU-06:
+
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item PU-06 (Atitude em relação à tecnologia)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pu-06.png" alt="Trecho do livro que fundamenta o item PU-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 179).</p>
+
+</div>
+
+### 4.7 PU-07 — Domínio com o sistema
+
+A Tabela 8 apresenta o item PU-07:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Item PU-07 — Domínio com o sistema</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O perfil indica o grau de experiência dos usuários com o sistema ou com sistemas similares — se são iniciantes, intermediários ou experientes — e há quanto tempo o utilizam? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 178) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 7 reproduz o trecho do livro que fundamenta o item PU-07:
+
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item PU-07 (Domínio com o sistema)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pu-07.png" alt="Trecho do livro que fundamenta o item PU-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 178).</p>
+
+</div>
+
+### 4.8 PU-08 — Frequência de uso das tarefas
+
+A Tabela 9 apresenta o item PU-08:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Item PU-08 — Frequência de uso das tarefas</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O perfil registra com que frequência os usuários realizam cada uma das tarefas principais que o sistema suporta? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 178) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 8 reproduz o trecho do livro que fundamenta o item PU-08:
+
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item PU-08 (Frequência de uso das tarefas)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pu-08.png" alt="Trecho do livro que fundamenta o item PU-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 178).</p>
+
+</div>
+
+### 4.9 PU-09 — Domínio com o computador
+
+A Tabela 10 apresenta o item PU-09:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Item PU-09 — Domínio com o computador</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O perfil indica o nível de alfabetização em informática dos usuários: com que proficiência eles utilizam computadores em geral, além do sistema em questão? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 179) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 9 reproduz o trecho do livro que fundamenta o item PU-09:
+
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item PU-09 (Domínio com o computador)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pu-09.png" alt="Trecho do livro que fundamenta o item PU-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 179).</p>
+
+</div>
+
+### 4.10 PU-10 — Objetivos dos usuários
+
+A Tabela 11 apresenta o item PU-10:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Item PU-10 — Objetivos dos usuários</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O perfil descreve os objetivos principais dos usuários ao usar o sistema — o que eles querem alcançar — distinguindo-os das tarefas que executam para chegar a esses objetivos? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 178) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 10 reproduz o trecho do livro que fundamenta o item PU-10:
+
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item PU-10 (Objetivos dos usuários)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pu-10.png" alt="Trecho do livro que fundamenta o item PU-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 178).</p>
+
+</div>
+
+> *Os itens PU-11 a PU-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 
@@ -236,4 +386,5 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item PU-05:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens PU-01 a PU-05, com fonte por página e recorte do livro; itens PU-06 a PU-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+| `1.1` | 22/11/2026 | Adição dos itens PU-06 a PU-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
 </div>

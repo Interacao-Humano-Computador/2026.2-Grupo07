@@ -5,12 +5,12 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PA-01 a PA-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens PA-06 a PA-10 *(pendente)*. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens PA-06 a PA-10, recortes do livro. |
 | **Leonardo da Silva Lopes Júnior** | Elaboração dos itens PA-11 a PA-15 *(pendente)*. |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens PA-16 a PA-20 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
 
 </div>
 
@@ -52,11 +52,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PA-03** | O planejamento escolhe os métodos de avaliação (por exemplo, inspeção, entrevista ou teste com usuários) e justifica a escolha considerando prazo, custo, equipamentos e experiência dos avaliadores (atividade "C — Escolher os métodos" do DECIDE)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 304) |
 | **PA-04** | O planejamento deixa claro o que entra na avaliação e o que fica de fora (quais telas, tarefas e tipos de usuário) e explica o motivo dessa escolha? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 298) |
 | **PA-05** | O planejamento diz quantas pessoas vão participar, com que perfil, e por que esse número basta (por exemplo, citando Nielsen, segundo quem cinco usuários já revelam a maior parte dos problemas)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 298) |
-| **PA-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PA-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PA-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PA-09** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **PA-10** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **PA-06** | O planejamento identifica as questões práticas da avaliação — como recrutar participantes, em que ambiente conduzir as sessões e quais equipamentos usar — (atividade "I — Identificar questões práticas" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 305) |
+| **PA-07** | O planejamento prevê a obtenção do consentimento informado dos participantes e garante que eles podem encerrar a participação a qualquer momento sem qualquer penalidade — (atividade "D — Decidir como lidar com questões éticas" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 311) |
+| **PA-08** | O planejamento define como os dados coletados serão interpretados e apresentados: de que forma os resultados responderão às perguntas da avaliação — (atividade "E — Avaliar, interpretar e apresentar os dados" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 312) |
+| **PA-09** | O planejamento inclui o roteiro das tarefas que o participante realizará durante a avaliação, com as instruções padronizadas que o avaliador usará no início de cada sessão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 299) |
+| **PA-10** | O planejamento informa onde a avaliação será conduzida (laboratório de usabilidade ou ambiente natural de uso) e justifica essa escolha, levando em conta os benefícios e os custos de cada opção? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
 | **PA-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PA-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PA-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -224,7 +224,157 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item PA-05:
 
 </div>
 
-> *Os itens PA-06 a PA-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.6 PA-06 — Questões práticas (DECIDE-I)
+
+A Tabela 7 apresenta o item PA-06:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Item PA-06 — Questões práticas (DECIDE-I)</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento identifica as questões práticas da avaliação — como recrutar participantes, em que ambiente conduzir as sessões e quais equipamentos usar — (atividade "I — Identificar questões práticas" do DECIDE)? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 305) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 6 reproduz o trecho do livro que fundamenta o item PA-06:
+
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item PA-06 (Questões práticas — DECIDE-I)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pa-06.png" alt="Trecho do livro que fundamenta o item PA-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 305).</p>
+
+</div>
+
+### 4.7 PA-07 — Questões éticas (DECIDE-D)
+
+A Tabela 8 apresenta o item PA-07:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Item PA-07 — Questões éticas (DECIDE-D)</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê a obtenção do consentimento informado dos participantes e garante que eles podem encerrar a participação a qualquer momento sem qualquer penalidade — (atividade "D — Decidir como lidar com questões éticas" do DECIDE)? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 311) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 7 reproduz o trecho do livro que fundamenta o item PA-07:
+
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item PA-07 (Questões éticas — DECIDE-D)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pa-07.png" alt="Trecho do livro que fundamenta o item PA-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 311).</p>
+
+</div>
+
+### 4.8 PA-08 — Avaliação e interpretação (DECIDE-E)
+
+A Tabela 9 apresenta o item PA-08:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Item PA-08 — Avaliação e interpretação (DECIDE-E)</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento define como os dados coletados serão interpretados e apresentados: de que forma os resultados responderão às perguntas da avaliação — (atividade "E — Avaliar, interpretar e apresentar os dados" do DECIDE)? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 312) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 8 reproduz o trecho do livro que fundamenta o item PA-08:
+
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item PA-08 (Avaliação e interpretação — DECIDE-E)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pa-08.png" alt="Trecho do livro que fundamenta o item PA-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 312).</p>
+
+</div>
+
+### 4.9 PA-09 — Roteiro de tarefas
+
+A Tabela 10 apresenta o item PA-09:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Item PA-09 — Roteiro de tarefas</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento inclui o roteiro das tarefas que o participante realizará durante a avaliação, com as instruções padronizadas que o avaliador usará no início de cada sessão? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 299) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 9 reproduz o trecho do livro que fundamenta o item PA-09:
+
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item PA-09 (Roteiro de tarefas)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pa-09.png" alt="Trecho do livro que fundamenta o item PA-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 299).</p>
+
+</div>
+
+### 4.10 PA-10 — Local da avaliação
+
+A Tabela 11 apresenta o item PA-10:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Item PA-10 — Local da avaliação</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento informa onde a avaliação será conduzida (laboratório de usabilidade ou ambiente natural de uso) e justifica essa escolha, levando em conta os benefícios e os custos de cada opção? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 300) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 10 reproduz o trecho do livro que fundamenta o item PA-10:
+
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item PA-10 (Local da avaliação)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/pa-10.png" alt="Trecho do livro que fundamenta o item PA-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 300).</p>
+
+</div>
+
+> *Os itens PA-11 a PA-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 
@@ -239,4 +389,5 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item PA-05:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens PA-01 a PA-05, com fonte por página e recorte do livro; itens PA-06 a PA-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+| `1.1` | 22/11/2026 | Adição dos itens PA-06 a PA-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
 </div>

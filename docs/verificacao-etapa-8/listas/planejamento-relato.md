@@ -5,12 +5,12 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens RL-01 a RL-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens RL-06 a RL-10 *(pendente)*. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens RL-06 a RL-10, recortes do livro. |
 | **Leonardo da Silva Lopes Júnior** | Elaboração dos itens RL-11 a RL-15 *(pendente)*. |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens RL-16 a RL-20 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
 
 </div>
 
@@ -52,11 +52,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **RL-03** | O planejamento prevê um resumo dos dados coletados em tabelas ou gráficos (por exemplo, tempo e sucesso de cada participante em cada tarefa)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
 | **RL-04** | O planejamento prevê uma lista dos problemas encontrados e um plano de reprojeto (as mudanças que serão feitas no artefato por causa desses problemas)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
 | **RL-05** | O planejamento prevê consolidar os resultados de todos os participantes, destacando os problemas que se repetiram entre eles (e não apenas casos isolados de um participante)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
-| **RL-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **RL-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **RL-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **RL-09** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **RL-10** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **RL-06** | O planejamento prevê que o relato registre os dados de cada participante individualmente (e não apenas médias ou totais agregados), para que seja possível identificar padrões e exceções entre os participantes? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
+| **RL-07** | O planejamento prevê que o relato apresente o perfil de cada participante, para que o leitor possa verificar se ele é representativo do perfil de usuário alvo do sistema? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
+| **RL-08** | O planejamento prevê que o relato apresente a interpretação dos avaliadores sobre os dados — o que eles significam para a qualidade do artefato — e não apenas os números e observações brutas? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
+| **RL-09** | O planejamento prevê que o relato registre sugestões de melhoria colhidas dos próprios participantes durante ou após as sessões, distinguindo-as das análises dos avaliadores? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
+| **RL-10** | O planejamento prevê que os problemas sejam agrupados por tarefa ou por tela, indicando em quais partes do artefato há maior concentração de dificuldades? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
 | **RL-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **RL-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **RL-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -224,7 +224,157 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item RL-05:
 
 </div>
 
-> *Os itens RL-06 a RL-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.6 RL-06 — Dados por participante
+
+A Tabela 7 apresenta o item RL-06:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Item RL-06 — Dados por participante</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê que o relato registre os dados de cada participante individualmente (e não apenas médias ou totais agregados), para que seja possível identificar padrões e exceções entre os participantes? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 6 reproduz o trecho do livro que fundamenta o item RL-06:
+
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item RL-06 (Dados por participante)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/rl-06.png" alt="Trecho do livro que fundamenta o item RL-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.7 RL-07 — Perfil dos participantes no relato
+
+A Tabela 8 apresenta o item RL-07:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Item RL-07 — Perfil dos participantes no relato</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê que o relato apresente o perfil de cada participante, para que o leitor possa verificar se ele é representativo do perfil de usuário alvo do sistema? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 7 reproduz o trecho do livro que fundamenta o item RL-07:
+
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item RL-07 (Perfil dos participantes no relato)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/rl-07.png" alt="Trecho do livro que fundamenta o item RL-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.8 RL-08 — Interpretação dos avaliadores
+
+A Tabela 9 apresenta o item RL-08:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Item RL-08 — Interpretação dos avaliadores</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê que o relato apresente a interpretação dos avaliadores sobre os dados — o que eles significam para a qualidade do artefato — e não apenas os números e observações brutas? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 8 reproduz o trecho do livro que fundamenta o item RL-08:
+
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item RL-08 (Interpretação dos avaliadores)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/rl-08.png" alt="Trecho do livro que fundamenta o item RL-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.9 RL-09 — Sugestões dos participantes
+
+A Tabela 10 apresenta o item RL-09:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Item RL-09 — Sugestões dos participantes</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê que o relato registre sugestões de melhoria colhidas dos próprios participantes durante ou após as sessões, distinguindo-as das análises dos avaliadores? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 9 reproduz o trecho do livro que fundamenta o item RL-09:
+
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item RL-09 (Sugestões dos participantes)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/rl-09.png" alt="Trecho do livro que fundamenta o item RL-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.10 RL-10 — Problemas por tarefa
+
+A Tabela 11 apresenta o item RL-10:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Item RL-10 — Problemas por tarefa</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê que os problemas sejam agrupados por tarefa ou por tela, indicando em quais partes do artefato há maior concentração de dificuldades? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 10 reproduz o trecho do livro que fundamenta o item RL-10:
+
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item RL-10 (Problemas por tarefa)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/rl-10.png" alt="Trecho do livro que fundamenta o item RL-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+> *Os itens RL-11 a RL-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 
@@ -239,4 +389,5 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item RL-05:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens RL-01 a RL-05, com fonte por página e recorte do livro; itens RL-06 a RL-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+| `1.1` | 22/11/2026 | Adição dos itens RL-06 a RL-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
 </div>

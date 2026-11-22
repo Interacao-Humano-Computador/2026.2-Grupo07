@@ -5,12 +5,12 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens TP-01 a TP-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens TP-06 a TP-10 *(pendente)*. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens TP-06 a TP-10, recortes do livro. |
 | **Leonardo da Silva Lopes Júnior** | Elaboração dos itens TP-11 a TP-15 *(pendente)*. |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens TP-16 a TP-20 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
 
 </div>
 
@@ -50,11 +50,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de T
 | **TP-03** | O artefato registra os problemas encontrados no teste-piloto e as correções feitas no planejamento ou no material antes das sessões oficiais? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 300) |
 | **TP-04** | O artefato declara que os dados do teste-piloto foram descartados e não entram nos resultados da avaliação? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 300) |
 | **TP-05** | O participante do teste-piloto é alguém de fora da equipe que planejou a avaliação (não ajudou a planejá-la nem a prepará-la)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 300) |
-| **TP-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **TP-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **TP-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **TP-09** | *(a elaborar)* | Arthur Sismene Carvalho | — |
-| **TP-10** | *(a elaborar)* | Arthur Sismene Carvalho | — |
+| **TP-06** | O artefato registra que o participante do teste-piloto leu e assinou o termo de consentimento antes de a sessão começar, como acontecerá nas sessões oficiais? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
+| **TP-07** | O artefato registra a duração real do teste-piloto e a compara com a duração prevista no planejamento, confirmando se o tempo estimado para as tarefas e para a sessão inteira é adequado? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
+| **TP-08** | O artefato descreve o ambiente e os equipamentos utilizados no teste-piloto e registra se tudo funcionou conforme o planejado? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
+| **TP-09** | O artefato confirma que a gravação de áudio e/ou vídeo foi testada e funcionou adequadamente durante o teste-piloto, garantindo que estará disponível nas sessões oficiais? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
+| **TP-10** | O artefato registra se as tarefas e os materiais estavam claros para o participante — se ele entendeu o que devia fazer sem precisar pedir esclarecimentos ao avaliador? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
 | **TP-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **TP-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **TP-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -222,7 +222,157 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item TP-05:
 
 </div>
 
-> *Os itens TP-06 a TP-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.6 TP-06 — Termo de consentimento no piloto
+
+A Tabela 7 apresenta o item TP-06:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Item TP-06 — Termo de consentimento no piloto</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato registra que o participante do teste-piloto leu e assinou o termo de consentimento antes de a sessão começar, como acontecerá nas sessões oficiais? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 300) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 6 reproduz o trecho do livro que fundamenta o item TP-06:
+
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item TP-06 (Termo de consentimento no piloto)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/tp-06.png" alt="Trecho do livro que fundamenta o item TP-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 300).</p>
+
+</div>
+
+### 4.7 TP-07 — Duração real vs. prevista
+
+A Tabela 8 apresenta o item TP-07:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Item TP-07 — Duração real vs. prevista</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato registra a duração real do teste-piloto e a compara com a duração prevista no planejamento, confirmando se o tempo estimado para as tarefas e para a sessão inteira é adequado? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 300) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 7 reproduz o trecho do livro que fundamenta o item TP-07:
+
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item TP-07 (Duração real vs. prevista)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/tp-07.png" alt="Trecho do livro que fundamenta o item TP-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 300).</p>
+
+</div>
+
+### 4.8 TP-08 — Ambiente e equipamentos
+
+A Tabela 9 apresenta o item TP-08:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Item TP-08 — Ambiente e equipamentos</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato descreve o ambiente e os equipamentos utilizados no teste-piloto e registra se tudo funcionou conforme o planejado? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 300) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 8 reproduz o trecho do livro que fundamenta o item TP-08:
+
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item TP-08 (Ambiente e equipamentos)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/tp-08.png" alt="Trecho do livro que fundamenta o item TP-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 300).</p>
+
+</div>
+
+### 4.9 TP-09 — Funcionamento da gravação
+
+A Tabela 10 apresenta o item TP-09:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Item TP-09 — Funcionamento da gravação</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato confirma que a gravação de áudio e/ou vídeo foi testada e funcionou adequadamente durante o teste-piloto, garantindo que estará disponível nas sessões oficiais? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 300) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 9 reproduz o trecho do livro que fundamenta o item TP-09:
+
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item TP-09 (Funcionamento da gravação)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/tp-09.png" alt="Trecho do livro que fundamenta o item TP-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 300).</p>
+
+</div>
+
+### 4.10 TP-10 — Clareza das tarefas
+
+A Tabela 11 apresenta o item TP-10:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Item TP-10 — Clareza das tarefas</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato registra se as tarefas e os materiais estavam claros para o participante — se ele entendeu o que devia fazer sem precisar pedir esclarecimentos ao avaliador? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 300) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 10 reproduz o trecho do livro que fundamenta o item TP-10:
+
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item TP-10 (Clareza das tarefas)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/tp-10.png" alt="Trecho do livro que fundamenta o item TP-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 300).</p>
+
+</div>
+
+> *Os itens TP-11 a TP-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 
@@ -237,4 +387,5 @@ A Figura 5 reproduz o trecho do livro que fundamenta o item TP-05:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens TP-01 a TP-05, com fonte por página e recorte do livro; itens TP-06 a TP-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+| `1.1` | 22/11/2026 | Adição dos itens TP-06 a TP-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
 </div>
