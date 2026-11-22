@@ -44,12 +44,12 @@ A Tabela 1 descreve como cada passo é aplicado nesta etapa:
 
 | Passo | O que é feito | Registro |
 | :--- | :--- | :--- |
-| **1. Planejamento** | Definir os artefatos a inspecionar, as listas de verificação de cada tipo de artefato, os papéis (autor, moderador e inspetor) e o cronograma. | Esta página ([Seção 3](#3-planejamento-da-verificacao)). |
-| **2. Visão Geral** | Cada autor apresenta rapidamente os seus artefatos aos inspetores: objetivo, estrutura e o que mudou desde a entrega original. | Ata e gravação da reunião. |
+| **1. Planejamento** | Definir os artefatos a inspecionar, as listas de verificação de cada tipo de artefato, os papéis (autor e inspetor) e o cronograma. | Esta página ([Seção 3](#3-planejamento-da-verificacao)). |
+| **2. Visão Geral** | No início do vídeo de inspeção de cada artefato, o inspetor apresenta o artefato: o que é, qual tarefa cobre e onde está publicado. | Vídeo de inspeção e ficha de inspeção. |
 | **3. Preparação** | Cada inspetor estuda sozinho o artefato que vai inspecionar, com a lista de verificação correspondente, e anota possíveis defeitos. | Anotações do inspetor. |
-| **4. Inspeção** | Em reunião, a lista é aplicada item a item (Sim, Não ou Incompleto) e cada defeito encontrado é registrado. O autor esclarece dúvidas, mas não corrige nada nesse momento. | Ficha de inspeção de cada artefato. |
+| **4. Inspeção** | Em um vídeo por artefato, a lista é aplicada item a item (Sim, Não ou Incompleto) e cada defeito encontrado é registrado. Nenhuma correção é feita nesse momento. | Ficha de inspeção de cada artefato. |
 | **5. Correção** | O autor corrige os defeitos registrados no artefato. | Ficha de inspeção, com o link da correção. |
-| **6. Acompanhamento** | O moderador confere se cada correção resolveu o defeito e decide se o artefato está aprovado ou precisa de nova inspeção. | Ficha de inspeção e quadro-resumo. |
+| **6. Acompanhamento** | O inspetor confere se cada correção resolveu o defeito e decide se o artefato está aprovado ou precisa de nova inspeção. | Ficha de inspeção e quadro-resumo. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), com base em FAGAN (1976).</p>
 
@@ -67,11 +67,10 @@ Cada lista de verificação tem **20 itens**, e cada integrante elabora 5 deles.
 
 ### 3.2 Papéis
 
-Na inspeção, ninguém inspeciona o próprio artefato. Os papéis seguem Fagan (1976):
+Na inspeção, ninguém inspeciona o próprio artefato. Fagan (1976) prevê também um moderador; neste projeto, pelo tamanho do grupo, as funções do moderador ficam com o inspetor. Os papéis são:
 
 * **Autor** — quem elaborou o artefato; apresenta a visão geral e corrige os defeitos;
-* **Moderador** — conduz a reunião de inspeção e faz o acompanhamento das correções;
-* **Inspetor** — aplica a lista de verificação ao artefato e registra os defeitos.
+* **Inspetor** — conduz a inspeção, aplica a lista de verificação ao artefato, registra os defeitos e, no acompanhamento, confere as correções.
 
 ### 3.3 Listas de Verificação
 
@@ -100,7 +99,13 @@ A Tabela 2 apresenta as listas de verificação da Etapa 8, os artefatos a que s
 
 </div>
 
-### 3.4 Cronograma
+### 3.4 Fichas de Inspeção
+
+A inspeção de cada conjunto de artefatos é registrada em uma ficha própria, com os seis passos de Fagan:
+
+* [Daniel da Silva Batista](inspecoes/daniel-batista.md): inspeção dos artefatos de Pedro Rocha Ferreira Lima.
+
+### 3.5 Cronograma
 
 A Tabela 3 apresenta o cronograma da verificação:
 
@@ -111,8 +116,8 @@ A Tabela 3 apresenta o cronograma da verificação:
 | Data | Passo de Fagan | Atividade |
 | :---: | :--- | :--- |
 | 21/11/2026 | Planejamento | Definição do método, das listas e dos papéis; elaboração dos itens de cada integrante. |
-| 22/11/2026 | Visão Geral, Preparação e Inspeção | Reunião gravada: apresentação dos artefatos pelos autores e aplicação das listas. |
-| 22/11/2026 | Correção e Acompanhamento | Correção dos defeitos encontrados e conferência pelo moderador. |
+| 22/11/2026 | Visão Geral, Preparação e Inspeção | Gravação de um vídeo de inspeção por artefato: visão geral do artefato e aplicação da lista. |
+| 22/11/2026 | Correção e Acompanhamento | Correção dos defeitos encontrados e conferência pelo inspetor. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
