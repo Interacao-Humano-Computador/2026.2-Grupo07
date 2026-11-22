@@ -48,10 +48,10 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | ID | Pergunta de verificação | Autor | Fonte |
 | :---: | :--- | :--- | :--- |
 | **PA-01** | O planejamento define os objetivos da avaliação e explica por que e para quem eles são importantes (atividade "D — Determinar os objetivos" do DECIDE, roteiro de seis atividades usado para planejar avaliações)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 304) |
-| **PA-02** | Para cada objetivo, o planejamento apresenta perguntas específicas que a avaliação vai responder (atividade "E — Explorar as perguntas" do DECIDE)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 304) |
+| **PA-02** | Cada objetivo da avaliação foi desdobrado em perguntas concretas, que os dados coletados vão ajudar a responder (atividade "E — Explorar as perguntas" do DECIDE)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 304) |
 | **PA-03** | O planejamento escolhe os métodos de avaliação (por exemplo, inspeção, entrevista ou teste com usuários) e justifica a escolha considerando prazo, custo, equipamentos e experiência dos avaliadores (atividade "C — Escolher os métodos" do DECIDE)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 304) |
-| **PA-04** | O planejamento define o escopo da avaliação, ou seja, quais telas, tarefas e perfis de usuário serão avaliados e por que foram escolhidos? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 298) |
-| **PA-05** | O planejamento define o perfil e o número de participantes e justifica essa quantidade (por exemplo, com a recomendação de cinco usuários de Nielsen, suficientes para encontrar a maior parte dos problemas)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 298) |
+| **PA-04** | O planejamento deixa claro o que entra na avaliação e o que fica de fora (quais telas, tarefas e tipos de usuário) e explica o motivo dessa escolha? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 298) |
+| **PA-05** | O planejamento diz quantas pessoas vão participar, com que perfil, e por que esse número basta (por exemplo, citando Nielsen, segundo quem cinco usuários já revelam a maior parte dos problemas)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 298) |
 | **PA-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
 | **PA-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
 | **PA-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
@@ -114,7 +114,7 @@ A Tabela 3 apresenta o item PA-02:
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | Para cada objetivo, o planejamento apresenta perguntas específicas que a avaliação vai responder (atividade "E — Explorar as perguntas" do DECIDE)? |
+| **Pergunta** | Cada objetivo da avaliação foi desdobrado em perguntas concretas, que os dados coletados vão ajudar a responder (atividade "E — Explorar as perguntas" do DECIDE)? |
 | **Autor** | Daniel da Silva Batista |
 | **Fonte** | BARBOSA et al. (2021, p. 304) |
 
@@ -174,7 +174,7 @@ A Tabela 5 apresenta o item PA-04:
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | O planejamento define o escopo da avaliação, ou seja, quais telas, tarefas e perfis de usuário serão avaliados e por que foram escolhidos? |
+| **Pergunta** | O planejamento deixa claro o que entra na avaliação e o que fica de fora (quais telas, tarefas e tipos de usuário) e explica o motivo dessa escolha? |
 | **Autor** | Daniel da Silva Batista |
 | **Fonte** | BARBOSA et al. (2021, p. 298) |
 
@@ -204,7 +204,7 @@ A Tabela 6 apresenta o item PA-05:
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | O planejamento define o perfil e o número de participantes e justifica essa quantidade (por exemplo, com a recomendação de cinco usuários de Nielsen, suficientes para encontrar a maior parte dos problemas)? |
+| **Pergunta** | O planejamento diz quantas pessoas vão participar, com que perfil, e por que esse número basta (por exemplo, citando Nielsen, segundo quem cinco usuários já revelam a maior parte dos problemas)? |
 | **Autor** | Daniel da Silva Batista |
 | **Fonte** | BARBOSA et al. (2021, p. 298) |
 

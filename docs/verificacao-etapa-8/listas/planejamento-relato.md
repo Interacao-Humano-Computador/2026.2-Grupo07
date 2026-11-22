@@ -47,8 +47,8 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 
 | ID | Pergunta de verificação | Autor | Fonte |
 | :---: | :--- | :--- | :--- |
-| **RL-01** | O planejamento prevê que o relato informe os objetivos e o escopo da avaliação (o que foi avaliado e com que finalidade)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
-| **RL-02** | O planejamento prevê que o relato informe o método usado e o número e o perfil dos participantes e dos avaliadores? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
+| **RL-01** | O planejamento prevê que o relato comece dizendo o que foi avaliado e com qual finalidade? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
+| **RL-02** | O planejamento prevê que o relato descreva como a avaliação foi feita (o método), quantas pessoas participaram, quem eram (perfil) e quem conduziu as sessões? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
 | **RL-03** | O planejamento prevê um resumo dos dados coletados em tabelas ou gráficos (por exemplo, tempo e sucesso de cada participante em cada tarefa)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
 | **RL-04** | O planejamento prevê uma lista dos problemas encontrados e um plano de reprojeto (as mudanças que serão feitas no artefato por causa desses problemas)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
 | **RL-05** | O planejamento prevê consolidar os resultados de todos os participantes, destacando os problemas que se repetiram entre eles (e não apenas casos isolados de um participante)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 303) |
@@ -84,7 +84,7 @@ A Tabela 2 apresenta o item RL-01:
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | O planejamento prevê que o relato informe os objetivos e o escopo da avaliação (o que foi avaliado e com que finalidade)? |
+| **Pergunta** | O planejamento prevê que o relato comece dizendo o que foi avaliado e com qual finalidade? |
 | **Autor** | Daniel da Silva Batista |
 | **Fonte** | BARBOSA et al. (2021, p. 303) |
 
@@ -114,7 +114,7 @@ A Tabela 3 apresenta o item RL-02:
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | O planejamento prevê que o relato informe o método usado e o número e o perfil dos participantes e dos avaliadores? |
+| **Pergunta** | O planejamento prevê que o relato descreva como a avaliação foi feita (o método), quantas pessoas participaram, quem eram (perfil) e quem conduziu as sessões? |
 | **Autor** | Daniel da Silva Batista |
 | **Fonte** | BARBOSA et al. (2021, p. 303) |
 

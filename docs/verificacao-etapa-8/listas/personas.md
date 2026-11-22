@@ -47,7 +47,7 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PE-01** | Cada persona tem identidade completa: nome e sobrenome, idade, outros dados demográficos (como profissão e cidade) e uma foto? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 179) |
 | **PE-02** | Cada persona indica o seu status: primária (foco principal do design), secundária, outro stakeholder (pessoa afetada pelo sistema) ou antiusuário (quem não vai usar o sistema)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 180) |
 | **PE-03** | Cada persona descreve os seus objetivos (o resultado que ela quer alcançar) separados das tarefas (os passos que executa para isso)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 182) |
-| **PE-04** | O elenco (o conjunto de personas do projeto) tem entre 3 e 12 personas e pelo menos uma persona primária (a persona que é o foco principal do design)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 181) |
+| **PE-04** | O elenco (o conjunto de personas do projeto) tem entre 3 e 12 personas, e pelo menos uma delas é primária (a persona para quem o design é feito em primeiro lugar)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 181) |
 | **PE-05** | As personas foram construídas a partir dos dados do perfil de usuário (pesquisa com usuários reais), e apenas o nome e os detalhes pessoais foram inventados? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 180) |
 | **PE-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
 | **PE-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
@@ -171,7 +171,7 @@ A Tabela 5 apresenta o item PE-04:
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | O elenco (o conjunto de personas do projeto) tem entre 3 e 12 personas e pelo menos uma persona primária (a persona que é o foco principal do design)? |
+| **Pergunta** | O elenco (o conjunto de personas do projeto) tem entre 3 e 12 personas, e pelo menos uma delas é primária (a persona para quem o design é feito em primeiro lugar)? |
 | **Autor** | Daniel da Silva Batista |
 | **Fonte** | BARBOSA et al. (2021, p. 181) |
 

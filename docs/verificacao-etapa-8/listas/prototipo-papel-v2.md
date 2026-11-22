@@ -49,7 +49,7 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | :---: | :--- | :--- | :--- |
 | **PP-01** | As telas foram desenhadas em papel (à mão livre ou impressas), mostrando apenas os elementos com que o usuário vai interagir, sem detalhes visuais desnecessários (como cores definitivas ou imagens finais)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 340) |
 | **PP-02** | Além das telas, o protótipo tem peças de papel separadas para as partes que mudam durante o uso (por exemplo, menus abertos, listas, mensagens e resultados de busca)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 340) |
-| **PP-03** | Nas sessões, um avaliador fez o papel de "computador" (trocando as peças de papel conforme as ações do participante, sem dar explicações) e outro avaliador observou e anotou os problemas? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 340) |
+| **PP-03** | Durante as sessões, uma pessoa da equipe simulou o sistema (trocando as folhas e as peças de papel a cada ação do participante, sem orientá-lo) enquanto outra pessoa apenas observava e anotava os problemas? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 340) |
 | **PP-04** | O relato lista os problemas encontrados em cada sessão e as correções simples feitas no protótipo antes da sessão seguinte? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 342) |
 | **PP-05** | Os problemas que não foram corrigidos estão priorizados pela gravidade (o quanto atrapalharam a tarefa) e pela frequência (quantos participantes tiveram o problema), com uma sugestão de correção para cada um? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 342) |
 | **PP-06** | Os elementos interativos do protótipo (campos, botões e caixas de seleção) deixam claro, pela aparência, o que a pessoa pode fazer com cada um (a forma do elemento sugere a ação)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 341) |
@@ -146,7 +146,7 @@ A Tabela 4 apresenta o item PP-03:
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | Nas sessões, um avaliador fez o papel de "computador" (trocando as peças de papel conforme as ações do participante, sem dar explicações) e outro avaliador observou e anotou os problemas? |
+| **Pergunta** | Durante as sessões, uma pessoa da equipe simulou o sistema (trocando as folhas e as peças de papel a cada ação do participante, sem orientá-lo) enquanto outra pessoa apenas observava e anotava os problemas? |
 | **Autor** | Daniel da Silva Batista |
 | **Fonte** | BARBOSA et al. (2021, p. 340) |
 | **Origem na v1** | Novo |

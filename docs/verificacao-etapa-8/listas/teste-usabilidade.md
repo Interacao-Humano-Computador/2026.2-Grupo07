@@ -55,7 +55,7 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de T
 | **TU-02** | Cada tarefa pedida ao participante pode ser feita em até 20 minutos, e a sessão inteira dura cerca de uma hora ou menos? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 299) |
 | **TU-03** | Enquanto o participante realizava as tarefas, o avaliador apenas observou e anotou, sem interrompê-lo nem lhe fazer perguntas? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 301) |
 | **TU-04** | O relato registra, para cada tarefa, se o participante conseguiu concluí-la, se precisou de ajuda e os comentários que ele fez espontaneamente (sem ser perguntado)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 299) |
-| **TU-05** | Ao final da sessão, foi feita uma entrevista (pós-teste) para coletar a opinião do participante sobre a experiência de uso? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 302) |
+| **TU-05** | Depois de terminar as tarefas, o participante foi entrevistado sobre o que achou de usar o protótipo (entrevista pós-teste)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 302) |
 | **TU-06** | *(a elaborar)* | Arthur Sismene Carvalho | — |
 | **TU-07** | *(a elaborar)* | Arthur Sismene Carvalho | — |
 | **TU-08** | *(a elaborar)* | Arthur Sismene Carvalho | — |
@@ -208,7 +208,7 @@ A Tabela 6 apresenta o item TU-05:
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | Ao final da sessão, foi feita uma entrevista (pós-teste) para coletar a opinião do participante sobre a experiência de uso? |
+| **Pergunta** | Depois de terminar as tarefas, o participante foi entrevistado sobre o que achou de usar o protótipo (entrevista pós-teste)? |
 | **Autor** | Daniel da Silva Batista |
 | **Fonte** | BARBOSA et al. (2021, p. 302) |
 
