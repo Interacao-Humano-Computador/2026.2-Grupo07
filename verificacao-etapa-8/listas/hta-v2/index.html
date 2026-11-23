@@ -1,0 +1,4746 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="DocumentaÃ§Ã£o do projeto da disciplina de InteraÃ§Ã£o Humano-Computador (FGA-UnB) - AnÃ¡lise e Reprojeto do PCI Concursos">
+      
+      
+        <meta name="author" content="Equipe Grupo 07 - IHC">
+      
+      
+        <link rel="canonical" href="https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/verificacao-etapa-8/listas/hta-v2/">
+      
+      
+        <link rel="prev" href="../../">
+      
+      
+        <link rel="next" href="../ctt-v2/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+    
+    
+      
+        <title>HTA (v2) - IHC - PCI Concursos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  
+  <script>
+    // Intercept attachShadow BEFORE bundle runs to keep shadowRoot open
+    (function() {
+      var orig = Element.prototype.attachShadow;
+      Element.prototype.attachShadow = function(init) {
+        if (init && init.mode === 'closed') {
+          init.mode = 'open';
+        }
+        return orig.call(this, init);
+      };
+    })();
+  </script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lista-de-verificacao-de-hta-v2" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-header__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC - PCI Concursos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              HTA (v2)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Escuro (Alto Contraste)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Escuro (Alto Contraste)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/membros/" class="md-tabs__link">
+          
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../analise-de-requisitos/aspectos-eticos/" class="md-tabs__link">
+          
+  
+  Análise de Requisitos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../design-avaliacao-desenvolvimento/caracteristicas-da-plataforma/" class="md-tabs__link">
+          
+  
+  Design e Avaliação
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../design-avaliacao-desenvolvimento/planejamento-avaliacao-analise-de-tarefas/" class="md-tabs__link">
+          
+  
+  Desenvolvimento
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../apresentacao/grupo-08/" class="md-tabs__link">
+          
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../apresentacao/apresentacao-1/" class="md-tabs__link">
+          
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-nav__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    IHC - PCI Concursos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/membros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Equipe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/planejamento-do-projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap de Disponibilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Processo de Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sites Avaliados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/site-escolhido/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Site Selecionado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ata-reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atas de Reunião
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise de Requisitos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Análise de Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/aspectos-eticos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aspectos Éticos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/perfil-de-usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perfil do Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise de Tarefas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Análise de Tarefas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/analise-de-tarefas/hta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HTA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/analise-de-tarefas/ctt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTT
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Design e Avaliação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Design e Avaliação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Princípios e Metas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Princípios e Metas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/caracteristicas-da-plataforma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Características da Plataforma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/principios-gerais-de-projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Princípios Gerais de Projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/guia-de-estilo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de Estilo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/metas-de-usabilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metas de Usabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Desenvolvimento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Desenvolvimento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Nível 1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Nível 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_1" id="__nav_5_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise de Tarefas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Análise de Tarefas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/planejamento-avaliacao-analise-de-tarefas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação da Análise de Tarefas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/resultado-analise-de-tarefas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato da Análise de Tarefas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_2" id="__nav_5_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Storyboard
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Storyboard
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../avaliacao/planejamento-avaliacao-storyboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação do Storyboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/planejamento-relato-resultados-storyboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato dos Resultados do Storyboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/teste-piloto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento e Execução do Teste-Piloto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Listas de Verificação para Inspeção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_5" id="__nav_5_1_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Relato dos Resultados do Storyboard e da Análise de Tarefas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            Relato dos Resultados do Storyboard e da Análise de Tarefas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/pedro-rocha/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur Sismene Carvalho
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leonardo da Silva Lopes Júnior
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Nível 2
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Nível 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1" id="__nav_5_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Protótipo de Papel
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Protótipo de Papel
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação do Protótipo de Papel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato dos Resultados do Protótipo de Papel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1_3" id="__nav_5_2_1_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Relato dos Resultados do Protótipo de Papel (Individual)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Relato dos Resultados do Protótipo de Papel (Individual)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur Sismene Carvalho
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leonardo da Silva Lopes Júnior
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/pedro-rocha-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Nível 3
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Nível 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_1" id="__nav_5_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Protótipo de Alta Fidelidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Protótipo de Alta Fidelidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação do Protótipo de Alta Fidelidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_1_3" id="__nav_5_3_1_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Relato dos Resultados do Protótipo de Alta Fidelidade (Individual)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_3_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Relato dos Resultados do Protótipo de Alta Fidelidade (Individual)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur Sismene Carvalho
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leonardo da Silva Lopes Júnior
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/pedro-rocha-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/grupo-08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 1 – Grupo 08 (Grupo +1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/grupo-06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 2 – Grupo 06 (Grupo -1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-3-grupo-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 3 – Grupo 07 (Autoavaliação)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-3-grupo-08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 3 – Grupo 08 (Grupo +1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-4-grupo-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 4 – Grupo 07 (Autoavaliação)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-4-grupo-06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 4 – Grupo 06 (Grupo -1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-6-grupo-05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 6 – Grupo 05
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_8" id="__nav_6_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Etapa 8 – Inspeção de Fagan
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            Etapa 8 – Inspeção de Fagan
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Método e Planejamento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_8_2" id="__nav_6_8_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Listas de Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Listas de Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    HTA (v2)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    HTA (v2)
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-criterios-de-julgamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Critérios de Julgamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-itens-de-verificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Itens de Verificação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-detalhamento-dos-itens" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Detalhamento dos Itens
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Detalhamento dos Itens">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-hta-01-o-objetivo-do-usuario-como-ponto-de-partida-da-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 HTA-01 — O objetivo do usuário como ponto de partida da HTA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-hta-02-o-plano-como-regra-de-ordem-entre-os-subobjetivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 HTA-02 — O plano como regra de ordem entre os subobjetivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-hta-03-relacoes-entre-subobjetivos-nos-planos-da-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 HTA-03 — Relações entre subobjetivos nos planos da HTA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-hta-04-entrada-acao-e-feedback-de-uma-operacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 HTA-04 — Entrada, ação e feedback de uma operação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-hta-05-criterio-de-parada-da-decomposicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 HTA-05 — Critério de parada da decomposição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-hta-06-decomposicao-hierarquica-por-niveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6 HTA-06 — Decomposição hierárquica por níveis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-hta-07-cobertura-e-exclusividade-dos-subobjetivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 HTA-07 — Cobertura e exclusividade dos subobjetivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#48-hta-08-distincao-visual-entre-objetivos-e-operacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.8 HTA-08 — Distinção visual entre objetivos e operações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#49-hta-09-numeracao-posicional-das-caixas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.9 HTA-09 — Numeração posicional das caixas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#410-hta-10-representacao-complementar-em-tabela" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10 HTA-10 — Representação complementar em tabela
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#411-hta-11-proposito-da-analise" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.11 HTA-11 — Propósito da análise
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412-hta-12-validacao-da-decomposicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.12 HTA-12 — Validação da decomposição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413-hta-13-operacoes-criticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.13 HTA-13 — Operações críticas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#414-hta-14-caminhos-alternativos-para-o-mesmo-objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.14 HTA-14 — Caminhos alternativos para o mesmo objetivo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#415-hta-15-tipo-de-erro-humano" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.15 HTA-15 — Tipo de erro humano
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-correspondencia-com-a-v1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Correspondência com a v1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Referências Bibliográficas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ctt-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTT (v2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../storyboard-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storyboard (v2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototipo-papel-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo de Papel (v2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototipo-alta-fidelidade-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo de Alta Fidelidade (v2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento-avaliacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento-relato/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../teste-piloto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teste-Piloto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../teste-usabilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teste de Usabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfil-usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_8_3" id="__nav_6_8_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Inspeções
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeções
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/pedro-rocha/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentação 5
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-5/arthur-carvalho/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur Sismene Carvalho
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-5/daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-5/pedro-rocha/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentação 6
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-6/daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentação 7
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação 7
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-7/daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-7/leonardo-lopes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leonardo da Silva Lopes Júnior
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-7/pedro-rocha/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-criterios-de-julgamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Critérios de Julgamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-itens-de-verificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Itens de Verificação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-detalhamento-dos-itens" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Detalhamento dos Itens
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Detalhamento dos Itens">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-hta-01-o-objetivo-do-usuario-como-ponto-de-partida-da-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 HTA-01 — O objetivo do usuário como ponto de partida da HTA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-hta-02-o-plano-como-regra-de-ordem-entre-os-subobjetivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 HTA-02 — O plano como regra de ordem entre os subobjetivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-hta-03-relacoes-entre-subobjetivos-nos-planos-da-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 HTA-03 — Relações entre subobjetivos nos planos da HTA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-hta-04-entrada-acao-e-feedback-de-uma-operacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 HTA-04 — Entrada, ação e feedback de uma operação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-hta-05-criterio-de-parada-da-decomposicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 HTA-05 — Critério de parada da decomposição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-hta-06-decomposicao-hierarquica-por-niveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6 HTA-06 — Decomposição hierárquica por níveis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-hta-07-cobertura-e-exclusividade-dos-subobjetivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 HTA-07 — Cobertura e exclusividade dos subobjetivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#48-hta-08-distincao-visual-entre-objetivos-e-operacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.8 HTA-08 — Distinção visual entre objetivos e operações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#49-hta-09-numeracao-posicional-das-caixas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.9 HTA-09 — Numeração posicional das caixas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#410-hta-10-representacao-complementar-em-tabela" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10 HTA-10 — Representação complementar em tabela
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#411-hta-11-proposito-da-analise" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.11 HTA-11 — Propósito da análise
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412-hta-12-validacao-da-decomposicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.12 HTA-12 — Validação da decomposição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413-hta-13-operacoes-criticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.13 HTA-13 — Operações críticas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#414-hta-14-caminhos-alternativos-para-o-mesmo-objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.14 HTA-14 — Caminhos alternativos para o mesmo objetivo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#415-hta-15-tipo-de-erro-humano" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.15 HTA-15 — Tipo de erro humano
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-correspondencia-com-a-v1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Correspondência com a v1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Referências Bibliográficas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div align="center">
+<p align="center"><b>Tabela de Contribuição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Membro</th>
+<th style="text-align: left;">Contribuição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Daniel da Silva Batista</strong></td>
+<td style="text-align: left;">Elaboração dos itens HTA-01 a HTA-05, revisão dos itens da v1 e recortes do livro.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Arthur Sismene Carvalho</strong></td>
+<td style="text-align: left;">Elaboração dos itens HTA-06 a HTA-10, reescritos a partir dos itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pedro Rocha Ferreira Lima</strong></td>
+<td style="text-align: left;">Elaboração dos itens HTA-11 a HTA-15, recortes do livro.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Claude (Anthropic)</strong></td>
+<td style="text-align: left;">Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA).</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h1 id="lista-de-verificacao-de-hta-v2">Lista de Verificação de HTA — v2</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>A <strong>Análise Hierárquica de Tarefas (HTA)</strong> é o diagrama que parte de um objetivo do usuário e o divide em partes menores (subobjetivos) até chegar aos passos concretos (operações), indicando em que ordem cada parte é feita (BARBOSA et al., 2021).</p>
+<p>Esta lista é a <strong>versão 2 (v2)</strong> da <a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">Lista de Verificação para HTA (v1, Etapa 4)</a> e faz parte da <a href="../../">Verificação da Etapa 8</a>, conduzida pelo método de inspeção de Fagan (FAGAN, 1976). Ela será aplicada, no passo de inspeção, aos seguintes artefatos do projeto:</p>
+<ul>
+<li><a href="../../../analise-de-requisitos/analise-de-tarefas/hta/">Análise de Tarefas — HTA</a></li>
+</ul>
+<p>A lista tem <strong>15 itens</strong>, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A <a href="#3-itens-de-verificacao">Seção 3</a> consolida todos os itens em uma tabela, e a <a href="#4-detalhamento-dos-itens">Seção 4</a> detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.</p>
+<h2 id="2-criterios-de-julgamento">2. Critérios de Julgamento</h2>
+<p>Cada item admite uma única resposta:</p>
+<ul>
+<li><strong>Sim</strong> — o artefato atende integralmente ao que a pergunta descreve;</li>
+<li><strong>Não</strong> — o artefato não atende ao que a pergunta descreve ou não apresenta a informação;</li>
+<li><strong>Incompleto</strong> — o artefato atende apenas em parte (por exemplo, em alguns quadros, tarefas ou participantes, mas não em todos).</li>
+</ul>
+<h2 id="3-itens-de-verificacao">3. Itens de Verificação</h2>
+<p>A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de HTA — v2:</p>
+<div align="center">
+<p align="center"><b>Tabela 1: Itens da Lista de Verificação de HTA — v2</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Pergunta de verificação</th>
+<th style="text-align: left;">Autor</th>
+<th style="text-align: left;">Fonte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>HTA-01</strong></td>
+<td style="text-align: left;">O diagrama começa pelo objetivo do usuário (o resultado que a pessoa quer alcançar, por exemplo "Comparar editais"), e não por uma lista de cliques ou de telas?</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-02</strong></td>
+<td style="text-align: left;">Todo objetivo que foi dividido em partes menores (subobjetivos) tem um plano (a regra que diz em que ordem essas partes devem ser feitas)?</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-03</strong></td>
+<td style="text-align: left;">Os planos usam apenas as três relações previstas na HTA: sequência ("1&gt;2": uma parte depois da outra), seleção ("1/2": uma ou outra, conforme a situação) e paralelo ("1+2": as duas ao mesmo tempo)?</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-04</strong></td>
+<td style="text-align: left;">Cada operação (passo do nível mais baixo, que não é mais dividido) informa o que dispara o passo (entrada), o que a pessoa faz (ação) e como ela sabe que concluiu (feedback)?</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-05</strong></td>
+<td style="text-align: left;">O artefato explica até onde a tarefa foi dividida e por que parou ali (por exemplo, porque o risco de erro naquele passo já é aceitável ou porque o problema já foi identificado)?</td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 192)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-06</strong></td>
+<td style="text-align: left;">A tarefa é dividida em camadas — do objetivo geral (nível 0) para subobjetivos (1, 2, 3…) e destes para os passos concretos (1.1, 1.2…) —, de modo que cada nível detalha o nível acima?</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-07</strong></td>
+<td style="text-align: left;">Os subobjetivos de um mesmo objetivo não se sobrepõem (cada um trata de uma parte diferente) e, juntos, cobrem o objetivo inteiro, sem deixar etapas de fora?</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-08</strong></td>
+<td style="text-align: left;">O diagrama diferencia visualmente os objetivos (que ainda se desdobram) das operações (os passos finais, que não se dividem mais e, no livro, são marcadas com um traço na base da caixa)?</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-09</strong></td>
+<td style="text-align: left;">Cada caixa recebe um número que corresponde à sua posição na árvore (0 na raiz; 1, 2… no primeiro nível; 1.1, 1.2… abaixo da caixa 1; 1.2.1… abaixo da 1.2)?</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 193)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-10</strong></td>
+<td style="text-align: left;">Além do diagrama, a tarefa é apresentada também em uma tabela que reúne os objetivos/operações, os planos, a entrada, o feedback e os problemas e recomendações identificados?</td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-11</strong></td>
+<td style="text-align: left;">O artefato informa para que a análise da tarefa foi feita (por exemplo, para reprojetar o portal ou descobrir onde os usuários erram) antes de apresentar o diagrama?</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 192)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-12</strong></td>
+<td style="text-align: left;">A decomposição da tarefa foi conferida com usuários ou outras partes interessadas (por exemplo, em entrevista), para confirmar que corresponde ao modo como a tarefa é feita na prática?</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 193)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-13</strong></td>
+<td style="text-align: left;">O artefato destaca quais operações são mais críticas (as que têm maior chance de erro ou cujo erro causa maior prejuízo ao usuário)?</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 193)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-14</strong></td>
+<td style="text-align: left;">Quando um mesmo objetivo pode ser alcançado de maneiras diferentes, o diagrama mostra essas alternativas, em vez de registrar um único caminho?</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 192)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-15</strong></td>
+<td style="text-align: left;">Para cada problema identificado na tarefa, o artefato indica o tipo de erro do usuário (por exemplo, descuido na execução, aplicação de uma regra errada ou falta de conhecimento)?</td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 193)</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+</div>
+<h2 id="4-detalhamento-dos-itens">4. Detalhamento dos Itens</h2>
+<h3 id="41-hta-01-o-objetivo-do-usuario-como-ponto-de-partida-da-hta">4.1 HTA-01 — O objetivo do usuário como ponto de partida da HTA</h3>
+<p>A Tabela 2 apresenta o item HTA-01:</p>
+<div align="center">
+<p align="center"><b>Tabela 2: Item HTA-01 — O objetivo do usuário como ponto de partida da HTA</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">O diagrama começa pelo objetivo do usuário (o resultado que a pessoa quer alcançar, por exemplo "Comparar editais"), e não por uma lista de cliques ou de telas?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-01</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<p>A Figura 1 reproduz o trecho do livro que fundamenta o item HTA-01:</p>
+<div align="center">
+
+<p align="center"><b>Figura 1: Referência Bibliográfica — Item HTA-01 (O objetivo do usuário como ponto de partida da HTA)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/hta-01.png" alt="Trecho do livro que fundamenta o item HTA-01" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 191).</p>
+
+</div>
+
+<h3 id="42-hta-02-o-plano-como-regra-de-ordem-entre-os-subobjetivos">4.2 HTA-02 — O plano como regra de ordem entre os subobjetivos</h3>
+<p>A Tabela 3 apresenta o item HTA-02:</p>
+<div align="center">
+<p align="center"><b>Tabela 3: Item HTA-02 — O plano como regra de ordem entre os subobjetivos</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">Todo objetivo que foi dividido em partes menores (subobjetivos) tem um plano (a regra que diz em que ordem essas partes devem ser feitas)?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-06</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<p>A Figura 2 reproduz o trecho do livro que fundamenta o item HTA-02:</p>
+<div align="center">
+
+<p align="center"><b>Figura 2: Referência Bibliográfica — Item HTA-02 (O plano como regra de ordem entre os subobjetivos)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/hta-02.png" alt="Trecho do livro que fundamenta o item HTA-02" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 191).</p>
+
+</div>
+
+<h3 id="43-hta-03-relacoes-entre-subobjetivos-nos-planos-da-hta">4.3 HTA-03 — Relações entre subobjetivos nos planos da HTA</h3>
+<p>A Tabela 4 apresenta o item HTA-03:</p>
+<div align="center">
+<p align="center"><b>Tabela 4: Item HTA-03 — Relações entre subobjetivos nos planos da HTA</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">Os planos usam apenas as três relações previstas na HTA: sequência ("1&gt;2": uma parte depois da outra), seleção ("1/2": uma ou outra, conforme a situação) e paralelo ("1+2": as duas ao mesmo tempo)?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-07</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<p>A Figura 3 reproduz o trecho do livro que fundamenta o item HTA-03:</p>
+<div align="center">
+
+<p align="center"><b>Figura 3: Referência Bibliográfica — Item HTA-03 (Relações entre subobjetivos nos planos da HTA)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/hta-03.png" alt="Trecho do livro que fundamenta o item HTA-03" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 191).</p>
+
+</div>
+
+<h3 id="44-hta-04-entrada-acao-e-feedback-de-uma-operacao">4.4 HTA-04 — Entrada, ação e feedback de uma operação</h3>
+<p>A Tabela 5 apresenta o item HTA-04:</p>
+<div align="center">
+<p align="center"><b>Tabela 5: Item HTA-04 — Entrada, ação e feedback de uma operação</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">Cada operação (passo do nível mais baixo, que não é mais dividido) informa o que dispara o passo (entrada), o que a pessoa faz (ação) e como ela sabe que concluiu (feedback)?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-09</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<p>A Figura 4 reproduz o trecho do livro que fundamenta o item HTA-04:</p>
+<div align="center">
+
+<p align="center"><b>Figura 4: Referência Bibliográfica — Item HTA-04 (Entrada, ação e feedback de uma operação)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/hta-04.png" alt="Trecho do livro que fundamenta o item HTA-04" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 191).</p>
+
+</div>
+
+<h3 id="45-hta-05-criterio-de-parada-da-decomposicao">4.5 HTA-05 — Critério de parada da decomposição</h3>
+<p>A Tabela 6 apresenta o item HTA-05:</p>
+<div align="center">
+<p align="center"><b>Tabela 6: Item HTA-05 — Critério de parada da decomposição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">O artefato explica até onde a tarefa foi dividida e por que parou ali (por exemplo, porque o risco de erro naquele passo já é aceitável ou porque o problema já foi identificado)?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Daniel da Silva Batista</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 192)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-08</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<p>A Figura 5 reproduz o trecho do livro que fundamenta o item HTA-05:</p>
+<div align="center">
+
+<p align="center"><b>Figura 5: Referência Bibliográfica — Item HTA-05 (Critério de parada da decomposição)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/hta-05.png" alt="Trecho do livro que fundamenta o item HTA-05" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 192).</p>
+
+</div>
+
+<h3 id="46-hta-06-decomposicao-hierarquica-por-niveis">4.6 HTA-06 — Decomposição hierárquica por níveis</h3>
+<p>A Tabela 7 apresenta o item HTA-06:</p>
+<div align="center">
+<p align="center"><b>Tabela 7: Item HTA-06 — Decomposição hierárquica por níveis</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">A tarefa é dividida em camadas — do objetivo geral (nível 0) para subobjetivos (1, 2, 3…) e destes para os passos concretos (1.1, 1.2…) —, de modo que cada nível detalha o nível acima?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-02</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<p>A Figura 6 reproduz o trecho do livro que fundamenta o item HTA-06:</p>
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item HTA-06 (Decomposição hierárquica por níveis)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/hta-06.png" alt="Trecho do livro que fundamenta o item HTA-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 191).</p>
+
+</div>
+
+<h3 id="47-hta-07-cobertura-e-exclusividade-dos-subobjetivos">4.7 HTA-07 — Cobertura e exclusividade dos subobjetivos</h3>
+<p>A Tabela 8 apresenta o item HTA-07:</p>
+<div align="center">
+<p align="center"><b>Tabela 8: Item HTA-07 — Cobertura e exclusividade dos subobjetivos</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">Os subobjetivos de um mesmo objetivo não se sobrepõem (cada um trata de uma parte diferente) e, juntos, cobrem o objetivo inteiro, sem deixar etapas de fora?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-03</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<p>A Figura 7 reproduz o trecho do livro que fundamenta o item HTA-07:</p>
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item HTA-07 (Cobertura e exclusividade dos subobjetivos)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/hta-07.png" alt="Trecho do livro que fundamenta o item HTA-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 191).</p>
+
+</div>
+
+<h3 id="48-hta-08-distincao-visual-entre-objetivos-e-operacoes">4.8 HTA-08 — Distinção visual entre objetivos e operações</h3>
+<p>A Tabela 9 apresenta o item HTA-08:</p>
+<div align="center">
+<p align="center"><b>Tabela 9: Item HTA-08 — Distinção visual entre objetivos e operações</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">O diagrama diferencia visualmente os objetivos (que ainda se desdobram) das operações (os passos finais, que não se dividem mais e, no livro, são marcadas com um traço na base da caixa)?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-04</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<p>A Figura 8 reproduz o trecho do livro que fundamenta o item HTA-08:</p>
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item HTA-08 (Distinção visual entre objetivos e operações)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/hta-08.png" alt="Trecho do livro que fundamenta o item HTA-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 191).</p>
+
+</div>
+
+<h3 id="49-hta-09-numeracao-posicional-das-caixas">4.9 HTA-09 — Numeração posicional das caixas</h3>
+<p>A Tabela 10 apresenta o item HTA-09:</p>
+<div align="center">
+<p align="center"><b>Tabela 10: Item HTA-09 — Numeração posicional das caixas</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">Cada caixa recebe um número que corresponde à sua posição na árvore (0 na raiz; 1, 2… no primeiro nível; 1.1, 1.2… abaixo da caixa 1; 1.2.1… abaixo da 1.2)?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 193)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-05</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<p>A Figura 9 reproduz o trecho do livro que fundamenta o item HTA-09:</p>
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item HTA-09 (Numeração posicional das caixas)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/hta-09.png" alt="Trecho do livro que fundamenta o item HTA-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 193).</p>
+
+</div>
+
+<h3 id="410-hta-10-representacao-complementar-em-tabela">4.10 HTA-10 — Representação complementar em tabela</h3>
+<p>A Tabela 11 apresenta o item HTA-10:</p>
+<div align="center">
+<p align="center"><b>Tabela 11: Item HTA-10 — Representação complementar em tabela</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">Além do diagrama, a tarefa é apresentada também em uma tabela que reúne os objetivos/operações, os planos, a entrada, o feedback e os problemas e recomendações identificados?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Arthur Sismene Carvalho</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 191)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">HTA-10</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+</div>
+<p>A Figura 10 reproduz o trecho do livro que fundamenta o item HTA-10:</p>
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item HTA-10 (Representação complementar em tabela)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/hta-10.png" alt="Trecho do livro que fundamenta o item HTA-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 191).</p>
+
+</div>
+
+<h3 id="411-hta-11-proposito-da-analise">4.11 HTA-11 — Propósito da análise</h3>
+<p>A Tabela 12 apresenta o item HTA-11:</p>
+<div align="center">
+<p align="center"><b>Tabela 12: Item HTA-11 — Propósito da análise</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">O artefato informa para que a análise da tarefa foi feita (por exemplo, para reprojetar o portal ou descobrir onde os usuários erram) antes de apresentar o diagrama?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 192)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">Item novo</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<p>A Figura 11 reproduz o trecho do livro que fundamenta o item HTA-11:</p>
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item HTA-11 (Propósito da análise)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/hta-11.png" alt="Trecho do livro que fundamenta o item HTA-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 192).</p>
+
+</div>
+
+<h3 id="412-hta-12-validacao-da-decomposicao">4.12 HTA-12 — Validação da decomposição</h3>
+<p>A Tabela 13 apresenta o item HTA-12:</p>
+<div align="center">
+<p align="center"><b>Tabela 13: Item HTA-12 — Validação da decomposição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">A decomposição da tarefa foi conferida com usuários ou outras partes interessadas (por exemplo, em entrevista), para confirmar que corresponde ao modo como a tarefa é feita na prática?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 193)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">Item novo</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<p>A Figura 12 reproduz o trecho do livro que fundamenta o item HTA-12:</p>
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item HTA-12 (Validação da decomposição)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/hta-12.png" alt="Trecho do livro que fundamenta o item HTA-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 193).</p>
+
+</div>
+
+<h3 id="413-hta-13-operacoes-criticas">4.13 HTA-13 — Operações críticas</h3>
+<p>A Tabela 14 apresenta o item HTA-13:</p>
+<div align="center">
+<p align="center"><b>Tabela 14: Item HTA-13 — Operações críticas</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">O artefato destaca quais operações são mais críticas (as que têm maior chance de erro ou cujo erro causa maior prejuízo ao usuário)?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 193)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">Item novo</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<p>A Figura 13 reproduz o trecho do livro que fundamenta o item HTA-13:</p>
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item HTA-13 (Operações críticas)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/hta-13.png" alt="Trecho do livro que fundamenta o item HTA-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 193).</p>
+
+</div>
+
+<h3 id="414-hta-14-caminhos-alternativos-para-o-mesmo-objetivo">4.14 HTA-14 — Caminhos alternativos para o mesmo objetivo</h3>
+<p>A Tabela 15 apresenta o item HTA-14:</p>
+<div align="center">
+<p align="center"><b>Tabela 15: Item HTA-14 — Caminhos alternativos para o mesmo objetivo</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">Quando um mesmo objetivo pode ser alcançado de maneiras diferentes, o diagrama mostra essas alternativas, em vez de registrar um único caminho?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 192)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">Item novo</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<p>A Figura 14 reproduz o trecho do livro que fundamenta o item HTA-14:</p>
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item HTA-14 (Caminhos alternativos para o mesmo objetivo)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/hta-14.png" alt="Trecho do livro que fundamenta o item HTA-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 192).</p>
+
+</div>
+
+<h3 id="415-hta-15-tipo-de-erro-humano">4.15 HTA-15 — Tipo de erro humano</h3>
+<p>A Tabela 16 apresenta o item HTA-15:</p>
+<div align="center">
+<p align="center"><b>Tabela 16: Item HTA-15 — Tipo de erro humano</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Campo</th>
+<th style="text-align: left;">Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pergunta</strong></td>
+<td style="text-align: left;">Para cada problema identificado na tarefa, o artefato indica o tipo de erro do usuário (por exemplo, descuido na execução, aplicação de uma regra errada ou falta de conhecimento)?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Autor</strong></td>
+<td style="text-align: left;">Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fonte</strong></td>
+<td style="text-align: left;">BARBOSA et al. (2021, p. 193)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Origem na v1</strong></td>
+<td style="text-align: left;">Item novo</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<p>A Figura 15 reproduz o trecho do livro que fundamenta o item HTA-15:</p>
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item HTA-15 (Tipo de erro humano)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/hta-15.png" alt="Trecho do livro que fundamenta o item HTA-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 193).</p>
+
+</div>
+
+<h2 id="5-correspondencia-com-a-v1">5. Correspondência com a v1</h2>
+<p>A Tabela 17 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:</p>
+<div align="center">
+<p align="center"><b>Tabela 17: Correspondência entre os Itens da v1 e da v2</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Item v2</th>
+<th style="text-align: center;">Origem na v1</th>
+<th style="text-align: left;">O que mudou</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>HTA-01</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-01</a></td>
+<td style="text-align: left;">Reescrito sem termos técnicos ("nível 0", "verbo no infinitivo") e com exemplo.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-02</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-06</a></td>
+<td style="text-align: left;">Explica o que é "plano" e retira a notação <code>p:</code>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-03</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-07</a></td>
+<td style="text-align: left;">Cada operador passa a vir com o seu significado.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-04</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-09</a></td>
+<td style="text-align: left;">Define "operação" e traduz <em>input</em> e <em>feedback</em>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-05</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-08</a></td>
+<td style="text-align: left;">Substitui a fórmula "P × C" sem explicação por exemplos do próprio livro.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-06</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-02</a></td>
+<td style="text-align: left;">Explica a decomposição por níveis, com exemplo de numeração.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-07</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-03</a></td>
+<td style="text-align: left;">Troca "mutuamente exclusivos / coletivamente exaustivos" por linguagem simples.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-08</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-04</a></td>
+<td style="text-align: left;">Explica o que são objetivo e operação e descreve a marcação no diagrama.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-09</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-05</a></td>
+<td style="text-align: left;">Mantém a numeração posicional, com exemplo.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-10</strong></td>
+<td style="text-align: center;"><a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/#2-lista-de-verificacao-para-hta-10-itens">HTA-10</a></td>
+<td style="text-align: left;">Mantém a representação complementar em tabela, listando os campos.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-11</strong></td>
+<td style="text-align: center;">Item novo</td>
+<td style="text-align: left;">Item novo, elaborado na v2.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-12</strong></td>
+<td style="text-align: center;">Item novo</td>
+<td style="text-align: left;">Item novo, elaborado na v2.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-13</strong></td>
+<td style="text-align: center;">Item novo</td>
+<td style="text-align: left;">Item novo, elaborado na v2.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-14</strong></td>
+<td style="text-align: center;">Item novo</td>
+<td style="text-align: left;">Item novo, elaborado na v2.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-15</strong></td>
+<td style="text-align: center;">Item novo</td>
+<td style="text-align: left;">Item novo, elaborado na v2.</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<p>Na v1, a tabela da HTA era citada como "Tabela 8.1"; no livro ela é a Tabela 8.4 (p. 193). As fontes da v2 indicam a página exata.</p>
+<h2 id="6-referencias-bibliograficas">6. Referências Bibliográficas</h2>
+<blockquote>
+<p>[1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. <em>Interação Humano-Computador e Experiência do Usuário</em>. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.<br />
+[2] FAGAN, Michael E. Design and code inspections to reduce errors in program development. <em>IBM Systems Journal</em>, v. 15, n. 3, p. 182-211, 1976.<br />
+[3] SALES, André Barros de. <em>Plano de ensino FIHC 022026 – Turma 01</em>. Brasília: FCTE/UnB, 2026.</p>
+</blockquote>
+<h2 id="7-historico-de-versoes">7. Histórico de Versões</h2>
+<div align="center">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor(es)</th>
+<th style="text-align: center;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">21/11/2026</td>
+<td style="text-align: left;">Criação da v2 da lista: itens HTA-01 a HTA-05 reescritos a partir da v1, com fonte por página e recorte do livro; itens HTA-06 a HTA-20 reservados aos demais integrantes.</td>
+<td style="text-align: center;">Daniel da Silva Batista</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td style="text-align: center;">22/11/2026</td>
+<td style="text-align: left;">Elaboração dos itens HTA-06 a HTA-10, reescritos a partir dos itens v1 HTA-02, 03, 04, 05 e 10; recortes do livro adicionados.</td>
+<td style="text-align: center;">Arthur Sismene Carvalho</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.2</code></td>
+<td style="text-align: center;">22/11/2026</td>
+<td style="text-align: left;">Elaboração dos itens HTA-11 a HTA-15, com fonte por página e recorte do livro.</td>
+<td style="text-align: center;">Pedro Rocha Ferreira Lima</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
