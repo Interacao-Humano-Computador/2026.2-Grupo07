@@ -57,10 +57,10 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de T
 | **TU-04** | O relato registra, para cada tarefa, se o participante conseguiu concluí-la, se precisou de ajuda e os comentários que ele fez espontaneamente (sem ser perguntado)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 299) |
 | **TU-05** | Depois de terminar as tarefas, o participante foi entrevistado sobre o que achou de usar o protótipo (entrevista pós-teste)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 302) |
 | **TU-06** | O participante foi encorajado a verbalizar seus pensamentos durante as tarefas (técnica "pensar em voz alta"), descrevendo o que estava fazendo e o que estava pensando a cada momento? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 301) |
-| **TU-07** | O avaliador registrou, para cada tarefa, onde o participante parou, o que tentou, o que disse espontaneamente e as expressões ou gestos que indicaram frustração, confusão ou satisfação? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 302) |
-| **TU-08** | O participante foi informado de que o objeto da avaliação é o protótipo (ou o sistema), não ele próprio — e essa distinção foi reforçada nos momentos em que demonstrou frustração ou constrangimento? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 299) |
+| **TU-07** | O avaliador registrou, para cada tarefa, onde o participante parou, o que tentou, o que disse espontaneamente e as expressões ou gestos que indicaram frustração, confusão ou satisfação? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 299) |
+| **TU-08** | O participante foi informado de que o objeto da avaliação é o protótipo (ou o sistema), não ele próprio — e essa distinção foi reforçada nos momentos em que demonstrou frustração ou constrangimento? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
 | **TU-09** | A entrevista pós-teste incluiu perguntas abertas sobre a experiência geral do participante, sobre as tarefas que ele achou mais difíceis e sobre o que ele mudaria no sistema? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 302) |
-| **TU-10** | O avaliador registrou o tempo de cada tarefa: desde o instante em que o participante começou a tentar realizá-la até o momento em que declarou ter terminado ou desistiu? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 302) |
+| **TU-10** | O avaliador registrou o tempo de cada tarefa: desde o instante em que o participante começou a tentar realizá-la até o momento em que declarou ter terminado ou desistiu? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 293) |
 | **TU-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **TU-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **TU-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -270,7 +270,7 @@ A Tabela 8 apresenta o item TU-07:
 | :--- | :--- |
 | **Pergunta** | O avaliador registrou, para cada tarefa, onde o participante parou, o que tentou, o que disse espontaneamente e as expressões ou gestos que indicaram frustração, confusão ou satisfação? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 302) |
+| **Fonte** | BARBOSA et al. (2021, p. 299) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -284,7 +284,7 @@ A Figura 7 reproduz o trecho do livro que fundamenta o item TU-07:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/tu-07.png" alt="Trecho do livro que fundamenta o item TU-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 302).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 299).</p>
 
 </div>
 
@@ -300,7 +300,7 @@ A Tabela 9 apresenta o item TU-08:
 | :--- | :--- |
 | **Pergunta** | O participante foi informado de que o objeto da avaliação é o protótipo (ou o sistema), não ele próprio — e essa distinção foi reforçada nos momentos em que demonstrou frustração ou constrangimento? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 299) |
+| **Fonte** | BARBOSA et al. (2021, p. 300) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -314,7 +314,7 @@ A Figura 8 reproduz o trecho do livro que fundamenta o item TU-08:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/tu-08.png" alt="Trecho do livro que fundamenta o item TU-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 299).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 300).</p>
 
 </div>
 
@@ -360,7 +360,7 @@ A Tabela 11 apresenta o item TU-10:
 | :--- | :--- |
 | **Pergunta** | O avaliador registrou o tempo de cada tarefa: desde o instante em que o participante começou a tentar realizá-la até o momento em que declarou ter terminado ou desistiu? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 302) |
+| **Fonte** | BARBOSA et al. (2021, p. 293) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -374,7 +374,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item TU-10:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/tu-10.png" alt="Trecho do livro que fundamenta o item TU-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 302).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 293).</p>
 
 </div>
 

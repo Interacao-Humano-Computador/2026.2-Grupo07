@@ -49,11 +49,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PE-03** | Cada persona descreve os seus objetivos (o resultado que ela quer alcançar) separados das tarefas (os passos que executa para isso)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 182) |
 | **PE-04** | O elenco (o conjunto de personas do projeto) tem entre 3 e 12 personas, e pelo menos uma delas é primária (a persona para quem o design é feito em primeiro lugar)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 181) |
 | **PE-05** | As personas foram construídas a partir dos dados do perfil de usuário (pesquisa com usuários reais), e apenas o nome e os detalhes pessoais foram inventados? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 180) |
-| **PE-06** | Cada persona descreve suas habilidades relacionadas ao domínio do sistema: o quanto sabe sobre o tema, que ferramentas e tecnologias usa e há quanto tempo executa as tarefas relacionadas? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 182) |
-| **PE-07** | Cada persona descreve seus relacionamentos relevantes: com quem trabalha, de quem depende e a quem reporta ao realizar as tarefas que o sistema suporta? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 179) |
-| **PE-08** | Cada persona lista suas necessidades do ponto de vista do usuário: o que ela precisaria que o sistema fornecesse para alcançar seus objetivos com eficiência e satisfação? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 179) |
-| **PE-09** | Cada persona inclui uma citação direta representativa — uma frase que sintetiza sua atitude em relação ao sistema ou ao domínio — para ajudar a equipe a lembrar do ponto de vista dessa persona? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 182) |
-| **PE-10** | As personas são usadas nas decisões de design: a equipe as consulta ao comparar alternativas de solução, ao priorizar funcionalidades e ao avaliar se as propostas atendem às necessidades do usuário alvo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 183) |
+| **PE-06** | Cada persona descreve suas habilidades relacionadas ao domínio do sistema: o quanto sabe sobre o tema, que ferramentas e tecnologias usa e há quanto tempo executa as tarefas relacionadas? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 180) |
+| **PE-07** | Cada persona descreve seus relacionamentos relevantes: com quem trabalha, de quem depende e a quem reporta ao realizar as tarefas que o sistema suporta? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 180) |
+| **PE-08** | Cada persona lista suas necessidades do ponto de vista do usuário: o que ela precisaria que o sistema fornecesse para alcançar seus objetivos com eficiência e satisfação? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 180) |
+| **PE-09** | Cada persona inclui uma citação direta representativa — uma frase que sintetiza sua atitude em relação ao sistema ou ao domínio — para ajudar a equipe a lembrar do ponto de vista dessa persona? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 180) |
+| **PE-10** | As personas são usadas nas decisões de design: a equipe as consulta ao comparar alternativas de solução, ao priorizar funcionalidades e ao avaliar se as propostas atendem às necessidades do usuário alvo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 181) |
 | **PE-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PE-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PE-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -233,7 +233,7 @@ A Tabela 7 apresenta o item PE-06:
 | :--- | :--- |
 | **Pergunta** | Cada persona descreve suas habilidades relacionadas ao domínio do sistema: o quanto sabe sobre o tema, que ferramentas e tecnologias usa e há quanto tempo executa as tarefas relacionadas? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 182) |
+| **Fonte** | BARBOSA et al. (2021, p. 180) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -247,7 +247,7 @@ A Figura 6 reproduz o trecho do livro que fundamenta o item PE-06:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/pe-06.png" alt="Trecho do livro que fundamenta o item PE-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 182).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 180).</p>
 
 </div>
 
@@ -263,7 +263,7 @@ A Tabela 8 apresenta o item PE-07:
 | :--- | :--- |
 | **Pergunta** | Cada persona descreve seus relacionamentos relevantes: com quem trabalha, de quem depende e a quem reporta ao realizar as tarefas que o sistema suporta? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 179) |
+| **Fonte** | BARBOSA et al. (2021, p. 180) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -277,7 +277,7 @@ A Figura 7 reproduz o trecho do livro que fundamenta o item PE-07:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/pe-07.png" alt="Trecho do livro que fundamenta o item PE-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 179).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 180).</p>
 
 </div>
 
@@ -293,7 +293,7 @@ A Tabela 9 apresenta o item PE-08:
 | :--- | :--- |
 | **Pergunta** | Cada persona lista suas necessidades do ponto de vista do usuário: o que ela precisaria que o sistema fornecesse para alcançar seus objetivos com eficiência e satisfação? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 179) |
+| **Fonte** | BARBOSA et al. (2021, p. 180) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -307,7 +307,7 @@ A Figura 8 reproduz o trecho do livro que fundamenta o item PE-08:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/pe-08.png" alt="Trecho do livro que fundamenta o item PE-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 179).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 180).</p>
 
 </div>
 
@@ -323,7 +323,7 @@ A Tabela 10 apresenta o item PE-09:
 | :--- | :--- |
 | **Pergunta** | Cada persona inclui uma citação direta representativa — uma frase que sintetiza sua atitude em relação ao sistema ou ao domínio — para ajudar a equipe a lembrar do ponto de vista dessa persona? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 182) |
+| **Fonte** | BARBOSA et al. (2021, p. 180) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -337,7 +337,7 @@ A Figura 9 reproduz o trecho do livro que fundamenta o item PE-09:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/pe-09.png" alt="Trecho do livro que fundamenta o item PE-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 182).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 180).</p>
 
 </div>
 
@@ -353,7 +353,7 @@ A Tabela 11 apresenta o item PE-10:
 | :--- | :--- |
 | **Pergunta** | As personas são usadas nas decisões de design: a equipe as consulta ao comparar alternativas de solução, ao priorizar funcionalidades e ao avaliar se as propostas atendem às necessidades do usuário alvo? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 183) |
+| **Fonte** | BARBOSA et al. (2021, p. 181) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -367,7 +367,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PE-10:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/pe-10.png" alt="Trecho do livro que fundamenta o item PE-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 183).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 181).</p>
 
 </div>
 

@@ -49,11 +49,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de C
 | **CE-03** | O ator principal de cada cenário (a pessoa central da história) é uma das personas do projeto? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 184) |
 | **CE-04** | O cenário mostra o objetivo do ator (a pessoa da história), as ações que ele realiza e os eventos (reações do sistema ou do ambiente) que ajudam ou atrapalham esse objetivo? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 184) |
 | **CE-05** | Há pelo menos um cenário para cada tarefa principal do projeto (as tarefas mais frequentes ou mais importantes para os usuários)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 188) |
-| **CE-06** | Cada cenário menciona os objetos com que o ator interage (artefatos, equipamentos ou sistemas) e descreve o contexto de uso (o ambiente, o momento e as condições em que a ação ocorre)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 185) |
-| **CE-07** | O cenário registra eventuais restrições do ator — limitações de tempo, recurso ou conhecimento que dificultam ou impedem o alcance do objetivo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 185) |
-| **CE-08** | A narrativa de cada cenário é organizada em episódios — uma sequência encadeada de ações ou situações que mostra como o ator progride (ou não) em direção ao objetivo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 186) |
-| **CE-09** | Os cenários são consultados pela equipe ao longo do processo de design para fundamentar decisões — por exemplo, ao comparar alternativas ou ao definir requisitos do sistema? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 186) |
-| **CE-10** | O projeto inclui cenários de diferentes tipos — de exploração (para identificar o problema), de informação (para propor soluções) e de interação (para detalhar a solução) — ao longo das fases do design? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 187) |
+| **CE-06** | Cada cenário menciona os objetos com que o ator interage (artefatos, equipamentos ou sistemas) e descreve o contexto de uso (o ambiente, o momento e as condições em que a ação ocorre)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 132) |
+| **CE-07** | O cenário registra eventuais restrições do ator — limitações de tempo, recurso ou conhecimento que dificultam ou impedem o alcance do objetivo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 187) |
+| **CE-08** | A narrativa de cada cenário é organizada em enredo — uma sequência encadeada de ações ou situações que mostra como o ator progride (ou não) em direção ao objetivo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 184) |
+| **CE-09** | Os cenários são consultados pela equipe ao longo do processo de design para fundamentar decisões — por exemplo, ao comparar alternativas ou ao definir requisitos do sistema? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 184) |
+| **CE-10** | O projeto inclui cenários de diferentes tipos — de problema (para identificar necessidades), de atividade (para descrever tarefas), de informação (para especificar dados) e de interação (para detalhar a interface) — ao longo das fases do design? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 132) |
 | **CE-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **CE-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **CE-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -233,7 +233,7 @@ A Tabela 7 apresenta o item CE-06:
 | :--- | :--- |
 | **Pergunta** | Cada cenário menciona os objetos com que o ator interage (artefatos, equipamentos ou sistemas) e descreve o contexto de uso (o ambiente, o momento e as condições em que a ação ocorre)? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 185) |
+| **Fonte** | BARBOSA et al. (2021, p. 132) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -247,7 +247,7 @@ A Figura 6 reproduz o trecho do livro que fundamenta o item CE-06:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/ce-06.png" alt="Trecho do livro que fundamenta o item CE-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 185).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 132).</p>
 
 </div>
 
@@ -263,7 +263,7 @@ A Tabela 8 apresenta o item CE-07:
 | :--- | :--- |
 | **Pergunta** | O cenário registra eventuais restrições do ator — limitações de tempo, recurso ou conhecimento que dificultam ou impedem o alcance do objetivo? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 185) |
+| **Fonte** | BARBOSA et al. (2021, p. 187) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -277,23 +277,23 @@ A Figura 7 reproduz o trecho do livro que fundamenta o item CE-07:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/ce-07.png" alt="Trecho do livro que fundamenta o item CE-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 185).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 187).</p>
 
 </div>
 
-### 4.8 CE-08 — Episódios
+### 4.8 CE-08 — Enredo
 
 A Tabela 9 apresenta o item CE-08:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 9: Item CE-08 — Episódios</b></p>
+<p align="center"><b>Tabela 9: Item CE-08 — Enredo</b></p>
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | A narrativa de cada cenário é organizada em episódios — uma sequência encadeada de ações ou situações que mostra como o ator progride (ou não) em direção ao objetivo? |
+| **Pergunta** | A narrativa de cada cenário é organizada em enredo — uma sequência encadeada de ações ou situações que mostra como o ator progride (ou não) em direção ao objetivo? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 186) |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -303,11 +303,11 @@ A Figura 8 reproduz o trecho do livro que fundamenta o item CE-08:
 
 <div align="center">
 
-<p align="center"><b>Figura 8: Referência Bibliográfica — Item CE-08 (Episódios)</b></p>
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item CE-08 (Enredo)</b></p>
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/ce-08.png" alt="Trecho do livro que fundamenta o item CE-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 186).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
 
 </div>
 
@@ -323,7 +323,7 @@ A Tabela 10 apresenta o item CE-09:
 | :--- | :--- |
 | **Pergunta** | Os cenários são consultados pela equipe ao longo do processo de design para fundamentar decisões — por exemplo, ao comparar alternativas ou ao definir requisitos do sistema? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 186) |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -337,7 +337,7 @@ A Figura 9 reproduz o trecho do livro que fundamenta o item CE-09:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/ce-09.png" alt="Trecho do livro que fundamenta o item CE-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 186).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
 
 </div>
 
@@ -351,9 +351,9 @@ A Tabela 11 apresenta o item CE-10:
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | O projeto inclui cenários de diferentes tipos — de exploração (para identificar o problema), de informação (para propor soluções) e de interação (para detalhar a solução) — ao longo das fases do design? |
+| **Pergunta** | O projeto inclui cenários de diferentes tipos — de problema (para identificar necessidades), de atividade (para descrever tarefas), de informação (para especificar dados) e de interação (para detalhar a interface) — ao longo das fases do design? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 187) |
+| **Fonte** | BARBOSA et al. (2021, p. 132) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -367,7 +367,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item CE-10:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/ce-10.png" alt="Trecho do livro que fundamenta o item CE-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 187).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 132).</p>
 
 </div>
 

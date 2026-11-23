@@ -52,11 +52,11 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PA-03** | O planejamento escolhe os métodos de avaliação (por exemplo, inspeção, entrevista ou teste com usuários) e justifica a escolha considerando prazo, custo, equipamentos e experiência dos avaliadores (atividade "C — Escolher os métodos" do DECIDE)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 304) |
 | **PA-04** | O planejamento deixa claro o que entra na avaliação e o que fica de fora (quais telas, tarefas e tipos de usuário) e explica o motivo dessa escolha? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 298) |
 | **PA-05** | O planejamento diz quantas pessoas vão participar, com que perfil, e por que esse número basta (por exemplo, citando Nielsen, segundo quem cinco usuários já revelam a maior parte dos problemas)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 298) |
-| **PA-06** | O planejamento identifica as questões práticas da avaliação — como recrutar participantes, em que ambiente conduzir as sessões e quais equipamentos usar — (atividade "I — Identificar questões práticas" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 305) |
-| **PA-07** | O planejamento prevê a obtenção do consentimento informado dos participantes e garante que eles podem encerrar a participação a qualquer momento sem qualquer penalidade — (atividade "D — Decidir como lidar com questões éticas" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 311) |
-| **PA-08** | O planejamento define como os dados coletados serão interpretados e apresentados: de que forma os resultados responderão às perguntas da avaliação — (atividade "E — Avaliar, interpretar e apresentar os dados" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 312) |
+| **PA-06** | O planejamento identifica as questões práticas da avaliação — como recrutar participantes, em que ambiente conduzir as sessões e quais equipamentos usar — (atividade "I — Identificar questões práticas" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 304) |
+| **PA-07** | O planejamento prevê a obtenção do consentimento informado dos participantes e garante que eles podem encerrar a participação a qualquer momento sem qualquer penalidade — (atividade "D — Decidir como lidar com questões éticas" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 304) |
+| **PA-08** | O planejamento define como os dados coletados serão interpretados e apresentados: de que forma os resultados responderão às perguntas da avaliação — (atividade "E — Avaliar, interpretar e apresentar os dados" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 304) |
 | **PA-09** | O planejamento inclui o roteiro das tarefas que o participante realizará durante a avaliação, com as instruções padronizadas que o avaliador usará no início de cada sessão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 299) |
-| **PA-10** | O planejamento informa onde a avaliação será conduzida (laboratório de usabilidade ou ambiente natural de uso) e justifica essa escolha, levando em conta os benefícios e os custos de cada opção? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
+| **PA-10** | O planejamento informa onde a avaliação será conduzida (laboratório de usabilidade ou ambiente natural de uso) e justifica essa escolha, levando em conta os benefícios e os custos de cada opção? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 292) |
 | **PA-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PA-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **PA-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -236,7 +236,7 @@ A Tabela 7 apresenta o item PA-06:
 | :--- | :--- |
 | **Pergunta** | O planejamento identifica as questões práticas da avaliação — como recrutar participantes, em que ambiente conduzir as sessões e quais equipamentos usar — (atividade "I — Identificar questões práticas" do DECIDE)? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 305) |
+| **Fonte** | BARBOSA et al. (2021, p. 304) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -250,7 +250,7 @@ A Figura 6 reproduz o trecho do livro que fundamenta o item PA-06:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/pa-06.png" alt="Trecho do livro que fundamenta o item PA-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 305).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 304).</p>
 
 </div>
 
@@ -266,7 +266,7 @@ A Tabela 8 apresenta o item PA-07:
 | :--- | :--- |
 | **Pergunta** | O planejamento prevê a obtenção do consentimento informado dos participantes e garante que eles podem encerrar a participação a qualquer momento sem qualquer penalidade — (atividade "D — Decidir como lidar com questões éticas" do DECIDE)? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 311) |
+| **Fonte** | BARBOSA et al. (2021, p. 304) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -280,7 +280,7 @@ A Figura 7 reproduz o trecho do livro que fundamenta o item PA-07:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/pa-07.png" alt="Trecho do livro que fundamenta o item PA-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 311).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 304).</p>
 
 </div>
 
@@ -296,7 +296,7 @@ A Tabela 9 apresenta o item PA-08:
 | :--- | :--- |
 | **Pergunta** | O planejamento define como os dados coletados serão interpretados e apresentados: de que forma os resultados responderão às perguntas da avaliação — (atividade "E — Avaliar, interpretar e apresentar os dados" do DECIDE)? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 312) |
+| **Fonte** | BARBOSA et al. (2021, p. 304) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -310,7 +310,7 @@ A Figura 8 reproduz o trecho do livro que fundamenta o item PA-08:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/pa-08.png" alt="Trecho do livro que fundamenta o item PA-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 312).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 304).</p>
 
 </div>
 
@@ -356,7 +356,7 @@ A Tabela 11 apresenta o item PA-10:
 | :--- | :--- |
 | **Pergunta** | O planejamento informa onde a avaliação será conduzida (laboratório de usabilidade ou ambiente natural de uso) e justifica essa escolha, levando em conta os benefícios e os custos de cada opção? |
 | **Autor** | Arthur Sismene Carvalho |
-| **Fonte** | BARBOSA et al. (2021, p. 300) |
+| **Fonte** | BARBOSA et al. (2021, p. 292) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
@@ -370,7 +370,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PA-10:
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/pa-10.png" alt="Trecho do livro que fundamenta o item PA-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
-<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 300).</p>
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 292).</p>
 
 </div>
 

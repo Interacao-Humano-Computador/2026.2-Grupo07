@@ -55,8 +55,8 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **RL-06** | O planejamento prevê que o relato registre os dados de cada participante individualmente (e não apenas médias ou totais agregados), para que seja possível identificar padrões e exceções entre os participantes? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
 | **RL-07** | O planejamento prevê que o relato apresente o perfil de cada participante, para que o leitor possa verificar se ele é representativo do perfil de usuário alvo do sistema? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
 | **RL-08** | O planejamento prevê que o relato apresente a interpretação dos avaliadores sobre os dados — o que eles significam para a qualidade do artefato — e não apenas os números e observações brutas? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
-| **RL-09** | O planejamento prevê que o relato registre sugestões de melhoria colhidas dos próprios participantes durante ou após as sessões, distinguindo-as das análises dos avaliadores? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
-| **RL-10** | O planejamento prevê que os problemas sejam agrupados por tarefa ou por tela, indicando em quais partes do artefato há maior concentração de dificuldades? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
+| **RL-09** | O planejamento prevê que o relato apresente os problemas encontrados com indicação de gravidade — crítico (impede a tarefa), grave (causa grande dificuldade) ou leve (causa pequeno incômodo) — para orientar as decisões de reprojeto? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
+| **RL-10** | O planejamento prevê que o relato registre evidências concretas — como citações dos participantes ou descrições de comportamento observado — que fundamentem cada problema identificado? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
 | **RL-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **RL-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
 | **RL-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
@@ -314,17 +314,17 @@ A Figura 8 reproduz o trecho do livro que fundamenta o item RL-08:
 
 </div>
 
-### 4.9 RL-09 — Sugestões dos participantes
+### 4.9 RL-09 — Gravidade dos problemas
 
 A Tabela 10 apresenta o item RL-09:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 10: Item RL-09 — Sugestões dos participantes</b></p>
+<p align="center"><b>Tabela 10: Item RL-09 — Gravidade dos problemas</b></p>
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | O planejamento prevê que o relato registre sugestões de melhoria colhidas dos próprios participantes durante ou após as sessões, distinguindo-as das análises dos avaliadores? |
+| **Pergunta** | O planejamento prevê que o relato apresente os problemas encontrados com indicação de gravidade — crítico (impede a tarefa), grave (causa grande dificuldade) ou leve (causa pequeno incômodo) — para orientar as decisões de reprojeto? |
 | **Autor** | Arthur Sismene Carvalho |
 | **Fonte** | BARBOSA et al. (2021, p. 303) |
 
@@ -336,7 +336,7 @@ A Figura 9 reproduz o trecho do livro que fundamenta o item RL-09:
 
 <div align="center">
 
-<p align="center"><b>Figura 9: Referência Bibliográfica — Item RL-09 (Sugestões dos participantes)</b></p>
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item RL-09 (Gravidade dos problemas)</b></p>
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/rl-09.png" alt="Trecho do livro que fundamenta o item RL-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
@@ -344,17 +344,17 @@ A Figura 9 reproduz o trecho do livro que fundamenta o item RL-09:
 
 </div>
 
-### 4.10 RL-10 — Problemas por tarefa
+### 4.10 RL-10 — Evidências dos problemas
 
 A Tabela 11 apresenta o item RL-10:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 11: Item RL-10 — Problemas por tarefa</b></p>
+<p align="center"><b>Tabela 11: Item RL-10 — Evidências dos problemas</b></p>
 
 | Campo | Registro |
 | :--- | :--- |
-| **Pergunta** | O planejamento prevê que os problemas sejam agrupados por tarefa ou por tela, indicando em quais partes do artefato há maior concentração de dificuldades? |
+| **Pergunta** | O planejamento prevê que o relato registre evidências concretas — como citações dos participantes ou descrições de comportamento observado — que fundamentem cada problema identificado? |
 | **Autor** | Arthur Sismene Carvalho |
 | **Fonte** | BARBOSA et al. (2021, p. 303) |
 
@@ -366,7 +366,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item RL-10:
 
 <div align="center">
 
-<p align="center"><b>Figura 10: Referência Bibliográfica — Item RL-10 (Problemas por tarefa)</b></p>
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item RL-10 (Evidências dos problemas)</b></p>
 
 <img src="../../../assets/images/verificacao-etapa-8-sismene/rl-10.png" alt="Trecho do livro que fundamenta o item RL-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
 
