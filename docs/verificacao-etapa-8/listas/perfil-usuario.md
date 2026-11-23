@@ -6,10 +6,10 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PU-01 a PU-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens PU-06 a PU-10, recortes do livro. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PU-11 a PU-15 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PU-11 a PU-15, recortes do livro. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -53,11 +53,11 @@ A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de P
 | **PU-08** | O perfil registra o cargo ou a função dos usuários e as responsabilidades que motivam o uso do sistema, para que se possa compreender o contexto profissional das tarefas? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 178) |
 | **PU-09** | O perfil indica o nível de alfabetização em informática dos usuários: com que proficiência eles utilizam computadores em geral, além do sistema em questão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 178) |
 | **PU-10** | O perfil descreve os objetivos principais dos usuários ao usar o sistema — o que eles querem alcançar — distinguindo-os das tarefas que executam para chegar a esses objetivos? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 177) |
-| **PU-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PU-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PU-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PU-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PU-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PU-11** | O perfil foi revisado com base em pesquisas com usuários, em vez de ficar apenas na ideia inicial que a equipe tinha deles? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 178) |
+| **PU-12** | O artefato indica quais características dos usuários são mais importantes para o projeto e concentra a pesquisa nelas? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 178) |
+| **PU-13** | O perfil informa o conhecimento dos usuários sobre o assunto do sistema (por exemplo, há quanto tempo estudam para concursos)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 178) |
+| **PU-14** | O artefato informa quantos usuários não se encaixaram em nenhum dos perfis definidos? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 179) |
+| **PU-15** | Os perfis usam faixas de valores comparáveis entre si (por exemplo, idade de 18 a 25 anos, uso diário ou semanal), como num quadro de comparação? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 178) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
@@ -365,7 +365,155 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PU-10:
 
 </div>
 
-> *Os itens PU-11 a PU-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.11 PU-11 — Revisão do perfil
+
+A Tabela 12 apresenta o item PU-11:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 12: Item PU-11 — Revisão do perfil</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O perfil foi revisado com base em pesquisas com usuários, em vez de ficar apenas na ideia inicial que a equipe tinha deles? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 178) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 11 reproduz o trecho do livro que fundamenta o item PU-11:
+
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item PU-11 (Revisão do perfil)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pu-11.png" alt="Trecho do livro que fundamenta o item PU-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 178).</p>
+
+</div>
+
+### 4.12 PU-12 — Características prioritárias
+
+A Tabela 13 apresenta o item PU-12:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13: Item PU-12 — Características prioritárias</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato indica quais características dos usuários são mais importantes para o projeto e concentra a pesquisa nelas? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 178) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 12 reproduz o trecho do livro que fundamenta o item PU-12:
+
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item PU-12 (Características prioritárias)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pu-12.png" alt="Trecho do livro que fundamenta o item PU-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 178).</p>
+
+</div>
+
+### 4.13 PU-13 — Conhecimento do domínio
+
+A Tabela 14 apresenta o item PU-13:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14: Item PU-13 — Conhecimento do domínio</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O perfil informa o conhecimento dos usuários sobre o assunto do sistema (por exemplo, há quanto tempo estudam para concursos)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 178) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 13 reproduz o trecho do livro que fundamenta o item PU-13:
+
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item PU-13 (Conhecimento do domínio)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pu-13.png" alt="Trecho do livro que fundamenta o item PU-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 178).</p>
+
+</div>
+
+### 4.14 PU-14 — Usuários fora dos perfis
+
+A Tabela 15 apresenta o item PU-14:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 15: Item PU-14 — Usuários fora dos perfis</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato informa quantos usuários não se encaixaram em nenhum dos perfis definidos? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 179) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 14 reproduz o trecho do livro que fundamenta o item PU-14:
+
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item PU-14 (Usuários fora dos perfis)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pu-14.png" alt="Trecho do livro que fundamenta o item PU-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 179).</p>
+
+</div>
+
+### 4.15 PU-15 — Faixas comparáveis entre perfis
+
+A Tabela 16 apresenta o item PU-15:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16: Item PU-15 — Faixas comparáveis entre perfis</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Os perfis usam faixas de valores comparáveis entre si (por exemplo, idade de 18 a 25 anos, uso diário ou semanal), como num quadro de comparação? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 178) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 15 reproduz o trecho do livro que fundamenta o item PU-15:
+
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item PU-15 (Faixas comparáveis entre perfis)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pu-15.png" alt="Trecho do livro que fundamenta o item PU-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 178).</p>
+
+</div>
 
 ## 5. Referências Bibliográficas
 
@@ -381,4 +529,5 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PU-10:
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens PU-01 a PU-05, com fonte por página e recorte do livro; itens PU-06 a PU-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Adição dos itens PU-06 a PU-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
+| `1.2` | 22/11/2026 | Elaboração dos itens PU-11 a PU-15, com fonte por página e recorte do livro. | Pedro Rocha Ferreira Lima | — |
 </div>

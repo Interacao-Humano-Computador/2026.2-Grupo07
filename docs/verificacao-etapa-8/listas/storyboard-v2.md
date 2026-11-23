@@ -6,10 +6,10 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens SB-01 a SB-05, revisão dos itens da v1 e recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens SB-06 a SB-10, reescritos a partir de itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens SB-11 a SB-15 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens SB-11 a SB-15, recortes do livro. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -56,11 +56,11 @@ A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de S
 | **SB-08** | Cada quadro retrata um passo específico da tarefa, sem pular etapas essenciais nem acrescentar passos que não fazem parte da sequência? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
 | **SB-09** | Os quadros trazem elementos suficientes para que alguém consiga percorrer mentalmente a sequência e simular a interação com o produto (walkthrough)? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
 | **SB-10** | Os quadros mostram esboços de tela ligados à ação da pessoa (o que ela faz e o que vê), e não um fluxograma abstrato nem telas isoladas, sem ninguém usando? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
-| **SB-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **SB-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **SB-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **SB-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **SB-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **SB-11** | O storyboard foi usado para explorar ideias de como melhorar o jeito atual de realizar a tarefa, e não apenas para ilustrar uma solução já decidida? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 131) |
+| **SB-12** | O artefato aponta os momentos da história em que o usuário pode encontrar dificuldade (pontos de atrito na jornada)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 210) |
+| **SB-13** | O artefato registra o que foi mudado no storyboard depois da avaliação com usuários e o motivo de cada mudança? | Pedro Rocha Ferreira Lima | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **SB-14** | O storyboard foi feito antes do protótipo de papel, como etapa inicial de exploração da ideia, e não depois, só para documentar? | Pedro Rocha Ferreira Lima | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **SB-15** | O artefato deixa claro que o storyboard serve para explorar ideias e não será aproveitado como parte do produto final? | Pedro Rocha Ferreira Lima | PREECE, ROGERS e SHARP (2005, p. 263) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
@@ -378,15 +378,168 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item SB-10:
 
 </div>
 
-> *Os itens SB-11 a SB-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.11 SB-11 — Exploração de melhorias
 
-## 5. Correspondência com a v1
-
-A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+A Tabela 12 apresenta o item SB-11:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 12: Correspondência entre os Itens da v1 e da v2</b></p>
+<p align="center"><b>Tabela 12: Item SB-11 — Exploração de melhorias</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O storyboard foi usado para explorar ideias de como melhorar o jeito atual de realizar a tarefa, e não apenas para ilustrar uma solução já decidida? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 131) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 11 reproduz o trecho do livro que fundamenta o item SB-11:
+
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item SB-11 (Exploração de melhorias)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/sb-11.png" alt="Trecho do livro que fundamenta o item SB-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 131).</p>
+
+</div>
+
+### 4.12 SB-12 — Pontos de atrito
+
+A Tabela 13 apresenta o item SB-12:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13: Item SB-12 — Pontos de atrito</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato aponta os momentos da história em que o usuário pode encontrar dificuldade (pontos de atrito na jornada)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 210) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 12 reproduz o trecho do livro que fundamenta o item SB-12:
+
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item SB-12 (Pontos de atrito)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/sb-12.png" alt="Trecho do livro que fundamenta o item SB-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 210).</p>
+
+</div>
+
+### 4.13 SB-13 — Registro das mudanças
+
+A Tabela 14 apresenta o item SB-13:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14: Item SB-13 — Registro das mudanças</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato registra o que foi mudado no storyboard depois da avaliação com usuários e o motivo de cada mudança? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 13 reproduz o trecho do livro que fundamenta o item SB-13:
+
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item SB-13 (Registro das mudanças)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/sb-13.png" alt="Trecho do livro que fundamenta o item SB-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> PREECE, ROGERS e SHARP (2005, p. 263).</p>
+
+</div>
+
+### 4.14 SB-14 — Momento de elaboração
+
+A Tabela 15 apresenta o item SB-14:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 15: Item SB-14 — Momento de elaboração</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O storyboard foi feito antes do protótipo de papel, como etapa inicial de exploração da ideia, e não depois, só para documentar? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 14 reproduz o trecho do livro que fundamenta o item SB-14:
+
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item SB-14 (Momento de elaboração)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/sb-14.png" alt="Trecho do livro que fundamenta o item SB-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> PREECE, ROGERS e SHARP (2005, p. 263).</p>
+
+</div>
+
+### 4.15 SB-15 — Caráter exploratório
+
+A Tabela 16 apresenta o item SB-15:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16: Item SB-15 — Caráter exploratório</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato deixa claro que o storyboard serve para explorar ideias e não será aproveitado como parte do produto final? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | PREECE, ROGERS e SHARP (2005, p. 263) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 15 reproduz o trecho do livro que fundamenta o item SB-15:
+
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item SB-15 (Caráter exploratório)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/sb-15.png" alt="Trecho do livro que fundamenta o item SB-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> PREECE, ROGERS e SHARP (2005, p. 263).</p>
+
+</div>
+
+## 5. Correspondência com a v1
+
+A Tabela 17 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 17: Correspondência entre os Itens da v1 e da v2</b></p>
 
 | Item v2 | Origem na v1 | O que mudou |
 | :---: | :---: | :--- |
@@ -400,6 +553,11 @@ A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v
 | **SB-08** | [SB-09](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Retira a referência técnica a "HTA/CTT" e foca em um passo por quadro. |
 | **SB-09** | [SB-15](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Explica "percorrer / simular" (walkthrough) em linguagem simples. |
 | **SB-10** | [SB-04](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#4-lista-de-verificacao-para-storyboard-20-itens-em-5-blocos) | Explica o contraste com "fluxograma abstrato" e "telas isoladas". |
+| **SB-11** | Item novo | Item novo, elaborado na v2. |
+| **SB-12** | Item novo | Item novo, elaborado na v2. |
+| **SB-13** | Item novo | Item novo, elaborado na v2. |
+| **SB-14** | Item novo | Item novo, elaborado na v2. |
+| **SB-15** | Item novo | Item novo, elaborado na v2. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -411,7 +569,8 @@ Na v1, o exemplo de storyboard era citado como "Figura 8.3" e a seção como "8.
 
 > [1] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Design de Interação: além da interação homem-computador*. Porto Alegre: Bookman, 2005.  
 > [2] FAGAN, Michael E. Design and code inspections to reduce errors in program development. *IBM Systems Journal*, v. 15, n. 3, p. 182-211, 1976.  
-> [3] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: FCTE/UnB, 2026.
+> [3] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: FCTE/UnB, 2026.  
+> [4] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.
 
 ## 7. Histórico de Versões
 
@@ -421,5 +580,6 @@ Na v1, o exemplo de storyboard era citado como "Figura 8.3" e a seção como "8.
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da v2 da lista: itens SB-01 a SB-05 reescritos a partir da v1, com fonte por página e recorte do livro; itens SB-06 a SB-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Elaboração dos itens SB-06 a SB-10, reescritos a partir dos itens v1 SB-08, 12, 09, 15 e 04; recortes do livro adicionados. | Arthur Sismene Carvalho | — |
+| `1.2` | 22/11/2026 | Elaboração dos itens SB-11 a SB-15, com fonte por página e recorte do livro. | Pedro Rocha Ferreira Lima | — |
 
 </div>

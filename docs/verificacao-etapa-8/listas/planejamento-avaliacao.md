@@ -6,10 +6,10 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PA-01 a PA-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens PA-06 a PA-10, recortes do livro. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PA-11 a PA-15 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PA-11 a PA-15, recortes do livro. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -56,11 +56,11 @@ A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de P
 | **PA-08** | O planejamento define como os dados coletados serão interpretados e apresentados: de que forma os resultados responderão às perguntas da avaliação — (atividade "E — Avaliar, interpretar e apresentar os dados" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 304) |
 | **PA-09** | O planejamento inclui o roteiro das tarefas que o participante realizará durante a avaliação, com as instruções padronizadas que o avaliador usará no início de cada sessão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 299) |
 | **PA-10** | O planejamento informa onde a avaliação será conduzida (laboratório de usabilidade ou ambiente natural de uso) e justifica essa escolha, levando em conta os benefícios e os custos de cada opção? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 292) |
-| **PA-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PA-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PA-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PA-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PA-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PA-11** | O planejamento considera a confiabilidade dos dados (se repetir a avaliação nas mesmas condições levaria a resultados parecidos)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 304) |
+| **PA-12** | O planejamento discute até que ponto os resultados poderão valer para outros usuários ou outras situações de uso? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 304) |
+| **PA-13** | Antes das sessões, o planejamento relaciona o material que será preparado (termo de consentimento, questionário inicial, roteiro da entrevista final e formulário de anotações)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 299) |
+| **PA-14** | O planejamento prevê não chamar como participantes pessoas próximas do avaliador (amigos, colegas ou alunos), para que essa relação não influencie as respostas? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 300) |
+| **PA-15** | O planejamento indica o que o avaliador precisa conhecer antes de avaliar (o domínio, os usuários e os sistemas parecidos que eles já usam)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 297) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
@@ -368,7 +368,155 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PA-10:
 
 </div>
 
-> *Os itens PA-11 a PA-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.11 PA-11 — Confiabilidade dos dados
+
+A Tabela 12 apresenta o item PA-11:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 12: Item PA-11 — Confiabilidade dos dados</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento considera a confiabilidade dos dados (se repetir a avaliação nas mesmas condições levaria a resultados parecidos)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 304) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 11 reproduz o trecho do livro que fundamenta o item PA-11:
+
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item PA-11 (Confiabilidade dos dados)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pa-11.png" alt="Trecho do livro que fundamenta o item PA-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 304).</p>
+
+</div>
+
+### 4.12 PA-12 — Alcance dos resultados
+
+A Tabela 13 apresenta o item PA-12:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13: Item PA-12 — Alcance dos resultados</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento discute até que ponto os resultados poderão valer para outros usuários ou outras situações de uso? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 304) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 12 reproduz o trecho do livro que fundamenta o item PA-12:
+
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item PA-12 (Alcance dos resultados)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pa-12.png" alt="Trecho do livro que fundamenta o item PA-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 304).</p>
+
+</div>
+
+### 4.13 PA-13 — Material de apoio
+
+A Tabela 14 apresenta o item PA-13:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14: Item PA-13 — Material de apoio</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Antes das sessões, o planejamento relaciona o material que será preparado (termo de consentimento, questionário inicial, roteiro da entrevista final e formulário de anotações)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 299) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 13 reproduz o trecho do livro que fundamenta o item PA-13:
+
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item PA-13 (Material de apoio)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pa-13.png" alt="Trecho do livro que fundamenta o item PA-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 299).</p>
+
+</div>
+
+### 4.14 PA-14 — Participantes sem vínculo com o avaliador
+
+A Tabela 15 apresenta o item PA-14:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 15: Item PA-14 — Participantes sem vínculo com o avaliador</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê não chamar como participantes pessoas próximas do avaliador (amigos, colegas ou alunos), para que essa relação não influencie as respostas? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 300) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 14 reproduz o trecho do livro que fundamenta o item PA-14:
+
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item PA-14 (Participantes sem vínculo com o avaliador)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pa-14.png" alt="Trecho do livro que fundamenta o item PA-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 300).</p>
+
+</div>
+
+### 4.15 PA-15 — Conhecimento prévio do avaliador
+
+A Tabela 16 apresenta o item PA-15:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16: Item PA-15 — Conhecimento prévio do avaliador</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento indica o que o avaliador precisa conhecer antes de avaliar (o domínio, os usuários e os sistemas parecidos que eles já usam)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 297) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 15 reproduz o trecho do livro que fundamenta o item PA-15:
+
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item PA-15 (Conhecimento prévio do avaliador)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pa-15.png" alt="Trecho do livro que fundamenta o item PA-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 297).</p>
+
+</div>
 
 ## 5. Referências Bibliográficas
 
@@ -384,4 +532,5 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PA-10:
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens PA-01 a PA-05, com fonte por página e recorte do livro; itens PA-06 a PA-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Adição dos itens PA-06 a PA-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
+| `1.2` | 22/11/2026 | Elaboração dos itens PA-11 a PA-15, com fonte por página e recorte do livro. | Pedro Rocha Ferreira Lima | — |
 </div>

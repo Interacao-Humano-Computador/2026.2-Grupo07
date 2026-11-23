@@ -6,10 +6,10 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PP-01 a PP-05, revisão dos itens da v1 e recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens PP-06 a PP-10 (reaproveitando itens da autoinspeção do protótipo de papel e dois itens complementares do livro), com fonte por página. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PP-11 a PP-15 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PP-11 a PP-15, recortes do livro. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -56,11 +56,11 @@ A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de P
 | **PP-08** | O protótipo foi construído de forma que a interface se comunique sozinha — tudo o que o usuário precisa saber para completar as tarefas está representado nas telas, sem que o avaliador precise dar explicações durante a sessão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 341) |
 | **PP-09** | Os participantes das sessões têm o perfil do público-alvo do sistema e não fizeram parte da criação do protótipo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 340) |
 | **PP-10** | As tarefas foram apresentadas ao participante como situações de uso (cenários) para ele realizar por conta própria, sem que o avaliador ensinasse o caminho? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 341) |
-| **PP-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PP-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PP-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PP-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PP-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PP-11** | No início de cada sessão, o avaliador explicou ao participante como interagir com o papel (por exemplo, tocar num botão com o dedo ou dizer em voz alta o que quer fazer)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 341) |
+| **PP-12** | O relato informa se cada problema corrigido durante as sessões voltou a aparecer depois da correção? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 343) |
+| **PP-13** | Para cada problema encontrado, o relato indica qual qualidade de uso foi prejudicada (por exemplo, facilidade de aprender ou rapidez para concluir a tarefa)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 343) |
+| **PP-14** | As partes da interface que não puderam ser preparadas com antecedência foram desenhadas na hora, durante a sessão, e isso ficou registrado no relato? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 340) |
+| **PP-15** | Ao final de cada sessão, o participante foi entrevistado para dar sua opinião sobre o protótipo e sugerir melhorias? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 341) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
@@ -378,15 +378,168 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PP-10:
 
 </div>
 
-> *Os itens PP-11 a PP-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.11 PP-11 — Instruções de interação no início
 
-## 5. Correspondência com a v1
-
-A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+A Tabela 12 apresenta o item PP-11:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 12: Correspondência entre os Itens da v1 e da v2</b></p>
+<p align="center"><b>Tabela 12: Item PP-11 — Instruções de interação no início</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | No início de cada sessão, o avaliador explicou ao participante como interagir com o papel (por exemplo, tocar num botão com o dedo ou dizer em voz alta o que quer fazer)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 341) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 11 reproduz o trecho do livro que fundamenta o item PP-11:
+
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item PP-11 (Instruções de interação no início)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pp-11.png" alt="Trecho do livro que fundamenta o item PP-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 341).</p>
+
+</div>
+
+### 4.12 PP-12 — Reincidência dos problemas
+
+A Tabela 13 apresenta o item PP-12:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13: Item PP-12 — Reincidência dos problemas</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O relato informa se cada problema corrigido durante as sessões voltou a aparecer depois da correção? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 343) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 12 reproduz o trecho do livro que fundamenta o item PP-12:
+
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item PP-12 (Reincidência dos problemas)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pp-12.png" alt="Trecho do livro que fundamenta o item PP-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 343).</p>
+
+</div>
+
+### 4.13 PP-13 — Qualidade de uso prejudicada
+
+A Tabela 14 apresenta o item PP-13:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14: Item PP-13 — Qualidade de uso prejudicada</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Para cada problema encontrado, o relato indica qual qualidade de uso foi prejudicada (por exemplo, facilidade de aprender ou rapidez para concluir a tarefa)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 343) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 13 reproduz o trecho do livro que fundamenta o item PP-13:
+
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item PP-13 (Qualidade de uso prejudicada)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pp-13.png" alt="Trecho do livro que fundamenta o item PP-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 343).</p>
+
+</div>
+
+### 4.14 PP-14 — Partes desenhadas na sessão
+
+A Tabela 15 apresenta o item PP-14:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 15: Item PP-14 — Partes desenhadas na sessão</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | As partes da interface que não puderam ser preparadas com antecedência foram desenhadas na hora, durante a sessão, e isso ficou registrado no relato? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 340) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 14 reproduz o trecho do livro que fundamenta o item PP-14:
+
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item PP-14 (Partes desenhadas na sessão)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pp-14.png" alt="Trecho do livro que fundamenta o item PP-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 340).</p>
+
+</div>
+
+### 4.15 PP-15 — Entrevista ao final da sessão
+
+A Tabela 16 apresenta o item PP-15:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16: Item PP-15 — Entrevista ao final da sessão</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Ao final de cada sessão, o participante foi entrevistado para dar sua opinião sobre o protótipo e sugerir melhorias? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 341) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 15 reproduz o trecho do livro que fundamenta o item PP-15:
+
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item PP-15 (Entrevista ao final da sessão)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/pp-15.png" alt="Trecho do livro que fundamenta o item PP-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 341).</p>
+
+</div>
+
+## 5. Correspondência com a v1
+
+A Tabela 17 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 17: Correspondência entre os Itens da v1 e da v2</b></p>
 
 | Item v2 | Origem na v1 | O que mudou |
 | :---: | :---: | :--- |
@@ -400,6 +553,11 @@ A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v
 | **PP-08** | [Item 5](../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-prototipo-papel.md#3-autoinspecao-analitica-do-prototipo-de-papel) | Reescrito para o conceito que p.341 efetivamente registra: a interface deve ser autoexplicativa (o avaliador não dá explicações durante a sessão). |
 | **PP-09** | Item novo | Item novo: a v1 não verificava o perfil dos participantes. |
 | **PP-10** | Item novo | Item novo: a v1 não verificava como as tarefas eram apresentadas. |
+| **PP-11** | Item novo | Item novo, elaborado na v2. |
+| **PP-12** | Item novo | Item novo, elaborado na v2. |
+| **PP-13** | Item novo | Item novo, elaborado na v2. |
+| **PP-14** | Item novo | Item novo, elaborado na v2. |
+| **PP-15** | Item novo | Item novo, elaborado na v2. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -421,5 +579,6 @@ As listas v1 eram as autoinspeções feitas em cada relato individual, baseadas 
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da v2 da lista: itens PP-01 a PP-05 reescritos a partir da v1, com fonte por página e recorte do livro; itens PP-06 a PP-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Elaboração dos itens PP-06 a PP-10 (autoinspeção itens 2, 3 e 5 + dois itens complementares); recortes do livro adicionados. | Arthur Sismene Carvalho | — |
+| `1.2` | 22/11/2026 | Elaboração dos itens PP-11 a PP-15, com fonte por página e recorte do livro. | Pedro Rocha Ferreira Lima | — |
 
 </div>

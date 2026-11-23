@@ -6,10 +6,10 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens CTT-01 a CTT-05, revisão dos itens da v1 e recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens CTT-06 a CTT-10, reescritos a partir dos itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CTT-11 a CTT-15 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CTT-11 a CTT-15, recortes do livro. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -53,11 +53,11 @@ A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de C
 | **CTT-08** | Quando tarefas paralelas precisam trocar informação entre si durante a execução, essa troca está indicada pelo operador de concorrência com comunicação "\|[ ]\|"? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 200) |
 | **CTT-09** | Tarefas que podem ser feitas em qualquer ordem, mas não ao mesmo tempo (uma vez iniciada, termina antes de a outra começar), usam o operador de independência "\|=\|"? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 200) |
 | **CTT-10** | Como a notação do CTT não detalha bem a prevenção e o tratamento de erros, esses casos de exceção estão registrados em um material complementar (tabela analítica, HTA ou cenários)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 201) |
-| **CTT-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CTT-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CTT-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CTT-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CTT-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CTT-11** | A árvore pode ser lida de cima para baixo de modo que cada tarefa só seja considerada concluída quando as tarefas abaixo dela também forem? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 199) |
+| **CTT-12** | O modelo mostra como o sistema proposto apoiará a tarefa, deixando claro quais passos são feitos pela pessoa, quais pelo sistema e quais em diálogo entre os dois? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 200) |
+| **CTT-13** | O diagrama usa os ícones e os símbolos de operadores exatamente como a notação os define, sem símbolos inventados ou trocados? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 200) |
+| **CTT-14** | Cada operador de tempo aparece entre as duas tarefas que ele relaciona, e não solto no diagrama ou apenas na legenda? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 200) |
+| **CTT-15** | O nome de cada tarefa descreve uma ação clara (verbo mais objeto, como "Escolher data"), e não um rótulo genérico como "Etapa 2"? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 201) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
@@ -375,15 +375,168 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item CTT-10:
 
 </div>
 
-> *Os itens CTT-11 a CTT-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.11 CTT-11 — Leitura hierárquica da árvore
 
-## 5. Correspondência com a v1
-
-A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+A Tabela 12 apresenta o item CTT-11:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 12: Correspondência entre os Itens da v1 e da v2</b></p>
+<p align="center"><b>Tabela 12: Item CTT-11 — Leitura hierárquica da árvore</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | A árvore pode ser lida de cima para baixo de modo que cada tarefa só seja considerada concluída quando as tarefas abaixo dela também forem? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 199) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 11 reproduz o trecho do livro que fundamenta o item CTT-11:
+
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item CTT-11 (Leitura hierárquica da árvore)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ctt-11.png" alt="Trecho do livro que fundamenta o item CTT-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 199).</p>
+
+</div>
+
+### 4.12 CTT-12 — Divisão de papéis entre pessoa e sistema
+
+A Tabela 13 apresenta o item CTT-12:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13: Item CTT-12 — Divisão de papéis entre pessoa e sistema</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O modelo mostra como o sistema proposto apoiará a tarefa, deixando claro quais passos são feitos pela pessoa, quais pelo sistema e quais em diálogo entre os dois? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 200) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 12 reproduz o trecho do livro que fundamenta o item CTT-12:
+
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item CTT-12 (Divisão de papéis entre pessoa e sistema)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ctt-12.png" alt="Trecho do livro que fundamenta o item CTT-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 200).</p>
+
+</div>
+
+### 4.13 CTT-13 — Fidelidade à notação
+
+A Tabela 14 apresenta o item CTT-13:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14: Item CTT-13 — Fidelidade à notação</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O diagrama usa os ícones e os símbolos de operadores exatamente como a notação os define, sem símbolos inventados ou trocados? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 200) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 13 reproduz o trecho do livro que fundamenta o item CTT-13:
+
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item CTT-13 (Fidelidade à notação)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ctt-13.png" alt="Trecho do livro que fundamenta o item CTT-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 200).</p>
+
+</div>
+
+### 4.14 CTT-14 — Posição dos operadores
+
+A Tabela 15 apresenta o item CTT-14:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 15: Item CTT-14 — Posição dos operadores</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada operador de tempo aparece entre as duas tarefas que ele relaciona, e não solto no diagrama ou apenas na legenda? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 200) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 14 reproduz o trecho do livro que fundamenta o item CTT-14:
+
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item CTT-14 (Posição dos operadores)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ctt-14.png" alt="Trecho do livro que fundamenta o item CTT-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 200).</p>
+
+</div>
+
+### 4.15 CTT-15 — Nome das tarefas
+
+A Tabela 16 apresenta o item CTT-15:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16: Item CTT-15 — Nome das tarefas</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O nome de cada tarefa descreve uma ação clara (verbo mais objeto, como "Escolher data"), e não um rótulo genérico como "Etapa 2"? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 201) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 15 reproduz o trecho do livro que fundamenta o item CTT-15:
+
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item CTT-15 (Nome das tarefas)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ctt-15.png" alt="Trecho do livro que fundamenta o item CTT-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 201).</p>
+
+</div>
+
+## 5. Correspondência com a v1
+
+A Tabela 17 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 17: Correspondência entre os Itens da v1 e da v2</b></p>
 
 | Item v2 | Origem na v1 | O que mudou |
 | :---: | :---: | :--- |
@@ -397,6 +550,11 @@ A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v
 | **CTT-08** | [CTT-06](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Explica a concorrência com comunicação e quando usá-la. |
 | **CTT-09** | [CTT-07](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Explica o operador de independência (ordem livre, sem sobreposição). |
 | **CTT-10** | [CTT-10](../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4.md#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos) | Mantém a exigência de documentar erros/exceções em material complementar. |
+| **CTT-11** | Item novo | Item novo, elaborado na v2. |
+| **CTT-12** | Item novo | Item novo, elaborado na v2. |
+| **CTT-13** | Item novo | Item novo, elaborado na v2. |
+| **CTT-14** | Item novo | Item novo, elaborado na v2. |
+| **CTT-15** | Item novo | Item novo, elaborado na v2. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -418,5 +576,6 @@ Na v1, os tipos de tarefa eram atribuídos à "Figura 8.3" e as relações à "F
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da v2 da lista: itens CTT-01 a CTT-05 reescritos a partir da v1, com fonte por página e recorte do livro; itens CTT-06 a CTT-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Elaboração dos itens CTT-06 a CTT-10, reescritos a partir dos itens v1 CTT-04, 05, 06, 07 e 10; recortes do livro adicionados. | Arthur Sismene Carvalho | — |
+| `1.2` | 22/11/2026 | Elaboração dos itens CTT-11 a CTT-15, com fonte por página e recorte do livro. | Pedro Rocha Ferreira Lima | — |
 
 </div>

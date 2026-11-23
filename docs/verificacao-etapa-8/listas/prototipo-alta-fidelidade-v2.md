@@ -6,10 +6,10 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens AF-01 a AF-05, revisão dos itens da v1 e recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens AF-06 a AF-10, reescritos a partir das heurísticas da autoinspeção do protótipo de alta fidelidade não reaproveitadas nos itens 01–05, com fonte por página. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens AF-11 a AF-15 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens AF-11 a AF-15, recortes do livro. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -56,11 +56,11 @@ A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de P
 | **AF-08** | Os rótulos e critérios do protótipo usam o vocabulário habitual do usuário (termos que o público reconhece), e não termos técnicos internos? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 306) |
 | **AF-09** | O protótipo previne erros em ações críticas e dá feedback claro (por exemplo, pede confirmação antes de uma ação importante e avisa quando ela é concluída)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 306) |
 | **AF-10** | O protótipo evita ruído visual, mostrando apenas o necessário para a tarefa (sem excesso de informação ou elementos que distraem)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 306) |
-| **AF-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **AF-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **AF-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **AF-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **AF-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **AF-11** | O protótipo segue as cores, as fontes e os componentes definidos no guia de estilo do projeto? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 129) |
+| **AF-12** | O protótipo usa sempre o mesmo termo para a mesma coisa em todas as telas (por exemplo, não chama de "edital" numa tela e de "concurso" em outra)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 249) |
+| **AF-13** | O artefato compara os resultados dos testes com as metas de usabilidade do projeto (por exemplo, o tempo ou a taxa de sucesso esperados)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 129) |
+| **AF-14** | Os dados exibidos no protótipo são plausíveis (nomes de órgãos, datas e valores realistas), mesmo sendo fictícios? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 129) |
+| **AF-15** | O artefato informa se o protótipo cobre o sistema em largura (muitas telas com pouca função) ou em profundidade (poucas telas funcionando por completo)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 128) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
@@ -378,15 +378,168 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item AF-10:
 
 </div>
 
-> *Os itens AF-11 a AF-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.11 AF-11 — Aderência ao guia de estilo
 
-## 5. Correspondência com a v1
-
-A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+A Tabela 12 apresenta o item AF-11:
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 12: Correspondência entre os Itens da v1 e da v2</b></p>
+<p align="center"><b>Tabela 12: Item AF-11 — Aderência ao guia de estilo</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O protótipo segue as cores, as fontes e os componentes definidos no guia de estilo do projeto? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 129) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 11 reproduz o trecho do livro que fundamenta o item AF-11:
+
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item AF-11 (Aderência ao guia de estilo)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/af-11.png" alt="Trecho do livro que fundamenta o item AF-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 129).</p>
+
+</div>
+
+### 4.12 AF-12 — Vocabulário consistente
+
+A Tabela 13 apresenta o item AF-12:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13: Item AF-12 — Vocabulário consistente</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O protótipo usa sempre o mesmo termo para a mesma coisa em todas as telas (por exemplo, não chama de "edital" numa tela e de "concurso" em outra)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 249) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 12 reproduz o trecho do livro que fundamenta o item AF-12:
+
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item AF-12 (Vocabulário consistente)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/af-12.png" alt="Trecho do livro que fundamenta o item AF-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 249).</p>
+
+</div>
+
+### 4.13 AF-13 — Comparação com as metas de usabilidade
+
+A Tabela 14 apresenta o item AF-13:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14: Item AF-13 — Comparação com as metas de usabilidade</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato compara os resultados dos testes com as metas de usabilidade do projeto (por exemplo, o tempo ou a taxa de sucesso esperados)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 129) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 13 reproduz o trecho do livro que fundamenta o item AF-13:
+
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item AF-13 (Comparação com as metas de usabilidade)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/af-13.png" alt="Trecho do livro que fundamenta o item AF-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 129).</p>
+
+</div>
+
+### 4.14 AF-14 — Dados plausíveis
+
+A Tabela 15 apresenta o item AF-14:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 15: Item AF-14 — Dados plausíveis</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Os dados exibidos no protótipo são plausíveis (nomes de órgãos, datas e valores realistas), mesmo sendo fictícios? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 129) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 14 reproduz o trecho do livro que fundamenta o item AF-14:
+
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item AF-14 (Dados plausíveis)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/af-14.png" alt="Trecho do livro que fundamenta o item AF-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 129).</p>
+
+</div>
+
+### 4.15 AF-15 — Largura ou profundidade do protótipo
+
+A Tabela 16 apresenta o item AF-15:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16: Item AF-15 — Largura ou profundidade do protótipo</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato informa se o protótipo cobre o sistema em largura (muitas telas com pouca função) ou em profundidade (poucas telas funcionando por completo)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 128) |
+| **Origem na v1** | Item novo |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 15 reproduz o trecho do livro que fundamenta o item AF-15:
+
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item AF-15 (Largura ou profundidade do protótipo)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/af-15.png" alt="Trecho do livro que fundamenta o item AF-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 128).</p>
+
+</div>
+
+## 5. Correspondência com a v1
+
+A Tabela 17 apresenta, para cada item da v2 já elaborado, o item de origem na v1 e o que mudou na redação:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 17: Correspondência entre os Itens da v1 e da v2</b></p>
 
 | Item v2 | Origem na v1 | O que mudou |
 | :---: | :---: | :--- |
@@ -400,6 +553,11 @@ A Tabela 12 apresenta, para cada item da v2 já elaborado, o item de origem na v
 | **AF-08** | [Autoinspeção — item 4](../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-alta-fidelidade.md#3-autoinspecao-analitica-previa-do-prototipo-de-alta-fidelidade) | Heurística "Correspondência com o mundo real" reescrita. |
 | **AF-09** | [Autoinspeção — item 5](../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-alta-fidelidade.md#3-autoinspecao-analitica-previa-do-prototipo-de-alta-fidelidade) | Heurística "Prevenção de erros e feedback" reescrita. |
 | **AF-10** | [Autoinspeção — item 6](../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-alta-fidelidade.md#3-autoinspecao-analitica-previa-do-prototipo-de-alta-fidelidade) | Heurística "Estética e design minimalista" reescrita. |
+| **AF-11** | Item novo | Item novo, elaborado na v2. |
+| **AF-12** | Item novo | Item novo, elaborado na v2. |
+| **AF-13** | Item novo | Item novo, elaborado na v2. |
+| **AF-14** | Item novo | Item novo, elaborado na v2. |
+| **AF-15** | Item novo | Item novo, elaborado na v2. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -421,5 +579,6 @@ As listas v1 eram as autoinspeções analíticas feitas em cada relato individua
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da v2 da lista: itens AF-01 a AF-05 reescritos a partir da v1, com fonte por página e recorte do livro; itens AF-06 a AF-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Elaboração dos itens AF-06 a AF-10, reescritos a partir das heurísticas 2 a 6 da autoinspeção; recortes do livro adicionados. | Arthur Sismene Carvalho | — |
+| `1.2` | 22/11/2026 | Elaboração dos itens AF-11 a AF-15, com fonte por página e recorte do livro. | Pedro Rocha Ferreira Lima | — |
 
 </div>

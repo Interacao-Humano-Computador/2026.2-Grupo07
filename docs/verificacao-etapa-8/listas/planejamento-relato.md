@@ -6,10 +6,10 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens RL-01 a RL-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens RL-06 a RL-10, recortes do livro. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens RL-11 a RL-15 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens RL-11 a RL-15, recortes do livro. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -56,11 +56,11 @@ A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de P
 | **RL-08** | O planejamento prevê que o relato apresente a interpretação dos avaliadores sobre os dados — o que eles significam para a qualidade do artefato — e não apenas os números e observações brutas? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
 | **RL-09** | O planejamento prevê que o relato apresente os problemas encontrados com indicação de gravidade — crítico (impede a tarefa), grave (causa grande dificuldade) ou leve (causa pequeno incômodo) — para orientar as decisões de reprojeto? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
 | **RL-10** | O planejamento prevê que o relato registre evidências concretas — como citações dos participantes ou descrições de comportamento observado — que fundamentem cada problema identificado? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
-| **RL-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **RL-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **RL-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **RL-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **RL-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-11** | O planejamento prevê que o relato retome cada pergunta da avaliação, dizendo se ela foi respondida ou por que não foi? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 303) |
+| **RL-12** | O planejamento prevê ressalvas sobre o alcance dos resultados (por exemplo, que eles apontam tendências e não certezas)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 303) |
+| **RL-13** | O planejamento prevê analisar primeiro os dados de cada participante separadamente e só depois o conjunto dos participantes? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 302) |
+| **RL-14** | O planejamento prevê que o relato informe o que ficou fora da avaliação, para que não se conclua que essas partes estão livres de problemas? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 303) |
+| **RL-15** | O planejamento prevê comparar os resultados de métodos diferentes (por exemplo, inspeção e entrevista), já que cada um tende a revelar tipos diferentes de problema? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 303) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
@@ -368,7 +368,155 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item RL-10:
 
 </div>
 
-> *Os itens RL-11 a RL-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.11 RL-11 — Resposta às perguntas da avaliação
+
+A Tabela 12 apresenta o item RL-11:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 12: Item RL-11 — Resposta às perguntas da avaliação</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê que o relato retome cada pergunta da avaliação, dizendo se ela foi respondida ou por que não foi? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 11 reproduz o trecho do livro que fundamenta o item RL-11:
+
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item RL-11 (Resposta às perguntas da avaliação)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/rl-11.png" alt="Trecho do livro que fundamenta o item RL-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.12 RL-12 — Ressalvas sobre os resultados
+
+A Tabela 13 apresenta o item RL-12:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13: Item RL-12 — Ressalvas sobre os resultados</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê ressalvas sobre o alcance dos resultados (por exemplo, que eles apontam tendências e não certezas)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 12 reproduz o trecho do livro que fundamenta o item RL-12:
+
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item RL-12 (Ressalvas sobre os resultados)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/rl-12.png" alt="Trecho do livro que fundamenta o item RL-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.13 RL-13 — Análise individual antes da conjunta
+
+A Tabela 14 apresenta o item RL-13:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14: Item RL-13 — Análise individual antes da conjunta</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê analisar primeiro os dados de cada participante separadamente e só depois o conjunto dos participantes? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 302) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 13 reproduz o trecho do livro que fundamenta o item RL-13:
+
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item RL-13 (Análise individual antes da conjunta)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/rl-13.png" alt="Trecho do livro que fundamenta o item RL-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 302).</p>
+
+</div>
+
+### 4.14 RL-14 — O que ficou fora da avaliação
+
+A Tabela 15 apresenta o item RL-14:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 15: Item RL-14 — O que ficou fora da avaliação</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê que o relato informe o que ficou fora da avaliação, para que não se conclua que essas partes estão livres de problemas? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 14 reproduz o trecho do livro que fundamenta o item RL-14:
+
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item RL-14 (O que ficou fora da avaliação)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/rl-14.png" alt="Trecho do livro que fundamenta o item RL-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
+
+### 4.15 RL-15 — Comparação entre métodos
+
+A Tabela 16 apresenta o item RL-15:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16: Item RL-15 — Comparação entre métodos</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O planejamento prevê comparar os resultados de métodos diferentes (por exemplo, inspeção e entrevista), já que cada um tende a revelar tipos diferentes de problema? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 303) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 15 reproduz o trecho do livro que fundamenta o item RL-15:
+
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item RL-15 (Comparação entre métodos)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/rl-15.png" alt="Trecho do livro que fundamenta o item RL-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 303).</p>
+
+</div>
 
 ## 5. Referências Bibliográficas
 
@@ -384,4 +532,5 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item RL-10:
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens RL-01 a RL-05, com fonte por página e recorte do livro; itens RL-06 a RL-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Adição dos itens RL-06 a RL-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
+| `1.2` | 22/11/2026 | Elaboração dos itens RL-11 a RL-15, com fonte por página e recorte do livro. | Pedro Rocha Ferreira Lima | — |
 </div>

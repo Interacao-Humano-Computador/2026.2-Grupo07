@@ -6,10 +6,10 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens TU-01 a TU-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens TU-06 a TU-10, recortes do livro. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens TU-11 a TU-15 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens TU-11 a TU-15, recortes do livro. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
 
 </div>
 
@@ -60,11 +60,11 @@ A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de T
 | **TU-08** | O participante foi informado de que o objeto da avaliação é o protótipo (ou o sistema), não ele próprio — e essa distinção foi reforçada nos momentos em que demonstrou frustração ou constrangimento? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
 | **TU-09** | A entrevista pós-teste incluiu perguntas abertas sobre a experiência geral do participante, sobre as tarefas que ele achou mais difíceis e sobre o que ele mudaria no sistema? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 302) |
 | **TU-10** | O avaliador registrou o tempo de cada tarefa: desde o instante em que o participante começou a tentar realizá-la até o momento em que declarou ter terminado ou desistiu? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 293) |
-| **TU-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TU-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TU-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TU-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TU-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TU-11** | Antes das tarefas, houve uma conversa inicial para deixar o participante à vontade (por exemplo, sobre o trajeto até o local ou assuntos do dia)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 301) |
+| **TU-12** | O participante respondeu a um questionário inicial (pré-teste) sobre sua experiência com tecnologia e com o assunto do sistema? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 301) |
+| **TU-13** | Quando era o primeiro contato com o protótipo, o participante pôde explorá-lo livremente por alguns minutos antes de receber as tarefas? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 301) |
+| **TU-14** | Quando o participante travou ou ficou constrangido, o avaliador sugeriu passar para a tarefa seguinte, em vez de insistir ou ensinar o caminho? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 302) |
+| **TU-15** | Havia pelo menos dois avaliadores na sessão, um acompanhando o participante de perto e outro observando e fazendo anotações? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 301) |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
@@ -372,7 +372,155 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item TU-10:
 
 </div>
 
-> *Os itens TU-11 a TU-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+### 4.11 TU-11 — Conversa inicial
+
+A Tabela 12 apresenta o item TU-11:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 12: Item TU-11 — Conversa inicial</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Antes das tarefas, houve uma conversa inicial para deixar o participante à vontade (por exemplo, sobre o trajeto até o local ou assuntos do dia)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 301) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 11 reproduz o trecho do livro que fundamenta o item TU-11:
+
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item TU-11 (Conversa inicial)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/tu-11.png" alt="Trecho do livro que fundamenta o item TU-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 301).</p>
+
+</div>
+
+### 4.12 TU-12 — Questionário pré-teste
+
+A Tabela 13 apresenta o item TU-12:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13: Item TU-12 — Questionário pré-teste</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O participante respondeu a um questionário inicial (pré-teste) sobre sua experiência com tecnologia e com o assunto do sistema? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 301) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 12 reproduz o trecho do livro que fundamenta o item TU-12:
+
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item TU-12 (Questionário pré-teste)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/tu-12.png" alt="Trecho do livro que fundamenta o item TU-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 301).</p>
+
+</div>
+
+### 4.13 TU-13 — Exploração livre
+
+A Tabela 14 apresenta o item TU-13:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14: Item TU-13 — Exploração livre</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Quando era o primeiro contato com o protótipo, o participante pôde explorá-lo livremente por alguns minutos antes de receber as tarefas? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 301) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 13 reproduz o trecho do livro que fundamenta o item TU-13:
+
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item TU-13 (Exploração livre)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/tu-13.png" alt="Trecho do livro que fundamenta o item TU-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 301).</p>
+
+</div>
+
+### 4.14 TU-14 — Intervenção quando o participante trava
+
+A Tabela 15 apresenta o item TU-14:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 15: Item TU-14 — Intervenção quando o participante trava</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Quando o participante travou ou ficou constrangido, o avaliador sugeriu passar para a tarefa seguinte, em vez de insistir ou ensinar o caminho? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 302) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 14 reproduz o trecho do livro que fundamenta o item TU-14:
+
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item TU-14 (Intervenção quando o participante trava)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/tu-14.png" alt="Trecho do livro que fundamenta o item TU-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 302).</p>
+
+</div>
+
+### 4.15 TU-15 — Dois avaliadores na sessão
+
+A Tabela 16 apresenta o item TU-15:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16: Item TU-15 — Dois avaliadores na sessão</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Havia pelo menos dois avaliadores na sessão, um acompanhando o participante de perto e outro observando e fazendo anotações? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 301) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 15 reproduz o trecho do livro que fundamenta o item TU-15:
+
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item TU-15 (Dois avaliadores na sessão)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/tu-15.png" alt="Trecho do livro que fundamenta o item TU-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 301).</p>
+
+</div>
 
 ## 5. Referências Bibliográficas
 
@@ -388,4 +536,5 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item TU-10:
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da lista (v1): itens TU-01 a TU-05, com fonte por página e recorte do livro; itens TU-06 a TU-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Adição dos itens TU-06 a TU-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
+| `1.2` | 22/11/2026 | Elaboração dos itens TU-11 a TU-15, com fonte por página e recorte do livro. | Pedro Rocha Ferreira Lima | — |
 </div>
