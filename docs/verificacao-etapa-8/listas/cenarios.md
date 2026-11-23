@@ -1,0 +1,533 @@
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela de Contribuição</b></p>
+
+| Membro | Contribuição |
+| :--- | :--- |
+| **Daniel da Silva Batista** | Elaboração dos itens CE-01 a CE-05, recortes do livro. |
+| **Arthur Sismene Carvalho** | Elaboração dos itens CE-06 a CE-10, recortes do livro. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CE-11 a CE-15, recortes do livro. |
+| **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+# Lista de Verificação de Cenários
+
+## 1. Introdução
+
+Um **cenário** é uma narrativa concreta sobre pessoas realizando uma atividade: uma pequena história que descreve uma situação de uso do sistema, com atores, objetivos, ações e acontecimentos (BARBOSA et al., 2021).
+
+Esta é a **primeira versão (v1)** desta lista, elaborada para a [Verificação da Etapa 8](../index.md), conduzida pelo método de inspeção de Fagan (FAGAN, 1976). Ela será aplicada, no passo de inspeção, aos seguintes artefatos do projeto:
+
+* [Cenários](../../analise-de-requisitos/cenarios.md)
+
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+
+## 2. Critérios de Julgamento
+
+Cada item admite uma única resposta:
+
+* **Sim** — o artefato atende integralmente ao que a pergunta descreve;
+* **Não** — o artefato não atende ao que a pergunta descreve ou não apresenta a informação;
+* **Incompleto** — o artefato atende apenas em parte (por exemplo, em alguns quadros, tarefas ou participantes, mas não em todos).
+
+## 3. Itens de Verificação
+
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Cenários:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 1: Itens da Lista de Verificação de Cenários</b></p>
+
+| ID | Pergunta de verificação | Autor | Fonte |
+| :---: | :--- | :--- | :--- |
+| **CE-01** | Cada cenário é uma narrativa concreta (uma pequena história) sobre uma pessoa usando, ou tentando usar, o sistema em uma situação específica? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 184) |
+| **CE-02** | Cada cenário tem título, atores (as pessoas da história) e a descrição da situação inicial em que eles se encontram? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 184) |
+| **CE-03** | O ator principal de cada cenário (a pessoa central da história) é uma das personas do projeto? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 184) |
+| **CE-04** | O cenário mostra o objetivo do ator (a pessoa da história), as ações que ele realiza e os eventos (reações do sistema ou do ambiente) que ajudam ou atrapalham esse objetivo? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 184) |
+| **CE-05** | Há pelo menos um cenário para cada tarefa principal do projeto (as tarefas mais frequentes ou mais importantes para os usuários)? | Daniel da Silva Batista | BARBOSA et al. (2021, p. 188) |
+| **CE-06** | Cada cenário menciona os objetos com que o ator interage (artefatos, equipamentos ou sistemas) e descreve o contexto de uso (o ambiente, o momento e as condições em que a ação ocorre)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 132) |
+| **CE-07** | O cenário registra eventuais restrições do ator — limitações de tempo, recurso ou conhecimento que dificultam ou impedem o alcance do objetivo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 187) |
+| **CE-08** | A narrativa de cada cenário é organizada em enredo — uma sequência encadeada de ações ou situações que mostra como o ator progride (ou não) em direção ao objetivo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 184) |
+| **CE-09** | Os cenários são consultados pela equipe ao longo do processo de design para fundamentar decisões — por exemplo, ao comparar alternativas ou ao definir requisitos do sistema? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 184) |
+| **CE-10** | O projeto inclui cenários de diferentes tipos — de problema (para identificar necessidades), de atividade (para descrever tarefas), de informação (para especificar dados) e de interação (para detalhar a interface) — ao longo das fases do design? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 132) |
+| **CE-11** | O cenário mostra como o ator percebe se cada ação deu certo e se o objetivo foi alcançado? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 184) |
+| **CE-12** | O cenário descreve o que o ator decide fazer, e em que ordem, antes de começar a agir? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 184) |
+| **CE-13** | O artefato aponta, a partir de cada cenário, os problemas da situação atual que o novo sistema deveria resolver? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 185) |
+| **CE-14** | O conjunto de cenários inclui situações raras ou de exceção (eventos importantes que acontecem com pouca frequência)? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 185) |
+| **CE-15** | Cada cenário acompanha uma só pessoa central em busca de uma só meta, seguindo um único caminho de uso, sem misturar várias alternativas? | Pedro Rocha Ferreira Lima | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+
+</div>
+
+## 4. Detalhamento dos Itens
+
+### 4.1 CE-01 — Cenário como narrativa
+
+A Tabela 2 apresenta o item CE-01:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 2: Item CE-01 — Cenário como narrativa</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada cenário é uma narrativa concreta (uma pequena história) sobre uma pessoa usando, ou tentando usar, o sistema em uma situação específica? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 1 reproduz o trecho do livro que fundamenta o item CE-01:
+
+<div align="center">
+
+<p align="center"><b>Figura 1: Referência Bibliográfica — Item CE-01 (Cenário como narrativa)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/ce-01.png" alt="Trecho do livro que fundamenta o item CE-01" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
+
+</div>
+
+### 4.2 CE-02 — Título, atores e situação inicial
+
+A Tabela 3 apresenta o item CE-02:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 3: Item CE-02 — Título, atores e situação inicial</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada cenário tem título, atores (as pessoas da história) e a descrição da situação inicial em que eles se encontram? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 2 reproduz o trecho do livro que fundamenta o item CE-02:
+
+<div align="center">
+
+<p align="center"><b>Figura 2: Referência Bibliográfica — Item CE-02 (Título, atores e situação inicial)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/ce-02.png" alt="Trecho do livro que fundamenta o item CE-02" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
+
+</div>
+
+### 4.3 CE-03 — Personas como atores
+
+A Tabela 4 apresenta o item CE-03:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 4: Item CE-03 — Personas como atores</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O ator principal de cada cenário (a pessoa central da história) é uma das personas do projeto? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 3 reproduz o trecho do livro que fundamenta o item CE-03:
+
+<div align="center">
+
+<p align="center"><b>Figura 3: Referência Bibliográfica — Item CE-03 (Personas como atores)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/ce-03.png" alt="Trecho do livro que fundamenta o item CE-03" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
+
+</div>
+
+### 4.4 CE-04 — Elementos do cenário
+
+A Tabela 5 apresenta o item CE-04:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 5: Item CE-04 — Elementos do cenário</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O cenário mostra o objetivo do ator (a pessoa da história), as ações que ele realiza e os eventos (reações do sistema ou do ambiente) que ajudam ou atrapalham esse objetivo? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 4 reproduz o trecho do livro que fundamenta o item CE-04:
+
+<div align="center">
+
+<p align="center"><b>Figura 4: Referência Bibliográfica — Item CE-04 (Elementos do cenário)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/ce-04.png" alt="Trecho do livro que fundamenta o item CE-04" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
+
+</div>
+
+### 4.5 CE-05 — Cenários para as tarefas principais
+
+A Tabela 6 apresenta o item CE-05:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 6: Item CE-05 — Cenários para as tarefas principais</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Há pelo menos um cenário para cada tarefa principal do projeto (as tarefas mais frequentes ou mais importantes para os usuários)? |
+| **Autor** | Daniel da Silva Batista |
+| **Fonte** | BARBOSA et al. (2021, p. 188) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A Figura 5 reproduz o trecho do livro que fundamenta o item CE-05:
+
+<div align="center">
+
+<p align="center"><b>Figura 5: Referência Bibliográfica — Item CE-05 (Cenários para as tarefas principais)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8/ce-05.png" alt="Trecho do livro que fundamenta o item CE-05" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 188).</p>
+
+</div>
+
+### 4.6 CE-06 — Objetos e contexto
+
+A Tabela 7 apresenta o item CE-06:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 7: Item CE-06 — Objetos e contexto</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada cenário menciona os objetos com que o ator interage (artefatos, equipamentos ou sistemas) e descreve o contexto de uso (o ambiente, o momento e as condições em que a ação ocorre)? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 132) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 6 reproduz o trecho do livro que fundamenta o item CE-06:
+
+<div align="center">
+
+<p align="center"><b>Figura 6: Referência Bibliográfica — Item CE-06 (Objetos e contexto)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ce-06.png" alt="Trecho do livro que fundamenta o item CE-06" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 132).</p>
+
+</div>
+
+### 4.7 CE-07 — Restrições do ator
+
+A Tabela 8 apresenta o item CE-07:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 8: Item CE-07 — Restrições do ator</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O cenário registra eventuais restrições do ator — limitações de tempo, recurso ou conhecimento que dificultam ou impedem o alcance do objetivo? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 187) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 7 reproduz o trecho do livro que fundamenta o item CE-07:
+
+<div align="center">
+
+<p align="center"><b>Figura 7: Referência Bibliográfica — Item CE-07 (Restrições do ator)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ce-07.png" alt="Trecho do livro que fundamenta o item CE-07" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 187).</p>
+
+</div>
+
+### 4.8 CE-08 — Enredo
+
+A Tabela 9 apresenta o item CE-08:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 9: Item CE-08 — Enredo</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | A narrativa de cada cenário é organizada em enredo — uma sequência encadeada de ações ou situações que mostra como o ator progride (ou não) em direção ao objetivo? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 8 reproduz o trecho do livro que fundamenta o item CE-08:
+
+<div align="center">
+
+<p align="center"><b>Figura 8: Referência Bibliográfica — Item CE-08 (Enredo)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ce-08.png" alt="Trecho do livro que fundamenta o item CE-08" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
+
+</div>
+
+### 4.9 CE-09 — Uso dos cenários no design
+
+A Tabela 10 apresenta o item CE-09:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Item CE-09 — Uso dos cenários no design</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Os cenários são consultados pela equipe ao longo do processo de design para fundamentar decisões — por exemplo, ao comparar alternativas ou ao definir requisitos do sistema? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 9 reproduz o trecho do livro que fundamenta o item CE-09:
+
+<div align="center">
+
+<p align="center"><b>Figura 9: Referência Bibliográfica — Item CE-09 (Uso dos cenários no design)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ce-09.png" alt="Trecho do livro que fundamenta o item CE-09" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
+
+</div>
+
+### 4.10 CE-10 — Tipos de cenário
+
+A Tabela 11 apresenta o item CE-10:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Item CE-10 — Tipos de cenário</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O projeto inclui cenários de diferentes tipos — de problema (para identificar necessidades), de atividade (para descrever tarefas), de informação (para especificar dados) e de interação (para detalhar a interface) — ao longo das fases do design? |
+| **Autor** | Arthur Sismene Carvalho |
+| **Fonte** | BARBOSA et al. (2021, p. 132) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
+
+</div>
+
+A Figura 10 reproduz o trecho do livro que fundamenta o item CE-10:
+
+<div align="center">
+
+<p align="center"><b>Figura 10: Referência Bibliográfica — Item CE-10 (Tipos de cenário)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-sismene/ce-10.png" alt="Trecho do livro que fundamenta o item CE-10" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 132).</p>
+
+</div>
+
+### 4.11 CE-11 — Avaliação pelo ator
+
+A Tabela 12 apresenta o item CE-11:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 12: Item CE-11 — Avaliação pelo ator</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O cenário mostra como o ator percebe se cada ação deu certo e se o objetivo foi alcançado? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 11 reproduz o trecho do livro que fundamenta o item CE-11:
+
+<div align="center">
+
+<p align="center"><b>Figura 11: Referência Bibliográfica — Item CE-11 (Avaliação pelo ator)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ce-11.png" alt="Trecho do livro que fundamenta o item CE-11" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
+
+</div>
+
+### 4.12 CE-12 — Planejamento do ator
+
+A Tabela 13 apresenta o item CE-12:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 13: Item CE-12 — Planejamento do ator</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O cenário descreve o que o ator decide fazer, e em que ordem, antes de começar a agir? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 12 reproduz o trecho do livro que fundamenta o item CE-12:
+
+<div align="center">
+
+<p align="center"><b>Figura 12: Referência Bibliográfica — Item CE-12 (Planejamento do ator)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ce-12.png" alt="Trecho do livro que fundamenta o item CE-12" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
+
+</div>
+
+### 4.13 CE-13 — Problemas revelados pelo cenário
+
+A Tabela 14 apresenta o item CE-13:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 14: Item CE-13 — Problemas revelados pelo cenário</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O artefato aponta, a partir de cada cenário, os problemas da situação atual que o novo sistema deveria resolver? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 185) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 13 reproduz o trecho do livro que fundamenta o item CE-13:
+
+<div align="center">
+
+<p align="center"><b>Figura 13: Referência Bibliográfica — Item CE-13 (Problemas revelados pelo cenário)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ce-13.png" alt="Trecho do livro que fundamenta o item CE-13" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 185).</p>
+
+</div>
+
+### 4.14 CE-14 — Situações de exceção
+
+A Tabela 15 apresenta o item CE-14:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 15: Item CE-14 — Situações de exceção</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | O conjunto de cenários inclui situações raras ou de exceção (eventos importantes que acontecem com pouca frequência)? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 185) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 14 reproduz o trecho do livro que fundamenta o item CE-14:
+
+<div align="center">
+
+<p align="center"><b>Figura 14: Referência Bibliográfica — Item CE-14 (Situações de exceção)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ce-14.png" alt="Trecho do livro que fundamenta o item CE-14" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 185).</p>
+
+</div>
+
+### 4.15 CE-15 — Um caminho por cenário
+
+A Tabela 16 apresenta o item CE-15:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16: Item CE-15 — Um caminho por cenário</b></p>
+
+| Campo | Registro |
+| :--- | :--- |
+| **Pergunta** | Cada cenário acompanha uma só pessoa central em busca de uma só meta, seguindo um único caminho de uso, sem misturar várias alternativas? |
+| **Autor** | Pedro Rocha Ferreira Lima |
+| **Fonte** | BARBOSA et al. (2021, p. 184) |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
+
+</div>
+
+A Figura 15 reproduz o trecho do livro que fundamenta o item CE-15:
+
+<div align="center">
+
+<p align="center"><b>Figura 15: Referência Bibliográfica — Item CE-15 (Um caminho por cenário)</b></p>
+
+<img src="../../../assets/images/verificacao-etapa-8-pedro/ce-15.png" alt="Trecho do livro que fundamenta o item CE-15" style="max-width: 90%; width: auto; border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 12px auto; display: block;">
+
+<p align="center" style="font-size: 0.85em; margin-top: 0.4em;"><b>Fonte:</b> BARBOSA et al. (2021, p. 184).</p>
+
+</div>
+
+## 5. Referências Bibliográficas
+
+> [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Autopublicação, 2021. ISBN: 978-65-00-19677-1.  
+> [2] FAGAN, Michael E. Design and code inspections to reduce errors in program development. *IBM Systems Journal*, v. 15, n. 3, p. 182-211, 1976.  
+> [3] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: FCTE/UnB, 2026.
+
+## 6. Histórico de Versões
+
+<div align="center" markdown="1">
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :---: | :---: |
+| `1.0` | 21/11/2026 | Criação da lista (v1): itens CE-01 a CE-05, com fonte por página e recorte do livro; itens CE-06 a CE-20 reservados aos demais integrantes. | Daniel da Silva Batista | — |
+| `1.1` | 22/11/2026 | Adição dos itens CE-06 a CE-10: perguntas de verificação, fontes e recortes do livro. | Arthur Sismene Carvalho | — |
+| `1.2` | 22/11/2026 | Elaboração dos itens CE-11 a CE-15, com fonte por página e recorte do livro. | Pedro Rocha Ferreira Lima | — |
+</div>
