@@ -78,7 +78,13 @@ Cada item recebe uma das respostas definidas nas listas: **Sim**, **Não** ou **
 
 **Visão geral:** Descreve os três perfis de usuário do PCI Concursos (candidato, publicador e administrador). A parte do Pedro é a síntese dos perfis e a entrevista USR-02.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/UIm2dO9p-Og](https://youtu.be/UIm2dO9p-Og)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/UIm2dO9p-Og" title="Inspeção de Fagan — Perfil do Usuário (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 3 apresenta a inspeção do Perfil do Usuário com a [Lista de Verificação de Perfil de Usuário](../listas/perfil-usuario.md):
 
@@ -112,7 +118,13 @@ A Tabela 3 apresenta a inspeção do Perfil do Usuário com a [Lista de Verifica
 
 **Visão geral:** Lucas Ferreira Rocha, concurseiro de 24 anos do DF que busca vagas locais e acompanha retificações de edital.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/nlWFt9eps_s](https://youtu.be/nlWFt9eps_s)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/nlWFt9eps_s" title="Inspeção de Fagan — Persona PER-02 (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 4 apresenta a inspeção da persona PER-02 com a [Lista de Verificação de Personas](../listas/personas.md):
 
@@ -146,7 +158,13 @@ A Tabela 4 apresenta a inspeção da persona PER-02 com a [Lista de Verificaçã
 
 **Visão geral:** Narra Lucas verificando uma retificação de edital e calculando o prazo de recurso no portal.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/WlcmphGruZk](https://youtu.be/WlcmphGruZk)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/WlcmphGruZk" title="Inspeção de Fagan — Cenário CEN-04 (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 5 apresenta a inspeção do cenário CEN-04 com a [Lista de Verificação de Cenários](../listas/cenarios.md):
 
@@ -180,7 +198,13 @@ A Tabela 5 apresenta a inspeção do cenário CEN-04 com a [Lista de Verificaç�
 
 **Visão geral:** Decompõe a TAR-04, "Criar cronograma personalizado de estudo", em subobjetivos e operações.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/mHJrAQ3feRg](https://youtu.be/mHJrAQ3feRg)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/mHJrAQ3feRg" title="Inspeção de Fagan — HTA da TAR-04 (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 6 apresenta a inspeção da HTA da TAR-04 com a [Lista de Verificação de HTA — v2](../listas/hta-v2.md):
 
@@ -214,7 +238,13 @@ A Tabela 6 apresenta a inspeção da HTA da TAR-04 com a [Lista de Verificação
 
 **Visão geral:** Modela a TAR-04 em árvore CTT, com o tipo de cada tarefa e os operadores de tempo entre elas.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/__w37W00d34](https://youtu.be/__w37W00d34)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/__w37W00d34" title="Inspeção de Fagan — CTT da TAR-04 (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 7 apresenta a inspeção do CTT da TAR-04 com a [Lista de Verificação de CTT — v2](../listas/ctt-v2.md):
 
@@ -248,7 +278,13 @@ A Tabela 7 apresenta a inspeção do CTT da TAR-04 com a [Lista de Verificação
 
 **Visão geral:** Define, antes da avaliação, como os resultados da avaliação da HTA e do CTT serão consolidados e relatados.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/sfhwPwRxRuY](https://youtu.be/sfhwPwRxRuY)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/sfhwPwRxRuY" title="Inspeção de Fagan — Planejamento do Relato da Análise de Tarefas (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 8 apresenta a inspeção do planejamento do relato com a [Lista de Verificação de Planejamento do Relato](../listas/planejamento-relato.md):
 
@@ -282,7 +318,13 @@ A Tabela 8 apresenta a inspeção do planejamento do relato com a [Lista de Veri
 
 **Visão geral:** Seis quadros desenhados à mão mostrando Lucas criando um cronograma de estudo.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/Yo9DcaccRkU](https://youtu.be/Yo9DcaccRkU)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/Yo9DcaccRkU" title="Inspeção de Fagan — Storyboard SB-02 (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 9 apresenta a inspeção do storyboard SB-02 com a [Lista de Verificação de Storyboard — v2](../listas/storyboard-v2.md):
 
@@ -316,6 +358,8 @@ A Tabela 9 apresenta a inspeção do storyboard SB-02 com a [Lista de Verificaç
 
 **Visão geral:** Protótipo de papel do cronograma de estudo (escolha de edital, dia e horário) e a sua avaliação com participantes.
 
+> **Nota:** na data da inspeção, o artefato estava incompleto: as fotos das telas (Seção 2) não carregam, a Seção 3 (Autoinspeção) tem só o título, a Tabela 3 (dados do teste-piloto) está em branco e sem o vídeo do piloto, e a Tabela 5 (entrevistas) não tem data e duração das sessões, nem o status do termo de consentimento do Participante 3.
+
 **Vídeo da inspeção:** *(a gravar)*
 
 A Tabela 10 apresenta a inspeção do relato do protótipo de papel com a [Lista de Verificação de Protótipo de Papel — v2](../listas/prototipo-papel-v2.md):
@@ -326,8 +370,8 @@ A Tabela 10 apresenta a inspeção do relato do protótipo de papel com a [Lista
 
 | Item | Verificação | Resposta | Evidência / Observação |
 | :---: | :--- | :---: | :--- |
-| **PP-01** | Telas desenhadas em papel | **Sim** | Tela base em folha A4 desenhada à mão, só com seletores, botões e grade (Figuras 1 a 5). |
-| **PP-02** | Peças móveis do protótipo | **Sim** | Listas suspensas de edital, dia e horário e etiquetas do concurso em tiras de papel destacáveis. |
+| **PP-01** | Telas desenhadas em papel | **Não** | O texto descreve a tela base em folha A4 desenhada à mão (Figuras 1 a 5), mas as fotos não aparecem na página: apontam para a pasta `prototipo-papel/pedro-rocha/`, que não existe no repositório. Severidade: **Alta**. |
+| **PP-02** | Peças móveis do protótipo | **Incompleto** | As listas suspensas de edital, dia e horário e as etiquetas do concurso em tiras destacáveis são descritas no texto, mas sem imagem que as mostre. Severidade: **Média**. |
 | **PP-03** | Papéis dos avaliadores na simulação | **Incompleto** | Pedro fez o papel de "computador" sem dar dicas (Seção 6.3), mas a Seção 6.5 registra um único avaliador; não houve um segundo avaliador observando e anotando. Severidade: **Média**. |
 | **PP-04** | Problemas e correções entre sessões | **Não** | A coluna "Comportamento Observado nos Testes" da Tabela 10 está vazia: os problemas vêm só da autoinspeção, sem registro do que ocorreu em cada sessão nem de correções entre elas. Severidade: **Alta**. |
 | **PP-05** | Priorização dos problemas não resolvidos | **Incompleto** | Os problemas OPO-PP01 a PP05 têm severidade e ação de reprojeto, mas não há frequência (quantos participantes tiveram o problema). Severidade: **Alta**. |
@@ -350,7 +394,13 @@ A Tabela 10 apresenta a inspeção do relato do protótipo de papel com a [Lista
 
 **Visão geral:** Protótipo navegável do cronograma de estudo feito no Lovable e a sua avaliação com três participantes.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/HLBWfnUGk8o](https://youtu.be/HLBWfnUGk8o)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/HLBWfnUGk8o" title="Inspeção de Fagan — Protótipo de Alta Fidelidade (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 11 apresenta a inspeção do relato do protótipo de alta fidelidade com a [Lista de Verificação de Protótipo de Alta Fidelidade — v2](../listas/prototipo-alta-fidelidade-v2.md):
 
@@ -384,7 +434,13 @@ A Tabela 11 apresenta a inspeção do relato do protótipo de alta fidelidade co
 
 **Visão geral:** Ensaio da avaliação do protótipo de alta fidelidade, feito em 11/11/2026, antes das sessões com participantes.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/WdBLJuesC6M](https://youtu.be/WdBLJuesC6M)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/WdBLJuesC6M" title="Inspeção de Fagan — Teste-Piloto (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 12 apresenta a inspeção do teste-piloto com a [Lista de Verificação de Teste-Piloto](../listas/teste-piloto.md):
 
@@ -418,7 +474,13 @@ A Tabela 12 apresenta a inspeção do teste-piloto com a [Lista de Verificação
 
 **Visão geral:** Três sessões presenciais em que participantes do Perfil 1 montaram blocos de estudo no protótipo.
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/8TxBJUO6vvM](https://youtu.be/8TxBJUO6vvM)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/8TxBJUO6vvM" title="Inspeção de Fagan — Teste de Usabilidade (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 A Tabela 13 apresenta a inspeção das sessões com usuários com a [Lista de Verificação de Teste de Usabilidade](../listas/teste-usabilidade.md):
 
@@ -465,11 +527,11 @@ A Tabela 14 consolida o resultado da inspeção:
 | CTT da TAR-04 | 11 | 0 | 1 | 3 |
 | Planejamento do Relato da Análise de Tarefas | 14 | 1 | 0 | 0 |
 | Storyboard SB-02 | 7 | 4 | 4 | 0 |
-| Relato do Protótipo de Papel | 6 | 4 | 5 | 0 |
+| Relato do Protótipo de Papel | 4 | 5 | 6 | 0 |
 | Relato do Protótipo de Alta Fidelidade | 8 | 7 | 0 | 0 |
 | Teste-Piloto | 3 | 4 | 7 | 1 |
 | Teste de Usabilidade | 7 | 4 | 3 | 1 |
-| **Total (165 itens)** | **92** | **38** | **30** | **5** |
+| **Total (165 itens)** | **90** | **39** | **31** | **5** |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -528,5 +590,6 @@ O inspetor confere se cada correção resolveu o defeito correspondente. Defeito
 | `1.0` | 22/11/2026 | Planejamento, preparação e inspeção dos artefatos de Pedro Rocha Ferreira Lima com os itens 01 a 05 de 11 listas de verificação (55 itens) e registro de 17 defeitos (respostas Não ou Incompleto). | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Aplicação dos itens 06 a 10 (autoria de Arthur Sismene Carvalho) das 11 listas aos artefatos de Pedro Rocha Ferreira Lima: 110 itens no total e 42 defeitos registrados. | Daniel da Silva Batista | — |
 | `1.2` | 22/11/2026 | Aplicação dos itens 11 a 15 (autoria de Pedro Rocha Ferreira Lima) das 11 listas: 165 itens no total e 68 defeitos registrados. | Daniel da Silva Batista | — |
+| `1.3` | 22/11/2026 | Revisão dos itens PP-01 e PP-02 (fotos do protótipo de papel não carregam), nota sobre as partes incompletas do relato do protótipo de papel e inclusão dos vídeos de inspeção: 70 defeitos registrados. | Daniel da Silva Batista | — |
 
 </div>
