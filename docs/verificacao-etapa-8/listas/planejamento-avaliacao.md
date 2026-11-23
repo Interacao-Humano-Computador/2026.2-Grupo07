@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PA-01 a PA-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens PA-06 a PA-10, recortes do livro. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens PA-11 a PA-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PA-16 a PA-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PA-11 a PA-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
@@ -27,7 +26,7 @@ Esta é a **primeira versão (v1)** desta lista, elaborada para a [Verificação
 * [Planejamento da Avaliação do Protótipo de Papel](../../design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-prototipo-papel.md)
 * [Planejamento da Avaliação do Protótipo de Alta Fidelidade](../../design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-alta-fidelidade.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -39,7 +38,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Planejamento da Avaliação:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Planejamento da Avaliação:
 
 <div align="center" markdown="1">
 
@@ -57,18 +56,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PA-08** | O planejamento define como os dados coletados serão interpretados e apresentados: de que forma os resultados responderão às perguntas da avaliação — (atividade "E — Avaliar, interpretar e apresentar os dados" do DECIDE)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 304) |
 | **PA-09** | O planejamento inclui o roteiro das tarefas que o participante realizará durante a avaliação, com as instruções padronizadas que o avaliador usará no início de cada sessão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 299) |
 | **PA-10** | O planejamento informa onde a avaliação será conduzida (laboratório de usabilidade ou ambiente natural de uso) e justifica essa escolha, levando em conta os benefícios e os custos de cada opção? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 292) |
-| **PA-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PA-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PA-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PA-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PA-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PA-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PA-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PA-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PA-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PA-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PA-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PA-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PA-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PA-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PA-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -374,7 +368,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PA-10:
 
 </div>
 
-> *Os itens PA-11 a PA-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens PA-11 a PA-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 

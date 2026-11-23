@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens SB-01 a SB-05, revisão dos itens da v1 e recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens SB-06 a SB-10, reescritos a partir de itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens SB-11 a SB-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens SB-16 a SB-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens SB-11 a SB-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -27,7 +26,7 @@ Esta lista é a **versão 2 (v2)** da [Lista de Verificação para Storyboard (v
 * [Storyboard SB-03 — Arthur Sismene Carvalho](../../design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho.md)
 * [Storyboard SB-04 — Leonardo da Silva Lopes Júnior](../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -39,7 +38,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Storyboard — v2:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Storyboard — v2:
 
 <div align="center" markdown="1">
 
@@ -57,18 +56,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de S
 | **SB-08** | Cada quadro retrata um passo específico da tarefa, sem pular etapas essenciais nem acrescentar passos que não fazem parte da sequência? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
 | **SB-09** | Os quadros trazem elementos suficientes para que alguém consiga percorrer mentalmente a sequência e simular a interação com o produto (walkthrough)? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
 | **SB-10** | Os quadros mostram esboços de tela ligados à ação da pessoa (o que ela faz e o que vê), e não um fluxograma abstrato nem telas isoladas, sem ninguém usando? | Arthur Sismene Carvalho | PREECE, ROGERS e SHARP (2005, p. 263) |
-| **SB-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **SB-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **SB-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **SB-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **SB-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **SB-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **SB-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **SB-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **SB-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **SB-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **SB-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **SB-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **SB-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **SB-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **SB-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -384,7 +378,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item SB-10:
 
 </div>
 
-> *Os itens SB-11 a SB-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens SB-11 a SB-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Correspondência com a v1
 

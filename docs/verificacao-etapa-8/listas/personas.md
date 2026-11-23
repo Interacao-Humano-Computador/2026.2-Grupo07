@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PE-01 a PE-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens PE-06 a PE-10, recortes do livro. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens PE-11 a PE-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PE-16 a PE-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PE-11 a PE-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
@@ -24,7 +23,7 @@ Esta é a **primeira versão (v1)** desta lista, elaborada para a [Verificação
 
 * [Personas](../../analise-de-requisitos/personas.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -36,7 +35,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Personas:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Personas:
 
 <div align="center" markdown="1">
 
@@ -54,18 +53,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PE-08** | Cada persona lista suas necessidades do ponto de vista do usuário: o que ela precisaria que o sistema fornecesse para alcançar seus objetivos com eficiência e satisfação? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 180) |
 | **PE-09** | Cada persona inclui uma citação direta representativa — uma frase que sintetiza sua atitude em relação ao sistema ou ao domínio — para ajudar a equipe a lembrar do ponto de vista dessa persona? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 180) |
 | **PE-10** | As personas são usadas nas decisões de design: a equipe as consulta ao comparar alternativas de solução, ao priorizar funcionalidades e ao avaliar se as propostas atendem às necessidades do usuário alvo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 181) |
-| **PE-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PE-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PE-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PE-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PE-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PE-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PE-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PE-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PE-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PE-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PE-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PE-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PE-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PE-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PE-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -371,7 +365,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PE-10:
 
 </div>
 
-> *Os itens PE-11 a PE-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens PE-11 a PE-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 

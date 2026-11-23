@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens HTA-01 a HTA-05, revisão dos itens da v1 e recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens HTA-06 a HTA-10, reescritos a partir dos itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens HTA-11 a HTA-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens HTA-16 a HTA-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens HTA-11 a HTA-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -24,7 +23,7 @@ Esta lista é a **versão 2 (v2)** da [Lista de Verificação para HTA (v1, Etap
 
 * [Análise de Tarefas — HTA](../../analise-de-requisitos/analise-de-tarefas/hta.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -36,7 +35,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de HTA — v2:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de HTA — v2:
 
 <div align="center" markdown="1">
 
@@ -54,18 +53,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de H
 | **HTA-08** | O diagrama diferencia visualmente os objetivos (que ainda se desdobram) das operações (os passos finais, que não se dividem mais e, no livro, são marcadas com um traço na base da caixa)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 191) |
 | **HTA-09** | Cada caixa recebe um número que corresponde à sua posição na árvore (0 na raiz; 1, 2… no primeiro nível; 1.1, 1.2… abaixo da caixa 1; 1.2.1… abaixo da 1.2)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 193) |
 | **HTA-10** | Além do diagrama, a tarefa é apresentada também em uma tabela que reúne os objetivos/operações, os planos, a entrada, o feedback e os problemas e recomendações identificados? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 191) |
-| **HTA-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **HTA-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **HTA-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **HTA-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **HTA-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **HTA-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **HTA-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **HTA-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **HTA-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **HTA-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **HTA-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **HTA-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **HTA-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **HTA-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **HTA-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -381,7 +375,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item HTA-10:
 
 </div>
 
-> *Os itens HTA-11 a HTA-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens HTA-11 a HTA-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Correspondência com a v1
 

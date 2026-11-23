@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens TP-01 a TP-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens TP-06 a TP-10, recortes do livro. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens TP-11 a TP-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens TP-16 a TP-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens TP-11 a TP-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
@@ -25,7 +24,7 @@ Esta é a **primeira versão (v1)** desta lista, elaborada para a [Verificação
 * [Planejamento e Execução do Teste-Piloto (Nível 1)](../../design-avaliacao-desenvolvimento/teste-piloto.md)
 * Seções de teste-piloto dos relatos individuais dos protótipos de papel e de alta fidelidade
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -37,7 +36,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Teste-Piloto:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Teste-Piloto:
 
 <div align="center" markdown="1">
 
@@ -55,18 +54,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de T
 | **TP-08** | O artefato descreve o ambiente e os equipamentos utilizados no teste-piloto e registra se tudo funcionou conforme o planejado? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
 | **TP-09** | O artefato confirma que a gravação de áudio e/ou vídeo foi testada e funcionou adequadamente durante o teste-piloto, garantindo que estará disponível nas sessões oficiais? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
 | **TP-10** | O artefato registra se as tarefas e os materiais estavam claros para o participante — se ele entendeu o que devia fazer sem precisar pedir esclarecimentos ao avaliador? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
-| **TP-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TP-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TP-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TP-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TP-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TP-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TP-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TP-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TP-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TP-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TP-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TP-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TP-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TP-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TP-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -372,7 +366,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item TP-10:
 
 </div>
 
-> *Os itens TP-11 a TP-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens TP-11 a TP-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 

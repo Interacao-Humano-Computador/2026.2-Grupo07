@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens AF-01 a AF-05, revisão dos itens da v1 e recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens AF-06 a AF-10, reescritos a partir das heurísticas da autoinspeção do protótipo de alta fidelidade não reaproveitadas nos itens 01–05, com fonte por página. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens AF-11 a AF-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens AF-16 a AF-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens AF-11 a AF-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -27,7 +26,7 @@ Esta lista é a **versão 2 (v2)** das listas de autoinspeção dos relatos indi
 * [Relato do protótipo de alta fidelidade — Leonardo da Silva Lopes Júnior](../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes-alta-fidelidade.md)
 * [Relato do protótipo de alta fidelidade — Pedro Rocha Ferreira Lima](../../design-avaliacao-desenvolvimento/etapa-5/pedro-rocha-alta-fidelidade.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -39,7 +38,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Protótipo de Alta Fidelidade — v2:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Protótipo de Alta Fidelidade — v2:
 
 <div align="center" markdown="1">
 
@@ -57,18 +56,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **AF-08** | Os rótulos e critérios do protótipo usam o vocabulário habitual do usuário (termos que o público reconhece), e não termos técnicos internos? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 306) |
 | **AF-09** | O protótipo previne erros em ações críticas e dá feedback claro (por exemplo, pede confirmação antes de uma ação importante e avisa quando ela é concluída)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 306) |
 | **AF-10** | O protótipo evita ruído visual, mostrando apenas o necessário para a tarefa (sem excesso de informação ou elementos que distraem)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 306) |
-| **AF-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **AF-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **AF-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **AF-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **AF-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **AF-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **AF-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **AF-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **AF-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **AF-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **AF-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **AF-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **AF-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **AF-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **AF-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -384,7 +378,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item AF-10:
 
 </div>
 
-> *Os itens AF-11 a AF-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens AF-11 a AF-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Correspondência com a v1
 

@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PP-01 a PP-05, revisão dos itens da v1 e recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens PP-06 a PP-10 (reaproveitando itens da autoinspeção do protótipo de papel e dois itens complementares do livro), com fonte por página. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens PP-11 a PP-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PP-16 a PP-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PP-11 a PP-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -27,7 +26,7 @@ Esta lista é a **versão 2 (v2)** das listas de autoinspeção dos relatos indi
 * [Relato do protótipo de papel — Leonardo da Silva Lopes Júnior](../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes-prototipo-papel.md)
 * [Relato do protótipo de papel — Pedro Rocha Ferreira Lima](../../design-avaliacao-desenvolvimento/etapa-5/pedro-rocha-prototipo-papel.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -39,7 +38,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Protótipo de Papel — v2:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Protótipo de Papel — v2:
 
 <div align="center" markdown="1">
 
@@ -57,18 +56,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PP-08** | O protótipo foi construído de forma que a interface se comunique sozinha — tudo o que o usuário precisa saber para completar as tarefas está representado nas telas, sem que o avaliador precise dar explicações durante a sessão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 341) |
 | **PP-09** | Os participantes das sessões têm o perfil do público-alvo do sistema e não fizeram parte da criação do protótipo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 340) |
 | **PP-10** | As tarefas foram apresentadas ao participante como situações de uso (cenários) para ele realizar por conta própria, sem que o avaliador ensinasse o caminho? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 341) |
-| **PP-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PP-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PP-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PP-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PP-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PP-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PP-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PP-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PP-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PP-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PP-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PP-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PP-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PP-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PP-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -384,7 +378,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PP-10:
 
 </div>
 
-> *Os itens PP-11 a PP-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens PP-11 a PP-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Correspondência com a v1
 

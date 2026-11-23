@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens CE-01 a CE-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens CE-06 a CE-10, recortes do livro. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens CE-11 a CE-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CE-16 a CE-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CE-11 a CE-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
@@ -24,7 +23,7 @@ Esta é a **primeira versão (v1)** desta lista, elaborada para a [Verificação
 
 * [Cenários](../../analise-de-requisitos/cenarios.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -36,7 +35,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Cenários:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Cenários:
 
 <div align="center" markdown="1">
 
@@ -54,18 +53,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de C
 | **CE-08** | A narrativa de cada cenário é organizada em enredo — uma sequência encadeada de ações ou situações que mostra como o ator progride (ou não) em direção ao objetivo? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 184) |
 | **CE-09** | Os cenários são consultados pela equipe ao longo do processo de design para fundamentar decisões — por exemplo, ao comparar alternativas ou ao definir requisitos do sistema? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 184) |
 | **CE-10** | O projeto inclui cenários de diferentes tipos — de problema (para identificar necessidades), de atividade (para descrever tarefas), de informação (para especificar dados) e de interação (para detalhar a interface) — ao longo das fases do design? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 132) |
-| **CE-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CE-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CE-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CE-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CE-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CE-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CE-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CE-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CE-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CE-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CE-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CE-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CE-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CE-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CE-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -371,7 +365,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item CE-10:
 
 </div>
 
-> *Os itens CE-11 a CE-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens CE-11 a CE-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 

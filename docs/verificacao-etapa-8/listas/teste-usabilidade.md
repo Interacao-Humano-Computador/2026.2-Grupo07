@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens TU-01 a TU-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens TU-06 a TU-10, recortes do livro. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens TU-11 a TU-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens TU-16 a TU-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens TU-11 a TU-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
@@ -31,7 +30,7 @@ Esta é a **primeira versão (v1)** desta lista, elaborada para a [Verificação
 * [Relato do protótipo de alta fidelidade — Leonardo da Silva Lopes Júnior](../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes-alta-fidelidade.md)
 * [Relato do protótipo de alta fidelidade — Pedro Rocha Ferreira Lima](../../design-avaliacao-desenvolvimento/etapa-5/pedro-rocha-alta-fidelidade.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -43,7 +42,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Teste de Usabilidade:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Teste de Usabilidade:
 
 <div align="center" markdown="1">
 
@@ -61,18 +60,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de T
 | **TU-08** | O participante foi informado de que o objeto da avaliação é o protótipo (ou o sistema), não ele próprio — e essa distinção foi reforçada nos momentos em que demonstrou frustração ou constrangimento? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 300) |
 | **TU-09** | A entrevista pós-teste incluiu perguntas abertas sobre a experiência geral do participante, sobre as tarefas que ele achou mais difíceis e sobre o que ele mudaria no sistema? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 302) |
 | **TU-10** | O avaliador registrou o tempo de cada tarefa: desde o instante em que o participante começou a tentar realizá-la até o momento em que declarou ter terminado ou desistiu? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 293) |
-| **TU-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TU-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TU-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TU-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TU-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **TU-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TU-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TU-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TU-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **TU-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TU-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TU-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TU-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TU-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **TU-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -378,7 +372,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item TU-10:
 
 </div>
 
-> *Os itens TU-11 a TU-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens TU-11 a TU-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 

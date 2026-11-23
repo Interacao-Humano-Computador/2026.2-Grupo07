@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens RL-01 a RL-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens RL-06 a RL-10, recortes do livro. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens RL-11 a RL-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens RL-16 a RL-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens RL-11 a RL-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
@@ -27,7 +26,7 @@ Esta é a **primeira versão (v1)** desta lista, elaborada para a [Verificação
 * [Planejamento do Relato do Protótipo de Papel](../../design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-prototipo-papel.md)
 * [Planejamento do Relato do Protótipo de Alta Fidelidade](../../design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-alta-fidelidade.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -39,7 +38,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Planejamento do Relato dos Resultados:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Planejamento do Relato dos Resultados:
 
 <div align="center" markdown="1">
 
@@ -57,18 +56,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **RL-08** | O planejamento prevê que o relato apresente a interpretação dos avaliadores sobre os dados — o que eles significam para a qualidade do artefato — e não apenas os números e observações brutas? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
 | **RL-09** | O planejamento prevê que o relato apresente os problemas encontrados com indicação de gravidade — crítico (impede a tarefa), grave (causa grande dificuldade) ou leve (causa pequeno incômodo) — para orientar as decisões de reprojeto? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
 | **RL-10** | O planejamento prevê que o relato registre evidências concretas — como citações dos participantes ou descrições de comportamento observado — que fundamentem cada problema identificado? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 303) |
-| **RL-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **RL-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **RL-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **RL-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **RL-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **RL-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **RL-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **RL-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **RL-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **RL-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **RL-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -374,7 +368,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item RL-10:
 
 </div>
 
-> *Os itens RL-11 a RL-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens RL-11 a RL-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 

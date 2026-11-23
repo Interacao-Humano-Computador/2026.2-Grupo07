@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens CTT-01 a CTT-05, revisão dos itens da v1 e recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens CTT-06 a CTT-10, reescritos a partir dos itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens CTT-11 a CTT-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CTT-16 a CTT-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CTT-11 a CTT-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -24,7 +23,7 @@ Esta lista é a **versão 2 (v2)** da [Lista de Verificação para CTT (v1, Etap
 
 * [Análise de Tarefas — CTT](../../analise-de-requisitos/analise-de-tarefas/ctt.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -36,7 +35,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de CTT — v2:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de CTT — v2:
 
 <div align="center" markdown="1">
 
@@ -54,18 +53,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de C
 | **CTT-08** | Quando tarefas paralelas precisam trocar informação entre si durante a execução, essa troca está indicada pelo operador de concorrência com comunicação "\|[ ]\|"? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 200) |
 | **CTT-09** | Tarefas que podem ser feitas em qualquer ordem, mas não ao mesmo tempo (uma vez iniciada, termina antes de a outra começar), usam o operador de independência "\|=\|"? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 200) |
 | **CTT-10** | Como a notação do CTT não detalha bem a prevenção e o tratamento de erros, esses casos de exceção estão registrados em um material complementar (tabela analítica, HTA ou cenários)? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 201) |
-| **CTT-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CTT-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CTT-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CTT-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CTT-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **CTT-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CTT-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CTT-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CTT-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **CTT-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CTT-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CTT-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CTT-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CTT-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **CTT-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -381,7 +375,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item CTT-10:
 
 </div>
 
-> *Os itens CTT-11 a CTT-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens CTT-11 a CTT-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Correspondência com a v1
 

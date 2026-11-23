@@ -6,8 +6,7 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens PU-01 a PU-05, recortes do livro. |
 | **Arthur Sismene Carvalho** | Elaboração dos itens PU-06 a PU-10, recortes do livro. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração dos itens PU-11 a PU-15 *(pendente)*. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PU-16 a PU-20 *(pendente)*. |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PU-11 a PU-15 *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista e Arthur Sismene Carvalho (2026).</p>
@@ -24,7 +23,7 @@ Esta é a **primeira versão (v1)** desta lista, elaborada para a [Verificação
 
 * [Perfil do Usuário](../../analise-de-requisitos/perfil-de-usuario.md)
 
-A lista tem **20 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
+A lista tem **15 itens**, e cada integrante do grupo elabora 5 deles. Cada item é uma pergunta objetiva, com as explicações necessárias entre parênteses, para que possa ser respondida por quem não conhece o artefato. Cada item indica o autor e a fonte. A [Seção 3](#3-itens-de-verificacao) consolida todos os itens em uma tabela, e a [Seção 4](#4-detalhamento-dos-itens) detalha cada um, com a pergunta e, logo abaixo, o recorte do livro que a fundamenta.
 
 ## 2. Critérios de Julgamento
 
@@ -36,7 +35,7 @@ Cada item admite uma única resposta:
 
 ## 3. Itens de Verificação
 
-A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de Perfil de Usuário:
+A Tabela 1 consolida os 15 itens de verificação da Lista de Verificação de Perfil de Usuário:
 
 <div align="center" markdown="1">
 
@@ -54,18 +53,13 @@ A Tabela 1 consolida os 20 itens de verificação da Lista de Verificação de P
 | **PU-08** | O perfil registra o cargo ou a função dos usuários e as responsabilidades que motivam o uso do sistema, para que se possa compreender o contexto profissional das tarefas? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 178) |
 | **PU-09** | O perfil indica o nível de alfabetização em informática dos usuários: com que proficiência eles utilizam computadores em geral, além do sistema em questão? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 178) |
 | **PU-10** | O perfil descreve os objetivos principais dos usuários ao usar o sistema — o que eles querem alcançar — distinguindo-os das tarefas que executam para chegar a esses objetivos? | Arthur Sismene Carvalho | BARBOSA et al. (2021, p. 177) |
-| **PU-11** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PU-12** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PU-13** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PU-14** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PU-15** | *(a elaborar)* | Leonardo da Silva Lopes Júnior | — |
-| **PU-16** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PU-17** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PU-18** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PU-19** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
-| **PU-20** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PU-11** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PU-12** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PU-13** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PU-14** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
+| **PU-15** | *(a elaborar)* | Pedro Rocha Ferreira Lima | — |
 
-<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho, Leonardo da Silva Lopes Júnior e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026), conforme o autor de cada item.</p>
 
 </div>
 
@@ -371,7 +365,7 @@ A Figura 10 reproduz o trecho do livro que fundamenta o item PU-10:
 
 </div>
 
-> *Os itens PU-11 a PU-20 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
+> *Os itens PU-11 a PU-15 serão detalhados pelos respectivos autores neste mesmo formato: pergunta, autor, fonte e recorte do livro.*
 
 ## 5. Referências Bibliográficas
 

@@ -6,7 +6,6 @@
 | :--- | :--- |
 | **Daniel da Silva Batista** | Estruturação da Etapa 8, descrição do método de inspeção de Fagan e planejamento da verificação (escopo, papéis, composição das listas e cronograma). |
 | **Arthur Sismene Carvalho** | Elaboração dos itens 06 a 10 das 5 listas v2 (HTA, CTT, Storyboard, Protótipo de Papel e Protótipo de Alta Fidelidade); recortes do livro a inserir. |
-| **Leonardo da Silva Lopes Júnior** | Elaboração de itens nas listas de verificação *(pendente)*. |
 | **Pedro Rocha Ferreira Lima** | Elaboração de itens nas listas de verificação *(pendente)*. |
 | **Claude (Anthropic)** | Apoio na organização da página (conforme Política de IA). |
 
@@ -59,7 +58,7 @@ A Tabela 1 descreve como cada passo é aplicado nesta etapa:
 
 ### 3.1 Composição das Listas de Verificação
 
-Cada lista de verificação tem **20 itens**, e cada integrante elabora 5 deles. Os itens seguem as regras abaixo:
+Cada lista de verificação tem **15 itens**, e cada integrante elabora 5 deles. Os itens seguem as regras abaixo:
 
 * cada item é uma **pergunta objetiva**, que pode ser respondida com Sim, Não ou Incompleto;
 * a pergunta é **autoexplicativa**: termos técnicos vêm acompanhados de uma explicação entre parênteses, para que alguém que não conhece o artefato entenda o que está sendo verificado;
