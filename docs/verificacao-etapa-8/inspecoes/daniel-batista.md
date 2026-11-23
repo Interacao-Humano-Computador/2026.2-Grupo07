@@ -14,7 +14,7 @@
 
 # Inspeção — Daniel da Silva Batista
 
-Esta ficha registra a inspeção feita por Daniel da Silva Batista sobre os **artefatos de autoria de Pedro Rocha Ferreira Lima**, conduzida segundo os seis passos do método de inspeção de Fagan (FAGAN, 1976) descritos na [página da Etapa 8](../index.md). Foram aplicados os itens 01 a 05 (Daniel da Silva Batista) e 06 a 10 (Arthur Sismene Carvalho) de cada lista; os itens 11 a 15 (Pedro Rocha Ferreira Lima) serão aplicados quando forem elaborados.
+Esta ficha registra a inspeção feita por Daniel da Silva Batista sobre os **artefatos de autoria de Pedro Rocha Ferreira Lima**, conduzida segundo os seis passos do método de inspeção de Fagan (FAGAN, 1976) descritos na [página da Etapa 8](../index.md). Foram aplicados todos os itens de cada lista: 01 a 05 (Daniel da Silva Batista), 06 a 10 (Arthur Sismene Carvalho) e 11 a 15 (Pedro Rocha Ferreira Lima).
 
 ## 1. Planejamento
 
@@ -98,6 +98,11 @@ A Tabela 3 apresenta a inspeção do Perfil do Usuário com a [Lista de Verifica
 | **PU-08** | Cargo e responsabilidades | **Sim** | As linhas "Papel no Sistema" e "Ocupação Típica" da Tabela 1 descrevem a função de cada perfil. |
 | **PU-09** | Domínio com o computador | **Sim** | A linha "Experiência Tecnológica" indica a proficiência geral (moderada a alta, uso rotineiro de navegadores móveis e desktop). |
 | **PU-10** | Objetivos dos usuários | **Incompleto** | A Tabela 1 e a Seção 4.1 listam atividades e tarefas (pesquisar editais, baixar provas), mas não separam os objetivos que motivam essas tarefas. Severidade: **Baixa**. |
+| **PU-11** | Revisão do perfil | **Incompleto** | O perfil foi refinado em várias versões, mas a parte do Pedro não incorporou dados de pesquisa com usuários (a entrevista USR-02 não foi feita). Severidade: **Média**. |
+| **PU-12** | Características prioritárias | **Incompleto** | A Seção 3 lista os quatro grupos de atributos, mas não indica quais são prioritários para o projeto. Severidade: **Baixa**. |
+| **PU-13** | Conhecimento do domínio | **Sim** | A linha "Conhecimento do Domínio" da Tabela 1 descreve o conhecimento dos usuários, de iniciantes a experientes. |
+| **PU-14** | Usuários fora dos perfis | **Não** | O artefato não informa quantos usuários ficaram fora dos três perfis. Severidade: **Baixa**. |
+| **PU-15** | Faixas comparáveis entre perfis | **Sim** | A Tabela 1 compara os perfis com faixas (idade de 18 a 55+, 22 a 45, 28 a 55; frequência diária ou semanal). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -127,6 +132,11 @@ A Tabela 4 apresenta a inspeção da persona PER-02 com a [Lista de Verificaçã
 | **PE-08** | Necessidades da persona | **Sim** | As Seções 4.2.1 e 4.2.3 trazem necessidades (filtros locais, alertas de retificação) e dores. |
 | **PE-09** | Citação representativa | **Sim** | Citação de abertura: "Eu moro em Brasília e quero passar em um concurso daqui…". |
 | **PE-10** | Uso nas decisões de design | **Sim** | A PER-02 é referência do CEN-04, da HTA da TAR-04 e do relato de alta fidelidade. |
+| **PE-11** | Tarefas da persona | **Incompleto** | A PER-02 informa a frequência de acesso (3 a 5 vezes ao dia), mas não lista as tarefas com a importância de cada uma. Severidade: **Baixa**. |
+| **PE-12** | Expectativas da persona | **Não** | A persona não descreve como Lucas imagina que o sistema funciona nem como organiza as informações. Severidade: **Baixa**. |
+| **PE-13** | Persona por tipo de usuário | **Sim** | O elenco cobre o Perfil 1 (candidato), e a Seção 4.4 de `perfil-de-usuario.md` justifica a exclusão dos perfis de publicador e administrador. |
+| **PE-14** | Tipos de objetivo | **Não** | Os objetivos da PER-02 não são separados por tipo (pessoais, práticos etc.). Severidade: **Baixa**. |
+| **PE-15** | Objetivos verdadeiros | **Incompleto** | "Conquistar a primeira aprovação no DF" é um fim, mas "filtragem exclusiva de vagas locais" descreve um meio. Severidade: **Baixa**. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -156,6 +166,11 @@ A Tabela 5 apresenta a inspeção do cenário CEN-04 com a [Lista de Verificaç�
 | **CE-08** | Enredo | **Sim** | As ações 1 a 5 formam uma sequência encadeada até o objetivo. |
 | **CE-09** | Uso dos cenários no design | **Incompleto** | O CEN-04 é citado pelo SB-02 e pelo relato de alta fidelidade, mas esses artefatos tratam de outra tarefa (o cronograma de estudo), então o cenário não fundamentou de fato as decisões. Severidade: **Alta**. |
 | **CE-10** | Tipos de cenário | **Não** | O CEN-04 (assim como o CEN-03) é só um cenário de problema; não há cenários de atividade, informação ou interação para a TAR-04. Severidade: **Baixa**. |
+| **CE-11** | Avaliação pelo ator | **Sim** | A linha "Avaliação" descreve como Lucas percebe o resultado (precisão do prazo e integração com a agenda). |
+| **CE-12** | Planejamento do ator | **Sim** | A linha "Planejamento" descreve o que Lucas decide fazer e em que ordem. |
+| **CE-13** | Problemas revelados pelo cenário | **Sim** | A linha "Eventos" aponta os problemas do portal atual (retificações sem destaque, ausência de timeline e risco de perder prazos). |
+| **CE-14** | Situações de exceção | **Sim** | O próprio CEN-04 trata de uma situação de exceção: retificação de edital e prazo extraordinário de recurso. |
+| **CE-15** | Um caminho por cenário | **Sim** | Um ator (Lucas), um objetivo principal e um único caminho de ações. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -185,6 +200,11 @@ A Tabela 6 apresenta a inspeção da HTA da TAR-04 com a [Lista de Verificação
 | **HTA-08** | Distinção visual entre objetivos e operações | **Sim** | No diagrama (Figura 4), as operações têm o traço na base da caixa. |
 | **HTA-09** | Numeração posicional das caixas | **Sim** | Numeração 0, 1, 2, 2.1, 2.2, 2.2.1, 2.2.2, 3, 3.1 e 3.2, fiel à posição na árvore. |
 | **HTA-10** | Representação complementar em tabela | **Incompleto** | A Tabela 5 traz objetivos, planos, problemas e recomendações, mas não a entrada e o feedback de cada operação. Severidade: **Média**. |
+| **HTA-11** | Propósito da análise | **Incompleto** | A Seção 4.2 explica por que a tarefa é importante (DOC-02), mas não diz para que a análise foi feita (por exemplo, para orientar o reprojeto). Severidade: **Baixa**. |
+| **HTA-12** | Validação da decomposição | **Sim** | A HTA da TAR-04 foi avaliada com dois participantes nas entrevistas da Etapa 5 (`pedro-rocha.md`, Seção 5). |
+| **HTA-13** | Operações críticas | **Não** | O artefato não destaca quais operações são mais críticas. Severidade: **Baixa**. |
+| **HTA-14** | Caminhos alternativos para o mesmo objetivo | **Sim** | O plano 2.2 (`1/2`) representa a alternativa entre manter a distribuição sugerida e ajustar manualmente. |
+| **HTA-15** | Tipo de erro humano | **Não** | Os problemas da Tabela 5 não indicam o tipo de erro humano envolvido. Severidade: **Baixa**. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -214,6 +234,11 @@ A Tabela 7 apresenta a inspeção do CTT da TAR-04 com a [Lista de Verificação
 | **CTT-08** | Operador de concorrência com comunicação | **Não se aplica** | A TAR-04 não tem tarefas paralelas que troquem informação. |
 | **CTT-09** | Operador de independência de ordem | **Não se aplica** | A TAR-04 não tem tarefas de ordem livre sem sobreposição. |
 | **CTT-10** | Exceções e erros em material complementar | **Sim** | O conflito de horário e o ajuste manual estão tratados na Tabela 5 da HTA (problemas e recomendações). |
+| **CTT-11** | Leitura hierárquica da árvore | **Sim** | A raiz abstrata se desdobra nas subtarefas, e cada nível só se completa com a conclusão do nível de baixo. |
+| **CTT-12** | Divisão de papéis entre pessoa e sistema | **Sim** | A coluna "Tipo CTT" separa as tarefas da pessoa (usuário), do sistema e de diálogo (interação). |
+| **CTT-13** | Fidelidade à notação | **Sim** | Os operadores usados (`>>`, `[]>>` e `|||`) seguem a notação do livro. |
+| **CTT-14** | Posição dos operadores | **Sim** | A coluna "Operador Subsequente" registra cada operador entre a tarefa e a seguinte. |
+| **CTT-15** | Nome das tarefas | **Sim** | Os nomes descrevem ações com verbo e objeto ("Selecionar disciplinas e metas de estudo", "Emitir arquivo de cronograma"). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -243,6 +268,11 @@ A Tabela 8 apresenta a inspeção do planejamento do relato com a [Lista de Veri
 | **RL-08** | Interpretação dos avaliadores | **Sim** | A Seção 3.7 prevê a interpretação do conjunto e a resposta a cada pergunta PA-01 a PA-07. |
 | **RL-09** | Gravidade dos problemas | **Sim** | A Seção 4 define a escala de severidade de três níveis (alta, média e baixa). |
 | **RL-10** | Evidências dos problemas | **Incompleto** | A Tabela 4 registra a origem do problema (inspeção ou entrevista), mas não tem campo para a evidência (citação do participante ou comportamento observado). Severidade: **Baixa**. |
+| **RL-11** | Resposta às perguntas da avaliação | **Sim** | A Seção 3.7 prevê retomar as perguntas PA-01 a PA-07 uma a uma, registrando por que alguma não foi respondida. |
+| **RL-12** | Ressalvas sobre os resultados | **Sim** | A Seção 7 ("Ressalvas sobre a Interpretação") trata do alcance dos resultados. |
+| **RL-13** | Análise individual antes da conjunta | **Sim** | A Seção 2 prevê a interpretação individual de cada sessão antes da consolidação interparticipante. |
+| **RL-14** | O que ficou fora da avaliação | **Sim** | A Seção 3.1 prevê declarar as divergências entre o escopo planejado e o executado. |
+| **RL-15** | Comparação entre métodos | **Sim** | A Tabela 7 põe lado a lado o resultado da inspeção (modelo conforme) e o da entrevista (descrição do usuário confere). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -272,6 +302,11 @@ A Tabela 9 apresenta a inspeção do storyboard SB-02 com a [Lista de Verificaç
 | **SB-08** | Um passo por quadro | **Incompleto** | O quadro 4 condensa toda a parametrização do cronograma, e o quadro 6 (ir de carro comprar material) não faz parte da tarefa. Severidade: **Baixa**. |
 | **SB-09** | Walkthrough com os quadros | **Não** | As telas do computador nos quadros 2 a 4 estão em branco; não há elementos de interface que permitam simular a interação. Severidade: **Média**. |
 | **SB-10** | Esboço de ação, não fluxograma | **Incompleto** | Os quadros mostram Lucas usando o computador (não é fluxograma), mas as telas não têm esboço de interface. Severidade: **Média**. |
+| **SB-11** | Exploração de melhorias | **Incompleto** | O SB-02 ilustra a solução proposta, mas não a compara com o modo atual de montar o cronograma. Severidade: **Baixa**. |
+| **SB-12** | Pontos de atrito | **Não** | O artefato não aponta momentos de dificuldade na história. Severidade: **Baixa**. |
+| **SB-13** | Registro das mudanças | **Não** | A Seção 5.3 resume o feedback das entrevistas, mas não registra mudanças feitas no storyboard por causa dele. Severidade: **Média**. |
+| **SB-14** | Momento de elaboração | **Sim** | O SB-02 foi feito na Etapa 5, antes do protótipo de papel (Etapa 6). |
+| **SB-15** | Caráter exploratório | **Incompleto** | O artefato diz que o SB-02 serve para "verificar visualmente o modelo conceitual", mas não deixa claro que não fará parte do produto final. Severidade: **Baixa**. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -301,6 +336,11 @@ A Tabela 10 apresenta a inspeção do relato do protótipo de papel com a [Lista
 | **PP-08** | Interface autoexplicativa na sessão | **Sim** | As telas trazem rótulos e textos-guia, e o avaliador conduziu sem dar dicas de navegação (Seção 6.3). |
 | **PP-09** | Perfil dos participantes das sessões | **Sim** | Três participantes do Perfil 1, estudantes e concurseiros, sem participação na criação do protótipo (Tabela 4). |
 | **PP-10** | Tarefas apresentadas como cenários | **Não** | O relato não descreve como as tarefas foram apresentadas aos participantes nem traz os cenários de tarefa. Severidade: **Média**. |
+| **PP-11** | Instruções de interação no início | **Incompleto** | A Seção 2 descreve que o participante interage apontando com o dedo, mas o relato não registra que isso foi explicado no início de cada sessão. Severidade: **Baixa**. |
+| **PP-12** | Reincidência dos problemas | **Não** | O relato não registra correções durante as sessões nem se os problemas voltaram a aparecer. Severidade: **Baixa**. |
+| **PP-13** | Qualidade de uso prejudicada | **Sim** | Cada problema OPO-PP01 a PP05 indica a diretriz de usabilidade violada (consistência, prevenção de erros etc.). |
+| **PP-14** | Partes desenhadas na sessão | **Não** | O relato não registra partes da interface desenhadas durante as sessões. Severidade: **Baixa**. |
+| **PP-15** | Entrevista ao final da sessão | **Não** | O relato do protótipo de papel não menciona entrevista ao final das sessões. Severidade: **Média**. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -330,6 +370,11 @@ A Tabela 11 apresenta a inspeção do relato do protótipo de alta fidelidade co
 | **AF-08** | Correspondência com o mundo real | **Sim** | Nomes reais de órgãos e dias por extenso (autoinspeção, item 2). |
 | **AF-09** | Prevenção de erros e feedback | **Incompleto** | O botão `Aplicar` só habilita com os três campos preenchidos, mas `Limpar cronograma` apaga tudo sem pedir confirmação. Severidade: **Média**. |
 | **AF-10** | Estética e design minimalista | **Incompleto** | Layout limpo, mas nomes longos ocupam até três linhas na célula, e o menu lateral distraiu o Participante 3 (autoinspeção, item 7; Seção 6.6). Severidade: **Baixa**. |
+| **AF-11** | Aderência ao guia de estilo | **Sim** | A autoinspeção (item 1) confirma o uso da identidade visual do portal e do Guia de Estilo. |
+| **AF-12** | Vocabulário consistente | **Sim** | As telas usam os mesmos termos para os mesmos elementos (edital, dia, horário, cronograma). |
+| **AF-13** | Comparação com as metas de usabilidade | **Incompleto** | A Seção 6.4 cita as metas de usabilidade (eficácia, eficiência, aprendizado e satisfação), mas os resultados não são comparados com valores esperados. Severidade: **Média**. |
+| **AF-14** | Dados plausíveis | **Sim** | Os editais usam nomes de órgãos reais (Banco do Brasil, TCU, Senado, Petrobras). |
+| **AF-15** | Largura ou profundidade do protótipo | **Sim** | A Seção 6.6 informa o recorte do protótipo: montagem manual do cronograma, com blocos de revisão, lembretes e exportação para uma evolução futura. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -359,6 +404,11 @@ A Tabela 12 apresenta a inspeção do teste-piloto com a [Lista de Verificação
 | **TP-08** | Ambiente e equipamentos | **Incompleto** | Modalidade e equipamento estão descritos (presencial, computador com captura de tela e áudio), mas não se tudo funcionou como planejado. Severidade: **Baixa**. |
 | **TP-09** | Funcionamento da gravação | **Sim** | A gravação do piloto foi feita e está publicada (Vídeo 1). |
 | **TP-10** | Clareza das tarefas | **Não** | Não há registro de se o participante do piloto entendeu as tarefas e os materiais sem pedir esclarecimentos. Severidade: **Média**. |
+| **TP-11** | Análise rápida dos dados do piloto | **Não** | O relato não registra análise dos dados do piloto. Severidade: **Baixa**. |
+| **TP-12** | Somente os dados necessários | **Não** | O relato não registra se o piloto foi usado para conferir quais dados são realmente necessários. Severidade: **Baixa**. |
+| **TP-13** | Novo piloto após mudanças | **Não se aplica** | O relato não registra mudanças no planejamento depois do piloto. |
+| **TP-14** | Funcionamento do protótipo no piloto | **Incompleto** | A Seção 4 diz que o piloto serviu para verificar a fluidez do protótipo, mas não registra se ele funcionou bem. Severidade: **Baixa**. |
+| **TP-15** | Perfil do participante do piloto | **Não** | O participante do piloto não é identificado nem caracterizado. Severidade: **Baixa**. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -388,6 +438,11 @@ A Tabela 13 apresenta a inspeção das sessões com usuários com a [Lista de Ve
 | **TU-08** | Objeto da avaliação | **Sim** | O termo foi reiterado com "o objeto do teste é o protótipo e nunca a capacidade do participante" (Seção 5.1). |
 | **TU-09** | Perguntas abertas pós-teste | **Incompleto** | Há síntese pós-teste de cada participante, mas não as perguntas feitas (experiência geral, tarefa mais difícil, o que mudaria). Severidade: **Baixa**. |
 | **TU-10** | Tempo por tarefa | **Incompleto** | As Tabelas 6 e 7 registram o tempo de cada etapa, mas a Tabela 8 (Participante 3) não ("n/d"). Severidade: **Baixa**. |
+| **TU-11** | Conversa inicial | **Não** | O relato não registra conversa inicial com os participantes. Severidade: **Baixa**. |
+| **TU-12** | Questionário pré-teste | **Não** | Não houve questionário pré-teste. Severidade: **Baixa**. |
+| **TU-13** | Exploração livre | **Sim** | Os participantes exploraram o cronograma livremente (Seção 5.3). |
+| **TU-14** | Intervenção quando o participante trava | **Não se aplica** | Nenhum participante travou ou demonstrou constrangimento; os três concluíram de forma autônoma. |
+| **TU-15** | Dois avaliadores na sessão | **Não** | A Seção 6.5 registra um único avaliador conduzindo as sessões. Severidade: **Média**. |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -403,18 +458,18 @@ A Tabela 14 consolida o resultado da inspeção:
 
 | Artefato | Sim | Incompleto | Não | Não se aplica |
 | :--- | :---: | :---: | :---: | :---: |
-| Perfil do Usuário | 5 | 4 | 1 | 0 |
-| Persona PER-02 | 8 | 1 | 1 | 0 |
-| Cenário CEN-04 | 7 | 2 | 1 | 0 |
-| HTA da TAR-04 | 6 | 2 | 2 | 0 |
-| CTT da TAR-04 | 6 | 0 | 1 | 3 |
-| Planejamento do Relato da Análise de Tarefas | 9 | 1 | 0 | 0 |
-| Storyboard SB-02 | 6 | 2 | 2 | 0 |
-| Relato do Protótipo de Papel | 5 | 3 | 2 | 0 |
-| Relato do Protótipo de Alta Fidelidade | 4 | 6 | 0 | 0 |
-| Teste-Piloto | 3 | 3 | 4 | 0 |
-| Teste de Usabilidade | 6 | 4 | 0 | 0 |
-| **Total (110 itens)** | **65** | **28** | **14** | **3** |
+| Perfil do Usuário | 7 | 6 | 2 | 0 |
+| Persona PER-02 | 9 | 3 | 3 | 0 |
+| Cenário CEN-04 | 12 | 2 | 1 | 0 |
+| HTA da TAR-04 | 8 | 3 | 4 | 0 |
+| CTT da TAR-04 | 11 | 0 | 1 | 3 |
+| Planejamento do Relato da Análise de Tarefas | 14 | 1 | 0 | 0 |
+| Storyboard SB-02 | 7 | 4 | 4 | 0 |
+| Relato do Protótipo de Papel | 6 | 4 | 5 | 0 |
+| Relato do Protótipo de Alta Fidelidade | 8 | 7 | 0 | 0 |
+| Teste-Piloto | 3 | 4 | 7 | 1 |
+| Teste de Usabilidade | 7 | 4 | 3 | 1 |
+| **Total (165 itens)** | **92** | **38** | **30** | **5** |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -472,5 +527,6 @@ O inspetor confere se cada correção resolveu o defeito correspondente. Defeito
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 22/11/2026 | Planejamento, preparação e inspeção dos artefatos de Pedro Rocha Ferreira Lima com os itens 01 a 05 de 11 listas de verificação (55 itens) e registro de 17 defeitos (respostas Não ou Incompleto). | Daniel da Silva Batista | — |
 | `1.1` | 22/11/2026 | Aplicação dos itens 06 a 10 (autoria de Arthur Sismene Carvalho) das 11 listas aos artefatos de Pedro Rocha Ferreira Lima: 110 itens no total e 42 defeitos registrados. | Daniel da Silva Batista | — |
+| `1.2` | 22/11/2026 | Aplicação dos itens 11 a 15 (autoria de Pedro Rocha Ferreira Lima) das 11 listas: 165 itens no total e 68 defeitos registrados. | Daniel da Silva Batista | — |
 
 </div>
