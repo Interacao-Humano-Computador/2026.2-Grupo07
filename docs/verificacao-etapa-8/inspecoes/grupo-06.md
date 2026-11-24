@@ -514,7 +514,13 @@ A Tabela 14 apresenta a aplicação da lista:
 
 ## 5. Vídeo da Inspeção
 
-**Vídeo da inspeção:** *(a gravar)*
+**Vídeo da inspeção:** [youtu.be/Jt9ZStE8VqY](https://youtu.be/Jt9ZStE8VqY)
+
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/Jt9ZStE8VqY" title="Inspeção de Fagan — Grupo 06 (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
 
 ## 6. Referências Bibliográficas
 
