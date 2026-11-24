@@ -1,0 +1,5405 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="DocumentaÃ§Ã£o do projeto da disciplina de InteraÃ§Ã£o Humano-Computador (FGA-UnB) - AnÃ¡lise e Reprojeto do PCI Concursos">
+      
+      
+        <meta name="author" content="Equipe Grupo 07 - IHC">
+      
+      
+        <link rel="canonical" href="https://Interacao-Humano-Computador.github.io/2026.2-Grupo07/verificacao-etapa-8/inspecoes/grupo-08/">
+      
+      
+        <link rel="prev" href="../grupo-06/">
+      
+      
+        <link rel="next" href="../../">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+    
+    
+      
+        <title>Etapa 8 – Grupo 08 (Grupo +1) - IHC - PCI Concursos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  
+  <script>
+    // Intercept attachShadow BEFORE bundle runs to keep shadowRoot open
+    (function() {
+      var orig = Element.prototype.attachShadow;
+      Element.prototype.attachShadow = function(init) {
+        if (init && init.mode === 'closed') {
+          init.mode = 'open';
+        }
+        return orig.call(this, init);
+      };
+    })();
+  </script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#verificacao-etapa-8-grupo-08-grupo-1" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-header__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC - PCI Concursos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Etapa 8 – Grupo 08 (Grupo +1)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Escuro (Alto Contraste)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Escuro (Alto Contraste)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mudar para o Modo Claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o Modo Claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/membros/" class="md-tabs__link">
+          
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../analise-de-requisitos/aspectos-eticos/" class="md-tabs__link">
+          
+  
+  Análise de Requisitos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../design-avaliacao-desenvolvimento/caracteristicas-da-plataforma/" class="md-tabs__link">
+          
+  
+  Design e Avaliação
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../design-avaliacao-desenvolvimento/planejamento-avaliacao-analise-de-tarefas/" class="md-tabs__link">
+          
+  
+  Desenvolvimento
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../apresentacao/grupo-08/" class="md-tabs__link">
+          
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../apresentacao/apresentacao-1/" class="md-tabs__link">
+          
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="IHC - PCI Concursos" class="md-nav__button md-logo" aria-label="IHC - PCI Concursos" data-md-component="logo">
+      
+  <img src="../../../assets/images/pci_logo_white.png" alt="logo">
+
+    </a>
+    IHC - PCI Concursos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/membros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Equipe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/planejamento-do-projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap de Disponibilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Processo de Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sites Avaliados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/site-escolhido/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Site Selecionado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ata-reuniao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atas de Reunião
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise de Requisitos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Análise de Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/aspectos-eticos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aspectos Éticos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/perfil-de-usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perfil do Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise de Tarefas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Análise de Tarefas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/analise-de-tarefas/hta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HTA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/analise-de-tarefas/ctt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTT
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Design e Avaliação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Design e Avaliação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Princípios e Metas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Princípios e Metas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/caracteristicas-da-plataforma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Características da Plataforma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-de-requisitos/principios-gerais-de-projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Princípios Gerais de Projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/guia-de-estilo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de Estilo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/metas-de-usabilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metas de Usabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Desenvolvimento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Desenvolvimento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Nível 1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Nível 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_1" id="__nav_5_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise de Tarefas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Análise de Tarefas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/planejamento-avaliacao-analise-de-tarefas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação da Análise de Tarefas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/resultado-analise-de-tarefas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato da Análise de Tarefas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_2" id="__nav_5_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Storyboard
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Storyboard
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../avaliacao/planejamento-avaliacao-storyboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação do Storyboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/planejamento-relato-resultados-storyboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato dos Resultados do Storyboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/teste-piloto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento e Execução do Teste-Piloto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/listas-verificacao-etapa-4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Listas de Verificação para Inspeção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_5" id="__nav_5_1_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Relato dos Resultados do Storyboard e da Análise de Tarefas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            Relato dos Resultados do Storyboard e da Análise de Tarefas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/pedro-rocha/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur Sismene Carvalho
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leonardo da Silva Lopes Júnior
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Nível 2
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Nível 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1" id="__nav_5_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Protótipo de Papel
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Protótipo de Papel
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação do Protótipo de Papel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato dos Resultados do Protótipo de Papel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1_3" id="__nav_5_2_1_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Relato dos Resultados do Protótipo de Papel (Individual)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Relato dos Resultados do Protótipo de Papel (Individual)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur Sismene Carvalho
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leonardo da Silva Lopes Júnior
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/pedro-rocha-prototipo-papel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Nível 3
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Nível 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_1" id="__nav_5_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Protótipo de Alta Fidelidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Protótipo de Alta Fidelidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/planejamento-avaliacao-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação do Protótipo de Alta Fidelidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/planejamento-relato-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_1_3" id="__nav_5_3_1_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Relato dos Resultados do Protótipo de Alta Fidelidade (Individual)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_3_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Relato dos Resultados do Protótipo de Alta Fidelidade (Individual)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/daniel-batista-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/arthur-carvalho-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur Sismene Carvalho
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/leonardo-lopes-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leonardo da Silva Lopes Júnior
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/etapa-5/pedro-rocha-alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/grupo-08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 1 – Grupo 08 (Grupo +1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/grupo-06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 2 – Grupo 06 (Grupo -1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-3-grupo-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 3 – Grupo 07 (Autoavaliação)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-3-grupo-08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 3 – Grupo 08 (Grupo +1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-4-grupo-07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 4 – Grupo 07 (Autoavaliação)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-4-grupo-06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 4 – Grupo 06 (Grupo -1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/verificacao-etapa-6-grupo-05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 6 – Grupo 05
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grupo-06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 8 – Grupo 06 (Grupo -1)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Etapa 8 – Grupo 08 (Grupo +1)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Etapa 8 – Grupo 08 (Grupo +1)
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-exemplos-inspecionados-e-sintese" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Exemplos Inspecionados e Síntese
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-inspecao-por-artefato" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Inspeção por Artefato
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Inspeção por Artefato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-perfil-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Perfil de Usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Personas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Cenários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-hta-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 HTA (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-ctt-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 CTT (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-storyboard-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.6 Storyboard (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-planejamento-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.7 Planejamento da Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#38-planejamento-do-relato" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.8 Planejamento do Relato
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#39-prototipo-de-papel-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.9 Protótipo de Papel (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#310-prototipo-de-alta-fidelidade-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.10 Protótipo de Alta Fidelidade (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#311-teste-piloto" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.11 Teste-Piloto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312-teste-de-usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.12 Teste de Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-correcao-e-acompanhamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Correção e Acompanhamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-video-da-inspecao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Vídeo da Inspeção
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Referências Bibliográficas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_10" id="__nav_6_10_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Etapa 8 – Inspeção de Fagan
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_10">
+            <span class="md-nav__icon md-icon"></span>
+            Etapa 8 – Inspeção de Fagan
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Método e Planejamento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_10_2" id="__nav_6_10_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Listas de Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            Listas de Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/hta-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HTA (v2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/ctt-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTT (v2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/storyboard-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storyboard (v2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/prototipo-papel-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo de Papel (v2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/prototipo-alta-fidelidade-v2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo de Alta Fidelidade (v2)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/planejamento-avaliacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento da Avaliação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/planejamento-relato/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento do Relato
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/teste-piloto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teste-Piloto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/teste-usabilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teste de Usabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/perfil-usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listas/cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_10_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_10_3" id="__nav_6_10_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Inspeções
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_10_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_10_3">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeções
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pedro-rocha/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentação 5
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-5/arthur-carvalho/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arthur Sismene Carvalho
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-5/daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-5/pedro-rocha/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentação 6
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-6/daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentação 7
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação 7
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-7/daniel-batista/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Daniel da Silva Batista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-7/leonardo-lopes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leonardo da Silva Lopes Júnior
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao-7/pedro-rocha/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pedro Rocha Ferreira Lima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-exemplos-inspecionados-e-sintese" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Exemplos Inspecionados e Síntese
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-inspecao-por-artefato" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Inspeção por Artefato
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Inspeção por Artefato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-perfil-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Perfil de Usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Personas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Cenários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-hta-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 HTA (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-ctt-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 CTT (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-storyboard-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.6 Storyboard (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-planejamento-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.7 Planejamento da Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#38-planejamento-do-relato" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.8 Planejamento do Relato
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#39-prototipo-de-papel-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.9 Protótipo de Papel (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#310-prototipo-de-alta-fidelidade-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.10 Protótipo de Alta Fidelidade (v2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#311-teste-piloto" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.11 Teste-Piloto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312-teste-de-usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.12 Teste de Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-correcao-e-acompanhamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Correção e Acompanhamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-video-da-inspecao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Vídeo da Inspeção
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Referências Bibliográficas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div align="center">
+<p align="center"><b>Tabela de Contribuição</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Membro</th>
+<th style="text-align: left;">Contribuição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Daniel da Silva Batista</strong></td>
+<td style="text-align: left;">Planejamento da inspeção, escolha dos exemplos, inspeção e gravação conjunta.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Arthur Sismene Carvalho</strong></td>
+<td style="text-align: left;">Inspeção e gravação conjunta.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pedro Rocha Ferreira Lima</strong></td>
+<td style="text-align: left;">Inspeção e gravação conjunta.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Claude (Anthropic)</strong></td>
+<td style="text-align: left;">Apoio na leitura dos artefatos, no registro das evidências e na organização da página (conforme Política de IA).</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<h1 id="verificacao-etapa-8-grupo-08-grupo-1">Verificação — Etapa 8 (Grupo 08 (Grupo +1))</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>Esta página registra a inspeção, pelo Grupo 07, de artefatos do <strong>Grupo 08 (Grupo +1)</strong>, seguindo o método de inspeção de Fagan (1976) descrito na <a href="../../">página da Etapa 8</a>. Cada uma das 12 <a href="../../#33-listas-de-verificacao">listas de verificação</a> do Grupo 07 foi aplicada a <strong>um exemplo de artefato</strong> do grupo, de um único autor sempre que o artefato é individual: são 12 inspeções e 180 itens. A inspeção do Grupo 06 está na <a href="../grupo-06/">página correspondente</a>.</p>
+<p>Cada item recebe uma resposta (<strong>Sim</strong>, <strong>Não</strong>, <strong>Incompleto</strong> ou <strong>Não se aplica</strong>) e a evidência encontrada no artefato. As respostas Não e Incompleto são defeitos e trazem a severidade (<strong>Alta</strong>, <strong>Média</strong> ou <strong>Baixa</strong>). A inspeção foi gravada pelos três integrantes (<a href="#5-video-da-inspecao">Seção 5</a>).</p>
+<h2 id="2-exemplos-inspecionados-e-sintese">2. Exemplos Inspecionados e Síntese</h2>
+<p>A Tabela 1 apresenta o exemplo escolhido para cada lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 1: Exemplos Inspecionados do Grupo 08 (Grupo +1)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Lista</th>
+<th style="text-align: left;">Exemplo inspecionado</th>
+<th style="text-align: left;">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="../../listas/perfil-usuario/">Perfil de Usuário</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/perfil-usuario/">Perfil do Usuário (Perfis 1 a 3: Estudante, Moderador e Administrador)</a></td>
+<td style="text-align: left;">Grupo 08</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/personas/">Personas</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/personas/">Personas e Elenco de Personas: Persona 1, Lucas Mendonça</a></td>
+<td style="text-align: left;">Vinicius Silva Araruna</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/cenarios/">Cenários</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/cenarios/">Cenários de Interação: Cenário 1, Postagem e Formatação de Dúvida Técnica com Markdown e Tags</a></td>
+<td style="text-align: left;">Vinicius Silva Araruna</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/hta-v2/">HTA (v2)</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/analise-tarefas/#tarefa-2-criacao-de-eventos-presenciais-da-comunidade-gustavo-antonio">Análise de Tarefas: HTA, GOMS e CTT (Tarefa 2, HTA da criação de eventos presenciais)</a></td>
+<td style="text-align: left;">Gustavo Antonio Rodrigues e Silva</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/ctt-v2/">CTT (v2)</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/analise-tarefas/#tarefa-2-criacao-de-eventos-presenciais-da-comunidade-gustavo-antonio">Análise de Tarefas: HTA, GOMS e CTT (Tarefa 2, CTT da criação de eventos presenciais)</a></td>
+<td style="text-align: left;">Gustavo Antonio Rodrigues e Silva</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/storyboard-v2/">Storyboard (v2)</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-1/storyboard/storyboard-eventos-presenciais/">Storyboard 2: Criação e Publicação de Evento Presencial da Comunidade (CF02)</a></td>
+<td style="text-align: left;">Gustavo Antonio Rodrigues e Silva</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/planejamento-avaliacao/">Planejamento da Avaliação</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/planejamento-avaliacao/">Planejamento da avaliação da prototipação de alta fidelidade (Nível 3), Tarefa 1: publicação de dúvida com Markdown e IA</a></td>
+<td style="text-align: left;">Vinicius Silva Araruna</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/planejamento-relato/">Planejamento do Relato</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/planejamento-relato-resultados/">Planejamento do relato dos resultados da alta fidelidade (Nível 3), Tarefa 1: publicação de tópico de dúvida</a></td>
+<td style="text-align: left;">Vinicius Silva Araruna</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/prototipo-papel-v2/">Protótipo de Papel (v2)</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados-tarefa2/">Relato dos resultados da avaliação do protótipo de papel (Tarefa 2: eventos presenciais)</a></td>
+<td style="text-align: left;">Gustavo Antonio Rodrigues e Silva</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/prototipo-alta-fidelidade-v2/">Protótipo de Alta Fidelidade (v2)</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/relato-resultados-tarefa3/">Teste-piloto e relato dos resultados da avaliação de alta fidelidade, Tarefa 3 (agendamento de horários)</a></td>
+<td style="text-align: left;">Edvaldo Soares Brasileiro Filho</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/teste-piloto/">Teste-Piloto</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/teste-piloto/">Protocolo e relato do teste-piloto de alta fidelidade (Nível 3), Tarefa 1</a></td>
+<td style="text-align: left;">Vinicius Silva Araruna</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../../listas/teste-usabilidade/">Teste de Usabilidade</a></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/relato-resultados/">Relato dos resultados da prototipação de alta fidelidade, Tarefa 1 (sessões com P1, P2 e P3)</a></td>
+<td style="text-align: left;">Vinicius Silva Araruna</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+</div>
+<p>A Tabela 2 resume o resultado de cada inspeção:</p>
+<div align="center">
+<p align="center"><b>Tabela 2: Síntese da Inspeção do Grupo 08 (Grupo +1)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Lista</th>
+<th style="text-align: center;">Sim</th>
+<th style="text-align: center;">Incompleto</th>
+<th style="text-align: center;">Não</th>
+<th style="text-align: center;">Não se aplica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Perfil de Usuário</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">Personas</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cenários</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">HTA (v2)</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">CTT (v2)</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Storyboard (v2)</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">Planejamento da Avaliação</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">Planejamento do Relato</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Protótipo de Papel (v2)</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Protótipo de Alta Fidelidade (v2)</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">Teste-Piloto</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Teste de Usabilidade</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Total (180 itens)</strong></td>
+<td style="text-align: center;"><strong>89</strong></td>
+<td style="text-align: center;"><strong>52</strong></td>
+<td style="text-align: center;"><strong>34</strong></td>
+<td style="text-align: center;"><strong>5</strong></td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h2 id="3-inspecao-por-artefato">3. Inspeção por Artefato</h2>
+<h3 id="31-perfil-de-usuario">3.1 Perfil de Usuário</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/perfil-usuario/">Perfil do Usuário (Perfis 1 a 3: Estudante, Moderador e Administrador)</a><br />
+<strong>Autor:</strong> Grupo 08<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/perfil-usuario/">Perfil de Usuário</a></p>
+<p><strong>Visão geral:</strong> Caracterização dos três perfis funcionais do Fórum Diolinux Plus, com tabelas de atributos e uma matriz comparativa.</p>
+<p>A Tabela 3 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 3: Inspeção do Grupo 08 (Grupo +1) — Perfil de Usuário</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>PU-01</strong></td>
+<td style="text-align: left;">Características descritas no perfil</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">As Tabelas 1 a 3 trazem faixa etária (18 a 28, 22 a 42 e 25 a 50 anos), escolaridade e ocupação, contexto de uso e tempo de uso de Linux.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-02</strong></td>
+<td style="text-align: left;">Coleta de dados com usuários</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A Seção 2 cita entrevistas, mas só dois estudantes foram entrevistados (P1 e P2, Tabela 2 de Entrevistas). Os Perfis 2 e 3 têm como fonte as "dinâmicas operacionais do Discourse" e a "arquitetura técnica do Discourse", sem coleta com moderadores ou administradores. Severidade: <strong>Alta</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-03</strong></td>
+<td style="text-align: left;">Agrupamento e proporção dos perfis</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Os usuários são agrupados por papéis funcionais (Seção 1). Só o Perfil 1 tem proporção ("estimada em mais de 85%"), sem origem do número. Os Perfis 2 e 3 não têm porcentagem. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-04</strong></td>
+<td style="text-align: left;">Relação dos usuários com a tecnologia</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">As tabelas registram experiência (tempo de Linux, terminal) e postura ("Tecnófilo pragmático"). A frequência de uso aparece só no Perfil 2 ("acesso diário"). Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-05</strong></td>
+<td style="text-align: left;">Perfil como base do recrutamento</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">As avaliações recrutam pelo Perfil 1: Questões práticas da Etapa 4 dizem que o perfil dos voluntários "está estritamente alinhado ao Perfil 1", e o relato da análise de tarefas recrutou 3 discentes segundo os critérios do Perfil 1.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-06</strong></td>
+<td style="text-align: left;">Atitude em relação à tecnologia</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Linha Postura Tecnológica em cada tabela (tecnófilo pragmático, altruísta e focado em estabilidade). Tecnologias além do fórum: navegadores Chrome, Firefox e Brave (Perfil 1); Docker, PostgreSQL e Nginx (Perfil 3).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-07</strong></td>
+<td style="text-align: left;">Domínio com o sistema</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O grau de domínio do fórum está registrado ("Conhecimento padrão", "Profundo", "Arquitetural"), mas o tempo informado é de uso de Linux, não de uso do fórum. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-08</strong></td>
+<td style="text-align: left;">Cargo e responsabilidades</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Ocupações e responsabilidades descritas: moderador move tópicos e analisa denúncias (Tabela 2), administrador faz upgrades e monitora logs (Tabela 3).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-09</strong></td>
+<td style="text-align: left;">Domínio com o computador</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Linhas Familiaridade com Terminal e Tempo de uso de Linux: "Básica a intermediária" no Perfil 1, "Avançada" no Perfil 2 e "Especialista" no Perfil 3.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-10</strong></td>
+<td style="text-align: left;">Objetivos dos usuários</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A linha Motivação Primária (por exemplo, "Obter ajuda para destravar tarefas acadêmicas") fica separada das linhas Tarefas Primárias e Secundárias.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-11</strong></td>
+<td style="text-align: left;">Revisão do perfil</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A versão 2.0 reestruturou os perfis "em atendimento às diretrizes do docente e às observações da monitoria". O artefato não mostra o que mudou a partir das entrevistas, e os Perfis 2 e 3 não passaram por pesquisa com usuários. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-12</strong></td>
+<td style="text-align: left;">Características prioritárias</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">A Seção 3 lista todos os grupos de atributos de Hackos e Redish sem indicar quais importam mais para o projeto. As tabelas preenchem todas as dimensões com o mesmo peso. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-13</strong></td>
+<td style="text-align: left;">Conhecimento do domínio</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Linha Conhecimento do Domínio em cada tabela: Perfil 1 "Conhece os conceitos básicos de código aberto", Perfil 2 conhece normas e código de conduta, Perfil 3 governança e segurança.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-14</strong></td>
+<td style="text-align: left;">Usuários fora dos perfis</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não informa quantos usuários ficaram fora dos três perfis. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PU-15</strong></td>
+<td style="text-align: left;">Faixas comparáveis entre perfis</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Faixas etárias comparáveis nas Tabelas 1 a 3 e matriz comparativa na Tabela 4 (nível de acesso "Trust Level 0 a 2" e "Trust Level 4", impacto de erro, gargalo de IHC).</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="32-personas">3.2 Personas</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/personas/">Personas e Elenco de Personas: Persona 1, Lucas Mendonça</a><br />
+<strong>Autor:</strong> Vinicius Silva Araruna<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/personas/">Personas</a></p>
+<p><strong>Visão geral:</strong> Elenco de três personas e uma antipersona do Fórum Diolinux Plus. A inspeção usa a persona primária Lucas Mendonça (Tabela 2).</p>
+<p>A Tabela 4 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 4: Inspeção do Grupo 08 (Grupo +1) — Personas</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>PE-01</strong></td>
+<td style="text-align: left;">Identidade da persona</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Tabela 2 traz nome, "23 anos, Estudante de Engenharia de Software e Estagiário de DevOps" e "reside em Brasília/DF", mas não há foto. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-02</strong></td>
+<td style="text-align: left;">Status da persona</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">"Status: Persona Primária" no cabeçalho da Persona 1 e na Tabela 1.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-03</strong></td>
+<td style="text-align: left;">Objetivos diferentes de tarefas</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Há a linha Objetivos no Fórum, mas não há linha de tarefas. O objetivo prático "Publicar dúvidas sobre bugs complexos... contendo logs e blocos de código legíveis" descreve uma tarefa. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-04</strong></td>
+<td style="text-align: left;">Tamanho do elenco de personas</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 1: três personas de usuários e uma antipersona, com Lucas Mendonça como primária.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-05</strong></td>
+<td style="text-align: left;">Personas baseadas em dados reais</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">A persona contradiz o Perfil 1 a que está ligada: o perfil fala em "Iniciante a intermediário (de poucos meses a 2 anos)", e Lucas usa Linux "há 4 anos" com habilidades "Avançadas em terminal". A ficha não cita dados das entrevistas. Severidade: <strong>Alta</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-06</strong></td>
+<td style="text-align: left;">Habilidades e experiência</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Linhas Demografia e Habilidades Técnicas: Fedora e Arch Linux "há 4 anos", Bash, Git, Markdown e atalhos de produtividade.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-07</strong></td>
+<td style="text-align: left;">Relacionamentos</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">A ficha não diz com quem Lucas trabalha nem de quem depende. A linha Relação com o Fórum trata só de frequência e categorias. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-08</strong></td>
+<td style="text-align: left;">Necessidades da persona</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Texto após a Tabela 2: "Lucas necessita de aceleradores de interface, realce de sintaxe em blocos de código e precisão taxonômica de tags".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-09</strong></td>
+<td style="text-align: left;">Citação representativa</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Linha Citação Representativa: "Se um tópico não estiver bem formatado com blocos de código e logs limpos, ninguém vai perder tempo...".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-10</strong></td>
+<td style="text-align: left;">Uso nas decisões de design</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">O storyboard do tópico em Markdown tem a seção "Rastreabilidade com a Persona Primária (Lucas Mendonça)", e os testes da Etapa 7 recrutaram participantes "aderentes ao perfil da persona primária".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-11</strong></td>
+<td style="text-align: left;">Tarefas da persona</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Só a frequência geral aparece ("Acessa o Fórum Diolinux Plus diariamente"). As tarefas não são listadas com frequência e importância de cada uma. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-12</strong></td>
+<td style="text-align: left;">Expectativas da persona</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">As expectativas só aparecem de forma indireta, nas Frustrações (editores que removem a indentação) e no uso de atalhos <code>j/k</code>. Não há descrição de como ele imagina o funcionamento do fórum. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-13</strong></td>
+<td style="text-align: left;">Persona por tipo de usuário</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O Perfil do Usuário define Moderador e Administrador, mas o elenco não tem persona para esses papéis e não justifica a ausência. A Tabela 1 liga personas a "Perfil 2: Iniciante" e "Perfil 3: Pesquisador", nomes que o perfil não usa mais. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-14</strong></td>
+<td style="text-align: left;">Tipos de objetivo</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Objetivos separados em "Objetivo Pessoal (Visceral)", "Objetivo Prático (Comportamental)" e "Objetivo Corporativo/Comunitário".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PE-15</strong></td>
+<td style="text-align: left;">Objetivos verdadeiros</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">"Ser reconhecido na comunidade" é um fim. Já publicar dúvidas com "logs e blocos de código legíveis" é um meio para obter ajuda. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="33-cenarios">3.3 Cenários</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/cenarios/">Cenários de Interação: Cenário 1, Postagem e Formatação de Dúvida Técnica com Markdown e Tags</a><br />
+<strong>Autor:</strong> Vinicius Silva Araruna<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/cenarios/">Cenários</a></p>
+<p><strong>Visão geral:</strong> Três cenários do Fórum Diolinux Plus. A inspeção usa o Cenário 1, em que Lucas Mendonça publica uma dúvida técnica formatada em Markdown.</p>
+<p>A Tabela 5 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 5: Inspeção do Grupo 08 (Grupo +1) — Cenários</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>CE-01</strong></td>
+<td style="text-align: left;">Cenário como narrativa</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">"É noite de quinta-feira. Lucas está em sua mesa de estudos no quarto, trabalhando em seu notebook com distribuição Fedora Silverblue 40."</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-02</strong></td>
+<td style="text-align: left;">Título, atores e situação inicial</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Título do Cenário 1, campo "Persona Envolvida: Lucas Mendonça" e situação inicial no primeiro parágrafo (erro do SELinux ao vincular a porta 8080).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-03</strong></td>
+<td style="text-align: left;">Personas como atores</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">"Persona Envolvida: Lucas Mendonça (Persona Primária)", ligada à Persona 1 na Tabela 2.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-04</strong></td>
+<td style="text-align: left;">Elementos do cenário</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 3 traz Objetivos, Ações numeradas de 1 a 9 e Eventos (por exemplo, "Atualização assíncrona do painel de tópicos similares").</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-05</strong></td>
+<td style="text-align: left;">Cenários para as tarefas principais</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 2 liga cada um dos três cenários a um fluxo de tarefas em HTA e GOMS (criação de tópico, cadastro e busca avançada).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-06</strong></td>
+<td style="text-align: left;">Objetos e contexto</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Objetos: Firefox, botão "+ Novo Tópico", campo de tags, painel de pré-visualização. Contexto na Tabela 3: "Mesa de estudos residencial; horário noturno".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-07</strong></td>
+<td style="text-align: left;">Restrições do ator</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O contexto cita "necessidade técnica urgente" e 40 minutos de tentativas antes do fórum. Nenhuma limitação dificulta o uso do fórum. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-08</strong></td>
+<td style="text-align: left;">Enredo</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Sequência encadeada: erro no terminal, decisão de usar o fórum, título, conferência de duplicatas, categoria e tags, corpo do texto, publicação.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-09</strong></td>
+<td style="text-align: left;">Uso dos cenários no design</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O Storyboard 1 retoma Lucas e a postagem de logs de erro, mas nenhum artefato de design cita a página de cenários como base de decisão. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-10</strong></td>
+<td style="text-align: left;">Tipos de cenário</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">Os três são tratados como "Cenários de Interação" e o artefato não distingue cenários de problema, de atividade ou de informação. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-11</strong></td>
+<td style="text-align: left;">Avaliação pelo ator</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Lucas confere os tópicos sugeridos para evitar duplicata, confere a pré-visualização e vê "a notificação de publicação bem-sucedida".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-12</strong></td>
+<td style="text-align: left;">Planejamento do ator</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 3, Planejamento: formular título, avaliar tópicos sugeridos, escolher categoria e tags, isolar blocos de código e validar na pré-visualização.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-13</strong></td>
+<td style="text-align: left;">Problemas revelados pelo cenário</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O Cenário 1 só mostra um fluxo bem-sucedido ("formatação técnica impecável") e não aponta problemas atuais a resolver. As frustrações da persona (perda de indentação) não aparecem. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-14</strong></td>
+<td style="text-align: left;">Situações de exceção</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O Cenário 2 mostra a omissão de dados e o Cenário 3 prevê busca sem resultado, mas nenhuma situação é tratada como rara ou de exceção. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CE-15</strong></td>
+<td style="text-align: left;">Um caminho por cenário</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Uma pessoa e uma meta, mas a narrativa mistura alternativas de interação: "pressiona o atalho de teclado <code>c</code> (ou clica no botão...)" e "<code>Ctrl+Enter</code> (ou clica em 'Criar Tópico')". Severidade: <strong>Baixa</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="34-hta-v2">3.4 HTA (v2)</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/analise-tarefas/#tarefa-2-criacao-de-eventos-presenciais-da-comunidade-gustavo-antonio">Análise de Tarefas: HTA, GOMS e CTT (Tarefa 2, HTA da criação de eventos presenciais)</a><br />
+<strong>Autor:</strong> Gustavo Antonio Rodrigues e Silva<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/hta-v2/">HTA (v2)</a></p>
+<p><strong>Visão geral:</strong> HTA da tarefa de criar e publicar um evento presencial no Fórum Diolinux Plus, com diagrama (Figuras 4a e 4b) e tabela no formato da Tabela 8.4 de Barbosa e Silva (Tabela 6).</p>
+<p>A Tabela 6 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 6: Inspeção do Grupo 08 (Grupo +1) — HTA (v2)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>HTA-01</strong></td>
+<td style="text-align: left;">O objetivo do usuário como ponto de partida da HTA</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A raiz é "0. Criar e Publicar Evento Presencial da Comunidade" (Figuras 4a e 4b).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-02</strong></td>
+<td style="text-align: left;">O plano como regra de ordem entre os subobjetivos</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">O objetivo 0 e os subobjetivos 1 a 5 têm plano (ex.: "Plano 3: 3.1 &gt; (3.2 / 3.3) &gt; 3.4"), no diagrama e na Tabela 6.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-03</strong></td>
+<td style="text-align: left;">Relações entre subobjetivos nos planos da HTA</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Os planos usam só "&gt;", "/" e "+" (ex.: "Plano 2: (2.1 + 2.2 + 2.3) &gt; 2.4"; "Plano 4: 4.1 &gt; (4.2 / 4.3)").</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-04</strong></td>
+<td style="text-align: left;">Entrada, ação e feedback de uma operação</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Cada operação da Tabela 6 tem as colunas "Circunstâncias Disparadoras", "Ações e Procedimentos" e "Feedback Observável de Sucesso".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-05</strong></td>
+<td style="text-align: left;">Critério de parada da decomposição</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">Não há justificativa de parada para a Tarefa 2. O item AT-05 da Tabela 8 cita o critério "p × c" só para a Tarefa 1. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-06</strong></td>
+<td style="text-align: left;">Decomposição hierárquica por níveis</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Objetivo 0, subobjetivos 1 a 5 e operações 1.1 a 5.3, cada nível detalhando o de cima.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-07</strong></td>
+<td style="text-align: left;">Cobertura e exclusividade dos subobjetivos</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Os subobjetivos 1 a 5 cobrem o fluxo do formulário, mas a Tabela 0 e o item AT-T2-08 anunciam "Enquete e Quórum Mínimo", que nenhuma operação cobre (3.4 é lotação máxima). O Plano 3 trata 3.2 e 3.3 como alternativas, embora ambas sejam etapas do local. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-08</strong></td>
+<td style="text-align: left;">Distinção visual entre objetivos e operações</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Na Figura 4a todas as caixas são iguais, sem traço na base das operações. Na Figura 4b a diferença é só de cor (classes "sub" e "op"), sem legenda. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-09</strong></td>
+<td style="text-align: left;">Numeração posicional das caixas</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Numeração 0; 1 a 5; 1.1, 1.2, 2.1 a 2.4, 3.1 a 3.4, 4.1 a 4.3, 5.1 a 5.3.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-10</strong></td>
+<td style="text-align: left;">Representação complementar em tabela</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 6 reúne objetivo/operação, plano, entrada, ação, feedback, problemas e recomendações em 8 colunas.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-11</strong></td>
+<td style="text-align: left;">Propósito da análise</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A Introdução diz de forma geral que a análise serve para entender o trabalho e os "gargalos de usabilidade", mas a Tarefa 2 não declara se a análise visa projetar a nova funcionalidade CF02 ou reprojetar algo existente. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-12</strong></td>
+<td style="text-align: left;">Validação da decomposição</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não registra conferência da decomposição com usuários ou partes interessadas; só a revisão por pares (Tabela 1, revisor Vinicius). Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-13</strong></td>
+<td style="text-align: left;">Operações críticas</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">A Tabela 6 lista um problema para quase toda operação, mas não destaca quais são mais críticas. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-14</strong></td>
+<td style="text-align: left;">Caminhos alternativos para o mesmo objetivo</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Alternativas registradas: "Plano 1: 1.1 / 1.2" (Hub ou menu do perfil) e "Plano 4: 4.1 &gt; (4.2 / 4.3)" (gratuito ou pago).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HTA-15</strong></td>
+<td style="text-align: left;">Tipo de erro humano</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">Os problemas da Tabela 6 (ex.: "Duplo clique acidental", "horário de término anterior ao início") não indicam o tipo de erro do usuário. Severidade: <strong>Média</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="35-ctt-v2">3.5 CTT (v2)</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/analise-tarefas/#tarefa-2-criacao-de-eventos-presenciais-da-comunidade-gustavo-antonio">Análise de Tarefas: HTA, GOMS e CTT (Tarefa 2, CTT da criação de eventos presenciais)</a><br />
+<strong>Autor:</strong> Gustavo Antonio Rodrigues e Silva<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/ctt-v2/">CTT (v2)</a></p>
+<p><strong>Visão geral:</strong> CTT em Mermaid da tarefa de criar e publicar um evento presencial no Fórum Diolinux Plus, com interpretação dos operadores na Seção 3.1.</p>
+<p>A Tabela 7 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 7: Inspeção do Grupo 08 (Grupo +1) — CTT (v2)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>CTT-01</strong></td>
+<td style="text-align: left;">Os quatro tipos de tarefa do CTT</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Os tipos aparecem só como cores de classe (abstract, interaction, user, system), sem os ícones do CTT e sem legenda. T4 recebe a classe "choice", que não é um tipo de tarefa. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-02</strong></td>
+<td style="text-align: left;">A tarefa abstrata como composição de outras tarefas</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">T0, T1, T2, T3 e T5 são abstratas e nenhuma abstrata fica sem filhos, mas T4, que tem T4a e T4b abaixo, está como "choice" e não como abstrata. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-03</strong></td>
+<td style="text-align: left;">Relações de tempo entre tarefas no CTT</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O diagrama não tem nenhum operador entre tarefas vizinhas. As relações aparecem só no texto da Seção 3.1 ("T1 &gt;&gt; T2", "T2 ||| T3"). Severidade: <strong>Alta</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-04</strong></td>
+<td style="text-align: left;">Ativação com passagem de informação</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">Não há "[]&gt;&gt;" no modelo, embora T5b entregue os dados para T5c ("Gerar página pública e QR Code"). Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-05</strong></td>
+<td style="text-align: left;">Desativação e suspensão/retomada</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">Não há "[&gt;" nem "|&gt;". A saída do formulário, prevista na HTA como risco de perda de dados, e a volta da prévia para edição (5.1) não estão modeladas. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-06</strong></td>
+<td style="text-align: left;">Operador de escolha entre caminhos alternativos</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A escolha "[]" entre Hub e menu do perfil (T1) e entre T4a e T4b é citada na Seção 3.1, mas no diagrama aparecem só rótulos "Gratuito"/"Pago" nas setas. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-07</strong></td>
+<td style="text-align: left;">Operador de concorrência sem comunicação</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A Seção 3.1 indica "T2 ||| T3", mas o operador não está no diagrama e contradiz o "Plano 0: 1 &gt; 2 &gt; 3 &gt; 4 &gt; 5" da HTA. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-08</strong></td>
+<td style="text-align: left;">Operador de concorrência com comunicação</td>
+<td style="text-align: center;"><strong>Não se aplica</strong></td>
+<td style="text-align: left;">O modelo não tem tarefas paralelas que troquem dados durante a execução.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-09</strong></td>
+<td style="text-align: left;">Operador de independência de ordem</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">T2a, T2b e T2c podem ser feitas em qualquer ordem, mas uma de cada vez ("Plano 2: (2.1 + 2.2 + 2.3)"). O artefato não usa "|=|". Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-10</strong></td>
+<td style="text-align: left;">Exceções e erros em material complementar</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 6 (HTA) registra erros e prevenções, como término anterior ao início (2.4) e duplo clique na publicação (5.2).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-11</strong></td>
+<td style="text-align: left;">Leitura hierárquica da árvore</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Árvore de cima para baixo: T0, depois T1 a T5, depois as folhas (ex.: T3 com T3a a T3d).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-12</strong></td>
+<td style="text-align: left;">Divisão de papéis entre pessoa e sistema</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Há classes de usuário, sistema e interação, mas só por cor e sem legenda. Quase tudo é "interaction" e só T5c é de sistema; o salvamento automático citado na Seção 3.1 não aparece. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-13</strong></td>
+<td style="text-align: left;">Fidelidade à notação</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O diagrama é uma árvore Mermaid genérica: sem ícones de tipo, com a classe inventada "choice" e sem os símbolos de operadores. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-14</strong></td>
+<td style="text-align: left;">Posição dos operadores</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">Os operadores não aparecem entre as tarefas no diagrama, só na lista da Seção 3.1. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CTT-15</strong></td>
+<td style="text-align: left;">Nome das tarefas</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">As tarefas usam verbo mais objeto, como "T3b: Posicionar marcador no mapa" e "T5b: Confirmar submissão final".</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="36-storyboard-v2">3.6 Storyboard (v2)</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-1/storyboard/storyboard-eventos-presenciais/">Storyboard 2: Criação e Publicação de Evento Presencial da Comunidade (CF02)</a><br />
+<strong>Autor:</strong> Gustavo Antonio Rodrigues e Silva<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/storyboard-v2/">Storyboard (v2)</a></p>
+<p><strong>Visão geral:</strong> Storyboard de 8 quadros desenhados à mão, com roteiro por quadro e rastreabilidade com a HTA, sobre a persona Lucas criando um meetup de Linux no Fórum Diolinux Plus.</p>
+<p>A Tabela 8 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 8: Inspeção do Grupo 08 (Grupo +1) — Storyboard (v2)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>SB-01</strong></td>
+<td style="text-align: left;">Definição de storyboard</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Figura 1 (storyboard_Gustavo_Antonio.png, presente em docs/assets) mostra 8 quadros com Lucas criando e divulgando o evento.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-02</strong></td>
+<td style="text-align: left;">O storyboard usado em conjunto com o cenário</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A Seção 2 traz persona, problema e objetivo e liga o storyboard à Tarefa 2 da HTA, mas não indica um documento de cenário. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-03</strong></td>
+<td style="text-align: left;">Detalhes que o storyboard acrescenta ao cenário</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Os desenhos mostram a sala de aula, o ônibus, o computador, o celular e reações ("Wow!", "Ebaaa!").</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-04</strong></td>
+<td style="text-align: left;">Baixa fidelidade e esboços</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Bonecos de palito a caneta e telas em croqui. A Seção 1 diz que "não deve conter telas do produto final".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-05</strong></td>
+<td style="text-align: left;">Simulação da interação com os usuários</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 7 registra a "Avaliação Oficial" com o "Participante P2" em 23/10/2026, com vídeo.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-06</strong></td>
+<td style="text-align: left;">Arco completo da história</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Início: Lucas pensa em reunir quem gosta de Linux. Meio: cria o evento, preenche dados e mapa. Fim: "Já consegui publicar" e "tudo pronto para o sábado".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-07</strong></td>
+<td style="text-align: left;">Legenda descritiva em cada quadro</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Os quadros desenhados não têm legenda, só balões de fala. As tabelas da Seção 4 descrevem cenas que não batem com o desenho (Quadro 1 "no quarto" e, no desenho, sala de aula). Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-08</strong></td>
+<td style="text-align: left;">Um passo por quadro</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O desenho pula ingressos (HTA 4.1 a 4.3), prévia (5.1) e QR Code (5.3), previstos nos Quadros 5, 6 e 8, e acrescenta cenas de ônibus e busca que o roteiro não tem. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-09</strong></td>
+<td style="text-align: left;">Walkthrough com os quadros</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Botão "Criar evento" com cursor, formulário com título, tags e programação, mapa com pin. As tabelas da Seção 4 detalham tela, interação e feedback de cada quadro.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-10</strong></td>
+<td style="text-align: left;">Esboço de ação, não fluxograma</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Os quadros mostram Lucas agindo nas telas (cursor no "Criar evento", apontando o mapa, compartilhando pelo celular).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-11</strong></td>
+<td style="text-align: left;">Exploração de melhorias</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Seção 6 liga cada quadro a um problema da Tabela 6 da HTA (ex.: "Recurso 'Eventos' escondido na navegação").</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-12</strong></td>
+<td style="text-align: left;">Pontos de atrito</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Seção 6 aponta atritos por quadro, como "Duplo clique gerando publicações duplicadas" (Quadro 7).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-13</strong></td>
+<td style="text-align: left;">Registro das mudanças</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Só a "nota evolutiva" do Quadro 5 registra uma mudança após a avaliação (remoção da modalidade paga/PIX), e ela vale para os Níveis 2/3. O histórico não registra mudanças no storyboard nem seus motivos. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-14</strong></td>
+<td style="text-align: left;">Momento de elaboração</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Storyboard de Nível 1 (versão 1.0 de 22/10/2026). O Quadro 5 diz que a prototipação de Nível 2/3 veio depois da avaliação.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>SB-15</strong></td>
+<td style="text-align: left;">Caráter exploratório</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Seção 1 afirma que "o storyboard é documento de planejamento e não deve conter telas do produto final".</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="37-planejamento-da-avaliacao">3.7 Planejamento da Avaliação</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/planejamento-avaliacao/">Planejamento da avaliação da prototipação de alta fidelidade (Nível 3), Tarefa 1: publicação de dúvida com Markdown e IA</a><br />
+<strong>Autor:</strong> Vinicius Silva Araruna<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/planejamento-avaliacao/">Planejamento da Avaliação</a></p>
+<p><strong>Visão geral:</strong> Planejamento, organizado pelo DECIDE, do teste de usabilidade do protótipo de alta fidelidade no Figma do Fórum Diolinux Plus, com detalhamento completo da Tarefa 1.</p>
+<p>A Tabela 9 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 9: Inspeção do Grupo 08 (Grupo +1) — Planejamento da Avaliação</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>PA-01</strong></td>
+<td style="text-align: left;">Determinar os objetivos</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 3.1 lista cinco objetivos da Tarefa 1, ligados às correções <code>PROB-PP-02</code> a <code>PROB-PP-04</code> do papel e ao estudante iniciante em Linux (persona Lucas Mendonça).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-02</strong></td>
+<td style="text-align: left;">Explorar as perguntas</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 2 desdobra os objetivos em oito perguntas (<code>PAF01</code> a <code>PAF08</code>), cada uma com indicador de observação.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-03</strong></td>
+<td style="text-align: left;">Escolher os métodos</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Seção 5.1 justifica o teste empírico com think-aloud e SUS frente à inspeção; a Tabela 4 trata custo e equipamentos e a Tabela 5 trata o prazo. A experiência dos avaliadores não é considerada. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-04</strong></td>
+<td style="text-align: left;">Escopo da avaliação</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Seção 6.2 define os frames e overlays da Tarefa 1 e o perfil está na Seção 6.1. O artefato não diz o que fica fora da avaliação nem por quê. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-05</strong></td>
+<td style="text-align: left;">Perfil e número de participantes</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Seção 6.1 define critérios de inclusão e "<code>n = 1</code> participante representativo para a Tarefa 1". A justificativa soma três participantes de tarefas diferentes para chegar a "67,2%", o que não sustenta um único participante por tarefa. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-06</strong></td>
+<td style="text-align: left;">Questões práticas (DECIDE-I)</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 6.1 (recrutamento de discentes de TI com critérios), Tabela 4 (notebook, Figma, OBS Studio) e Seção 6.5 (modalidade presencial e contingência remota).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-07</strong></td>
+<td style="text-align: left;">Questões éticas (DECIDE-D)</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 9: "liberdade para interromper o teste ou revogar seu consentimento a qualquer instante, sem qualquer prejuízo", com script oral do TCLE e pedido de concordância.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-08</strong></td>
+<td style="text-align: left;">Avaliação e interpretação (DECIDE-E)</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 11 prevê triangulação de métricas contra o baseline KLM, escore SUS e escala de severidade de Nielsen. A Tabela 3 define níveis inaceitável, aceitável e ideal.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-09</strong></td>
+<td style="text-align: left;">Roteiro de tarefas</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 8.1 traz o cenário, a Seção 8.2 o roteiro em cinco passos e a Seção 9 o texto padronizado lido "nos primeiros 60 segundos".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-10</strong></td>
+<td style="text-align: left;">Local da avaliação</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Seção 6.5: presencial "na FGA/UnB ou residência", com contingência remota, para "conciliar o contato empírico direto com a flexibilidade". Não compara laboratório e ambiente natural nem seus custos e benefícios. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-11</strong></td>
+<td style="text-align: left;">Confiabilidade dos dados</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O texto do TCLE é lido de forma literal e o piloto (Seção 10) testa instrumentos e ambiente. Não discute se repetir a avaliação levaria a resultados parecidos. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-12</strong></td>
+<td style="text-align: left;">Alcance dos resultados</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não discute até que ponto os resultados de um participante discente de TI valem para outros usuários ou situações. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-13</strong></td>
+<td style="text-align: left;">Material de apoio</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Há script do TCLE (Seção 9), SUS (Tabela 7) e "Planilha de Observação" (Figura 1). Não há questionário inicial nem roteiro de entrevista final, e o formulário de anotações não é apresentado. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-14</strong></td>
+<td style="text-align: left;">Participantes sem vínculo com o avaliador</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">Só exige "Não ter participado previamente da confecção das peças do protótipo". Nada evita colegas próximos do avaliador, que também é discente da FGA. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PA-15</strong></td>
+<td style="text-align: left;">Conhecimento prévio do avaliador</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não registra o que o avaliador precisa conhecer antes de avaliar (domínio, usuários ou sistemas parecidos). Severidade: <strong>Baixa</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="38-planejamento-do-relato">3.8 Planejamento do Relato</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/planejamento-relato-resultados/">Planejamento do relato dos resultados da alta fidelidade (Nível 3), Tarefa 1: publicação de tópico de dúvida</a><br />
+<strong>Autor:</strong> Vinicius Silva Araruna<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/planejamento-relato/">Planejamento do Relato</a></p>
+<p><strong>Visão geral:</strong> Planejamento da estrutura e das tabelas-modelo do relato dos testes de alta fidelidade no Figma do Fórum Diolinux Plus, detalhado para a Tarefa 1.</p>
+<p>A Tabela 10 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 10: Inspeção do Grupo 08 (Grupo +1) — Planejamento do Relato</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>RL-01</strong></td>
+<td style="text-align: left;">Objetivos e escopo no relato</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 2, itens 1 e 4: objetivos alinhados às metas de usabilidade e descrição do cenário e dos "4 frames e 3 overlays" avaliados.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-02</strong></td>
+<td style="text-align: left;">Método e participantes no relato</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Seção 2, itens 2 e 3, preveem método (OBS Studio, think-aloud) e perfil, e a Tabela 2 mostra um participante (P1). O relato não prevê informar quem conduziu as sessões. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-03</strong></td>
+<td style="text-align: left;">Resumo dos dados coletados</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 2: tempo total, tempo no modal de IA, taxa de conclusão, uso do botão <code>&lt;/&gt; Bash</code> e escore SUS por participante.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-04</strong></td>
+<td style="text-align: left;">Lista de problemas e reprojeto</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 3 registra cada problema com "Diretriz Específica de Reprojeto no Figma", e a Seção 2, item 8, prevê as diretrizes de reprojeto.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-05</strong></td>
+<td style="text-align: left;">Consolidação e recorrências</td>
+<td style="text-align: center;"><strong>Não se aplica</strong></td>
+<td style="text-align: left;">A Tarefa 1 tem um único participante (P1, Tabela 2), sem outros para buscar problemas repetidos.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-06</strong></td>
+<td style="text-align: left;">Dados por participante</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 2 tem uma linha por participante (P1) com suas métricas e seu escore SUS.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-07</strong></td>
+<td style="text-align: left;">Perfil dos participantes no relato</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 2, item 3: "dados demográficos e formação acadêmica dos participantes", relacionados ao perfil de aprendizes em Linux.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-08</strong></td>
+<td style="text-align: left;">Interpretação dos avaliadores</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 2, itens 1 e 6: confronto dos achados com as metas de usabilidade e síntese das verbalizações por pergunta.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-09</strong></td>
+<td style="text-align: left;">Gravidade dos problemas</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 3 usa a escala de severidade de Nielsen (0 a 4) e a Seção 4 liga cada nível a uma prioridade de reprojeto.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-10</strong></td>
+<td style="text-align: left;">Evidências dos problemas</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 3, coluna "Descrição da Evidência Observada no Teste", e Seção 2, item 6, com as falas em voz alta.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-11</strong></td>
+<td style="text-align: left;">Resposta às perguntas da avaliação</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Seção 2, item 6, prevê analisar "individualmente as perguntas investigativas (<code>PAF01</code> a <code>PAF08</code>)". Não prevê dizer se cada uma foi respondida ou por que não foi. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-12</strong></td>
+<td style="text-align: left;">Ressalvas sobre os resultados</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não prevê ressalvas sobre o alcance dos resultados, mesmo com um único participante na Tarefa 1. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-13</strong></td>
+<td style="text-align: left;">Análise individual antes da conjunta</td>
+<td style="text-align: center;"><strong>Não se aplica</strong></td>
+<td style="text-align: left;">A Tarefa 1 tem um único participante, então não existe análise do conjunto.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-14</strong></td>
+<td style="text-align: left;">O que ficou fora da avaliação</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não prevê informar o que ficou fora da avaliação. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>RL-15</strong></td>
+<td style="text-align: left;">Comparação entre métodos</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato prevê métricas, think-aloud e SUS em seções separadas, mas não prevê comparar os problemas que cada fonte revela. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="39-prototipo-de-papel-v2">3.9 Protótipo de Papel (v2)</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados-tarefa2/">Relato dos resultados da avaliação do protótipo de papel (Tarefa 2: eventos presenciais)</a><br />
+<strong>Autor:</strong> Gustavo Antonio Rodrigues e Silva<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/prototipo-papel-v2/">Protótipo de Papel (v2)</a></p>
+<p><strong>Visão geral:</strong> Relato de duas sessões com protótipo de papel do fluxo de criação de eventos presenciais no Fórum Diolinux Plus, com falas, problemas classificados por severidade e diretrizes para a alta fidelidade.</p>
+<p>A Tabela 11 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 11: Inspeção do Grupo 08 (Grupo +1) — Protótipo de Papel (v2)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>PP-01</strong></td>
+<td style="text-align: left;">Telas desenhadas em papel</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">As pranchas <code>PB-01</code> a <code>PB-03</code> citadas no relato estão no artefato do protótipo da Tarefa 2 (imagens existentes em <code>docs/assets/prototipo-papel/tarefa2/</code>). São desenhos à mão, sem cores nem imagens finais.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-02</strong></td>
+<td style="text-align: left;">Peças móveis do protótipo</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 2.1: o "computador humano" sobrepõe os modais móveis <code>PM-01</code> (horário), <code>PM-02</code> (lotação e ingressos) e <code>PM-03</code> (mapa com pin).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-03</strong></td>
+<td style="text-align: left;">Papéis dos avaliadores na simulação</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Seção 2.1: um colega troca as pranchas "em rigoroso silêncio" e o facilitador não conduz as decisões. Ninguém fica só observando e anotando: o facilitador também recebe, lê o TCLE e aplica as perguntas. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-04</strong></td>
+<td style="text-align: left;">Problemas e correções entre sessões</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">A Tabela 3 indica o participante de cada problema, mas o relato não registra nenhuma correção no protótipo entre as sessões de P1 e P2. Todas as soluções ficam para o Figma (Seção 8). Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-05</strong></td>
+<td style="text-align: left;">Priorização dos problemas não resolvidos</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 3: cada problema tem grau de severidade de Nielsen, coluna "Participante(s)" e "Proposta Preliminar de Reprojeto". A Seção 8 detalha as cinco soluções.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-06</strong></td>
+<td style="text-align: left;">Affordances dos elementos interativos</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A prancha do formulário (<code>PB-02</code>) desenha campos como retângulos e botões em caixa ("Salvar Rascunho", "Publicar Evento", "Clique para abrir o mapa"). P1 e P2 tocaram no botão de criação sem hesitar (Seção 6.1).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-07</strong></td>
+<td style="text-align: left;">Cobertura do fluxo completo de tarefas</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seções 5 e 6 percorrem o fluxo inteiro: hub de eventos, formulário, horário, lotação e ingressos, mapa e página do evento publicado.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-08</strong></td>
+<td style="text-align: left;">Interface autoexplicativa na sessão</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 2.1: o facilitador se absteve "de conduzir ou influenciar as decisões do participante". A Seção 6 mostra os dois participantes avançando pelas telas, com críticas de conteúdo e não pedidos de explicação.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-09</strong></td>
+<td style="text-align: left;">Perfil dos participantes das sessões</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Tabela 2: dois discentes da FGA "Aderente[s] à Persona Secundária (Carlos Eduardo)". O relato não diz se eles participaram ou não da criação do protótipo. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-10</strong></td>
+<td style="text-align: left;">Tarefas apresentadas como cenários</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Seção 5 apresenta um cenário, mas a "missão" já ensina o caminho: "Acessar o Hub de Eventos no menu do fórum", "posicionar o marcador móvel (pin)". Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-11</strong></td>
+<td style="text-align: left;">Instruções de interação no início</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Seção 2.1 diz que os participantes usaram "o dedo indicador para simular cliques" e verbalizaram as intenções. A lista de tarefas do facilitador não registra que ele explicou essa forma de interagir. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-12</strong></td>
+<td style="text-align: left;">Reincidência dos problemas</td>
+<td style="text-align: center;"><strong>Não se aplica</strong></td>
+<td style="text-align: left;">Não houve correção durante as sessões (ver PP-04), então não há problema corrigido cuja volta possa ser verificada.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-13</strong></td>
+<td style="text-align: left;">Qualidade de uso prejudicada</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A Tabela 3 indica a "Heurística de Nielsen Violada" (por exemplo, "Consistência e padrões"), e não a qualidade de uso prejudicada, como facilidade de aprendizado ou eficiência. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-14</strong></td>
+<td style="text-align: left;">Partes desenhadas na sessão</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O relato não registra se alguma parte da interface foi desenhada na hora durante as sessões. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PP-15</strong></td>
+<td style="text-align: left;">Entrevista ao final da sessão</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Seção 2.1 prevê "aplicação das perguntas investigativas pós-teste". A Seção 6 registra opiniões e sugestões de cada participante, como P2 pedindo para "aumentar a área dedicada ao mapa".</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="310-prototipo-de-alta-fidelidade-v2">3.10 Protótipo de Alta Fidelidade (v2)</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/relato-resultados-tarefa3/">Teste-piloto e relato dos resultados da avaliação de alta fidelidade, Tarefa 3 (agendamento de horários)</a><br />
+<strong>Autor:</strong> Edvaldo Soares Brasileiro Filho<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/prototipo-alta-fidelidade-v2/">Protótipo de Alta Fidelidade (v2)</a></p>
+<p><strong>Visão geral:</strong> Relato da avaliação com três participantes do protótipo de alta fidelidade de quatro telas (Claude Design) para agendar mentoria com autores de tópicos no Diolinux Plus; as telas estão em prototipo-alta-fidelidade-tarefa3.md.</p>
+<p>A Tabela 12 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 12: Inspeção do Grupo 08 (Grupo +1) — Protótipo de Alta Fidelidade (v2)</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>AF-01</strong></td>
+<td style="text-align: left;">Definição de protótipo de alta fidelidade</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">O protótipo (Seção 4, Figuras 1 a 4) mostra as telas T3_F01 a T3_F04 com cores, fontes e posições definidas. As imagens existem em docs/design-avaliacao-desenvolvimento/assets/alta-fidelidade/.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-02</strong></td>
+<td style="text-align: left;">Grau de funcionalidade do protótipo</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">"O protótipo digital processa com latência nula os cliques em botões, seleção de horários na grade" (protótipo, Seção 1). Os três participantes percorreram as 4 telas (relato, Seção 5.1). Não há link público para o protótipo.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-03</strong></td>
+<td style="text-align: left;">Testes empíricos com o protótipo</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Três sessões gravadas com P1, P2 e P3, com think-aloud, sem intervenção do facilitador (Seções 2 e 9, Tabela 7).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-04</strong></td>
+<td style="text-align: left;">Design iterativo entre os níveis</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 3 do protótipo liga PROB-PP3-01 a 05 às soluções, por exemplo o rótulo "Horário de Brasília (GMT-3)" na grade.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-05</strong></td>
+<td style="text-align: left;">Registro das decisões de design</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 3 justifica cada solução pelo problema do papel, e a Tabela 2 dá a finalidade de cada token (por exemplo, "Inibição de affordance" para slot ocupado).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-06</strong></td>
+<td style="text-align: left;">Visibilidade do estado do sistema</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Na Figura 2, legenda "Disponível / Ocupado / Selecionado", painel "Nenhum horário selecionado" e contador "0/200". Na Figura 4, ponto de não lida no sino.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-07</strong></td>
+<td style="text-align: left;">Controle e liberdade do usuário</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">"Semana anterior" na grade, e "Reagendar", "Cancelar reunião" e "Fechar" na confirmação (Figura 3). Na Pergunta 5, "as opções de cancelar, fechar e voltar estavam visíveis".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-08</strong></td>
+<td style="text-align: left;">Correspondência com o mundo real</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Rótulos como "Agendar Reunião com o Autor", "Escolha um horário" e "Entrar na Sala Agora" (Figuras 1 a 4). P2: "ficou claro que o verde é livre e o cinza é reservado".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-09</strong></td>
+<td style="text-align: left;">Prevenção de erros e feedback</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">Há prevenção ("Agendar reunião" desabilitado com "Selecione um horário na grade", mínimo de 20 caracteres) e feedback ("Reunião agendada com sucesso!"). Mas o agendamento não tem etapa de revisão, e "Cancelar reunião" não mostra pedido de confirmação. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-10</strong></td>
+<td style="text-align: left;">Estética e design minimalista</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">As Figuras 2 a 4 mostram só a grade, o formulário e o resumo da reunião, sem elementos alheios à tarefa.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-11</strong></td>
+<td style="text-align: left;">Aderência ao guia de estilo</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A Tabela 2 lista os tokens do Guia de Estilo aplicados. Mas a Figura 1 usa cabeçalho com logo "D PLUS" e menu lateral, e as Figuras 2 a 4 usam outro cabeçalho, só com o texto "Diolinux Plus". Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-12</strong></td>
+<td style="text-align: left;">Vocabulário consistente</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">As telas usam sempre "reunião" ("Agendar reunião", "Reunião agendada", "Lembrete de Reunião") e "Ocupado" para horário indisponível (Figuras 2 a 4).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-13</strong></td>
+<td style="text-align: left;">Comparação com as metas de usabilidade</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 4 compara o tempo de cada participante com a meta "≤ 60,0 s" (média 45,0 s). A Tabela 5 compara o SUS (87,5) com a meta "≥ 80,0".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-14</strong></td>
+<td style="text-align: left;">Dados plausíveis</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">As telas mostram marcadores no lugar de dados: "[Nome do autor do tópico]", "[link da sala virtual]" (Figura 3) e "[URL da sala virtual]" (Figura 4). O tópico da Figura 1 ("Red Hat e Canonical...") é diferente do tópico do lembrete ("Como configurar aceleração de hardware no Ubuntu"). Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>AF-15</strong></td>
+<td style="text-align: left;">Largura ou profundidade do protótipo</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não informa se o protótipo cobre o sistema em largura ou em profundidade. Só cita "4 telas canônicas" de um fluxo. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="311-teste-piloto">3.11 Teste-Piloto</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/teste-piloto/">Protocolo e relato do teste-piloto de alta fidelidade (Nível 3), Tarefa 1</a><br />
+<strong>Autor:</strong> Vinicius Silva Araruna<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/teste-piloto/">Teste-Piloto</a></p>
+<p><strong>Visão geral:</strong> Registro do teste-piloto instrumental do protótipo de alta fidelidade da Tarefa 1 (Claude Design), com TCLE oral, diagnóstico técnico da gravação e do protótipo e a cláusula de isolamento dos dados.</p>
+<p>A Tabela 13 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 13: Inspeção do Grupo 08 (Grupo +1) — Teste-Piloto</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>TP-01</strong></td>
+<td style="text-align: left;">Realização do teste-piloto</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O piloto ocorreu antes da sessão oficial ("protocolo homologado para a condução empírica com o participante voluntário real (P1)", Seção 5). Mas o vídeo tem 3 min 12 s e o artefato não registra entrevista nem SUS no piloto. As datas também divergem: 09/11 na Tabela 1 e 10/11 na Tabela 2. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-02</strong></td>
+<td style="text-align: left;">O que o teste-piloto verifica</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A Seção 1 lista o protótipo, a gravação, o tempo do TCLE e a clareza do cenário. O tempo previsto para a tarefa não foi verificado. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-03</strong></td>
+<td style="text-align: left;">Correções após o teste-piloto</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 4 tem a coluna "Situação / Ajuste Adotado" e registra todos os sete parâmetros como "Aprovado", sem correção necessária.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-04</strong></td>
+<td style="text-align: left;">Descarte dos dados do piloto</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A cláusula de isolamento diz que os dados "NÃO SÃO COMPUTADOS nos resultados oficiais da avaliação de usabilidade nem na apuração do escore SUS final" (Seção 1).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-05</strong></td>
+<td style="text-align: left;">Participante do teste-piloto</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O participante só aparece como "Voluntário Piloto" (Tabela 3). O artefato não diz se ele é de fora da equipe. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-06</strong></td>
+<td style="text-align: left;">Termo de consentimento no piloto</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 3 transcreve a leitura do TCLE oral (00:00 a 00:48) e o consentimento do voluntário antes da interação, como nas sessões oficiais.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-07</strong></td>
+<td style="text-align: left;">Duração real vs. prevista</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O artefato registra a duração do vídeo (3 min 12 s) e compara só o TCLE com a meta (48 s, para "≤ 60 segundos"). Não compara a tarefa nem a sessão com o tempo previsto. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-08</strong></td>
+<td style="text-align: left;">Ambiente e equipamentos</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabelas 2 e 4: OBS Studio em "1920×1080 a 60 fps", "Áudio claro e estéreo" e protótipo no Claude Design, tudo "Aprovado".</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-09</strong></td>
+<td style="text-align: left;">Funcionamento da gravação</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 4: resolução, taxa de quadros e áudio aprovados. O vídeo do piloto está publicado (https://youtu.be/r7vN1XWerE4).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-10</strong></td>
+<td style="text-align: left;">Clareza das tarefas</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O item 6 da Tabela 5 diz que o cenário "induz diretamente o uso do botão <code>&lt;/&gt; Bash</code>". O artefato não registra se o voluntário entendeu a tarefa sem pedir esclarecimentos. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-11</strong></td>
+<td style="text-align: left;">Análise rápida dos dados do piloto</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não registra nenhuma análise dos dados do piloto em relação às perguntas da avaliação. A análise é só técnica (Tabela 4). Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-12</strong></td>
+<td style="text-align: left;">Somente os dados necessários</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não registra se o piloto foi usado para conferir quais dados coletar. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-13</strong></td>
+<td style="text-align: left;">Novo piloto após mudanças</td>
+<td style="text-align: center;"><strong>Não se aplica</strong></td>
+<td style="text-align: left;">Nenhuma mudança no planejamento foi feita depois do piloto: todos os parâmetros foram aprovados (Tabela 4).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-14</strong></td>
+<td style="text-align: left;">Funcionamento do protótipo no piloto</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tabela 4: tempo de resposta de "1,8 segundo", botão <code>&lt;/&gt; Bash</code>, overlay da IA e tags em lote, todos "Aprovado". O item 5 da Tabela 5 cita os 3 modais percorridos.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TP-15</strong></td>
+<td style="text-align: left;">Perfil do participante do piloto</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O artefato não descreve o perfil do "Voluntário Piloto" nem o compara ao dos participantes reais. Severidade: <strong>Média</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h3 id="312-teste-de-usabilidade">3.12 Teste de Usabilidade</h3>
+<p><strong>Artefato:</strong> <a href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-3/relato-resultados/">Relato dos resultados da prototipação de alta fidelidade, Tarefa 1 (sessões com P1, P2 e P3)</a><br />
+<strong>Autor:</strong> Vinicius Silva Araruna<br />
+<strong>Lista aplicada:</strong> <a href="../../listas/teste-usabilidade/">Teste de Usabilidade</a></p>
+<p><strong>Visão geral:</strong> Relato de três sessões presenciais de teste de usabilidade do protótipo de alta fidelidade da Tarefa 1 (criar e publicar tópico no Diolinux Plus), com think-aloud, entrevista, SUS e catálogo de problemas.</p>
+<p>A Tabela 14 apresenta a aplicação da lista:</p>
+<div align="center">
+<p align="center"><b>Tabela 14: Inspeção do Grupo 08 (Grupo +1) — Teste de Usabilidade</b></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Item</th>
+<th style="text-align: center;">Resposta</th>
+<th style="text-align: left;">Evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>TU-01</strong></td>
+<td style="text-align: left;">Mesmo material para todos</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O TCLE oral tem um script único para P1, P2 e P3, e "todos os participantes foram submetidos exatamente ao mesmo cenário" (Seções 2.1 e 4). O relato não registra questionário inicial. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-02</strong></td>
+<td style="text-align: left;">Duração das tarefas e da sessão</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Tarefa de 73 s a 103 s (Tabela 3). As sessões duram de 7 min 28 s a 10 min 11 s (Tabela 8).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-03</strong></td>
+<td style="text-align: left;">Não interferir durante as tarefas</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O avaliador atuou "exclusivamente como Facilitador" (Seção 2). Mas P1 "precisou de orientação do facilitador" no botão <code>&lt;/&gt; Bash</code>, e P3 "necessitou de breve orientação inicial" (Tabela 5). Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-04</strong></td>
+<td style="text-align: left;">Registro do acompanhamento das sessões</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">Conclusão de 100% por participante (Tabela 3), ajuda registrada ("mediação pontual exigida em P1 ... e P3", Seção 5) e comentários durante a tarefa (Tabela 5).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-05</strong></td>
+<td style="text-align: left;">Entrevista pós-teste</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">"Aplicação imediata de 6 perguntas investigativas abertas após o término da tarefa" (Seção 2). Respostas P01 a P06 na Tabela 5.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-06</strong></td>
+<td style="text-align: left;">Pensar em voz alta</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">"Os participantes foram orientados a verbalizar continuamente em voz alta seus pensamentos" (Seção 2).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-07</strong></td>
+<td style="text-align: left;">Registro de dificuldades</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A Tabela 5 registra onde cada um parou e o que tentou, por exemplo P1 "não encontrou os tópicos resolvidos parecidos". Não registra expressões nem gestos, e a gravação é só de tela e áudio (Seção 2.1). Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-08</strong></td>
+<td style="text-align: left;">Objeto da avaliação</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">O TCLE diz "estamos avaliando unicamente a interface proposta e jamais você" (Seção 2.1). O relato não registra se isso foi reforçado quando P3 disse que perdeu o controle ou quando P1 ficou confuso. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-09</strong></td>
+<td style="text-align: left;">Perguntas abertas pós-teste</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">As perguntas P01 a P06 tratam de pontos específicos (botão, split-view, Bash, IA, controle) e de sugestões (P06). Nenhuma pergunta é sobre a tarefa mais difícil (Tabela 5). Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-10</strong></td>
+<td style="text-align: left;">Tempo por tarefa</td>
+<td style="text-align: center;"><strong>Sim</strong></td>
+<td style="text-align: left;">A Tabela 3 registra o início e o fim no vídeo e o tempo de cada um: P1 103,0 s, P2 98,0 s e P3 73,0 s.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-11</strong></td>
+<td style="text-align: left;">Conversa inicial</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O relato não registra conversa inicial para deixar os participantes à vontade. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-12</strong></td>
+<td style="text-align: left;">Questionário pré-teste</td>
+<td style="text-align: center;"><strong>Incompleto</strong></td>
+<td style="text-align: left;">A Tabela 2 traz idade, perfil e "familiaridade com Linux e fóruns", mas não diz que esses dados vieram de um questionário pré-teste. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-13</strong></td>
+<td style="text-align: left;">Exploração livre</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">O relato não registra exploração livre antes da tarefa. Severidade: <strong>Baixa</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-14</strong></td>
+<td style="text-align: left;">Intervenção quando o participante trava</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">Quando P1 travou no botão <code>&lt;/&gt; Bash</code>, o facilitador ensinou o caminho ("precisou de auxílio verbal do facilitador para identificar o botão", PROB-AF-03), em vez de sugerir seguir adiante. Severidade: <strong>Média</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TU-15</strong></td>
+<td style="text-align: left;">Dois avaliadores na sessão</td>
+<td style="text-align: center;"><strong>Não</strong></td>
+<td style="text-align: left;">Só Vinicius Silva Araruna aparece na condução e na gravação (Tabela 1). Os outros membros só revisaram o relato depois. Severidade: <strong>Média</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
+</div>
+<h2 id="4-correcao-e-acompanhamento">4. Correção e Acompanhamento</h2>
+<blockquote>
+<p><strong>Nota:</strong> a correção dos defeitos cabe ao Grupo 08. Esta página registra os defeitos encontrados pelo Grupo 07 para que o grupo autor possa corrigi-los.</p>
+</blockquote>
+<h2 id="5-video-da-inspecao">5. Vídeo da Inspeção</h2>
+<p><strong>Vídeo da inspeção:</strong> <a href="https://youtu.be/wj-tRyoq1s8">youtu.be/wj-tRyoq1s8</a></p>
+<div align="center">
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/wj-tRyoq1s8" title="Inspeção de Fagan — Grupo 08 (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
+
+</div>
+
+<h2 id="6-referencias-bibliograficas">6. Referências Bibliográficas</h2>
+<blockquote>
+<p>[1] FAGAN, Michael E. Design and code inspections to reduce errors in program development. <em>IBM Systems Journal</em>, v. 15, n. 3, p. 182-211, 1976.</p>
+</blockquote>
+<h2 id="7-historico-de-versoes">7. Histórico de Versões</h2>
+<div align="center">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor(es)</th>
+<th style="text-align: center;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">23/11/2026</td>
+<td style="text-align: left;">Inspeção de 12 artefatos do Grupo 08 (Grupo +1) com as listas de verificação da Etapa 8 (180 itens).</td>
+<td style="text-align: center;">Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
