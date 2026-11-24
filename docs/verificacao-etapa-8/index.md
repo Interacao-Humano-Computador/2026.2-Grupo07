@@ -103,6 +103,8 @@ A Tabela 2 apresenta as listas de verificação da Etapa 8, os artefatos a que s
 A inspeção de cada conjunto de artefatos é registrada em uma ficha própria, com os seis passos de Fagan:
 
 * [Daniel da Silva Batista](inspecoes/daniel-batista.md): inspeção dos artefatos de Pedro Rocha Ferreira Lima.
+* [Grupo 06 (Grupo -1)](inspecoes/grupo-06.md): inspeção de um exemplo de cada artefato do Grupo 06, com as 12 listas.
+* [Grupo 08 (Grupo +1)](inspecoes/grupo-08.md): inspeção de um exemplo de cada artefato do Grupo 08, com as 12 listas.
 
 ### 3.5 Cronograma
 
