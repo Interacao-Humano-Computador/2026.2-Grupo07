@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Leonardo da Silva Lopes Júnior | [Criação e estruturação inicial do Cronograma Planejado da Etapa 1](#11-cronograma-planejado) |
+| Leonardo da Silva Lopes Júnior | [Criação e estruturação inicial do Cronograma Planejado da Etapa 1](#11-cronograma-planejado) e inserção do Cronograma Executado da Etapa 8. |
 | Daniel da Silva Batista | [Inclusão do Cronograma Executado e expansão das Etapas 2 a 8](#12-cronograma-executado) |
 | Arthur Sismene Carvalho | [Revisão técnica do cronograma planejado e executado da Etapa 1](#1-etapa-1-planejamento-do-projeto) |
 | Pedro Rocha Ferreira Lima | [Revisão e detalhamento das atividades das Etapas 2 a 8](#2-etapa-2-perfil-do-usuario-e-analise-de-tarefas) |
@@ -358,6 +358,8 @@ Na Tabela 14, tem-se o registro real de execução das atividades da sétima ent
 
 ## 8. Etapa 8 - Verificação dos Artefatos
 
+### 8.1 Cronograma Planejado
+
 Na Tabela 14, tem-se o cronograma planejado para as atividades da oitava entrega.
 
 <div align="center" markdown="1">
@@ -376,13 +378,33 @@ Na Tabela 14, tem-se o cronograma planejado para as atividades da oitava entrega
 
 </div>
 
-## 9. Projeto Final
+### 8.2 Cronograma Executado
 
-Na Tabela 15, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
+Na Tabela 15, tem-se o registro consolidado das atividades executadas referentes à oitava entrega (Verificação dos Artefatos por Inspeção de Fagan).
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 15 - Cronograma Planejado (Projeto Final)</b></p>
+<p align="center"><b>Tabela 15 - Cronograma Executado (Etapa 8)</b></p>
+
+| Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
+| :--- | :---: | :--- | :---: | :--- |
+| Estruturação da Etapa 8, descrição do método Fagan e planejamento da verificação | Início: 21/11<br>Fim: 21/11 | Daniel da Silva Batista | Início: 21/11<br>Fim: 22/11 | Pedro Rocha Ferreira Lima |
+| Elaboração das 12 listas de verificação com critérios objetivos e recortes da literatura | Início: 21/11<br>Fim: 22/11 | Daniel Batista, Arthur Sismene, Pedro Rocha | Início: 22/11<br>Fim: 22/11 | Daniel Batista, Pedro Rocha |
+| Condução da inspeção de Fagan dos artefatos de Pedro Rocha Ferreira Lima | Início: 22/11<br>Fim: 23/11 | Daniel da Silva Batista | Início: 23/11<br>Fim: 23/11 | Pedro Rocha Ferreira Lima |
+| Condução da inspeção de Fagan dos artefatos de Arthur Sismene Carvalho | Início: 22/11<br>Fim: 23/11 | Pedro Rocha Ferreira Lima | Início: 23/11<br>Fim: 23/11 | Daniel da Silva Batista |
+| Condução da inspeção de Fagan dos 12 artefatos de autoria de Daniel da Silva Batista | Início: 23/11<br>Fim: 24/11 | Leonardo da Silva Lopes Júnior | Início: 24/11<br>Fim: 24/11 | Daniel da Silva Batista |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>
+
+</div>
+
+## 9. Projeto Final
+
+Na Tabela 16, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 16 - Cronograma Planejado (Projeto Final)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -422,6 +444,7 @@ Na Tabela 15, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.9` | 21/10/2026 | Inserção do Cronograma Executado da Etapa 4 e detalhamento das atividades executadas e planejadas da Etapa 5 (Storyboards e Teste-Piloto de Nível 1). | Daniel da Silva Batista | Arthur Sismene Carvalho |
 | `2.0` | 02/11/2026 | Atualização do Cronograma Executado da Etapa 5 (entrevistas, relatos individuais e apresentação gravada) e inserção do Cronograma Executado da Etapa 6 (Protótipo de Papel e Planejamento de Alta Fidelidade). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `2.1` | 13/11/2026 | Conclusão do registro da Etapa 6 e inclusão do Cronograma Executado da Etapa 7 (Protótipo de Alta Fidelidade no Lovable, 3 sessões presenciais e relato de Nível 3). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `2.2` | 24/11/2026 | Inserção do Cronograma Executado da Etapa 8 (Verificação dos Artefatos por Inspeção de Fagan), registrando as inspeções de Daniel Batista, Pedro Rocha e Leonardo Lopes. | Leonardo da Silva Lopes Júnior | — |
 
 </div>
 

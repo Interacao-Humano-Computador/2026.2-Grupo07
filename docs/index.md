@@ -69,6 +69,8 @@ Este projeto tem como objetivo a análise rigorosa, avaliação empírica e heur
 * [Verificação da Etapa 3 — Grupo 08 (Grupo +1)](apresentacao/verificacao-etapa-3-grupo-08.md)
 * [Verificação da Etapa 4 — Grupo 07 (Autoavaliação)](apresentacao/verificacao-etapa-4-grupo-07.md)
 * [Verificação da Etapa 4 — Grupo 06 (Grupo -1)](apresentacao/verificacao-etapa-4-grupo-06.md)
+* [Verificação da Etapa 6 — Grupo 05](apresentacao/verificacao-etapa-6-grupo-05.md)
+* [Etapa 8 — Inspeção de Fagan](verificacao-etapa-8/index.md) (Fichas de Inspeção: [Daniel Batista](verificacao-etapa-8/inspecoes/daniel-batista.md), [Pedro Rocha](verificacao-etapa-8/inspecoes/pedro-rocha.md) e [Leonardo Lopes](verificacao-etapa-8/inspecoes/leonardo-lopes.md))
 
 ---
 

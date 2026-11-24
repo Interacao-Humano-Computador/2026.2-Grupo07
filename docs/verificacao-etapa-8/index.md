@@ -7,6 +7,7 @@
 | **Daniel da Silva Batista** | Estruturação da Etapa 8, descrição do método de inspeção de Fagan e planejamento da verificação (escopo, papéis, composição das listas e cronograma). |
 | **Arthur Sismene Carvalho** | Elaboração dos itens 06 a 10 das 5 listas v2 (HTA, CTT, Storyboard, Protótipo de Papel e Protótipo de Alta Fidelidade); recortes do livro a inserir. |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens 11 a 15 das 12 listas de verificação. |
+| **Leonardo da Silva Lopes Júnior** | Inspetor: condução da inspeção de Fagan sobre os 12 artefatos de autoria de Daniel da Silva Batista e elaboração da respectiva ficha de inspeção. |
 | **Claude (Anthropic)** | Apoio na organização da página (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -103,6 +104,8 @@ A Tabela 2 apresenta as listas de verificação da Etapa 8, os artefatos a que s
 A inspeção de cada conjunto de artefatos é registrada em uma ficha própria, com os seis passos de Fagan:
 
 * [Daniel da Silva Batista](inspecoes/daniel-batista.md): inspeção dos artefatos de Pedro Rocha Ferreira Lima.
+* [Pedro Rocha Ferreira Lima](inspecoes/pedro-rocha.md): inspeção dos artefatos de Arthur Sismene Carvalho.
+* [Leonardo da Silva Lopes Júnior](inspecoes/leonardo-lopes.md): inspeção dos artefatos de Daniel da Silva Batista.
 
 ### 3.5 Cronograma
 
@@ -134,5 +137,6 @@ A Tabela 3 apresenta o cronograma da verificação:
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 21/11/2026 | Criação da página da Etapa 8: método de inspeção de Fagan, planejamento da verificação e catálogo das listas de verificação. | Daniel da Silva Batista | — |
+| `1.1` | 24/11/2026 | Inclusão das fichas de inspeção de Pedro Rocha Ferreira Lima e Leonardo da Silva Lopes Júnior e atualização das contribuições. | Leonardo da Silva Lopes Júnior | — |
 
 </div>
