@@ -5,9 +5,9 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Transposição dos itens oficiais do plano de ensino (Itens 1 a 23), estruturação da página e elaboração do **Item extra 25** (Mitigação do Viés de Concordância na Entrevista) ([Item 25 — Mitigação do Viés de Concordância](#72-item-25-mitigacao-do-vies-de-concordancia-acquiescence-bias-na-entrevista)). |
-| **Arthur Sismene Carvalho** | Revisão técnica da lista e elaboração do **Item extra 24** (Rigor e Execução do Teste-Piloto) ([Histórico de Versões](#9-historico-de-versoes)). |
-| **Pedro Rocha Ferreira Lima** | Revisão da fundamentação teórica e elaboração do **Item extra 26** (Escala Padronizada de Gravidade de Problemas) ([Histórico de Versões](#9-historico-de-versoes)). |
-| **Leonardo da Silva Lopes Júnior** | Revisão da formatação e elaboração do **Item extra 27** (Rastreabilidade entre Amostra de Participantes e Elenco de Personas) ([Histórico de Versões](#9-historico-de-versoes)). |
+| **Arthur Sismene Carvalho** | Revisão técnica da lista e elaboração do **Item extra 24** (Rigor e Execução do Teste-Piloto) ([Item 24 — Rigor e Execução do Teste-Piloto](#71-item-24-rigor-e-execucao-do-teste-piloto)). |
+| **Pedro Rocha Ferreira Lima** | Revisão da fundamentação teórica e elaboração do **Item extra 26** (Escala Padronizada de Gravidade de Problemas) ([Item 26 — Escala de Gravidade](#73-item-26-escala-padronizada-de-gravidade-e-priorizacao-de-problemas)). |
+| **Leonardo da Silva Lopes Júnior** | Revisão da formatação e elaboração do **Item extra 27** (Rastreabilidade entre Amostra de Participantes e Elenco de Personas) ([Item 27 — Rastreabilidade](#74-item-27-rastreabilidade-entre-amostra-de-participantes-e-elenco-de-personas)). |
 | **Daniel da Silva Batista** | Aplicação da autoavaliação aos artefatos da Etapa 4 e redação das respostas e observações (19/11/2026) ([Vídeo de Autoavaliação — Etapa 4](#3-video-de-autoavaliacao-etapa-4)). |
 | **Gemini** | Apoio na organização e diagramação Markdown (conforme Política de IA). |
 

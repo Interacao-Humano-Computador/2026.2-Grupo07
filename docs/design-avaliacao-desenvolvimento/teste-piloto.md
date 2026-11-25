@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Elaboração do planejamento e protocolo do teste-piloto de Nível 1, execução e gravação da sessão no Teams, incorporação do vídeo no YouTube e calibração das fichas ([Fundamentação Teórica](#1-fundamentacao-teorica-o-papel-do-teste-piloto-em-ihc)). |
-| Pedro Rocha Ferreira Lima | Apoio na revisão dos cenários e validação dos equipamentos de gravação ([Histórico de Versões](#8-historico-de-versoes)). |
-| Arthur Sismene Carvalho | Revisão dos objetivos e verificação da qualidade de áudio e vídeo ([Histórico de Versões](#8-historico-de-versoes)). |
+| Daniel da Silva Batista | Elaboração do planejamento e protocolo do teste-piloto de Nível 1, execução e gravação da sessão no Teams, incorporação do vídeo no YouTube e calibração das fichas ([Protocolo e Roteiro Executado](#3-protocolo-e-roteiro-executado)). |
+| Pedro Rocha Ferreira Lima | Apoio na revisão dos cenários e validação dos equipamentos de gravação. |
+| Arthur Sismene Carvalho | Revisão dos objetivos e verificação da qualidade de áudio e vídeo. |
 | Leonardo da Silva Lopes Júnior | Validação do tempo de condução e apoio na ficha de avaliação ([Ficha de Calibração Técnica Pós-Piloto](#5-ficha-de-calibracao-tecnica-pos-piloto)). |
 | Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 

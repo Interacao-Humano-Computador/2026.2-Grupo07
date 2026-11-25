@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Pedro Rocha Ferreira Lima | Gravação e condução da apresentação individual da Etapa 7 e estruturação da página ([Apresentação 7 — Pedro Rocha Ferreira Lima](#apresentacao-7-pedro-rocha-ferreira-lima)). |
+| Pedro Rocha Ferreira Lima | Gravação e condução da apresentação individual da Etapa 7 e estruturação da página ([Vídeo de Apresentação — Etapa 7](#1-video-de-apresentacao-etapa-7)). |
 | Claude (Anthropic) | Auxílio na estruturação textual e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>

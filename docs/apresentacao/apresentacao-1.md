@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Gravação e participação no vídeo de verificação da Etapa 1 ([Apresentação 1 — Grupo 07](#apresentacao-1-grupo-07)). |
-| Pedro Rocha Ferreira Lima | Edição inicial e inclusão do vídeo no MkDocs ([Apresentação 1 — Grupo 07](#apresentacao-1-grupo-07)). |
-| Daniel da Silva Batista | Ajuste do link de incorporação (embed) do YouTube ([Apresentação 1 — Grupo 07](#apresentacao-1-grupo-07)). |
-| Arthur Sismene Carvalho | Reorganização da seção de Verificação em páginas por grupo ([Vídeo de Apresentação — Etapa 1](#1-video-de-apresentacao-etapa-1)). |
+| Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Gravação e participação no vídeo de verificação da Etapa 1 ([Vídeo de Apresentação — Etapa 1](#1-video-de-apresentacao-etapa-1)). |
+| Pedro Rocha Ferreira Lima | Edição inicial e inclusão do vídeo no MkDocs ([Vídeo de Apresentação — Etapa 1](#1-video-de-apresentacao-etapa-1)). |
+| Daniel da Silva Batista | Ajuste do link de incorporação (embed) do YouTube ([Vídeo de Apresentação — Etapa 1](#1-video-de-apresentacao-etapa-1)). |
+| Arthur Sismene Carvalho | Reorganização da seção de Verificação em páginas por grupo. |
 
 <p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>
 

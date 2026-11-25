@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Gravação e condução da apresentação individual da Etapa 7 e estruturação da página ([Apresentação 7 — Daniel da Silva Batista](#apresentacao-7-daniel-da-silva-batista)). |
+| Daniel da Silva Batista | Gravação e condução da apresentação individual da Etapa 7 e estruturação da página ([Vídeo de Apresentação — Etapa 7](#1-video-de-apresentacao-etapa-7)). |
 | Gemini | Auxílio na estruturação textual e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

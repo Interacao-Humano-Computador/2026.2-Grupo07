@@ -5,9 +5,9 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | Pedro Rocha Ferreira Lima | Redação do planejamento do relato, definição da estrutura de tópicos, escala de severidade e modelos de tabela ([Estrutura do Relato](#3-estrutura-do-relato)). |
-| Daniel da Silva Batista | Revisão da fundamentação teórica, modelo de sumário por tarefa e critérios de priorização dos problemas ([Histórico de Versões](#9-historico-de-versoes)). |
+| Daniel da Silva Batista | Revisão da fundamentação teórica, modelo de sumário por tarefa e critérios de priorização dos problemas. |
 | Leonardo da Silva Lopes Júnior | Definição do público, formato e prazos de divulgação ([Público, Formato e Prazo do Relato](#5-publico-formato-e-prazo-do-relato)). |
-| Arthur Sismene Carvalho | Revisão técnica, planejamento do reprojeto dos modelos e publicação desta página no GitHub Pages ([Histórico de Versões](#9-historico-de-versoes)). |
+| Arthur Sismene Carvalho | Revisão técnica, planejamento do reprojeto dos modelos e publicação desta página no GitHub Pages ([Planejamento do Reprojeto](#6-planejamento-do-reprojeto)). |
 | Claude (Anthropic) | Auxílio na estruturação textual, extração dos recortes bibliográficos e diagramação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>

@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Leonardo da Silva Lopes Júnior | Gravação e condução da apresentação individual da Etapa 7 e estruturação da página ([Apresentação 7 — Leonardo da Silva Lopes Júnior](#apresentacao-7-leonardo-da-silva-lopes-junior)). |
+| Leonardo da Silva Lopes Júnior | Gravação e condução da apresentação individual da Etapa 7 e estruturação da página ([Vídeo de Apresentação — Etapa 7](#1-video-de-apresentacao-etapa-7)). |
 | Gemini | Auxílio na estruturação textual e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>

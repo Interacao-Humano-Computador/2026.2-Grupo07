@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens HTA-01 a HTA-05, revisão dos itens da v1 e recortes do livro ([Itens 01–05](#41-hta-01-o-objetivo-do-usuario-como-ponto-de-partida-da-hta)). |
-| **Arthur Sismene Carvalho** | Elaboração dos itens HTA-06 a HTA-10, reescritos a partir dos itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página ([Itens 01–05](#41-hta-01-o-objetivo-do-usuario-como-ponto-de-partida-da-hta)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens HTA-06 a HTA-10, reescritos a partir dos itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página ([Itens 06–10](#46-hta-06-decomposicao-hierarquica-por-niveis)). |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens HTA-11 a HTA-15, recortes do livro ([Itens 11–15](#411-hta-11-proposito-da-analise)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 

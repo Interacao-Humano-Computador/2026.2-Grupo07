@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | Daniel da Silva Batista | Criação e estruturação da página de apresentação da equipe e perfis dos membros ([Membros do Grupo](#membros-do-grupo)). |
-| Leonardo da Silva Lopes Júnior | Revisão da documentação da equipe e conformidade com as diretrizes da disciplina ([Histórico de Versões](#historico-de-versoes)). |
+| Leonardo da Silva Lopes Júnior | Revisão da documentação da equipe e conformidade com as diretrizes da disciplina. |
 | Arthur Sismene Carvalho | Fornecimento de dados individuais, fotos e perfis do GitHub e alinhamento com a equipe ([Membros do Grupo](#membros-do-grupo)). |
 | Pedro Rocha Ferreira Lima | Fornecimento de dados individuais, fotos e perfis do GitHub e alinhamento com a equipe ([Membros do Grupo](#membros-do-grupo)). |
 | Gemini | Apoio na estilização e formatação da grade de membros em Markdown (conforme Política de IA). |

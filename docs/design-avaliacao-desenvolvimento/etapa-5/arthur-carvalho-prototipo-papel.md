@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | Arthur Sismene Carvalho | Concepção e desenho do protótipo de papel das três telas, elaboração das quatro peças móveis, autoinspeção analítica, condução do teste-piloto, moderação da sessão S03, análise dos resultados e redação desta página ([Autoinspeção Analítica do Protótipo de Papel](#3-autoinspecao-analitica-do-prototipo-de-papel)). |
-| Leonardo da Silva Lopes Júnior | Atuação como Computador Humano (*Wizard of Oz*) na sessão S03 ([Identificação do Integrante e Escopo de Atuação](#1-identificacao-do-integrante-e-escopo-de-atuacao)). |
+| Leonardo da Silva Lopes Júnior | Atuação como Computador Humano (*Wizard of Oz*) na sessão S03 ([Avaliação com Usuário (Sessão Empírica)](#5-avaliacao-com-usuario-sessao-empirica)). |
 | Daniel da Silva Batista | Observação e registro da sessão S03 ([Avaliação com Usuário (Sessão Empírica)](#5-avaliacao-com-usuario-sessao-empirica)). |
 | Claude (Anthropic) | Auxílio na estruturação textual e formatação em Markdown (conforme Política de Uso de IA). |
 

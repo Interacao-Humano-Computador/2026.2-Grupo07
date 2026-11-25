@@ -5,9 +5,9 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | Pedro Rocha Ferreira Lima | Elaboração integral do conteúdo sobre metas de usabilidade, fundamentação teórica com recortes bibliográficos (Figuras 1 a 4), análise das situações observadas no site, aspectos de IHC e impactos para as personas, e aplicação das metas ao PCI Concursos ([Objeto de Análise: o Site PCI Concursos](#3-objeto-de-analise-o-site-pci-concursos)). |
-| Daniel da Silva Batista | Revisão técnica de conformidade com os modelos de tarefas e inspeção ergonômica ([Histórico de Versões](#8-historico-de-versoes)). |
-| Arthur Sismene Carvalho | Validação das violações no contexto de simulados e acesso móvel ([Introdução](#1-introducao)). |
-| Leonardo da Silva Lopes Júnior | Revisão de consistência com os hábitos dos concurseiros maduros e ativos ([Histórico de Versões](#8-historico-de-versoes)). |
+| Daniel da Silva Batista | Revisão técnica de conformidade com os modelos de tarefas e inspeção ergonômica. |
+| Arthur Sismene Carvalho | Validação das violações no contexto de simulados e acesso móvel. |
+| Leonardo da Silva Lopes Júnior | Revisão de consistência com os hábitos dos concurseiros maduros e ativos. |
 | Claude Opus 5.5 (Anthropic), via Antigravity | Auxílio na localização das referências no texto (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>

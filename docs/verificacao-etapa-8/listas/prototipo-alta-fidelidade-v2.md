@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | **Daniel da Silva Batista** | Elaboração dos itens AF-01 a AF-05, revisão dos itens da v1 e recortes do livro ([Itens 01–05](#41-af-01-definicao-de-prototipo-de-alta-fidelidade)). |
-| **Arthur Sismene Carvalho** | Elaboração dos itens AF-06 a AF-10, reescritos a partir das heurísticas da autoinspeção do protótipo de alta fidelidade não reaproveitadas nos itens 01–05, com fonte por página ([Itens 01–05](#41-af-01-definicao-de-prototipo-de-alta-fidelidade)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens AF-06 a AF-10, reescritos a partir das heurísticas da autoinspeção do protótipo de alta fidelidade não reaproveitadas nos itens 01–05, com fonte por página ([Itens 06–10](#46-af-06-visibilidade-do-estado-do-sistema)). |
 | **Pedro Rocha Ferreira Lima** | Elaboração dos itens AF-11 a AF-15, recortes do livro ([Itens 11–15](#411-af-11-aderencia-ao-guia-de-estilo)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 

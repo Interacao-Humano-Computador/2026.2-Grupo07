@@ -5,7 +5,7 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | Daniel da Silva Batista | [Concepção do Protótipo no Lovable](#2-apresentacao-do-prototipo-de-alta-fidelidade-lovable), [autoinspeção analítica](#3-autoinspecao-analitica-previa-do-prototipo-de-alta-fidelidade), [teste-piloto](#4-teste-piloto-do-prototipo-de-alta-fidelidade-presencial), [sessões empíricas com usuários reais](#5-avaliacao-empirica-com-usuarios-reais-sessoes-presenciais) e [relato dos resultados](#6-relato-dos-resultados-da-avaliacao-do-prototipo-de-alta-fidelidade-barbosa-e-silva-2021-p-309). |
-| Pedro Rocha Ferreira Lima | [Revisão técnica do relato de alta fidelidade e conferência das evidências](#66-resultados-observados-e-limitacoes-do-prototipo). |
+| Pedro Rocha Ferreira Lima | Revisão técnica do relato de alta fidelidade e conferência das evidências. |
 | Gemini | Auxílio na estruturação textual, organização das tabelas, implementação dos modais de zoom e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

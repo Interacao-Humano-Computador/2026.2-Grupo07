@@ -5,9 +5,9 @@
 | Membro | Contribuição |
 | :--- | :--- |
 | Daniel da Silva Batista | Elaboração integral do documento: [metodologia e priorização](#2-metodologia-de-avaliacao), [análise dos 8 princípios](#3-analise-dos-8-principios-gerais-no-pci-concursos) e [síntese e trade-offs](#4-sintese-dos-principios-gerais-e-diretrizes-para-o-pci-concursos). |
-| Pedro Rocha Ferreira Lima | Revisão técnica da [matriz de síntese](#4-sintese-dos-principios-gerais-e-diretrizes-para-o-pci-concursos) e conformidade do documento ([histórico de versões](#6-historico-de-versoes)). |
+| Pedro Rocha Ferreira Lima | Revisão técnica da matriz de síntese e conformidade do documento. |
 | Arthur Sismene Carvalho | Validação das violações no contexto de simulados e acesso móvel ([Controle e Liberdade](#33-equilibrio-entre-controle-e-liberdade-do-usuario)). |
-| Leonardo da Silva Lopes Júnior | Revisão de consistência com os hábitos dos concurseiros maduros e ativos ([Consistência e Padronização](#34-consistencia-e-padronizacao-promocao-da-eficiencia-do-usuario)). |
+| Leonardo da Silva Lopes Júnior | Revisão de consistência com os hábitos dos concurseiros maduros e ativos. |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

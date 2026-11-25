@@ -4,8 +4,8 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Pedro Rocha Ferreira Lima | Gravação e condução da apresentação individual da Etapa 5 ([Apresentação 5 — Pedro Rocha Ferreira Lima](#apresentacao-5-pedro-rocha-ferreira-lima)). |
-| Daniel da Silva Batista | Criação da página individual da apresentação e incorporação do vídeo no MkDocs ([Apresentação 5 — Pedro Rocha Ferreira Lima](#apresentacao-5-pedro-rocha-ferreira-lima)). |
+| Pedro Rocha Ferreira Lima | Gravação e condução da apresentação individual da Etapa 5 ([Vídeo de Apresentação — Etapa 5](#1-video-de-apresentacao-etapa-5)). |
+| Daniel da Silva Batista | Criação da página individual da apresentação e incorporação do vídeo no MkDocs ([Vídeo de Apresentação — Etapa 5](#1-video-de-apresentacao-etapa-5)). |
 | Gemini | Auxílio na estruturação textual e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

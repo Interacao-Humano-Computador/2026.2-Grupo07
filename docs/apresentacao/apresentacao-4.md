@@ -4,8 +4,8 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Gravação e participação no vídeo de apresentação da Etapa 4 ([Apresentação 4 — Grupo 07](#apresentacao-4-grupo-07)). |
-| Arthur Sismene Carvalho | Criação da página de apresentação e incorporação do vídeo no MkDocs ([Apresentação 4 — Grupo 07](#apresentacao-4-grupo-07)). |
+| Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Gravação e participação no vídeo de apresentação da Etapa 4 ([Vídeo de Apresentação — Etapa 4](#1-video-de-apresentacao-etapa-4)). |
+| Arthur Sismene Carvalho | Criação da página de apresentação e incorporação do vídeo no MkDocs ([Vídeo de Apresentação — Etapa 4](#1-video-de-apresentacao-etapa-4)). |
 | Claude (Anthropic) | Auxílio na diagramação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
