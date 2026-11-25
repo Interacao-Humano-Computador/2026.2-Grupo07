@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Elaboração dos itens PP-01 a PP-05, revisão dos itens da v1 e recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens PP-06 a PP-10 (reaproveitando itens da autoinspeção do protótipo de papel e dois itens complementares do livro), com fonte por página. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PP-11 a PP-15, recortes do livro. |
+| **Daniel da Silva Batista** | Elaboração dos itens PP-01 a PP-05, revisão dos itens da v1 e recortes do livro ([Itens 01–05](#41-pp-01-telas-desenhadas-em-papel)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens PP-06 a PP-10 (reaproveitando itens da autoinspeção do protótipo de papel e dois itens complementares do livro), com fonte por página ([Itens 06–10](#46-pp-06-affordances-dos-elementos-interativos)). |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PP-11 a PP-15, recortes do livro ([Itens 11–15](#411-pp-11-instrucoes-de-interacao-no-inicio)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>

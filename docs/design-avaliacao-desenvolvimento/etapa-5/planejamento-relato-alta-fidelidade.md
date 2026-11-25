@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Redação do planejamento do relato, definição dos tópicos canônicos segundo Barbosa e Silva (2021, p. 309), modelo da lista de problemas e cronograma de reprojeto. |
-| Arthur Sismene Carvalho | Revisão dos critérios de avaliação, metas de usabilidade e detalhamento das métricas de tarefas. |
-| Leonardo da Silva Lopes Júnior | Revisão da estrutura de documentação, do perfil dos participantes e adequação às normas da ABNT. |
-| Pedro Rocha Ferreira Lima | Revisão técnica geral, definição da escala de severidade de problemas de usabilidade (Nielsen, 1993) e consolidação metodológica. |
+| Daniel da Silva Batista | Redação do planejamento do relato, definição dos tópicos canônicos segundo Barbosa e Silva (2021, p. 309), modelo da lista de problemas e cronograma de reprojeto ([Estrutura Padrão do Relato](#2-estrutura-padrao-do-relato-dos-resultados-barbosa-e-silva-2021-p-309)). |
+| Arthur Sismene Carvalho | Revisão dos critérios de avaliação, metas de usabilidade e detalhamento das métricas de tarefas ([Histórico de Versões](#7-historico-de-versoes)). |
+| Leonardo da Silva Lopes Júnior | Revisão da estrutura de documentação, do perfil dos participantes e adequação às normas da ABNT ([Histórico de Versões](#7-historico-de-versoes)). |
+| Pedro Rocha Ferreira Lima | Revisão técnica geral, definição da escala de severidade de problemas de usabilidade (Nielsen, 1993) e consolidação metodológica ([Histórico de Versões](#7-historico-de-versoes)). |
 | Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

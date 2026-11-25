@@ -4,11 +4,11 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Transposição dos itens oficiais do plano de ensino (Itens 1 a 23), estruturação da página e elaboração do **Item extra 25** (Mitigação do Viés de Concordância na Entrevista). |
-| **Arthur Sismene Carvalho** | Revisão técnica da lista e elaboração do **Item extra 24** (Rigor e Execução do Teste-Piloto). |
-| **Pedro Rocha Ferreira Lima** | Revisão da fundamentação teórica e elaboração do **Item extra 26** (Escala Padronizada de Gravidade de Problemas). |
-| **Leonardo da Silva Lopes Júnior** | Revisão da formatação e elaboração do **Item extra 27** (Rastreabilidade entre Amostra de Participantes e Elenco de Personas). |
-| **Pedro Rocha Ferreira Lima** | Aplicação da lista de verificação aos artefatos da Etapa 4 do Grupo 06 e redação das respostas e observações (14/10/2026). |
+| **Daniel da Silva Batista** | Transposição dos itens oficiais do plano de ensino (Itens 1 a 23), estruturação da página e elaboração do **Item extra 25** (Mitigação do Viés de Concordância na Entrevista) ([Item 25 — Mitigação do Viés de Concordância](#72-item-25-mitigacao-do-vies-de-concordancia-acquiescence-bias-na-entrevista)). |
+| **Arthur Sismene Carvalho** | Revisão técnica da lista e elaboração do **Item extra 24** (Rigor e Execução do Teste-Piloto) ([Histórico de Versões](#9-historico-de-versoes)). |
+| **Pedro Rocha Ferreira Lima** | Revisão da fundamentação teórica e elaboração do **Item extra 26** (Escala Padronizada de Gravidade de Problemas) ([Histórico de Versões](#9-historico-de-versoes)). |
+| **Leonardo da Silva Lopes Júnior** | Revisão da formatação e elaboração do **Item extra 27** (Rastreabilidade entre Amostra de Participantes e Elenco de Personas) ([Histórico de Versões](#9-historico-de-versoes)). |
+| **Pedro Rocha Ferreira Lima** | Aplicação da lista de verificação aos artefatos da Etapa 4 do Grupo 06 e redação das respostas e observações (14/10/2026) ([Vídeo de Verificação — Etapa 4 (Grupo 06)](#3-video-de-verificacao-etapa-4-grupo-06)). |
 | **Gemini** | Apoio na organização e diagramação Markdown (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

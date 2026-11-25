@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Planejamento da inspeção, escolha dos exemplos, inspeção e gravação conjunta. |
-| **Arthur Sismene Carvalho** | Inspeção e gravação conjunta. |
-| **Pedro Rocha Ferreira Lima** | Inspeção e gravação conjunta. |
+| **Daniel da Silva Batista** | Planejamento da inspeção, escolha dos exemplos, inspeção e gravação conjunta ([Exemplos Inspecionados e Síntese](#2-exemplos-inspecionados-e-sintese)). |
+| **Arthur Sismene Carvalho** | Inspeção e gravação conjunta ([Vídeo da Inspeção](#5-video-da-inspecao)). |
+| **Pedro Rocha Ferreira Lima** | Inspeção e gravação conjunta ([Vídeo da Inspeção](#5-video-da-inspecao)). |
 | **Claude (Anthropic)** | Apoio na leitura dos artefatos, no registro das evidências e na organização da página (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

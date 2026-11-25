@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Leonardo da Silva Lopes Júnior | Concepção e desenho manual do Protótipo de Papel da TAR-08 (Telas 1 e 2 com componentes de linha do tempo, grade mensal e cartões de alerta), detalhamento funcional e estruturação do artefato individual (Nível 2). |
+| Leonardo da Silva Lopes Júnior | Concepção e desenho manual do Protótipo de Papel da TAR-08 (Telas 1 e 2 com componentes de linha do tempo, grade mensal e cartões de alerta), detalhamento funcional e estruturação do artefato individual (Nível 2) ([Apresentação das Peças do Protótipo de Papel](#2-apresentacao-das-pecas-do-prototipo-de-papel)). |
 | Gemini | Auxílio na estruturação textual, organização e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>

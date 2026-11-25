@@ -169,7 +169,8 @@ Na Tabela 6, tem-se o registro da execução real das atividades da terceira ent
 | Elaboração do artefato de Guia de Estilo | Início: 05/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior | Início: 06/10<br>Fim: 06/10 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
 | Elaboração do artefato de Características da Plataforma | Início: 05/10<br>Fim: 06/10 | Arthur Sismene Carvalho | Início: 06/10<br>Fim: 06/10 | Leonardo da Silva Lopes Júnior |
 | Gravação da Apresentação da Etapa 3 | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 06/10<br>Fim: 06/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
-| Verificação e Gravação da Etapa 3 (Grupo 07 e Grupo 08) | Início: 09/10<br>Fim: 10/10 | Daniel da Silva Batista | - | - |
+| Verificação e Gravação da Etapa 3 (Grupo 07 e Grupo 08) | Início: 09/10<br>Fim: 10/10 | Daniel da Silva Batista | Início: 10/10<br>Fim: 10/10 | Pedro Rocha Ferreira Lima |
+| Correção pós-apresentação da Etapa 3 | Início: 09/10<br>Fim: 10/10 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 10/10<br>Fim: 10/10 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -350,7 +351,9 @@ Na Tabela 14, tem-se o registro real de execução das atividades da sétima ent
 | Condução presencial e gravação das 2 Sessões Empíricas com usuários reais (câmera dupla e gravação síncrona de tela — TAR-08) | Início: 14/11<br>Fim: 15/11 | Leonardo da Silva Lopes Júnior | Início: 15/11<br>Fim: 15/11 | Arthur Sismene Carvalho |
 | Análise dos vídeos, captura das telas e elaboração do Relato Individual dos Resultados do Protótipo de Alta Fidelidade (Nível 3) | Início: 13/11<br>Fim: 13/11 | Daniel da Silva Batista | Início: 14/11<br>Fim: 14/11 | Pedro Rocha Ferreira Lima |
 | Análise dos vídeos, captura das 5 telas e elaboração do Relato Individual dos Resultados de Alta Fidelidade (`TAR-08`) | Início: 15/11<br>Fim: 15/11 | Leonardo da Silva Lopes Júnior | Início: 15/11<br>Fim: 15/11 | Daniel da Silva Batista |
-| Gravação da Apresentação da Etapa 7 | *Em andamento* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima | *A realizar* | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
+| Confecção do Protótipo no Lovable, Teste-Piloto, Sessão Empírica e Relato Individual de Alta Fidelidade (TAR-05) | Início: 13/11<br>Fim: 15/11 | Arthur Sismene Carvalho | Início: 15/11<br>Fim: 16/11 | Daniel da Silva Batista |
+| Confecção do Protótipo no Lovable, Teste-Piloto, 3 Sessões Empíricas e Relato Individual de Alta Fidelidade (TAR-04) | Início: 12/11<br>Fim: 15/11 | Pedro Rocha Ferreira Lima | Início: 15/11<br>Fim: 16/11 | Daniel da Silva Batista |
+| Gravação da Apresentação da Etapa 7 | Início: 14/11<br>Fim: 15/11 | Daniel Batista, Leonardo Lopes, Pedro Lima | Início: 15/11<br>Fim: 16/11 | Arthur Sismene, Daniel Batista, Leonardo Lopes, Pedro Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 
@@ -358,11 +361,13 @@ Na Tabela 14, tem-se o registro real de execução das atividades da sétima ent
 
 ## 8. Etapa 8 - Verificação dos Artefatos
 
-Na Tabela 14, tem-se o cronograma planejado para as atividades da oitava entrega.
+### 8.1 Cronograma Planejado
+
+Na Tabela 15, tem-se o cronograma planejado para as atividades da oitava entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 14 - Cronograma Planejado (Etapa 8)</b></p>
+<p align="center"><b>Tabela 15 - Cronograma Planejado (Etapa 8)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -376,13 +381,35 @@ Na Tabela 14, tem-se o cronograma planejado para as atividades da oitava entrega
 
 </div>
 
-## 9. Projeto Final
+### 8.2 Cronograma Executado
 
-Na Tabela 15, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
+Na Tabela 16, tem-se o registro real de execução das atividades da oitava entrega.
 
 <div align="center" markdown="1">
 
-<p align="center"><b>Tabela 15 - Cronograma Planejado (Projeto Final)</b></p>
+<p align="center"><b>Tabela 16 - Cronograma Executado (Etapa 8)</b></p>
+
+| Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
+| :--- | :---: | :--- | :---: | :--- |
+| Padronização ABNT de títulos, fontes e chamadas de tabelas e figuras | Início: 18/11<br>Fim: 19/11 | Daniel da Silva Batista | Início: 19/11<br>Fim: 19/11 | Pedro Rocha Ferreira Lima |
+| Preenchimento das verificações da Etapa 4 (Grupo 07 e Grupo 06) | Início: 18/11<br>Fim: 19/11 | Daniel da Silva Batista | Início: 19/11<br>Fim: 19/11 | Pedro Rocha Ferreira Lima |
+| Planejamento da Inspeção de Fagan e elaboração das 12 Listas de Verificação | Início: 19/11<br>Fim: 22/11 | Arthur Sismene, Daniel Batista, Pedro Lima | Início: 22/11<br>Fim: 23/11 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
+| Inspeção individual dos artefatos do grupo, gravação dos vídeos e revisão do protótipo de papel | Início: 22/11<br>Fim: 23/11 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima | Início: 23/11<br>Fim: 23/11 | Daniel da Silva Batista, Pedro Rocha Ferreira Lima |
+| Inspeção cruzada dos Grupos 06 e 08, gravação dos vídeos e deploy no GitHub Pages | Início: 23/11<br>Fim: 24/11 | Arthur Sismene, Daniel Batista, Pedro Lima | Início: 24/11<br>Fim: 24/11 | Arthur Sismene Carvalho, Pedro Rocha Ferreira Lima |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+## 9. Projeto Final
+
+### 9.1 Cronograma Planejado
+
+Na Tabela 17, tem-se o cronograma planejado para as atividades da entrega final da disciplina.
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 17 - Cronograma Planejado (Projeto Final)</b></p>
 
 | Atividade | Período de Desenvolvimento | Responsáveis | Período de Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
@@ -422,6 +449,7 @@ Na Tabela 15, tem-se o cronograma planejado para as atividades da entrega final 
 | `1.9` | 21/10/2026 | Inserção do Cronograma Executado da Etapa 4 e detalhamento das atividades executadas e planejadas da Etapa 5 (Storyboards e Teste-Piloto de Nível 1). | Daniel da Silva Batista | Arthur Sismene Carvalho |
 | `2.0` | 02/11/2026 | Atualização do Cronograma Executado da Etapa 5 (entrevistas, relatos individuais e apresentação gravada) e inserção do Cronograma Executado da Etapa 6 (Protótipo de Papel e Planejamento de Alta Fidelidade). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `2.1` | 13/11/2026 | Conclusão do registro da Etapa 6 e inclusão do Cronograma Executado da Etapa 7 (Protótipo de Alta Fidelidade no Lovable, 3 sessões presenciais e relato de Nível 3). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `2.2` | 25/11/2026 | Correção da numeração duplicada da Tabela 14 (D04), complementação das Tabelas 6 (Etapa 3) e 14 (atividades de Arthur e Pedro na Etapa 7) e inclusão do Cronograma Executado da Etapa 8 (Tabela 16) (D06). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
 

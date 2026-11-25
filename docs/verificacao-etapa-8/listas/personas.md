@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Elaboração dos itens PE-01 a PE-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens PE-06 a PE-10, recortes do livro. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PE-11 a PE-15, recortes do livro. |
+| **Daniel da Silva Batista** | Elaboração dos itens PE-01 a PE-05, recortes do livro ([Itens 01–05](#41-pe-01-identidade-da-persona)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens PE-06 a PE-10, recortes do livro ([Itens 06–10](#46-pe-06-habilidades-e-experiencia)). |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PE-11 a PE-15, recortes do livro ([Itens 11–15](#411-pe-11-tarefas-da-persona)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>

@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Elaboração integral do documento de Princípios Gerais de Projeto, fundamentação teórica segundo Norman (1988) e Barbosa e Silva (2010), inserção das evidências bibliográficas fotográficas, análise heurística dos 8 tópicos no portal PCI Concursos e proposição das diretrizes de reprojeto (Itens 11 e 12). |
-| Pedro Rocha Ferreira Lima | Revisão técnica de conformidade com os modelos de tarefas e inspeção ergonômica. |
-| Arthur Sismene Carvalho | Validação das violações no contexto de simulados e acesso móvel. |
-| Leonardo da Silva Lopes Júnior | Revisão de consistência com os hábitos dos concurseiros maduros e ativos. |
+| Daniel da Silva Batista | Elaboração integral do documento: [metodologia e priorização](#2-metodologia-de-avaliacao), [análise dos 8 princípios](#3-analise-dos-8-principios-gerais-no-pci-concursos) e [síntese e trade-offs](#4-sintese-dos-principios-gerais-e-diretrizes-para-o-pci-concursos). |
+| Pedro Rocha Ferreira Lima | Revisão técnica da [matriz de síntese](#4-sintese-dos-principios-gerais-e-diretrizes-para-o-pci-concursos) e conformidade do documento ([histórico de versões](#6-historico-de-versoes)). |
+| Arthur Sismene Carvalho | Validação das violações no contexto de simulados e acesso móvel ([Controle e Liberdade](#33-equilibrio-entre-controle-e-liberdade-do-usuario)). |
+| Leonardo da Silva Lopes Júnior | Revisão de consistência com os hábitos dos concurseiros maduros e ativos ([Consistência e Padronização](#34-consistencia-e-padronizacao-promocao-da-eficiencia-do-usuario)). |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -57,6 +57,14 @@ Para cada um dos oito princípios, este documento apresenta:
 * A **identificação da violação ergonômica** observada;
 * A **sugestão técnica de reprojeto** a ser incorporada nas etapas subsequentes;
 * O **autor responsável** pelo exame.
+
+### 2.1 Critérios de Seleção e Priorização das Diretrizes
+
+Embora os oito princípios de Barbosa e Silva (2010) sejam pertinentes ao portal PCI Concursos, a equipe estabeleceu dois níveis de prioridade com base na gravidade das dores elicitadas na Etapa 2 (entrevistas, análises documentais e tarefas `TAR-01` a `TAR-08`):
+
+- **Prioridade Alta (impacto direto na segurança, eficácia e conclusão das tarefas):** *Consistência e Padronização* (combate a banners falsos de download), *Correspondência com Expectativas* (filtragem por UF e área), *Simplicidade nas Tarefas* (redução de cliques em buscas e provas) e *Projeto para Erros* (validação de e-mail e prevenção de resultados vazios).
+- **Prioridade Complementar (otimização de eficiência e conforto cognitivo):** *Controle e Liberdade*, *Antecipação das Necessidades*, *Visibilidade e Reconhecimento* e *Conteúdo Relevante*.
+- **Fora de escopo nesta disciplina:** diretrizes específicas de hardware nativo (gestos multitoque proprietários de iOS/Android) e fluxos administrativos internos de publicação de editais, uma vez que o reprojeto foca na experiência web do candidato (Perfil 1).
 
 ---
 
@@ -327,6 +335,25 @@ A Tabela 1 consolida a matriz diagnóstica dos 8 princípios gerais analisados, 
 
 </div>
 
+### 4.1 Análise de *Trade-offs* entre Princípios Conflitantes
+
+Na prática de projeto de IHC, a aplicação simultânea de diferentes princípios gera tensões que exigem decisões explícitas de equilíbrio (*trade-offs*). A **Tabela 2** documenta os principais conflitos identificados no reprojeto do PCI Concursos e a solução adotada pela equipe:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 2: Matriz de <i>Trade-offs</i> entre Princípios Gerais de Projeto no PCI Concursos</b></p>
+
+| Conflito entre Princípios | Tensão no PCI Concursos | Decisão de Projeto Adotada |
+| :--- | :--- | :--- |
+| **Simplicidade nas Tarefas** × **Controle e Liberdade** | Oferecer múltiplos filtros combináveis (UF, escolaridade, área, banca, situação) aumenta o controle do candidato, mas pode sobrecarregar visualmente a tela inicial. | Agrupar os filtros em um painel expansível com valores padrão sensatos e tags removíveis (*chips*) com botão `Limpar`, mantendo a busca simples em destaque. |
+| **Antecipação das Necessidades** × **Conteúdo Relevante (Minimalismo)** | Exibir prazo de inscrição, data da prova, vagas, taxa e salário diretamente nos cards antecipa decisões, mas em excesso reproduz a poluição visual do site atual. | Limitar cada card a 4–5 metadados críticos em hierarquia tipográfica limpa, deslocando detalhes secundários para a página do edital e para o comparador. |
+| **Projeto para Erros** × **Eficiência / Rapidez** | Exigir confirmação de e-mail e *double opt-in* acrescenta um passo ao cadastro de alertas, reduzindo a velocidade imediata da tarefa. | Priorizar a prevenção de erros silenciosos (como `.con`), pois o custo de perder um prazo de inscrição é muito superior ao de confirmar um campo extra. |
+| **Visibilidade e Reconhecimento** × **Estética Minimalista** | Selos de alto contraste (`RETIFICADO`, `PRORROGADO`) chamam atenção para mudanças críticas, mas múltiplos selos coloridos simultâneos geram ruído cromático. | Restringir badges cromáticos a no máximo um selo de status prioritário por card, com paleta padronizada no Guia de Estilo. |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
 ---
 
 ## 5. Bibliografia
@@ -342,6 +369,7 @@ A Tabela 1 consolida a matriz diagnóstica dos 8 princípios gerais analisados, 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 06/10/2026 | Elaboração integral do documento de Princípios Gerais de Projeto, com fundamentação teórica de Norman (1988) e Barbosa & Silva (2010), inserção das fotos das referências bibliográficas dos 8 tópicos e diagnóstico das violações no PCI Concursos (Itens 11 e 12). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 25/11/2026 | Inclusão de hiperligações na Tabela de Contribuição (D10), critérios de priorização das diretrizes (E3-12) e matriz de trade-offs entre princípios conflitantes (E3-19). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Redação da introdução, dos princípios bioéticos, fundamentação regulamentar (CNS e LGPD) e elaboração do modelo de TCLE com consentimento de gravação. |
-| Arthur Sismene Carvalho | Revisão textual e conformidade das cláusulas de consentimento com a pesquisa de campo. |
-| Leonardo da Silva Lopes Júnior | Revisão da adequação às diretrizes da disciplina de IHC. |
-| Pedro Rocha Ferreira Lima | Revisão técnica e validação dos direitos do participante e anonimização de dados. |
+| Daniel da Silva Batista | Redação da introdução, dos princípios bioéticos, fundamentação regulamentar (CNS e LGPD) e elaboração do modelo de TCLE com consentimento de gravação ([Modelo do TCLE](#modelo-do-termo-de-consentimento-livre-e-esclarecido-tcle)). |
+| Arthur Sismene Carvalho | Revisão textual e conformidade das cláusulas de consentimento com a pesquisa de campo ([Histórico de Versões](#6-historico-de-versoes)). |
+| Leonardo da Silva Lopes Júnior | Revisão da adequação às diretrizes da disciplina de IHC ([Histórico de Versões](#6-historico-de-versoes)). |
+| Pedro Rocha Ferreira Lima | Revisão técnica e validação dos direitos do participante e anonimização de dados ([Histórico de Versões](#6-historico-de-versoes)). |
 | Gemini | Auxílio na estruturação textual e formatação do artefato em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

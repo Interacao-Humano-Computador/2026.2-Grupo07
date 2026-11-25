@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Leonardo da Silva Lopes Júnior | Elaboração do Storyboard SB-04, autoinspeção analítica dos modelos HTA/CTT e do storyboard (com vídeos gravados no YouTube), condução do teste-piloto (com vídeo gravado no YouTube), preparação para avaliação com usuário real (TAR-08 / SB-04), consolidação individual e relato de resultados e oportunidades de reprojeto conforme Barbosa e Silva (2021). |
+| Leonardo da Silva Lopes Júnior | Elaboração do Storyboard SB-04, autoinspeção analítica dos modelos HTA/CTT e do storyboard (com vídeos gravados no YouTube), condução do teste-piloto (com vídeo gravado no YouTube), preparação para avaliação com usuário real (TAR-08 / SB-04), consolidação individual e relato de resultados e oportunidades de reprojeto conforme Barbosa e Silva (2021) ([Inspeção do Storyboard SB-04 (Autor: Leonardo Lopes)](#34-inspecao-do-storyboard-sb-04-autor-leonardo-lopes)). |
 | Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>

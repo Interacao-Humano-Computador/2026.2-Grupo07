@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Estruturação da Etapa 8, descrição do método de inspeção de Fagan e planejamento da verificação (escopo, papéis, composição das listas e cronograma). |
-| **Arthur Sismene Carvalho** | Elaboração dos itens 06 a 10 das 5 listas v2 (HTA, CTT, Storyboard, Protótipo de Papel e Protótipo de Alta Fidelidade); recortes do livro a inserir. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens 11 a 15 das 12 listas de verificação. |
+| **Daniel da Silva Batista** | Estruturação da Etapa 8, descrição do método de inspeção de Fagan e planejamento da verificação (escopo, papéis, composição das listas e cronograma) ([Método de Inspeção de Fagan](#2-metodo-de-inspecao-de-fagan)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens 06 a 10 das 5 listas v2 (HTA, CTT, Storyboard, Protótipo de Papel e Protótipo de Alta Fidelidade); recortes do livro a inserir ([Composição das Listas de Verificação](#31-composicao-das-listas-de-verificacao)). |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens 11 a 15 das 12 listas de verificação ([Composição das Listas de Verificação](#31-composicao-das-listas-de-verificacao)). |
 | **Claude (Anthropic)** | Apoio na organização da página (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

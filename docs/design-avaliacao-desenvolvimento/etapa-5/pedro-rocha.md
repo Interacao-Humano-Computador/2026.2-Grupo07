@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Pedro Rocha Ferreira Lima | Elaboração do Storyboard SB-02, autoinspeção analítica dos modelos HTA/CTT e do storyboard, condução do teste-piloto e das entrevistas de avaliação com usuários reais (TAR-04), consolidação individual e propostas de reprojeto. |
+| Pedro Rocha Ferreira Lima | Elaboração do Storyboard SB-02, autoinspeção analítica dos modelos HTA/CTT e do storyboard, condução do teste-piloto e das entrevistas de avaliação com usuários reais (TAR-04), consolidação individual e propostas de reprojeto ([Avaliação com Usuários](#5-avaliacao-com-usuarios-entrevistas-empiricas-tar-04-e-sb-02)). |
 | Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>

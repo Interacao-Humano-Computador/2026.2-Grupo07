@@ -19,7 +19,24 @@
 
 Um processo de design em Interação Humano-Computador (IHC) consiste em um conjunto de atividades básicas – análise, síntese e avaliação – que visa projetar sistemas interativos com alta qualidade de uso. Existem diversas propostas de ciclos de vida na literatura, como o Ciclo de Vida Simples, o Ciclo de Vida em Estrela e a Engenharia de Usabilidade de Nielsen.
 
-Para a condução deste projeto focado na reestruturação e avaliação do portal **PCI Concursos**, a equipe escolheu adotar o **Ciclo de Vida da Engenharia de Usabilidade de Mayhew** (MAYHEW, 1999; BARBOSA e SILVA, 2010).
+Para a condução deste projeto focado na reestruturação e avaliação do portal **PCI Concursos**, a equipe analisou os quatro principais modelos de ciclo de vida apresentados por Barbosa e Silva (2010, Cap. 5) antes de definir sua adoção. A **Tabela 1** sintetiza o comparativo entre essas alternativas:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 1: Comparativo entre modelos de ciclo de vida de IHC</b></p>
+
+| Modelo de Ciclo de Vida | Estrutura Principal | Pontos Fortes | Limitações para o Projeto |
+| :--- | :--- | :--- | :--- |
+| **Ciclo de Vida Simples** (Preece et al., 2002) | 4 atividades básicas iterativas (requisitos, design, protótipo e avaliação). | Simples e fácil de entender em alto nível. | Pouco prescritivo; não detalha os artefatos intermediários exigidos em cada entrega da disciplina. |
+| **Ciclo de Vida em Estrela** (Hix e Hartson, 1993) | Avaliação no centro, permitindo iniciar por qualquer atividade. | Alta flexibilidade e foco contínuo em avaliação. | Exige maturidade prévia da equipe para gerenciar ordem de artefatos sem fluxo sequencial guiado. |
+| **Engenharia de Usabilidade de Nielsen** (Nielsen, 1993) | Sequência de 11 atividades centradas em metas, análise competitiva e prototipação iterativa. | Forte ênfase em avaliação empírica e análise competitiva. | Menor detalhamento estrutural na transição entre protótipos de baixa, média e alta fidelidade. |
+| **Engenharia de Usabilidade de Mayhew** (Mayhew, 1999) | 3 fases (Análise de Requisitos; Design, Avaliação e Desenvolvimento em 3 níveis; Instalação). | Fluxo detalhado passo a passo, rastreável da análise de tarefas até a alta fidelidade e alinhado ao plano de ensino. | Documentação mais extensa, mitigada pela divisão de tarefas entre os integrantes. |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026), adaptado de BARBOSA e SILVA (2010, Cap. 5).</p>
+
+</div>
+
+A partir dessa comparação, a equipe escolheu adotar o **Ciclo de Vida da Engenharia de Usabilidade de Mayhew** (MAYHEW, 1999; BARBOSA e SILVA, 2010).
 
 ## 2. Escolha do Processo: Engenharia de Usabilidade de Mayhew
 
@@ -68,8 +85,11 @@ A teoria de Mayhew é aplicada de forma pragmática ao longo do nosso projeto no
 ## 4. Referências Bibliográficas
 
 > [1] BARBOSA, Simone D. J.; SILVA, Bruno S. da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.  
-> [2] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.  
-> [3] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.  
+> [2] HIX, Deborah; HARTSON, H. Rex. *Developing User Interfaces: Ensuring Usability Through Product & Process*. New York: John Wiley & Sons, 1993.  
+> [3] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.  
+> [4] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1993.  
+> [5] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: Beyond Human-Computer Interaction*. New York: John Wiley & Sons, 2002.  
+> [6] SALES, André Barros de. *Plano de ensino FIHC 022026 – Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.  
 
 ---
 
@@ -82,6 +102,7 @@ A teoria de Mayhew é aplicada de forma pragmática ao longo do nosso projeto no
 | `1.0` | 06/09/2026 | Criação do documento de Processo de Design e definição da metodologia. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 | `1.1` | 17/09/2026 | Adição da Tabela de Contribuição e padronização da IA Gemini. | Leonardo da Silva Lopes Júnior | Daniel da Silva Batista |
 | `1.2` | 09/10/2026 | Correção das observações do monitor (OBS 8): chamada explícita da Figura 1 no texto, adequação do contexto para o portal PCI Concursos, inclusão de agradecimentos e referências bibliográficas. | Daniel da Silva Batista | Arthur Sismene Carvalho |
+| `1.3` | 25/11/2026 | Inclusão da Tabela 1 comparando os ciclos de vida de IHC (Simples, Estrela, Nielsen e Mayhew) e atualização das referências bibliográficas em atendimento ao critério E1-08 da inspeção do Grupo 06. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
 

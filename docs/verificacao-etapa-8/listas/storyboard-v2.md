@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Elaboração dos itens SB-01 a SB-05, revisão dos itens da v1 e recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens SB-06 a SB-10, reescritos a partir de itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens SB-11 a SB-15, recortes do livro. |
+| **Daniel da Silva Batista** | Elaboração dos itens SB-01 a SB-05, revisão dos itens da v1 e recortes do livro ([Itens 01–05](#41-sb-01-definicao-de-storyboard)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens SB-06 a SB-10, reescritos a partir de itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página ([Itens 01–05](#41-sb-01-definicao-de-storyboard)). |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens SB-11 a SB-15, recortes do livro ([Itens 11–15](#411-sb-11-exploracao-de-melhorias)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>

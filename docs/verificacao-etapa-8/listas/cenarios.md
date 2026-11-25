@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Elaboração dos itens CE-01 a CE-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens CE-06 a CE-10, recortes do livro. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CE-11 a CE-15, recortes do livro. |
+| **Daniel da Silva Batista** | Elaboração dos itens CE-01 a CE-05, recortes do livro ([Itens 01–05](#41-ce-01-cenario-como-narrativa)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens CE-06 a CE-10, recortes do livro ([Itens 06–10](#46-ce-06-objetos-e-contexto)). |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CE-11 a CE-15, recortes do livro ([Itens 11–15](#411-ce-11-avaliacao-pelo-ator)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>

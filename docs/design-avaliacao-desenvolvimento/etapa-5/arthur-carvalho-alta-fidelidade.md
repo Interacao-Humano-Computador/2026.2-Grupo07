@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho | Especificação do protótipo de alta fidelidade a partir do protótipo de papel, condução da construção na plataforma Lovable, autoinspeção analítica, teste-piloto, moderação das sessões empíricas, captura das telas, análise dos resultados e redação desta página. |
+| Arthur Sismene Carvalho | Especificação do protótipo de alta fidelidade a partir do protótipo de papel, condução da construção na plataforma Lovable, autoinspeção analítica, teste-piloto, moderação das sessões empíricas, captura das telas, análise dos resultados e redação desta página ([Autoinspeção Analítica](#3-autoinspecao-analitica-previa-do-prototipo-de-alta-fidelidade)). |
 | Claude (Anthropic) | Auxílio na estruturação textual, organização das tabelas, implementação dos modais de zoom, formatação em Markdown e intermediação das instruções enviadas ao agente da plataforma Lovable (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>

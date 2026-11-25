@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Elaboração dos itens TP-01 a TP-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens TP-06 a TP-10, recortes do livro. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens TP-11 a TP-15, recortes do livro. |
+| **Daniel da Silva Batista** | Elaboração dos itens TP-01 a TP-05, recortes do livro ([Itens 01–05](#41-tp-01-realizacao-do-teste-piloto)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens TP-06 a TP-10, recortes do livro ([Itens 06–10](#46-tp-06-termo-de-consentimento-no-piloto)). |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens TP-11 a TP-15, recortes do livro ([Itens 11–15](#411-tp-11-analise-rapida-dos-dados-do-piloto)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>

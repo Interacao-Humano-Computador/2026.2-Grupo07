@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | **Concepção, estruturação metodológica e elaboração integral da Lista de Verificação (LV) da Etapa 3** (baseada no plano de ensino de Sales, 2026), formulação dos critérios dos itens 11 e 12 (Princípios Gerais do Projeto), item extra 19 (Dark Patterns e Projeto para Erros), conferência rigorosa de conformidade, consolidação da autoavaliação e **gravação do vídeo de apresentação da autoavaliação**. |
-| Pedro Rocha Ferreira Lima | Elaboração de seus tópicos específicos atribuídos: itens 10, 13 e 14 (Características da Plataforma e Metas de Usabilidade) e item extra 18 (Acessibilidade WCAG 2.1). |
-| Leonardo da Silva Lopes Júnior | Elaboração de seus tópicos específicos atribuídos: itens 15 e 16 (Guia de Estilo e sua estrutura canônica) e item extra 21 (Design Tokens e Grid Modular). |
-| Arthur Sismene Carvalho | Elaboração de seus tópicos específicos atribuídos: item 17 (Correspondência do Guia de Estilo com o site avaliado) e item extra 20 (Rastreabilidade com Personas/Cenários). |
+| **Daniel da Silva Batista** | **Concepção, estruturação metodológica e elaboração integral da Lista de Verificação (LV) da Etapa 3** (baseada no plano de ensino de Sales, 2026), formulação dos critérios dos itens 11 e 12 (Princípios Gerais do Projeto), item extra 19 (Dark Patterns e Projeto para Erros), conferência rigorosa de conformidade, consolidação da autoavaliação e **gravação do vídeo de apresentação da autoavaliação** ([Vídeo de Autoavaliação — Etapa 3](#3-video-de-autoavaliacao-etapa-3)). |
+| Pedro Rocha Ferreira Lima | Elaboração de seus tópicos específicos atribuídos: itens 10, 13 e 14 (Características da Plataforma e Metas de Usabilidade) e item extra 18 (Acessibilidade WCAG 2.1) ([Item 18 — Acessibilidade em Sistemas Interativos](#71-item-18-acessibilidade-em-sistemas-interativos)). |
+| Leonardo da Silva Lopes Júnior | Elaboração de seus tópicos específicos atribuídos: itens 15 e 16 (Guia de Estilo e sua estrutura canônica) e item extra 21 (Design Tokens e Grid Modular) ([Item 21 — Design Rationale](#74-item-21-rastreamento-das-decisoes-de-design-design-rationale-no-guia-de-estilo)). |
+| Arthur Sismene Carvalho | Elaboração de seus tópicos específicos atribuídos: item 17 (Correspondência do Guia de Estilo com o site avaliado) e item extra 20 (Rastreabilidade com Personas/Cenários) ([Item 20 — Padrões de Design](#73-item-20-padroes-de-design-de-ihc-design-patterns)). |
 | Gemini | Apoio na estruturação formal, conferência dos critérios normativos e diagramação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -20,10 +20,10 @@
 
 Este artefato reúne a lista de verificação de **Autoavaliação da Etapa 3** do **Grupo 07**, elaborada com base nos critérios estabelecidos pelo professor André Barros de Sales no plano de ensino da disciplina de Interação Humano-Computador (SALES, 2026). A inspeção recai sobre os artefatos de **Princípios Gerais de Projeto**, **Metas de Usabilidade**, **Características da Plataforma** e **Guia de Estilo**, produzidos para o reprojeto do portal **PCI Concursos** (`pciconcursos.com.br`) e publicados no [GitHub Pages do projeto](https://interacao-humano-computador.github.io/2026.2-Grupo07/).
 
-A lista reúne **22 itens**, distribuídos em três blocos normativos:
+A lista reúne **21 itens**, distribuídos em três blocos normativos:
 1. **10 itens de desenvolvimento do projeto** ([Seção 5](#5-itens-de-desenvolvimento-do-projeto)), comuns a todas as entregas da disciplina;
-2. **8 itens de conteúdo da disciplina da Etapa 3 (Itens 10 a 17)** ([Seção 6](#6-itens-de-conteudo-da-disciplina)), contendo fundamentação teórica rigorosa, atribuição de autores individuais por membro e registros fotográficos dos textos da literatura de referência;
-3. **4 itens elaborados pelo grupo** ([Seção 7](#7-itens-elaborados-pelo-grupo)), aprofundando aspectos cruciais de acessibilidade, dark patterns, rastreabilidade projetual e design tokens.
+2. **7 itens de conteúdo da disciplina da Etapa 3 (Itens 11 a 17)** ([Seção 6](#6-itens-de-conteudo-da-disciplina)), contendo fundamentação teórica rigorosa, atribuição de autores individuais por membro e registros fotográficos dos textos da literatura de referência;
+3. **4 itens elaborados pelo grupo (Itens 18 a 21)** ([Seção 7](#7-itens-elaborados-pelo-grupo)), aprofundando aspectos cruciais de acessibilidade, dark patterns, rastreabilidade projetual e design tokens.
 
 ---
 
@@ -109,7 +109,7 @@ A Tabela 2 apresenta a autoavaliação dos 10 itens gerais de desenvolvimento do
 
 ## 6. Itens de Conteúdo da Disciplina
 
-A Tabela 3 detalha a avaliação dos 8 itens de conteúdo da disciplina (itens 10 a 17) estabelecidos no plano de ensino para a Etapa 3. Conforme exigência pedagógica, cada membro da equipe responsabilizou-se pela elaboração e comprovação bibliográfica dos itens.
+A Tabela 3 detalha a avaliação dos 7 itens de conteúdo da disciplina (itens 11 a 17) estabelecidos no plano de ensino para a Etapa 3. Conforme exigência pedagógica, cada membro da equipe responsabilizou-se pela elaboração e comprovação bibliográfica dos itens.
 
 <div align="center" markdown="1">
 
@@ -191,6 +191,8 @@ A Tabela 5 apresenta o Item 19 — prevenção contra padrões obscuros (*dark p
 
 </div>
 
+A Figura 2 reproduz a referência bibliográfica — prevenção contra padrões obscuros (*dark patterns*):
+
 <div align="center">
 
 <p align="center"><b>Figura 2: Referência Bibliográfica — Prevenção contra Dark Patterns</b></p>
@@ -204,6 +206,8 @@ A Tabela 5 apresenta o Item 19 — prevenção contra padrões obscuros (*dark p
 ---
 
 ### 7.3 Item 20 — Padrões de Design de IHC (*Design Patterns*)
+
+A Tabela 6 apresenta o Item 20 — padrões de design de IHC (*design patterns*):
 
 <div align="center" markdown="1">
 
@@ -290,7 +294,8 @@ A Figura 4 reproduz a referência bibliográfica — rastreamento e design ratio
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 09/10/2026 | Concepção e elaboração integral da Lista de Verificação da Etapa 3 (22 itens), estruturação da autoavaliação do Grupo 07, fundamentação teórica e síntese dos resultados. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima, Leonardo da Silva Lopes Júnior, Arthur Sismene Carvalho |
+| `1.0` | 09/10/2026 | Concepção e elaboração integral da Lista de Verificação da Etapa 3 (21 itens), estruturação da autoavaliação do Grupo 07, fundamentação teórica e síntese dos resultados. | Daniel da Silva Batista | Pedro Rocha Ferreira Lima, Leonardo da Silva Lopes Júnior, Arthur Sismene Carvalho |
+| `1.1` | 25/11/2026 | Alinhamento da contagem total de itens (21 itens) entre o texto e a Tabela 1 (E3-18) e inclusão de chamadas textuais prévias para a Figura 2 e a Tabela 6 (D04). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 </div>
 

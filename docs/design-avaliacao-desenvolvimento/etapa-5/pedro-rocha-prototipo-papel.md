@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Pedro Rocha | Concepção e desenho manual do Protótipo de Papel da TAR-04 (Cronograma de Estudo), elaboração das peças dinâmicas e post-its (listas suspensas de editais, dias e horários e etiquetas de concurso aplicadas na grade), autoinspeção analítica com lista de verificação, condução e gravação do teste-piloto e das sessões com usuários, consolidação do relato individual e propostas de reprojeto para o protótipo digital de alta fidelidade (Nível 3). |
+| Pedro Rocha | Concepção e desenho manual do Protótipo de Papel da TAR-04 (Cronograma de Estudo), elaboração das peças dinâmicas e post-its (listas suspensas de editais, dias e horários e etiquetas de concurso aplicadas na grade), autoinspeção analítica com lista de verificação, condução e gravação do teste-piloto e das sessões com usuários, consolidação do relato individual e propostas de reprojeto para o protótipo digital de alta fidelidade (Nível 3) ([Relato e Oportunidades de Reprojeto](#66-lista-de-problemas-encontrados-e-oportunidades-de-reprojeto-para-o-prototipo-de-alta-fidelidade)). |
 | Claude (Anthropic) | Auxílio na estruturação textual, organização das tabelas, modais de zoom e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha (2026).</p>

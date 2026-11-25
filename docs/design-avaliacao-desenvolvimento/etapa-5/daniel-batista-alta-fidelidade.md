@@ -4,7 +4,8 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Concepção e modelagem do Protótipo de Alta Fidelidade no Lovable (`TAR-01` e `TAR-02`), autoinspeção analítica com base nas heurísticas de Nielsen e no Guia de Estilo, condução e gravação do teste-piloto e das três sessões empíricas com usuários reais (*Think-Aloud* e entrevista pós-teste), publicação dos vídeos no YouTube, captura das telas do protótipo, análise dos resultados e consolidação do relato individual (Barbosa e Silva, 2021, p. 309). |
+| Daniel da Silva Batista | [Concepção do Protótipo no Lovable](#2-apresentacao-do-prototipo-de-alta-fidelidade-lovable), [autoinspeção analítica](#3-autoinspecao-analitica-previa-do-prototipo-de-alta-fidelidade), [teste-piloto](#4-teste-piloto-do-prototipo-de-alta-fidelidade-presencial), [sessões empíricas com usuários reais](#5-avaliacao-empirica-com-usuarios-reais-sessoes-presenciais) e [relato dos resultados](#6-relato-dos-resultados-da-avaliacao-do-prototipo-de-alta-fidelidade-barbosa-e-silva-2021-p-309). |
+| Pedro Rocha Ferreira Lima | [Revisão técnica do relato de alta fidelidade e conferência das evidências](#66-resultados-observados-e-limitacoes-do-prototipo). |
 | Gemini | Auxílio na estruturação textual, organização das tabelas, implementação dos modais de zoom e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
@@ -26,7 +27,7 @@ A Tabela 1 apresenta o resumo do escopo individual de Daniel da Silva Batista (N
 | Atributo | Detalhamento |
 | :--- | :--- |
 | **Integrante Responsável** | Daniel da Silva Batista |
-| **Protótipo Interativo (Lovable)** | [Protótipo de Alta Fidelidade — PCI Concursos (Lovable)](https://sketch-to-test-studio.lovable.app) |
+| **Protótipo Interativo (Lovable)** | [Protótipo de Alta Fidelidade — PCI Concursos (Lovable)](https://sketch-to-test-studio.lovable.app) *(versão congelada avaliada entre 10/11/2026 e 12/11/2026, correspondente às Figuras 1 a 4)* |
 | **Perfil de Usuário Focado** | [Perfil 1 — Candidato / Concurseiro](../../analise-de-requisitos/perfil-de-usuario.md) |
 | **Cenário de Uso** | [<abbr title="Cenário 01">CEN-01</abbr> — Parametrização de Busca Avançada e Comparação de Editais Concorrentes no DF](../../analise-de-requisitos/cenarios.md#41-cenario-01-parametrizacao-de-busca-avancada-e-comparacao-de-editais-concorrentes-no-df-cen-01) |
 | **Tarefa Prioritária de Autoria** | **<abbr title="Tarefa 01">TAR-01</abbr> — Parametrizar busca avançada multicritério e comparar editais concorrentes lado a lado**: [<abbr title="Análise Hierárquica de Tarefas">HTA</abbr>](../../analise-de-requisitos/analise-de-tarefas/hta.md#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01) \| [<abbr title="ConcurTaskTrees">CTT</abbr>](../../analise-de-requisitos/analise-de-tarefas/ctt.md#31-tarefa-01-parametrizar-busca-avancada-multicriterio-e-comparar-editais-concorrentes-lado-a-lado-tar-01) |
@@ -290,7 +291,7 @@ O Vídeo 1 apresenta a gravação do teste-piloto — avaliação do protótipo 
 
 <div align="center">
 
-<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/QT031apbo1E" target="_blank">https://youtu.be/QT031apbo1E</a>)</p>
+<p align="center"><b>Vídeo 1:</b> Gravação do Teste-Piloto — Avaliação do Protótipo de Alta Fidelidade (<a href="https://youtu.be/QT031apbo1E" target="_blank">https://youtu.be/QT031apbo1E</a> · Categoria no YouTube: <i>Não listado</i>)</p>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/QT031apbo1E" title="Gravação do Teste-Piloto - Protótipo de Alta Fidelidade - Daniel Batista (Grupo 07 IHC)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 16px auto; display: block;"></iframe>
 
@@ -324,7 +325,7 @@ O recrutamento seguiu rigorosamente o [Perfil 1 — Candidato/Concurseiro](../..
 
 ### 5.2 Registro Audiovisual das Sessões Presenciais
 
-A Tabela 6 documenta as três sessões empíricas conduzidas **presencialmente** no dia 12/11/2026:
+A Tabela 6 documenta as três sessões empíricas conduzidas **presencialmente** no dia 12/11/2026. Todos os vídeos abaixo estão publicados no YouTube na categoria **Não listado**:
 
 <div align="center" markdown="1">
 
@@ -471,12 +472,58 @@ Alinhados diretamente aos objetivos de avaliação de IHC definidos por **Barbos
 
 ### 6.6 Resultados Observados e Limitações do Protótipo
 
-Os três participantes concluíram as três tarefas de forma autônoma, sem pedir ajuda ao moderador, e avaliaram a navegação como clara e intuitiva (Tabelas 7 a 9). Como esta é a etapa final do projeto, não há nova rodada de reprojeto; as observações abaixo ficam registradas apenas como **limitações do protótipo e sugestões dos participantes**:
+Os três participantes concluíram as três tarefas de forma autônoma, sem pedir ajuda ao moderador, e avaliaram a navegação como clara e intuitiva (Tabelas 7 a 9). A **Tabela 10** consolida o desempenho por tarefa com denominadores explícitos sobre a amostra qualitativa (`n = 3`):
 
-* **Cobertura da base de demonstração (Sessão 1):** a busca pela área *Tecnologia* retornou `0 editais`, pois o protótipo não possui editais cadastrados para essa área. O participante contornou selecionando *Todas*.
-* **Sugestões de funcionalidades (Sessões 1 e 3):** filtro por faixa salarial, mais filtros na busca inicial e visualização do conteúdo programático do edital.
-* **Acessibilidade (Sessão 1):** o participante mencionou a ausência de recursos de acessibilidade explícitos na interface.
-* **Compatibilidade de turnos de prova (autoinspeção, item 5 da Tabela 3):** a indicação de turnos (`Manhã` vs `Tarde`) permanece apenas textual; nenhum participante relatou dificuldade com isso.
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 10: Síntese Quantitativa por Tarefa (Amostra Qualitativa, n = 3)</b></p>
+
+| Tarefa Avaliada | Conclusão Autônoma | Tempo Observado (mín.–máx.) | Ajuda do Moderador | Medidas Planejadas Não Aplicadas |
+| :--- | :---: | :---: | :---: | :--- |
+| **Tarefa 1: Busca Avançada (`TAR-01`)** | `3/3` *(1 com adaptação de filtro)* | `21 s – 50 s` | `0/3` | Questionário quantitativo SUS e predição temporal KLM (priorizou-se protocolo qualitativo *Think-Aloud* + entrevista pós-teste) |
+| **Tarefa 2: Seleção e Barra Flutuante (`TAR-01`)** | `3/3` | `16 s – 51 s` | `0/3` | Idem |
+| **Tarefa 3: Matriz Comparativa e Exportação (`TAR-02`)** | `3/3` | `14 s – 39 s` | `0/3` | Idem |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+Como esta é a etapa final do projeto, não há nova rodada de reprojeto; a **Tabela 11** estrutura os achados empíricos, sua evidência em vídeo, o fator causador e a proposta de encaminhamento futuro:
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 11: Mapeamento Estruturado de Achados, Evidências e Encaminhamentos</b></p>
+
+| ID | Origem e Evidência (Sessão / Timestamp) | Registro Observado | Fator / Causa | Proposta de Melhoria (Trabalho Futuro) |
+| :---: | :--- | :--- | :--- | :--- |
+| `ACH-01` | Sessão 1 · Vídeo 2 (`00:38–01:28`, Tabela 7) | Busca por área *Tecnologia* retornou `0 editais`; participante contornou selecionando *Todas*. | Base de demonstração mockada sem registros cadastrados para a área *Tecnologia*. | Ampliar a massa de dados de demonstração com editais de TI e exibir sugestão explícita de ampliação de filtros no estado vazio. |
+| `ACH-02` | Sessão 1 · Vídeo 2 (`02:35–03:36`, pós-teste) e Sessão 3 · Vídeo 4 (`02:06–02:19`, pós-teste) | Solicitação de filtro por faixa salarial, mais filtros iniciais e visualização das matérias do edital. | Escopo reduzido do protótipo focado nos 4 filtros centrais da `TAR-01`. | Incluir controle de faixa salarial na busca avançada e aba/modal com conteúdo programático detalhado de cada edital. |
+| `ACH-03` | Sessão 1 · Vídeo 2 (`02:35–03:36`, pós-teste) | Participante mencionou ausência de recursos explícitos de acessibilidade na interface. | Embora o contraste siga o Guia de Estilo, não há barra ou atalho visível de acessibilidade (alto contraste/tamanho de fonte). | Adicionar barra de acessibilidade dedicada (aumento de fonte, alto contraste e atalhos de teclado) no cabeçalho. |
+| `ACH-04` | Autoinspeção · Tabela 3 (Item 5) | Compatibilidade de turnos (`Manhã` vs `Tarde`) exibida apenas em texto, sem destaque visual; nenhum participante relatou dificuldade. | Implementação textual simplificada herdada do reprojeto `OPO-PP02`. | Adicionar selo visual de compatibilidade ou alerta cromático quando houver choque de datas/turnos. |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
+
+A **Tabela 12** apresenta as respostas individuais às perguntas de pesquisa (`P01` a `P07`) definidas no [Planejamento da Avaliação](./planejamento-avaliacao-alta-fidelidade.md#4-e-explorar-perguntas-a-serem-respondidas):
+
+<div align="center" markdown="1">
+
+<p align="center"><b>Tabela 12: Respostas às Perguntas de Pesquisa do Planejamento (P01–P07)</b></p>
+
+| Nº | Pergunta Norteadora | Resposta Observada (`n = 3`) | Evidência / Medida |
+| :---: | :--- | :--- | :--- |
+| **P01** | O participante consegue localizar e acionar os filtros avançados sem hesitação? | **Sim (`3/3`)** — todos localizaram imediatamente o painel de filtros avançados e concluíram a busca. | Tabelas 7–9 (`21 s – 50 s`) |
+| **P02** | O participante conclui as tarefas de forma autônoma, sem intervenção do moderador? | **Sim (`3/3` nas 3 tarefas)** — nenhuma intervenção ou ajuda foi necessária. | Tabelas 7–10 (`0/3` ajudas) |
+| **P03** | O tempo para selecionar certames e visualizar a comparação é adequado? | **Sim (indício positivo em `n = 3`)** — tempos entre `16 s` e `51 s` na seleção e `14 s` a `39 s` na matriz. *(Nota: comparação formal com predição KLM não foi aplicada.)* | Tabelas 7–10 |
+| **P04** | A matriz comparativa apresenta prazos, vagas e remunerações de forma clara e legível? | **Sim (`3/3`)** — todos leram e comentaram salário, turno, vagas e compatibilidade de matérias sem dúvidas. | Tabelas 7–9; `ACH-04` |
+| **P05** | O usuário comete erros operacionais e consegue se recuperar com facilidade? | **Sim (`3/3`)** — não houve erro operacional de interface; na Sessão 1, diante de `0 editais` (base mockada), o participante recuperou-se sozinho alterando o filtro. | Tabela 7 (`00:38–01:28`); `ACH-01` |
+| **P06** | A hierarquia tipográfica, contraste e espaçamentos facilitam a leitura contínua? | **Parcialmente validado (`3/3` sem queixas de leitura; `1/3` sugeriu controles explícitos de acessibilidade).** | Sínteses pós-teste; `ACH-03` |
+| **P07** | O participante considera o sistema agradável, intuitivo e útil para sua rotina? | **Sim (`3/3`)** — verbalizações positivas nas 3 entrevistas pós-teste (*"navegabilidade tá boa"*, *"bem intuitiva"*, *"vai me salvar muito"*). *(Nota: escala SUS numérica não foi aplicada.)* | Sínteses pós-teste das Sessões 1–3 |
+
+<p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
+
+</div>
 
 ---
 
@@ -495,9 +542,10 @@ Os três participantes concluíram as três tarefas de forma autônoma, sem pedi
 
 <div align="center" markdown="1">
 
-| Versão | Data | Descrição | Autor(es) |
-| :---: | :---: | :--- | :---: |
-| `1.0` | 13/11/2026 | Elaboração inicial do Relato Individual do Protótipo de Alta Fidelidade (Nível 3 / Entrega 07) com estrutura canônica de Barbosa e Silva (2021, p. 309), incorporando as adequações do feedback da Etapa 6 (objetivos DECIDE alinhados ao livro, modalidade presencial, links HTA/CTT e `<abbr>` nas siglas). | Daniel da Silva Batista |
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :---: | :---: |
+| `1.0` | 13/11/2026 | Elaboração inicial do Relato Individual do Protótipo de Alta Fidelidade (Nível 3 / Entrega 07) com estrutura canônica de Barbosa e Silva (2021, p. 309), incorporando as adequações do feedback da Etapa 6 (objetivos DECIDE alinhados ao livro, modalidade presencial, links HTA/CTT e `<abbr>` nas siglas). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
+| `1.1` | 25/11/2026 | Inclusão da coluna de revisores (D02), hiperligações na Tabela de Contribuição (D10), versão congelada do Lovable (E7-12), categoria Não listado nos vídeos (E7-14), Tabelas 10–12 com denominadores por tarefa, achados estruturados com timestamps e respostas a P01–P07 (E7-06, E7-07, E7-08, E7-15). | Daniel da Silva Batista | Pedro Rocha Ferreira Lima |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

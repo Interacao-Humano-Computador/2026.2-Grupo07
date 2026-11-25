@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho | Gravação do vídeo de verificação do Grupo 08 e inclusão no MkDocs. |
+| Arthur Sismene Carvalho | Gravação do vídeo de verificação do Grupo 08 e inclusão no MkDocs ([Vídeo de Verificação — Etapa 1](#1-video-de-verificacao-etapa-1)). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>
 
