@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Concepção, estruturação e elaboração integral das 3 Listas de Verificação de Inspeção da Etapa 4 (Lista de Verificação de HTA com 10 itens, Lista de Verificação de CTT com 10 itens em 3 blocos e Lista de Verificação de Storyboard com 20 itens em 5 blocos), fundamentadas em *Barbosa et al.* (2021) e *Preece, Rogers e Sharp* (2005). |
+| **Daniel da Silva Batista** | Concepção, estruturação e elaboração integral das 3 Listas de Verificação de Inspeção da Etapa 4 (Lista de Verificação de HTA com 10 itens, Lista de Verificação de CTT com 10 itens em 3 blocos e Lista de Verificação de Storyboard com 20 itens em 5 blocos), fundamentadas em *Barbosa et al.* (2021) e *Preece, Rogers e Sharp* (2005) ([Lista de Verificação para CTT (10 Itens em 3 Blocos)](#3-lista-de-verificacao-para-ctt-10-itens-em-3-blocos)). |
 | **Gemini** | Apoio na organização e diagramação Markdown (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Arthur Sismene Carvalho** | Elaboração da lista de verificação, inspeção dos três artefatos do Grupo 05, redação das respostas e observações, e redação desta página. |
+| **Arthur Sismene Carvalho** | Elaboração da lista de verificação, inspeção dos três artefatos do Grupo 05, redação das respostas e observações, e redação desta página ([Vídeo de Verificação](#3-video-de-verificacao)). |
 | **Claude (Anthropic)** | Extração dos recortes bibliográficos do livro-texto, estruturação textual e diagramação Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>

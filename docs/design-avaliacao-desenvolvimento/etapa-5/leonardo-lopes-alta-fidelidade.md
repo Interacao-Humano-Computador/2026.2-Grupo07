@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Leonardo da Silva Lopes Júnior | Concepção e modelagem do Protótipo de Alta Fidelidade no Lovable (`TAR-08`), autoinspeção analítica com base nas heurísticas de Nielsen e no Guia de Estilo, condução e gravação do teste-piloto e das duas sessões empíricas presenciais com usuários reais (*Think-Aloud*, gravação presencial e captura sincronizada de tela), publicação dos vídeos no YouTube, captura das telas do protótipo com modais de zoom, análise dos resultados e consolidação do relato individual (Barbosa e Silva, 2021, p. 309). |
+| Leonardo da Silva Lopes Júnior | Concepção e modelagem do Protótipo de Alta Fidelidade no Lovable (`TAR-08`), autoinspeção analítica com base nas heurísticas de Nielsen e no Guia de Estilo, condução e gravação do teste-piloto e das duas sessões empíricas presenciais com usuários reais (*Think-Aloud*, gravação presencial e captura sincronizada de tela), publicação dos vídeos no YouTube, captura das telas do protótipo com modais de zoom, análise dos resultados e consolidação do relato individual (Barbosa e Silva, 2021, p. 309) ([Relato dos Resultados](#6-relato-dos-resultados-da-avaliacao-do-prototipo-de-alta-fidelidade-barbosa-e-silva-2021-p-309)). |
 | Gemini | Auxílio na estruturação textual, organização das tabelas, implementação dos modais de zoom e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>

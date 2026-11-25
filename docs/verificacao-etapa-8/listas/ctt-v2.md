@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Elaboração dos itens CTT-01 a CTT-05, revisão dos itens da v1 e recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens CTT-06 a CTT-10, reescritos a partir dos itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CTT-11 a CTT-15, recortes do livro. |
+| **Daniel da Silva Batista** | Elaboração dos itens CTT-01 a CTT-05, revisão dos itens da v1 e recortes do livro ([Itens 01–05](#41-ctt-01-os-quatro-tipos-de-tarefa-do-ctt)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens CTT-06 a CTT-10, reescritos a partir dos itens da v1 (Etapa 4) que não foram reaproveitados nos itens 01–05, com fonte por página ([Itens 01–05](#41-ctt-01-os-quatro-tipos-de-tarefa-do-ctt)). |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens CTT-11 a CTT-15, recortes do livro ([Itens 11–15](#411-ctt-11-leitura-hierarquica-da-arvore)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>

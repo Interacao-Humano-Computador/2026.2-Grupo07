@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho | Redação do planejamento, definição do escopo e dos objetivos, elaboração do roteiro de inspeção e do roteiro de entrevista, condução da entrevista com o USR-12 e publicação desta página no GitHub Pages. |
-| Daniel da Silva Batista | Revisão da fundamentação teórica, recrutamento dos participantes e condução da entrevista com o USR-10. |
-| Leonardo da Silva Lopes Júnior | Preparação do material de apoio e condução da entrevista com o USR-13. |
-| Pedro Rocha Ferreira Lima | Revisão técnica e condução da entrevista com o USR-11. |
+| Arthur Sismene Carvalho | Redação do planejamento, definição do escopo e dos objetivos, elaboração do roteiro de inspeção e do roteiro de entrevista, condução da entrevista com o USR-12 e publicação desta página no GitHub Pages ([Roteiro da inspeção](#67-roteiro-da-inspecao)). |
+| Daniel da Silva Batista | Revisão da fundamentação teórica, recrutamento dos participantes e condução da entrevista com o USR-10 ([Histórico de Versões](#11-historico-de-versoes)). |
+| Leonardo da Silva Lopes Júnior | Preparação do material de apoio e condução da entrevista com o USR-13 ([Material de apoio](#64-material-de-apoio)). |
+| Pedro Rocha Ferreira Lima | Revisão técnica e condução da entrevista com o USR-11 ([Histórico de Versões](#11-historico-de-versoes)). |
 | Claude (Anthropic) | Auxílio na estruturação textual, extração dos recortes bibliográficos e diagramação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>

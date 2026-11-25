@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Redação do planejamento, fundamentação teórica (DECIDE), definição do escopo e dos objetivos, elaboração das perguntas de pesquisa, metodologia e planejamento do teste-piloto. |
-| Arthur Sismene Carvalho | Verificação das tarefas operacionais e alinhamento com os cenários de uso da plataforma. |
-| Leonardo da Silva Lopes Júnior | Revisão das diretrizes éticas (TCLE) e do cronograma logístico das sessões de teste. |
-| Pedro Rocha Ferreira Lima | Revisão técnica geral, definição do perfil dos participantes (Krug, 2010) e refinamento dos critérios de avaliação. |
+| Daniel da Silva Batista | Redação do planejamento, fundamentação teórica (DECIDE), definição do escopo e dos objetivos, elaboração das perguntas de pesquisa, metodologia e planejamento do teste-piloto ([Planejamento do Teste-Piloto](#9-planejamento-do-teste-piloto-do-prototipo-de-alta-fidelidade)). |
+| Arthur Sismene Carvalho | Verificação das tarefas operacionais e alinhamento com os cenários de uso da plataforma ([Tarefas a Serem Executadas no Teste](#64-tarefas-a-serem-executadas-no-teste)). |
+| Leonardo da Silva Lopes Júnior | Revisão das diretrizes éticas (TCLE) e do cronograma logístico das sessões de teste ([Histórico de Versões](#11-historico-de-versoes)). |
+| Pedro Rocha Ferreira Lima | Revisão técnica geral, definição do perfil dos participantes (Krug, 2010) e refinamento dos critérios de avaliação ([Histórico de Versões](#11-historico-de-versoes)). |
 | Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

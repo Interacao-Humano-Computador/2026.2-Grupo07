@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Gravação e participação no vídeo de apresentação da Etapa 3. |
-| Daniel da Silva Batista | Criação da página de apresentação e incorporação do vídeo no MkDocs. |
-| Pedro Rocha Ferreira Lima | Revisão da página e validação do player incorporado. |
+| Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima | Gravação e participação no vídeo de apresentação da Etapa 3 ([Apresentação 3 — Grupo 07](#apresentacao-3-grupo-07)). |
+| Daniel da Silva Batista | Criação da página de apresentação e incorporação do vídeo no MkDocs ([Apresentação 3 — Grupo 07](#apresentacao-3-grupo-07)). |
+| Pedro Rocha Ferreira Lima | Revisão da página e validação do player incorporado ([Histórico de Versões](#3-historico-de-versoes)). |
 
 <p align="center" style="margin-top: -0.8em; font-size: 0.85em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>
 

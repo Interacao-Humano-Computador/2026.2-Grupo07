@@ -4,8 +4,8 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Inspetor: aplicação das listas de verificação aos artefatos de Pedro Rocha Ferreira Lima, registro das respostas, das evidências e dos defeitos. |
-| **Pedro Rocha Ferreira Lima** | Autor dos artefatos inspecionados; responsável pela correção dos defeitos (passo 5). |
+| **Daniel da Silva Batista** | Inspetor: aplicação das listas de verificação aos artefatos de Pedro Rocha Ferreira Lima, registro das respostas, das evidências e dos defeitos ([Planejamento](#1-planejamento)). |
+| **Pedro Rocha Ferreira Lima** | Autor dos artefatos inspecionados; responsável pela correção dos defeitos (passo 5) ([Correção](#5-correcao)). |
 | **Claude (Anthropic)** | Apoio na leitura dos artefatos e na organização da ficha (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

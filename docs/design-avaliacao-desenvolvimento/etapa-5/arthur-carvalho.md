@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho | Elaboração do Storyboard SB-03, autoinspeção analítica dos modelos HTA/CTT e do storyboard, condução do teste-piloto e das entrevistas de avaliação com usuários reais (TAR-05 e SB-03), consolidação individual e propostas de reprojeto. |
+| Arthur Sismene Carvalho | Elaboração do Storyboard SB-03, autoinspeção analítica dos modelos HTA/CTT e do storyboard, condução do teste-piloto e das entrevistas de avaliação com usuários reais (TAR-05 e SB-03), consolidação individual e propostas de reprojeto ([Inspeção do Storyboard SB-03 (Autor: Arthur Sismene)](#34-inspecao-do-storyboard-sb-03-autor-arthur-sismene)). |
 | Claude | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>

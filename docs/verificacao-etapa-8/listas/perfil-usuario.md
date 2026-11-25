@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Elaboração dos itens PU-01 a PU-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens PU-06 a PU-10, recortes do livro. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PU-11 a PU-15, recortes do livro. |
+| **Daniel da Silva Batista** | Elaboração dos itens PU-01 a PU-05, recortes do livro ([Itens 01–05](#41-pu-01-caracteristicas-descritas-no-perfil)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens PU-06 a PU-10, recortes do livro ([Itens 06–10](#46-pu-06-atitude-em-relacao-a-tecnologia)). |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens PU-11 a PU-15, recortes do livro ([Itens 11–15](#411-pu-11-revisao-do-perfil)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>

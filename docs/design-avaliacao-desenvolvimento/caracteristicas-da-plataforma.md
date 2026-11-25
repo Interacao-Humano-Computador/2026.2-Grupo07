@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho | Concepção do artefato, fundamentação teórica com recortes bibliográficos (Figuras 1 e 2), caracterização técnica do PCI Concursos, homologação de navegadores, definição das resoluções e dos pontos de quebra, levantamento das limitações técnicas e especificação do comportamento da interface. |
-| Pedro Rocha Ferreira Lima | Revisão técnica. |
-| Daniel da Silva Batista | Revisão de coerência com o Guia de Estilo. |
+| Arthur Sismene Carvalho | Concepção do artefato, fundamentação teórica com recortes bibliográficos (Figuras 1 e 2), caracterização técnica do PCI Concursos, homologação de navegadores, definição das resoluções e dos pontos de quebra, levantamento das limitações técnicas e especificação do comportamento da interface ([Caracterização Técnica do PCI Concursos](#3-caracterizacao-tecnica-do-pci-concursos)). |
+| Pedro Rocha Ferreira Lima | Revisão técnica ([Histórico de Versões](#10-historico-de-versoes)). |
+| Daniel da Silva Batista | Revisão de coerência com o Guia de Estilo ([Histórico de Versões](#10-historico-de-versoes)). |
 | Claude (Anthropic) | Auxílio na estruturação textual, e diagramação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho (2026).</p>

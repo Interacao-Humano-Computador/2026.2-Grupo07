@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Redação do planejamento do projeto, definição das políticas de versionamento do repositório e diretrizes de uso de IA. |
-| Pedro Rocha Ferreira Lima | Revisão técnica das políticas de repositório e diretrizes de integridade acadêmica. |
-| Arthur Sismene Carvalho | Revisão das diretrizes de comunicação e alinhamento metodológico com o cronograma. |
-| Leonardo da Silva Lopes Júnior | Revisão da política de branches, versionamento e estruturação de documentação. |
+| Daniel da Silva Batista | Redação do planejamento do projeto, definição das políticas de versionamento do repositório e diretrizes de uso de IA ([Políticas do Repositório](#2-politicas-do-repositorio)). |
+| Pedro Rocha Ferreira Lima | Revisão técnica das políticas de repositório e diretrizes de integridade acadêmica ([Histórico de Versões](#4-historico-de-versoes)). |
+| Arthur Sismene Carvalho | Revisão das diretrizes de comunicação e alinhamento metodológico com o cronograma ([Histórico de Versões](#4-historico-de-versoes)). |
+| Leonardo da Silva Lopes Júnior | Revisão da política de branches, versionamento e estruturação de documentação ([Histórico de Versões](#4-historico-de-versoes)). |
 | Gemini | Apoio na formatação e validação sintática em Markdown (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

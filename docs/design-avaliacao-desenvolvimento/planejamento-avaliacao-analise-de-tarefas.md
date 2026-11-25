@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Daniel da Silva Batista | Redação do planejamento, fundamentação teórica (DECIDE), definição do escopo e dos objetivos, elaboração do roteiro de inspeção e de entrevista e condução da entrevista com o USR-06. |
-| Arthur Sismene Carvalho | Condução da entrevista com o USR-08 e apoio na revisão dos objetivos de avaliação. |
-| Leonardo da Silva Lopes Júnior | Preparação do material de apoio e condução da entrevista com o USR-09. |
-| Pedro Rocha Ferreira Lima | Revisão técnica geral, recrutamento dos participantes e condução da entrevista com o USR-07. |
+| Daniel da Silva Batista | Redação do planejamento, fundamentação teórica (DECIDE), definição do escopo e dos objetivos, elaboração do roteiro de inspeção e de entrevista e condução da entrevista com o USR-06 ([Roteiro da inspeção](#67-roteiro-da-inspecao)). |
+| Arthur Sismene Carvalho | Condução da entrevista com o USR-08 e apoio na revisão dos objetivos de avaliação ([D — Determinar os Objetivos da Avaliação](#3-d-determinar-os-objetivos-da-avaliacao)). |
+| Leonardo da Silva Lopes Júnior | Preparação do material de apoio e condução da entrevista com o USR-09 ([Material de apoio](#64-material-de-apoio)). |
+| Pedro Rocha Ferreira Lima | Revisão técnica geral, recrutamento dos participantes e condução da entrevista com o USR-07 ([Histórico de Versões](#11-historico-de-versoes)). |
 | Gemini | Auxílio na estruturação textual, organização das tabelas e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista (2026).</p>

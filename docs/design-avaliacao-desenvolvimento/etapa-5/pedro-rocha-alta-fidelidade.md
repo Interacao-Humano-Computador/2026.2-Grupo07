@@ -4,7 +4,7 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Pedro Rocha Ferreira Lima | Concepção e construção do Protótipo de Alta Fidelidade do Cronograma de Estudo no Lovable (`TAR-04`), a partir do Protótipo de Papel do Nível 2, autoinspeção analítica com base nas heurísticas de Nielsen, condução e gravação do teste-piloto e das três sessões com usuários (*Think-Aloud* e entrevista pós-teste), publicação dos vídeos no YouTube, captura das telas do protótipo, análise dos resultados e consolidação do relato individual (Barbosa e Silva, 2021, p. 309). |
+| Pedro Rocha Ferreira Lima | Concepção e construção do Protótipo de Alta Fidelidade do Cronograma de Estudo no Lovable (`TAR-04`), a partir do Protótipo de Papel do Nível 2, autoinspeção analítica com base nas heurísticas de Nielsen, condução e gravação do teste-piloto e das três sessões com usuários (*Think-Aloud* e entrevista pós-teste), publicação dos vídeos no YouTube, captura das telas do protótipo, análise dos resultados e consolidação do relato individual (Barbosa e Silva, 2021, p. 309) ([Relato dos Resultados](#6-relato-dos-resultados-da-avaliacao-do-prototipo-de-alta-fidelidade-barbosa-e-silva-2021-p-309)). |
 | Claude (Anthropic) | Auxílio na estruturação textual, organização das tabelas, implementação dos modais de zoom e formatação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>

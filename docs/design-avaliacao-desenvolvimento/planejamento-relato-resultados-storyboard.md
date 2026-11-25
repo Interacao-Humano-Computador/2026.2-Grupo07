@@ -4,10 +4,10 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Leonardo da Silva Lopes Júnior | Redação do planejamento do relato, definição da estrutura de tópicos, escala de severidade e modelos de tabela, e publicação desta página no GitHub Pages. |
-| Daniel da Silva Batista | Revisão da fundamentação teórica, modelo de sumário por storyboard e critérios de priorização dos problemas. |
-| Arthur Sismene Carvalho | Definição do público, formato e prazos de divulgação. |
-| Pedro Rocha Ferreira Lima | Revisão técnica e planejamento do reprojeto. |
+| Leonardo da Silva Lopes Júnior | Redação do planejamento do relato, definição da estrutura de tópicos, escala de severidade e modelos de tabela, e publicação desta página no GitHub Pages ([Estrutura do Relato](#3-estrutura-do-relato)). |
+| Daniel da Silva Batista | Revisão da fundamentação teórica, modelo de sumário por storyboard e critérios de priorização dos problemas ([Histórico de Versões](#9-historico-de-versoes)). |
+| Arthur Sismene Carvalho | Definição do público, formato e prazos de divulgação ([Público, Formato e Prazo do Relato](#5-publico-formato-e-prazo-do-relato)). |
+| Pedro Rocha Ferreira Lima | Revisão técnica e planejamento do reprojeto ([Histórico de Versões](#9-historico-de-versoes)). |
 | Claude (Anthropic) | Auxílio na estruturação textual, extração dos recortes bibliográficos e diagramação em Markdown (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Leonardo da Silva Lopes Júnior (2026).</p>

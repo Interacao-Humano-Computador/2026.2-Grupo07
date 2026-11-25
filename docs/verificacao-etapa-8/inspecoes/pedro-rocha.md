@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Pedro Rocha Ferreira Lima** | Inspetor: aplicação das listas de verificação aos artefatos de Arthur Sismene Carvalho, registro das respostas, das evidências e dos defeitos. |
-| **Arthur Sismene Carvalho** | Autor dos artefatos inspecionados; responsável pela correção dos defeitos (passo 5). |
-| **Daniel da Silva Batista** | Revisor: conferência da ficha e do acompanhamento das correções (passo 6). |
+| **Pedro Rocha Ferreira Lima** | Inspetor: aplicação das listas de verificação aos artefatos de Arthur Sismene Carvalho, registro das respostas, das evidências e dos defeitos ([Planejamento](#1-planejamento)). |
+| **Arthur Sismene Carvalho** | Autor dos artefatos inspecionados; responsável pela correção dos defeitos (passo 5) ([Planejamento](#1-planejamento)). |
+| **Daniel da Silva Batista** | Revisor: conferência da ficha e do acompanhamento das correções (passo 6) ([Planejamento](#1-planejamento)). |
 | **Claude (Anthropic)** | Apoio na leitura dos artefatos e na organização da ficha (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Pedro Rocha Ferreira Lima (2026).</p>

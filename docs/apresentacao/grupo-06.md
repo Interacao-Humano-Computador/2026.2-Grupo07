@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| Arthur Sismene Carvalho, Pedro Rocha Ferreira Lima | Transposição da lista oficial e preenchimento dos itens de desenvolvimento do projeto. |
-| Arthur Sismene Carvalho, Pedro Rocha Ferreira Lima, Leonardo da Silva Lopes Júnior, Daniel da Silva Batista | Elaboração dos itens de conteúdo da disciplina. |
-| Arthur Sismene Carvalho, Pedro Rocha Ferreira Lima | Preenchimento das respostas com base na reunião de inspeção e gravação do vídeo de verificação. |
+| Arthur Sismene Carvalho, Pedro Rocha Ferreira Lima | Transposição da lista oficial e preenchimento dos itens de desenvolvimento do projeto ([Itens de Desenvolvimento do Projeto](#5-itens-de-desenvolvimento-do-projeto)). |
+| Arthur Sismene Carvalho, Pedro Rocha Ferreira Lima, Leonardo da Silva Lopes Júnior, Daniel da Silva Batista | Elaboração dos itens de conteúdo da disciplina ([Itens de Conteúdo da Disciplina](#6-itens-de-conteudo-da-disciplina)). |
+| Arthur Sismene Carvalho, Pedro Rocha Ferreira Lima | Preenchimento das respostas com base na reunião de inspeção e gravação do vídeo de verificação ([Vídeo de Verificação — Etapa 2](#3-video-de-verificacao-etapa-2)). |
 | Claude (Anthropic) | Apoio à organização e à redação do artefato (conforme Política de Uso de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>

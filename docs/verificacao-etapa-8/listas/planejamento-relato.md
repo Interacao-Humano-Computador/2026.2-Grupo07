@@ -4,9 +4,9 @@
 
 | Membro | Contribuição |
 | :--- | :--- |
-| **Daniel da Silva Batista** | Elaboração dos itens RL-01 a RL-05, recortes do livro. |
-| **Arthur Sismene Carvalho** | Elaboração dos itens RL-06 a RL-10, recortes do livro. |
-| **Pedro Rocha Ferreira Lima** | Elaboração dos itens RL-11 a RL-15, recortes do livro. |
+| **Daniel da Silva Batista** | Elaboração dos itens RL-01 a RL-05, recortes do livro ([Itens 01–05](#41-rl-01-objetivos-e-escopo-no-relato)). |
+| **Arthur Sismene Carvalho** | Elaboração dos itens RL-06 a RL-10, recortes do livro ([Itens 06–10](#46-rl-06-dados-por-participante)). |
+| **Pedro Rocha Ferreira Lima** | Elaboração dos itens RL-11 a RL-15, recortes do livro ([Itens 11–15](#411-rl-11-resposta-as-perguntas-da-avaliacao)). |
 | **Claude (Anthropic)** | Apoio na organização da página e na extração dos recortes do livro (conforme Política de IA). |
 
 <p align="center" style="font-size: 0.85em; margin-top: -0.6em;"><b>Fonte:</b> Daniel da Silva Batista, Arthur Sismene Carvalho e Pedro Rocha Ferreira Lima (2026).</p>
